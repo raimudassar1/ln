@@ -1,0 +1,5692 @@
+[
+  {
+    "vocab_id": "B1L01-I-01",
+    "traditional": "陳月美",
+    "simplified": "陈月美",
+    "pinyin": "Chén Yuèměi",
+    "part_of_speech": "",
+    "english": "a woman from Vietnam",
+    "audio_file": "dangdai-B1L01-I-01.mp3",
+    "tags": "Character Name"
+  },
+  {
+    "vocab_id": "B1L01-I-02",
+    "traditional": "李明華",
+    "simplified": "李明华",
+    "pinyin": "Lǐ Mínghuá",
+    "part_of_speech": "",
+    "english": "a man from Taiwan",
+    "audio_file": "dangdai-B1L01-I-02.mp3",
+    "tags": "Character Name"
+  },
+  {
+    "vocab_id": "B1L01-I-03",
+    "traditional": "王開文",
+    "simplified": "王开文",
+    "pinyin": "Wáng Kāiwén",
+    "part_of_speech": "",
+    "english": "a man from the US",
+    "audio_file": "dangdai-B1L01-I-03.mp3",
+    "tags": "Character Name"
+  },
+  {
+    "vocab_id": "B1L01-I-04",
+    "traditional": "你",
+    "simplified": "你",
+    "pinyin": "nǐ",
+    "part_of_speech": "N",
+    "english": "you",
+    "audio_file": "dangdai-B1L01-I-04.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L01-I-05",
+    "traditional": "來",
+    "simplified": "来",
+    "pinyin": "lái",
+    "part_of_speech": "V",
+    "english": "to come",
+    "audio_file": "dangdai-B1L01-I-05.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L01-I-06",
+    "traditional": "是",
+    "simplified": "是",
+    "pinyin": "shì",
+    "part_of_speech": "Vst",
+    "english": "to be",
+    "audio_file": "dangdai-B1L01-I-06.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L01-I-07",
+    "traditional": "小姐",
+    "simplified": "小姐",
+    "pinyin": "xiǎojiě",
+    "part_of_speech": "N",
+    "english": "Miss, Ms.",
+    "audio_file": "dangdai-B1L01-I-07.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L01-I-08",
+    "traditional": "嗎",
+    "simplified": "吗",
+    "pinyin": "ma",
+    "part_of_speech": "Ptc",
+    "english": "sentence final particle",
+    "audio_file": "dangdai-B1L01-I-08.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L01-I-09",
+    "traditional": "接",
+    "simplified": "接",
+    "pinyin": "jiē",
+    "part_of_speech": "V",
+    "english": "to pick sb up",
+    "audio_file": "dangdai-B1L01-I-09.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L01-I-10",
+    "traditional": "我們",
+    "simplified": "我们",
+    "pinyin": "wǒmen",
+    "part_of_speech": "N",
+    "english": "we, us",
+    "audio_file": "dangdai-B1L01-I-10.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L01-I-11",
+    "traditional": "我",
+    "simplified": "我",
+    "pinyin": "wǒ",
+    "part_of_speech": "N",
+    "english": "I, me",
+    "audio_file": "dangdai-B1L01-I-11.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L01-I-12",
+    "traditional": "這",
+    "simplified": "这",
+    "pinyin": "zhè / zhèi",
+    "part_of_speech": "Det",
+    "english": "this",
+    "audio_file": "dangdai-B1L01-I-12.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L01-I-13",
+    "traditional": "先生",
+    "simplified": "先生",
+    "pinyin": "xiānshēng",
+    "part_of_speech": "N",
+    "english": "Mr.",
+    "audio_file": "dangdai-B1L01-I-13.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L01-I-14",
+    "traditional": "好",
+    "simplified": "好",
+    "pinyin": "hǎo",
+    "part_of_speech": "Vs",
+    "english": "fine, well",
+    "audio_file": "dangdai-B1L01-I-14.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L01-I-15",
+    "traditional": "姓",
+    "simplified": "姓",
+    "pinyin": "xìng",
+    "part_of_speech": "Vst",
+    "english": "to be surnamed",
+    "audio_file": "dangdai-B1L01-I-15.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L01-I-16",
+    "traditional": "叫",
+    "simplified": "叫",
+    "pinyin": "jiào",
+    "part_of_speech": "Vst",
+    "english": "to be called, i.e., to have the first name xx",
+    "audio_file": "dangdai-B1L01-I-16.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L01-I-17",
+    "traditional": "你們",
+    "simplified": "你们",
+    "pinyin": "nǐmen",
+    "part_of_speech": "N",
+    "english": "you (plural)",
+    "audio_file": "dangdai-B1L01-I-17.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L01-I-18",
+    "traditional": "臺灣（＝台灣）",
+    "simplified": "台湾",
+    "pinyin": "Táiwān",
+    "part_of_speech": "",
+    "english": "Taiwan",
+    "audio_file": "dangdai-B1L01-I-18.mp3",
+    "tags": "Name"
+  },
+  {
+    "vocab_id": "B1L01-I-19",
+    "traditional": "歡迎",
+    "simplified": "欢迎",
+    "pinyin": "huānyíng",
+    "part_of_speech": "Ph",
+    "english": "welcome",
+    "audio_file": "dangdai-B1L01-I-19.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L01-I-20",
+    "traditional": "請問",
+    "simplified": "请问",
+    "pinyin": "qǐngwèn",
+    "part_of_speech": "Ph",
+    "english": "May I ask you... Excuse me, ...",
+    "audio_file": "dangdai-B1L01-I-20.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L01-I-21",
+    "traditional": "是的",
+    "simplified": "是的",
+    "pinyin": "shìde",
+    "part_of_speech": "Ph",
+    "english": "yes",
+    "audio_file": "dangdai-B1L01-I-21.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L01-I-22",
+    "traditional": "謝謝",
+    "simplified": "谢谢",
+    "pinyin": "xièxie",
+    "part_of_speech": "Ph",
+    "english": "Thank you.",
+    "audio_file": "dangdai-B1L01-I-22.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L01-I-23",
+    "traditional": "不客氣",
+    "simplified": "不客气",
+    "pinyin": "búkèqì",
+    "part_of_speech": "Ph",
+    "english": "You're welcome.",
+    "audio_file": "dangdai-B1L01-I-23.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L01-I-24",
+    "traditional": "你好",
+    "simplified": "你好",
+    "pinyin": "Nǐ hǎo",
+    "part_of_speech": "Ph",
+    "english": "How are you? Hello.",
+    "audio_file": "dangdai-B1L01-I-24.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L01-II-01",
+    "traditional": "請",
+    "simplified": "请",
+    "pinyin": "qǐng",
+    "part_of_speech": "V",
+    "english": "please",
+    "audio_file": "dangdai-B1L01-II-01.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L01-II-02",
+    "traditional": "喝",
+    "simplified": "喝",
+    "pinyin": "hē",
+    "part_of_speech": "V",
+    "english": "to drink",
+    "audio_file": "dangdai-B1L01-II-02.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L01-II-03",
+    "traditional": "茶",
+    "simplified": "茶",
+    "pinyin": "chá",
+    "part_of_speech": "N",
+    "english": "tea",
+    "audio_file": "dangdai-B1L01-II-03.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L01-II-04",
+    "traditional": "很",
+    "simplified": "很",
+    "pinyin": "hěn",
+    "part_of_speech": "Adv",
+    "english": "very",
+    "audio_file": "dangdai-B1L01-II-04.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L01-II-05",
+    "traditional": "好喝",
+    "simplified": "好喝",
+    "pinyin": "hǎohē",
+    "part_of_speech": "Vs",
+    "english": "(lit. good to drink) to taste good",
+    "audio_file": "dangdai-B1L01-II-05.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L01-II-06",
+    "traditional": "什麼",
+    "simplified": "什么",
+    "pinyin": "shénme",
+    "part_of_speech": "N",
+    "english": "what",
+    "audio_file": "dangdai-B1L01-II-06.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L01-II-07",
+    "traditional": "人",
+    "simplified": "人",
+    "pinyin": "rén",
+    "part_of_speech": "N",
+    "english": "person, people",
+    "audio_file": "dangdai-B1L01-II-07.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L01-II-08",
+    "traditional": "喜歡",
+    "simplified": "喜欢",
+    "pinyin": "xǐhuān",
+    "part_of_speech": "Vst",
+    "english": "to like",
+    "audio_file": "dangdai-B1L01-II-08.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L01-II-09",
+    "traditional": "呢",
+    "simplified": "呢",
+    "pinyin": "ne",
+    "part_of_speech": "Ptc",
+    "english": "sentence final particle",
+    "audio_file": "dangdai-B1L01-II-09.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L01-II-10",
+    "traditional": "他",
+    "simplified": "他",
+    "pinyin": "tā",
+    "part_of_speech": "N",
+    "english": "he, him",
+    "audio_file": "dangdai-B1L01-II-10.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L01-II-11",
+    "traditional": "不",
+    "simplified": "不",
+    "pinyin": "bù",
+    "part_of_speech": "Adv",
+    "english": "not",
+    "audio_file": "dangdai-B1L01-II-11.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L01-II-12",
+    "traditional": "哪",
+    "simplified": "哪",
+    "pinyin": "nǎ / něi",
+    "part_of_speech": "Det",
+    "english": "which",
+    "audio_file": "dangdai-B1L01-II-12.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L01-II-13",
+    "traditional": "要",
+    "simplified": "要",
+    "pinyin": "yào",
+    "part_of_speech": "Vaux",
+    "english": "to want to",
+    "audio_file": "dangdai-B1L01-II-13.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L01-II-14",
+    "traditional": "咖啡",
+    "simplified": "咖啡",
+    "pinyin": "kāfēi",
+    "part_of_speech": "N",
+    "english": "coffee",
+    "audio_file": "dangdai-B1L01-II-14.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L01-II-15",
+    "traditional": "烏龍茶",
+    "simplified": "乌龙茶",
+    "pinyin": "Wūlóng chá",
+    "part_of_speech": "",
+    "english": "Oolong tea",
+    "audio_file": "dangdai-B1L01-II-15.mp3",
+    "tags": "Name"
+  },
+  {
+    "vocab_id": "B1L01-II-16",
+    "traditional": "日本",
+    "simplified": "日本",
+    "pinyin": "Rìběn",
+    "part_of_speech": "",
+    "english": "Japan",
+    "audio_file": "dangdai-B1L01-II-16.mp3",
+    "tags": "Name"
+  },
+  {
+    "vocab_id": "B1L01-II-17",
+    "traditional": "美國",
+    "simplified": "美国",
+    "pinyin": "Měiguó",
+    "part_of_speech": "",
+    "english": "America",
+    "audio_file": "dangdai-B1L01-II-17.mp3",
+    "tags": "Name"
+  },
+  {
+    "vocab_id": "B1L01-II-18",
+    "traditional": "對不起",
+    "simplified": "对不起",
+    "pinyin": "duìbùqǐ",
+    "part_of_speech": "Ph",
+    "english": "I'm sorry.",
+    "audio_file": "dangdai-B1L01-II-18.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L01-II-19",
+    "traditional": "哪國",
+    "simplified": "哪国",
+    "pinyin": "nǎ guó / něi guó",
+    "part_of_speech": "Ph",
+    "english": "Which country?",
+    "audio_file": "dangdai-B1L01-II-19.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L02-I-01",
+    "traditional": "張怡君",
+    "simplified": "张怡君",
+    "pinyin": "Zhāng Yíjūn",
+    "part_of_speech": "",
+    "english": "a woman from Taiwan",
+    "audio_file": "dangdai-B1L02-I-01.mp3",
+    "tags": "Character Name"
+  },
+  {
+    "vocab_id": "B1L02-I-02",
+    "traditional": "馬安同",
+    "simplified": "马安同",
+    "pinyin": "Mǎ Āntóng",
+    "part_of_speech": "",
+    "english": "a man from the Republic of Honduras",
+    "audio_file": "dangdai-B1L02-I-02.mp3",
+    "tags": "Character Name"
+  },
+  {
+    "vocab_id": "B1L02-I-03",
+    "traditional": "的",
+    "simplified": "的",
+    "pinyin": "de",
+    "part_of_speech": "Ptc",
+    "english": "modification marker",
+    "audio_file": "dangdai-B1L02-I-03.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L02-I-04",
+    "traditional": "家人",
+    "simplified": "家人",
+    "pinyin": "jiārén",
+    "part_of_speech": "N",
+    "english": "family (members)",
+    "audio_file": "dangdai-B1L02-I-04.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L02-I-05",
+    "traditional": "家",
+    "simplified": "家",
+    "pinyin": "jiā",
+    "part_of_speech": "N",
+    "english": "home, house",
+    "audio_file": "dangdai-B1L02-I-05.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L02-I-06",
+    "traditional": "漂亮",
+    "simplified": "漂亮",
+    "pinyin": "piàoliàng",
+    "part_of_speech": "Vs",
+    "english": "pretty",
+    "audio_file": "dangdai-B1L02-I-06.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L02-I-07",
+    "traditional": "房子",
+    "simplified": "房子",
+    "pinyin": "fángzi",
+    "part_of_speech": "N",
+    "english": "house",
+    "audio_file": "dangdai-B1L02-I-07.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L02-I-08",
+    "traditional": "坐",
+    "simplified": "坐",
+    "pinyin": "zuò",
+    "part_of_speech": "Vi",
+    "english": "to sit",
+    "audio_file": "dangdai-B1L02-I-08.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L02-I-09",
+    "traditional": "好",
+    "simplified": "好",
+    "pinyin": "hǎo",
+    "part_of_speech": "Ptc",
+    "english": "OK",
+    "audio_file": "dangdai-B1L02-I-09.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L02-I-10",
+    "traditional": "有",
+    "simplified": "有",
+    "pinyin": "yǒu",
+    "part_of_speech": "Vst",
+    "english": "to have",
+    "audio_file": "dangdai-B1L02-I-10.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L02-I-11",
+    "traditional": "多",
+    "simplified": "多",
+    "pinyin": "duō",
+    "part_of_speech": "Vs-pred",
+    "english": "many",
+    "audio_file": "dangdai-B1L02-I-11.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L02-I-12",
+    "traditional": "照片",
+    "simplified": "照片",
+    "pinyin": "zhàopiàn",
+    "part_of_speech": "N",
+    "english": "photo",
+    "audio_file": "dangdai-B1L02-I-12.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L02-I-13",
+    "traditional": "都",
+    "simplified": "都",
+    "pinyin": "dōu",
+    "part_of_speech": "Adv",
+    "english": "all, both",
+    "audio_file": "dangdai-B1L02-I-13.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L02-I-14",
+    "traditional": "照相",
+    "simplified": "照相",
+    "pinyin": "zhàoxiàng",
+    "part_of_speech": "V-sep",
+    "english": "to take a photo",
+    "audio_file": "dangdai-B1L02-I-14.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L02-I-15",
+    "traditional": "張",
+    "simplified": "张",
+    "pinyin": "zhāng",
+    "part_of_speech": "M",
+    "english": "measure word for flat objects (e.g., paper, tickets)",
+    "audio_file": "dangdai-B1L02-I-15.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L02-I-16",
+    "traditional": "好看",
+    "simplified": "好看",
+    "pinyin": "hǎokàn",
+    "part_of_speech": "Vs",
+    "english": "good-looking",
+    "audio_file": "dangdai-B1L02-I-16.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L02-I-17",
+    "traditional": "誰",
+    "simplified": "谁",
+    "pinyin": "shéi",
+    "part_of_speech": "N",
+    "english": "who",
+    "audio_file": "dangdai-B1L02-I-17.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L02-I-18",
+    "traditional": "姐姐",
+    "simplified": "姐姐",
+    "pinyin": "jiějie",
+    "part_of_speech": "N",
+    "english": "older sister",
+    "audio_file": "dangdai-B1L02-I-18.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L02-I-19",
+    "traditional": "妹妹",
+    "simplified": "妹妹",
+    "pinyin": "mèimei",
+    "part_of_speech": "N",
+    "english": "younger sister",
+    "audio_file": "dangdai-B1L02-I-19.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L02-I-20",
+    "traditional": "爸爸",
+    "simplified": "爸爸",
+    "pinyin": "bàba",
+    "part_of_speech": "N",
+    "english": "dad",
+    "audio_file": "dangdai-B1L02-I-20.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L02-I-21",
+    "traditional": "媽媽",
+    "simplified": "妈妈",
+    "pinyin": "māma",
+    "part_of_speech": "N",
+    "english": "mom",
+    "audio_file": "dangdai-B1L02-I-21.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L02-I-22",
+    "traditional": "請進",
+    "simplified": "请进",
+    "pinyin": "qǐng jìn",
+    "part_of_speech": "Ph",
+    "english": "Please come in!",
+    "audio_file": "dangdai-B1L02-I-22.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L02-II-01",
+    "traditional": "田中誠一",
+    "simplified": "田中诚一",
+    "pinyin": "Tiánzhōng Chéngyī",
+    "part_of_speech": "",
+    "english": "a man from Japan",
+    "audio_file": "dangdai-B1L02-II-01.mp3",
+    "tags": "Character Name"
+  },
+  {
+    "vocab_id": "B1L02-II-02",
+    "traditional": "伯母",
+    "simplified": "伯母",
+    "pinyin": "bómǔ",
+    "part_of_speech": "N",
+    "english": "aunt; here a polite term for a friend's mother regardless of age",
+    "audio_file": "dangdai-B1L02-II-02.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L02-II-03",
+    "traditional": "您",
+    "simplified": "您",
+    "pinyin": "nín",
+    "part_of_speech": "N",
+    "english": "you (honorific)",
+    "audio_file": "dangdai-B1L02-II-03.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L02-II-04",
+    "traditional": "名字",
+    "simplified": "名字",
+    "pinyin": "míngzi",
+    "part_of_speech": "N",
+    "english": "name",
+    "audio_file": "dangdai-B1L02-II-04.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L02-II-05",
+    "traditional": "書",
+    "simplified": "书",
+    "pinyin": "shū",
+    "part_of_speech": "N",
+    "english": "book",
+    "audio_file": "dangdai-B1L02-II-05.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L02-II-06",
+    "traditional": "哥哥",
+    "simplified": "哥哥",
+    "pinyin": "gēge",
+    "part_of_speech": "N",
+    "english": "older brother",
+    "audio_file": "dangdai-B1L02-II-06.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L02-II-07",
+    "traditional": "老師",
+    "simplified": "老师",
+    "pinyin": "lǎoshī",
+    "part_of_speech": "N",
+    "english": "teacher",
+    "audio_file": "dangdai-B1L02-II-07.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L02-II-08",
+    "traditional": "看書",
+    "simplified": "看书",
+    "pinyin": "kànshū",
+    "part_of_speech": "V-sep",
+    "english": "to read",
+    "audio_file": "dangdai-B1L02-II-08.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L02-II-09",
+    "traditional": "幾",
+    "simplified": "几",
+    "pinyin": "jǐ",
+    "part_of_speech": "N",
+    "english": "how many",
+    "audio_file": "dangdai-B1L02-II-09.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L02-II-10",
+    "traditional": "個",
+    "simplified": "个",
+    "pinyin": "ge",
+    "part_of_speech": "M",
+    "english": "general measure word",
+    "audio_file": "dangdai-B1L02-II-10.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L02-II-11",
+    "traditional": "沒",
+    "simplified": "没",
+    "pinyin": "méi",
+    "part_of_speech": "Adv",
+    "english": "not",
+    "audio_file": "dangdai-B1L02-II-11.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L02-II-12",
+    "traditional": "兄弟",
+    "simplified": "兄弟",
+    "pinyin": "xiōngdì",
+    "part_of_speech": "N",
+    "english": "brothers",
+    "audio_file": "dangdai-B1L02-II-12.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L02-II-13",
+    "traditional": "姐妹",
+    "simplified": "姐妹",
+    "pinyin": "jiěmèi",
+    "part_of_speech": "N",
+    "english": "sisters",
+    "audio_file": "dangdai-B1L02-II-13.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L02-II-14",
+    "traditional": "五",
+    "simplified": "五",
+    "pinyin": "wǔ",
+    "part_of_speech": "N",
+    "english": "five",
+    "audio_file": "dangdai-B1L02-II-14.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L02-II-15",
+    "traditional": "兩",
+    "simplified": "两",
+    "pinyin": "liǎng",
+    "part_of_speech": "N",
+    "english": "two",
+    "audio_file": "dangdai-B1L02-II-15.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L03-I-01",
+    "traditional": "週末",
+    "simplified": "周末",
+    "pinyin": "zhōumò",
+    "part_of_speech": "N",
+    "english": "weekend",
+    "audio_file": "dangdai-B1L03-I-01.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L03-I-02",
+    "traditional": "聽",
+    "simplified": "听",
+    "pinyin": "tīng",
+    "part_of_speech": "V",
+    "english": "to listen",
+    "audio_file": "dangdai-B1L03-I-02.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L03-I-03",
+    "traditional": "音樂",
+    "simplified": "音乐",
+    "pinyin": "yīnyuè",
+    "part_of_speech": "N",
+    "english": "music",
+    "audio_file": "dangdai-B1L03-I-03.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L03-I-04",
+    "traditional": "運動",
+    "simplified": "运动",
+    "pinyin": "yùndòng",
+    "part_of_speech": "Vi",
+    "english": "to exercise",
+    "audio_file": "dangdai-B1L03-I-04.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L03-I-05",
+    "traditional": "打",
+    "simplified": "打",
+    "pinyin": "dǎ",
+    "part_of_speech": "V",
+    "english": "to play (ball games)",
+    "audio_file": "dangdai-B1L03-I-05.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L03-I-06",
+    "traditional": "網球",
+    "simplified": "网球",
+    "pinyin": "wǎngqiú",
+    "part_of_speech": "N",
+    "english": "tennis",
+    "audio_file": "dangdai-B1L03-I-06.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L03-I-07",
+    "traditional": "棒球",
+    "simplified": "棒球",
+    "pinyin": "bàngqiú",
+    "part_of_speech": "N",
+    "english": "baseball",
+    "audio_file": "dangdai-B1L03-I-07.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L03-I-08",
+    "traditional": "和",
+    "simplified": "和",
+    "pinyin": "hàn",
+    "part_of_speech": "Conj",
+    "english": "and, as well as",
+    "audio_file": "dangdai-B1L03-I-08.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L03-I-09",
+    "traditional": "游泳",
+    "simplified": "游泳",
+    "pinyin": "yóuyǒng",
+    "part_of_speech": "V-sep",
+    "english": "to swim",
+    "audio_file": "dangdai-B1L03-I-09.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L03-I-10",
+    "traditional": "常",
+    "simplified": "常",
+    "pinyin": "cháng",
+    "part_of_speech": "Adv",
+    "english": "often",
+    "audio_file": "dangdai-B1L03-I-10.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L03-I-11",
+    "traditional": "籃球",
+    "simplified": "篮球",
+    "pinyin": "lánqiú",
+    "part_of_speech": "N",
+    "english": "basketball",
+    "audio_file": "dangdai-B1L03-I-11.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L03-I-12",
+    "traditional": "也",
+    "simplified": "也",
+    "pinyin": "yě",
+    "part_of_speech": "Adv",
+    "english": "also",
+    "audio_file": "dangdai-B1L03-I-12.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L03-I-13",
+    "traditional": "踢",
+    "simplified": "踢",
+    "pinyin": "tī",
+    "part_of_speech": "V",
+    "english": "to kick",
+    "audio_file": "dangdai-B1L03-I-13.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L03-I-14",
+    "traditional": "足球",
+    "simplified": "足球",
+    "pinyin": "zúqiú",
+    "part_of_speech": "N",
+    "english": "soccer",
+    "audio_file": "dangdai-B1L03-I-14.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L03-I-15",
+    "traditional": "覺得",
+    "simplified": "觉得",
+    "pinyin": "juéde",
+    "part_of_speech": "Vst",
+    "english": "to feel, to think",
+    "audio_file": "dangdai-B1L03-I-15.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L03-I-16",
+    "traditional": "好玩",
+    "simplified": "好玩",
+    "pinyin": "hǎowán",
+    "part_of_speech": "Vs",
+    "english": "interesting, fun",
+    "audio_file": "dangdai-B1L03-I-16.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L03-I-17",
+    "traditional": "明天",
+    "simplified": "明天",
+    "pinyin": "míngtiān",
+    "part_of_speech": "N",
+    "english": "tomorrow",
+    "audio_file": "dangdai-B1L03-I-17.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L03-I-18",
+    "traditional": "早上",
+    "simplified": "早上",
+    "pinyin": "zǎoshàng",
+    "part_of_speech": "N",
+    "english": "morning",
+    "audio_file": "dangdai-B1L03-I-18.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L03-I-19",
+    "traditional": "去",
+    "simplified": "去",
+    "pinyin": "qù",
+    "part_of_speech": "V",
+    "english": "to go",
+    "audio_file": "dangdai-B1L03-I-19.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L03-I-20",
+    "traditional": "怎麼樣",
+    "simplified": "怎么样",
+    "pinyin": "zěnmeyàng",
+    "part_of_speech": "Vs",
+    "english": "How about it? How does that sound? What do you think?",
+    "audio_file": "dangdai-B1L03-I-20.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L03-I-21",
+    "traditional": "啊",
+    "simplified": "啊",
+    "pinyin": "a",
+    "part_of_speech": "Ptc",
+    "english": "sentence-final particle",
+    "audio_file": "dangdai-B1L03-I-21.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L03-I-22",
+    "traditional": "做什麼",
+    "simplified": "做什么",
+    "pinyin": "zuò shénme",
+    "part_of_speech": "Ph",
+    "english": "do what",
+    "audio_file": "dangdai-B1L03-I-22.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L03-I-23",
+    "traditional": "好啊",
+    "simplified": "好啊",
+    "pinyin": "hǎo a",
+    "part_of_speech": "Ph",
+    "english": "OK",
+    "audio_file": "dangdai-B1L03-I-23.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L03-II-01",
+    "traditional": "白如玉",
+    "simplified": "白如玉",
+    "pinyin": "Bái Rúyù",
+    "part_of_speech": "",
+    "english": "a woman from the US",
+    "audio_file": "dangdai-B1L03-II-01.mp3",
+    "tags": "Character Name"
+  },
+  {
+    "vocab_id": "B1L03-II-02",
+    "traditional": "今天",
+    "simplified": "今天",
+    "pinyin": "jīntiān",
+    "part_of_speech": "N",
+    "english": "today",
+    "audio_file": "dangdai-B1L03-II-02.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L03-II-03",
+    "traditional": "晚上",
+    "simplified": "晚上",
+    "pinyin": "wǎnshàng",
+    "part_of_speech": "N",
+    "english": "evening, night",
+    "audio_file": "dangdai-B1L03-II-03.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L03-II-04",
+    "traditional": "看",
+    "simplified": "看",
+    "pinyin": "kàn",
+    "part_of_speech": "V",
+    "english": "to see, to watch",
+    "audio_file": "dangdai-B1L03-II-04.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L03-II-05",
+    "traditional": "電影",
+    "simplified": "电影",
+    "pinyin": "diànyǐng",
+    "part_of_speech": "N",
+    "english": "movie",
+    "audio_file": "dangdai-B1L03-II-05.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L03-II-06",
+    "traditional": "妳",
+    "simplified": "妳",
+    "pinyin": "nǐ",
+    "part_of_speech": "N",
+    "english": "you (female)",
+    "audio_file": "dangdai-B1L03-II-06.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L03-II-07",
+    "traditional": "想",
+    "simplified": "想",
+    "pinyin": "xiǎng",
+    "part_of_speech": "Vaux",
+    "english": "to want, to think",
+    "audio_file": "dangdai-B1L03-II-07.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L03-II-08",
+    "traditional": "還是",
+    "simplified": "还是",
+    "pinyin": "háishì",
+    "part_of_speech": "Conj",
+    "english": "or (used in a question)",
+    "audio_file": "dangdai-B1L03-II-08.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L03-II-09",
+    "traditional": "吧",
+    "simplified": "吧",
+    "pinyin": "ba",
+    "part_of_speech": "Ptc",
+    "english": "sentence-final particle for suggestion",
+    "audio_file": "dangdai-B1L03-II-09.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L03-II-10",
+    "traditional": "可以",
+    "simplified": "可以",
+    "pinyin": "kěyǐ",
+    "part_of_speech": "Vaux",
+    "english": "could (possibility)",
+    "audio_file": "dangdai-B1L03-II-10.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L03-II-11",
+    "traditional": "學",
+    "simplified": "学",
+    "pinyin": "xué",
+    "part_of_speech": "V",
+    "english": "to learn, to study",
+    "audio_file": "dangdai-B1L03-II-11.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L03-II-12",
+    "traditional": "中文",
+    "simplified": "中文",
+    "pinyin": "Zhōngwén",
+    "part_of_speech": "N",
+    "english": "Chinese language",
+    "audio_file": "dangdai-B1L03-II-12.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L03-II-13",
+    "traditional": "一起",
+    "simplified": "一起",
+    "pinyin": "yìqǐ",
+    "part_of_speech": "Adv",
+    "english": "together",
+    "audio_file": "dangdai-B1L03-II-13.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L03-II-14",
+    "traditional": "吃",
+    "simplified": "吃",
+    "pinyin": "chī",
+    "part_of_speech": "V",
+    "english": "to eat",
+    "audio_file": "dangdai-B1L03-II-14.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L03-II-15",
+    "traditional": "晚飯",
+    "simplified": "晚饭",
+    "pinyin": "wǎnfàn",
+    "part_of_speech": "N",
+    "english": "dinner",
+    "audio_file": "dangdai-B1L03-II-15.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L03-II-16",
+    "traditional": "菜",
+    "simplified": "菜",
+    "pinyin": "cài",
+    "part_of_speech": "N",
+    "english": "cuisine",
+    "audio_file": "dangdai-B1L03-II-16.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L03-II-17",
+    "traditional": "越南",
+    "simplified": "越南",
+    "pinyin": "Yuènán",
+    "part_of_speech": "",
+    "english": "Vietnam",
+    "audio_file": "dangdai-B1L03-II-17.mp3",
+    "tags": "Name"
+  },
+  {
+    "vocab_id": "B1L03-II-18",
+    "traditional": "好不好",
+    "simplified": "好不好",
+    "pinyin": "hǎo bù hǎo",
+    "part_of_speech": "Ph",
+    "english": "How about...? How does that sound?",
+    "audio_file": "dangdai-B1L03-II-18.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L04-I-01",
+    "traditional": "一共",
+    "simplified": "一共",
+    "pinyin": "yígòng",
+    "part_of_speech": "Adv",
+    "english": "altogether",
+    "audio_file": "dangdai-B1L04-I-01.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L04-I-02",
+    "traditional": "多少",
+    "simplified": "多少",
+    "pinyin": "duōshǎo",
+    "part_of_speech": "N",
+    "english": "how much, how many",
+    "audio_file": "dangdai-B1L04-I-02.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L04-I-03",
+    "traditional": "錢",
+    "simplified": "钱",
+    "pinyin": "qián",
+    "part_of_speech": "N",
+    "english": "money",
+    "audio_file": "dangdai-B1L04-I-03.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L04-I-04",
+    "traditional": "老闆",
+    "simplified": "老板",
+    "pinyin": "lǎobǎn",
+    "part_of_speech": "N",
+    "english": "store-owner, boss",
+    "audio_file": "dangdai-B1L04-I-04.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L04-I-05",
+    "traditional": "買",
+    "simplified": "买",
+    "pinyin": "mǎi",
+    "part_of_speech": "V",
+    "english": "to buy",
+    "audio_file": "dangdai-B1L04-I-05.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L04-I-06",
+    "traditional": "杯",
+    "simplified": "杯",
+    "pinyin": "bēi",
+    "part_of_speech": "M",
+    "english": "cup",
+    "audio_file": "dangdai-B1L04-I-06.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L04-I-07",
+    "traditional": "熱",
+    "simplified": "热",
+    "pinyin": "rè",
+    "part_of_speech": "Vs",
+    "english": "hot",
+    "audio_file": "dangdai-B1L04-I-07.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L04-I-08",
+    "traditional": "包子",
+    "simplified": "包子",
+    "pinyin": "bāozi",
+    "part_of_speech": "N",
+    "english": "steamed buns with meat stuffing filling",
+    "audio_file": "dangdai-B1L04-I-08.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L04-I-09",
+    "traditional": "要",
+    "simplified": "要",
+    "pinyin": "yào",
+    "part_of_speech": "V",
+    "english": "to want, to need",
+    "audio_file": "dangdai-B1L04-I-09.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L04-I-10",
+    "traditional": "大",
+    "simplified": "大",
+    "pinyin": "dà",
+    "part_of_speech": "Vs",
+    "english": "large",
+    "audio_file": "dangdai-B1L04-I-10.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L04-I-11",
+    "traditional": "中",
+    "simplified": "中",
+    "pinyin": "zhōng",
+    "part_of_speech": "Vs-attr",
+    "english": "medium",
+    "audio_file": "dangdai-B1L04-I-11.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L04-I-12",
+    "traditional": "小",
+    "simplified": "小",
+    "pinyin": "xiǎo",
+    "part_of_speech": "Vs",
+    "english": "small",
+    "audio_file": "dangdai-B1L04-I-12.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L04-I-13",
+    "traditional": "幫",
+    "simplified": "帮",
+    "pinyin": "bāng",
+    "part_of_speech": "Prep",
+    "english": "for",
+    "audio_file": "dangdai-B1L04-I-13.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L04-I-14",
+    "traditional": "微波",
+    "simplified": "微波",
+    "pinyin": "wéibō",
+    "part_of_speech": "V",
+    "english": "to microwave",
+    "audio_file": "dangdai-B1L04-I-14.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L04-I-15",
+    "traditional": "百",
+    "simplified": "百",
+    "pinyin": "bǎi",
+    "part_of_speech": "N",
+    "english": "hundred",
+    "audio_file": "dangdai-B1L04-I-15.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L04-I-16",
+    "traditional": "塊",
+    "simplified": "块",
+    "pinyin": "kuài",
+    "part_of_speech": "M",
+    "english": "measure word for Chinese money",
+    "audio_file": "dangdai-B1L04-I-16.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L04-I-17",
+    "traditional": "好的",
+    "simplified": "好的",
+    "pinyin": "hǎode",
+    "part_of_speech": "Ph",
+    "english": "OK",
+    "audio_file": "dangdai-B1L04-I-17.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L04-I-18",
+    "traditional": "外帶",
+    "simplified": "外带",
+    "pinyin": "wàidài",
+    "part_of_speech": "Ph",
+    "english": "take out, to go",
+    "audio_file": "dangdai-B1L04-I-18.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L04-I-19",
+    "traditional": "內用",
+    "simplified": "内用",
+    "pinyin": "nèiyòng",
+    "part_of_speech": "Ph",
+    "english": "for here",
+    "audio_file": "dangdai-B1L04-I-19.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L04-II-01",
+    "traditional": "支",
+    "simplified": "支",
+    "pinyin": "zhī",
+    "part_of_speech": "M",
+    "english": "measure word for cell phones",
+    "audio_file": "dangdai-B1L04-II-01.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L04-II-02",
+    "traditional": "新",
+    "simplified": "新",
+    "pinyin": "xīn",
+    "part_of_speech": "Vs",
+    "english": "new",
+    "audio_file": "dangdai-B1L04-II-02.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L04-II-03",
+    "traditional": "手機",
+    "simplified": "手机",
+    "pinyin": "shǒujī",
+    "part_of_speech": "N",
+    "english": "cell phone",
+    "audio_file": "dangdai-B1L04-II-03.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L04-II-04",
+    "traditional": "太",
+    "simplified": "太",
+    "pinyin": "tài",
+    "part_of_speech": "Adv",
+    "english": "too",
+    "audio_file": "dangdai-B1L04-II-04.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L04-II-05",
+    "traditional": "舊",
+    "simplified": "旧",
+    "pinyin": "jiù",
+    "part_of_speech": "Vs",
+    "english": "old",
+    "audio_file": "dangdai-B1L04-II-05.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L04-II-06",
+    "traditional": "了",
+    "simplified": "了",
+    "pinyin": "le",
+    "part_of_speech": "Ptc",
+    "english": "sentence-final particle indicating the speaker's sense of certainty",
+    "audio_file": "dangdai-B1L04-II-06.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L04-II-07",
+    "traditional": "種",
+    "simplified": "种",
+    "pinyin": "zhǒng",
+    "part_of_speech": "M",
+    "english": "kind, type",
+    "audio_file": "dangdai-B1L04-II-07.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L04-II-08",
+    "traditional": "能",
+    "simplified": "能",
+    "pinyin": "néng",
+    "part_of_speech": "Vaux",
+    "english": "can, to be able to",
+    "audio_file": "dangdai-B1L04-II-08.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L04-II-09",
+    "traditional": "上網",
+    "simplified": "上网",
+    "pinyin": "shàngwǎng",
+    "part_of_speech": "V-sep",
+    "english": "to access the internet, to use the internet",
+    "audio_file": "dangdai-B1L04-II-09.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L04-II-10",
+    "traditional": "那",
+    "simplified": "那",
+    "pinyin": "nà / nèi",
+    "part_of_speech": "Det",
+    "english": "that",
+    "audio_file": "dangdai-B1L04-II-10.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L04-II-11",
+    "traditional": "貴",
+    "simplified": "贵",
+    "pinyin": "guì",
+    "part_of_speech": "Vs",
+    "english": "expensive",
+    "audio_file": "dangdai-B1L04-II-11.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L04-II-12",
+    "traditional": "賣",
+    "simplified": "卖",
+    "pinyin": "mài",
+    "part_of_speech": "V",
+    "english": "to sell",
+    "audio_file": "dangdai-B1L04-II-12.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L04-II-13",
+    "traditional": "便宜",
+    "simplified": "便宜",
+    "pinyin": "piányí",
+    "part_of_speech": "Vs",
+    "english": "cheap, inexpensive",
+    "audio_file": "dangdai-B1L04-II-13.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L04-II-14",
+    "traditional": "要",
+    "simplified": "要",
+    "pinyin": "yào",
+    "part_of_speech": "Vst",
+    "english": "to take, to require",
+    "audio_file": "dangdai-B1L04-II-14.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L04-II-15",
+    "traditional": "萬",
+    "simplified": "万",
+    "pinyin": "wàn",
+    "part_of_speech": "N",
+    "english": "ten thousand",
+    "audio_file": "dangdai-B1L04-II-15.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L04-II-16",
+    "traditional": "千",
+    "simplified": "千",
+    "pinyin": "qiān",
+    "part_of_speech": "N",
+    "english": "thousand",
+    "audio_file": "dangdai-B1L04-II-16.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L04-II-17",
+    "traditional": "為什麼",
+    "simplified": "为什么",
+    "pinyin": "wèishénme",
+    "part_of_speech": "Ph",
+    "english": "why",
+    "audio_file": "dangdai-B1L04-II-17.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L05-I-01",
+    "traditional": "牛肉",
+    "simplified": "牛肉",
+    "pinyin": "niúròu",
+    "part_of_speech": "N",
+    "english": "beef",
+    "audio_file": "dangdai-B1L05-I-01.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L05-I-02",
+    "traditional": "麵",
+    "simplified": "面",
+    "pinyin": "miàn",
+    "part_of_speech": "N",
+    "english": "noodles",
+    "audio_file": "dangdai-B1L05-I-02.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L05-I-03",
+    "traditional": "真",
+    "simplified": "真",
+    "pinyin": "zhēn",
+    "part_of_speech": "Adv",
+    "english": "really",
+    "audio_file": "dangdai-B1L05-I-03.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L05-I-04",
+    "traditional": "好吃",
+    "simplified": "好吃",
+    "pinyin": "hǎochī",
+    "part_of_speech": "Vs",
+    "english": "delicious",
+    "audio_file": "dangdai-B1L05-I-04.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L05-I-05",
+    "traditional": "說",
+    "simplified": "说",
+    "pinyin": "shuō",
+    "part_of_speech": "V",
+    "english": "say",
+    "audio_file": "dangdai-B1L05-I-05.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L05-I-06",
+    "traditional": "少",
+    "simplified": "少",
+    "pinyin": "shǎo",
+    "part_of_speech": "Vs-pred",
+    "english": "few in number",
+    "audio_file": "dangdai-B1L05-I-06.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L05-I-07",
+    "traditional": "有名",
+    "simplified": "有名",
+    "pinyin": "yǒumíng",
+    "part_of_speech": "Vs",
+    "english": "well known, famous",
+    "audio_file": "dangdai-B1L05-I-07.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L05-I-08",
+    "traditional": "小吃",
+    "simplified": "小吃",
+    "pinyin": "xiǎochī",
+    "part_of_speech": "N",
+    "english": "light repast, snack",
+    "audio_file": "dangdai-B1L05-I-08.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L05-I-09",
+    "traditional": "最",
+    "simplified": "最",
+    "pinyin": "zuì",
+    "part_of_speech": "Adv",
+    "english": "most",
+    "audio_file": "dangdai-B1L05-I-09.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L05-I-10",
+    "traditional": "湯",
+    "simplified": "汤",
+    "pinyin": "tāng",
+    "part_of_speech": "N",
+    "english": "soup, broth",
+    "audio_file": "dangdai-B1L05-I-10.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L05-I-11",
+    "traditional": "這麼",
+    "simplified": "这么",
+    "pinyin": "zhème",
+    "part_of_speech": "Adv",
+    "english": "so",
+    "audio_file": "dangdai-B1L05-I-11.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L05-I-12",
+    "traditional": "知道",
+    "simplified": "知道",
+    "pinyin": "zhīdào",
+    "part_of_speech": "Vst",
+    "english": "to know",
+    "audio_file": "dangdai-B1L05-I-12.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L05-I-13",
+    "traditional": "家",
+    "simplified": "家",
+    "pinyin": "jiā",
+    "part_of_speech": "M",
+    "english": "measure word for restaurants, shops, etc.",
+    "audio_file": "dangdai-B1L05-I-13.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L05-I-14",
+    "traditional": "店",
+    "simplified": "店",
+    "pinyin": "diàn",
+    "part_of_speech": "N",
+    "english": "shop, store",
+    "audio_file": "dangdai-B1L05-I-14.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L05-I-15",
+    "traditional": "一定",
+    "simplified": "一定",
+    "pinyin": "yídìng",
+    "part_of_speech": "Adv",
+    "english": "really must, definitely",
+    "audio_file": "dangdai-B1L05-I-15.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L05-I-16",
+    "traditional": "點",
+    "simplified": "点",
+    "pinyin": "diǎn",
+    "part_of_speech": "V",
+    "english": "to order (meals)",
+    "audio_file": "dangdai-B1L05-I-16.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L05-I-17",
+    "traditional": "碗",
+    "simplified": "碗",
+    "pinyin": "wǎn",
+    "part_of_speech": "M",
+    "english": "a bowl of",
+    "audio_file": "dangdai-B1L05-I-17.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L05-I-18",
+    "traditional": "是啊",
+    "simplified": "是啊",
+    "pinyin": "shì a",
+    "part_of_speech": "Ph",
+    "english": "That's right.",
+    "audio_file": "dangdai-B1L05-I-18.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L05-I-19",
+    "traditional": "小籠包",
+    "simplified": "小笼包",
+    "pinyin": "xiǎolóngbāo",
+    "part_of_speech": "Ph",
+    "english": "xiaolongbao, e.g., small meat and cabbage-filled steamed buns",
+    "audio_file": "dangdai-B1L05-I-19.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L05-I-20",
+    "traditional": "臭豆腐",
+    "simplified": "臭豆腐",
+    "pinyin": "chòu dòufǔ",
+    "part_of_speech": "Ph",
+    "english": "stinky tofu (fermented tofu)",
+    "audio_file": "dangdai-B1L05-I-20.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L05-I-21",
+    "traditional": "太好了",
+    "simplified": "太好了",
+    "pinyin": "tài hǎo le",
+    "part_of_speech": "Ph",
+    "english": "Excellent. Great.",
+    "audio_file": "dangdai-B1L05-I-21.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L05-II-01",
+    "traditional": "昨天",
+    "simplified": "昨天",
+    "pinyin": "zuótiān",
+    "part_of_speech": "N",
+    "english": "yesterday",
+    "audio_file": "dangdai-B1L05-II-01.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L05-II-02",
+    "traditional": "餐廳",
+    "simplified": "餐厅",
+    "pinyin": "cāntīng",
+    "part_of_speech": "N",
+    "english": "restaurant",
+    "audio_file": "dangdai-B1L05-II-02.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L05-II-03",
+    "traditional": "可是",
+    "simplified": "可是",
+    "pinyin": "kěshì",
+    "part_of_speech": "Conj",
+    "english": "but, however",
+    "audio_file": "dangdai-B1L05-II-03.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L05-II-04",
+    "traditional": "辣",
+    "simplified": "辣",
+    "pinyin": "là",
+    "part_of_speech": "Vs",
+    "english": "hot (spicy)",
+    "audio_file": "dangdai-B1L05-II-04.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L05-II-05",
+    "traditional": "怕",
+    "simplified": "怕",
+    "pinyin": "pà",
+    "part_of_speech": "Vst",
+    "english": "(here) to not like, to fear",
+    "audio_file": "dangdai-B1L05-II-05.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L05-II-06",
+    "traditional": "所以",
+    "simplified": "所以",
+    "pinyin": "suǒyǐ",
+    "part_of_speech": "Conj",
+    "english": "therefore, so",
+    "audio_file": "dangdai-B1L05-II-06.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L05-II-07",
+    "traditional": "自己",
+    "simplified": "自己",
+    "pinyin": "zìjǐ",
+    "part_of_speech": "N",
+    "english": "self",
+    "audio_file": "dangdai-B1L05-II-07.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L05-II-08",
+    "traditional": "做飯",
+    "simplified": "做饭",
+    "pinyin": "zuòfàn",
+    "part_of_speech": "V-sep",
+    "english": "to cook",
+    "audio_file": "dangdai-B1L05-II-08.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L05-II-09",
+    "traditional": "得",
+    "simplified": "得",
+    "pinyin": "de",
+    "part_of_speech": "Ptc",
+    "english": "complement marker",
+    "audio_file": "dangdai-B1L05-II-09.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L05-II-10",
+    "traditional": "會",
+    "simplified": "会",
+    "pinyin": "huì",
+    "part_of_speech": "Vaux",
+    "english": "to be able to, can",
+    "audio_file": "dangdai-B1L05-II-10.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L05-II-11",
+    "traditional": "甜點",
+    "simplified": "甜点",
+    "pinyin": "tiándiǎn",
+    "part_of_speech": "N",
+    "english": "dessert",
+    "audio_file": "dangdai-B1L05-II-11.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L05-II-12",
+    "traditional": "不錯",
+    "simplified": "不错",
+    "pinyin": "búcuò",
+    "part_of_speech": "Vs",
+    "english": "not bad",
+    "audio_file": "dangdai-B1L05-II-12.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L05-II-13",
+    "traditional": "可以",
+    "simplified": "可以",
+    "pinyin": "kěyǐ",
+    "part_of_speech": "Vaux",
+    "english": "could (possibility)",
+    "audio_file": "dangdai-B1L05-II-13.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L05-II-14",
+    "traditional": "教",
+    "simplified": "教",
+    "pinyin": "jiāo",
+    "part_of_speech": "V",
+    "english": "to teach",
+    "audio_file": "dangdai-B1L05-II-14.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L05-II-15",
+    "traditional": "到",
+    "simplified": "到",
+    "pinyin": "dào",
+    "part_of_speech": "Prep",
+    "english": "to",
+    "audio_file": "dangdai-B1L05-II-15.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L05-II-16",
+    "traditional": "有一點",
+    "simplified": "有一点",
+    "pinyin": "yǒu yìdiǎn",
+    "part_of_speech": "Ph",
+    "english": "a little",
+    "audio_file": "dangdai-B1L05-II-16.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L05-II-17",
+    "traditional": "不好",
+    "simplified": "不好",
+    "pinyin": "bù hǎo",
+    "part_of_speech": "Ph",
+    "english": "not well",
+    "audio_file": "dangdai-B1L05-II-17.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L06-I-01",
+    "traditional": "他們",
+    "simplified": "他们",
+    "pinyin": "tāmen",
+    "part_of_speech": "N",
+    "english": "they (used for people only)",
+    "audio_file": "dangdai-B1L06-I-01.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L06-I-02",
+    "traditional": "學校",
+    "simplified": "学校",
+    "pinyin": "xuéxiào",
+    "part_of_speech": "N",
+    "english": "school",
+    "audio_file": "dangdai-B1L06-I-02.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L06-I-03",
+    "traditional": "在",
+    "simplified": "在",
+    "pinyin": "zài",
+    "part_of_speech": "Vst",
+    "english": "to be located at",
+    "audio_file": "dangdai-B1L06-I-03.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L06-I-04",
+    "traditional": "山上",
+    "simplified": "山上",
+    "pinyin": "shānshàng",
+    "part_of_speech": "N",
+    "english": "on a mountain, in the mountains",
+    "audio_file": "dangdai-B1L06-I-04.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L06-I-05",
+    "traditional": "哪裡",
+    "simplified": "哪里",
+    "pinyin": "nǎlǐ",
+    "part_of_speech": "N",
+    "english": "where",
+    "audio_file": "dangdai-B1L06-I-05.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L06-I-06",
+    "traditional": "遠",
+    "simplified": "远",
+    "pinyin": "yuǎn",
+    "part_of_speech": "Vs",
+    "english": "far",
+    "audio_file": "dangdai-B1L06-I-06.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L06-I-07",
+    "traditional": "那裡",
+    "simplified": "那里",
+    "pinyin": "nàlǐ",
+    "part_of_speech": "N",
+    "english": "that place, there",
+    "audio_file": "dangdai-B1L06-I-07.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L06-I-08",
+    "traditional": "風景",
+    "simplified": "风景",
+    "pinyin": "fēngjǐng",
+    "part_of_speech": "N",
+    "english": "scenery, landscape",
+    "audio_file": "dangdai-B1L06-I-08.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L06-I-09",
+    "traditional": "美",
+    "simplified": "美",
+    "pinyin": "měi",
+    "part_of_speech": "Vs",
+    "english": "beautiful",
+    "audio_file": "dangdai-B1L06-I-09.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L06-I-10",
+    "traditional": "前面",
+    "simplified": "前面",
+    "pinyin": "qiánmiàn",
+    "part_of_speech": "N",
+    "english": "front",
+    "audio_file": "dangdai-B1L06-I-10.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L06-I-11",
+    "traditional": "海",
+    "simplified": "海",
+    "pinyin": "hǎi",
+    "part_of_speech": "N",
+    "english": "ocean",
+    "audio_file": "dangdai-B1L06-I-11.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L06-I-12",
+    "traditional": "後面",
+    "simplified": "后面",
+    "pinyin": "hòumiàn",
+    "part_of_speech": "N",
+    "english": "back",
+    "audio_file": "dangdai-B1L06-I-12.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L06-I-13",
+    "traditional": "山",
+    "simplified": "山",
+    "pinyin": "shān",
+    "part_of_speech": "N",
+    "english": "mountain",
+    "audio_file": "dangdai-B1L06-I-13.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L06-I-14",
+    "traditional": "真的",
+    "simplified": "真的",
+    "pinyin": "zhēnde",
+    "part_of_speech": "Adv",
+    "english": "really, truly",
+    "audio_file": "dangdai-B1L06-I-14.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L06-I-15",
+    "traditional": "地方",
+    "simplified": "地方",
+    "pinyin": "dìfāng",
+    "part_of_speech": "N",
+    "english": "place",
+    "audio_file": "dangdai-B1L06-I-15.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L06-I-16",
+    "traditional": "現在",
+    "simplified": "现在",
+    "pinyin": "xiànzài",
+    "part_of_speech": "N",
+    "english": "now",
+    "audio_file": "dangdai-B1L06-I-16.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L06-I-17",
+    "traditional": "附近",
+    "simplified": "附近",
+    "pinyin": "fùjìn",
+    "part_of_speech": "N",
+    "english": "vicinity, near",
+    "audio_file": "dangdai-B1L06-I-17.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L06-I-18",
+    "traditional": "樓下",
+    "simplified": "楼下",
+    "pinyin": "lóuxià",
+    "part_of_speech": "N",
+    "english": "downstairs",
+    "audio_file": "dangdai-B1L06-I-18.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L06-I-19",
+    "traditional": "找",
+    "simplified": "找",
+    "pinyin": "zhǎo",
+    "part_of_speech": "V",
+    "english": "to meet, to see",
+    "audio_file": "dangdai-B1L06-I-19.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L06-I-20",
+    "traditional": "朋友",
+    "simplified": "朋友",
+    "pinyin": "péngyǒu",
+    "part_of_speech": "N",
+    "english": "friend",
+    "audio_file": "dangdai-B1L06-I-20.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L06-I-21",
+    "traditional": "上課",
+    "simplified": "上课",
+    "pinyin": "shàngkè",
+    "part_of_speech": "V-sep",
+    "english": "to go to class",
+    "audio_file": "dangdai-B1L06-I-21.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L06-I-22",
+    "traditional": "花蓮",
+    "simplified": "花莲",
+    "pinyin": "Huālián",
+    "part_of_speech": "",
+    "english": "name of a city on the eastern coast of Taiwan",
+    "audio_file": "dangdai-B1L06-I-22.mp3",
+    "tags": "Name"
+  },
+  {
+    "vocab_id": "B1L06-I-23",
+    "traditional": "聽說",
+    "simplified": "听说",
+    "pinyin": "tīngshuō",
+    "part_of_speech": "Ph",
+    "english": "hear that",
+    "audio_file": "dangdai-B1L06-I-23.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L06-II-01",
+    "traditional": "近",
+    "simplified": "近",
+    "pinyin": "jìn",
+    "part_of_speech": "Vs",
+    "english": "near",
+    "audio_file": "dangdai-B1L06-II-01.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L06-II-02",
+    "traditional": "方便",
+    "simplified": "方便",
+    "pinyin": "fāngbiàn",
+    "part_of_speech": "Vs",
+    "english": "convenient",
+    "audio_file": "dangdai-B1L06-II-02.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L06-II-03",
+    "traditional": "這裡",
+    "simplified": "这里",
+    "pinyin": "zhèlǐ",
+    "part_of_speech": "N",
+    "english": "here, this place",
+    "audio_file": "dangdai-B1L06-II-03.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L06-II-04",
+    "traditional": "學生",
+    "simplified": "学生",
+    "pinyin": "xuéshēng",
+    "part_of_speech": "N",
+    "english": "student",
+    "audio_file": "dangdai-B1L06-II-04.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L06-II-05",
+    "traditional": "在",
+    "simplified": "在",
+    "pinyin": "zài",
+    "part_of_speech": "Prep",
+    "english": "at",
+    "audio_file": "dangdai-B1L06-II-05.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L06-II-06",
+    "traditional": "東西",
+    "simplified": "东西",
+    "pinyin": "dōngxi",
+    "part_of_speech": "N",
+    "english": "things, stuff",
+    "audio_file": "dangdai-B1L06-II-06.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L06-II-07",
+    "traditional": "外面",
+    "simplified": "外面",
+    "pinyin": "wàimiàn",
+    "part_of_speech": "N",
+    "english": "outside",
+    "audio_file": "dangdai-B1L06-II-07.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L06-II-08",
+    "traditional": "裡面",
+    "simplified": "里面",
+    "pinyin": "lǐmiàn",
+    "part_of_speech": "N",
+    "english": "inside",
+    "audio_file": "dangdai-B1L06-II-08.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L06-II-09",
+    "traditional": "商店",
+    "simplified": "商店",
+    "pinyin": "shāngdiàn",
+    "part_of_speech": "N",
+    "english": "store, shop",
+    "audio_file": "dangdai-B1L06-II-09.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L06-II-10",
+    "traditional": "吃飯",
+    "simplified": "吃饭",
+    "pinyin": "chīfàn",
+    "part_of_speech": "V-sep",
+    "english": "to have a meal",
+    "audio_file": "dangdai-B1L06-II-10.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L06-II-11",
+    "traditional": "宿舍",
+    "simplified": "宿舍",
+    "pinyin": "sùshè",
+    "part_of_speech": "N",
+    "english": "dormitory",
+    "audio_file": "dangdai-B1L06-II-11.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L06-II-12",
+    "traditional": "樓",
+    "simplified": "楼",
+    "pinyin": "lóu",
+    "part_of_speech": "N",
+    "english": "a storey, a floor",
+    "audio_file": "dangdai-B1L06-II-12.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L06-II-13",
+    "traditional": "棟",
+    "simplified": "栋",
+    "pinyin": "dòng",
+    "part_of_speech": "M",
+    "english": "measure word for buildings",
+    "audio_file": "dangdai-B1L06-II-13.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L06-II-14",
+    "traditional": "大樓",
+    "simplified": "大楼",
+    "pinyin": "dàlóu",
+    "part_of_speech": "N",
+    "english": "a multi-storey building",
+    "audio_file": "dangdai-B1L06-II-14.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L06-II-15",
+    "traditional": "圖書館",
+    "simplified": "图书馆",
+    "pinyin": "túshūguǎn",
+    "part_of_speech": "N",
+    "english": "library",
+    "audio_file": "dangdai-B1L06-II-15.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L06-II-16",
+    "traditional": "旁邊",
+    "simplified": "旁边",
+    "pinyin": "pángbiān",
+    "part_of_speech": "N",
+    "english": "(by the) side, next to",
+    "audio_file": "dangdai-B1L06-II-16.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L06-II-17",
+    "traditional": "教室",
+    "simplified": "教室",
+    "pinyin": "jiàoshì",
+    "part_of_speech": "N",
+    "english": "classroom",
+    "audio_file": "dangdai-B1L06-II-17.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L06-II-18",
+    "traditional": "游泳池",
+    "simplified": "游泳池",
+    "pinyin": "yóuyǒngchí",
+    "part_of_speech": "N",
+    "english": "swimming pool",
+    "audio_file": "dangdai-B1L06-II-18.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L07-I-01",
+    "traditional": "點",
+    "simplified": "点",
+    "pinyin": "diǎn",
+    "part_of_speech": "M",
+    "english": "o'clock",
+    "audio_file": "dangdai-B1L07-I-01.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L07-I-02",
+    "traditional": "KTV",
+    "simplified": "KTV",
+    "pinyin": "KTV",
+    "part_of_speech": "N",
+    "english": "Karaoke",
+    "audio_file": "dangdai-B1L07-I-02.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L07-I-03",
+    "traditional": "唱歌",
+    "simplified": "唱歌",
+    "pinyin": "chànggē",
+    "part_of_speech": "V-sep",
+    "english": "to sing",
+    "audio_file": "dangdai-B1L07-I-03.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L07-I-04",
+    "traditional": "分",
+    "simplified": "分",
+    "pinyin": "fēn",
+    "part_of_speech": "M",
+    "english": "minute",
+    "audio_file": "dangdai-B1L07-I-04.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L07-I-05",
+    "traditional": "見面",
+    "simplified": "见面",
+    "pinyin": "jiànmiàn",
+    "part_of_speech": "V-sep",
+    "english": "meet",
+    "audio_file": "dangdai-B1L07-I-05.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L07-I-06",
+    "traditional": "從",
+    "simplified": "从",
+    "pinyin": "cóng",
+    "part_of_speech": "Prep",
+    "english": "from",
+    "audio_file": "dangdai-B1L07-I-06.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L07-I-07",
+    "traditional": "中午",
+    "simplified": "中午",
+    "pinyin": "zhōngwǔ",
+    "part_of_speech": "N",
+    "english": "noon",
+    "audio_file": "dangdai-B1L07-I-07.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L07-I-08",
+    "traditional": "得",
+    "simplified": "得",
+    "pinyin": "děi",
+    "part_of_speech": "Vaux",
+    "english": "to have to, must",
+    "audio_file": "dangdai-B1L07-I-08.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L07-I-09",
+    "traditional": "銀行",
+    "simplified": "银行",
+    "pinyin": "yínháng",
+    "part_of_speech": "N",
+    "english": "bank",
+    "audio_file": "dangdai-B1L07-I-09.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L07-I-10",
+    "traditional": "時候",
+    "simplified": "时候",
+    "pinyin": "shíhòu",
+    "part_of_speech": "N",
+    "english": "when",
+    "audio_file": "dangdai-B1L07-I-10.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L07-I-11",
+    "traditional": "後天",
+    "simplified": "后天",
+    "pinyin": "hòutiān",
+    "part_of_speech": "N",
+    "english": "the day after tomorrow",
+    "audio_file": "dangdai-B1L07-I-11.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L07-I-12",
+    "traditional": "大安",
+    "simplified": "大安",
+    "pinyin": "Dà'ān",
+    "part_of_speech": "",
+    "english": "Da-an (name of a KTV named after a district in Taipei, where Shida is also located)",
+    "audio_file": "dangdai-B1L07-I-12.mp3",
+    "tags": "Name"
+  },
+  {
+    "vocab_id": "B1L07-I-13",
+    "traditional": "下次",
+    "simplified": "下次",
+    "pinyin": "xià cì",
+    "part_of_speech": "Ph",
+    "english": "next time",
+    "audio_file": "dangdai-B1L07-I-13.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L07-I-14",
+    "traditional": "沒問題",
+    "simplified": "没问题",
+    "pinyin": "méi wèntí",
+    "part_of_speech": "Ph",
+    "english": "No problem.",
+    "audio_file": "dangdai-B1L07-I-14.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L07-I-15",
+    "traditional": "對了",
+    "simplified": "对了",
+    "pinyin": "duìle",
+    "part_of_speech": "Ph",
+    "english": "by the way",
+    "audio_file": "dangdai-B1L07-I-15.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L07-I-16",
+    "traditional": "有空",
+    "simplified": "有空",
+    "pinyin": "yǒu kòng",
+    "part_of_speech": "Ph",
+    "english": "to have free time",
+    "audio_file": "dangdai-B1L07-I-16.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L07-I-17",
+    "traditional": "再見",
+    "simplified": "再见",
+    "pinyin": "zàijiàn",
+    "part_of_speech": "Ph",
+    "english": "Goodbye.",
+    "audio_file": "dangdai-B1L07-I-17.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L07-II-01",
+    "traditional": "在",
+    "simplified": "在",
+    "pinyin": "zài",
+    "part_of_speech": "Vs",
+    "english": "progressive aspect verb; in the process of doing something",
+    "audio_file": "dangdai-B1L07-II-01.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L07-II-02",
+    "traditional": "午餐",
+    "simplified": "午餐",
+    "pinyin": "wǔcān",
+    "part_of_speech": "N",
+    "english": "lunch",
+    "audio_file": "dangdai-B1L07-II-02.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L07-II-03",
+    "traditional": "剛",
+    "simplified": "刚",
+    "pinyin": "gāng",
+    "part_of_speech": "Adv",
+    "english": "just now",
+    "audio_file": "dangdai-B1L07-II-03.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L07-II-04",
+    "traditional": "下課",
+    "simplified": "下课",
+    "pinyin": "xiàkè",
+    "part_of_speech": "V-sep",
+    "english": "to finish class",
+    "audio_file": "dangdai-B1L07-II-04.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L07-II-05",
+    "traditional": "下午",
+    "simplified": "下午",
+    "pinyin": "xiàwǔ",
+    "part_of_speech": "N",
+    "english": "afternoon",
+    "audio_file": "dangdai-B1L07-II-05.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L07-II-06",
+    "traditional": "半",
+    "simplified": "半",
+    "pinyin": "bàn",
+    "part_of_speech": "N",
+    "english": "half",
+    "audio_file": "dangdai-B1L07-II-06.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L07-II-07",
+    "traditional": "比賽",
+    "simplified": "比赛",
+    "pinyin": "bǐsài",
+    "part_of_speech": "N",
+    "english": "game, competition",
+    "audio_file": "dangdai-B1L07-II-07.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L07-II-08",
+    "traditional": "結束",
+    "simplified": "结束",
+    "pinyin": "jiéshù",
+    "part_of_speech": "Vp",
+    "english": "to finish",
+    "audio_file": "dangdai-B1L07-II-08.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L07-II-09",
+    "traditional": "最近",
+    "simplified": "最近",
+    "pinyin": "zuìjìn",
+    "part_of_speech": "N",
+    "english": "recently, lately",
+    "audio_file": "dangdai-B1L07-II-09.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L07-II-10",
+    "traditional": "忙",
+    "simplified": "忙",
+    "pinyin": "máng",
+    "part_of_speech": "Vs",
+    "english": "busy",
+    "audio_file": "dangdai-B1L07-II-10.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L07-II-11",
+    "traditional": "每",
+    "simplified": "每",
+    "pinyin": "měi",
+    "part_of_speech": "Det",
+    "english": "every, each",
+    "audio_file": "dangdai-B1L07-II-11.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L07-II-12",
+    "traditional": "天",
+    "simplified": "天",
+    "pinyin": "tiān",
+    "part_of_speech": "M",
+    "english": "Measure word for day",
+    "audio_file": "dangdai-B1L07-II-12.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L07-II-13",
+    "traditional": "書法",
+    "simplified": "书法",
+    "pinyin": "shūfǎ",
+    "part_of_speech": "N",
+    "english": "calligraphy",
+    "audio_file": "dangdai-B1L07-II-13.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L07-II-14",
+    "traditional": "課",
+    "simplified": "课",
+    "pinyin": "kè",
+    "part_of_speech": "N",
+    "english": "class",
+    "audio_file": "dangdai-B1L07-II-14.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L07-II-15",
+    "traditional": "開始",
+    "simplified": "开始",
+    "pinyin": "kāishǐ",
+    "part_of_speech": "Vp",
+    "english": "to begin, to start",
+    "audio_file": "dangdai-B1L07-II-15.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L07-II-16",
+    "traditional": "字",
+    "simplified": "字",
+    "pinyin": "zì",
+    "part_of_speech": "N",
+    "english": "character",
+    "audio_file": "dangdai-B1L07-II-16.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L07-II-17",
+    "traditional": "寫",
+    "simplified": "写",
+    "pinyin": "xiě",
+    "part_of_speech": "V",
+    "english": "to write",
+    "audio_file": "dangdai-B1L07-II-17.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L07-II-18",
+    "traditional": "可以",
+    "simplified": "可以",
+    "pinyin": "kěyǐ",
+    "part_of_speech": "Vaux",
+    "english": "may (permission)",
+    "audio_file": "dangdai-B1L07-II-18.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L07-II-19",
+    "traditional": "問",
+    "simplified": "问",
+    "pinyin": "wèn",
+    "part_of_speech": "V",
+    "english": "to ask",
+    "audio_file": "dangdai-B1L07-II-19.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L07-II-20",
+    "traditional": "等一下",
+    "simplified": "等一下",
+    "pinyin": "děng yíxià",
+    "part_of_speech": "Ph",
+    "english": "later",
+    "audio_file": "dangdai-B1L07-II-20.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L07-II-21",
+    "traditional": "有事",
+    "simplified": "有事",
+    "pinyin": "yǒu shì",
+    "part_of_speech": "Ph",
+    "english": "to be busy; to be engaged",
+    "audio_file": "dangdai-B1L07-II-21.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L07-II-22",
+    "traditional": "有意思",
+    "simplified": "有意思",
+    "pinyin": "yǒu yìsi",
+    "part_of_speech": "Ph",
+    "english": "to be interesting, to be fun",
+    "audio_file": "dangdai-B1L07-II-22.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L08-I-01",
+    "traditional": "坐",
+    "simplified": "坐",
+    "pinyin": "zuò",
+    "part_of_speech": "V",
+    "english": "to take by, to travel by",
+    "audio_file": "dangdai-B1L08-I-01.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L08-I-02",
+    "traditional": "火車",
+    "simplified": "火车",
+    "pinyin": "huǒchē",
+    "part_of_speech": "N",
+    "english": "train",
+    "audio_file": "dangdai-B1L08-I-02.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L08-I-03",
+    "traditional": "跟",
+    "simplified": "跟",
+    "pinyin": "gēn",
+    "part_of_speech": "Prep",
+    "english": "with",
+    "audio_file": "dangdai-B1L08-I-03.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L08-I-04",
+    "traditional": "玩",
+    "simplified": "玩",
+    "pinyin": "wán",
+    "part_of_speech": "V",
+    "english": "to have fun",
+    "audio_file": "dangdai-B1L08-I-04.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L08-I-05",
+    "traditional": "怎麼",
+    "simplified": "怎么",
+    "pinyin": "zěnme",
+    "part_of_speech": "Adv",
+    "english": "how",
+    "audio_file": "dangdai-B1L08-I-05.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L08-I-06",
+    "traditional": "慢",
+    "simplified": "慢",
+    "pinyin": "màn",
+    "part_of_speech": "Vs",
+    "english": "slow",
+    "audio_file": "dangdai-B1L08-I-06.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L08-I-07",
+    "traditional": "鐘頭",
+    "simplified": "钟头",
+    "pinyin": "zhōngtóu",
+    "part_of_speech": "N",
+    "english": "hour",
+    "audio_file": "dangdai-B1L08-I-07.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L08-I-08",
+    "traditional": "比較",
+    "simplified": "比较",
+    "pinyin": "bǐjiào",
+    "part_of_speech": "Adv",
+    "english": "(comparatively) more",
+    "audio_file": "dangdai-B1L08-I-08.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L08-I-09",
+    "traditional": "快",
+    "simplified": "快",
+    "pinyin": "kuài",
+    "part_of_speech": "Vs",
+    "english": "fast",
+    "audio_file": "dangdai-B1L08-I-09.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L08-I-10",
+    "traditional": "車票",
+    "simplified": "车票",
+    "pinyin": "chēpiào",
+    "part_of_speech": "N",
+    "english": "(train, bus) ticket",
+    "audio_file": "dangdai-B1L08-I-10.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L08-I-11",
+    "traditional": "非常",
+    "simplified": "非常",
+    "pinyin": "fēicháng",
+    "part_of_speech": "Adv",
+    "english": "very",
+    "audio_file": "dangdai-B1L08-I-11.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L08-I-12",
+    "traditional": "但是",
+    "simplified": "但是",
+    "pinyin": "dànshì",
+    "part_of_speech": "Conj",
+    "english": "but, however",
+    "audio_file": "dangdai-B1L08-I-12.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L08-I-13",
+    "traditional": "又",
+    "simplified": "又",
+    "pinyin": "yòu",
+    "part_of_speech": "Adv",
+    "english": "both...and...",
+    "audio_file": "dangdai-B1L08-I-13.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L08-I-14",
+    "traditional": "舒服",
+    "simplified": "舒服",
+    "pinyin": "shūfú",
+    "part_of_speech": "Vs",
+    "english": "comfortable",
+    "audio_file": "dangdai-B1L08-I-14.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L08-I-15",
+    "traditional": "站",
+    "simplified": "站",
+    "pinyin": "zhàn",
+    "part_of_speech": "N",
+    "english": "station",
+    "audio_file": "dangdai-B1L08-I-15.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L08-I-16",
+    "traditional": "或是",
+    "simplified": "或是",
+    "pinyin": "huòshì",
+    "part_of_speech": "Conj",
+    "english": "or",
+    "audio_file": "dangdai-B1L08-I-16.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L08-I-17",
+    "traditional": "臺南",
+    "simplified": "台南",
+    "pinyin": "Táinán",
+    "part_of_speech": "",
+    "english": "a city in southwestern Taiwan",
+    "audio_file": "dangdai-B1L08-I-17.mp3",
+    "tags": "Name"
+  },
+  {
+    "vocab_id": "B1L08-I-18",
+    "traditional": "高鐵",
+    "simplified": "高铁",
+    "pinyin": "gāotiě",
+    "part_of_speech": "",
+    "english": "High Speed Rail (HSR)",
+    "audio_file": "dangdai-B1L08-I-18.mp3",
+    "tags": "Name"
+  },
+  {
+    "vocab_id": "B1L08-I-19",
+    "traditional": "網路上",
+    "simplified": "网路上",
+    "pinyin": "wǎnglù shàng",
+    "part_of_speech": "Ph",
+    "english": "on the Internet",
+    "audio_file": "dangdai-B1L08-I-19.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L08-I-20",
+    "traditional": "便利商店",
+    "simplified": "便利商店",
+    "pinyin": "biànlì shāngdiàn",
+    "part_of_speech": "Ph",
+    "english": "convenience store",
+    "audio_file": "dangdai-B1L08-I-20.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L08-II-01",
+    "traditional": "同學",
+    "simplified": "同学",
+    "pinyin": "tóngxué",
+    "part_of_speech": "N",
+    "english": "classmate",
+    "audio_file": "dangdai-B1L08-II-01.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L08-II-02",
+    "traditional": "參觀",
+    "simplified": "参观",
+    "pinyin": "cānguān",
+    "part_of_speech": "V",
+    "english": "to visit (an institution)",
+    "audio_file": "dangdai-B1L08-II-02.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L08-II-03",
+    "traditional": "古代",
+    "simplified": "古代",
+    "pinyin": "gǔdài",
+    "part_of_speech": "N",
+    "english": "ancient times",
+    "audio_file": "dangdai-B1L08-II-03.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L08-II-04",
+    "traditional": "騎",
+    "simplified": "骑",
+    "pinyin": "qí",
+    "part_of_speech": "V",
+    "english": "to ride",
+    "audio_file": "dangdai-B1L08-II-04.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L08-II-05",
+    "traditional": "機車",
+    "simplified": "机车",
+    "pinyin": "jīchē",
+    "part_of_speech": "N",
+    "english": "motorcycle, scooter",
+    "audio_file": "dangdai-B1L08-II-05.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L08-II-06",
+    "traditional": "載",
+    "simplified": "载",
+    "pinyin": "zài",
+    "part_of_speech": "V",
+    "english": "to give someone a ride (on / in a vehicle, e.g. motorcycle, bicycle or car)",
+    "audio_file": "dangdai-B1L08-II-06.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L08-II-07",
+    "traditional": "捷運",
+    "simplified": "捷运",
+    "pinyin": "jiéyùn",
+    "part_of_speech": "N",
+    "english": "Mass Rapid Transit (MRT)",
+    "audio_file": "dangdai-B1L08-II-07.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L08-II-08",
+    "traditional": "比",
+    "simplified": "比",
+    "pinyin": "bǐ",
+    "part_of_speech": "Prep",
+    "english": "(more...) than",
+    "audio_file": "dangdai-B1L08-II-08.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L08-II-09",
+    "traditional": "故宮博物院（故宮）",
+    "simplified": "故宫博物院（故宫）",
+    "pinyin": "Gùgōng Bówùyuàn",
+    "part_of_speech": "",
+    "english": "National Palace Museum",
+    "audio_file": "dangdai-B1L08-II-09.mp3",
+    "tags": "Name"
+  },
+  {
+    "vocab_id": "B1L08-II-10",
+    "traditional": "中國",
+    "simplified": "中国",
+    "pinyin": "Zhōngguó",
+    "part_of_speech": "",
+    "english": "China",
+    "audio_file": "dangdai-B1L08-II-10.mp3",
+    "tags": "Name"
+  },
+  {
+    "vocab_id": "B1L08-II-11",
+    "traditional": "公共汽車（公車）",
+    "simplified": "公共汽车（公车）",
+    "pinyin": "gōnggòng qìchē",
+    "part_of_speech": "Ph",
+    "english": "bus",
+    "audio_file": "dangdai-B1L08-II-11.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L08-II-12",
+    "traditional": "不行",
+    "simplified": "不行",
+    "pinyin": "bù xíng",
+    "part_of_speech": "Ph",
+    "english": "will not do",
+    "audio_file": "dangdai-B1L08-II-12.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L08-II-13",
+    "traditional": "計程車",
+    "simplified": "计程车",
+    "pinyin": "jìchéngchē",
+    "part_of_speech": "Ph",
+    "english": "taxi",
+    "audio_file": "dangdai-B1L08-II-13.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L08-II-14",
+    "traditional": "差不多",
+    "simplified": "差不多",
+    "pinyin": "chābùduō",
+    "part_of_speech": "Ph",
+    "english": "about the same",
+    "audio_file": "dangdai-B1L08-II-14.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L09-I-01",
+    "traditional": "星期 + number",
+    "simplified": "星期 + number",
+    "pinyin": "xīngqí",
+    "part_of_speech": "N",
+    "english": "week",
+    "audio_file": "dangdai-B1L09-I-01.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L09-I-02",
+    "traditional": "回國",
+    "simplified": "回国",
+    "pinyin": "huíguó",
+    "part_of_speech": "V-sep",
+    "english": "to return to one's country",
+    "audio_file": "dangdai-B1L09-I-02.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L09-I-03",
+    "traditional": "打算",
+    "simplified": "打算",
+    "pinyin": "dǎsuàn",
+    "part_of_speech": "Vaux",
+    "english": "to plan to",
+    "audio_file": "dangdai-B1L09-I-03.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L09-I-04",
+    "traditional": "電視",
+    "simplified": "电视",
+    "pinyin": "diànshì",
+    "part_of_speech": "N",
+    "english": "TV",
+    "audio_file": "dangdai-B1L09-I-04.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L09-I-05",
+    "traditional": "影片",
+    "simplified": "影片",
+    "pinyin": "yǐngpiàn",
+    "part_of_speech": "N",
+    "english": "film",
+    "audio_file": "dangdai-B1L09-I-05.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L09-I-06",
+    "traditional": "旅行",
+    "simplified": "旅行",
+    "pinyin": "lǚxíng",
+    "part_of_speech": "Vi",
+    "english": "to travel",
+    "audio_file": "dangdai-B1L09-I-06.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L09-I-07",
+    "traditional": "功課",
+    "simplified": "功课",
+    "pinyin": "gōngkè",
+    "part_of_speech": "N",
+    "english": "homework",
+    "audio_file": "dangdai-B1L09-I-07.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L09-I-08",
+    "traditional": "出去",
+    "simplified": "出去",
+    "pinyin": "chūqù",
+    "part_of_speech": "Vi",
+    "english": "to go out",
+    "audio_file": "dangdai-B1L09-I-08.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L09-I-09",
+    "traditional": "大概",
+    "simplified": "大概",
+    "pinyin": "dàgài",
+    "part_of_speech": "Adv",
+    "english": "approximately, about, probably",
+    "audio_file": "dangdai-B1L09-I-09.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L09-I-10",
+    "traditional": "放假",
+    "simplified": "放假",
+    "pinyin": "fàngjià",
+    "part_of_speech": "Ph",
+    "english": "to have a holiday",
+    "audio_file": "dangdai-B1L09-I-10.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L09-I-11",
+    "traditional": "下個星期",
+    "simplified": "下个星期",
+    "pinyin": "xià ge xīngqí",
+    "part_of_speech": "Ph",
+    "english": "next week",
+    "audio_file": "dangdai-B1L09-I-11.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L09-I-12",
+    "traditional": "有時候",
+    "simplified": "有时候",
+    "pinyin": "yǒu shíhòu",
+    "part_of_speech": "Ph",
+    "english": "sometimes",
+    "audio_file": "dangdai-B1L09-I-12.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L09-I-13",
+    "traditional": "多久",
+    "simplified": "多久",
+    "pinyin": "duō jiǔ",
+    "part_of_speech": "Ph",
+    "english": "how long",
+    "audio_file": "dangdai-B1L09-I-13.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L09-I-14",
+    "traditional": "臺東",
+    "simplified": "台东",
+    "pinyin": "Táidōng",
+    "part_of_speech": "",
+    "english": "name of one of the major cities on the southeastern coast of Taiwan",
+    "audio_file": "dangdai-B1L09-I-14.mp3",
+    "tags": "Name"
+  },
+  {
+    "vocab_id": "B1L09-II-01",
+    "traditional": "女 + noun",
+    "simplified": "女 + noun",
+    "pinyin": "nǚ",
+    "part_of_speech": "N",
+    "english": "girl-, female-",
+    "audio_file": "dangdai-B1L09-II-01.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L09-II-02",
+    "traditional": "number + 月",
+    "simplified": "number + 月",
+    "pinyin": "yuè",
+    "part_of_speech": "N",
+    "english": "month of a year",
+    "audio_file": "dangdai-B1L09-II-02.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L09-II-03",
+    "traditional": "number + 號",
+    "simplified": "number + 号",
+    "pinyin": "hào",
+    "part_of_speech": "N",
+    "english": "date, day of a month",
+    "audio_file": "dangdai-B1L09-II-03.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L09-II-04",
+    "traditional": "帶",
+    "simplified": "带",
+    "pinyin": "dài",
+    "part_of_speech": "V",
+    "english": "to take",
+    "audio_file": "dangdai-B1L09-II-04.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L09-II-05",
+    "traditional": "她",
+    "simplified": "她",
+    "pinyin": "tā",
+    "part_of_speech": "N",
+    "english": "she, her",
+    "audio_file": "dangdai-B1L09-II-05.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L09-II-06",
+    "traditional": "還",
+    "simplified": "还",
+    "pinyin": "hái",
+    "part_of_speech": "Adv",
+    "english": "still, additionally",
+    "audio_file": "dangdai-B1L09-II-06.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L09-II-07",
+    "traditional": "建議",
+    "simplified": "建议",
+    "pinyin": "jiànyì",
+    "part_of_speech": "N",
+    "english": "suggestion",
+    "audio_file": "dangdai-B1L09-II-07.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L09-II-08",
+    "traditional": "夜市",
+    "simplified": "夜市",
+    "pinyin": "yèshì",
+    "part_of_speech": "N",
+    "english": "night market",
+    "audio_file": "dangdai-B1L09-II-08.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L09-II-09",
+    "traditional": "應該",
+    "simplified": "应该",
+    "pinyin": "yīnggāi",
+    "part_of_speech": "Vaux",
+    "english": "should",
+    "audio_file": "dangdai-B1L09-II-09.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L09-II-10",
+    "traditional": "逛",
+    "simplified": "逛",
+    "pinyin": "guàng",
+    "part_of_speech": "V",
+    "english": "to wander around, to look around",
+    "audio_file": "dangdai-B1L09-II-10.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L09-II-11",
+    "traditional": "特別",
+    "simplified": "特别",
+    "pinyin": "tèbié",
+    "part_of_speech": "Vs",
+    "english": "special",
+    "audio_file": "dangdai-B1L09-II-11.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L09-II-12",
+    "traditional": "茶館",
+    "simplified": "茶馆",
+    "pinyin": "cháguǎn",
+    "part_of_speech": "N",
+    "english": "tea house",
+    "audio_file": "dangdai-B1L09-II-12.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L09-II-13",
+    "traditional": "決定",
+    "simplified": "决定",
+    "pinyin": "juédìng",
+    "part_of_speech": "Vp",
+    "english": "to decide",
+    "audio_file": "dangdai-B1L09-II-13.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L09-II-14",
+    "traditional": "要是",
+    "simplified": "要是",
+    "pinyin": "yàoshì",
+    "part_of_speech": "Conj",
+    "english": "if",
+    "audio_file": "dangdai-B1L09-II-14.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L09-II-15",
+    "traditional": "就",
+    "simplified": "就",
+    "pinyin": "jiù",
+    "part_of_speech": "Adv",
+    "english": "then",
+    "audio_file": "dangdai-B1L09-II-15.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L09-II-16",
+    "traditional": "貓空",
+    "simplified": "猫空",
+    "pinyin": "Māokōng",
+    "part_of_speech": "",
+    "english": "name of a must-see place in Taipei to visit for fine tea and scenery",
+    "audio_file": "dangdai-B1L09-II-16.mp3",
+    "tags": "Name"
+  },
+  {
+    "vocab_id": "B1L10-I-01",
+    "traditional": "水果",
+    "simplified": "水果",
+    "pinyin": "shuǐguǒ",
+    "part_of_speech": "N",
+    "english": "fruit",
+    "audio_file": "dangdai-B1L10-I-01.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L10-I-02",
+    "traditional": "黃色",
+    "simplified": "黄色",
+    "pinyin": "huángsè",
+    "part_of_speech": "N",
+    "english": "yellow",
+    "audio_file": "dangdai-B1L10-I-02.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L10-I-03",
+    "traditional": "芒果",
+    "simplified": "芒果",
+    "pinyin": "mángguǒ",
+    "part_of_speech": "N",
+    "english": "mango",
+    "audio_file": "dangdai-B1L10-I-03.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L10-I-04",
+    "traditional": "給",
+    "simplified": "给",
+    "pinyin": "gěi",
+    "part_of_speech": "V",
+    "english": "to give",
+    "audio_file": "dangdai-B1L10-I-04.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L10-I-05",
+    "traditional": "塊",
+    "simplified": "块",
+    "pinyin": "kuài",
+    "part_of_speech": "M",
+    "english": "measure word for pieces of food (e.g., meat, cake)",
+    "audio_file": "dangdai-B1L10-I-05.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L10-I-06",
+    "traditional": "香",
+    "simplified": "香",
+    "pinyin": "xiāng",
+    "part_of_speech": "Vs",
+    "english": "fragrant",
+    "audio_file": "dangdai-B1L10-I-06.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L10-I-07",
+    "traditional": "甜",
+    "simplified": "甜",
+    "pinyin": "tián",
+    "part_of_speech": "Vs",
+    "english": "sweet (taste)",
+    "audio_file": "dangdai-B1L10-I-07.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L10-I-08",
+    "traditional": "紅色",
+    "simplified": "红色",
+    "pinyin": "hóngsè",
+    "part_of_speech": "N",
+    "english": "red",
+    "audio_file": "dangdai-B1L10-I-08.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L10-I-09",
+    "traditional": "西瓜",
+    "simplified": "西瓜",
+    "pinyin": "xīguā",
+    "part_of_speech": "N",
+    "english": "watermelon",
+    "audio_file": "dangdai-B1L10-I-09.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L10-I-10",
+    "traditional": "吧",
+    "simplified": "吧",
+    "pinyin": "ba",
+    "part_of_speech": "Ptc",
+    "english": "sentence-final particle for guessing",
+    "audio_file": "dangdai-B1L10-I-10.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L10-I-11",
+    "traditional": "對",
+    "simplified": "对",
+    "pinyin": "duì",
+    "part_of_speech": "Vs",
+    "english": "correct, right",
+    "audio_file": "dangdai-B1L10-I-11.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L10-I-12",
+    "traditional": "以前",
+    "simplified": "以前",
+    "pinyin": "yǐqián",
+    "part_of_speech": "N",
+    "english": "before",
+    "audio_file": "dangdai-B1L10-I-12.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L10-I-13",
+    "traditional": "機會",
+    "simplified": "机会",
+    "pinyin": "jīhuì",
+    "part_of_speech": "N",
+    "english": "opportunity",
+    "audio_file": "dangdai-B1L10-I-13.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L10-I-14",
+    "traditional": "請",
+    "simplified": "请",
+    "pinyin": "qǐng",
+    "part_of_speech": "V",
+    "english": "to treat sb to sth",
+    "audio_file": "dangdai-B1L10-I-14.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L10-I-15",
+    "traditional": "吃吃看",
+    "simplified": "吃吃看",
+    "pinyin": "chīchīkàn",
+    "part_of_speech": "Ph",
+    "english": "to have a taste, try it, taste it",
+    "audio_file": "dangdai-B1L10-I-15.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L10-II-01",
+    "traditional": "拍",
+    "simplified": "拍",
+    "pinyin": "pāi",
+    "part_of_speech": "V",
+    "english": "to take (pictures)",
+    "audio_file": "dangdai-B1L10-II-01.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L10-II-02",
+    "traditional": "笑",
+    "simplified": "笑",
+    "pinyin": "xiào",
+    "part_of_speech": "V",
+    "english": "to laugh, to smile",
+    "audio_file": "dangdai-B1L10-II-02.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L10-II-03",
+    "traditional": "開心",
+    "simplified": "开心",
+    "pinyin": "kāixīn",
+    "part_of_speech": "Vs",
+    "english": "happy",
+    "audio_file": "dangdai-B1L10-II-03.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L10-II-04",
+    "traditional": "穿",
+    "simplified": "穿",
+    "pinyin": "chuān",
+    "part_of_speech": "V",
+    "english": "to wear, to put on",
+    "audio_file": "dangdai-B1L10-II-04.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L10-II-05",
+    "traditional": "衣服",
+    "simplified": "衣服",
+    "pinyin": "yīfú",
+    "part_of_speech": "N",
+    "english": "clothes",
+    "audio_file": "dangdai-B1L10-II-05.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L10-II-06",
+    "traditional": "旅館",
+    "simplified": "旅馆",
+    "pinyin": "lǚguǎn",
+    "part_of_speech": "N",
+    "english": "hotel",
+    "audio_file": "dangdai-B1L10-II-06.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L10-II-07",
+    "traditional": "太太",
+    "simplified": "太太",
+    "pinyin": "tàitai",
+    "part_of_speech": "N",
+    "english": "wife",
+    "audio_file": "dangdai-B1L10-II-07.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L10-II-08",
+    "traditional": "男 + noun",
+    "simplified": "男 + noun",
+    "pinyin": "nán",
+    "part_of_speech": "N",
+    "english": "boy-, male-",
+    "audio_file": "dangdai-B1L10-II-08.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L10-II-09",
+    "traditional": "矮",
+    "simplified": "矮",
+    "pinyin": "ǎi",
+    "part_of_speech": "Vs",
+    "english": "short (height)",
+    "audio_file": "dangdai-B1L10-II-09.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L10-II-10",
+    "traditional": "高",
+    "simplified": "高",
+    "pinyin": "gāo",
+    "part_of_speech": "Vs",
+    "english": "tall",
+    "audio_file": "dangdai-B1L10-II-10.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L10-II-11",
+    "traditional": "弟弟",
+    "simplified": "弟弟",
+    "pinyin": "dìdi",
+    "part_of_speech": "N",
+    "english": "younger brother",
+    "audio_file": "dangdai-B1L10-II-11.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L10-II-12",
+    "traditional": "乾淨",
+    "simplified": "干净",
+    "pinyin": "gānjìng",
+    "part_of_speech": "Vs",
+    "english": "clean",
+    "audio_file": "dangdai-B1L10-II-12.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L10-II-13",
+    "traditional": "窗戶",
+    "simplified": "窗户",
+    "pinyin": "chuānghù",
+    "part_of_speech": "N",
+    "english": "window",
+    "audio_file": "dangdai-B1L10-II-13.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L10-II-14",
+    "traditional": "往",
+    "simplified": "往",
+    "pinyin": "wǎng",
+    "part_of_speech": "Prep",
+    "english": "toward, to",
+    "audio_file": "dangdai-B1L10-II-14.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L10-II-15",
+    "traditional": "藍色",
+    "simplified": "蓝色",
+    "pinyin": "lánsè",
+    "part_of_speech": "N",
+    "english": "blue",
+    "audio_file": "dangdai-B1L10-II-15.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L10-II-16",
+    "traditional": "因為",
+    "simplified": "因为",
+    "pinyin": "yīnwèi",
+    "part_of_speech": "Conj",
+    "english": "because",
+    "audio_file": "dangdai-B1L10-II-16.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L10-II-17",
+    "traditional": "住",
+    "simplified": "住",
+    "pinyin": "zhù",
+    "part_of_speech": "V",
+    "english": "to stay",
+    "audio_file": "dangdai-B1L10-II-17.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L10-II-18",
+    "traditional": "上個月",
+    "simplified": "上个月",
+    "pinyin": "shàng ge yuè",
+    "part_of_speech": "Ph",
+    "english": "last month",
+    "audio_file": "dangdai-B1L10-II-18.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L10-II-19",
+    "traditional": "這些",
+    "simplified": "这些",
+    "pinyin": "zhèxiē",
+    "part_of_speech": "Ph",
+    "english": "these",
+    "audio_file": "dangdai-B1L10-II-19.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L11-I-01",
+    "traditional": "租",
+    "simplified": "租",
+    "pinyin": "zū",
+    "part_of_speech": "V",
+    "english": "to rent",
+    "audio_file": "dangdai-B1L11-I-01.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L11-I-02",
+    "traditional": "房東",
+    "simplified": "房东",
+    "pinyin": "fángdōng",
+    "part_of_speech": "N",
+    "english": "landlord",
+    "audio_file": "dangdai-B1L11-I-02.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L11-I-03",
+    "traditional": "客廳",
+    "simplified": "客厅",
+    "pinyin": "kètīng",
+    "part_of_speech": "N",
+    "english": "living room",
+    "audio_file": "dangdai-B1L11-I-03.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L11-I-04",
+    "traditional": "廚房",
+    "simplified": "厨房",
+    "pinyin": "chúfáng",
+    "part_of_speech": "N",
+    "english": "kitchen",
+    "audio_file": "dangdai-B1L11-I-04.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L11-I-05",
+    "traditional": "左邊",
+    "simplified": "左边",
+    "pinyin": "zuǒbiān",
+    "part_of_speech": "N",
+    "english": "left (side)",
+    "audio_file": "dangdai-B1L11-I-05.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L11-I-06",
+    "traditional": "右邊",
+    "simplified": "右边",
+    "pinyin": "yòubiān",
+    "part_of_speech": "N",
+    "english": "right (side)",
+    "audio_file": "dangdai-B1L11-I-06.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L11-I-07",
+    "traditional": "浴室",
+    "simplified": "浴室",
+    "pinyin": "yùshì",
+    "part_of_speech": "N",
+    "english": "bathroom",
+    "audio_file": "dangdai-B1L11-I-07.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L11-I-08",
+    "traditional": "超市",
+    "simplified": "超市",
+    "pinyin": "chāoshì",
+    "part_of_speech": "N",
+    "english": "supermarket",
+    "audio_file": "dangdai-B1L11-I-08.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L11-I-09",
+    "traditional": "走路",
+    "simplified": "走路",
+    "pinyin": "zǒulù",
+    "part_of_speech": "V-sep",
+    "english": "to walk",
+    "audio_file": "dangdai-B1L11-I-09.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L11-I-10",
+    "traditional": "分鐘",
+    "simplified": "分钟",
+    "pinyin": "fēnzhōng",
+    "part_of_speech": "M",
+    "english": "measure word for minutes",
+    "audio_file": "dangdai-B1L11-I-10.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L11-I-11",
+    "traditional": "就",
+    "simplified": "就",
+    "pinyin": "jiù",
+    "part_of_speech": "Adv",
+    "english": "only, merely",
+    "audio_file": "dangdai-B1L11-I-11.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L11-I-12",
+    "traditional": "到",
+    "simplified": "到",
+    "pinyin": "dào",
+    "part_of_speech": "Vp",
+    "english": "arrive",
+    "audio_file": "dangdai-B1L11-I-12.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L11-I-13",
+    "traditional": "間",
+    "simplified": "间",
+    "pinyin": "jiān",
+    "part_of_speech": "M",
+    "english": "measure word for houses, rooms, etc.",
+    "audio_file": "dangdai-B1L11-I-13.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L11-I-14",
+    "traditional": "空",
+    "simplified": "空",
+    "pinyin": "kōng",
+    "part_of_speech": "Vs",
+    "english": "vacant, empty",
+    "audio_file": "dangdai-B1L11-I-14.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L11-I-15",
+    "traditional": "房間",
+    "simplified": "房间",
+    "pinyin": "fángjiān",
+    "part_of_speech": "N",
+    "english": "room",
+    "audio_file": "dangdai-B1L11-I-15.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L11-I-16",
+    "traditional": "套房",
+    "simplified": "套房",
+    "pinyin": "tàofáng",
+    "part_of_speech": "N",
+    "english": "suite",
+    "audio_file": "dangdai-B1L11-I-16.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L11-I-17",
+    "traditional": "回去",
+    "simplified": "回去",
+    "pinyin": "huíqù",
+    "part_of_speech": "Vi",
+    "english": "to go back, to return",
+    "audio_file": "dangdai-B1L11-I-17.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L11-I-18",
+    "traditional": "想",
+    "simplified": "想",
+    "pinyin": "xiǎng",
+    "part_of_speech": "V",
+    "english": "to think",
+    "audio_file": "dangdai-B1L11-I-18.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L11-I-19",
+    "traditional": "再",
+    "simplified": "再",
+    "pinyin": "zài",
+    "part_of_speech": "Adv",
+    "english": "and then",
+    "audio_file": "dangdai-B1L11-I-19.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L11-I-20",
+    "traditional": "電話",
+    "simplified": "电话",
+    "pinyin": "diànhuà",
+    "part_of_speech": "N",
+    "english": "telephone",
+    "audio_file": "dangdai-B1L11-I-20.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L11-I-21",
+    "traditional": "給",
+    "simplified": "给",
+    "pinyin": "gěi",
+    "part_of_speech": "Prep",
+    "english": "to",
+    "audio_file": "dangdai-B1L11-I-21.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L11-I-22",
+    "traditional": "林",
+    "simplified": "林",
+    "pinyin": "Lín",
+    "part_of_speech": "",
+    "english": "Chinese last name, common in Taiwan",
+    "audio_file": "dangdai-B1L11-I-22.mp3",
+    "tags": "Name"
+  },
+  {
+    "vocab_id": "B1L11-I-23",
+    "traditional": "打電話",
+    "simplified": "打电话",
+    "pinyin": "dǎ diànhuà",
+    "part_of_speech": "Ph",
+    "english": "to make a phone call",
+    "audio_file": "dangdai-B1L11-I-23.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L11-II-01",
+    "traditional": "喂",
+    "simplified": "喂",
+    "pinyin": "wéi",
+    "part_of_speech": "Ptc",
+    "english": "a particle used in addressing people, especially over the phone",
+    "audio_file": "dangdai-B1L11-II-01.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L11-II-02",
+    "traditional": "房租",
+    "simplified": "房租",
+    "pinyin": "fángzū",
+    "part_of_speech": "N",
+    "english": "rent (for a room or a house)",
+    "audio_file": "dangdai-B1L11-II-02.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L11-II-03",
+    "traditional": "已經",
+    "simplified": "已经",
+    "pinyin": "yǐjīng",
+    "part_of_speech": "Adv",
+    "english": "already",
+    "audio_file": "dangdai-B1L11-II-03.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L11-II-04",
+    "traditional": "習慣",
+    "simplified": "习惯",
+    "pinyin": "xíguàn",
+    "part_of_speech": "Vs",
+    "english": "to get settled down, to get used to",
+    "audio_file": "dangdai-B1L11-II-04.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L11-II-05",
+    "traditional": "問題",
+    "simplified": "问题",
+    "pinyin": "wèntí",
+    "part_of_speech": "N",
+    "english": "problem, question",
+    "audio_file": "dangdai-B1L11-II-05.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L11-II-06",
+    "traditional": "熱水器",
+    "simplified": "热水器",
+    "pinyin": "rèshuǐqì",
+    "part_of_speech": "N",
+    "english": "water heater",
+    "audio_file": "dangdai-B1L11-II-06.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L11-II-07",
+    "traditional": "好像",
+    "simplified": "好像",
+    "pinyin": "hǎoxiàng",
+    "part_of_speech": "Adv",
+    "english": "to seem to be, to appear to be (often used to take the edge off of a comment)",
+    "audio_file": "dangdai-B1L11-II-07.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L11-II-08",
+    "traditional": "會",
+    "simplified": "会",
+    "pinyin": "huì",
+    "part_of_speech": "Vaux",
+    "english": "will",
+    "audio_file": "dangdai-B1L11-II-08.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L11-II-09",
+    "traditional": "等",
+    "simplified": "等",
+    "pinyin": "děng",
+    "part_of_speech": "V",
+    "english": "to wait for",
+    "audio_file": "dangdai-B1L11-II-09.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L11-II-10",
+    "traditional": "那",
+    "simplified": "那",
+    "pinyin": "nà",
+    "part_of_speech": "Ptc",
+    "english": "then, in that case",
+    "audio_file": "dangdai-B1L11-II-10.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L11-II-11",
+    "traditional": "裝",
+    "simplified": "装",
+    "pinyin": "zhuāng",
+    "part_of_speech": "V",
+    "english": "to install",
+    "audio_file": "dangdai-B1L11-II-11.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L11-II-12",
+    "traditional": "不過",
+    "simplified": "不过",
+    "pinyin": "búguò",
+    "part_of_speech": "Conj",
+    "english": "however, but",
+    "audio_file": "dangdai-B1L11-II-12.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L11-II-13",
+    "traditional": "付",
+    "simplified": "付",
+    "pinyin": "fù",
+    "part_of_speech": "V",
+    "english": "to pay",
+    "audio_file": "dangdai-B1L11-II-13.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L11-II-14",
+    "traditional": "收到",
+    "simplified": "收到",
+    "pinyin": "shōudào",
+    "part_of_speech": "Ph",
+    "english": "to receive",
+    "audio_file": "dangdai-B1L11-II-14.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L11-II-15",
+    "traditional": "不好意思",
+    "simplified": "不好意思",
+    "pinyin": "bùhǎo yìsi",
+    "part_of_speech": "Ph",
+    "english": "sorry",
+    "audio_file": "dangdai-B1L11-II-15.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L11-II-16",
+    "traditional": "沒關係",
+    "simplified": "没关系",
+    "pinyin": "méi guānxi",
+    "part_of_speech": "Ph",
+    "english": "Not a problem",
+    "audio_file": "dangdai-B1L11-II-16.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L11-II-17",
+    "traditional": "有線電視",
+    "simplified": "有线电视",
+    "pinyin": "yǒuxiàn diànshì",
+    "part_of_speech": "Ph",
+    "english": "cable TV",
+    "audio_file": "dangdai-B1L11-II-17.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L12-I-01",
+    "traditional": "計畫",
+    "simplified": "计划",
+    "pinyin": "jìhuà",
+    "part_of_speech": "V",
+    "english": "to plan to",
+    "audio_file": "dangdai-B1L12-I-01.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L12-I-02",
+    "traditional": "年",
+    "simplified": "年",
+    "pinyin": "nián",
+    "part_of_speech": "M",
+    "english": "measure word for year",
+    "audio_file": "dangdai-B1L12-I-02.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L12-I-03",
+    "traditional": "久",
+    "simplified": "久",
+    "pinyin": "jiǔ",
+    "part_of_speech": "Vs",
+    "english": "long (time)",
+    "audio_file": "dangdai-B1L12-I-03.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L12-I-04",
+    "traditional": "時間",
+    "simplified": "时间",
+    "pinyin": "shíjiān",
+    "part_of_speech": "N",
+    "english": "time",
+    "audio_file": "dangdai-B1L12-I-04.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L12-I-05",
+    "traditional": "先",
+    "simplified": "先",
+    "pinyin": "xiān",
+    "part_of_speech": "Adv",
+    "english": "first",
+    "audio_file": "dangdai-B1L12-I-05.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L12-I-06",
+    "traditional": "念",
+    "simplified": "念",
+    "pinyin": "niàn",
+    "part_of_speech": "V",
+    "english": "to study",
+    "audio_file": "dangdai-B1L12-I-06.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L12-I-07",
+    "traditional": "大學",
+    "simplified": "大学",
+    "pinyin": "dàxué",
+    "part_of_speech": "N",
+    "english": "university",
+    "audio_file": "dangdai-B1L12-I-07.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L12-I-08",
+    "traditional": "需要",
+    "simplified": "需要",
+    "pinyin": "xūyào",
+    "part_of_speech": "Vst",
+    "english": "to need",
+    "audio_file": "dangdai-B1L12-I-08.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L12-I-09",
+    "traditional": "花",
+    "simplified": "花",
+    "pinyin": "huā",
+    "part_of_speech": "V",
+    "english": "to spend (time or money)",
+    "audio_file": "dangdai-B1L12-I-09.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L12-I-10",
+    "traditional": "獎學金",
+    "simplified": "奖学金",
+    "pinyin": "jiǎngxuéjīn",
+    "part_of_speech": "N",
+    "english": "scholarship",
+    "audio_file": "dangdai-B1L12-I-10.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L12-I-11",
+    "traditional": "成績",
+    "simplified": "成绩",
+    "pinyin": "chéngjī",
+    "part_of_speech": "N",
+    "english": "grades",
+    "audio_file": "dangdai-B1L12-I-11.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L12-I-12",
+    "traditional": "學費",
+    "simplified": "学费",
+    "pinyin": "xuéfèi",
+    "part_of_speech": "N",
+    "english": "tuition",
+    "audio_file": "dangdai-B1L12-I-12.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L12-I-13",
+    "traditional": "公司",
+    "simplified": "公司",
+    "pinyin": "gōngsī",
+    "part_of_speech": "N",
+    "english": "company",
+    "audio_file": "dangdai-B1L12-I-13.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L12-I-14",
+    "traditional": "替",
+    "simplified": "替",
+    "pinyin": "tì",
+    "part_of_speech": "Prep",
+    "english": "for, on behalf of",
+    "audio_file": "dangdai-B1L12-I-14.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L12-I-15",
+    "traditional": "希望",
+    "simplified": "希望",
+    "pinyin": "xīwàng",
+    "part_of_speech": "Vst",
+    "english": "to hope",
+    "audio_file": "dangdai-B1L12-I-15.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L12-I-16",
+    "traditional": "以後",
+    "simplified": "以后",
+    "pinyin": "yǐhòu",
+    "part_of_speech": "N",
+    "english": "in the future",
+    "audio_file": "dangdai-B1L12-I-16.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L12-I-17",
+    "traditional": "到",
+    "simplified": "到",
+    "pinyin": "dào",
+    "part_of_speech": "V",
+    "english": "to go/come to",
+    "audio_file": "dangdai-B1L12-I-17.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L12-I-18",
+    "traditional": "上班",
+    "simplified": "上班",
+    "pinyin": "shàngbān",
+    "part_of_speech": "V-sep",
+    "english": "to go to work",
+    "audio_file": "dangdai-B1L12-I-18.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L12-I-19",
+    "traditional": "念書",
+    "simplified": "念书",
+    "pinyin": "niànshū",
+    "part_of_speech": "V-sep",
+    "english": "to study",
+    "audio_file": "dangdai-B1L12-I-19.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L12-I-20",
+    "traditional": "累",
+    "simplified": "累",
+    "pinyin": "lèi",
+    "part_of_speech": "Vs",
+    "english": "tired",
+    "audio_file": "dangdai-B1L12-I-20.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L12-I-21",
+    "traditional": "語言中心",
+    "simplified": "语言中心",
+    "pinyin": "yǔyán zhōngxīn",
+    "part_of_speech": "Ph",
+    "english": "language center",
+    "audio_file": "dangdai-B1L12-I-21.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L12-I-22",
+    "traditional": "加油",
+    "simplified": "加油",
+    "pinyin": "jiāyóu",
+    "part_of_speech": "Ph",
+    "english": "keep up the good work",
+    "audio_file": "dangdai-B1L12-I-22.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L12-II-01",
+    "traditional": "工作",
+    "simplified": "工作",
+    "pinyin": "gōngzuò",
+    "part_of_speech": "Vi",
+    "english": "to work",
+    "audio_file": "dangdai-B1L12-II-01.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L12-II-02",
+    "traditional": "去年",
+    "simplified": "去年",
+    "pinyin": "qùnián",
+    "part_of_speech": "N",
+    "english": "last year",
+    "audio_file": "dangdai-B1L12-II-02.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L12-II-03",
+    "traditional": "做",
+    "simplified": "做",
+    "pinyin": "zuò",
+    "part_of_speech": "V",
+    "english": "to do, to engage in",
+    "audio_file": "dangdai-B1L12-II-03.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L12-II-04",
+    "traditional": "生意",
+    "simplified": "生意",
+    "pinyin": "shēngyì",
+    "part_of_speech": "N",
+    "english": "business",
+    "audio_file": "dangdai-B1L12-II-04.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L12-II-05",
+    "traditional": "以後",
+    "simplified": "以后",
+    "pinyin": "yǐhòu",
+    "part_of_speech": "N",
+    "english": "afterwards",
+    "audio_file": "dangdai-B1L12-II-05.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L12-II-06",
+    "traditional": "好",
+    "simplified": "好",
+    "pinyin": "hǎo",
+    "part_of_speech": "Vs",
+    "english": "easy to",
+    "audio_file": "dangdai-B1L12-II-06.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L12-II-07",
+    "traditional": "找",
+    "simplified": "找",
+    "pinyin": "zhǎo",
+    "part_of_speech": "V",
+    "english": "to look for",
+    "audio_file": "dangdai-B1L12-II-07.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L12-II-08",
+    "traditional": "工作",
+    "simplified": "工作",
+    "pinyin": "gōngzuò",
+    "part_of_speech": "N",
+    "english": "job, work",
+    "audio_file": "dangdai-B1L12-II-08.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L12-II-09",
+    "traditional": "這樣",
+    "simplified": "这样",
+    "pinyin": "zhèyàng",
+    "part_of_speech": "N",
+    "english": "this kind (of)",
+    "audio_file": "dangdai-B1L12-II-09.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L12-II-10",
+    "traditional": "國家",
+    "simplified": "国家",
+    "pinyin": "guójiā",
+    "part_of_speech": "N",
+    "english": "country",
+    "audio_file": "dangdai-B1L12-II-10.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L12-II-11",
+    "traditional": "試",
+    "simplified": "试",
+    "pinyin": "shì",
+    "part_of_speech": "Vi",
+    "english": "to try",
+    "audio_file": "dangdai-B1L12-II-11.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L12-II-12",
+    "traditional": "難",
+    "simplified": "难",
+    "pinyin": "nán",
+    "part_of_speech": "Vs",
+    "english": "hard to, difficult to",
+    "audio_file": "dangdai-B1L12-II-12.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L12-II-13",
+    "traditional": "那麼",
+    "simplified": "那么",
+    "pinyin": "nàme",
+    "part_of_speech": "Ptc",
+    "english": "then",
+    "audio_file": "dangdai-B1L12-II-13.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L12-II-14",
+    "traditional": "再",
+    "simplified": "再",
+    "pinyin": "zài",
+    "part_of_speech": "Adv",
+    "english": "again",
+    "audio_file": "dangdai-B1L12-II-14.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L12-II-15",
+    "traditional": "試試看",
+    "simplified": "试试看",
+    "pinyin": "shìshìkàn",
+    "part_of_speech": "Ph",
+    "english": "to give it a try, to try and see what happens",
+    "audio_file": "dangdai-B1L12-II-15.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L13-I-01",
+    "traditional": "生日",
+    "simplified": "生日",
+    "pinyin": "shēngrì",
+    "part_of_speech": "N",
+    "english": "birthday",
+    "audio_file": "dangdai-B1L13-I-01.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L13-I-02",
+    "traditional": "快樂",
+    "simplified": "快乐",
+    "pinyin": "kuàilè",
+    "part_of_speech": "Vs",
+    "english": "happy",
+    "audio_file": "dangdai-B1L13-I-02.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L13-I-03",
+    "traditional": "回來",
+    "simplified": "回来",
+    "pinyin": "huílái",
+    "part_of_speech": "Vi",
+    "english": "to come back",
+    "audio_file": "dangdai-B1L13-I-03.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L13-I-04",
+    "traditional": "啊",
+    "simplified": "啊",
+    "pinyin": "a",
+    "part_of_speech": "Ptc",
+    "english": "a particle indicating a realization",
+    "audio_file": "dangdai-B1L13-I-04.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L13-I-05",
+    "traditional": "怎麼",
+    "simplified": "怎么",
+    "pinyin": "zěnme",
+    "part_of_speech": "Adv",
+    "english": "How come?",
+    "audio_file": "dangdai-B1L13-I-05.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L13-I-06",
+    "traditional": "忘（了）",
+    "simplified": "忘（了）",
+    "pinyin": "wàngle",
+    "part_of_speech": "Vpt",
+    "english": "to forget",
+    "audio_file": "dangdai-B1L13-I-06.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L13-I-07",
+    "traditional": "記得",
+    "simplified": "记得",
+    "pinyin": "jìde",
+    "part_of_speech": "Vst",
+    "english": "to remember",
+    "audio_file": "dangdai-B1L13-I-07.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L13-I-08",
+    "traditional": "當然",
+    "simplified": "当然",
+    "pinyin": "dāngrán",
+    "part_of_speech": "Adv",
+    "english": "certainly, of course",
+    "audio_file": "dangdai-B1L13-I-08.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L13-I-09",
+    "traditional": "語言",
+    "simplified": "语言",
+    "pinyin": "yǔyán",
+    "part_of_speech": "N",
+    "english": "language",
+    "audio_file": "dangdai-B1L13-I-09.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L13-I-10",
+    "traditional": "交換",
+    "simplified": "交换",
+    "pinyin": "jiāohuàn",
+    "part_of_speech": "V",
+    "english": "to exchange",
+    "audio_file": "dangdai-B1L13-I-10.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L13-I-11",
+    "traditional": "那麼",
+    "simplified": "那么",
+    "pinyin": "nàme",
+    "part_of_speech": "Adv",
+    "english": "so (very)",
+    "audio_file": "dangdai-B1L13-I-11.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L13-I-12",
+    "traditional": "熱心",
+    "simplified": "热心",
+    "pinyin": "rèxīn",
+    "part_of_speech": "Vs",
+    "english": "with enthusiasm",
+    "audio_file": "dangdai-B1L13-I-12.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L13-I-13",
+    "traditional": "西班牙文",
+    "simplified": "西班牙文",
+    "pinyin": "Xībānyá wén",
+    "part_of_speech": "N",
+    "english": "the Spanish language",
+    "audio_file": "dangdai-B1L13-I-13.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L13-I-14",
+    "traditional": "一樣",
+    "simplified": "一样",
+    "pinyin": "yíyàng",
+    "part_of_speech": "Vs",
+    "english": "the same, alike",
+    "audio_file": "dangdai-B1L13-I-14.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L13-I-15",
+    "traditional": "過",
+    "simplified": "过",
+    "pinyin": "guò",
+    "part_of_speech": "V",
+    "english": "to celebrate",
+    "audio_file": "dangdai-B1L13-I-15.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L13-I-16",
+    "traditional": "左右",
+    "simplified": "左右",
+    "pinyin": "zuǒyòu",
+    "part_of_speech": "N",
+    "english": "approximately",
+    "audio_file": "dangdai-B1L13-I-16.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L13-I-17",
+    "traditional": "門口",
+    "simplified": "门口",
+    "pinyin": "ménkǒu",
+    "part_of_speech": "N",
+    "english": "gate, entrance",
+    "audio_file": "dangdai-B1L13-I-17.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L13-I-18",
+    "traditional": "西班牙",
+    "simplified": "西班牙",
+    "pinyin": "Xībānyá",
+    "part_of_speech": "",
+    "english": "Spain",
+    "audio_file": "dangdai-B1L13-I-18.mp3",
+    "tags": "Name"
+  },
+  {
+    "vocab_id": "B1L13-I-19",
+    "traditional": "生日快樂",
+    "simplified": "生日快乐",
+    "pinyin": "shēngrì kuàilè",
+    "part_of_speech": "Ph",
+    "english": "Happy Birthday.",
+    "audio_file": "dangdai-B1L13-I-19.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L13-I-20",
+    "traditional": "我就是",
+    "simplified": "我就是",
+    "pinyin": "wǒ jiù shì",
+    "part_of_speech": "Ph",
+    "english": "(said of self on the phone) This is s/he speaking.",
+    "audio_file": "dangdai-B1L13-I-20.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L13-I-21",
+    "traditional": "好久不見",
+    "simplified": "好久不见",
+    "pinyin": "hǎojiǔ bújiàn",
+    "part_of_speech": "Ph",
+    "english": "long time no see",
+    "audio_file": "dangdai-B1L13-I-21.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L13-I-22",
+    "traditional": "不必客氣",
+    "simplified": "不必客气",
+    "pinyin": "búbì kèqì",
+    "part_of_speech": "Ph",
+    "english": "No need to stand on formalities, i.e., It's my pleasure.",
+    "audio_file": "dangdai-B1L13-I-22.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L13-I-23",
+    "traditional": "太客氣",
+    "simplified": "太客气",
+    "pinyin": "tài kèqì",
+    "part_of_speech": "Ph",
+    "english": "That's very kind of you.",
+    "audio_file": "dangdai-B1L13-I-23.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L13-II-01",
+    "traditional": "禮物",
+    "simplified": "礼物",
+    "pinyin": "lǐwù",
+    "part_of_speech": "N",
+    "english": "gift, present",
+    "audio_file": "dangdai-B1L13-II-01.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L13-II-02",
+    "traditional": "今年",
+    "simplified": "今年",
+    "pinyin": "jīnnián",
+    "part_of_speech": "N",
+    "english": "this year",
+    "audio_file": "dangdai-B1L13-II-02.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L13-II-03",
+    "traditional": "訂",
+    "simplified": "订",
+    "pinyin": "dìng",
+    "part_of_speech": "V",
+    "english": "to order (something in advance)",
+    "audio_file": "dangdai-B1L13-II-03.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L13-II-04",
+    "traditional": "了",
+    "simplified": "了",
+    "pinyin": "le",
+    "part_of_speech": "Ptc",
+    "english": "verbal particle indicating a completed action",
+    "audio_file": "dangdai-B1L13-II-04.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L13-II-05",
+    "traditional": "豬腳",
+    "simplified": "猪脚",
+    "pinyin": "zhūjiǎo",
+    "part_of_speech": "N",
+    "english": "pork knuckles",
+    "audio_file": "dangdai-B1L13-II-05.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L13-II-06",
+    "traditional": "麵線",
+    "simplified": "面线",
+    "pinyin": "miànxiàn",
+    "part_of_speech": "N",
+    "english": "extra fine noodles",
+    "audio_file": "dangdai-B1L13-II-06.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L13-II-07",
+    "traditional": "蛋",
+    "simplified": "蛋",
+    "pinyin": "dàn",
+    "part_of_speech": "N",
+    "english": "egg",
+    "audio_file": "dangdai-B1L13-II-07.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L13-II-08",
+    "traditional": "一點",
+    "simplified": "一点",
+    "pinyin": "yìdiǎn",
+    "part_of_speech": "Vs",
+    "english": "a little, some",
+    "audio_file": "dangdai-B1L13-II-08.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L13-II-09",
+    "traditional": "傳統",
+    "simplified": "传统",
+    "pinyin": "chuántǒng",
+    "part_of_speech": "N",
+    "english": "tradition, customs",
+    "audio_file": "dangdai-B1L13-II-09.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L13-II-10",
+    "traditional": "年輕",
+    "simplified": "年轻",
+    "pinyin": "niánqīng",
+    "part_of_speech": "Vs",
+    "english": "young",
+    "audio_file": "dangdai-B1L13-II-10.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L13-II-11",
+    "traditional": "蛋糕",
+    "simplified": "蛋糕",
+    "pinyin": "dàngāo",
+    "part_of_speech": "N",
+    "english": "cake",
+    "audio_file": "dangdai-B1L13-II-11.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L13-II-12",
+    "traditional": "對",
+    "simplified": "对",
+    "pinyin": "duì",
+    "part_of_speech": "Prep",
+    "english": "to",
+    "audio_file": "dangdai-B1L13-II-12.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L13-II-13",
+    "traditional": "祝",
+    "simplified": "祝",
+    "pinyin": "zhù",
+    "part_of_speech": "V",
+    "english": "to wish (somebody happiness, good luck, etc.)",
+    "audio_file": "dangdai-B1L13-II-13.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L13-II-14",
+    "traditional": "哪裡，哪裡",
+    "simplified": "哪里，哪里",
+    "pinyin": "Nǎlǐ, nǎlǐ",
+    "part_of_speech": "Ph",
+    "english": "Don't mention it. It's my pleasure.",
+    "audio_file": "dangdai-B1L13-II-14.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L13-II-15",
+    "traditional": "大部分",
+    "simplified": "大部分",
+    "pinyin": "dà bùfèn",
+    "part_of_speech": "Ph",
+    "english": "most (of), mostly",
+    "audio_file": "dangdai-B1L13-II-15.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L13-II-16",
+    "traditional": "萬事如意",
+    "simplified": "万事如意",
+    "pinyin": "wànshì rúyì",
+    "part_of_speech": "Ph",
+    "english": "May everything go your way.",
+    "audio_file": "dangdai-B1L13-II-16.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L13-II-17",
+    "traditional": "心想事成",
+    "simplified": "心想事成",
+    "pinyin": "xīnxiǎng shìchéng",
+    "part_of_speech": "Ph",
+    "english": "May all your wishes come true.",
+    "audio_file": "dangdai-B1L13-II-17.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L14-I-01",
+    "traditional": "天氣",
+    "simplified": "天气",
+    "pinyin": "tiānqì",
+    "part_of_speech": "N",
+    "english": "weather",
+    "audio_file": "dangdai-B1L14-I-01.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L14-I-02",
+    "traditional": "冷",
+    "simplified": "冷",
+    "pinyin": "lěng",
+    "part_of_speech": "Vs",
+    "english": "cold",
+    "audio_file": "dangdai-B1L14-I-02.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L14-I-03",
+    "traditional": "風",
+    "simplified": "风",
+    "pinyin": "fēng",
+    "part_of_speech": "N",
+    "english": "wind",
+    "audio_file": "dangdai-B1L14-I-03.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L14-I-04",
+    "traditional": "滑雪",
+    "simplified": "滑雪",
+    "pinyin": "huáxuě",
+    "part_of_speech": "V-sep",
+    "english": "to ski",
+    "audio_file": "dangdai-B1L14-I-04.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L14-I-05",
+    "traditional": "春天",
+    "simplified": "春天",
+    "pinyin": "chūntiān",
+    "part_of_speech": "N",
+    "english": "spring (season)",
+    "audio_file": "dangdai-B1L14-I-05.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L14-I-06",
+    "traditional": "想",
+    "simplified": "想",
+    "pinyin": "xiǎng",
+    "part_of_speech": "Vst",
+    "english": "to miss (someone)",
+    "audio_file": "dangdai-B1L14-I-06.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L14-I-07",
+    "traditional": "新年",
+    "simplified": "新年",
+    "pinyin": "xīnnián",
+    "part_of_speech": "N",
+    "english": "New Year",
+    "audio_file": "dangdai-B1L14-I-07.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L14-I-08",
+    "traditional": "快",
+    "simplified": "快",
+    "pinyin": "kuài",
+    "part_of_speech": "Adv",
+    "english": "soon",
+    "audio_file": "dangdai-B1L14-I-08.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L14-I-09",
+    "traditional": "父母",
+    "simplified": "父母",
+    "pinyin": "fùmǔ",
+    "part_of_speech": "N",
+    "english": "parents",
+    "audio_file": "dangdai-B1L14-I-09.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L14-I-10",
+    "traditional": "冬天",
+    "simplified": "冬天",
+    "pinyin": "dōngtiān",
+    "part_of_speech": "N",
+    "english": "winter (season)",
+    "audio_file": "dangdai-B1L14-I-10.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L14-I-11",
+    "traditional": "明年",
+    "simplified": "明年",
+    "pinyin": "míngnián",
+    "part_of_speech": "N",
+    "english": "next year",
+    "audio_file": "dangdai-B1L14-I-11.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L14-I-12",
+    "traditional": "秋天",
+    "simplified": "秋天",
+    "pinyin": "qiūtiān",
+    "part_of_speech": "N",
+    "english": "autumn (season)",
+    "audio_file": "dangdai-B1L14-I-12.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L14-I-13",
+    "traditional": "紅葉",
+    "simplified": "红叶",
+    "pinyin": "hóngyè",
+    "part_of_speech": "N",
+    "english": "red maple leaves",
+    "audio_file": "dangdai-B1L14-I-13.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L14-I-14",
+    "traditional": "只",
+    "simplified": "只",
+    "pinyin": "zhǐ",
+    "part_of_speech": "Adv",
+    "english": "only, merely",
+    "audio_file": "dangdai-B1L14-I-14.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L14-I-15",
+    "traditional": "玉山",
+    "simplified": "玉山",
+    "pinyin": "Yùshān",
+    "part_of_speech": "",
+    "english": "Yu Shan (Mount Jade), tallest mountain in central Taiwan",
+    "audio_file": "dangdai-B1L14-I-15.mp3",
+    "tags": "Name"
+  },
+  {
+    "vocab_id": "B1L14-I-16",
+    "traditional": "紐約",
+    "simplified": "纽约",
+    "pinyin": "Niǔyuē",
+    "part_of_speech": "",
+    "english": "New York",
+    "audio_file": "dangdai-B1L14-I-16.mp3",
+    "tags": "Name"
+  },
+  {
+    "vocab_id": "B1L14-I-17",
+    "traditional": "下雪",
+    "simplified": "下雪",
+    "pinyin": "xiàxuě",
+    "part_of_speech": "Ph",
+    "english": "to snow",
+    "audio_file": "dangdai-B1L14-I-17.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L14-I-18",
+    "traditional": "十二月底",
+    "simplified": "十二月底",
+    "pinyin": "shí'èryuè dǐ",
+    "part_of_speech": "Ph",
+    "english": "the end of December",
+    "audio_file": "dangdai-B1L14-I-18.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L14-II-01",
+    "traditional": "雨",
+    "simplified": "雨",
+    "pinyin": "yǔ",
+    "part_of_speech": "N",
+    "english": "rain",
+    "audio_file": "dangdai-B1L14-II-01.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L14-II-02",
+    "traditional": "傘",
+    "simplified": "伞",
+    "pinyin": "sǎn",
+    "part_of_speech": "N",
+    "english": "umbrella",
+    "audio_file": "dangdai-B1L14-II-02.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L14-II-03",
+    "traditional": "颱風",
+    "simplified": "台风",
+    "pinyin": "táifēng",
+    "part_of_speech": "N",
+    "english": "typhoon",
+    "audio_file": "dangdai-B1L14-II-03.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L14-II-04",
+    "traditional": "要",
+    "simplified": "要",
+    "pinyin": "yào",
+    "part_of_speech": "Adv",
+    "english": "will, going to",
+    "audio_file": "dangdai-B1L14-II-04.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L14-II-05",
+    "traditional": "夏天",
+    "simplified": "夏天",
+    "pinyin": "xiàtiān",
+    "part_of_speech": "N",
+    "english": "summer (season)",
+    "audio_file": "dangdai-B1L14-II-05.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L14-II-06",
+    "traditional": "濕",
+    "simplified": "湿",
+    "pinyin": "shī",
+    "part_of_speech": "Vs",
+    "english": "wet",
+    "audio_file": "dangdai-B1L14-II-06.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L14-II-07",
+    "traditional": "討厭",
+    "simplified": "讨厌",
+    "pinyin": "tǎoyàn",
+    "part_of_speech": "Vs",
+    "english": "annoying",
+    "audio_file": "dangdai-B1L14-II-07.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L14-II-08",
+    "traditional": "新聞",
+    "simplified": "新闻",
+    "pinyin": "xīnwén",
+    "part_of_speech": "N",
+    "english": "news",
+    "audio_file": "dangdai-B1L14-II-08.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L14-II-09",
+    "traditional": "更",
+    "simplified": "更",
+    "pinyin": "gèng",
+    "part_of_speech": "Adv",
+    "english": "even (more, less, etc.)",
+    "audio_file": "dangdai-B1L14-II-09.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L14-II-10",
+    "traditional": "大家",
+    "simplified": "大家",
+    "pinyin": "dàjiā",
+    "part_of_speech": "N",
+    "english": "everyone",
+    "audio_file": "dangdai-B1L14-II-10.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L14-II-11",
+    "traditional": "小心",
+    "simplified": "小心",
+    "pinyin": "xiǎoxīn",
+    "part_of_speech": "Vs",
+    "english": "to be careful, to take care",
+    "audio_file": "dangdai-B1L14-II-11.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L14-II-12",
+    "traditional": "可怕",
+    "simplified": "可怕",
+    "pinyin": "kěpà",
+    "part_of_speech": "Vs",
+    "english": "scary",
+    "audio_file": "dangdai-B1L14-II-12.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L14-II-13",
+    "traditional": "停",
+    "simplified": "停",
+    "pinyin": "tíng",
+    "part_of_speech": "Vp",
+    "english": "to stop",
+    "audio_file": "dangdai-B1L14-II-13.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L14-II-14",
+    "traditional": "下雨",
+    "simplified": "下雨",
+    "pinyin": "xiàyǔ",
+    "part_of_speech": "Ph",
+    "english": "to rain",
+    "audio_file": "dangdai-B1L14-II-14.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L14-II-15",
+    "traditional": "這次",
+    "simplified": "这次",
+    "pinyin": "zhè cì",
+    "part_of_speech": "Ph",
+    "english": "this time",
+    "audio_file": "dangdai-B1L14-II-15.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L14-II-16",
+    "traditional": "上次",
+    "simplified": "上次",
+    "pinyin": "shàng cì",
+    "part_of_speech": "Ph",
+    "english": "last time",
+    "audio_file": "dangdai-B1L14-II-16.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L14-II-17",
+    "traditional": "慢走",
+    "simplified": "慢走",
+    "pinyin": "màn zǒu",
+    "part_of_speech": "Ph",
+    "english": "Bye. Take care.",
+    "audio_file": "dangdai-B1L14-II-17.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L15-I-01",
+    "traditional": "醫生",
+    "simplified": "医生",
+    "pinyin": "yīshēng",
+    "part_of_speech": "N",
+    "english": "doctor",
+    "audio_file": "dangdai-B1L15-I-01.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L15-I-02",
+    "traditional": "一直",
+    "simplified": "一直",
+    "pinyin": "yìzhí",
+    "part_of_speech": "Adv",
+    "english": "continuously, all the way",
+    "audio_file": "dangdai-B1L15-I-02.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L15-I-03",
+    "traditional": "流",
+    "simplified": "流",
+    "pinyin": "liú",
+    "part_of_speech": "V",
+    "english": "to flow",
+    "audio_file": "dangdai-B1L15-I-03.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L15-I-04",
+    "traditional": "鼻水",
+    "simplified": "鼻水",
+    "pinyin": "bíshuǐ",
+    "part_of_speech": "N",
+    "english": "snot, nasal mucus, a running nose",
+    "audio_file": "dangdai-B1L15-I-04.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L15-I-05",
+    "traditional": "頭",
+    "simplified": "头",
+    "pinyin": "tóu",
+    "part_of_speech": "N",
+    "english": "head",
+    "audio_file": "dangdai-B1L15-I-05.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L15-I-06",
+    "traditional": "痛",
+    "simplified": "痛",
+    "pinyin": "tòng",
+    "part_of_speech": "Vs",
+    "english": "painful",
+    "audio_file": "dangdai-B1L15-I-06.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L15-I-07",
+    "traditional": "胃口",
+    "simplified": "胃口",
+    "pinyin": "wèikǒu",
+    "part_of_speech": "N",
+    "english": "appetite",
+    "audio_file": "dangdai-B1L15-I-07.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L15-I-08",
+    "traditional": "差",
+    "simplified": "差",
+    "pinyin": "chā",
+    "part_of_speech": "Vs",
+    "english": "poor, bad",
+    "audio_file": "dangdai-B1L15-I-08.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L15-I-09",
+    "traditional": "喉嚨",
+    "simplified": "喉咙",
+    "pinyin": "hóulóng",
+    "part_of_speech": "N",
+    "english": "throat",
+    "audio_file": "dangdai-B1L15-I-09.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L15-I-10",
+    "traditional": "發炎",
+    "simplified": "发炎",
+    "pinyin": "fāyán",
+    "part_of_speech": "Vp-sep",
+    "english": "to be inflamed",
+    "audio_file": "dangdai-B1L15-I-10.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L15-I-11",
+    "traditional": "生病",
+    "simplified": "生病",
+    "pinyin": "shēngbìng",
+    "part_of_speech": "Vp-sep",
+    "english": "to fall ill",
+    "audio_file": "dangdai-B1L15-I-11.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L15-I-12",
+    "traditional": "發燒",
+    "simplified": "发烧",
+    "pinyin": "fāshāo",
+    "part_of_speech": "Vp-sep",
+    "english": "to have a fever",
+    "audio_file": "dangdai-B1L15-I-12.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L15-I-13",
+    "traditional": "感冒",
+    "simplified": "感冒",
+    "pinyin": "gǎnmào",
+    "part_of_speech": "Vp",
+    "english": "to catch/have a cold",
+    "audio_file": "dangdai-B1L15-I-13.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L15-I-14",
+    "traditional": "藥",
+    "simplified": "药",
+    "pinyin": "yào",
+    "part_of_speech": "N",
+    "english": "medicine",
+    "audio_file": "dangdai-B1L15-I-14.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L15-I-15",
+    "traditional": "藥局",
+    "simplified": "药局",
+    "pinyin": "yàojú",
+    "part_of_speech": "N",
+    "english": "pharmacy, drug store",
+    "audio_file": "dangdai-B1L15-I-15.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L15-I-16",
+    "traditional": "拿",
+    "simplified": "拿",
+    "pinyin": "ná",
+    "part_of_speech": "V",
+    "english": "to get",
+    "audio_file": "dangdai-B1L15-I-16.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L15-I-17",
+    "traditional": "把",
+    "simplified": "把",
+    "pinyin": "bǎ",
+    "part_of_speech": "Ptc",
+    "english": "disposal marker",
+    "audio_file": "dangdai-B1L15-I-17.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L15-I-18",
+    "traditional": "水",
+    "simplified": "水",
+    "pinyin": "shuǐ",
+    "part_of_speech": "N",
+    "english": "water",
+    "audio_file": "dangdai-B1L15-I-18.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L15-I-19",
+    "traditional": "休息",
+    "simplified": "休息",
+    "pinyin": "xiūxí",
+    "part_of_speech": "Vi",
+    "english": "to take a rest",
+    "audio_file": "dangdai-B1L15-I-19.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L15-I-20",
+    "traditional": "睡覺",
+    "simplified": "睡觉",
+    "pinyin": "shuìjiào",
+    "part_of_speech": "V-sep",
+    "english": "to sleep",
+    "audio_file": "dangdai-B1L15-I-20.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L15-I-21",
+    "traditional": "早一點",
+    "simplified": "早一点",
+    "pinyin": "zǎo yìdiǎn",
+    "part_of_speech": "Ph",
+    "english": "a bit earlier",
+    "audio_file": "dangdai-B1L15-I-21.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L15-II-01",
+    "traditional": "臉色",
+    "simplified": "脸色",
+    "pinyin": "liǎnsè",
+    "part_of_speech": "N",
+    "english": "a person's \"color\" (said of the face when healthy or sick, pleased or angry etc.)",
+    "audio_file": "dangdai-B1L15-II-01.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L15-II-02",
+    "traditional": "難看",
+    "simplified": "难看",
+    "pinyin": "nánkàn",
+    "part_of_speech": "Vs",
+    "english": "not to look good",
+    "audio_file": "dangdai-B1L15-II-02.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L15-II-03",
+    "traditional": "肚子",
+    "simplified": "肚子",
+    "pinyin": "dùzi",
+    "part_of_speech": "N",
+    "english": "stomach, abdomen",
+    "audio_file": "dangdai-B1L15-II-03.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L15-II-04",
+    "traditional": "吐",
+    "simplified": "吐",
+    "pinyin": "tù",
+    "part_of_speech": "V",
+    "english": "to throw up, to vomit",
+    "audio_file": "dangdai-B1L15-II-04.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L15-II-05",
+    "traditional": "幾",
+    "simplified": "几",
+    "pinyin": "jǐ",
+    "part_of_speech": "N",
+    "english": "(a) few",
+    "audio_file": "dangdai-B1L15-II-05.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L15-II-06",
+    "traditional": "次",
+    "simplified": "次",
+    "pinyin": "cì",
+    "part_of_speech": "M",
+    "english": "measure word for times, occurrences",
+    "audio_file": "dangdai-B1L15-II-06.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L15-II-07",
+    "traditional": "陪",
+    "simplified": "陪",
+    "pinyin": "péi",
+    "part_of_speech": "V",
+    "english": "to go/stay with somebody, to accompany",
+    "audio_file": "dangdai-B1L15-II-07.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L15-II-08",
+    "traditional": "看病",
+    "simplified": "看病",
+    "pinyin": "kànbìng",
+    "part_of_speech": "V-sep",
+    "english": "to see a doctor",
+    "audio_file": "dangdai-B1L15-II-08.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L15-II-09",
+    "traditional": "健康",
+    "simplified": "健康",
+    "pinyin": "jiànkāng",
+    "part_of_speech": "N",
+    "english": "health",
+    "audio_file": "dangdai-B1L15-II-09.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L15-II-10",
+    "traditional": "保險",
+    "simplified": "保险",
+    "pinyin": "bǎoxiǎn",
+    "part_of_speech": "N",
+    "english": "insurance",
+    "audio_file": "dangdai-B1L15-II-10.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L15-II-11",
+    "traditional": "跟",
+    "simplified": "跟",
+    "pinyin": "gēn",
+    "part_of_speech": "Prep",
+    "english": "to",
+    "audio_file": "dangdai-B1L15-II-11.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L15-II-12",
+    "traditional": "油",
+    "simplified": "油",
+    "pinyin": "yóu",
+    "part_of_speech": "Vs",
+    "english": "oily, greasy",
+    "audio_file": "dangdai-B1L15-II-12.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L15-II-13",
+    "traditional": "冰",
+    "simplified": "冰",
+    "pinyin": "bīng",
+    "part_of_speech": "Vs",
+    "english": "icy",
+    "audio_file": "dangdai-B1L15-II-13.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L15-II-14",
+    "traditional": "別",
+    "simplified": "别",
+    "pinyin": "bié",
+    "part_of_speech": "Adv",
+    "english": "don't (used in imperatives)",
+    "audio_file": "dangdai-B1L15-II-14.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L15-II-15",
+    "traditional": "關心",
+    "simplified": "关心",
+    "pinyin": "guānxīn",
+    "part_of_speech": "Vst",
+    "english": "to be concerned about",
+    "audio_file": "dangdai-B1L15-II-15.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L15-II-16",
+    "traditional": "包",
+    "simplified": "包",
+    "pinyin": "bāo",
+    "part_of_speech": "M",
+    "english": "measure word for bags, packages etc.",
+    "audio_file": "dangdai-B1L15-II-16.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L15-II-17",
+    "traditional": "睡",
+    "simplified": "睡",
+    "pinyin": "shuì",
+    "part_of_speech": "Vi",
+    "english": "to sleep",
+    "audio_file": "dangdai-B1L15-II-17.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L15-II-18",
+    "traditional": "小時",
+    "simplified": "小时",
+    "pinyin": "xiǎoshí",
+    "part_of_speech": "N",
+    "english": "hour",
+    "audio_file": "dangdai-B1L15-II-18.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L15-II-19",
+    "traditional": "怎麼了",
+    "simplified": "怎么了",
+    "pinyin": "zěnme le",
+    "part_of_speech": "Ph",
+    "english": "What's wrong?",
+    "audio_file": "dangdai-B1L15-II-19.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L15-II-20",
+    "traditional": "不用了",
+    "simplified": "不用了",
+    "pinyin": "búyòng le",
+    "part_of_speech": "Ph",
+    "english": "It's not necessary.",
+    "audio_file": "dangdai-B1L15-II-20.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L15-II-21",
+    "traditional": "健康中心",
+    "simplified": "健康中心",
+    "pinyin": "jiànkāng zhōngxīn",
+    "part_of_speech": "Ph",
+    "english": "health center",
+    "audio_file": "dangdai-B1L15-II-21.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L15-II-22",
+    "traditional": "回家",
+    "simplified": "回家",
+    "pinyin": "huí jiā",
+    "part_of_speech": "Ph",
+    "english": "go home",
+    "audio_file": "dangdai-B1L15-II-22.mp3",
+    "tags": ""
+  },
+  {
+    "vocab_id": "B1L15-II-23",
+    "traditional": "最好",
+    "simplified": "最好",
+    "pinyin": "zuìhǎo",
+    "part_of_speech": "Ph",
+    "english": "It would be best.../ (You) should...",
+    "audio_file": "dangdai-B1L15-II-23.mp3",
+    "tags": ""
+  }
+]

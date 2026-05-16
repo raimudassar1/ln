@@ -1,0 +1,1204 @@
+[
+  {
+    "id": "reading-test-a2-1",
+    "title": "TOCFL Reading Test — A2 (Set 1)",
+    "type": "reading",
+    "difficulty": "A2",
+    "time_limit": 30,
+    "questions": [
+      {
+        "type": "passage",
+        "passage": "王明是一個大學生。他每天早上七點起床，吃完早餐以後，搭捷運去學校。他的學校在台北市，離家大概需要三十分鐘。他最喜歡的科目是中文和歷史。下午下課以後，他通常去圖書館讀書，晚上十點才回家。",
+        "question": "王明通常幾點回家？",
+        "options": [
+          "下午五點",
+          "晚上八點",
+          "晚上十點",
+          "晚上十二點"
+        ],
+        "correct_index": 2,
+        "explanation": "文章說他「晚上十點才回家」。"
+      },
+      {
+        "type": "passage",
+        "passage": "王明是一個大學生。他每天早上七點起床，吃完早餐以後，搭捷運去學校。他的學校在台北市，離家大概需要三十分鐘。他最喜歡的科目是中文和歷史。下午下課以後，他通常去圖書館讀書，晚上十點才回家。",
+        "question": "王明怎麼去學校？",
+        "options": [
+          "走路",
+          "騎腳踏車",
+          "搭捷運",
+          "開車"
+        ],
+        "correct_index": 2,
+        "explanation": "文章說他「搭捷運去學校」。"
+      },
+      {
+        "type": "passage",
+        "passage": "今天天氣很好，陽光明媚。小英和她的朋友們決定去公園野餐。她們帶了三明治、水果和果汁。到了公園，她們找了一個草地，坐下來享受午餐。下午三點，天空突然變暗，開始下雨，她們只好跑回家。",
+        "question": "小英她們為什麼回家？",
+        "options": [
+          "因為太熱了",
+          "因為沒有東西吃了",
+          "因為開始下雨",
+          "因為時間太晚了"
+        ],
+        "correct_index": 2,
+        "explanation": "文章說「開始下雨，她們只好跑回家」。"
+      },
+      {
+        "type": "passage",
+        "passage": "今天天氣很好，陽光明媚。小英和她的朋友們決定去公園野餐。她們帶了三明治、水果和果汁。到了公園，她們找了一個草地，坐下來享受午餐。下午三點，天空突然變暗，開始下雨，她們只好跑回家。",
+        "question": "她們帶了什麼去野餐？",
+        "options": [
+          "炒飯、飲料和甜點",
+          "三明治、水果和果汁",
+          "麵包、牛奶和蛋糕",
+          "便當、茶和零食"
+        ],
+        "correct_index": 1,
+        "explanation": "文章說她們帶了「三明治、水果和果汁」。"
+      },
+      {
+        "type": "cloze",
+        "sentence": "我每天___上八點到公司上班。",
+        "question": "選擇正確的字填入空格：",
+        "options": [
+          "早",
+          "昨",
+          "明",
+          "後"
+        ],
+        "correct_index": 0,
+        "pinyin_hint": "zǎo / zuó / míng / hòu"
+      },
+      {
+        "type": "cloze",
+        "sentence": "她___說中文，也會說英文。",
+        "question": "選擇正確的字填入空格：",
+        "options": [
+          "才",
+          "不",
+          "會",
+          "沒"
+        ],
+        "correct_index": 2,
+        "pinyin_hint": "cái / bù / huì / méi"
+      },
+      {
+        "type": "passage",
+        "passage": "阿輝的媽媽是一位護士，爸爸是一位老師。他有一個哥哥和兩個妹妹。哥哥在台中工作，兩個妹妹都還在上小學。每年過年，全家人都會回阿嬤家一起吃年夜飯，那是阿輝最開心的時候。",
+        "question": "阿輝有幾個兄弟姐妹？",
+        "options": [
+          "一個",
+          "兩個",
+          "三個",
+          "四個"
+        ],
+        "correct_index": 2,
+        "explanation": "文章說他有「一個哥哥和兩個妹妹」，共三個。"
+      },
+      {
+        "type": "passage",
+        "passage": "阿輝的媽媽是一位護士，爸爸是一位老師。他有一個哥哥和兩個妹妹。哥哥在台中工作，兩個妹妹都還在上小學。每年過年，全家人都會回阿嬤家一起吃年夜飯，那是阿輝最開心的時候。",
+        "question": "阿輝最開心的時候是什麼時候？",
+        "options": [
+          "放暑假的時候",
+          "生日的時候",
+          "全家人回阿嬤家吃年夜飯的時候",
+          "哥哥回來看他的時候"
+        ],
+        "correct_index": 2,
+        "explanation": "文章說「那是阿輝最開心的時候」，指全家一起吃年夜飯。"
+      },
+      {
+        "type": "cloze",
+        "sentence": "這家餐廳的菜___好吃，所以很多人來。",
+        "question": "選擇正確的字填入空格：",
+        "options": [
+          "不",
+          "很",
+          "太",
+          "沒"
+        ],
+        "correct_index": 1,
+        "pinyin_hint": "bù / hěn / tài / méi"
+      },
+      {
+        "type": "passage",
+        "passage": "台北的夏天很熱，氣溫常常超過三十五度。很多人在夏天喜歡喝冰的飲料，例如珍珠奶茶、冬瓜茶和椰子汁。台灣的夜市也在夏天非常熱鬧，大家喜歡在夜市吃各種小吃和甜點。雖然天氣熱，但大家還是玩得很開心。",
+        "question": "台北夏天的氣溫通常是多少？",
+        "options": [
+          "超過二十五度",
+          "超過三十度",
+          "超過三十五度",
+          "超過四十度"
+        ],
+        "correct_index": 2,
+        "explanation": "文章說「氣溫常常超過三十五度」。"
+      },
+      {
+        "type": "passage",
+        "passage": "台北的夏天很熱，氣溫常常超過三十五度。很多人在夏天喜歡喝冰的飲料，例如珍珠奶茶、冬瓜茶和椰子汁。台灣的夜市也在夏天非常熱鬧，大家喜歡在夜市吃各種小吃和甜點。雖然天氣熱，但大家還是玩得很開心。",
+        "question": "根據文章，下列哪一個是台灣夏天流行的飲料？",
+        "options": [
+          "紅茶",
+          "珍珠奶茶",
+          "熱可可",
+          "綠茶"
+        ],
+        "correct_index": 1,
+        "explanation": "文章明確提到「珍珠奶茶、冬瓜茶和椰子汁」。"
+      },
+      {
+        "type": "cloze",
+        "sentence": "他昨天___了一本很有趣的書。",
+        "question": "選擇正確的字填入空格：",
+        "options": [
+          "看",
+          "聽",
+          "說",
+          "寫"
+        ],
+        "correct_index": 0,
+        "pinyin_hint": "kàn / tīng / shuō / xiě"
+      },
+      {
+        "type": "passage",
+        "passage": "捷運是台北最方便的交通工具。它不僅快，而且準時，比開車便宜很多。每天早上和下午下班時，捷運站人很多，大家都要去上班或回家。捷運有很多條線，可以到台北市各個地方。如果你第一次來台北，建議你先買悠遊卡，這樣搭車更方便。",
+        "question": "作者建議第一次來台北的人做什麼？",
+        "options": [
+          "租車",
+          "買悠遊卡",
+          "搭計程車",
+          "走路"
+        ],
+        "correct_index": 1,
+        "explanation": "文章說「建議你先買悠遊卡」。"
+      },
+      {
+        "type": "cloze",
+        "sentence": "你明天___有空？我們一起去看電影吧！",
+        "question": "選擇正確的字填入空格：",
+        "options": [
+          "是",
+          "有",
+          "在",
+          "要"
+        ],
+        "correct_index": 1,
+        "pinyin_hint": "shì / yǒu / zài / yào"
+      },
+      {
+        "type": "passage",
+        "passage": "林太太在菜市場買菜。她想買三斤豬肉、兩條魚和一些蔬菜。菜市場的老闆說豬肉今天特別便宜，一斤只要八十元。林太太很高興，多買了兩斤。她還買了豆腐、青菜和香菇。最後，她花了不到一千元就買了很多東西，真的很划算。",
+        "question": "豬肉今天的價格是多少錢一斤？",
+        "options": [
+          "六十元",
+          "七十元",
+          "八十元",
+          "九十元"
+        ],
+        "correct_index": 2,
+        "explanation": "文章說「一斤只要八十元」。"
+      }
+    ]
+  },
+  {
+    "id": "reading-test-b1-1",
+    "title": "TOCFL Reading Test — B1 (Set 1)",
+    "type": "reading",
+    "difficulty": "B1",
+    "time_limit": 40,
+    "questions": [
+      {
+        "type": "passage",
+        "passage": "隨著科技的進步，越來越多的台灣人選擇在家工作，這種模式被稱為「遠端工作」或「居家辦公」。根據調查，有六成以上的上班族表示，遠端工作讓他們的工作效率提高了，因為減少了通勤時間，也可以在更舒適的環境中工作。然而，也有部分人認為，在家工作容易分心，難以與同事溝通，工作和生活之間的界線也變得模糊。",
+        "question": "根據調查，有多少比例的上班族認為遠端工作提高了效率？",
+        "options": [
+          "四成以上",
+          "五成以上",
+          "六成以上",
+          "七成以上"
+        ],
+        "correct_index": 2,
+        "explanation": "文章說「有六成以上的上班族表示，遠端工作讓他們的工作效率提高了」。",
+        "pinyin_review": "liù chéng yǐ shàng de shàng bān zú"
+      },
+      {
+        "type": "passage",
+        "passage": "隨著科技的進步，越來越多的台灣人選擇在家工作，這種模式被稱為「遠端工作」或「居家辦公」。根據調查，有六成以上的上班族表示，遠端工作讓他們的工作效率提高了，因為減少了通勤時間，也可以在更舒適的環境中工作。然而，也有部分人認為，在家工作容易分心，難以與同事溝通，工作和生活之間的界線也變得模糊。",
+        "question": "有些人認為在家工作的缺點是什麼？",
+        "options": [
+          "薪水比較低",
+          "容易分心且難以與同事溝通",
+          "上班時間不固定",
+          "需要買很多設備"
+        ],
+        "correct_index": 1,
+        "explanation": "文章提到「容易分心，難以與同事溝通」是部分人認為的缺點。"
+      },
+      {
+        "type": "passage",
+        "passage": "台灣的健保制度是全球公認相當完善的醫療保險體系。自一九九五年實施以來，幾乎所有台灣居民都享有醫療保障。民眾只需持健保卡就可以在全台各醫院就診，部分負擔的費用也相對低廉。不過近年來，由於人口老化和醫療費用上漲，健保財務面臨一定壓力，政府也持續研議調整保費的方案。",
+        "question": "台灣健保制度是哪一年開始實施的？",
+        "options": [
+          "1990年",
+          "1993年",
+          "1995年",
+          "2000年"
+        ],
+        "correct_index": 2,
+        "explanation": "文章說「自一九九五年實施以來」。"
+      },
+      {
+        "type": "passage",
+        "passage": "台灣的健保制度是全球公認相當完善的醫療保險體系。自一九九五年實施以來，幾乎所有台灣居民都享有醫療保障。民眾只需持健保卡就可以在全台各醫院就診，部分負擔的費用也相對低廉。不過近年來，由於人口老化和醫療費用上漲，健保財務面臨一定壓力，政府也持續研議調整保費的方案。",
+        "question": "健保財務面臨壓力的原因是什麼？",
+        "options": [
+          "醫院數量太少",
+          "人口老化和醫療費用上漲",
+          "保費太低",
+          "外國人使用健保"
+        ],
+        "correct_index": 1,
+        "explanation": "文章說「由於人口老化和醫療費用上漲，健保財務面臨一定壓力」。"
+      },
+      {
+        "type": "cloze",
+        "sentence": "他雖然工作很忙，___還是每天抽時間運動。",
+        "question": "選擇正確的連接詞填入空格：",
+        "options": [
+          "而且",
+          "但是",
+          "因為",
+          "所以"
+        ],
+        "correct_index": 1,
+        "pinyin_hint": "ér qiě / dàn shì / yīn wèi / suǒ yǐ"
+      },
+      {
+        "type": "passage",
+        "passage": "台灣的茶文化歷史悠久，其中最有名的是阿里山高山茶、日月潭紅茶和東方美人茶。近年來，手搖飲料店風行全台，珍珠奶茶更成為代表台灣的飲食文化符號，深受國內外消費者喜愛。許多觀光客來台灣，都以喝到正宗的台灣珍珠奶茶為目標之一。",
+        "question": "根據文章，下列哪一種不是台灣著名的茶？",
+        "options": [
+          "阿里山高山茶",
+          "日月潭紅茶",
+          "東方美人茶",
+          "凍頂鐵觀音"
+        ],
+        "correct_index": 3,
+        "explanation": "文章提到的是阿里山高山茶、日月潭紅茶和東方美人茶，沒有提到凍頂鐵觀音。"
+      },
+      {
+        "type": "cloze",
+        "sentence": "這個問題___複雜，需要更多時間來研究。",
+        "question": "選擇最適合的詞填入空格：",
+        "options": [
+          "非常",
+          "一點",
+          "不太",
+          "很少"
+        ],
+        "correct_index": 0,
+        "pinyin_hint": "fēi cháng / yī diǎn / bù tài / hěn shǎo"
+      },
+      {
+        "type": "passage",
+        "passage": "根據最新民調，台灣年輕人最重視的生活價值觀依序為：健康（百分之七十八）、家庭關係（百分之七十二）、個人發展（百分之六十五）、財務穩定（百分之六十一），以及休閒娛樂（百分之四十八）。這項調查訪問了全台一千八百名十八至三十五歲的青年。",
+        "question": "根據調查，台灣年輕人最重視什麼？",
+        "options": [
+          "財務穩定",
+          "個人發展",
+          "家庭關係",
+          "健康"
+        ],
+        "correct_index": 3,
+        "explanation": "調查結果顯示健康排名第一，佔78%。"
+      },
+      {
+        "type": "passage",
+        "passage": "根據最新民調，台灣年輕人最重視的生活價值觀依序為：健康（百分之七十八）、家庭關係（百分之七十二）、個人發展（百分之六十五）、財務穩定（百分之六十一），以及休閒娛樂（百分之四十八）。這項調查訪問了全台一千八百名十八至三十五歲的青年。",
+        "question": "這項調查的受訪者年齡範圍是？",
+        "options": [
+          "十五至三十歲",
+          "十八至三十五歲",
+          "二十至四十歲",
+          "二十五至四十五歲"
+        ],
+        "correct_index": 1,
+        "explanation": "文章說「訪問了全台一千八百名十八至三十五歲的青年」。"
+      },
+      {
+        "type": "cloze",
+        "sentence": "她___沒有吃早餐就去上班，所以上午肚子很餓。",
+        "question": "選擇正確的詞填入空格：",
+        "options": [
+          "已經",
+          "因為",
+          "如果",
+          "雖然"
+        ],
+        "correct_index": 0,
+        "pinyin_hint": "yǐ jīng / yīn wèi / rú guǒ / suī rán"
+      },
+      {
+        "type": "passage",
+        "passage": "台灣每年約有三至五個颱風侵台，夏秋兩季是颱風季節。颱風帶來的強風和暴雨常常造成農業損失和交通中斷。但同時，颱風雨水也是台灣重要的水資源補充來源。政府每年都會發布颱風警報，提醒民眾做好防颱準備，包括儲備食物、固定室外物品等。",
+        "question": "台灣每年大約有幾個颱風？",
+        "options": [
+          "一至三個",
+          "三至五個",
+          "五至七個",
+          "七至十個"
+        ],
+        "correct_index": 1,
+        "explanation": "文章說「台灣每年約有三至五個颱風侵台」。"
+      },
+      {
+        "type": "cloze",
+        "sentence": "為了環保，政府鼓勵民眾___大眾運輸工具，減少開車。",
+        "question": "選擇正確的詞填入空格：",
+        "options": [
+          "放棄",
+          "多利用",
+          "反對",
+          "遠離"
+        ],
+        "correct_index": 1,
+        "pinyin_hint": "fàng qì / duō lì yòng / fǎn duì / yuǎn lí"
+      },
+      {
+        "type": "passage",
+        "passage": "近年來，台灣的外送平台快速發展，改變了許多人的飲食習慣。消費者只需透過手機App，就可以從數千家餐廳中選擇餐點，通常三十至四十五分鐘內即可送達。雖然方便，但也有人擔心外送食物可能影響健康，以及大量包裝造成的環境問題。",
+        "question": "使用外送服務，通常多久可以收到餐點？",
+        "options": [
+          "十至二十分鐘",
+          "二十至三十分鐘",
+          "三十至四十五分鐘",
+          "四十五至六十分鐘"
+        ],
+        "correct_index": 2,
+        "explanation": "文章說「通常三十至四十五分鐘內即可送達」。"
+      },
+      {
+        "type": "cloze",
+        "sentence": "我的中文老師說，學語言最重要的是___，不要怕犯錯。",
+        "question": "選擇正確的詞填入空格：",
+        "options": [
+          "多說多練",
+          "多買書",
+          "多看電視",
+          "多背單字"
+        ],
+        "correct_index": 0,
+        "pinyin_hint": "duō shuō duō liàn / duō mǎi shū / duō kàn diàn shì / duō bèi dān zì"
+      },
+      {
+        "type": "passage",
+        "passage": "台灣是半導體製造的全球重鎮，台積電（TSMC）是全球最大的晶圓代工廠，為全球許多科技公司生產晶片。台灣的科技產業不僅帶動了整體經濟成長，也使台灣在全球供應鏈中佔有舉足輕重的地位。近年來，隨著地緣政治的變化，各國政府紛紛關注台灣半導體產業的穩定性。",
+        "question": "台積電是什麼類型的公司？",
+        "options": [
+          "軟體開發公司",
+          "全球最大的晶圓代工廠",
+          "消費電子製造商",
+          "網路服務公司"
+        ],
+        "correct_index": 1,
+        "explanation": "文章說台積電是「全球最大的晶圓代工廠」。"
+      },
+      {
+        "type": "cloze",
+        "sentence": "這道料理的味道很特別，___好吃___難吃，真的很難說。",
+        "question": "選擇正確的連接詞填入空格：",
+        "options": [
+          "既…又…",
+          "不是…就是…",
+          "雖然…但是…",
+          "如果…就…"
+        ],
+        "correct_index": 1,
+        "pinyin_hint": "jì...yòu... / bù shì...jiù shì... / suī rán...dàn shì... / rú guǒ...jiù..."
+      }
+    ]
+  },
+  {
+    "id": "reading-test-mixed-1",
+    "title": "TOCFL Reading Test — Mixed A2/B1",
+    "type": "reading",
+    "difficulty": "Mixed",
+    "time_limit": 35,
+    "questions": [
+      {
+        "type": "passage",
+        "passage": "小花是一個十歲的小女孩。她家住在台南，有一隻狗叫小白。每天放學回家，小白都在門口等她。她很喜歡帶小白去公園散步，因為公園裡有很多小朋友和狗。",
+        "question": "小花的狗叫什麼名字？",
+        "options": [
+          "小黑",
+          "小花",
+          "小白",
+          "小灰"
+        ],
+        "correct_index": 2,
+        "explanation": "文章說「有一隻狗叫小白」。"
+      },
+      {
+        "type": "cloze",
+        "sentence": "媽媽說，如果我考一百分，___帶我去買玩具。",
+        "question": "選擇正確的詞填入空格：",
+        "options": [
+          "她就",
+          "她不",
+          "她沒",
+          "她要"
+        ],
+        "correct_index": 0,
+        "pinyin_hint": "tā jiù / tā bù / tā méi / tā yào"
+      },
+      {
+        "type": "passage",
+        "passage": "台灣的夜市文化享譽全球，遊客可以在這裡品嚐各式各樣的台灣小吃，如滷肉飯、臭豆腐、珍珠奶茶等。著名的夜市有台北的士林夜市、饒河街夜市，以及台南的花園夜市。這些夜市通常在傍晚五、六點開始，一直到深夜才結束，是體驗台灣庶民文化的最佳場所。",
+        "question": "台灣著名的夜市不包括下列哪一個？",
+        "options": [
+          "士林夜市",
+          "饒河街夜市",
+          "花園夜市",
+          "西門町夜市"
+        ],
+        "correct_index": 3,
+        "explanation": "文章提到士林、饒河街和花園夜市，沒有提到西門町夜市。"
+      },
+      {
+        "type": "passage",
+        "passage": "台灣的夜市文化享譽全球，遊客可以在這裡品嚐各式各樣的台灣小吃，如滷肉飯、臭豆腐、珍珠奶茶等。著名的夜市有台北的士林夜市、饒河街夜市，以及台南的花園夜市。這些夜市通常在傍晚五、六點開始，一直到深夜才結束，是體驗台灣庶民文化的最佳場所。",
+        "question": "夜市通常幾點開始？",
+        "options": [
+          "中午十二點",
+          "下午三、四點",
+          "傍晚五、六點",
+          "晚上八點"
+        ],
+        "correct_index": 2,
+        "explanation": "文章說「通常在傍晚五、六點開始」。"
+      },
+      {
+        "type": "cloze",
+        "sentence": "他學中文___三年了，說得很流利。",
+        "question": "選擇正確的詞填入空格：",
+        "options": [
+          "才",
+          "已經",
+          "快",
+          "還"
+        ],
+        "correct_index": 1,
+        "pinyin_hint": "cái / yǐ jīng / kuài / hái"
+      },
+      {
+        "type": "passage",
+        "passage": "李明今年二十五歲，剛從大學畢業。他的夢想是成為一名攝影師，但家人希望他找一份穩定的工作。他花了三個月思考，最後決定先在一家公司工作兩年存錢，然後再去學攝影。他相信，只要有夢想，努力去做，就一定能成功。",
+        "question": "李明最後決定怎麼做？",
+        "options": [
+          "立刻去學攝影",
+          "先工作兩年再學攝影",
+          "聽家人的話放棄攝影夢想",
+          "出國留學"
+        ],
+        "correct_index": 1,
+        "explanation": "文章說他決定「先在一家公司工作兩年存錢，然後再去學攝影」。"
+      },
+      {
+        "type": "cloze",
+        "sentence": "外面___下雨，記得帶傘出門。",
+        "question": "選擇正確的詞填入空格：",
+        "options": [
+          "好像在",
+          "沒有在",
+          "不太",
+          "一定沒"
+        ],
+        "correct_index": 0,
+        "pinyin_hint": "hǎo xiàng zài / méi yǒu zài / bù tài / yī dìng méi"
+      },
+      {
+        "type": "passage",
+        "passage": "許多在台灣的外國人發現，學中文最好的方法就是多和台灣人說話。雖然一開始可能說得不好，但台灣人通常很友善，會耐心地幫助外國人練習中文。此外，看台灣的電視節目、聽流行音樂，也是很好的學習方式。最重要的是，不要害怕犯錯，勇敢開口才能進步。",
+        "question": "根據文章，學中文最好的方法是什麼？",
+        "options": [
+          "多看課本",
+          "多和台灣人說話",
+          "去補習班上課",
+          "看英文字幕的電視"
+        ],
+        "correct_index": 1,
+        "explanation": "文章說「學中文最好的方法就是多和台灣人說話」。"
+      },
+      {
+        "type": "passage",
+        "passage": "許多在台灣的外國人發現，學中文最好的方法就是多和台灣人說話。雖然一開始可能說得不好，但台灣人通常很友善，會耐心地幫助外國人練習中文。此外，看台灣的電視節目、聽流行音樂，也是很好的學習方式。最重要的是，不要害怕犯錯，勇敢開口才能進步。",
+        "question": "根據文章，進步最重要的關鍵是什麼？",
+        "options": [
+          "每天背單字",
+          "不要害怕犯錯，勇敢開口",
+          "找一位好老師",
+          "住在台灣"
+        ],
+        "correct_index": 1,
+        "explanation": "文章強調「不要害怕犯錯，勇敢開口才能進步」。"
+      },
+      {
+        "type": "cloze",
+        "sentence": "台灣的便利商店二十四小時___，非常方便。",
+        "question": "選擇正確的詞填入空格：",
+        "options": [
+          "休息",
+          "都是",
+          "營業",
+          "關門"
+        ],
+        "correct_index": 2,
+        "pinyin_hint": "xiū xi / dōu shì / yíng yè / guān mén"
+      }
+    ]
+  },
+  {
+    "id": "reading-test-a2-2",
+    "title": "TOCFL Reading Test — A2 (Set 2)",
+    "type": "reading",
+    "difficulty": "A2",
+    "time_limit": 30,
+    "questions": [
+      {
+        "type": "passage",
+        "passage": "陳先生每天早上六點半起床，先做三十分鐘的運動，然後洗澡、吃早餐。他在一家銀行上班，早上九點要到公司。他通常搭公車去公司，但如果下雨，他就叫計程車。",
+        "question": "陳先生什麼時候起床？",
+        "options": [
+          "早上六點",
+          "早上六點半",
+          "早上七點",
+          "早上七點半"
+        ],
+        "correct_index": 1,
+        "explanation": "文章說「每天早上六點半起床」。"
+      },
+      {
+        "type": "passage",
+        "passage": "陳先生每天早上六點半起床，先做三十分鐘的運動，然後洗澡、吃早餐。他在一家銀行上班，早上九點要到公司。他通常搭公車去公司，但如果下雨，他就叫計程車。",
+        "question": "陳先生下雨天怎麼去上班？",
+        "options": [
+          "搭公車",
+          "叫計程車",
+          "騎腳踏車",
+          "走路"
+        ],
+        "correct_index": 1,
+        "explanation": "文章說「如果下雨，他就叫計程車」。"
+      },
+      {
+        "type": "cloze",
+        "sentence": "這本書___有意思，我已經看完了兩次。",
+        "question": "選擇正確的詞填入空格：",
+        "options": [
+          "沒有",
+          "很",
+          "不",
+          "也"
+        ],
+        "correct_index": 1,
+        "pinyin_hint": "méi yǒu / hěn / bù / yě"
+      },
+      {
+        "type": "passage",
+        "passage": "台灣的中秋節在農曆八月十五日。這一天，家人通常會聚在一起賞月、吃月餅。近年來，烤肉也成為中秋節的重要活動，很多家庭和朋友會一起在外面烤肉聊天。便利商店在中秋節前會賣很多種月餅和烤肉食材。",
+        "question": "台灣中秋節時，下列哪個活動近年來也變得很流行？",
+        "options": [
+          "放煙火",
+          "舞龍舞獅",
+          "烤肉",
+          "看燈籠"
+        ],
+        "correct_index": 2,
+        "explanation": "文章說「烤肉也成為中秋節的重要活動」。"
+      },
+      {
+        "type": "passage",
+        "passage": "台灣的中秋節在農曆八月十五日。這一天，家人通常會聚在一起賞月、吃月餅。近年來，烤肉也成為中秋節的重要活動，很多家庭和朋友會一起在外面烤肉聊天。便利商店在中秋節前會賣很多種月餅和烤肉食材。",
+        "question": "便利商店在中秋節前賣什麼？",
+        "options": [
+          "春聯和紅包",
+          "月餅和烤肉食材",
+          "湯圓和甜點",
+          "鞭炮和蠟燭"
+        ],
+        "correct_index": 1,
+        "explanation": "文章說「便利商店在中秋節前會賣很多種月餅和烤肉食材」。"
+      },
+      {
+        "type": "cloze",
+        "sentence": "她___三年沒有回台灣，很想念家鄉的食物。",
+        "question": "選擇正確的詞填入空格：",
+        "options": [
+          "已經",
+          "還要",
+          "準備",
+          "打算"
+        ],
+        "correct_index": 0,
+        "pinyin_hint": "yǐ jīng / hái yào / zhǔn bèi / dǎ suàn"
+      },
+      {
+        "type": "passage",
+        "passage": "這是一則失物招領啟示。上週三，有人在台北市立圖書館二樓遺失一個黑色皮包。皮包裡有現金、信用卡和一本護照。如果有人撿到，請聯絡圖書館服務台，或撥打電話02-2999-8888。有重酬。",
+        "question": "皮包是在哪裡遺失的？",
+        "options": [
+          "捷運站",
+          "台北市立圖書館二樓",
+          "便利商店",
+          "台北火車站"
+        ],
+        "correct_index": 1,
+        "explanation": "文章說「在台北市立圖書館二樓遺失」。"
+      },
+      {
+        "type": "passage",
+        "passage": "這是一則失物招領啟示。上週三，有人在台北市立圖書館二樓遺失一個黑色皮包。皮包裡有現金、信用卡和一本護照。如果有人撿到，請聯絡圖書館服務台，或撥打電話02-2999-8888。有重酬。",
+        "question": "撿到皮包的人應該怎麼做？",
+        "options": [
+          "把它帶去警察局",
+          "聯絡圖書館服務台或撥打電話",
+          "打開皮包找到失主聯絡方式",
+          "在社群媒體上發文"
+        ],
+        "correct_index": 1,
+        "explanation": "文章說「請聯絡圖書館服務台，或撥打電話02-2999-8888」。"
+      },
+      {
+        "type": "cloze",
+        "sentence": "這家咖啡廳的氣氛很好，___很多人在這裡工作或讀書。",
+        "question": "選擇正確的詞填入空格：",
+        "options": [
+          "所以",
+          "但是",
+          "雖然",
+          "如果"
+        ],
+        "correct_index": 0,
+        "pinyin_hint": "suǒ yǐ / dàn shì / suī rán / rú guǒ"
+      },
+      {
+        "type": "passage",
+        "passage": "台灣有很多有名的觀光景點。在北部，台北101曾是世界最高的建築，現在仍是台灣最著名的地標之一。九份是一個山城小鎮，有美麗的夜景和傳統建築，吸引很多日本觀光客。在南部，墾丁是一個著名的海濱度假區，很多人在那裡衝浪、潛水。",
+        "question": "為什麼九份特別吸引日本觀光客？",
+        "options": [
+          "因為有很多日本餐廳",
+          "因為有美麗的夜景和傳統建築",
+          "因為離日本很近",
+          "因為物價便宜"
+        ],
+        "correct_index": 1,
+        "explanation": "文章說九份「有美麗的夜景和傳統建築，吸引很多日本觀光客」。"
+      }
+    ]
+  },
+  {
+    "id": "reading-test-b1-2",
+    "title": "TOCFL Reading Test — B1 (Set 2)",
+    "type": "reading",
+    "difficulty": "B1",
+    "time_limit": 40,
+    "questions": [
+      {
+        "type": "passage",
+        "passage": "根據教育部的統計，台灣學生每天平均花費兩小時以上在使用手機或平板電腦。研究顯示，過度使用3C產品可能影響睡眠品質、視力健康以及學業表現。為此，許多學校開始實施「無手機課室」政策，要求學生在上課時間將手機放入袋中或儲物櫃。家長和教師對此看法不一，有人支持，也有人認為這樣的限制過於嚴格。",
+        "question": "台灣學生每天平均花多少時間使用3C產品？",
+        "options": [
+          "一小時以上",
+          "一個半小時以上",
+          "兩小時以上",
+          "三小時以上"
+        ],
+        "correct_index": 2,
+        "explanation": "文章說「每天平均花費兩小時以上」。"
+      },
+      {
+        "type": "passage",
+        "passage": "根據教育部的統計，台灣學生每天平均花費兩小時以上在使用手機或平板電腦。研究顯示，過度使用3C產品可能影響睡眠品質、視力健康以及學業表現。為此，許多學校開始實施「無手機課室」政策，要求學生在上課時間將手機放入袋中或儲物櫃。家長和教師對此看法不一，有人支持，也有人認為這樣的限制過於嚴格。",
+        "question": "「無手機課室」政策要求學生做什麼？",
+        "options": [
+          "把手機交給老師",
+          "在上課時間把手機放起來",
+          "完全禁止攜帶手機上學",
+          "只有考試時不能用手機"
+        ],
+        "correct_index": 1,
+        "explanation": "文章說「要求學生在上課時間將手機放入袋中或儲物櫃」。"
+      },
+      {
+        "type": "cloze",
+        "sentence": "這個計畫雖然很有創意，___執行起來有一定的困難。",
+        "question": "選擇正確的連接詞填入空格：",
+        "options": [
+          "所以",
+          "而且",
+          "但是",
+          "因為"
+        ],
+        "correct_index": 2,
+        "pinyin_hint": "suǒ yǐ / ér qiě / dàn shì / yīn wèi"
+      },
+      {
+        "type": "passage",
+        "passage": "台灣的原住民族共有十六個官方認定的族群，各族群有其獨特的語言、文化和傳統。近年來，台灣政府積極推動原住民族文化保存和語言復振工作。許多部落也開始發展文化觀光，讓遊客有機會認識原住民的傳統歌舞、工藝和飲食文化。這不僅幫助原住民族保留自己的文化認同，也促進了地方經濟的發展。",
+        "question": "台灣有多少個官方認定的原住民族族群？",
+        "options": [
+          "十二個",
+          "十四個",
+          "十六個",
+          "十八個"
+        ],
+        "correct_index": 2,
+        "explanation": "文章說「共有十六個官方認定的族群」。"
+      },
+      {
+        "type": "passage",
+        "passage": "台灣的原住民族共有十六個官方認定的族群，各族群有其獨特的語言、文化和傳統。近年來，台灣政府積極推動原住民族文化保存和語言復振工作。許多部落也開始發展文化觀光，讓遊客有機會認識原住民的傳統歌舞、工藝和飲食文化。這不僅幫助原住民族保留自己的文化認同，也促進了地方經濟的發展。",
+        "question": "原住民部落發展文化觀光帶來了哪些好處？",
+        "options": [
+          "只有幫助保留文化認同",
+          "只有促進地方經濟",
+          "幫助保留文化認同並促進地方經濟",
+          "吸引更多外國移民"
+        ],
+        "correct_index": 2,
+        "explanation": "文章說「不僅幫助原住民族保留自己的文化認同，也促進了地方經濟的發展」。"
+      },
+      {
+        "type": "cloze",
+        "sentence": "他在台灣住了五年，已經___習慣台灣的生活方式了。",
+        "question": "選擇正確的詞填入空格：",
+        "options": [
+          "漸漸",
+          "偶爾",
+          "從來",
+          "還沒"
+        ],
+        "correct_index": 0,
+        "pinyin_hint": "jiàn jiàn / ǒu ěr / cóng lái / hái méi"
+      },
+      {
+        "type": "passage",
+        "passage": "近年來，台灣的出生率持續下降，已成為政府面臨的重要政策挑戰。二○二三年的統計數據顯示，台灣的出生率僅為千分之六點三，是全球最低的國家之一。為了鼓勵生育，政府推出了多項補貼政策，包括育兒津貼、托育補助和育嬰假等。然而，專家指出，高房價和高生活成本仍是許多年輕夫妻不願生育的主要原因。",
+        "question": "根據文章，台灣年輕夫妻不願生育的主要原因是什麼？",
+        "options": [
+          "工作壓力太大",
+          "缺乏醫療資源",
+          "高房價和高生活成本",
+          "政府補貼不夠"
+        ],
+        "correct_index": 2,
+        "explanation": "文章說「高房價和高生活成本仍是許多年輕夫妻不願生育的主要原因」。"
+      },
+      {
+        "type": "cloze",
+        "sentence": "___你不喜歡這個工作，可以考慮換一個更適合自己的。",
+        "question": "選擇正確的詞填入空格：",
+        "options": [
+          "因為",
+          "如果",
+          "雖然",
+          "所以"
+        ],
+        "correct_index": 1,
+        "pinyin_hint": "yīn wèi / rú guǒ / suī rán / suǒ yǐ"
+      },
+      {
+        "type": "passage",
+        "passage": "台灣的咖啡文化在過去二十年間蓬勃發展。從最早的即溶咖啡，到便利商店平價咖啡的普及，再到精品咖啡館的崛起，台灣人對咖啡的品味也隨之提升。目前台灣每人每年平均咖啡消費量約為一百杯，其中七成以上是在外購買。台北的街頭隨處可見咖啡店，每平方公里的咖啡店密度甚至高於西雅圖。",
+        "question": "台灣每人每年平均咖啡消費量是多少？",
+        "options": [
+          "約五十杯",
+          "約一百杯",
+          "約一百五十杯",
+          "約兩百杯"
+        ],
+        "correct_index": 1,
+        "explanation": "文章說「每人每年平均咖啡消費量約為一百杯」。"
+      },
+      {
+        "type": "cloze",
+        "sentence": "這份報告的內容___，需要修改後才能提交。",
+        "question": "選擇正確的詞填入空格：",
+        "options": [
+          "非常完美",
+          "有些問題",
+          "很有幫助",
+          "非常清楚"
+        ],
+        "correct_index": 1,
+        "pinyin_hint": "fēi cháng wán měi / yǒu xiē wèn tí / hěn yǒu bāng zhù / fēi cháng qīng chǔ"
+      }
+    ]
+  },
+  {
+    "id": "listening-test-a2-1",
+    "title": "TOCFL Listening Test — A2 (Set 1)",
+    "type": "listening",
+    "difficulty": "A2",
+    "time_limit": 20,
+    "questions": [
+      {
+        "item_type": "Short Sentence",
+        "text_zh": "今天天氣很好，我想去公園散步。",
+        "pinyin_transcript": "Jīn tiān tiān qì hěn hǎo, wǒ xiǎng qù gōng yuán sàn bù.",
+        "english_translation": "The weather is very nice today, I want to go for a walk in the park.",
+        "question": "這個人想去哪裡？",
+        "options": [
+          "圖書館",
+          "公園",
+          "商場",
+          "學校"
+        ],
+        "correct_index": 1
+      },
+      {
+        "item_type": "Short Sentence",
+        "text_zh": "我每天早上喝一杯咖啡，下午喝綠茶。",
+        "pinyin_transcript": "Wǒ měi tiān zǎo shàng hē yī bēi kā fēi, xià wǔ hē lǜ chá.",
+        "english_translation": "I drink a cup of coffee every morning and green tea in the afternoon.",
+        "question": "這個人下午喝什麼？",
+        "options": [
+          "咖啡",
+          "紅茶",
+          "綠茶",
+          "奶茶"
+        ],
+        "correct_index": 2
+      },
+      {
+        "item_type": "Short Dialogue",
+        "text_zh": "女：請問，去台北車站怎麼走？男：你往前走，然後在紅綠燈左轉，再走五分鐘就到了。女：謝謝你！",
+        "pinyin_transcript": "Nǚ: Qǐng wèn, qù Tái běi chē zhàn zěn me zǒu? Nán: Nǐ wǎng qián zǒu, rán hòu zài hóng lǜ dēng zuǒ zhuǎn, zài zǒu wǔ fēn zhōng jiù dào le. Nǚ: Xiè xiè nǐ!",
+        "english_translation": "Woman: Excuse me, how do I get to Taipei Main Station? Man: Go straight ahead, then turn left at the traffic light, and walk for another five minutes. Woman: Thank you!",
+        "question": "到台北車站要在哪裡轉彎？",
+        "options": [
+          "在郵局前面",
+          "在紅綠燈",
+          "在公園旁邊",
+          "在超市門口"
+        ],
+        "correct_index": 1
+      },
+      {
+        "item_type": "Short Dialogue",
+        "text_zh": "男：你想吃什麼？我去買。女：我想吃牛肉麵，你呢？男：我吃炒飯好了，便宜一點。",
+        "pinyin_transcript": "Nán: Nǐ xiǎng chī shén me? Wǒ qù mǎi. Nǚ: Wǒ xiǎng chī niú ròu miàn, nǐ ne? Nán: Wǒ chī chǎo fàn hǎo le, pián yí yī diǎn.",
+        "english_translation": "Man: What do you want to eat? I'll go buy. Woman: I want beef noodle soup, how about you? Man: I'll have fried rice, it's a bit cheaper.",
+        "question": "男生要吃什麼？",
+        "options": [
+          "牛肉麵",
+          "炒飯",
+          "小籠包",
+          "炒米粉"
+        ],
+        "correct_index": 1
+      },
+      {
+        "item_type": "Short Sentence",
+        "text_zh": "我的手機壞了，我需要去買一支新的。",
+        "pinyin_transcript": "Wǒ de shǒu jī huài le, wǒ xū yào qù mǎi yī zhī xīn de.",
+        "english_translation": "My phone is broken, I need to go buy a new one.",
+        "question": "這個人要做什麼？",
+        "options": [
+          "去修手機",
+          "去買新手機",
+          "去借手機",
+          "去找手機"
+        ],
+        "correct_index": 1
+      },
+      {
+        "item_type": "Short Dialogue",
+        "text_zh": "女：你知道今天幾號嗎？男：今天是三月十五號，星期三。女：啊，我忘了！今天是我媽媽的生日！",
+        "pinyin_transcript": "Nǚ: Nǐ zhī dào jīn tiān jǐ hào ma? Nán: Jīn tiān shì sān yuè shí wǔ hào, xīng qī sān. Nǚ: A, wǒ wàng le! Jīn tiān shì wǒ mā ma de shēng rì!",
+        "english_translation": "Woman: Do you know what today's date is? Man: Today is March 15th, Wednesday. Woman: Oh, I forgot! Today is my mom's birthday!",
+        "question": "今天是幾號？",
+        "options": [
+          "三月五號",
+          "三月十號",
+          "三月十五號",
+          "三月二十號"
+        ],
+        "correct_index": 2
+      },
+      {
+        "item_type": "Announcement",
+        "text_zh": "各位乘客請注意，本班列車因前方信號故障，將延誤約十五分鐘。造成不便，敬請見諒。",
+        "pinyin_transcript": "Gè wèi chéng kè qǐng zhù yì, běn bān liè chē yīn qián fāng xìn hào gù zhàng, jiāng yán wù yuē shí wǔ fēn zhōng. Zào chéng bù biàn, jìng qǐng jiàn liàng.",
+        "english_translation": "Attention passengers, this train will be delayed approximately 15 minutes due to a signal malfunction ahead. We apologize for the inconvenience.",
+        "question": "這班列車為什麼會延誤？",
+        "options": [
+          "因為天氣不好",
+          "因為前方信號故障",
+          "因為有人受傷",
+          "因為車廂問題"
+        ],
+        "correct_index": 1
+      },
+      {
+        "item_type": "Short Dialogue",
+        "text_zh": "男：你今天去哪裡了？女：我去看醫生了，最近感冒很嚴重。男：那你要多休息，多喝水。女：我知道，謝謝你關心。",
+        "pinyin_transcript": "Nán: Nǐ jīn tiān qù nǎ lǐ le? Nǚ: Wǒ qù kàn yī shēng le, zuì jìn gǎn mào hěn yán zhòng. Nán: Nà nǐ yào duō xiū xi, duō hē shuǐ. Nǚ: Wǒ zhī dào, xiè xiè nǐ guān xīn.",
+        "english_translation": "Man: Where did you go today? Woman: I went to see a doctor, I have a bad cold lately. Man: Then you should rest more and drink more water. Woman: I know, thank you for your concern.",
+        "question": "女生今天去做什麼？",
+        "options": [
+          "去上班",
+          "去購物",
+          "去看醫生",
+          "去旅行"
+        ],
+        "correct_index": 2
+      },
+      {
+        "item_type": "Short Sentence",
+        "text_zh": "這家餐廳的牛排很好吃，但是價錢有點貴，一客要一千元。",
+        "pinyin_transcript": "Zhè jiā cān tīng de niú pái hěn hǎo chī, dàn shì jià qián yǒu diǎn guì, yī kè yào yī qiān yuán.",
+        "english_translation": "The steak at this restaurant is very good, but the price is a bit expensive — one portion costs one thousand dollars.",
+        "question": "這家餐廳的牛排多少錢一客？",
+        "options": [
+          "五百元",
+          "七百元",
+          "一千元",
+          "兩千元"
+        ],
+        "correct_index": 2
+      },
+      {
+        "item_type": "Short Dialogue",
+        "text_zh": "女：請問這件衣服有大號嗎？男：不好意思，大號已經賣完了，只剩中號和小號。女：那真的很可惜，我只穿大號的。",
+        "pinyin_transcript": "Nǚ: Qǐng wèn zhè jiàn yī fú yǒu dà hào ma? Nán: Bù hǎo yì si, dà hào yǐ jīng mài wán le, zhǐ shèng zhōng hào hé xiǎo hào. Nǚ: Nà zhēn de hěn kě xí, wǒ zhǐ chuān dà hào de.",
+        "english_translation": "Woman: Excuse me, do you have this in large? Man: I'm sorry, the large is already sold out, only medium and small are left. Woman: That's a shame, I only wear large.",
+        "question": "為什麼女生沒有買那件衣服？",
+        "options": [
+          "太貴了",
+          "顏色不好看",
+          "大號已經賣完了",
+          "款式不喜歡"
+        ],
+        "correct_index": 2
+      }
+    ]
+  },
+  {
+    "id": "listening-test-b1-1",
+    "title": "TOCFL Listening Test — B1 (Set 1)",
+    "type": "listening",
+    "difficulty": "B1",
+    "time_limit": 25,
+    "questions": [
+      {
+        "item_type": "Monologue",
+        "text_zh": "我在台北工作已經五年了。這裡的生活節奏很快，競爭也激烈，但是機會也多。我最喜歡的是台北的美食文化，各種料理應有盡有。唯一的缺點是房租太貴，讓我覺得很有壓力。不過整體來說，我還是很喜歡住在台北。",
+        "pinyin_transcript": "Wǒ zài Tái běi gōng zuò yǐ jīng wǔ nián le. Zhè lǐ de shēng huó jié zòu hěn kuài, jìng zhēng yě jī liè, dàn shì jī huì yě duō. Wǒ zuì xǐ huān de shì Tái běi de měi shí wén huà, gè zhǒng liào lǐ yīng yǒu jìn yǒu. Wéi yī de quē diǎn shì fáng zū tài guì, ràng wǒ jué de hěn yǒu yā lì. Bù guò zhěng tǐ lái shuō, wǒ hái shì hěn xǐ huān zhù zài Tái běi.",
+        "english_translation": "I have been working in Taipei for five years. The pace of life here is fast and the competition is fierce, but there are also many opportunities. What I love most is Taipei's food culture — all kinds of cuisine are available. The only downside is the rent is too expensive, which puts a lot of pressure on me. But overall, I still really enjoy living in Taipei.",
+        "question": "說話者提到住在台北最大的缺點是什麼？",
+        "options": [
+          "生活節奏太快",
+          "競爭太激烈",
+          "房租太貴",
+          "美食不夠多"
+        ],
+        "correct_index": 2
+      },
+      {
+        "item_type": "Short Dialogue",
+        "text_zh": "男：你有沒有看到最新的調查報告？說台灣年輕人壓力很大。女：是啊，我也覺得。工作壓力、房價問題、還有婚育的壓力，真的很難。男：政府應該要多做一點，不能只靠年輕人自己努力。女：對，但是政策改變需要時間，我們也要自己想辦法適應。",
+        "pinyin_transcript": "Nán: Nǐ yǒu méi yǒu kàn dào zuì xīn de diào chá bào gào? Shuō Tái wān nián qīng rén yā lì hěn dà. Nǚ: Shì a, wǒ yě jué de. Gōng zuò yā lì, fáng jià wèn tí, hái yǒu hūn yù de yā lì, zhēn de hěn nán. Nán: Zhèng fǔ yīng gāi yào duō zuò yī diǎn, bù néng zhǐ kào nián qīng rén zì jǐ nǔ lì. Nǚ: Duì, dàn shì zhèng cè gǎi biàn xū yào shí jiān, wǒ men yě yào zì jǐ xiǎng bàn fǎ shì yìng.",
+        "english_translation": "Man: Did you see the latest survey report? It says young people in Taiwan are under a lot of stress. Woman: Yes, I feel the same. Work pressure, housing prices, and the pressure of marriage and having children — it's really difficult. Man: The government should do more, they can't just rely on young people to figure it out themselves. Woman: True, but policy changes take time, and we also need to find ways to adapt.",
+        "question": "他們主要在討論什麼話題？",
+        "options": [
+          "台灣的政治問題",
+          "台灣年輕人面臨的壓力",
+          "台灣的房地產市場",
+          "台灣的就業市場"
+        ],
+        "correct_index": 1
+      },
+      {
+        "item_type": "Announcement",
+        "text_zh": "親愛的顧客，您好。本店將於本週日舉辦週年慶特賣活動，全館商品最低五折起，部分精選商品更有買一送一的優惠。活動時間為早上十點至晚上九點。此外，消費滿三千元即可獲得精美禮品一份，名額有限，敬請把握機會。",
+        "pinyin_transcript": "Qīn ài de gù kè, nín hǎo. Běn diàn jiāng yú běn zhōu rì jǔ bàn zhōu nián qìng tè mài huó dòng, quán guǎn shāng pǐn zuì dī wǔ zhé qǐ, bù fèn jīng xuǎn shāng pǐn gèng yǒu mǎi yī sòng yī de yōu huì. Huó dòng shí jiān wèi zǎo shàng shí diǎn zhì wǎn shàng jiǔ diǎn. Cǐ wài, xiāo fèi mǎn sān qiān yuán jí kě huò dé jīng měi lǐ pǐn yī fèn, míng é yǒu xiàn, jìng qǐng bǎ wò jī huì.",
+        "english_translation": "Dear customers, hello. Our store will hold an anniversary sale event this Sunday, with all items at a minimum 50% off and selected items available buy-one-get-one-free. The event runs from 10 AM to 9 PM. Additionally, purchases of 3,000 dollars or more will receive a beautiful gift, while supplies last.",
+        "question": "消費滿多少錢可以獲得禮品？",
+        "options": [
+          "一千元",
+          "兩千元",
+          "三千元",
+          "五千元"
+        ],
+        "correct_index": 2
+      },
+      {
+        "item_type": "Short Dialogue",
+        "text_zh": "女：我在考慮換工作，但是不知道該不該現在換。男：你現在的工作有什麼問題嗎？女：薪水還可以，但是工作環境不太好，而且沒有什麼發展空間。男：那你有沒有看到更好的機會？女：有一家公司在徵人，工作內容很符合我的興趣，薪水也高一點，只是要上班的地方比較遠。",
+        "pinyin_transcript": "Nǚ: Wǒ zài kǎo lǜ huàn gōng zuò, dàn shì bù zhī dào gāi bù gāi xiàn zài huàn. Nán: Nǐ xiàn zài de gōng zuò yǒu shén me wèn tí ma? Nǚ: Xīn shuǐ hái kě yǐ, dàn shì gōng zuò huán jìng bù tài hǎo, ér qiě méi yǒu shén me fā zhǎn kōng jiān. Nán: Nà nǐ yǒu méi yǒu kàn dào gèng hǎo de jī huì? Nǚ: Yǒu yī jiā gōng sī zài zhēng rén, gōng zuò nèi róng hěn fú hé wǒ de xìng qù, xīn shuǐ yě gāo yī diǎn, zhǐ shì yào shàng bān de dì fāng bǐ jiào yuǎn.",
+        "english_translation": "Woman: I'm thinking about changing jobs, but I'm not sure if I should do it now. Man: What's the problem with your current job? Woman: The salary is okay, but the work environment isn't great and there's not much room for growth. Man: Have you seen any better opportunities? Woman: There's a company hiring, the job content matches my interests well and the salary is a bit higher, but the commute would be farther.",
+        "question": "女生考慮換工作的原因不包括哪一個？",
+        "options": [
+          "工作環境不太好",
+          "沒有發展空間",
+          "薪水太低",
+          "想找更符合興趣的工作"
+        ],
+        "correct_index": 2
+      },
+      {
+        "item_type": "Monologue",
+        "text_zh": "台灣每年的颱風季節大約從六月持續到十月。一旦颱風來臨，氣象局會發布陸上颱風警報，政府也可能宣布颱風假。在颱風假期間，學校停課、部分公司也會放假。民眾應提前準備食物、飲水和緊急物資。颱風過後，要特別注意路面積水和電線的安全問題。",
+        "pinyin_transcript": "Tái wān měi nián de tái fēng jì jié dà yuē cóng liù yuè chí xù dào shí yuè. Yī dàn tái fēng lái lín, qì xiàng jú huì fā bù lù shàng tái fēng jǐng bào, zhèng fǔ yě kě néng xuān bù tái fēng jià. Zài tái fēng jià qī jiān, xué xiào tíng kè, bù fèn gōng sī yě huì fàng jià. Mín zhòng yīng tí qián zhǔn bèi shí wù, yǐn shuǐ hé jǐn jí wù zī. Tái fēng guò hòu, yào tè bié zhù yì lù miàn jī shuǐ hé diàn xiàn de ān quán wèn tí.",
+        "english_translation": "Taiwan's typhoon season lasts approximately from June to October each year. When a typhoon approaches, the Central Weather Bureau will issue land typhoon warnings, and the government may also declare typhoon days off. During typhoon days, schools close and some companies give employees time off. People should prepare food, drinking water, and emergency supplies in advance. After a typhoon passes, pay special attention to road flooding and electrical safety.",
+        "question": "颱風過後，民眾應該特別注意什麼？",
+        "options": [
+          "空氣品質",
+          "路面積水和電線安全",
+          "食物是否足夠",
+          "是否需要重新購置物資"
+        ],
+        "correct_index": 1
+      },
+      {
+        "item_type": "Short Dialogue",
+        "text_zh": "男：你有沒有辦信用卡？女：有，我辦了兩張，但是最近消費太多，快要到信用額度了。男：那要小心一點，不然會有利息的。女：我知道，我打算這個月少買一點東西，然後下個月一次付清。",
+        "pinyin_transcript": "Nán: Nǐ yǒu méi yǒu bàn xìn yòng kǎ? Nǚ: Yǒu, wǒ bàn le liǎng zhāng, dàn shì zuì jìn xiāo fèi tài duō, kuài yào dào xìn yòng é dù le. Nán: Nà yào xiǎo xīn yī diǎn, bù rán huì yǒu lì xī de. Nǚ: Wǒ zhī dào, wǒ dǎ suàn zhè gè yuè shǎo mǎi yī diǎn dōng xī, rán hòu xià gè yuè yī cì fù qīng.",
+        "english_translation": "Man: Do you have a credit card? Woman: Yes, I have two, but I've been spending a lot lately and I'm almost at my credit limit. Man: Be careful, otherwise you'll have interest charges. Woman: I know, I plan to buy less this month and then pay it all off next month.",
+        "question": "女生打算怎麼解決信用卡快到額度的問題？",
+        "options": [
+          "申請提高信用額度",
+          "這個月少買東西，下個月一次付清",
+          "先還最低應繳金額",
+          "把其中一張卡剪掉"
+        ],
+        "correct_index": 1
+      },
+      {
+        "item_type": "Announcement",
+        "text_zh": "各位旅客請注意，由台北飛往東京成田機場的CI101班機，因天候因素，起飛時間將從原定的下午兩點延誤至下午四點三十分。對此造成的不便，敬請見諒。目前登機門為B22，請各位旅客繼續在候機室等候，我們將在起飛前一小時廣播登機資訊，感謝您的耐心配合。",
+        "pinyin_transcript": "Gè wèi lǚ kè qǐng zhù yì, yóu Tái běi fēi wǎng dōng jīng chéng tián jī chǎng de CI101 bān jī, yīn tiān hòu yīn sù, qǐ fēi shí jiān jiāng cóng yuán dìng de xià wǔ liǎng diǎn yán wù zhì xià wǔ sì diǎn sān shí fēn. Duì cǐ zào chéng de bù biàn, jìng qǐng jiàn liàng. Mù qián dēng jī mén wèi B22, qǐng gè wèi lǚ kè jì xù zài hòu jī shì děng hòu.",
+        "english_translation": "Attention passengers, flight CI101 from Taipei to Tokyo Narita Airport has been delayed from the original departure time of 2:00 PM to 4:30 PM due to weather conditions. We apologize for the inconvenience. The current gate is B22, please continue to wait in the departure lounge.",
+        "question": "CI101班機延誤後，新的起飛時間是幾點？",
+        "options": [
+          "下午三點",
+          "下午三點三十分",
+          "下午四點",
+          "下午四點三十分"
+        ],
+        "correct_index": 3
+      }
+    ]
+  },
+  {
+    "id": "listening-test-mixed-1",
+    "title": "TOCFL Listening Test — Mixed A2/B1",
+    "type": "listening",
+    "difficulty": "Mixed",
+    "time_limit": 25,
+    "questions": [
+      {
+        "item_type": "Short Sentence",
+        "text_zh": "我明天要去拜訪我的祖父母，他們住在台中。",
+        "pinyin_transcript": "Wǒ míng tiān yào qù bài fǎng wǒ de zǔ fù mǔ, tā men zhù zài Tái zhōng.",
+        "english_translation": "I'm going to visit my grandparents tomorrow. They live in Taichung.",
+        "question": "說話者明天要去哪裡？",
+        "options": [
+          "台北",
+          "台南",
+          "台中",
+          "高雄"
+        ],
+        "correct_index": 2
+      },
+      {
+        "item_type": "Short Dialogue",
+        "text_zh": "女：你考試考得怎麼樣？男：還好，我覺得應該有八十幾分，但是最後一題不太確定。女：那很好啊，你平常就很認真讀書。男：謝謝，希望真的有那麼高。",
+        "pinyin_transcript": "Nǚ: Nǐ kǎo shì kǎo de zěn me yàng? Nán: Hái hǎo, wǒ jué de yīng gāi yǒu bā shí jǐ fēn, dàn shì zuì hòu yī tí bù tài què dìng. Nǚ: Nà hěn hǎo a, nǐ píng cháng jiù hěn rèn zhēn dú shū. Nán: Xiè xiè, xī wàng zhēn de yǒu nà me gāo.",
+        "english_translation": "Woman: How did your exam go? Man: Not bad, I think I probably got around 80-something, but I'm not sure about the last question. Woman: That's great, you always study very hard. Man: Thank you, I hope it's really that high.",
+        "question": "男生覺得他的考試成績大概是多少？",
+        "options": [
+          "六十幾分",
+          "七十幾分",
+          "八十幾分",
+          "九十幾分"
+        ],
+        "correct_index": 2
+      },
+      {
+        "item_type": "Short Sentence",
+        "text_zh": "由於公司搬遷，我現在上班要多花三十分鐘的通勤時間。",
+        "pinyin_transcript": "Yóu yú gōng sī bān qiān, wǒ xiàn zài shàng bān yào duō huā sān shí fēn zhōng de tōng qín shí jiān.",
+        "english_translation": "Because the company relocated, I now have to spend an extra 30 minutes commuting to work.",
+        "question": "說話者上班通勤多花了多少時間？",
+        "options": [
+          "十分鐘",
+          "二十分鐘",
+          "三十分鐘",
+          "四十分鐘"
+        ],
+        "correct_index": 2
+      },
+      {
+        "item_type": "Short Dialogue",
+        "text_zh": "男：你最近看起來很累，還好嗎？女：最近工作壓力很大，而且睡眠品質很差。男：你要不要試試看早一點睡？女：我也想啊，但是每天都要加班到很晚。男：那你要跟老闆說一聲，長期這樣對身體不好。",
+        "pinyin_transcript": "Nán: Nǐ zuì jìn kàn qǐ lái hěn lèi, hái hǎo ma? Nǚ: Zuì jìn gōng zuò yā lì hěn dà, ér qiě shuì mián pǐn zhì hěn chà. Nán: Nǐ yào bù yào shì shì kàn zǎo yī diǎn shuì? Nǚ: Wǒ yě xiǎng a, dàn shì měi tiān dōu yào jiā bān dào hěn wǎn. Nán: Nà nǐ yào gēn lǎo bǎn shuō yī shēng, cháng qī zhè yàng duì shēn tǐ bù hǎo.",
+        "english_translation": "Man: You look tired lately, are you okay? Woman: Work pressure has been high lately, and my sleep quality is very poor. Man: Have you tried sleeping earlier? Woman: I want to, but I have to work overtime until very late every day. Man: Then you should tell your boss — it's not good for your health in the long run.",
+        "question": "男生建議女生怎麼做？",
+        "options": [
+          "去看醫生",
+          "換一份工作",
+          "跟老闆說加班的問題",
+          "多喝咖啡提神"
+        ],
+        "correct_index": 2
+      },
+      {
+        "item_type": "Announcement",
+        "text_zh": "歡迎光臨花漾百貨。本日特別活動：化妝品專區全面八折，服裝區凡消費滿五千元，即贈送精美購物袋一個。此外，今天下午三點於一樓中庭，將有知名歌手舉辦簽名會，敬請把握機會前往參與。本店營業時間為上午十一點至晚上十點，祝您購物愉快。",
+        "pinyin_transcript": "Huān yíng guāng lín huā yàng bǎi huò. Běn rì tè bié huó dòng: huà zhuāng pǐn zhuān qū quán miàn bā zhé, fú zhuāng qū fán xiāo fèi mǎn wǔ qiān yuán, jí zèng sòng jīng měi gòu wù dài yī gè.",
+        "english_translation": "Welcome to Huayang Department Store. Today's special events: cosmetics section is 20% off, and clothing section — spend over 5,000 dollars to receive a beautiful shopping bag. Also, today at 3 PM in the first floor atrium, a famous singer will hold an autograph session.",
+        "question": "今天服裝區消費滿多少元可以獲得購物袋？",
+        "options": [
+          "三千元",
+          "四千元",
+          "五千元",
+          "六千元"
+        ],
+        "correct_index": 2
+      },
+      {
+        "item_type": "Short Dialogue",
+        "text_zh": "女：你知道台灣有哪些有名的節慶嗎？男：我知道農曆新年，還有中秋節、端午節。女：對，端午節要吃粽子、看龍舟比賽，很熱鬧。男：我最喜歡的是燈籠節，元宵節的時候到處都是燈籠，很漂亮。",
+        "pinyin_transcript": "Nǚ: Nǐ zhī dào Tái wān yǒu nǎ xiē yǒu míng de jié qìng ma? Nán: Wǒ zhī dào nóng lì xīn nián, hái yǒu zhōng qiū jié, duān wǔ jié. Nǚ: Duì, duān wǔ jié yào chī zòng zi, kàn lóng zhōu bǐ sài, hěn rè nào. Nán: Wǒ zuì xǐ huān de shì dēng lóng jié, yuán xiāo jié de shí hòu dào chù dōu shì dēng lóng, hěn piào liang.",
+        "english_translation": "Woman: Do you know any famous Taiwanese festivals? Man: I know Lunar New Year, and Mid-Autumn Festival and Dragon Boat Festival. Woman: Right, during Dragon Boat Festival you eat zongzi and watch dragon boat races — very festive. Man: My favorite is the Lantern Festival — during Yuanxiao Festival, there are lanterns everywhere, it's beautiful.",
+        "question": "端午節有什麼傳統活動？",
+        "options": [
+          "放煙火和舞龍",
+          "吃粽子和看龍舟比賽",
+          "賞月和吃月餅",
+          "提燈籠和猜燈謎"
+        ],
+        "correct_index": 1
+      },
+      {
+        "item_type": "Monologue",
+        "text_zh": "各位同學，歡迎參加今天的中文演講比賽。本次比賽共有二十位參賽者，分為三個組別：初級、中級和高級。每位參賽者的演講時間為三至五分鐘，超時將會被扣分。評分標準包括：發音準確性、語言流暢度、內容豐富性，以及整體表達能力。比賽結果將在所有參賽者演講完畢後公布，優勝者將可獲得獎品及獎狀。",
+        "pinyin_transcript": "Gè wèi tóng xué, huān yíng cān jiā jīn tiān de zhōng wén yǎn jiǎng bǐ sài. Běn cì bǐ sài gòng yǒu èr shí wèi cān sài zhě, fēn wèi sān gè zǔ bié: chū jí, zhōng jí hé gāo jí.",
+        "english_translation": "Dear students, welcome to today's Chinese speech competition. This competition has 20 participants divided into three groups: beginner, intermediate, and advanced. Each participant's speech should be 3-5 minutes; overtime will result in point deductions.",
+        "question": "這次演講比賽每位參賽者的演講時間限制是多少？",
+        "options": [
+          "一至三分鐘",
+          "三至五分鐘",
+          "五至七分鐘",
+          "七至十分鐘"
+        ],
+        "correct_index": 1
+      }
+    ]
+  }
+]

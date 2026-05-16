@@ -1,0 +1,1002 @@
+{
+  "tones": [
+    {
+      "number": 1,
+      "name": "First Tone",
+      "description": "High and level — like singing a sustained musical note",
+      "symbol": "ā",
+      "contour": "55",
+      "color": "#2980b9",
+      "tip": "Imagine a flat line at the top — hold the pitch steady and high.",
+      "examples": [
+        {
+          "hanzi": "媽",
+          "pinyin": "mā",
+          "meaning": "mother",
+          "audio": "mā"
+        },
+        {
+          "hanzi": "書",
+          "pinyin": "shū",
+          "meaning": "book",
+          "audio": "shū"
+        },
+        {
+          "hanzi": "天",
+          "pinyin": "tiān",
+          "meaning": "sky/day",
+          "audio": "tiān"
+        },
+        {
+          "hanzi": "飛",
+          "pinyin": "fēi",
+          "meaning": "to fly",
+          "audio": "fēi"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "name": "Second Tone",
+      "description": "Rising — like asking a surprised question: 'What?!'",
+      "symbol": "á",
+      "contour": "35",
+      "color": "#27ae60",
+      "tip": "Your voice rises from mid to high — like the end of a question in English.",
+      "examples": [
+        {
+          "hanzi": "麻",
+          "pinyin": "má",
+          "meaning": "hemp; numb",
+          "audio": "má"
+        },
+        {
+          "hanzi": "人",
+          "pinyin": "rén",
+          "meaning": "person",
+          "audio": "rén"
+        },
+        {
+          "hanzi": "來",
+          "pinyin": "lái",
+          "meaning": "to come",
+          "audio": "lái"
+        },
+        {
+          "hanzi": "年",
+          "pinyin": "nián",
+          "meaning": "year",
+          "audio": "nián"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "name": "Third Tone",
+      "description": "Falling then rising — like saying 'really?' with deep doubt",
+      "symbol": "ǎ",
+      "contour": "214",
+      "color": "#e67e22",
+      "tip": "Dip down low then come back up. In fast speech it often just falls low.",
+      "examples": [
+        {
+          "hanzi": "馬",
+          "pinyin": "mǎ",
+          "meaning": "horse",
+          "audio": "mǎ"
+        },
+        {
+          "hanzi": "你",
+          "pinyin": "nǐ",
+          "meaning": "you",
+          "audio": "nǐ"
+        },
+        {
+          "hanzi": "好",
+          "pinyin": "hǎo",
+          "meaning": "good",
+          "audio": "hǎo"
+        },
+        {
+          "hanzi": "我",
+          "pinyin": "wǒ",
+          "meaning": "I/me",
+          "audio": "wǒ"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "name": "Fourth Tone",
+      "description": "Sharp falling — like giving a firm command: 'Stop!'",
+      "symbol": "à",
+      "contour": "51",
+      "color": "#c0392b",
+      "tip": "Drop sharply from high to low — short, decisive, like slamming a door.",
+      "examples": [
+        {
+          "hanzi": "罵",
+          "pinyin": "mà",
+          "meaning": "to scold",
+          "audio": "mà"
+        },
+        {
+          "hanzi": "是",
+          "pinyin": "shì",
+          "meaning": "to be",
+          "audio": "shì"
+        },
+        {
+          "hanzi": "去",
+          "pinyin": "qù",
+          "meaning": "to go",
+          "audio": "qù"
+        },
+        {
+          "hanzi": "大",
+          "pinyin": "dà",
+          "meaning": "big",
+          "audio": "dà"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "name": "Neutral Tone",
+      "description": "Light and short — no stress, no tone mark",
+      "symbol": "a",
+      "contour": "neutral",
+      "color": "#7f8c8d",
+      "tip": "Just a quick, unstressed syllable. Very short. Think of English '-er' at end of words.",
+      "examples": [
+        {
+          "hanzi": "嗎",
+          "pinyin": "ma",
+          "meaning": "(question particle)",
+          "audio": "ma"
+        },
+        {
+          "hanzi": "呢",
+          "pinyin": "ne",
+          "meaning": "(soft question particle)",
+          "audio": "ne"
+        },
+        {
+          "hanzi": "的",
+          "pinyin": "de",
+          "meaning": "(possession particle)",
+          "audio": "de"
+        },
+        {
+          "hanzi": "們",
+          "pinyin": "men",
+          "meaning": "(plural suffix)",
+          "audio": "men"
+        }
+      ]
+    }
+  ],
+  "tone_pairs": [
+    {
+      "a": {
+        "hanzi": "媽",
+        "pinyin": "mā",
+        "meaning": "mother"
+      },
+      "b": {
+        "hanzi": "馬",
+        "pinyin": "mǎ",
+        "meaning": "horse"
+      },
+      "note": "Tone 1 vs 3 — level high vs dipping"
+    },
+    {
+      "a": {
+        "hanzi": "麻",
+        "pinyin": "má",
+        "meaning": "numb"
+      },
+      "b": {
+        "hanzi": "罵",
+        "pinyin": "mà",
+        "meaning": "to scold"
+      },
+      "note": "Tone 2 vs 4 — rising vs falling"
+    },
+    {
+      "a": {
+        "hanzi": "買",
+        "pinyin": "mǎi",
+        "meaning": "to buy"
+      },
+      "b": {
+        "hanzi": "賣",
+        "pinyin": "mài",
+        "meaning": "to sell"
+      },
+      "note": "Tone 3 vs 4 — critical pair!"
+    },
+    {
+      "a": {
+        "hanzi": "問",
+        "pinyin": "wèn",
+        "meaning": "to ask"
+      },
+      "b": {
+        "hanzi": "聞",
+        "pinyin": "wén",
+        "meaning": "to smell"
+      },
+      "note": "Tone 4 vs 2 — falling vs rising"
+    },
+    {
+      "a": {
+        "hanzi": "書",
+        "pinyin": "shū",
+        "meaning": "book"
+      },
+      "b": {
+        "hanzi": "熟",
+        "pinyin": "shú",
+        "meaning": "cooked/ripe"
+      },
+      "note": "Tone 1 vs 2 — level vs rising"
+    },
+    {
+      "a": {
+        "hanzi": "死",
+        "pinyin": "sǐ",
+        "meaning": "to die"
+      },
+      "b": {
+        "hanzi": "四",
+        "pinyin": "sì",
+        "meaning": "four"
+      },
+      "note": "Tone 3 vs 4 — dip vs fall"
+    },
+    {
+      "a": {
+        "hanzi": "魚",
+        "pinyin": "yú",
+        "meaning": "fish"
+      },
+      "b": {
+        "hanzi": "雨",
+        "pinyin": "yǔ",
+        "meaning": "rain"
+      },
+      "note": "Tone 2 vs 3"
+    },
+    {
+      "a": {
+        "hanzi": "知",
+        "pinyin": "zhī",
+        "meaning": "to know"
+      },
+      "b": {
+        "hanzi": "紙",
+        "pinyin": "zhǐ",
+        "meaning": "paper"
+      },
+      "note": "Tone 1 vs 3"
+    }
+  ],
+  "initials": [
+    {
+      "symbol": "b",
+      "ipa": "p",
+      "description": "Like English 'b' but unaspirated (no puff of air)",
+      "example": "bā (八 eight)"
+    },
+    {
+      "symbol": "p",
+      "ipa": "pʰ",
+      "description": "Like English 'p' with a strong puff of air",
+      "example": "pá (爬 to climb)"
+    },
+    {
+      "symbol": "m",
+      "ipa": "m",
+      "description": "Like English 'm'",
+      "example": "mā (媽 mother)"
+    },
+    {
+      "symbol": "f",
+      "ipa": "f",
+      "description": "Like English 'f'",
+      "example": "fàn (飯 rice)"
+    },
+    {
+      "symbol": "d",
+      "ipa": "t",
+      "description": "Like English 'd' but unaspirated",
+      "example": "dà (大 big)"
+    },
+    {
+      "symbol": "t",
+      "ipa": "tʰ",
+      "description": "Like English 't' with puff of air",
+      "example": "tiān (天 sky)"
+    },
+    {
+      "symbol": "n",
+      "ipa": "n",
+      "description": "Like English 'n'",
+      "example": "nǐ (你 you)"
+    },
+    {
+      "symbol": "l",
+      "ipa": "l",
+      "description": "Like English 'l'",
+      "example": "lái (來 come)"
+    },
+    {
+      "symbol": "g",
+      "ipa": "k",
+      "description": "Like English 'g' but unaspirated",
+      "example": "gǒu (狗 dog)"
+    },
+    {
+      "symbol": "k",
+      "ipa": "kʰ",
+      "description": "Like English 'k' with puff of air",
+      "example": "kāi (開 open)"
+    },
+    {
+      "symbol": "h",
+      "ipa": "x",
+      "description": "Like a soft 'h', slightly scratchy (like German 'Bach')",
+      "example": "hǎo (好 good)"
+    },
+    {
+      "symbol": "j",
+      "ipa": "tɕ",
+      "description": "Like English 'j' in 'jeep' but lighter",
+      "example": "jiā (家 home)"
+    },
+    {
+      "symbol": "q",
+      "ipa": "tɕʰ",
+      "description": "Like 'ch' in 'cheap' with puff of air — NOT like English 'q'",
+      "example": "qù (去 go)"
+    },
+    {
+      "symbol": "x",
+      "ipa": "ɕ",
+      "description": "Like 'sh' but with tongue near front teeth — NOT like English 'x'",
+      "example": "xiǎo (小 small)"
+    },
+    {
+      "symbol": "zh",
+      "ipa": "ʈʂ",
+      "description": "Like 'j' in 'judge' with tongue curled back",
+      "example": "zhōng (中 middle)"
+    },
+    {
+      "symbol": "ch",
+      "ipa": "ʈʂʰ",
+      "description": "Like 'ch' in 'church' with tongue curled back + puff",
+      "example": "chī (吃 eat)"
+    },
+    {
+      "symbol": "sh",
+      "ipa": "ʂ",
+      "description": "Like 'sh' in 'shoe' with tongue curled back",
+      "example": "shū (書 book)"
+    },
+    {
+      "symbol": "r",
+      "ipa": "ʐ",
+      "description": "Like English 'r' but with tongue curled back — unique sound!",
+      "example": "rén (人 person)"
+    },
+    {
+      "symbol": "z",
+      "ipa": "ts",
+      "description": "Like 'ds' at end of 'beds' — very short buzz",
+      "example": "zài (在 at/in)"
+    },
+    {
+      "symbol": "c",
+      "ipa": "tsʰ",
+      "description": "Like 'ts' in 'cats' with a puff of air",
+      "example": "cài (菜 vegetable)"
+    },
+    {
+      "symbol": "s",
+      "ipa": "s",
+      "description": "Like English 's'",
+      "example": "sān (三 three)"
+    }
+  ],
+  "finals": [
+    {
+      "symbol": "a",
+      "description": "Open 'ah' sound",
+      "examples": [
+        "bā",
+        "mā",
+        "dà"
+      ]
+    },
+    {
+      "symbol": "o",
+      "description": "Rounded 'oh' sound",
+      "examples": [
+        "bō",
+        "mó",
+        "pó"
+      ]
+    },
+    {
+      "symbol": "e",
+      "description": "Unrounded mid back vowel — like 'uh' with lips spread",
+      "examples": [
+        "hē",
+        "gē",
+        "mě"
+      ]
+    },
+    {
+      "symbol": "i",
+      "description": "Like 'ee' in 'feet' (after most initials); like a buzz after zh/ch/sh/r/z/c/s",
+      "examples": [
+        "nǐ",
+        "tī",
+        "shī"
+      ]
+    },
+    {
+      "symbol": "u",
+      "description": "Like 'oo' in 'boot'",
+      "examples": [
+        "bù",
+        "wū",
+        "hú"
+      ]
+    },
+    {
+      "symbol": "ü",
+      "description": "Like French 'u' — say 'ee' with rounded lips. Written 'u' after j/q/x/y",
+      "examples": [
+        "nǚ",
+        "lǚ",
+        "jū"
+      ]
+    },
+    {
+      "symbol": "ai",
+      "description": "Like 'eye'",
+      "examples": [
+        "māi",
+        "tài",
+        "nǎi"
+      ]
+    },
+    {
+      "symbol": "ei",
+      "description": "Like 'ay' in 'bay'",
+      "examples": [
+        "bēi",
+        "fēi",
+        "gěi"
+      ]
+    },
+    {
+      "symbol": "ao",
+      "description": "Like 'ow' in 'cow'",
+      "examples": [
+        "māo",
+        "hǎo",
+        "bào"
+      ]
+    },
+    {
+      "symbol": "ou",
+      "description": "Like 'oh' in 'go'",
+      "examples": [
+        "gōu",
+        "tóu",
+        "hòu"
+      ]
+    },
+    {
+      "symbol": "an",
+      "description": "Like 'an' in 'ban'",
+      "examples": [
+        "fān",
+        "màn",
+        "nán"
+      ]
+    },
+    {
+      "symbol": "en",
+      "description": "Like 'en' in 'open'",
+      "examples": [
+        "mén",
+        "shēn",
+        "rén"
+      ]
+    },
+    {
+      "symbol": "ang",
+      "description": "Like 'ang' in 'song' — back nasal",
+      "examples": [
+        "māng",
+        "fāng",
+        "lǎng"
+      ]
+    },
+    {
+      "symbol": "eng",
+      "description": "Like 'ung' in 'sung'",
+      "examples": [
+        "mēng",
+        "děng",
+        "fēng"
+      ]
+    },
+    {
+      "symbol": "ing",
+      "description": "Like 'ing' in 'sing'",
+      "examples": [
+        "míng",
+        "tīng",
+        "xíng"
+      ]
+    },
+    {
+      "symbol": "ong",
+      "description": "Like 'ung' but with lips rounded",
+      "examples": [
+        "tóng",
+        "hóng",
+        "gōng"
+      ]
+    },
+    {
+      "symbol": "ian",
+      "description": "Like 'yen'",
+      "examples": [
+        "tiān",
+        "niǎn",
+        "biàn"
+      ]
+    },
+    {
+      "symbol": "iao",
+      "description": "Like 'yow'",
+      "examples": [
+        "xiǎo",
+        "piào",
+        "diào"
+      ]
+    },
+    {
+      "symbol": "ie",
+      "description": "Like 'yeh'",
+      "examples": [
+        "jiě",
+        "xiě",
+        "biě"
+      ]
+    },
+    {
+      "symbol": "iu",
+      "description": "Like 'yo' in 'yo-yo'",
+      "examples": [
+        "niú",
+        "liù",
+        "jiù"
+      ]
+    }
+  ],
+  "minimal_pairs_drills": [
+    {
+      "id": "b_vs_p",
+      "title": "b vs p — Aspiration",
+      "instruction": "b has NO puff of air. p HAS a strong puff. Hold your hand in front of your mouth and feel the difference.",
+      "pairs": [
+        {
+          "a": "bā (八)",
+          "b": "pā (趴)",
+          "a_meaning": "eight",
+          "b_meaning": "to lie face down"
+        },
+        {
+          "a": "bó (伯)",
+          "b": "pó (婆)",
+          "a_meaning": "uncle",
+          "b_meaning": "old woman/grandma"
+        },
+        {
+          "a": "bǐ (比)",
+          "b": "pǐ (匹)",
+          "a_meaning": "to compare",
+          "b_meaning": "(classifier for horses)"
+        }
+      ]
+    },
+    {
+      "id": "zh_vs_z",
+      "title": "zh vs z — Tongue position",
+      "instruction": "zh: curl tongue back. z: tongue stays flat near front teeth. This is one of the hardest distinctions for English speakers.",
+      "pairs": [
+        {
+          "a": "zhī (知)",
+          "b": "zī (茲)",
+          "a_meaning": "to know",
+          "b_meaning": "(suffix/here)"
+        },
+        {
+          "a": "zhù (住)",
+          "b": "zù (租)",
+          "a_meaning": "to live/reside",
+          "b_meaning": "to rent"
+        },
+        {
+          "a": "zhǎo (找)",
+          "b": "zǎo (早)",
+          "a_meaning": "to look for",
+          "b_meaning": "early/morning"
+        }
+      ]
+    },
+    {
+      "id": "x_vs_sh",
+      "title": "x vs sh — Tongue position",
+      "instruction": "x: tongue near front teeth, flat. sh: tongue curled back. x sounds lighter and higher-pitched.",
+      "pairs": [
+        {
+          "a": "xiā (蝦)",
+          "b": "shā (沙)",
+          "a_meaning": "shrimp",
+          "b_meaning": "sand"
+        },
+        {
+          "a": "xīn (心)",
+          "b": "shēn (身)",
+          "a_meaning": "heart",
+          "b_meaning": "body"
+        },
+        {
+          "a": "xiū (修)",
+          "b": "shōu (收)",
+          "a_meaning": "to repair",
+          "b_meaning": "to receive"
+        }
+      ]
+    },
+    {
+      "id": "n_vs_l",
+      "title": "n vs l — Nasal vs Lateral",
+      "instruction": "n: air flows through the nose. l: tongue touches the roof and air flows around the sides.",
+      "pairs": [
+        {
+          "a": "nǐ (你)",
+          "b": "lǐ (裡)",
+          "a_meaning": "you",
+          "b_meaning": "inside"
+        },
+        {
+          "a": "nán (南)",
+          "b": "lán (藍)",
+          "a_meaning": "south",
+          "b_meaning": "blue"
+        },
+        {
+          "a": "nǎi (奶)",
+          "b": "lǎi (來—variant)",
+          "a_meaning": "milk/grandma",
+          "b_meaning": "to come"
+        }
+      ]
+    }
+  ],
+  "tone_sandhi_rules": [
+    {
+      "rule": "Two Third Tones Together",
+      "description": "When two 3rd tone syllables appear together, the first one changes to 2nd tone.",
+      "formula": "3 + 3 → 2 + 3",
+      "examples": [
+        {
+          "written": "你好",
+          "spoken_pinyin": "ní hǎo",
+          "note": "你 (nǐ→ní) + 好 (hǎo)"
+        },
+        {
+          "written": "可以",
+          "spoken_pinyin": "ké yǐ",
+          "note": "可 (kě→ké) + 以 (yǐ)"
+        },
+        {
+          "written": "也好",
+          "spoken_pinyin": "yé hǎo",
+          "note": "也 (yě→yé) + 好 (hǎo)"
+        }
+      ]
+    },
+    {
+      "rule": "一 (yī) Tone Change",
+      "description": "The number 一 changes tone depending on what follows it.",
+      "formula": "一 before 4th tone → 2nd tone; before 1st/2nd/3rd → 4th tone",
+      "examples": [
+        {
+          "written": "一個",
+          "spoken_pinyin": "yí gè",
+          "note": "一 + 4th tone gè → 一 becomes yí"
+        },
+        {
+          "written": "一天",
+          "spoken_pinyin": "yì tiān",
+          "note": "一 + 1st tone tiān → 一 becomes yì"
+        },
+        {
+          "written": "一起",
+          "spoken_pinyin": "yì qǐ",
+          "note": "一 + 3rd tone → 一 becomes yì"
+        }
+      ]
+    },
+    {
+      "rule": "不 (bù) Tone Change",
+      "description": "不 is 4th tone, but before another 4th tone it becomes 2nd tone.",
+      "formula": "不 + 4th tone → bú + 4th tone",
+      "examples": [
+        {
+          "written": "不是",
+          "spoken_pinyin": "bú shì",
+          "note": "不 + 是(shì/4th) → bú"
+        },
+        {
+          "written": "不去",
+          "spoken_pinyin": "bú qù",
+          "note": "不 + 去(qù/4th) → bú"
+        },
+        {
+          "written": "不好",
+          "spoken_pinyin": "bù hǎo",
+          "note": "不 + 好(hǎo/3rd) → stays bù"
+        }
+      ]
+    }
+  ],
+  "ear_training_sets": [
+    {
+      "id": "et_basic_tones",
+      "title": "Identify the Tone",
+      "level": "beginner",
+      "instruction": "Listen and choose which tone you hear (1st, 2nd, 3rd, or 4th).",
+      "items": [
+        {
+          "audio_text": "māo",
+          "display": "māo / máo / mǎo / mào",
+          "correct_tone": 1,
+          "meaning": "cat"
+        },
+        {
+          "audio_text": "máo",
+          "display": "māo / máo / mǎo / mào",
+          "correct_tone": 2,
+          "meaning": "fur/hair"
+        },
+        {
+          "audio_text": "mǎo",
+          "display": "māo / máo / mǎo / mào",
+          "correct_tone": 3,
+          "meaning": "4th Earthly Branch"
+        },
+        {
+          "audio_text": "mào",
+          "display": "māo / máo / mǎo / mào",
+          "correct_tone": 4,
+          "meaning": "hat; to emit"
+        },
+        {
+          "audio_text": "tāng",
+          "display": "tāng / táng / tǎng / tàng",
+          "correct_tone": 1,
+          "meaning": "soup"
+        },
+        {
+          "audio_text": "táng",
+          "display": "tāng / táng / tǎng / tàng",
+          "correct_tone": 2,
+          "meaning": "sugar; candy"
+        },
+        {
+          "audio_text": "tǎng",
+          "display": "tāng / táng / tǎng / tàng",
+          "correct_tone": 3,
+          "meaning": "to lie down"
+        },
+        {
+          "audio_text": "tàng",
+          "display": "tāng / táng / tǎng / tàng",
+          "correct_tone": 4,
+          "meaning": "to iron; very hot"
+        }
+      ]
+    },
+    {
+      "id": "et_word_tones",
+      "title": "Same Sound, Different Meaning",
+      "level": "beginner",
+      "instruction": "The same syllable with different tones = completely different words! Listen and choose the correct meaning.",
+      "items": [
+        {
+          "audio_text": "mā",
+          "options": [
+            "mother",
+            "horse",
+            "hemp",
+            "to scold"
+          ],
+          "correct_index": 0
+        },
+        {
+          "audio_text": "má",
+          "options": [
+            "mother",
+            "horse",
+            "hemp/numb",
+            "to scold"
+          ],
+          "correct_index": 2
+        },
+        {
+          "audio_text": "mǎ",
+          "options": [
+            "mother",
+            "horse",
+            "hemp",
+            "to scold"
+          ],
+          "correct_index": 1
+        },
+        {
+          "audio_text": "mà",
+          "options": [
+            "mother",
+            "horse",
+            "hemp",
+            "to scold"
+          ],
+          "correct_index": 3
+        },
+        {
+          "audio_text": "shū",
+          "options": [
+            "book",
+            "uncle",
+            "cooked",
+            "to lose"
+          ],
+          "correct_index": 0
+        },
+        {
+          "audio_text": "shú",
+          "options": [
+            "book",
+            "uncle",
+            "cooked/ripe",
+            "to lose"
+          ],
+          "correct_index": 2
+        },
+        {
+          "audio_text": "shǔ",
+          "options": [
+            "book",
+            "uncle",
+            "cooked",
+            "potato/rat"
+          ],
+          "correct_index": 3
+        },
+        {
+          "audio_text": "shù",
+          "options": [
+            "book",
+            "uncle",
+            "cooked",
+            "tree/number"
+          ],
+          "correct_index": 3
+        }
+      ]
+    }
+  ],
+  "pinyin_quizzes": [
+    {
+      "id": "pq_initials",
+      "title": "Initial Consonants Quiz",
+      "questions": [
+        {
+          "question": "Which initial requires curling the tongue backward?",
+          "options": [
+            "b",
+            "zh",
+            "j",
+            "x"
+          ],
+          "correct_index": 1,
+          "explanation": "zh, ch, sh, r are all 'retroflex' — tongue curled back."
+        },
+        {
+          "question": "Hold your hand in front of your mouth. Which initial produces a puff of air?",
+          "options": [
+            "b",
+            "d",
+            "g",
+            "p"
+          ],
+          "correct_index": 3,
+          "explanation": "p, t, k, ch, q are aspirated — they produce a puff of air."
+        },
+        {
+          "question": "Which letter in pinyin sounds like 'sh' with the tongue near the FRONT teeth?",
+          "options": [
+            "sh",
+            "x",
+            "s",
+            "c"
+          ],
+          "correct_index": 1,
+          "explanation": "x is like 'sh' but with the tongue flat near the front teeth — lighter than sh."
+        },
+        {
+          "question": "The pinyin letter 'q' sounds most like which English sound?",
+          "options": [
+            "q in queen",
+            "ch in cheese",
+            "k in kite",
+            "g in gate"
+          ],
+          "correct_index": 1,
+          "explanation": "q sounds like 'ch' in 'cheese' with a puff of air — not like English 'q'."
+        }
+      ]
+    },
+    {
+      "id": "pq_tones_rule",
+      "title": "Tone Rules Quiz",
+      "questions": [
+        {
+          "question": "Where does the tone mark go in the syllable 'gui'?",
+          "options": [
+            "on g",
+            "on u",
+            "on i",
+            "no mark needed"
+          ],
+          "correct_index": 1,
+          "explanation": "When u and i appear together, the mark goes on whichever comes LAST: guì."
+        },
+        {
+          "question": "你好 (nǐ hǎo) — when spoken together, 你 changes to which tone?",
+          "options": [
+            "1st tone",
+            "2nd tone",
+            "stays 3rd",
+            "4th tone"
+          ],
+          "correct_index": 1,
+          "explanation": "Two 3rd tones in a row: the first changes to 2nd. So: ní hǎo."
+        },
+        {
+          "question": "不是 (bù shì) — 不 changes to which tone before 是?",
+          "options": [
+            "stays 4th",
+            "1st tone",
+            "2nd tone",
+            "3rd tone"
+          ],
+          "correct_index": 2,
+          "explanation": "不 (4th) before another 4th tone (是) becomes 2nd tone: bú shì."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="zh-TW" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>漢語學習 — Beginner to TOCFL B1</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="icon" href="logo.png">
+  <link rel="manifest" href="manifest.json">
+  <script src="https://cdn.jsdelivr.net/npm/hanzi-writer@3.5/dist/hanzi-writer.min.js"></script>
+</head>
+<body>
+<div id="app">
+
+  <nav id="sidebar">
+    <div class="sidebar-logo" style="display:flex; flex-direction:column; align-items:center; text-align:center;">
+      <img src="logo.png" alt="Logo" style="height:120px; width:auto; border-radius: 8px; margin-bottom: 2px;">
+      <div class="branding-tag" style="font-size: 0.6rem; color: rgba(255,255,255,0.3); text-transform: uppercase; letter-spacing: 1.5px; margin-top: 0; font-weight: 600;">Learn with Rai</div>
+    </div>
+    <div class="sidebar-nav">
+      <div class="nav-section-label">開始 Start</div>
+      <a class="nav-item" data-route="dashboard"   href="#/"><span class="nav-icon">📊</span><span class="nav-label">Dashboard</span></a>
+      <a class="nav-item" data-route="onboarding"  href="#/onboarding"><span class="nav-icon">🎵</span><span class="nav-label">Pinyin &amp; Tones</span><span class="nav-badge">NEW</span></a>
+      <a class="nav-item" data-route="learn"        href="#/learn"><span class="nav-icon">🗺️</span><span class="nav-label">Learning Path</span></a>
+      <a class="nav-item" data-route="chapters"     href="#/chapters"><span class="nav-icon">📖</span><span class="nav-label">Chapters</span></a>
+      <a class="nav-item" data-route="playground"   href="#/playground"><span class="nav-icon">🎠</span><span class="nav-label">Beginner Playground</span></a>
+      <a class="nav-item" data-route="exams"        href="#/exams"><span class="nav-icon">🎓</span><span class="nav-label">Monthly Exams</span></a>
+      <a class="nav-item" data-route="char-playground" href="#/char-playground"><span class="nav-icon">🧩</span><span class="nav-label">Character Playground</span></a>
+      <a class="nav-item" data-route="scenarios"    href="#/scenarios"><span class="nav-icon">🎭</span><span class="nav-label">Scenarios</span></a>
+      <div class="nav-section-label">學習 Study</div>
+      <a class="nav-item" data-route="library"     href="#/library"><span class="nav-icon">📚</span><span class="nav-label">Character Library</span></a>
+      <a class="nav-item" data-route="vocabulary"  href="#/vocabulary"><span class="nav-icon">🖼️</span><span class="nav-label">Vocabulary Library</span></a>
+      <a class="nav-item" data-route="vocabulary-books" href="#/vocabulary-books"><span class="nav-icon">📒</span><span class="nav-label">Course Books</span></a>
+      <a class="nav-item" data-route="grammar"     href="#/grammar"><span class="nav-icon">🧬</span><span class="nav-label">Grammar Library</span></a>
+      <a class="nav-item" data-route="flashcards"  href="#/flashcards"><span class="nav-icon">🃏</span><span class="nav-label">Flashcards</span></a>
+      <a class="nav-item" data-route="dialogue"    href="#/dialogue"><span class="nav-icon">💬</span><span class="nav-label">Dialogue Practice</span></a>
+      <div class="nav-section-label">測驗 Quiz</div>
+      <a class="nav-item" data-route="quiz-pronunciation" href="#/quiz/pronunciation"><span class="nav-icon">🔤</span><span class="nav-label">Pronunciation Quiz</span></a>
+      <a class="nav-item" data-route="quiz-vocabulary"    href="#/quiz/vocabulary"><span class="nav-icon">🎯</span><span class="nav-label">Vocabulary Quiz</span></a>
+      <a class="nav-item" data-route="quiz-tones"         href="#/quiz/tones"><span class="nav-icon">🎵</span><span class="nav-label">Tone Training</span></a>
+      <div class="nav-section-label">練習 Practice</div>
+      <a class="nav-item" data-route="reading"     href="#/reading"><span class="nav-icon">📖</span><span class="nav-label">Reading</span></a>
+      <div class="nav-section-label">考試 Mock Test</div>
+      <a class="nav-item" data-route="mock-reading"    href="#/mock-test/reading"><span class="nav-icon">📝</span><span class="nav-label">Reading Test</span></a>
+      <a class="nav-item" data-route="mock-listening"  href="#/mock-test/listening"><span class="nav-icon">🎧</span><span class="nav-label">Listening Test</span></a>
+      <div class="nav-section-label">設定</div>
+      <a class="nav-item" data-route="settings"    href="#/settings"><span class="nav-icon">⚙️</span><span class="nav-label">Settings</span></a>
+    </div>
+    <div class="sidebar-footer">
+      <div class="streak-display">
+        <span class="streak-flame">🔥</span>
+        <span class="streak-number" id="streak-count">0</span>
+        <span>day streak</span>
+      </div>
+    </div>
+  </nav>
+
+  <div id="main">
+    <header id="topbar">
+      <img src="logo.png" alt="" style="height:24px; width:auto; margin-right:12px; display:none;" id="topbar-logo">
+      <span class="page-title" id="topbar-title">Dashboard</span>
+      <div class="topbar-actions">
+        <button class="btn btn-ghost btn-sm btn-icon" id="dark-mode-toggle" title="Toggle dark mode">🌙</button>
+        <button class="btn btn-ghost btn-sm btn-icon" id="tts-test-btn" title="Test audio">🔊</button>
+        <span id="topbar-level" class="badge badge-gray">…</span>
+      </div>
+    </header>
+    <main id="page-content"><div class="spinner"></div></main>
+  </div>
+
+  <nav id="bottom-nav">
+    <div class="bottom-nav-inner">
+      <a class="bottom-nav-item" data-route="dashboard"  href="#/"><span class="bn-icon">📊</span><span>Home</span></a>
+      <a class="bottom-nav-item" data-route="learn"       href="#/learn"><span class="bn-icon">🗺️</span><span>Path</span></a>
+      <a class="bottom-nav-item" data-route="chapters"    href="#/chapters"><span class="bn-icon">📖</span><span>Chapters</span></a>
+      <a class="bottom-nav-item" data-route="playground"  href="#/playground"><span class="bn-icon">🎠</span><span>Play</span></a>
+      <a class="bottom-nav-item" data-route="char-playground" href="#/char-playground"><span class="bn-icon">🧩</span><span>Blocks</span></a>
+      <a class="bottom-nav-item" data-route="scenarios"   href="#/scenarios"><span class="bn-icon">🎭</span><span>Scenarios</span></a>
+      <a class="bottom-nav-item" data-route="library"    href="#/library"><span class="bn-icon">📚</span><span>Library</span></a>
+      <a class="bottom-nav-item" data-route="dialogue"   href="#/dialogue"><span class="bn-icon">💬</span><span>Talk</span></a>
+      <a class="bottom-nav-item" data-route="onboarding" href="#/onboarding"><span class="bn-icon">🎵</span><span>Pinyin</span></a>
+    </div>
+  </nav>
+
+</div>
+
+<div class="word-tooltip hidden" id="word-tooltip">
+  <div class="wt-hanzi"></div><div class="wt-pinyin"></div><div class="wt-def"></div>
+</div>
+<div class="modal-overlay hidden" id="modal-overlay">
+  <div class="modal" id="modal-content"></div>
+</div>
+
+<script src="js/voice.js?v=2"></script>
+<script src="js/grammar.js?v=2"></script>
+<script src="js/tone-game.js?v=2"></script>
+<script src="js/playground.js?v=2"></script>
+<script src="js/exam.js?v=2"></script>
+<script src="js/drawing-board.js?v=2"></script>
+<script src="js/chapters.js?v=2"></script>
+<script src="js/scenarios.js?v=2"></script>
+<script src="js/vocabulary.js?v=2"></script>
+<script src="js/vocabulary_books.js?v=2"></script>
+<script src="js/srs.js?v=2"></script>
+<script src="js/onboarding.js?v=2"></script>
+<script src="js/learn.js?v=2"></script>
+<script src="js/dialogue.js?v=2"></script>
+<script src="js/flashcards.js?v=2"></script>
+<script src="js/quiz.js?v=2"></script>
+<script src="js/reader.js?v=2"></script>
+<script src="js/mock-test.js?v=2"></script>
+<script src="js/app.js?v=2"></script>
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('./sw.js').catch(console.error);
+    });
+  }
+</script>
+</body>
+</html>

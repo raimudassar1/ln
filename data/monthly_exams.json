@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "month": 1,
+    "level": "novice",
+    "title": "Novice Certification I",
+    "description": "Essential phonetics, greetings, and basic introductions.",
+    "sources": {
+      "books": { "id": 1, "chapters": [1, 2] },
+      "playground": ["pg1", "pg2"],
+      "radicals": ["cpg1"]
+    }
+  },
+  {
+    "id": 2,
+    "month": 2,
+    "level": "novice",
+    "title": "Novice Certification II",
+    "description": "Family, navigation, and core survival phrases.",
+    "sources": {
+      "books": { "id": 1, "chapters": [3, 4] },
+      "playground": ["pg3", "pg4"],
+      "radicals": ["cpg2"]
+    }
+  },
+  {
+    "id": 3,
+    "month": 3,
+    "level": "novice",
+    "title": "Novice Certification III",
+    "description": "Numbers, shopping, and common objects.",
+    "sources": {
+      "books": { "id": 1, "chapters": [5] },
+      "playground": ["pg5"],
+      "radicals": ["cpg3"]
+    }
+  },
+  {
+    "id": 4,
+    "month": 4,
+    "level": "a1",
+    "title": "A1 Mastery I",
+    "description": "Daily routines, appointments, and time management.",
+    "sources": {
+      "books": { "id": 1, "chapters": [6, 7] },
+      "playground": ["pg6", "pg7"],
+      "radicals": ["cpg4"]
+    }
+  },
+  {
+    "id": 5,
+    "month": 5,
+    "level": "a1",
+    "title": "A1 Mastery II",
+    "description": "Weather, activities, and making plans with others.",
+    "sources": {
+      "books": { "id": 1, "chapters": [8, 9, 10] },
+      "playground": ["pg8", "pg9"],
+      "radicals": ["cpg5"]
+    }
+  },
+  {
+    "id": 6,
+    "month": 6,
+    "level": "a1",
+    "title": "A1 Mastery III",
+    "description": "Food, dining, and social interactions.",
+    "sources": {
+      "books": { "id": 1, "chapters": [11, 12, 13, 14, 15] },
+      "playground": ["pg10"],
+      "radicals": ["cpg6"]
+    }
+  },
+  {
+    "id": 7,
+    "month": 7,
+    "level": "a2",
+    "title": "A2 Proficiency I",
+    "description": "Public services, transport, and exploring Taiwan.",
+    "sources": {
+      "books": { "id": 2, "chapters": [1, 2, 3, 4, 5] },
+      "playground": ["pg11", "pg12"],
+      "radicals": ["cpg7"]
+    }
+  },
+  {
+    "id": 8,
+    "month": 8,
+    "level": "a2",
+    "title": "A2 Proficiency II",
+    "description": "Health, banking, and professional etiquette.",
+    "sources": {
+      "books": { "id": 2, "chapters": [6, 7, 8, 9, 10] },
+      "playground": ["pg13", "pg14"],
+      "radicals": ["cpg8"]
+    }
+  },
+  {
+    "id": 9,
+    "month": 9,
+    "level": "a2",
+    "title": "A2 Proficiency III",
+    "description": "Workplace communication and local customs.",
+    "sources": {
+      "books": { "id": 2, "chapters": [11, 12, 13, 14, 15] },
+      "playground": ["pg15", "pg16"]
+    }
+  },
+  {
+    "id": 10,
+    "month": 10,
+    "level": "b1",
+    "title": "B1 Independent I",
+    "description": "Hobbies, sports, and expressing complex opinions.",
+    "sources": {
+      "books": { "id": 3, "chapters": [1, 2, 3, 4] },
+      "playground": ["pg17", "pg18"]
+    }
+  },
+  {
+    "id": 11,
+    "month": 11,
+    "level": "b1",
+    "title": "B1 Independent II",
+    "description": "Current events, culture, and social trends.",
+    "sources": {
+      "books": { "id": 3, "chapters": [5, 6, 7, 8] },
+      "playground": ["pg19", "pg20"]
+    }
+  },
+  {
+    "id": 12,
+    "month": 12,
+    "level": "b1",
+    "title": "B1 Mastery Final",
+    "description": "Comprehensive final certification for the full B1 curriculum.",
+    "sources": {
+      "books": { "id": 3, "chapters": [9, 10, 11, 12] },
+      "full_review": true
+    }
+  }
+]

@@ -1,0 +1,495 @@
+{
+  "patterns": [
+    {
+      "id": "g01",
+      "pattern": "V + 著 + VP",
+      "pattern_pinyin": "V + zhe + VP",
+      "english_name": "Ongoing state / continuous action",
+      "level": "b1",
+      "category": "aspect",
+      "meaning": "Indicates an action or state is ongoing while another occurs.",
+      "structure_diagram": "Subject + [Action-著] + [Second Action]",
+      "examples": [
+        {"zh":"她笑著說謝謝。","pinyin":"Tā xiào zhe shuō xièxiè.","english":"She said thank you while smiling."},
+        {"zh":"他站著等公車。","pinyin":"Tā zhàn zhe děng gōngchē.","english":"He waited for the bus standing up."},
+        {"zh":"他們唱著走進來。","pinyin":"Tāmen chàng zhe zǒu jìnlái.","english":"They came in singing."},
+        {"zh":"請你坐著聽。","pinyin":"Qǐng nǐ zuò zhe tīng.","english":"Please sit and listen."}
+      ],
+      "common_mistakes": "Do not confuse 著 (zhe, ongoing) with 了 (le, completed) — 吃著飯 means eating (ongoing) vs 吃了飯 means ate (done).",
+      "taiwan_usage_note": "Very common in spoken Taiwanese Mandarin, especially in instructions at work.",
+      "practice_sentence": {"prompt":"How would you say: He explained while pointing at the screen?", "answer":"他指著螢幕說明。", "pinyin":"Tā zhǐ zhe yíngmù shuōmíng."}
+    },
+    {
+      "id": "g02",
+      "pattern": "一邊…一邊…",
+      "pattern_pinyin": "yībiān... yībiān...",
+      "english_name": "Simultaneous actions",
+      "level": "b1",
+      "category": "time",
+      "meaning": "Indicates two actions happening at the same time.",
+      "structure_diagram": "Subject + 一邊 + [Action A] + 一邊 + [Action B]",
+      "examples": [
+        {"zh":"我一邊吃午餐一邊看新聞。","pinyin":"Wǒ yībiān chī wǔcān yībiān kàn xīnwén.","english":"I watch the news while eating lunch."},
+        {"zh":"他喜歡一邊聽音樂一邊工作。","pinyin":"Tā xǐhuān yībiān tīng yīnyuè yībiān gōngzuò.","english":"He likes to listen to music while working."},
+        {"zh":"我們一邊走路一邊聊天。","pinyin":"Wǒmen yībiān zǒulù yībiān liáotiān.","english":"We chat while we walk."},
+        {"zh":"請不要一邊開車一邊用手機。","pinyin":"Qǐng bùyào yībiān kāichē yībiān yòng shǒujī.","english":"Please do not use your phone while driving."}
+      ],
+      "common_mistakes": "In informal speech, the 'yī' is often dropped, resulting in '邊...邊...'.",
+      "taiwan_usage_note": "In Taiwan, '邊...邊...' is extremely common in daily conversation.",
+      "practice_sentence": {"prompt":"How would you say: I drink tea while reading a book?", "answer":"我一邊喝茶一邊看書。", "pinyin":"Wǒ yībiān hē chá yībiān kàn shū."}
+    },
+    {
+      "id": "g03",
+      "pattern": "越來越…",
+      "pattern_pinyin": "yuè lái yuè...",
+      "english_name": "Increasingly",
+      "level": "b1",
+      "category": "degree",
+      "meaning": "Indicates that a quality or state is intensifying over time.",
+      "structure_diagram": "Subject + 越來越 + [Adjective/Verb]",
+      "examples": [
+        {"zh":"天氣越來越熱了。","pinyin":"Tiānqì yuè lái yuè rè le.","english":"The weather is getting hotter and hotter."},
+        {"zh":"漢語越來越有意思了。","pinyin":"Hànyǔ yuè lái yuè yǒuyìsi le.","english":"Chinese is getting more and more interesting."},
+        {"zh":"他越來越喜歡台灣菜了。","pinyin":"Tā yuè lái yuè xǐhuān Táiwān cài le.","english":"He likes Taiwanese food more and more."},
+        {"zh":"捷運的人越來越多。","pinyin":"Jiéyùn de rén yuè lái yuè duō.","english":"The MRT is getting more and more crowded."}
+      ],
+      "common_mistakes": "Do not put '很' or '非常' after 越來越. '越來越很熱' is incorrect.",
+      "taiwan_usage_note": "Often ends with '了' to indicate a change of state.",
+      "practice_sentence": {"prompt":"How would you say: The progress is getting faster?", "answer":"進度越來越快了。", "pinyin":"Jìndù yuè lái yuè kuài le."}
+    },
+    {
+      "id": "g04",
+      "pattern": "不但…而且…",
+      "pattern_pinyin": "bùdàn... érqiě...",
+      "english_name": "Not only... but also...",
+      "level": "b1",
+      "category": "comparison",
+      "meaning": "Used to connect two related qualities or actions, emphasizing the addition of the second.",
+      "structure_diagram": "Subject + 不但 + [Quality A] + 而且 + [Quality B]",
+      "examples": [
+        {"zh":"他不但會說漢語，而且說得很流利。","pinyin":"Tā bùdàn huì shuō Hànyǔ, érqiě shuō de hěn liúlì.","english":"He not only speaks Chinese but also speaks it fluently."},
+        {"zh":"這家餐廳不但好吃，而且很便宜。","pinyin":"Zhè jiā cāntīng bùdàn hǎochī, érqiě hěn piányí.","english":"This restaurant is not only delicious but also very cheap."},
+        {"zh":"他不但在新竹工作，而且在那裡買了房子。","pinyin":"Tā bùdàn zài Xīnzhú gōngzuò, érqiě zài nàlǐ mǎi le fángzi.","english":"He not only works in Hsinchu but also bought a house there."}
+      ],
+      "taiwan_usage_note": "In Taiwan, '而且' is sometimes replaced by '還' in casual speech.",
+      "practice_sentence": {"prompt":"How would you say: She is not only beautiful but also very smart?", "answer":"她不但很漂亮，而且很聰明。", "pinyin":"Tā bùdàn hěn piàoliang, érqiě hěn cōngmíng."}
+    },
+    {
+      "id": "g05",
+      "pattern": "雖然…但是…",
+      "pattern_pinyin": "suīrán... dànshì...",
+      "english_name": "Although... but...",
+      "level": "b1",
+      "category": "condition",
+      "meaning": "Used to express a contrast or concession.",
+      "structure_diagram": "雖然 + [Clause A], 但是 + [Clause B]",
+      "examples": [
+        {"zh":"雖然外面在下雨，但是我還是想出去走走。","pinyin":"Suīrán wàimiàn zài xiàyǔ, dànshì wǒ háishì xiǎng chūqù zǒuzǒu.","english":"Although it is raining outside, I still want to go out for a walk."},
+        {"zh":"雖然這份工作很累，但是薪水很高。","pinyin":"Suīrán zhè fèn gōngzuò hěn lèi, dànshì xīnzī hěn gāo.","english":"Although this job is tiring, the salary is high."}
+      ],
+      "taiwan_usage_note": "'但是' is often shortened to '但' or replaced by '可是'.",
+      "practice_sentence": {"prompt":"How would you say: Although Chinese is difficult, I like it.", "answer":"雖然漢語很難，但是我喜歡。", "pinyin":"Suīrán Hànyǔ hěn nán, dànshì wǒ xǐhuān."}
+    },
+    {
+      "id": "g06",
+      "pattern": "如果…就…",
+      "pattern_pinyin": "rúguǒ... jiù...",
+      "english_name": "If... then...",
+      "level": "b1",
+      "category": "condition",
+      "meaning": "Used to express a hypothetical condition and its result.",
+      "structure_diagram": "如果 + [Condition], (Subject) + 就 + [Result]",
+      "examples": [
+        {"zh":"如果你有空，我們就去喝咖啡。","pinyin":"Rúguǒ nǐ yǒu kòng, wǒmen jiù qù hē kāfēi.","english":"If you are free, let's go drink coffee."},
+        {"zh":"如果明天天氣好，我就去爬山。","pinyin":"Rúguǒ míngtiān tiānqì hǎo, wǒ jiù qù páshān.","english":"If the weather is good tomorrow, I will go hiking."}
+      ],
+      "taiwan_usage_note": "Casual speech often uses '的話' at the end of the if-clause: '如果你有空的話...'",
+      "practice_sentence": {"prompt":"How would you say: If you like it, then buy it.", "answer":"如果你喜歡，就買吧。", "pinyin":"Rúguǒ nǐ xǐhuān, jiù mǎi ba."}
+    },
+    {
+      "id": "g14",
+      "pattern": "把 sentence",
+      "pattern_pinyin": "bǎ...",
+      "english_name": "Disposal construction",
+      "level": "b1",
+      "category": "aspect",
+      "meaning": "Used to describe how an object is disposed of, handled, or affected by an action.",
+      "structure_diagram": "Subject + 把 + Object + Verb + Result/Direction",
+      "examples": [
+        {"zh":"請把書放在桌上。","pinyin":"Qǐng bǎ shū fàng zài zhuō shàng.","english":"Please put the book on the table."},
+        {"zh":"他把功課做完了。","pinyin":"Tā bǎ gōngkè zuò wán le.","english":"He has finished his homework."},
+        {"zh":"我把附件寄給你了。","pinyin":"Wǒ bǎ fùjiàn jì gěi nǐ le.","english":"I have sent the attachment to you."}
+      ],
+      "taiwan_usage_note": "Extremely common in instructions and giving orders at work.",
+      "practice_sentence": {"prompt":"How would you say: Put on the cleanroom suit.", "answer":"把無塵衣穿上。", "pinyin":"Bǎ wúchényī chuānshàng."}
+    },
+    {
+      "id": "g15",
+      "pattern": "被 passive",
+      "pattern_pinyin": "bèi...",
+      "english_name": "Passive voice",
+      "level": "b1",
+      "category": "aspect",
+      "meaning": "Used to indicate that the subject is the recipient of an action.",
+      "structure_diagram": "Recipient + 被 + Doer + Verb",
+      "examples": [
+        {"zh":"我的蛋糕被他吃掉了。","pinyin":"Wǒ de dàngāo bèi tā chī diào le.","english":"My cake was eaten by him."},
+        {"zh":"那台電腦被弄壞了。","pinyin":"Nà tái diànnǎo bèi nòng huài le.","english":"That computer was broken."}
+      ],
+      "taiwan_usage_note": "In Taiwan, '被' is sometimes replaced by '給' or '讓' in passive constructions.",
+      "practice_sentence": {"prompt":"How would you say: He was hired by TSMC.", "answer":"他被台積電錄取了。", "pinyin":"Tā bèi Táijīdiàn lùqǔ le."}
+    },
+    {
+      "id": "g07",
+      "pattern": "因為…所以…",
+      "pattern_pinyin": "yīnwèi... suǒyǐ...",
+      "english_name": "Because... therefore...",
+      "level": "b1",
+      "category": "condition",
+      "meaning": "Used to express cause and effect.",
+      "structure_diagram": "因為 + [Cause], 所以 + [Effect]",
+      "examples": [
+        {"zh":"因為今天下雨，所以我沒去運動。","pinyin":"Yīnwèi jīntiān xiàyǔ, suǒyǐ wǒ méi qù yùndòng.","english":"Because it rained today, I didn't go exercise."},
+        {"zh":"因為他很努力，所以被公司錄取了。","pinyin":"Yīnwèi tā hěn nǔlì, suǒyǐ bèi gōngsī lùqǔ le.","english":"Because he worked hard, he was hired by the company."}
+      ],
+      "taiwan_usage_note": "In Taiwan, '因為' is sometimes pronounced 'yìn-wèi'.",
+      "practice_sentence": {"prompt":"How would you say: Because I'm thirsty, I want to drink water?", "answer":"因為我很渴，所以我想喝水。", "pinyin":"Yīnwèi wǒ hěn kě, suǒyǐ wǒ xiǎng hē shuǐ."}
+    },
+    {
+      "id": "g08",
+      "pattern": "除了…以外…",
+      "pattern_pinyin": "chúle... yǐwài...",
+      "english_name": "In addition to / except for",
+      "level": "b1",
+      "category": "inclusion",
+      "meaning": "Used to include or exclude items from a category.",
+      "structure_diagram": "除了 + [Item] + 以外, (Subject) + 也/還 + [Additional]",
+      "examples": [
+        {"zh":"除了漢語以外，我也會說英文。","pinyin":"Chúle Hànyǔ yǐwài, wǒ yě huì shuō Yīngwén.","english":"In addition to Chinese, I also speak English."},
+        {"zh":"除了他以外，大家都到了。","pinyin":"Chúle tā yǐwài, dàjiā dōu dào le.","english":"Except for him, everyone has arrived."}
+      ],
+      "taiwan_usage_note": "'以外' is sometimes shortened to '外' or '之位'.",
+      "practice_sentence": {"prompt":"How would you say: In addition to fruit, I also like cake?", "answer":"除了水果以外，我也喜歡蛋糕。", "pinyin":"Chúle shuǐguǒ yǐwài, wǒ yě xǐhuān dàngāo."}
+    },
+    {
+      "id": "g09",
+      "pattern": "既然…就…",
+      "pattern_pinyin": "jìrán... jiù...",
+      "english_name": "Since... then...",
+      "level": "b1",
+      "category": "condition",
+      "meaning": "Used to express that since a certain fact is true, a logical result or action should follow.",
+      "structure_diagram": "既然 + [Fact], (Subject) + 就 + [Result/Action]",
+      "examples": [
+        {"zh":"既然你這麼忙，我們就下次再開會吧。","pinyin":"Jìrán nǐ zhème máng, wǒmen jiù xiàcì zài kāihuì ba.","english":"Since you are so busy, let's have the meeting next time."},
+        {"zh":"既然你是負責人，你就應該做決定。","pinyin":"Jìrán nǐ shì fùzérén, nǐ jiù yīnggāi zuò juédìng.","english":"Since you are the person in charge, you should make the decision."}
+      ],
+      "taiwan_usage_note": "In Taiwan, '既然' is sometimes followed by '那就' for emphasis.",
+      "practice_sentence": {"prompt":"How would you say: Since you've arrived, come in.", "answer":"既然你到了，就進來吧。", "pinyin":"Jìrán nǐ dào le, jiù jìnlái ba."}
+    },
+    {
+      "id": "g10",
+      "pattern": "與其…不如…",
+      "pattern_pinyin": "yǔqí... bùrú...",
+      "english_name": "Rather than... it's better to...",
+      "level": "b1",
+      "category": "comparison",
+      "meaning": "Used to compare two options and recommend the second one as the better choice.",
+      "structure_diagram": "與其 + [Option A], 不如 + [Option B]",
+      "examples": [
+        {"zh":"與其明天加班，不如今天把它做完。","pinyin":"Yǔqí míngtiān jiābān, bùrú jīntiān bǎ tā zuò wán.","english":"Rather than working overtime tomorrow, it's better to finish it today."},
+        {"zh":"與其騎機車，不如搭捷運比較快。","pinyin":"Yǔqí qí jīchē, bùrú dā jiéyùn bǐjiào kuài.","english":"Rather than riding a scooter, it's better/faster to take the MRT."}
+      ],
+      "taiwan_usage_note": "Common in professional decision-making discussions.",
+      "practice_sentence": {"prompt":"How would you say: Rather than waiting, let's go first.", "answer":"與其等待，不如我們先走。", "pinyin":"Yǔqí děngdài, bùrú wǒmen xiān zǒu."}
+    },
+    {
+      "id": "g11",
+      "pattern": "無論…都…",
+      "pattern_pinyin": "wúlùn... dōu...",
+      "english_name": "No matter... still...",
+      "level": "b1",
+      "category": "condition",
+      "meaning": "Indicates that the result remains the same regardless of the circumstances.",
+      "structure_diagram": "無論 + [Circumstance], (Subject) + 都 + [Result]",
+      "examples": [
+        {"zh":"無論天氣好不好，我都會去上班。","pinyin":"Wúlùn tiānqì hǎo bù hǎo, wǒ dōu huì qù shàngbān.","english":"No matter if the weather is good or not, I will still go to work."},
+        {"zh":"無論遇到什麼困難，我們都不能放棄。","pinyin":"Wúlùn yùdào shénme kùnnán, wǒmen dōu bùnéng fàngqì.","english":"No matter what difficulties we encounter, we cannot give up."}
+      ],
+      "taiwan_usage_note": "'不管' is a very common informal alternative to '無論'.",
+      "practice_sentence": {"prompt":"How would you say: No matter what he says, don't believe him.", "answer":"無論他說什麼，都不要相信。", "pinyin":"Wúlùn tā shuō shénme, dōu bùyào xiāngxìn."}
+    },
+    {
+      "id": "g12",
+      "pattern": "甚至…也…",
+      "pattern_pinyin": "shènzhì... yě...",
+      "english_name": "Even... / so much so that...",
+      "level": "b1",
+      "category": "emphasis",
+      "meaning": "Used to emphasize an extreme case or an unexpected addition.",
+      "structure_diagram": "Subject + ..., 甚至 + [Extreme Case] + 也/都 ...",
+      "examples": [
+        {"zh":"他很忙，甚至連吃飯的時間都沒有。","pinyin":"Tā hěn máng, shènzhì lián chīfàn de shíjiān dōu méiyǒu.","english":"He is so busy that he doesn't even have time to eat."},
+        {"zh":"這個問題很難，甚至連工程師也解決不了。","pinyin":"Zhège wèntí hěn nán, shènzhì lián gōngchéngshī yě jiějué bùliǎo.","english":"This problem is very difficult, even the engineers can't solve it."}
+      ],
+      "taiwan_usage_note": "Often used with '連...都...' for extra emphasis.",
+      "practice_sentence": {"prompt":"How would you say: It's so hot, even at night it's 30 degrees.", "answer":"天氣很熱，甚至晚上也有三十度。", "pinyin":"Tiānqì hěn rè, shènzhì wǎnshàng yěyǒu sānshí dù."}
+    },
+    {
+      "id": "g13",
+      "pattern": "竟然",
+      "pattern_pinyin": "jìngrán",
+      "english_name": "Unexpectedly / to one's surprise",
+      "level": "b1",
+      "category": "emphasis",
+      "meaning": "Used to indicate that something happened unexpectedly or is surprising.",
+      "structure_diagram": "Subject + 竟然 + [Unexpected Verb/Adjective]",
+      "examples": [
+        {"zh":"他竟然忘記了昨天的會議。","pinyin":"Tā jìngrán wàngjì le zuótiān de huìyì.","english":"He actually (unexpectedly) forgot yesterday's meeting."},
+        {"zh":"這麼貴的東西，你竟然買了。","pinyin":"Zhème guì de dōngxī, nǐ jìngrán mǎi le.","english":"You actually bought such an expensive thing!"}
+      ],
+      "taiwan_usage_note": "'居然' is a common synonym.",
+      "practice_sentence": {"prompt":"How would you say: He unexpectedly speaks Chinese so well!", "answer":"他竟然漢語說得這麼好！", "pinyin":"Tā jìngrán Hànyǔ shuō de zhème hǎo!"}
+    },
+    {
+      "id": "g16",
+      "pattern": "既…又…",
+      "pattern_pinyin": "jì... yòu...",
+      "english_name": "Both... and...",
+      "level": "b1",
+      "category": "comparison",
+      "meaning": "Used to combine two qualities or conditions that exist simultaneously.",
+      "structure_diagram": "Subject + 既 + [Quality A] + 又 + [Quality B]",
+      "examples": [
+        {"zh":"這台電腦既便宜又好用。","pinyin":"Zhè tái diànnǎo jì piányí yòu hǎo yòng.","english":"This computer is both cheap and easy to use."},
+        {"zh":"他既是工程師，又是專案負責人。","pinyin":"Tā jì shì gōngchéngshī, yòu shì zhuānyàn fùzérén.","english":"He is both an engineer and a project manager."}
+      ],
+      "taiwan_usage_note": "More formal than '又...又...'.",
+      "practice_sentence": {"prompt":"How would you say: The food is both healthy and delicious?", "answer":"這道菜既健康又好吃。", "pinyin":"Zhè dào cài jì jiànkāng yòu hǎochī."}
+    },
+    {
+      "id": "g17",
+      "pattern": "不僅…還…",
+      "pattern_pinyin": "bùjǐn... hái...",
+      "english_name": "Not only... but also...",
+      "level": "b1",
+      "category": "comparison",
+      "meaning": "Similar to '不但...而且...', but slightly more formal.",
+      "structure_diagram": "Subject + 不僅 + [A], 還 + [B]",
+      "examples": [
+        {"zh":"這項技術不僅先進，還很環保。","pinyin":"Zhè xiàng jìshù bùjǐn xiānjìn, hái hěn huánbǎo.","english":"This technology is not only advanced but also environmentally friendly."},
+        {"zh":"他不僅會寫程式，還會設計電路。","pinyin":"Tā bùjǐn huì xiě chéngshì, hái huì shèjì diànlù.","english":"He not only knows how to code but also how to design circuits."}
+      ],
+      "taiwan_usage_note": "Common in written reports and formal presentations.",
+      "practice_sentence": {"prompt":"How would you say: Taiwan not only has MRT but also High Speed Rail?", "answer":"台灣不僅有捷運，還有高鐵。", "pinyin":"Táiwān bùjǐn yǒu jiéyùn, hái yǒu gāotiě."}
+    },
+    {
+      "id": "g18",
+      "pattern": "越…越…",
+      "pattern_pinyin": "yuè... yuè...",
+      "english_name": "The more... the more...",
+      "level": "b1",
+      "category": "degree",
+      "meaning": "Indicates that two qualities or actions change in proportion to each other.",
+      "structure_diagram": "越 + [Action/Quality A], 越 + [Action/Quality B]",
+      "examples": [
+        {"zh":"這本書越看越有意思。","pinyin":"Zhè běn shū yuè kàn yuè yǒuyìsi.","english":"The more I read this book, the more interesting it gets."},
+        {"zh":"天色越晚越冷。","pinyin":"Tiānsè yuè wǎn yuè lěng.","english":"The later it gets, the colder it becomes."}
+      ],
+      "taiwan_usage_note": "Extremely common in daily conversation.",
+      "practice_sentence": {"prompt":"How would you say: The more I learn Chinese, the more I like it.", "answer":"漢語越學越喜歡。", "pinyin":"Hànyǔ yuè xué yuè xǐhuān."}
+    },
+    {
+      "id": "g19",
+      "pattern": "只有…才…",
+      "pattern_pinyin": "zhǐyǒu... cái...",
+      "english_name": "Only if... then...",
+      "level": "b1",
+      "category": "condition",
+      "meaning": "Indicates that a certain condition is the only one that can lead to a specific result.",
+      "structure_diagram": "只有 + [Necessary Condition], (Subject) + 才 + [Result]",
+      "examples": [
+        {"zh":"只有努力學習，才能通過考試。","pinyin":"Zhǐyǒu nǔlì xuéxí, cái néng tōngguò kǎoshì.","english":"Only if you study hard can you pass the exam."},
+        {"zh":"只有穿上無塵衣，才能進入無塵室。","pinyin":"Zhǐyǒu chuānshàng wúchényī, cái néng jìnrù wúchénshì.","english":"Only by putting on a cleanroom suit can you enter the cleanroom."}
+      ],
+      "taiwan_usage_note": "A very strong and clear logical connector.",
+      "practice_sentence": {"prompt":"How would you say: Only if you go yourself will you know.", "answer":"只有你自己去才會知道。", "pinyin":"Zhǐyǒu nǐ zìjǐ qù cái huì zhīdào."}
+    },
+    {
+      "id": "g20",
+      "pattern": "只要…就…",
+      "pattern_pinyin": "zhǐyào... jiù...",
+      "english_name": "As long as... then...",
+      "level": "b1",
+      "category": "condition",
+      "meaning": "Indicates that a sufficient condition will lead to a specific result.",
+      "structure_diagram": "只要 + [Condition], (Subject) + 就 + [Result]",
+      "examples": [
+        {"zh":"只要有時間，我就會去旅行。","pinyin":"Zhǐyào yǒu shíjiān, wǒ jiù huì qù lǚxíng.","english":"As long as I have time, I will go travel."},
+        {"zh":"只要你努力，就一定會成功。","pinyin":"Zhǐyào nǐ nǔlì, jiù yīdìng huì chénggōng.","english":"As long as you work hard, you will surely succeed."}
+      ],
+      "taiwan_usage_note": "Contrast with '只有...才...' (Necessary condition).",
+      "practice_sentence": {"prompt":"How would you say: As long as it doesn't rain, we'll go.", "answer":"只要不下雨，我們就去。", "pinyin":"Zhǐyào bú xiàyǔ, wǒmen jiù qù."}
+    },
+    {
+      "id": "g21",
+      "pattern": "要不是…就…",
+      "pattern_pinyin": "yàobúshì... jiù...",
+      "english_name": "If it weren't for...",
+      "level": "b1",
+      "category": "condition",
+      "meaning": "Used to express a hypothetical situation in the past or present, indicating that if a certain factor hadn't existed, the result would be different.",
+      "structure_diagram": "要不是 + [Condition], (Subject) + 就 + [Counter-factual Result]",
+      "examples": [
+        {"zh":"要不是你幫忙，我一定做不完。","pinyin":"Yàobúshì nǐ bāngmáng, wǒ yīdìng zuò bù wán.","english":"If it weren't for your help, I definitely wouldn't have finished."},
+        {"zh":"要不是下雨，我們就去爬山了。","pinyin":"Yàobúshì xiàyǔ, wǒmen jiù qù páshān le.","english":"If it weren't for the rain, we would have gone hiking."}
+      ],
+      "taiwan_usage_note": "A slightly more dramatic way to express gratitude or regret.",
+      "practice_sentence": {"prompt":"How would you say: If it weren't for the MRT, it would be very inconvenient.", "answer":"要不是有捷運，會很不方便。", "pinyin":"Yàobúshì yǒu jiéyùn, huì hěn bù fāngbiàn."}
+    },
+    {
+      "id": "g22",
+      "pattern": "好在 / 幸好",
+      "pattern_pinyin": "hǎozài / xìnghǎo",
+      "english_name": "Fortunately / luckily",
+      "level": "b1",
+      "category": "emphasis",
+      "meaning": "Used to express relief that something bad was avoided.",
+      "structure_diagram": "好在/幸好 + [Clause]",
+      "examples": [
+        {"zh":"幸好我帶了傘，不然就淋濕了。","pinyin":"Xìnghǎo wǒ dài le sǎn, bùrán jiù línshī le.","english":"Luckily I brought an umbrella, otherwise I would have gotten wet."},
+        {"zh":"好在今天沒塞車，我準時到了。","pinyin":"Hǎozài jīntiān méi sāichē, wǒ zhǔnshí dào le.","english":"Fortunately there was no traffic today, I arrived on time."}
+      ],
+      "taiwan_usage_note": "In Taiwan, '還好' is also frequently used with this meaning.",
+      "practice_sentence": {"prompt":"How would you say: Luckily he told me.", "answer":"幸好他告訴我了。", "pinyin":"Xìnghǎo tā gàosù wǒ le."}
+    },
+    {
+      "id": "g23",
+      "pattern": "既然…那就…",
+      "pattern_pinyin": "jìrán... nàjiù...",
+      "english_name": "Since... then (in that case)...",
+      "level": "b1",
+      "category": "condition",
+      "meaning": "An emphasized version of pattern g09, common in verbal suggestions.",
+      "structure_diagram": "既然 + [Fact], 那就 + [Suggestion]",
+      "examples": [
+        {"zh":"既然不舒服，那就請假休息吧。","pinyin":"Jìrán bù shūfú, nàjiù qǐngjià xiūxi ba.","english":"Since you don't feel well, then take a day off and rest."},
+        {"zh":"既然截止日期改了，那我們就慢慢做。","pinyin":"Jìrán jiézhǐ rìqī gǎi le, nà wǒmen jiù mànmàn zuò.","english":"Since the deadline changed, then let's do it slowly/carefully."}
+      ],
+      "taiwan_usage_note": "The '那' (nà) is often pronounced 'nèi' in quick speech.",
+      "practice_sentence": {"prompt":"How would you say: Since you like it, then take it.", "answer":"既然你喜歡，那就拿去吧。", "pinyin":"Jìrán nǐ xǐhuān, nàjiù ná qù ba."}
+    },
+    {
+      "id": "g24",
+      "pattern": "反而",
+      "pattern_pinyin": "fǎn'ér",
+      "english_name": "On the contrary / instead",
+      "level": "b1",
+      "category": "comparison",
+      "meaning": "Indicates that an outcome is opposite to what was expected.",
+      "structure_diagram": "[Expected Situation], 反而 + [Actual Outcome]",
+      "examples": [
+        {"zh":"我本來想幫他，反而被他罵了。","pinyin":"Wǒ běnlái xiǎng bāng tā, fǎn'ér bèi tā mà le.","english":"I originally wanted to help him, but instead he scolded me."},
+        {"zh":"雨不但沒停，反而越下越大了。","pinyin":"Yǔ bùdàn méi tíng, fǎn'ér yuè xià yuè dà le.","english":"Not only did the rain not stop, on the contrary, it got heavier and heavier."}
+      ],
+      "taiwan_usage_note": "Often used to express irony or frustration.",
+      "practice_sentence": {"prompt":"How would you say: It didn't get cheaper, instead it got more expensive.", "answer":"不但沒變便宜，反而變貴了。", "pinyin":"Bùdàn méi biàn piányí, fǎn'ér biàn guì le."}
+    },
+    {
+      "id": "g25",
+      "pattern": "甚至連…都…",
+      "pattern_pinyin": "shènzhì lián... dōu...",
+      "english_name": "Even... including...",
+      "level": "b1",
+      "category": "emphasis",
+      "meaning": "The full emphatic form of pattern g12.",
+      "structure_diagram": "甚至 + 連 + [Subject/Object] + 都 + [Verb]",
+      "examples": [
+        {"zh":"他甚至連自己的名字都不會寫。","pinyin":"Tā shènzhì lián zìjǐ de míngzì dōu bùhuì xiě.","english":"He even doesn't know how to write his own name."},
+        {"zh":"這裡太吵了，甚至連說話都聽不見。","pinyin":"Zhèlǐ tài chǎo le, shènzhì lián shuōhuà dōu tīng bù jiàn.","english":"It's too noisy here, you can't even hear (people) talking."}
+      ],
+      "taiwan_usage_note": "Used when something is truly shocking or extreme.",
+      "practice_sentence": {"prompt":"How would you say: Even TSMC doesn't have this equipment.", "answer":"甚至連台積電都沒有這台設備。", "pinyin":"Shènzhì lián Táijīdiàn dōu méiyǒu zhè tái shèbèi."}
+    },
+    {
+      "id": "g26",
+      "pattern": "不過",
+      "pattern_pinyin": "búguò",
+      "english_name": "However / but",
+      "level": "b1",
+      "category": "condition",
+      "meaning": "A common connector to introduce a turning point or a restriction.",
+      "structure_diagram": "[Clause A], 不過 + [Clause B]",
+      "examples": [
+        {"zh":"這間房子很好，不過租金太貴了。","pinyin":"Zhè jiān fángzi hěn hǎo, búguò zūjīn tài guì le.","english":"This house is very good, however the rent is too expensive."},
+        {"zh":"我很想去，不過明天沒空。","pinyin":"Wǒ hěn xiǎng qù, búguò míngtiān méi kòng.","english":"I'd love to go, but I'm not free tomorrow."}
+      ],
+      "taiwan_usage_note": "Slightly more informal than '但是' but very common in speech.",
+      "practice_sentence": {"prompt":"How would you say: The food is good, but a bit spicy.", "answer":"菜很好吃，不過有一點辣。", "pinyin":"Cài hěn hǎochī, búguò yǒu yīdiǎn là."}
+    },
+    {
+      "id": "g27",
+      "pattern": "否則 / 不然",
+      "pattern_pinyin": "fǒuzé / bùrán",
+      "english_name": "Otherwise",
+      "level": "b1",
+      "category": "condition",
+      "meaning": "Used to indicate what will happen if the previous condition is not met.",
+      "structure_diagram": "[Action], 否則 + [Negative Consequence]",
+      "examples": [
+        {"zh":"快點走，否則會遲到。","pinyin":"Kuài diǎn zǒu, fǒuzé huì chídào.","english":"Hurry up, otherwise you'll be late."},
+        {"zh":"請準時交報告，不然主管會生氣。","pinyin":"Qǐng zhǔnshí jiāo bàogào, bùrán zhǔnguǎn huì shēngqì.","english":"Please submit the report on time, otherwise the manager will be angry."}
+      ],
+      "taiwan_usage_note": "'不然' is much more common in spoken Taiwanese Mandarin.",
+      "practice_sentence": {"prompt":"How would you say: Wear a coat, otherwise you'll catch a cold.", "answer":"穿上外套，不然會感冒。", "pinyin":"Chuān shàng wàitào, bùrán huì gǎnmào."}
+    },
+    {
+      "id": "g28",
+      "pattern": "難怪",
+      "pattern_pinyin": "nánguài",
+      "english_name": "No wonder",
+      "level": "b1",
+      "category": "emphasis",
+      "meaning": "Used when something becomes clear after hearing an explanation.",
+      "structure_diagram": "難怪 + [Fact that is now explained]",
+      "examples": [
+        {"zh":"難怪他這麼累，他昨天加班到深夜。","pinyin":"Nánguài tā zhème lèi, tā zuótiān jiābān dào shēnyè.","english":"No wonder he's so tired, he worked overtime until late last night."},
+        {"zh":"難怪這裡這麼多人，原來在特價。","pinyin":"Nánguài zhèlǐ zhème duō rén, yuánlái zài tèjià.","english":"No wonder there are so many people here, it turns out there's a sale."}
+      ],
+      "taiwan_usage_note": "Often paired with '原來' (turns out).",
+      "practice_sentence": {"prompt":"How would you say: No wonder he's happy, he got a promotion.", "answer":"難怪他很開心，他升遷了。", "pinyin":"Nánguài tā hěn kāixīn, tā shēngqiān le."}
+    },
+    {
+      "id": "g29",
+      "pattern": "估計",
+      "pattern_pinyin": "gūjì",
+      "english_name": "To estimate / to reckon",
+      "level": "b1",
+      "category": "emphasis",
+      "meaning": "Used to make a calculated guess or prediction.",
+      "structure_diagram": "Subject + 估計 + [Clause]",
+      "examples": [
+        {"zh":"我估計會議還需要一個小時。","pinyin":"Wǒ gūjì huìyì hái xūyào yīgè xiǎoshí.","english":"I estimate that the meeting still needs an hour."},
+        {"zh":"估計明天會下雨。","pinyin":"Gūjì míngtiān huì xiàyǔ.","english":"It's estimated that it will rain tomorrow."}
+      ],
+      "taiwan_usage_note": "Common in professional contexts for forecasting.",
+      "practice_sentence": {"prompt":"How would you say: I reckon the project will be finished next week.", "answer":"我估計專案下週會完成。", "pinyin":"Wǒ gūjì zhuānyàn xiàzhōu huì wánchéng."}
+    },
+    {
+      "id": "g30",
+      "pattern": "總之",
+      "pattern_pinyin": "zǒngzhī",
+      "english_name": "In short / to sum up",
+      "level": "b1",
+      "category": "discourse",
+      "meaning": "Used to summarize a preceding discussion or series of points.",
+      "structure_diagram": "..., 總之 + [Summary Sentence]",
+      "examples": [
+        {"zh":"總之，我們必須在明天前完成。","pinyin":"Zǒngzhī, wǒmen bìxū zài míngtiān qián wánchéng.","english":"In short, we must finish it by tomorrow."},
+        {"zh":"總之，這是一個很好的機會。","pinyin":"Zǒngzhī, zhè shì yīgè hěn hǎo de jīhuì.","english":"To sum up, this is a very good opportunity."}
+      ],
+      "taiwan_usage_note": "Crucial for concluding meetings or summarizing reports.",
+      "practice_sentence": {"prompt":"How would you say: In short, thank you for your help.", "answer":"總之，謝謝你的幫忙。", "pinyin":"Zǒngzhī, xièxiè nǐ de bāngmáng."}
+    }
+  ]
+}

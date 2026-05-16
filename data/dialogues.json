@@ -1,0 +1,625 @@
+[
+  {
+    "id": "dialogue-greet-1",
+    "title": "First Meeting",
+    "level": "novice",
+    "topic": "greetings",
+    "scene": "You meet someone for the first time at a language exchange event in Taipei.",
+    "lines": [
+      {
+        "speaker": "A",
+        "zh": "你好！",
+        "pinyin": "Nǐ hǎo!",
+        "english": "Hello!",
+        "notes": "Standard greeting. Literally 'you good'."
+      },
+      {
+        "speaker": "B",
+        "zh": "你好！你叫什麼名字？",
+        "pinyin": "Nǐ hǎo! Nǐ jiào shén me míng zi?",
+        "english": "Hello! What's your name?",
+        "notes": "叫 (jiào) means 'to be called'."
+      },
+      {
+        "speaker": "A",
+        "zh": "我叫大衛。你呢？",
+        "pinyin": "Wǒ jiào Dà wèi. Nǐ ne?",
+        "english": "My name is David. And you?",
+        "notes": "你呢 = 'And you?' — a very useful short question."
+      },
+      {
+        "speaker": "B",
+        "zh": "我叫小美。很高興認識你！",
+        "pinyin": "Wǒ jiào Xiǎo měi. Hěn gāo xìng rèn shi nǐ!",
+        "english": "My name is Xiaomei. Nice to meet you!",
+        "notes": "認識 (rèn shi) = to know/meet someone."
+      },
+      {
+        "speaker": "A",
+        "zh": "很高興認識你！你是台灣人嗎？",
+        "pinyin": "Hěn gāo xìng rèn shi nǐ! Nǐ shì Tái wān rén ma?",
+        "english": "Nice to meet you too! Are you Taiwanese?",
+        "notes": "Add 嗎 to the end of a statement to make it a yes/no question."
+      },
+      {
+        "speaker": "B",
+        "zh": "是的，我是台灣人。你呢？你是哪國人？",
+        "pinyin": "Shì de, wǒ shì Tái wān rén. Nǐ ne? Nǐ shì nǎ guó rén?",
+        "english": "Yes, I am Taiwanese. And you? What country are you from?",
+        "notes": "哪國人 = 'person of which country'."
+      },
+      {
+        "speaker": "A",
+        "zh": "我是美國人。我在學中文。",
+        "pinyin": "Wǒ shì Měi guó rén. Wǒ zài xué zhōng wén.",
+        "english": "I'm American. I'm studying Chinese.",
+        "notes": "在 + verb = currently doing something (present progressive)."
+      }
+    ],
+    "vocabulary": [
+      "你好",
+      "叫",
+      "名字",
+      "很高興",
+      "認識",
+      "台灣人",
+      "哪國人",
+      "在學"
+    ],
+    "grammar_points": [
+      "S + 是 + N (I am...)",
+      "S + 叫 + Name (My name is...)",
+      "Statement + 嗎 = Yes/No question",
+      "在 + Verb = currently doing"
+    ]
+  },
+  {
+    "id": "dialogue-cafe-1",
+    "title": "Ordering at a Café",
+    "level": "novice",
+    "topic": "food",
+    "scene": "You walk into a Taiwanese café and want to order drinks.",
+    "lines": [
+      {
+        "speaker": "店員",
+        "zh": "你好，歡迎光臨！請問要喝什麼？",
+        "pinyin": "Nǐ hǎo, huān yíng guāng lín! Qǐng wèn yào hē shén me?",
+        "english": "Hello, welcome! What would you like to drink?",
+        "notes": "歡迎光臨 = 'welcome' (formal, used in shops). 請問 = 'may I ask'."
+      },
+      {
+        "speaker": "你",
+        "zh": "你好！我要一杯珍珠奶茶。",
+        "pinyin": "Nǐ hǎo! Wǒ yào yī bēi zhēn zhū nǎi chá.",
+        "english": "Hello! I'd like one bubble milk tea.",
+        "notes": "要 = to want. 一杯 = one cup (杯 is the measure word for drinks)."
+      },
+      {
+        "speaker": "店員",
+        "zh": "好的。甜度要幾分？",
+        "pinyin": "Hǎo de. Tián dù yào jǐ fēn?",
+        "english": "Sure. What sweetness level would you like?",
+        "notes": "This is very common in Taiwan! 幾分 = 'how many parts'."
+      },
+      {
+        "speaker": "你",
+        "zh": "半糖，謝謝。",
+        "pinyin": "Bàn táng, xiè xiè.",
+        "english": "Half sugar, please.",
+        "notes": "Common options: 全糖 (full), 七分 (70%), 半糖 (50%), 三分 (30%), 微糖 (less), 無糖 (none)."
+      },
+      {
+        "speaker": "店員",
+        "zh": "冰塊呢？正常冰、少冰，還是去冰？",
+        "pinyin": "Bīng kuài ne? Zhèng cháng bīng, shǎo bīng, hái shì qù bīng?",
+        "english": "Ice? Normal ice, less ice, or no ice?",
+        "notes": "還是 = 'or' (used in questions with choices)."
+      },
+      {
+        "speaker": "你",
+        "zh": "少冰，謝謝。多少錢？",
+        "pinyin": "Shǎo bīng, xiè xiè. Duō shǎo qián?",
+        "english": "Less ice, thank you. How much is it?",
+        "notes": "多少錢 = 'how much money' — essential phrase!"
+      },
+      {
+        "speaker": "店員",
+        "zh": "六十元。謝謝惠顧！",
+        "pinyin": "Liù shí yuán. Xiè xiè huì gù!",
+        "english": "Sixty dollars. Thank you for your patronage!",
+        "notes": "元 = NT dollar. 謝謝惠顧 = formal thank you for shopping."
+      }
+    ],
+    "vocabulary": [
+      "歡迎光臨",
+      "要",
+      "杯",
+      "珍珠奶茶",
+      "甜度",
+      "半糖",
+      "冰塊",
+      "少冰",
+      "多少錢",
+      "元"
+    ],
+    "grammar_points": [
+      "我要 + item (I want / I'd like)",
+      "Measure word + noun: 一杯水 (one cup of water)",
+      "A、B，還是 C? (A, B, or C?)",
+      "多少錢 (how much does it cost)"
+    ]
+  },
+  {
+    "id": "dialogue-mrt-1",
+    "title": "Taking the MRT",
+    "level": "a1",
+    "topic": "transport",
+    "scene": "You're at an MRT station and need help finding the right train.",
+    "lines": [
+      {
+        "speaker": "你",
+        "zh": "不好意思，請問去台北101要搭哪一線？",
+        "pinyin": "Bù hǎo yì si, qǐng wèn qù Tái běi yī líng yī yào dā nǎ yī xiàn?",
+        "english": "Excuse me, which line do I take to get to Taipei 101?",
+        "notes": "不好意思 = polite way to get someone's attention. 搭 = to take (transport)."
+      },
+      {
+        "speaker": "路人",
+        "zh": "你要搭板南線，在市政府站下車。",
+        "pinyin": "Nǐ yào dā bǎn nán xiàn, zài shì zhèng fǔ zhàn xià chē.",
+        "english": "You take the Bannan Line, get off at City Hall Station.",
+        "notes": "在…下車 = to get off at (a place)."
+      },
+      {
+        "speaker": "你",
+        "zh": "謝謝！要在哪裡換車？",
+        "pinyin": "Xiè xiè! Yào zài nǎ lǐ huàn chē?",
+        "english": "Thank you! Where do I transfer?",
+        "notes": "換車 = to transfer/change trains. Extremely useful!"
+      },
+      {
+        "speaker": "路人",
+        "zh": "你現在在淡水信義線，在忠孝復興站換板南線。",
+        "pinyin": "Nǐ xiàn zài zài dàn shuǐ xìn yì xiàn, zài zhōng xiào fù xīng zhàn huàn bǎn nán xiàn.",
+        "english": "You're currently on the Danshui-Xinyi Line. Transfer to the Bannan Line at Zhongxiao Fuxing Station.",
+        "notes": "現在 = now/currently. In Taiwan, line names are important to know!"
+      },
+      {
+        "speaker": "你",
+        "zh": "好的，我知道了。大概要多久？",
+        "pinyin": "Hǎo de, wǒ zhī dào le. Dà gài yào duō jiǔ?",
+        "english": "I see, got it. About how long will it take?",
+        "notes": "多久 = how long (time). 大概 = approximately."
+      },
+      {
+        "speaker": "路人",
+        "zh": "大概十五分鐘吧。",
+        "pinyin": "Dà gài shí wǔ fēn zhōng ba.",
+        "english": "About fifteen minutes.",
+        "notes": "吧 at the end softens the statement — like 'I think'."
+      },
+      {
+        "speaker": "你",
+        "zh": "太好了，謝謝你！",
+        "pinyin": "Tài hǎo le, xiè xiè nǐ!",
+        "english": "Great, thank you!",
+        "notes": "太…了 = too/very (positive here: 'That's great!')"
+      }
+    ],
+    "vocabulary": [
+      "不好意思",
+      "搭",
+      "線",
+      "下車",
+      "換車",
+      "現在",
+      "大概",
+      "多久",
+      "分鐘"
+    ],
+    "grammar_points": [
+      "要 + 搭 + transport (to take a train/bus)",
+      "在 + place + 下車 (get off at...)",
+      "大概 + time (approximately)",
+      "太 + adj + 了 (so/very adjective)"
+    ]
+  },
+  {
+    "id": "dialogue-doctor-1",
+    "title": "At the Clinic",
+    "level": "a1",
+    "topic": "health",
+    "scene": "You're not feeling well and visit a clinic in Taiwan.",
+    "lines": [
+      {
+        "speaker": "護士",
+        "zh": "你好，請問有什麼不舒服？",
+        "pinyin": "Nǐ hǎo, qǐng wèn yǒu shén me bù shū fú?",
+        "english": "Hello, what seems to be the problem?",
+        "notes": "不舒服 = not comfortable = feeling unwell. Very common phrase."
+      },
+      {
+        "speaker": "你",
+        "zh": "我頭很痛，而且發燒。",
+        "pinyin": "Wǒ tóu hěn tòng, ér qiě fā shāo.",
+        "english": "I have a bad headache and I also have a fever.",
+        "notes": "而且 = furthermore/and also. 發燒 = to have a fever (literally 'fire burning')."
+      },
+      {
+        "speaker": "護士",
+        "zh": "你從幾天前開始不舒服的？",
+        "pinyin": "Nǐ cóng jǐ tiān qián kāi shǐ bù shū fú de?",
+        "english": "How many days ago did you start feeling unwell?",
+        "notes": "從…開始 = starting from... 幾天前 = how many days ago."
+      },
+      {
+        "speaker": "你",
+        "zh": "大概兩天前。我也有一點咳嗽。",
+        "pinyin": "Dà gài liǎng tiān qián. Wǒ yě yǒu yī diǎn ké sòu.",
+        "english": "About two days ago. I also have a bit of a cough.",
+        "notes": "一點 = a little bit. 咳嗽 = cough (a difficult word! ké sòu)."
+      },
+      {
+        "speaker": "醫生",
+        "zh": "你可能感冒了。我開一些藥給你。",
+        "pinyin": "Nǐ kě néng gǎn mào le. Wǒ kāi yī xiē yào gěi nǐ.",
+        "english": "You may have a cold. I'll prescribe some medicine for you.",
+        "notes": "可能 = possibly. 開藥 = to prescribe medicine. 給 = to give."
+      },
+      {
+        "speaker": "你",
+        "zh": "需要多休息嗎？",
+        "pinyin": "Xū yào duō xiū xi ma?",
+        "english": "Do I need to rest more?",
+        "notes": "需要 = need to. 多 before a verb = do it more."
+      },
+      {
+        "speaker": "醫生",
+        "zh": "對，多休息、多喝水，三天內應該會好。",
+        "pinyin": "Duì, duō xiū xi, duō hē shuǐ, sān tiān nèi yīng gāi huì hǎo.",
+        "english": "Yes, rest more, drink more water, you should feel better within three days.",
+        "notes": "應該 = should. 會 = will. 內 = within."
+      }
+    ],
+    "vocabulary": [
+      "不舒服",
+      "頭痛",
+      "發燒",
+      "咳嗽",
+      "感冒",
+      "藥",
+      "休息",
+      "多喝水",
+      "應該",
+      "可能"
+    ],
+    "grammar_points": [
+      "從…開始 (starting from...)",
+      "多 + verb (do more of something)",
+      "可能 + verb (possibly/may)",
+      "應該 + 會 + adj (should be...)"
+    ]
+  },
+  {
+    "id": "dialogue-shopping-1",
+    "title": "Shopping for Clothes",
+    "level": "a1",
+    "topic": "shopping",
+    "scene": "You're shopping for clothes at a market in Taipei.",
+    "lines": [
+      {
+        "speaker": "店員",
+        "zh": "歡迎！請問要找什麼？",
+        "pinyin": "Huān yíng! Qǐng wèn yào zhǎo shén me?",
+        "english": "Welcome! What are you looking for?",
+        "notes": "找 = to look for/find. Very different from 看 (to look at)."
+      },
+      {
+        "speaker": "你",
+        "zh": "我想看一下T恤。",
+        "pinyin": "Wǒ xiǎng kàn yī xià T xù.",
+        "english": "I'd like to look at T-shirts.",
+        "notes": "一下 softens the request — 'just take a quick look'. Very polite."
+      },
+      {
+        "speaker": "店員",
+        "zh": "這件怎麼樣？現在特價，只要三百九十九元。",
+        "pinyin": "Zhè jiàn zěn me yàng? Xiàn zài tè jià, zhǐ yào sān bǎi jiǔ shí jiǔ yuán.",
+        "english": "How about this one? It's on special, only 399 dollars.",
+        "notes": "件 is the measure word for clothing. 特價 = special price/sale."
+      },
+      {
+        "speaker": "你",
+        "zh": "很好看！有沒有大一點的？",
+        "pinyin": "Hěn hǎo kàn! Yǒu méi yǒu dà yī diǎn de?",
+        "english": "It's nice! Do you have one a bit bigger?",
+        "notes": "有沒有 = do you have (question form). adj + 一點 = a bit more adj."
+      },
+      {
+        "speaker": "店員",
+        "zh": "有，這件大號的。你要試穿嗎？",
+        "pinyin": "Yǒu, zhè jiàn dà hào de. Nǐ yào shì chuān ma?",
+        "english": "Yes, this is the large. Would you like to try it on?",
+        "notes": "大號 = large (size). 試穿 = to try on clothes."
+      },
+      {
+        "speaker": "你",
+        "zh": "好，謝謝。試衣間在哪裡？",
+        "pinyin": "Hǎo, xiè xiè. Shì yī jiān zài nǎ lǐ?",
+        "english": "Sure, thanks. Where's the fitting room?",
+        "notes": "在哪裡 = where is (something). Pattern: thing + 在哪裡?"
+      },
+      {
+        "speaker": "店員",
+        "zh": "在那邊，右手邊。",
+        "pinyin": "Zài nà biān, yòu shǒu biān.",
+        "english": "Over there, on the right-hand side.",
+        "notes": "那邊 = over there. 右手邊 = right-hand side (literally 'right hand side')."
+      },
+      {
+        "speaker": "你",
+        "zh": "可以刷卡嗎？",
+        "pinyin": "Kě yǐ shuā kǎ ma?",
+        "english": "Can I pay by card?",
+        "notes": "刷卡 = to swipe a card = pay by card. 可以嗎 = Is it possible?"
+      }
+    ],
+    "vocabulary": [
+      "找",
+      "想看",
+      "件",
+      "特價",
+      "試穿",
+      "試衣間",
+      "在哪裡",
+      "刷卡",
+      "大號"
+    ],
+    "grammar_points": [
+      "想 + verb (would like to)",
+      "有沒有 + noun (do you have...?)",
+      "Adj + 一點 (a bit more adj)",
+      "可以 + verb + 嗎 (can I...?)"
+    ]
+  },
+  {
+    "id": "dialogue-restaurant-1",
+    "title": "Dining at a Restaurant",
+    "level": "a1",
+    "topic": "food",
+    "scene": "You're at a Taiwanese restaurant for dinner.",
+    "lines": [
+      {
+        "speaker": "服務生",
+        "zh": "幾位？",
+        "pinyin": "Jǐ wèi?",
+        "english": "How many people?",
+        "notes": "位 = polite measure word for people. 幾 = how many."
+      },
+      {
+        "speaker": "你",
+        "zh": "兩位，謝謝。",
+        "pinyin": "Liǎng wèi, xiè xiè.",
+        "english": "Two people, thank you.",
+        "notes": "Note: 兩 (liǎng) = 2 when used with measure words, not 二 (èr)."
+      },
+      {
+        "speaker": "服務生",
+        "zh": "請跟我來。這是你們的菜單。",
+        "pinyin": "Qǐng gēn wǒ lái. Zhè shì nǐ men de cài dān.",
+        "english": "Please follow me. Here is your menu.",
+        "notes": "跟 = to follow. 菜單 = menu."
+      },
+      {
+        "speaker": "你",
+        "zh": "謝謝。請問今天有什麼推薦的？",
+        "pinyin": "Xiè xiè. Qǐng wèn jīn tiān yǒu shén me tuī jiàn de?",
+        "english": "Thank you. What do you recommend today?",
+        "notes": "推薦 = to recommend. A great phrase to use anywhere!"
+      },
+      {
+        "speaker": "服務生",
+        "zh": "我們的招牌菜是三杯雞，很多客人喜歡。",
+        "pinyin": "Wǒ men de zhāo pái cài shì sān bēi jī, hěn duō kè rén xǐ huān.",
+        "english": "Our signature dish is Three Cup Chicken, many customers love it.",
+        "notes": "招牌菜 = signature/house special dish. 三杯雞 is a famous Taiwanese dish!"
+      },
+      {
+        "speaker": "你",
+        "zh": "好，我要一份三杯雞，還有一碗滷肉飯。",
+        "pinyin": "Hǎo, wǒ yào yī fèn sān bēi jī, hái yǒu yī wǎn lǔ ròu fàn.",
+        "english": "Okay, I'd like one portion of Three Cup Chicken and also one bowl of braised pork rice.",
+        "notes": "份 = portion (measure word for food). 碗 = bowl (measure word)."
+      },
+      {
+        "speaker": "服務生",
+        "zh": "好的，請問要什麼飲料？",
+        "pinyin": "Hǎo de, qǐng wèn yào shén me yǐn liào?",
+        "english": "Sure, what would you like to drink?",
+        "notes": "飲料 = beverage/drink."
+      },
+      {
+        "speaker": "你",
+        "zh": "兩杯水就好，謝謝。麻煩你了。",
+        "pinyin": "Liǎng bēi shuǐ jiù hǎo, xiè xiè. Má fán nǐ le.",
+        "english": "Just two glasses of water, thank you. Sorry to bother you.",
+        "notes": "就好 = just that will do. 麻煩你了 = 'sorry to trouble you' — very polite and common."
+      }
+    ],
+    "vocabulary": [
+      "位",
+      "菜單",
+      "推薦",
+      "招牌菜",
+      "份",
+      "碗",
+      "飲料",
+      "就好",
+      "麻煩你了"
+    ],
+    "grammar_points": [
+      "兩 vs 二 — use 兩 with measure words",
+      "有什麼…的 (what is there that is...?)",
+      "還有 (and also; in addition)",
+      "就好 (just [that] is fine)"
+    ]
+  },
+  {
+    "id": "dialogue-phone-1",
+    "title": "Making a Phone Call",
+    "level": "a2",
+    "topic": "communication",
+    "scene": "You're calling a restaurant to make a reservation.",
+    "lines": [
+      {
+        "speaker": "店員",
+        "zh": "你好，這裡是金龍餐廳。",
+        "pinyin": "Nǐ hǎo, zhè lǐ shì jīn lóng cān tīng.",
+        "english": "Hello, this is Golden Dragon Restaurant.",
+        "notes": "這裡是 + name = 'This is [name/place]' when answering the phone."
+      },
+      {
+        "speaker": "你",
+        "zh": "你好，我想訂位，請問這週六晚上六點還有位子嗎？",
+        "pinyin": "Nǐ hǎo, wǒ xiǎng dìng wèi, qǐng wèn zhè zhōu liù wǎn shàng liù diǎn hái yǒu wèi zi ma?",
+        "english": "Hello, I'd like to make a reservation. Do you still have availability this Saturday evening at 6pm?",
+        "notes": "訂位 = to make a reservation (restaurant). 還有 = still have."
+      },
+      {
+        "speaker": "店員",
+        "zh": "請問幾位？",
+        "pinyin": "Qǐng wèn jǐ wèi?",
+        "english": "How many people?",
+        "notes": ""
+      },
+      {
+        "speaker": "你",
+        "zh": "四位。",
+        "pinyin": "Sì wèi.",
+        "english": "Four people.",
+        "notes": ""
+      },
+      {
+        "speaker": "店員",
+        "zh": "六點的話，我們還有一桌。請問怎麼稱呼？",
+        "pinyin": "Liù diǎn de huà, wǒ men hái yǒu yī zhuō. Qǐng wèn zěn me chēng hū?",
+        "english": "For 6pm, we still have one table. May I have your name?",
+        "notes": "的話 = in that case. 怎麼稱呼 = 'how shall I address you?' — polite way to ask name."
+      },
+      {
+        "speaker": "你",
+        "zh": "我姓陳，陳大衛。",
+        "pinyin": "Wǒ xìng Chén, Chén Dà wèi.",
+        "english": "My surname is Chen, David Chen.",
+        "notes": "姓 = surname. In Chinese, surname comes FIRST."
+      },
+      {
+        "speaker": "店員",
+        "zh": "好的，陳先生。週六晚上六點，四位，幫您訂好了。",
+        "pinyin": "Hǎo de, Chén xiān shēng. Zhōu liù wǎn shàng liù diǎn, sì wèi, bāng nín dìng hǎo le.",
+        "english": "Alright, Mr. Chen. Saturday evening at 6pm, for four — your reservation is all set.",
+        "notes": "幫您 = to help you (您 is polite 'you'). 訂好了 = successfully reserved."
+      },
+      {
+        "speaker": "你",
+        "zh": "謝謝！請問有停車場嗎？",
+        "pinyin": "Xiè xiè! Qǐng wèn yǒu tíng chē chǎng ma?",
+        "english": "Thank you! Do you have a parking lot?",
+        "notes": "停車場 = parking lot/garage. A common and useful question."
+      }
+    ],
+    "vocabulary": [
+      "訂位",
+      "週六",
+      "位子",
+      "桌",
+      "怎麼稱呼",
+      "姓",
+      "先生",
+      "停車場",
+      "幫您"
+    ],
+    "grammar_points": [
+      "的話 = in that case / if so",
+      "幫 + person + verb (to do something for someone)",
+      "Verb + 好了 (successfully completed)",
+      "Polite 您 vs casual 你"
+    ]
+  },
+  {
+    "id": "dialogue-directions-1",
+    "title": "Asking for Directions",
+    "level": "a1",
+    "topic": "directions",
+    "scene": "You're lost near Ximending (西門町) and need directions.",
+    "lines": [
+      {
+        "speaker": "你",
+        "zh": "不好意思，請問西門捷運站怎麼走？",
+        "pinyin": "Bù hǎo yì si, qǐng wèn xī mén jié yùn zhàn zěn me zǒu?",
+        "english": "Excuse me, how do I get to Ximen MRT Station?",
+        "notes": "怎麼走 = how to go/get there. Essential directions phrase!"
+      },
+      {
+        "speaker": "路人",
+        "zh": "你沿著這條路直走，走到紅綠燈右轉。",
+        "pinyin": "Nǐ yán zhe zhè tiáo lù zhí zǒu, zǒu dào hóng lǜ dēng yòu zhuǎn.",
+        "english": "Go straight along this road, and turn right at the traffic light.",
+        "notes": "沿著 = along. 直走 = go straight. 走到 = walk until you reach."
+      },
+      {
+        "speaker": "你",
+        "zh": "右轉以後呢？",
+        "pinyin": "Yòu zhuǎn yǐ hòu ne?",
+        "english": "And after turning right?",
+        "notes": "以後 = after. 呢 at the end asks 'and then?' or 'what about?'"
+      },
+      {
+        "speaker": "路人",
+        "zh": "然後再走大概五分鐘，捷運站就在左手邊。",
+        "pinyin": "Rán hòu zài zǒu dà gài wǔ fēn zhōng, jié yùn zhàn jiù zài zuǒ shǒu biān.",
+        "english": "Then walk about five more minutes, the MRT station will be on the left side.",
+        "notes": "再 = again/more. 就在 = is right at. 左手邊 = left-hand side."
+      },
+      {
+        "speaker": "你",
+        "zh": "好，謝謝你！走路要多久？",
+        "pinyin": "Hǎo, xiè xiè nǐ! Zǒu lù yào duō jiǔ?",
+        "english": "Okay, thank you! How long does it take to walk?",
+        "notes": "走路 = to walk. 多久 = how long (time)."
+      },
+      {
+        "speaker": "路人",
+        "zh": "大概十分鐘左右。",
+        "pinyin": "Dà gài shí fēn zhōng zuǒ yòu.",
+        "english": "About ten minutes or so.",
+        "notes": "左右 after a number = 'approximately/about'. Super useful pattern!"
+      },
+      {
+        "speaker": "你",
+        "zh": "好的，我知道了。非常謝謝你！",
+        "pinyin": "Hǎo de, wǒ zhī dào le. Fēi cháng xiè xiè nǐ!",
+        "english": "Got it, I understand. Thank you very much!",
+        "notes": "非常 = very/extremely. Stronger than 很."
+      }
+    ],
+    "vocabulary": [
+      "沿著",
+      "直走",
+      "紅綠燈",
+      "右轉",
+      "左手邊",
+      "走路",
+      "多久",
+      "左右",
+      "以後",
+      "非常"
+    ],
+    "grammar_points": [
+      "走到 + place (walk until you reach...)",
+      "再走 + time (walk for more time)",
+      "就在 + direction (is right at/on the...)",
+      "Number + 左右 (approximately, about)"
+    ]
+  }
+]

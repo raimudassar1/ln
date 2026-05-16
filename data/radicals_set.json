@@ -1,0 +1,4830 @@
+{
+  "metadata": {
+    "title": "Traditional Chinese 120 Radical/Component Learning Set",
+    "language": "Traditional Chinese with Hanyu Pinyin",
+    "purpose": "Character Playground database for a 3-phase beginner to TOCFL B1 Mandarin course.",
+    "note": "This is a practical radical/component learning set, not a strict Kangxi radical dictionary. Some items are full characters that are useful as components or semantic/phonetic families.",
+    "phaseSummary": [
+      {
+        "phase": 1,
+        "name": "Novice Phase",
+        "count": 40,
+        "goal": "First 40 high-frequency visual meaning components"
+      },
+      {
+        "phase": 2,
+        "name": "A1 Phase",
+        "count": 40,
+        "goal": "Daily-life components for A1 to A2 reading"
+      },
+      {
+        "phase": 3,
+        "name": "A2 Phase",
+        "count": 40,
+        "goal": "Expansion components for TOCFL B1 bridge, workplace, and formal vocabulary"
+      }
+    ]
+  },
+  "radicals": [
+    {
+      "id": "radical_001",
+      "phase": 1,
+      "phaseName": "Novice Phase: Essential 40 Radicals/Components",
+      "courseLevel": "Level 0 to early A1",
+      "component": "人",
+      "pinyin": "rén",
+      "coreMeaning": "person; human",
+      "componentType": "standalone radical/component",
+      "learningRole": "Human/person meaning; appears in characters about people, human actions, or human scale.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "休",
+          "pinyin": "xiū",
+          "meaning": "rest",
+          "combinationAndSemanticShift": "亻+木 = person by tree → rest"
+        },
+        {
+          "character": "從",
+          "pinyin": "cóng",
+          "meaning": "from/follow",
+          "combinationAndSemanticShift": "two people-like forms → following"
+        },
+        {
+          "character": "大",
+          "pinyin": "dà",
+          "meaning": "big",
+          "combinationAndSemanticShift": "person with arms spread → large"
+        }
+      ]
+    },
+    {
+      "id": "radical_002",
+      "phase": 1,
+      "phaseName": "Novice Phase: Essential 40 Radicals/Components",
+      "courseLevel": "Level 0 to early A1",
+      "component": "亻",
+      "pinyin": "rén",
+      "coreMeaning": "person-side form of 人",
+      "componentType": "side component",
+      "learningRole": "Left-side form usually marks person, identity, social role, or human action.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "你",
+          "pinyin": "nǐ",
+          "meaning": "you",
+          "combinationAndSemanticShift": "亻+尔 = person pronoun"
+        },
+        {
+          "character": "他",
+          "pinyin": "tā",
+          "meaning": "he/him",
+          "combinationAndSemanticShift": "亻+也 = person pronoun"
+        },
+        {
+          "character": "住",
+          "pinyin": "zhù",
+          "meaning": "live/reside",
+          "combinationAndSemanticShift": "亻+主 = person staying → live"
+        }
+      ]
+    },
+    {
+      "id": "radical_003",
+      "phase": 1,
+      "phaseName": "Novice Phase: Essential 40 Radicals/Components",
+      "courseLevel": "Level 0 to early A1",
+      "component": "口",
+      "pinyin": "kǒu",
+      "coreMeaning": "mouth; opening; speech",
+      "componentType": "radical/component",
+      "learningRole": "Marks speaking, eating, sounds, mouths, openings, or names.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "吃",
+          "pinyin": "chī",
+          "meaning": "eat",
+          "combinationAndSemanticShift": "口+乞 = mouth action"
+        },
+        {
+          "character": "喝",
+          "pinyin": "hē",
+          "meaning": "drink",
+          "combinationAndSemanticShift": "口+曷 = mouth action"
+        },
+        {
+          "character": "問",
+          "pinyin": "wèn",
+          "meaning": "ask",
+          "combinationAndSemanticShift": "門+口 = mouth inside gate → ask"
+        }
+      ]
+    },
+    {
+      "id": "radical_004",
+      "phase": 1,
+      "phaseName": "Novice Phase: Essential 40 Radicals/Components",
+      "courseLevel": "Level 0 to early A1",
+      "component": "日",
+      "pinyin": "rì",
+      "coreMeaning": "sun; day; time",
+      "componentType": "radical/component",
+      "learningRole": "Marks day, time, sun, brightness, date, schedule.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "明",
+          "pinyin": "míng",
+          "meaning": "bright",
+          "combinationAndSemanticShift": "日+月 = sun+moon"
+        },
+        {
+          "character": "時",
+          "pinyin": "shí",
+          "meaning": "time",
+          "combinationAndSemanticShift": "日+寺 = time/day field"
+        },
+        {
+          "character": "晚",
+          "pinyin": "wǎn",
+          "meaning": "evening/late",
+          "combinationAndSemanticShift": "日+免 = time of day"
+        }
+      ]
+    },
+    {
+      "id": "radical_005",
+      "phase": 1,
+      "phaseName": "Novice Phase: Essential 40 Radicals/Components",
+      "courseLevel": "Level 0 to early A1",
+      "component": "月",
+      "pinyin": "yuè",
+      "coreMeaning": "moon; month; body/flesh in many characters",
+      "componentType": "radical/component",
+      "learningRole": "Can mean month/moon; as side often marks body, flesh, organs, or physical states.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "明",
+          "pinyin": "míng",
+          "meaning": "bright",
+          "combinationAndSemanticShift": "日+月"
+        },
+        {
+          "character": "朋",
+          "pinyin": "péng",
+          "meaning": "friend",
+          "combinationAndSemanticShift": "月+月 = pair/companion"
+        },
+        {
+          "character": "服",
+          "pinyin": "fú",
+          "meaning": "clothes/serve",
+          "combinationAndSemanticShift": "body/clothing relation"
+        }
+      ]
+    },
+    {
+      "id": "radical_006",
+      "phase": 1,
+      "phaseName": "Novice Phase: Essential 40 Radicals/Components",
+      "courseLevel": "Level 0 to early A1",
+      "component": "木",
+      "pinyin": "mù",
+      "coreMeaning": "tree; wood",
+      "componentType": "radical/component",
+      "learningRole": "Marks trees, wood, furniture, materials, machines/tools originally made from wood.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "林",
+          "pinyin": "lín",
+          "meaning": "forest",
+          "combinationAndSemanticShift": "木+木 = many trees"
+        },
+        {
+          "character": "校",
+          "pinyin": "xiào",
+          "meaning": "school",
+          "combinationAndSemanticShift": "木+交 = phonetic/structure"
+        },
+        {
+          "character": "機",
+          "pinyin": "jī",
+          "meaning": "machine/opportunity",
+          "combinationAndSemanticShift": "木+幾 = device/machine"
+        }
+      ]
+    },
+    {
+      "id": "radical_007",
+      "phase": 1,
+      "phaseName": "Novice Phase: Essential 40 Radicals/Components",
+      "courseLevel": "Level 0 to early A1",
+      "component": "水",
+      "pinyin": "shuǐ",
+      "coreMeaning": "water",
+      "componentType": "standalone radical/component",
+      "learningRole": "Full water form; marks water, flow, liquid, source.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "水",
+          "pinyin": "shuǐ",
+          "meaning": "water",
+          "combinationAndSemanticShift": "standalone direct meaning"
+        },
+        {
+          "character": "泉",
+          "pinyin": "quán",
+          "meaning": "spring",
+          "combinationAndSemanticShift": "白+水 = water source"
+        },
+        {
+          "character": "永",
+          "pinyin": "yǒng",
+          "meaning": "forever",
+          "combinationAndSemanticShift": "flowing water idea → continuity"
+        }
+      ]
+    },
+    {
+      "id": "radical_008",
+      "phase": 1,
+      "phaseName": "Novice Phase: Essential 40 Radicals/Components",
+      "courseLevel": "Level 0 to early A1",
+      "component": "氵",
+      "pinyin": "shuǐ",
+      "coreMeaning": "water-side form",
+      "componentType": "side component",
+      "learningRole": "Left-side water form; marks liquid, washing, fluid, solution, river, temperature, clarity.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "洗",
+          "pinyin": "xǐ",
+          "meaning": "wash",
+          "combinationAndSemanticShift": "氵+先 = water action"
+        },
+        {
+          "character": "海",
+          "pinyin": "hǎi",
+          "meaning": "sea",
+          "combinationAndSemanticShift": "氵+每 = large water"
+        },
+        {
+          "character": "液",
+          "pinyin": "yè",
+          "meaning": "liquid",
+          "combinationAndSemanticShift": "氵+夜 = fluid substance"
+        }
+      ]
+    },
+    {
+      "id": "radical_009",
+      "phase": 1,
+      "phaseName": "Novice Phase: Essential 40 Radicals/Components",
+      "courseLevel": "Level 0 to early A1",
+      "component": "火",
+      "pinyin": "huǒ",
+      "coreMeaning": "fire; heat",
+      "componentType": "radical/component",
+      "learningRole": "Marks fire, heat, cooking, burning, light, energy.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "炒",
+          "pinyin": "chǎo",
+          "meaning": "stir-fry",
+          "combinationAndSemanticShift": "火+少 = fire cooking"
+        },
+        {
+          "character": "燒",
+          "pinyin": "shāo",
+          "meaning": "burn/cook",
+          "combinationAndSemanticShift": "火+堯 = fire action"
+        },
+        {
+          "character": "炎",
+          "pinyin": "yán",
+          "meaning": "flame",
+          "combinationAndSemanticShift": "火+火 = intense fire"
+        }
+      ]
+    },
+    {
+      "id": "radical_010",
+      "phase": 1,
+      "phaseName": "Novice Phase: Essential 40 Radicals/Components",
+      "courseLevel": "Level 0 to early A1",
+      "component": "灬",
+      "pinyin": "huǒ",
+      "coreMeaning": "fire-bottom form",
+      "componentType": "bottom component",
+      "learningRole": "Bottom fire form; marks heat, cooking, burning, light, energy effect.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "熱",
+          "pinyin": "rè",
+          "meaning": "hot",
+          "combinationAndSemanticShift": "埶+灬 = heat below"
+        },
+        {
+          "character": "照",
+          "pinyin": "zhào",
+          "meaning": "shine/photo",
+          "combinationAndSemanticShift": "昭+灬 = light effect"
+        },
+        {
+          "character": "煮",
+          "pinyin": "zhǔ",
+          "meaning": "boil/cook",
+          "combinationAndSemanticShift": "者+灬 = fire below cooking"
+        }
+      ]
+    },
+    {
+      "id": "radical_011",
+      "phase": 1,
+      "phaseName": "Novice Phase: Essential 40 Radicals/Components",
+      "courseLevel": "Level 0 to early A1",
+      "component": "土",
+      "pinyin": "tǔ",
+      "coreMeaning": "earth; soil; ground",
+      "componentType": "radical/component",
+      "learningRole": "Marks ground, soil, land, place, building, local area.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "地",
+          "pinyin": "dì",
+          "meaning": "ground/place",
+          "combinationAndSemanticShift": "土+也 = earth/place"
+        },
+        {
+          "character": "城",
+          "pinyin": "chéng",
+          "meaning": "city",
+          "combinationAndSemanticShift": "土+成 = earth wall/city"
+        },
+        {
+          "character": "坐",
+          "pinyin": "zuò",
+          "meaning": "sit",
+          "combinationAndSemanticShift": "people over ground → sit"
+        }
+      ]
+    },
+    {
+      "id": "radical_012",
+      "phase": 1,
+      "phaseName": "Novice Phase: Essential 40 Radicals/Components",
+      "courseLevel": "Level 0 to early A1",
+      "component": "金",
+      "pinyin": "jīn",
+      "coreMeaning": "metal; gold; money",
+      "componentType": "radical/component",
+      "learningRole": "Marks metal, money, tools, instruments, metallic objects.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "錢",
+          "pinyin": "qián",
+          "meaning": "money",
+          "combinationAndSemanticShift": "金+戔 = metal/money"
+        },
+        {
+          "character": "銀",
+          "pinyin": "yín",
+          "meaning": "silver/bank",
+          "combinationAndSemanticShift": "金+艮 = metal"
+        },
+        {
+          "character": "鏡",
+          "pinyin": "jìng",
+          "meaning": "mirror",
+          "combinationAndSemanticShift": "金+竟 = metal object"
+        }
+      ]
+    },
+    {
+      "id": "radical_013",
+      "phase": 1,
+      "phaseName": "Novice Phase: Essential 40 Radicals/Components",
+      "courseLevel": "Level 0 to early A1",
+      "component": "心",
+      "pinyin": "xīn",
+      "coreMeaning": "heart; mind; feeling",
+      "componentType": "radical/component",
+      "learningRole": "Marks emotions, thoughts, intention, mental states.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "想",
+          "pinyin": "xiǎng",
+          "meaning": "think/want",
+          "combinationAndSemanticShift": "相+心 = mind below"
+        },
+        {
+          "character": "愛",
+          "pinyin": "ài",
+          "meaning": "love",
+          "combinationAndSemanticShift": "contains 心 = emotion"
+        },
+        {
+          "character": "忘",
+          "pinyin": "wàng",
+          "meaning": "forget",
+          "combinationAndSemanticShift": "亡+心 = lost in mind"
+        }
+      ]
+    },
+    {
+      "id": "radical_014",
+      "phase": 1,
+      "phaseName": "Novice Phase: Essential 40 Radicals/Components",
+      "courseLevel": "Level 0 to early A1",
+      "component": "忄",
+      "pinyin": "xīn",
+      "coreMeaning": "heart-side form",
+      "componentType": "side component",
+      "learningRole": "Left-side heart form; marks emotion, mood, psychology, mental state.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "忙",
+          "pinyin": "máng",
+          "meaning": "busy",
+          "combinationAndSemanticShift": "忄+亡 = mental state"
+        },
+        {
+          "character": "快",
+          "pinyin": "kuài",
+          "meaning": "fast/happy",
+          "combinationAndSemanticShift": "忄+夬 = feeling/state"
+        },
+        {
+          "character": "怕",
+          "pinyin": "pà",
+          "meaning": "fear",
+          "combinationAndSemanticShift": "忄+白 = emotion"
+        }
+      ]
+    },
+    {
+      "id": "radical_015",
+      "phase": 1,
+      "phaseName": "Novice Phase: Essential 40 Radicals/Components",
+      "courseLevel": "Level 0 to early A1",
+      "component": "手",
+      "pinyin": "shǒu",
+      "coreMeaning": "hand",
+      "componentType": "radical/component",
+      "learningRole": "Marks hand, handling, manual action, taking, physical interaction.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "手",
+          "pinyin": "shǒu",
+          "meaning": "hand",
+          "combinationAndSemanticShift": "standalone direct"
+        },
+        {
+          "character": "拿",
+          "pinyin": "ná",
+          "meaning": "take",
+          "combinationAndSemanticShift": "合+手 = hand action"
+        },
+        {
+          "character": "拜",
+          "pinyin": "bài",
+          "meaning": "worship/visit",
+          "combinationAndSemanticShift": "hand gesture idea"
+        }
+      ]
+    },
+    {
+      "id": "radical_016",
+      "phase": 1,
+      "phaseName": "Novice Phase: Essential 40 Radicals/Components",
+      "courseLevel": "Level 0 to early A1",
+      "component": "扌",
+      "pinyin": "shǒu",
+      "coreMeaning": "hand-side form",
+      "componentType": "side component",
+      "learningRole": "Left-side hand form; marks hand actions: push, pull, hit, find, hold, operate.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "打",
+          "pinyin": "dǎ",
+          "meaning": "hit/call",
+          "combinationAndSemanticShift": "扌+丁 = hand action"
+        },
+        {
+          "character": "找",
+          "pinyin": "zhǎo",
+          "meaning": "find",
+          "combinationAndSemanticShift": "扌+戈 = hand/action"
+        },
+        {
+          "character": "推",
+          "pinyin": "tuī",
+          "meaning": "push",
+          "combinationAndSemanticShift": "扌+隹 = hand action"
+        }
+      ]
+    },
+    {
+      "id": "radical_017",
+      "phase": 1,
+      "phaseName": "Novice Phase: Essential 40 Radicals/Components",
+      "courseLevel": "Level 0 to early A1",
+      "component": "女",
+      "pinyin": "nǚ",
+      "coreMeaning": "woman; female",
+      "componentType": "radical/component",
+      "learningRole": "Marks women, female roles, family/social identity, gendered historical forms.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "好",
+          "pinyin": "hǎo",
+          "meaning": "good",
+          "combinationAndSemanticShift": "女+子 = woman+child"
+        },
+        {
+          "character": "她",
+          "pinyin": "tā",
+          "meaning": "she/her",
+          "combinationAndSemanticShift": "女+也 = female pronoun"
+        },
+        {
+          "character": "姓",
+          "pinyin": "xìng",
+          "meaning": "surname",
+          "combinationAndSemanticShift": "女+生 = family lineage"
+        }
+      ]
+    },
+    {
+      "id": "radical_018",
+      "phase": 1,
+      "phaseName": "Novice Phase: Essential 40 Radicals/Components",
+      "courseLevel": "Level 0 to early A1",
+      "component": "子",
+      "pinyin": "zǐ",
+      "coreMeaning": "child; son; seed",
+      "componentType": "radical/component",
+      "learningRole": "Marks child, learner, offspring, small thing, derived nominal meanings.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "字",
+          "pinyin": "zì",
+          "meaning": "character/word",
+          "combinationAndSemanticShift": "宀+子 = child/sign under roof"
+        },
+        {
+          "character": "學",
+          "pinyin": "xué",
+          "meaning": "study",
+          "combinationAndSemanticShift": "complex+子 = learner"
+        },
+        {
+          "character": "孩",
+          "pinyin": "hái",
+          "meaning": "child",
+          "combinationAndSemanticShift": "子+亥 = child-related"
+        }
+      ]
+    },
+    {
+      "id": "radical_019",
+      "phase": 1,
+      "phaseName": "Novice Phase: Essential 40 Radicals/Components",
+      "courseLevel": "Level 0 to early A1",
+      "component": "門",
+      "pinyin": "mén",
+      "coreMeaning": "door; gate",
+      "componentType": "radical/component",
+      "learningRole": "Marks doors, gates, rooms, openings, entering, enclosed spaces.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "問",
+          "pinyin": "wèn",
+          "meaning": "ask",
+          "combinationAndSemanticShift": "門+口 = mouth at gate"
+        },
+        {
+          "character": "間",
+          "pinyin": "jiān",
+          "meaning": "between/room",
+          "combinationAndSemanticShift": "門+日 = space through door"
+        },
+        {
+          "character": "開",
+          "pinyin": "kāi",
+          "meaning": "open",
+          "combinationAndSemanticShift": "門+component = door action"
+        }
+      ]
+    },
+    {
+      "id": "radical_020",
+      "phase": 1,
+      "phaseName": "Novice Phase: Essential 40 Radicals/Components",
+      "courseLevel": "Level 0 to early A1",
+      "component": "車",
+      "pinyin": "chē",
+      "coreMeaning": "vehicle; cart",
+      "componentType": "radical/component",
+      "learningRole": "Marks vehicles, wheels, transport, movement, machinery.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "輛",
+          "pinyin": "liàng",
+          "meaning": "vehicle classifier",
+          "combinationAndSemanticShift": "車+兩 = vehicle classifier"
+        },
+        {
+          "character": "輪",
+          "pinyin": "lún",
+          "meaning": "wheel/turn",
+          "combinationAndSemanticShift": "車+侖 = wheel"
+        },
+        {
+          "character": "輕",
+          "pinyin": "qīng",
+          "meaning": "light/gentle",
+          "combinationAndSemanticShift": "車+巠 = vehicle/phonetic"
+        }
+      ]
+    },
+    {
+      "id": "radical_021",
+      "phase": 1,
+      "phaseName": "Novice Phase: Essential 40 Radicals/Components",
+      "courseLevel": "Level 0 to early A1",
+      "component": "言",
+      "pinyin": "yán",
+      "coreMeaning": "speech; language; words",
+      "componentType": "radical/component",
+      "learningRole": "Full speech form; marks words, language, explanation, verbal communication.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "言",
+          "pinyin": "yán",
+          "meaning": "speech",
+          "combinationAndSemanticShift": "standalone direct"
+        },
+        {
+          "character": "語",
+          "pinyin": "yǔ",
+          "meaning": "language",
+          "combinationAndSemanticShift": "言+吾 = speech/language"
+        },
+        {
+          "character": "誓",
+          "pinyin": "shì",
+          "meaning": "vow",
+          "combinationAndSemanticShift": "折+言 = spoken promise"
+        }
+      ]
+    },
+    {
+      "id": "radical_022",
+      "phase": 1,
+      "phaseName": "Novice Phase: Essential 40 Radicals/Components",
+      "courseLevel": "Level 0 to early A1",
+      "component": "訁",
+      "pinyin": "yán",
+      "coreMeaning": "speech-side form",
+      "componentType": "side component",
+      "learningRole": "Left-side speech form; marks saying, asking, teaching, discussing, language.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "說",
+          "pinyin": "shuō",
+          "meaning": "say/speak",
+          "combinationAndSemanticShift": "訁+兌 = speech action"
+        },
+        {
+          "character": "話",
+          "pinyin": "huà",
+          "meaning": "words/speech",
+          "combinationAndSemanticShift": "訁+舌 = spoken words"
+        },
+        {
+          "character": "請",
+          "pinyin": "qǐng",
+          "meaning": "please/invite",
+          "combinationAndSemanticShift": "訁+青 = polite request"
+        }
+      ]
+    },
+    {
+      "id": "radical_023",
+      "phase": 1,
+      "phaseName": "Novice Phase: Essential 40 Radicals/Components",
+      "courseLevel": "Level 0 to early A1",
+      "component": "食",
+      "pinyin": "shí",
+      "coreMeaning": "food; eat",
+      "componentType": "radical/component",
+      "learningRole": "Full food form; marks food, eating, meals, nourishment.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "食",
+          "pinyin": "shí",
+          "meaning": "food/eat",
+          "combinationAndSemanticShift": "standalone direct"
+        },
+        {
+          "character": "餐",
+          "pinyin": "cān",
+          "meaning": "meal",
+          "combinationAndSemanticShift": "complex+食 = food-related"
+        },
+        {
+          "character": "養",
+          "pinyin": "yǎng",
+          "meaning": "nourish/raise",
+          "combinationAndSemanticShift": "羊+食-like form = nourishment"
+        }
+      ]
+    },
+    {
+      "id": "radical_024",
+      "phase": 1,
+      "phaseName": "Novice Phase: Essential 40 Radicals/Components",
+      "courseLevel": "Level 0 to early A1",
+      "component": "飠",
+      "pinyin": "shí",
+      "coreMeaning": "food-side form",
+      "componentType": "side component",
+      "learningRole": "Left-side food form; marks meals, eating, drinking, restaurants, hunger.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "飯",
+          "pinyin": "fàn",
+          "meaning": "rice/meal",
+          "combinationAndSemanticShift": "飠+反 = food item"
+        },
+        {
+          "character": "館",
+          "pinyin": "guǎn",
+          "meaning": "building/restaurant",
+          "combinationAndSemanticShift": "飠+官 = eating place"
+        },
+        {
+          "character": "飲",
+          "pinyin": "yǐn",
+          "meaning": "drink",
+          "combinationAndSemanticShift": "飠+欠 = drink action"
+        }
+      ]
+    },
+    {
+      "id": "radical_025",
+      "phase": 1,
+      "phaseName": "Novice Phase: Essential 40 Radicals/Components",
+      "courseLevel": "Level 0 to early A1",
+      "component": "糸",
+      "pinyin": "mì",
+      "coreMeaning": "thread; silk",
+      "componentType": "radical/component",
+      "learningRole": "Full thread form; marks thread, silk, connection, system, fine lines.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "系",
+          "pinyin": "xì",
+          "meaning": "system/connect",
+          "combinationAndSemanticShift": "thread connection idea"
+        },
+        {
+          "character": "素",
+          "pinyin": "sù",
+          "meaning": "plain/element",
+          "combinationAndSemanticShift": "top+糸 = basic thread/element"
+        },
+        {
+          "character": "索",
+          "pinyin": "suǒ",
+          "meaning": "search/rope",
+          "combinationAndSemanticShift": "top+糸 = rope/search"
+        }
+      ]
+    },
+    {
+      "id": "radical_026",
+      "phase": 1,
+      "phaseName": "Novice Phase: Essential 40 Radicals/Components",
+      "courseLevel": "Level 0 to early A1",
+      "component": "糹",
+      "pinyin": "mì",
+      "coreMeaning": "thread-side form",
+      "componentType": "side component",
+      "learningRole": "Left-side thread form; marks connection, line, color, organization, continuity.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "給",
+          "pinyin": "gěi",
+          "meaning": "give",
+          "combinationAndSemanticShift": "糹+合 = transfer/connection"
+        },
+        {
+          "character": "經",
+          "pinyin": "jīng",
+          "meaning": "classic/manage/pass through",
+          "combinationAndSemanticShift": "糹+巠 = thread/path"
+        },
+        {
+          "character": "線",
+          "pinyin": "xiàn",
+          "meaning": "line/wire",
+          "combinationAndSemanticShift": "糹+泉 = thread/line"
+        }
+      ]
+    },
+    {
+      "id": "radical_027",
+      "phase": 1,
+      "phaseName": "Novice Phase: Essential 40 Radicals/Components",
+      "courseLevel": "Level 0 to early A1",
+      "component": "貝",
+      "pinyin": "bèi",
+      "coreMeaning": "shell; money; value",
+      "componentType": "radical/component",
+      "learningRole": "Ancient money shell; marks money, value, cost, trade, resources.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "買",
+          "pinyin": "mǎi",
+          "meaning": "buy",
+          "combinationAndSemanticShift": "罒+貝 = money exchange"
+        },
+        {
+          "character": "貴",
+          "pinyin": "guì",
+          "meaning": "expensive/noble",
+          "combinationAndSemanticShift": "中+貝 = valuable"
+        },
+        {
+          "character": "費",
+          "pinyin": "fèi",
+          "meaning": "fee/cost",
+          "combinationAndSemanticShift": "弗+貝 = money spent"
+        }
+      ]
+    },
+    {
+      "id": "radical_028",
+      "phase": 1,
+      "phaseName": "Novice Phase: Essential 40 Radicals/Components",
+      "courseLevel": "Level 0 to early A1",
+      "component": "刀",
+      "pinyin": "dāo",
+      "coreMeaning": "knife; blade",
+      "componentType": "radical/component",
+      "learningRole": "Marks cutting, division, blade, sharp action.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "刀",
+          "pinyin": "dāo",
+          "meaning": "knife",
+          "combinationAndSemanticShift": "standalone direct"
+        },
+        {
+          "character": "切",
+          "pinyin": "qiē",
+          "meaning": "cut",
+          "combinationAndSemanticShift": "七+刀 = knife action"
+        },
+        {
+          "character": "分",
+          "pinyin": "fēn",
+          "meaning": "divide",
+          "combinationAndSemanticShift": "八+刀 = cut/separate"
+        }
+      ]
+    },
+    {
+      "id": "radical_029",
+      "phase": 1,
+      "phaseName": "Novice Phase: Essential 40 Radicals/Components",
+      "courseLevel": "Level 0 to early A1",
+      "component": "刂",
+      "pinyin": "dāo",
+      "coreMeaning": "knife-side form",
+      "componentType": "side component",
+      "learningRole": "Right-side knife form; marks cutting, separating, judging, sharp action.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "到",
+          "pinyin": "dào",
+          "meaning": "arrive",
+          "combinationAndSemanticShift": "至+刂 = arrival/action"
+        },
+        {
+          "character": "前",
+          "pinyin": "qián",
+          "meaning": "front/before",
+          "combinationAndSemanticShift": "contains 刂 = separation/front"
+        },
+        {
+          "character": "剛",
+          "pinyin": "gāng",
+          "meaning": "firm/just",
+          "combinationAndSemanticShift": "岡+刂 = firm edge"
+        }
+      ]
+    },
+    {
+      "id": "radical_030",
+      "phase": 1,
+      "phaseName": "Novice Phase: Essential 40 Radicals/Components",
+      "courseLevel": "Level 0 to early A1",
+      "component": "力",
+      "pinyin": "lì",
+      "coreMeaning": "strength; power",
+      "componentType": "radical/component",
+      "learningRole": "Marks force, effort, work, power, ability, motion.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "加",
+          "pinyin": "jiā",
+          "meaning": "add",
+          "combinationAndSemanticShift": "力+口 = added force"
+        },
+        {
+          "character": "動",
+          "pinyin": "dòng",
+          "meaning": "move",
+          "combinationAndSemanticShift": "重+力 = force causes motion"
+        },
+        {
+          "character": "男",
+          "pinyin": "nán",
+          "meaning": "male",
+          "combinationAndSemanticShift": "田+力 = field labor strength"
+        }
+      ]
+    },
+    {
+      "id": "radical_031",
+      "phase": 1,
+      "phaseName": "Novice Phase: Essential 40 Radicals/Components",
+      "courseLevel": "Level 0 to early A1",
+      "component": "目",
+      "pinyin": "mù",
+      "coreMeaning": "eye; seeing",
+      "componentType": "radical/component",
+      "learningRole": "Marks eye, seeing, looking, visual perception, attention.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "看",
+          "pinyin": "kàn",
+          "meaning": "look",
+          "combinationAndSemanticShift": "hand over eye"
+        },
+        {
+          "character": "眼",
+          "pinyin": "yǎn",
+          "meaning": "eye",
+          "combinationAndSemanticShift": "目+艮 = eye-related"
+        },
+        {
+          "character": "睛",
+          "pinyin": "jīng",
+          "meaning": "eyeball",
+          "combinationAndSemanticShift": "目+青 = eye part"
+        }
+      ]
+    },
+    {
+      "id": "radical_032",
+      "phase": 1,
+      "phaseName": "Novice Phase: Essential 40 Radicals/Components",
+      "courseLevel": "Level 0 to early A1",
+      "component": "耳",
+      "pinyin": "ěr",
+      "coreMeaning": "ear; hearing",
+      "componentType": "radical/component",
+      "learningRole": "Marks ear, hearing, listening, receiving information, connection.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "聽",
+          "pinyin": "tīng",
+          "meaning": "listen",
+          "combinationAndSemanticShift": "耳+complex = hearing"
+        },
+        {
+          "character": "聯",
+          "pinyin": "lián",
+          "meaning": "connect",
+          "combinationAndSemanticShift": "耳+糸-like = connection"
+        },
+        {
+          "character": "取",
+          "pinyin": "qǔ",
+          "meaning": "take",
+          "combinationAndSemanticShift": "get:耳+又 = ancient taking idea"
+        }
+      ]
+    },
+    {
+      "id": "radical_033",
+      "phase": 1,
+      "phaseName": "Novice Phase: Essential 40 Radicals/Components",
+      "courseLevel": "Level 0 to early A1",
+      "component": "足",
+      "pinyin": "zú",
+      "coreMeaning": "foot; enough",
+      "componentType": "radical/component",
+      "learningRole": "Marks feet, walking, running, movement, roads, sufficiency.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "路",
+          "pinyin": "lù",
+          "meaning": "road",
+          "combinationAndSemanticShift": "足+各 = foot path"
+        },
+        {
+          "character": "跑",
+          "pinyin": "pǎo",
+          "meaning": "run",
+          "combinationAndSemanticShift": "足+包 = foot action"
+        },
+        {
+          "character": "踢",
+          "pinyin": "tī",
+          "meaning": "kick",
+          "combinationAndSemanticShift": "足+易 = foot action"
+        }
+      ]
+    },
+    {
+      "id": "radical_034",
+      "phase": 1,
+      "phaseName": "Novice Phase: Essential 40 Radicals/Components",
+      "courseLevel": "Level 0 to early A1",
+      "component": "辶",
+      "pinyin": "chuò",
+      "coreMeaning": "walk; movement path",
+      "componentType": "movement component",
+      "learningRole": "Marks movement, direction, travel, passing, arrival, process over time.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "這",
+          "pinyin": "zhè",
+          "meaning": "this",
+          "combinationAndSemanticShift": "辶+言-like = deictic movement"
+        },
+        {
+          "character": "過",
+          "pinyin": "guò",
+          "meaning": "pass/past",
+          "combinationAndSemanticShift": "辶+咼 = move through"
+        },
+        {
+          "character": "近",
+          "pinyin": "jìn",
+          "meaning": "near",
+          "combinationAndSemanticShift": "辶+斤 = distance"
+        }
+      ]
+    },
+    {
+      "id": "radical_035",
+      "phase": 1,
+      "phaseName": "Novice Phase: Essential 40 Radicals/Components",
+      "courseLevel": "Level 0 to early A1",
+      "component": "宀",
+      "pinyin": "mián",
+      "coreMeaning": "roof; house",
+      "componentType": "top component",
+      "learningRole": "Marks house, room, safety, family, indoor space, something under a roof.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "家",
+          "pinyin": "jiā",
+          "meaning": "home/family",
+          "combinationAndSemanticShift": "宀+豕 = under roof"
+        },
+        {
+          "character": "安",
+          "pinyin": "ān",
+          "meaning": "safe/peaceful",
+          "combinationAndSemanticShift": "宀+女 = safety"
+        },
+        {
+          "character": "室",
+          "pinyin": "shì",
+          "meaning": "room/lab",
+          "combinationAndSemanticShift": "宀+至 = indoor space"
+        }
+      ]
+    },
+    {
+      "id": "radical_036",
+      "phase": 1,
+      "phaseName": "Novice Phase: Essential 40 Radicals/Components",
+      "courseLevel": "Level 0 to early A1",
+      "component": "艹",
+      "pinyin": "cǎo",
+      "coreMeaning": "grass; plant",
+      "componentType": "top component",
+      "learningRole": "Marks plants, vegetables, herbs, flowers, medicine, plant-derived things.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "茶",
+          "pinyin": "chá",
+          "meaning": "tea",
+          "combinationAndSemanticShift": "艹+余 = plant product"
+        },
+        {
+          "character": "菜",
+          "pinyin": "cài",
+          "meaning": "vegetable/dish",
+          "combinationAndSemanticShift": "艹+采 = plant/food"
+        },
+        {
+          "character": "藥",
+          "pinyin": "yào",
+          "meaning": "medicine",
+          "combinationAndSemanticShift": "艹+樂 = herbal medicine"
+        }
+      ]
+    },
+    {
+      "id": "radical_037",
+      "phase": 1,
+      "phaseName": "Novice Phase: Essential 40 Radicals/Components",
+      "courseLevel": "Level 0 to early A1",
+      "component": "雨",
+      "pinyin": "yǔ",
+      "coreMeaning": "rain; weather",
+      "componentType": "radical/component",
+      "learningRole": "Marks rain, weather, clouds, electricity, thunder, atmosphere.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "雪",
+          "pinyin": "xuě",
+          "meaning": "snow",
+          "combinationAndSemanticShift": "雨+彗-like = weather"
+        },
+        {
+          "character": "電",
+          "pinyin": "diàn",
+          "meaning": "electricity",
+          "combinationAndSemanticShift": "雨+申 = lightning/electricity"
+        },
+        {
+          "character": "霧",
+          "pinyin": "wù",
+          "meaning": "fog",
+          "combinationAndSemanticShift": "雨+務 = weather"
+        }
+      ]
+    },
+    {
+      "id": "radical_038",
+      "phase": 1,
+      "phaseName": "Novice Phase: Essential 40 Radicals/Components",
+      "courseLevel": "Level 0 to early A1",
+      "component": "工",
+      "pinyin": "gōng",
+      "coreMeaning": "work; craft; engineering",
+      "componentType": "radical/component",
+      "learningRole": "Marks work, craft, construction, technical skill; also phonetic.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "工",
+          "pinyin": "gōng",
+          "meaning": "work",
+          "combinationAndSemanticShift": "standalone direct"
+        },
+        {
+          "character": "左",
+          "pinyin": "zuǒ",
+          "meaning": "left",
+          "combinationAndSemanticShift": "工+hand-like = left/tool component"
+        },
+        {
+          "character": "巧",
+          "pinyin": "qiǎo",
+          "meaning": "skillful",
+          "combinationAndSemanticShift": "工+丂 = craft skill"
+        }
+      ]
+    },
+    {
+      "id": "radical_039",
+      "phase": 1,
+      "phaseName": "Novice Phase: Essential 40 Radicals/Components",
+      "courseLevel": "Level 0 to early A1",
+      "component": "生",
+      "pinyin": "shēng",
+      "coreMeaning": "life; birth; raw; student",
+      "componentType": "radical/component",
+      "learningRole": "Marks life, growth, birth, production, student identity, raw state.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "學生",
+          "pinyin": "xuéshēng",
+          "meaning": "student",
+          "combinationAndSemanticShift": "學+生 = one who studies"
+        },
+        {
+          "character": "產",
+          "pinyin": "chǎn",
+          "meaning": "produce",
+          "combinationAndSemanticShift": "contains 生 = production"
+        },
+        {
+          "character": "星",
+          "pinyin": "xīng",
+          "meaning": "star",
+          "combinationAndSemanticShift": "日+生 = bright celestial object"
+        }
+      ]
+    },
+    {
+      "id": "radical_040",
+      "phase": 1,
+      "phaseName": "Novice Phase: Essential 40 Radicals/Components",
+      "courseLevel": "Level 0 to early A1",
+      "component": "文",
+      "pinyin": "wén",
+      "coreMeaning": "writing; culture; language",
+      "componentType": "radical/component",
+      "learningRole": "Marks writing, literature, language, culture, pattern, education.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "文",
+          "pinyin": "wén",
+          "meaning": "writing/culture",
+          "combinationAndSemanticShift": "standalone direct"
+        },
+        {
+          "character": "語文",
+          "pinyin": "yǔwén",
+          "meaning": "language/literature",
+          "combinationAndSemanticShift": "語+文"
+        },
+        {
+          "character": "文章",
+          "pinyin": "wénzhāng",
+          "meaning": "article",
+          "combinationAndSemanticShift": "文+章 = written text"
+        }
+      ]
+    },
+    {
+      "id": "radical_041",
+      "phase": 2,
+      "phaseName": "A1 Phase: Daily-Life 40 More Radicals/Components",
+      "courseLevel": "A1 to A2",
+      "component": "王",
+      "pinyin": "wáng",
+      "coreMeaning": "king; jade-like side",
+      "componentType": "radical/component",
+      "learningRole": "Often jade/precious quality or phonetic; appears in quality/value characters.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "現",
+          "pinyin": "xiàn",
+          "meaning": "appear/present",
+          "combinationAndSemanticShift": "王+見 = seen/present"
+        },
+        {
+          "character": "班",
+          "pinyin": "bān",
+          "meaning": "class/shift",
+          "combinationAndSemanticShift": "王+刂+王 = divided group"
+        },
+        {
+          "character": "理",
+          "pinyin": "lǐ",
+          "meaning": "principle/manage",
+          "combinationAndSemanticShift": "王+里 = ordered texture"
+        }
+      ]
+    },
+    {
+      "id": "radical_042",
+      "phase": 2,
+      "phaseName": "A1 Phase: Daily-Life 40 More Radicals/Components",
+      "courseLevel": "A1 to A2",
+      "component": "玉",
+      "pinyin": "yù",
+      "coreMeaning": "jade",
+      "componentType": "radical/component",
+      "learningRole": "Marks jade, precious stones, valuables, beauty, refinement.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "玉",
+          "pinyin": "yù",
+          "meaning": "jade",
+          "combinationAndSemanticShift": "standalone direct"
+        },
+        {
+          "character": "寶",
+          "pinyin": "bǎo",
+          "meaning": "treasure",
+          "combinationAndSemanticShift": "宀+玉+貝 = valuables under roof"
+        },
+        {
+          "character": "國",
+          "pinyin": "guó",
+          "meaning": "country",
+          "combinationAndSemanticShift": "enclosure+inner component = domain/country"
+        }
+      ]
+    },
+    {
+      "id": "radical_043",
+      "phase": 2,
+      "phaseName": "A1 Phase: Daily-Life 40 More Radicals/Components",
+      "courseLevel": "A1 to A2",
+      "component": "石",
+      "pinyin": "shí",
+      "coreMeaning": "stone; mineral",
+      "componentType": "radical/component",
+      "learningRole": "Marks stone, minerals, hardness, grinding, research/material terms.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "研",
+          "pinyin": "yán",
+          "meaning": "research/grind",
+          "combinationAndSemanticShift": "石+开 = grinding stone → study"
+        },
+        {
+          "character": "碼",
+          "pinyin": "mǎ",
+          "meaning": "code/yard",
+          "combinationAndSemanticShift": "石+馬 = marker/code"
+        },
+        {
+          "character": "確",
+          "pinyin": "què",
+          "meaning": "correct/certain",
+          "combinationAndSemanticShift": "石+隺 = solid/certain"
+        }
+      ]
+    },
+    {
+      "id": "radical_044",
+      "phase": 2,
+      "phaseName": "A1 Phase: Daily-Life 40 More Radicals/Components",
+      "courseLevel": "A1 to A2",
+      "component": "田",
+      "pinyin": "tián",
+      "coreMeaning": "field",
+      "componentType": "radical/component",
+      "learningRole": "Marks fields, land divisions, territory, grid-like spaces.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "男",
+          "pinyin": "nán",
+          "meaning": "male",
+          "combinationAndSemanticShift": "田+力 = field strength"
+        },
+        {
+          "character": "留",
+          "pinyin": "liú",
+          "meaning": "stay/keep",
+          "combinationAndSemanticShift": "top+田 = retained area"
+        },
+        {
+          "character": "當",
+          "pinyin": "dāng",
+          "meaning": "should/serve as",
+          "combinationAndSemanticShift": "尚+田 = duty/context"
+        }
+      ]
+    },
+    {
+      "id": "radical_045",
+      "phase": 2,
+      "phaseName": "A1 Phase: Daily-Life 40 More Radicals/Components",
+      "courseLevel": "A1 to A2",
+      "component": "米",
+      "pinyin": "mǐ",
+      "coreMeaning": "rice; grain",
+      "componentType": "radical/component",
+      "learningRole": "Marks rice, grain, food material, powder, refined substances, particles.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "料",
+          "pinyin": "liào",
+          "meaning": "material/ingredient",
+          "combinationAndSemanticShift": "米+斗 = measured grain/material"
+        },
+        {
+          "character": "精",
+          "pinyin": "jīng",
+          "meaning": "essence/refined",
+          "combinationAndSemanticShift": "米+青 = refined"
+        },
+        {
+          "character": "粉",
+          "pinyin": "fěn",
+          "meaning": "powder",
+          "combinationAndSemanticShift": "米+分 = divided grain"
+        }
+      ]
+    },
+    {
+      "id": "radical_046",
+      "phase": 2,
+      "phaseName": "A1 Phase: Daily-Life 40 More Radicals/Components",
+      "courseLevel": "A1 to A2",
+      "component": "禾",
+      "pinyin": "hé",
+      "coreMeaning": "grain; crop",
+      "componentType": "radical/component",
+      "learningRole": "Marks grain, crops, harvest, measure, science/process terms.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "和",
+          "pinyin": "hé",
+          "meaning": "and/harmony",
+          "combinationAndSemanticShift": "禾+口 = share/harmony"
+        },
+        {
+          "character": "科",
+          "pinyin": "kē",
+          "meaning": "subject/science",
+          "combinationAndSemanticShift": "禾+斗 = category/field"
+        },
+        {
+          "character": "程",
+          "pinyin": "chéng",
+          "meaning": "process/journey",
+          "combinationAndSemanticShift": "禾+呈 = measured progress"
+        }
+      ]
+    },
+    {
+      "id": "radical_047",
+      "phase": 2,
+      "phaseName": "A1 Phase: Daily-Life 40 More Radicals/Components",
+      "courseLevel": "A1 to A2",
+      "component": "竹",
+      "pinyin": "zhú",
+      "coreMeaning": "bamboo",
+      "componentType": "top component",
+      "learningRole": "Marks bamboo, writing tools, slips, baskets, documents.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "筆",
+          "pinyin": "bǐ",
+          "meaning": "pen/brush",
+          "combinationAndSemanticShift": "竹+聿 = bamboo brush"
+        },
+        {
+          "character": "第",
+          "pinyin": "dì",
+          "meaning": "ordinal prefix",
+          "combinationAndSemanticShift": "竹+弟 = ordered slips"
+        },
+        {
+          "character": "簡",
+          "pinyin": "jiǎn",
+          "meaning": "simple/letter",
+          "combinationAndSemanticShift": "竹+間 = bamboo document"
+        }
+      ]
+    },
+    {
+      "id": "radical_048",
+      "phase": 2,
+      "phaseName": "A1 Phase: Daily-Life 40 More Radicals/Components",
+      "courseLevel": "A1 to A2",
+      "component": "虫",
+      "pinyin": "chóng",
+      "coreMeaning": "insect; creature",
+      "componentType": "radical/component",
+      "learningRole": "Marks insects, worms, reptiles, creatures, biological words.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "蛋",
+          "pinyin": "dàn",
+          "meaning": "egg",
+          "combinationAndSemanticShift": "疋+虫 = creature/egg"
+        },
+        {
+          "character": "螢",
+          "pinyin": "yíng",
+          "meaning": "firefly",
+          "combinationAndSemanticShift": "top+虫 = insect"
+        },
+        {
+          "character": "蛇",
+          "pinyin": "shé",
+          "meaning": "snake",
+          "combinationAndSemanticShift": "虫+它 = creature"
+        }
+      ]
+    },
+    {
+      "id": "radical_049",
+      "phase": 2,
+      "phaseName": "A1 Phase: Daily-Life 40 More Radicals/Components",
+      "courseLevel": "A1 to A2",
+      "component": "衣",
+      "pinyin": "yī",
+      "coreMeaning": "clothing",
+      "componentType": "radical/component",
+      "learningRole": "Full clothing form; marks clothes, covering, appearance, garments.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "衣",
+          "pinyin": "yī",
+          "meaning": "clothes",
+          "combinationAndSemanticShift": "standalone direct"
+        },
+        {
+          "character": "表",
+          "pinyin": "biǎo",
+          "meaning": "surface/form/watch",
+          "combinationAndSemanticShift": "outer clothing → surface"
+        },
+        {
+          "character": "裝",
+          "pinyin": "zhuāng",
+          "meaning": "dress/install",
+          "combinationAndSemanticShift": "壯+衣 = clothing/equipment"
+        }
+      ]
+    },
+    {
+      "id": "radical_050",
+      "phase": 2,
+      "phaseName": "A1 Phase: Daily-Life 40 More Radicals/Components",
+      "courseLevel": "A1 to A2",
+      "component": "衤",
+      "pinyin": "yī",
+      "coreMeaning": "clothing-side form",
+      "componentType": "side component",
+      "learningRole": "Marks clothing, cloth items, covering, things worn.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "裙",
+          "pinyin": "qún",
+          "meaning": "skirt",
+          "combinationAndSemanticShift": "衤+君 = clothing item"
+        },
+        {
+          "character": "褲",
+          "pinyin": "kù",
+          "meaning": "pants",
+          "combinationAndSemanticShift": "衤+庫 = clothing item"
+        },
+        {
+          "character": "被",
+          "pinyin": "bèi",
+          "meaning": "quilt/passive",
+          "combinationAndSemanticShift": "衤+皮 = covering cloth"
+        }
+      ]
+    },
+    {
+      "id": "radical_051",
+      "phase": 2,
+      "phaseName": "A1 Phase: Daily-Life 40 More Radicals/Components",
+      "courseLevel": "A1 to A2",
+      "component": "頁",
+      "pinyin": "yè",
+      "coreMeaning": "head; page",
+      "componentType": "radical/component",
+      "learningRole": "Marks head, face, appearance, page, topic, order, perception.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "頭",
+          "pinyin": "tóu",
+          "meaning": "head",
+          "combinationAndSemanticShift": "豆+頁 = head-related"
+        },
+        {
+          "character": "題",
+          "pinyin": "tí",
+          "meaning": "topic/question",
+          "combinationAndSemanticShift": "是+頁 = page/topic"
+        },
+        {
+          "character": "顏",
+          "pinyin": "yán",
+          "meaning": "face/color",
+          "combinationAndSemanticShift": "彥+頁 = appearance"
+        }
+      ]
+    },
+    {
+      "id": "radical_052",
+      "phase": 2,
+      "phaseName": "A1 Phase: Daily-Life 40 More Radicals/Components",
+      "courseLevel": "A1 to A2",
+      "component": "馬",
+      "pinyin": "mǎ",
+      "coreMeaning": "horse",
+      "componentType": "radical/component",
+      "learningRole": "Marks horse, riding, speed, transport; often phonetic.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "騎",
+          "pinyin": "qí",
+          "meaning": "ride",
+          "combinationAndSemanticShift": "馬+奇 = horse action"
+        },
+        {
+          "character": "嗎",
+          "pinyin": "ma",
+          "meaning": "question particle",
+          "combinationAndSemanticShift": "口+馬 = phonetic + speech"
+        },
+        {
+          "character": "駕",
+          "pinyin": "jià",
+          "meaning": "drive",
+          "combinationAndSemanticShift": "加+馬 = control horse/vehicle"
+        }
+      ]
+    },
+    {
+      "id": "radical_053",
+      "phase": 2,
+      "phaseName": "A1 Phase: Daily-Life 40 More Radicals/Components",
+      "courseLevel": "A1 to A2",
+      "component": "魚",
+      "pinyin": "yú",
+      "coreMeaning": "fish",
+      "componentType": "radical/component",
+      "learningRole": "Marks fish, seafood, aquatic animals, freshness.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "魚",
+          "pinyin": "yú",
+          "meaning": "fish",
+          "combinationAndSemanticShift": "standalone direct"
+        },
+        {
+          "character": "鮮",
+          "pinyin": "xiān",
+          "meaning": "fresh",
+          "combinationAndSemanticShift": "魚+羊 = fresh food"
+        },
+        {
+          "character": "鯨",
+          "pinyin": "jīng",
+          "meaning": "whale",
+          "combinationAndSemanticShift": "魚+京 = aquatic animal"
+        }
+      ]
+    },
+    {
+      "id": "radical_054",
+      "phase": 2,
+      "phaseName": "A1 Phase: Daily-Life 40 More Radicals/Components",
+      "courseLevel": "A1 to A2",
+      "component": "鳥",
+      "pinyin": "niǎo",
+      "coreMeaning": "bird",
+      "componentType": "radical/component",
+      "learningRole": "Marks birds, poultry, flying animals, bird-like creatures.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "鳥",
+          "pinyin": "niǎo",
+          "meaning": "bird",
+          "combinationAndSemanticShift": "standalone direct"
+        },
+        {
+          "character": "雞",
+          "pinyin": "jī",
+          "meaning": "chicken",
+          "combinationAndSemanticShift": "奚+隹/鳥 relation"
+        },
+        {
+          "character": "鳴",
+          "pinyin": "míng",
+          "meaning": "chirp/sound",
+          "combinationAndSemanticShift": "口+鳥 = bird sound"
+        }
+      ]
+    },
+    {
+      "id": "radical_055",
+      "phase": 2,
+      "phaseName": "A1 Phase: Daily-Life 40 More Radicals/Components",
+      "courseLevel": "A1 to A2",
+      "component": "犬",
+      "pinyin": "quǎn",
+      "coreMeaning": "dog",
+      "componentType": "radical/component",
+      "learningRole": "Full dog form; marks dogs, animals, animal-like qualities.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "犬",
+          "pinyin": "quǎn",
+          "meaning": "dog",
+          "combinationAndSemanticShift": "standalone direct"
+        },
+        {
+          "character": "獎",
+          "pinyin": "jiǎng",
+          "meaning": "award",
+          "combinationAndSemanticShift": "將+犬 = historical/phonetic"
+        },
+        {
+          "character": "哭",
+          "pinyin": "kū",
+          "meaning": "cry",
+          "combinationAndSemanticShift": "口口+犬 = ancient form"
+        }
+      ]
+    },
+    {
+      "id": "radical_056",
+      "phase": 2,
+      "phaseName": "A1 Phase: Daily-Life 40 More Radicals/Components",
+      "courseLevel": "A1 to A2",
+      "component": "犭",
+      "pinyin": "quǎn",
+      "coreMeaning": "animal-side form",
+      "componentType": "side component",
+      "learningRole": "Marks animals, animal behavior, wild/instinctive actions.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "狗",
+          "pinyin": "gǒu",
+          "meaning": "dog",
+          "combinationAndSemanticShift": "犭+句 = animal"
+        },
+        {
+          "character": "貓",
+          "pinyin": "māo",
+          "meaning": "cat",
+          "combinationAndSemanticShift": "犭+苗 = animal"
+        },
+        {
+          "character": "猜",
+          "pinyin": "cāi",
+          "meaning": "guess",
+          "combinationAndSemanticShift": "犭+青 = historical/phonetic"
+        }
+      ]
+    },
+    {
+      "id": "radical_057",
+      "phase": 2,
+      "phaseName": "A1 Phase: Daily-Life 40 More Radicals/Components",
+      "courseLevel": "A1 to A2",
+      "component": "牛",
+      "pinyin": "niú",
+      "coreMeaning": "cow; cattle",
+      "componentType": "radical/component",
+      "learningRole": "Marks cattle, animals, strength, products, special/material concepts.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "牛",
+          "pinyin": "niú",
+          "meaning": "cow",
+          "combinationAndSemanticShift": "standalone direct"
+        },
+        {
+          "character": "物",
+          "pinyin": "wù",
+          "meaning": "thing/object",
+          "combinationAndSemanticShift": "牛+勿 = material thing"
+        },
+        {
+          "character": "特",
+          "pinyin": "tè",
+          "meaning": "special",
+          "combinationAndSemanticShift": "牛+寺 = special animal → special"
+        }
+      ]
+    },
+    {
+      "id": "radical_058",
+      "phase": 2,
+      "phaseName": "A1 Phase: Daily-Life 40 More Radicals/Components",
+      "courseLevel": "A1 to A2",
+      "component": "羊",
+      "pinyin": "yáng",
+      "coreMeaning": "sheep; goat",
+      "componentType": "radical/component",
+      "learningRole": "Marks sheep/goats, beauty, goodness, sacrifice, phonetic use.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "羊",
+          "pinyin": "yáng",
+          "meaning": "sheep",
+          "combinationAndSemanticShift": "standalone direct"
+        },
+        {
+          "character": "美",
+          "pinyin": "měi",
+          "meaning": "beautiful",
+          "combinationAndSemanticShift": "羊+大 = valuable sheep → beautiful"
+        },
+        {
+          "character": "義",
+          "pinyin": "yì",
+          "meaning": "justice/meaning",
+          "combinationAndSemanticShift": "羊+我 = ritual rightness"
+        }
+      ]
+    },
+    {
+      "id": "radical_059",
+      "phase": 2,
+      "phaseName": "A1 Phase: Daily-Life 40 More Radicals/Components",
+      "courseLevel": "A1 to A2",
+      "component": "山",
+      "pinyin": "shān",
+      "coreMeaning": "mountain",
+      "componentType": "radical/component",
+      "learningRole": "Marks mountains, hills, islands, geography, elevated land.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "島",
+          "pinyin": "dǎo",
+          "meaning": "island",
+          "combinationAndSemanticShift": "bird/mountain components = land in water"
+        },
+        {
+          "character": "崗",
+          "pinyin": "gǎng",
+          "meaning": "hill/post",
+          "combinationAndSemanticShift": "山+岡 = hill"
+        },
+        {
+          "character": "岸",
+          "pinyin": "àn",
+          "meaning": "shore",
+          "combinationAndSemanticShift": "山+厂+干 = edge/shore"
+        }
+      ]
+    },
+    {
+      "id": "radical_060",
+      "phase": 2,
+      "phaseName": "A1 Phase: Daily-Life 40 More Radicals/Components",
+      "courseLevel": "A1 to A2",
+      "component": "巾",
+      "pinyin": "jīn",
+      "coreMeaning": "cloth; towel",
+      "componentType": "radical/component",
+      "learningRole": "Marks cloth, fabric, banners, towels, markets, cloth objects.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "巾",
+          "pinyin": "jīn",
+          "meaning": "cloth/towel",
+          "combinationAndSemanticShift": "standalone direct"
+        },
+        {
+          "character": "市",
+          "pinyin": "shì",
+          "meaning": "market/city",
+          "combinationAndSemanticShift": "cloth/banner market"
+        },
+        {
+          "character": "師",
+          "pinyin": "shī",
+          "meaning": "teacher/master",
+          "combinationAndSemanticShift": "authority/banner component"
+        }
+      ]
+    },
+    {
+      "id": "radical_061",
+      "phase": 2,
+      "phaseName": "A1 Phase: Daily-Life 40 More Radicals/Components",
+      "courseLevel": "A1 to A2",
+      "component": "广",
+      "pinyin": "guǎng/yǎn",
+      "coreMeaning": "shelter; building cover",
+      "componentType": "cover component",
+      "learningRole": "Marks building, shop, shelter, indoor place, broad covered space.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "店",
+          "pinyin": "diàn",
+          "meaning": "shop",
+          "combinationAndSemanticShift": "广+占 = covered place"
+        },
+        {
+          "character": "座",
+          "pinyin": "zuò",
+          "meaning": "seat/classifier",
+          "combinationAndSemanticShift": "广+坐 = sitting place"
+        },
+        {
+          "character": "廣",
+          "pinyin": "guǎng",
+          "meaning": "wide",
+          "combinationAndSemanticShift": "广+黃 = large covered space"
+        }
+      ]
+    },
+    {
+      "id": "radical_062",
+      "phase": 2,
+      "phaseName": "A1 Phase: Daily-Life 40 More Radicals/Components",
+      "courseLevel": "A1 to A2",
+      "component": "厂",
+      "pinyin": "hàn/chǎng",
+      "coreMeaning": "cliff; factory-like cover",
+      "componentType": "cover component",
+      "learningRole": "Historically cliff; can suggest cover, source, factory-like shape, phonetic.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "原",
+          "pinyin": "yuán",
+          "meaning": "original/source",
+          "combinationAndSemanticShift": "厂+泉-like = source"
+        },
+        {
+          "character": "厚",
+          "pinyin": "hòu",
+          "meaning": "thick",
+          "combinationAndSemanticShift": "厂+complex = layered"
+        },
+        {
+          "character": "廠",
+          "pinyin": "chǎng",
+          "meaning": "factory",
+          "combinationAndSemanticShift": "广+敞 = factory building"
+        }
+      ]
+    },
+    {
+      "id": "radical_063",
+      "phase": 2,
+      "phaseName": "A1 Phase: Daily-Life 40 More Radicals/Components",
+      "courseLevel": "A1 to A2",
+      "component": "尸",
+      "pinyin": "shī",
+      "coreMeaning": "body; dwelling; corpse shape",
+      "componentType": "cover component",
+      "learningRole": "Marks body, residence, sitting/lying, rooms, layers.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "屋",
+          "pinyin": "wū",
+          "meaning": "house",
+          "combinationAndSemanticShift": "尸+至 = dwelling"
+        },
+        {
+          "character": "層",
+          "pinyin": "céng",
+          "meaning": "layer/floor",
+          "combinationAndSemanticShift": "尸+曾 = layered cover"
+        },
+        {
+          "character": "局",
+          "pinyin": "jú",
+          "meaning": "office/situation",
+          "combinationAndSemanticShift": "尸+句 = enclosed space"
+        }
+      ]
+    },
+    {
+      "id": "radical_064",
+      "phase": 2,
+      "phaseName": "A1 Phase: Daily-Life 40 More Radicals/Components",
+      "courseLevel": "A1 to A2",
+      "component": "戶",
+      "pinyin": "hù",
+      "coreMeaning": "door; household",
+      "componentType": "radical/component",
+      "learningRole": "Marks household, doors, rooms, residence, family units.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "戶",
+          "pinyin": "hù",
+          "meaning": "household/door",
+          "combinationAndSemanticShift": "standalone direct"
+        },
+        {
+          "character": "房",
+          "pinyin": "fáng",
+          "meaning": "room/house",
+          "combinationAndSemanticShift": "戶+方 = household space"
+        },
+        {
+          "character": "所",
+          "pinyin": "suǒ",
+          "meaning": "place/institute",
+          "combinationAndSemanticShift": "戶+斤 = place/building"
+        }
+      ]
+    },
+    {
+      "id": "radical_065",
+      "phase": 2,
+      "phaseName": "A1 Phase: Daily-Life 40 More Radicals/Components",
+      "courseLevel": "A1 to A2",
+      "component": "攵",
+      "pinyin": "pū",
+      "coreMeaning": "strike; action; change",
+      "componentType": "right-side component",
+      "learningRole": "Marks action, impact, correction, teaching, change.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "改",
+          "pinyin": "gǎi",
+          "meaning": "change",
+          "combinationAndSemanticShift": "己+攵 = action causes change"
+        },
+        {
+          "character": "教",
+          "pinyin": "jiào",
+          "meaning": "teach",
+          "combinationAndSemanticShift": "孝+攵 = instruction action"
+        },
+        {
+          "character": "數",
+          "pinyin": "shù",
+          "meaning": "number/count",
+          "combinationAndSemanticShift": "婁+攵 = counting/action"
+        }
+      ]
+    },
+    {
+      "id": "radical_066",
+      "phase": 2,
+      "phaseName": "A1 Phase: Daily-Life 40 More Radicals/Components",
+      "courseLevel": "A1 to A2",
+      "component": "方",
+      "pinyin": "fāng",
+      "coreMeaning": "direction; square; method",
+      "componentType": "radical/component",
+      "learningRole": "Marks direction, method, place, square shape; often phonetic.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "方",
+          "pinyin": "fāng",
+          "meaning": "direction/method",
+          "combinationAndSemanticShift": "standalone direct"
+        },
+        {
+          "character": "旅",
+          "pinyin": "lǚ",
+          "meaning": "travel",
+          "combinationAndSemanticShift": "方+component = movement/direction"
+        },
+        {
+          "character": "族",
+          "pinyin": "zú",
+          "meaning": "ethnic group/clan",
+          "combinationAndSemanticShift": "方+矢 = group/banner"
+        }
+      ]
+    },
+    {
+      "id": "radical_067",
+      "phase": 2,
+      "phaseName": "A1 Phase: Daily-Life 40 More Radicals/Components",
+      "courseLevel": "A1 to A2",
+      "component": "斤",
+      "pinyin": "jīn",
+      "coreMeaning": "axe; catty; measure",
+      "componentType": "radical/component",
+      "learningRole": "Historically axe/cutting; also weight unit and phonetic component.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "斤",
+          "pinyin": "jīn",
+          "meaning": "catty/axe",
+          "combinationAndSemanticShift": "standalone"
+        },
+        {
+          "character": "新",
+          "pinyin": "xīn",
+          "meaning": "new",
+          "combinationAndSemanticShift": "亲+斤 = cut fresh wood"
+        },
+        {
+          "character": "近",
+          "pinyin": "jìn",
+          "meaning": "near",
+          "combinationAndSemanticShift": "辶+斤 = movement distance"
+        }
+      ]
+    },
+    {
+      "id": "radical_068",
+      "phase": 2,
+      "phaseName": "A1 Phase: Daily-Life 40 More Radicals/Components",
+      "courseLevel": "A1 to A2",
+      "component": "欠",
+      "pinyin": "qiàn",
+      "coreMeaning": "owe; lack; yawn/breath",
+      "componentType": "radical/component",
+      "learningRole": "Marks lack, owing, breath/mouth actions, emotion, sound.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "歡",
+          "pinyin": "huān",
+          "meaning": "happy/welcome",
+          "combinationAndSemanticShift": "雚+欠 = emotional breath"
+        },
+        {
+          "character": "歌",
+          "pinyin": "gē",
+          "meaning": "song",
+          "combinationAndSemanticShift": "哥+欠 = breath/singing"
+        },
+        {
+          "character": "次",
+          "pinyin": "cì",
+          "meaning": "time/next",
+          "combinationAndSemanticShift": "冫+欠 = sequence"
+        }
+      ]
+    },
+    {
+      "id": "radical_069",
+      "phase": 2,
+      "phaseName": "A1 Phase: Daily-Life 40 More Radicals/Components",
+      "courseLevel": "A1 to A2",
+      "component": "止",
+      "pinyin": "zhǐ",
+      "coreMeaning": "stop; foot base",
+      "componentType": "radical/component",
+      "learningRole": "Marks stopping, correct position, foot movement, direction.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "止",
+          "pinyin": "zhǐ",
+          "meaning": "stop",
+          "combinationAndSemanticShift": "standalone direct"
+        },
+        {
+          "character": "正",
+          "pinyin": "zhèng",
+          "meaning": "correct",
+          "combinationAndSemanticShift": "一+止 = stop at line"
+        },
+        {
+          "character": "步",
+          "pinyin": "bù",
+          "meaning": "step",
+          "combinationAndSemanticShift": "止+foot-like = movement step"
+        }
+      ]
+    },
+    {
+      "id": "radical_070",
+      "phase": 2,
+      "phaseName": "A1 Phase: Daily-Life 40 More Radicals/Components",
+      "courseLevel": "A1 to A2",
+      "component": "比",
+      "pinyin": "bǐ",
+      "coreMeaning": "compare",
+      "componentType": "radical/component",
+      "learningRole": "Marks comparison, adjacency, matching; also phonetic.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "比",
+          "pinyin": "bǐ",
+          "meaning": "compare",
+          "combinationAndSemanticShift": "standalone direct"
+        },
+        {
+          "character": "批",
+          "pinyin": "pī",
+          "meaning": "batch/criticize",
+          "combinationAndSemanticShift": "扌+比 = hand action + compare"
+        },
+        {
+          "character": "皆",
+          "pinyin": "jiē",
+          "meaning": "all",
+          "combinationAndSemanticShift": "比+白 = group/all"
+        }
+      ]
+    },
+    {
+      "id": "radical_071",
+      "phase": 2,
+      "phaseName": "A1 Phase: Daily-Life 40 More Radicals/Components",
+      "courseLevel": "A1 to A2",
+      "component": "毛",
+      "pinyin": "máo",
+      "coreMeaning": "hair; fur",
+      "componentType": "radical/component",
+      "learningRole": "Marks hair, fur, brush hair, surface texture, fine fibers.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "毛",
+          "pinyin": "máo",
+          "meaning": "hair/fur",
+          "combinationAndSemanticShift": "standalone direct"
+        },
+        {
+          "character": "毫",
+          "pinyin": "háo",
+          "meaning": "fine hair/tiny",
+          "combinationAndSemanticShift": "高+毛 = tiny hair"
+        },
+        {
+          "character": "筆",
+          "pinyin": "bǐ",
+          "meaning": "brush/pen",
+          "combinationAndSemanticShift": "brush has hair"
+        }
+      ]
+    },
+    {
+      "id": "radical_072",
+      "phase": 2,
+      "phaseName": "A1 Phase: Daily-Life 40 More Radicals/Components",
+      "courseLevel": "A1 to A2",
+      "component": "氣",
+      "pinyin": "qì",
+      "coreMeaning": "air; gas; energy; mood",
+      "componentType": "radical/component",
+      "learningRole": "Marks air, gas, breath, weather, energy, mood.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "氣",
+          "pinyin": "qì",
+          "meaning": "air/energy",
+          "combinationAndSemanticShift": "standalone direct"
+        },
+        {
+          "character": "汽",
+          "pinyin": "qì",
+          "meaning": "steam",
+          "combinationAndSemanticShift": "氵+气 = water vapor"
+        },
+        {
+          "character": "氧氣",
+          "pinyin": "yǎngqì",
+          "meaning": "oxygen",
+          "combinationAndSemanticShift": "oxygen + gas"
+        }
+      ]
+    },
+    {
+      "id": "radical_073",
+      "phase": 2,
+      "phaseName": "A1 Phase: Daily-Life 40 More Radicals/Components",
+      "courseLevel": "A1 to A2",
+      "component": "立",
+      "pinyin": "lì",
+      "coreMeaning": "stand; establish",
+      "componentType": "radical/component",
+      "learningRole": "Marks standing, setting up, establishing, position, formal structure.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "站",
+          "pinyin": "zhàn",
+          "meaning": "stand/station",
+          "combinationAndSemanticShift": "立+占 = standing place"
+        },
+        {
+          "character": "章",
+          "pinyin": "zhāng",
+          "meaning": "chapter/seal",
+          "combinationAndSemanticShift": "立+早 = established text"
+        },
+        {
+          "character": "意",
+          "pinyin": "yì",
+          "meaning": "meaning/intention",
+          "combinationAndSemanticShift": "音+心 = thought/meaning"
+        }
+      ]
+    },
+    {
+      "id": "radical_074",
+      "phase": 2,
+      "phaseName": "A1 Phase: Daily-Life 40 More Radicals/Components",
+      "courseLevel": "A1 to A2",
+      "component": "音",
+      "pinyin": "yīn",
+      "coreMeaning": "sound",
+      "componentType": "radical/component",
+      "learningRole": "Marks sound, pronunciation, music, voice.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "音",
+          "pinyin": "yīn",
+          "meaning": "sound",
+          "combinationAndSemanticShift": "standalone direct"
+        },
+        {
+          "character": "意",
+          "pinyin": "yì",
+          "meaning": "meaning/intention",
+          "combinationAndSemanticShift": "音+心 = sound in heart"
+        },
+        {
+          "character": "響",
+          "pinyin": "xiǎng",
+          "meaning": "sound/echo",
+          "combinationAndSemanticShift": "鄉+音 = sound/echo"
+        }
+      ]
+    },
+    {
+      "id": "radical_075",
+      "phase": 2,
+      "phaseName": "A1 Phase: Daily-Life 40 More Radicals/Components",
+      "courseLevel": "A1 to A2",
+      "component": "見",
+      "pinyin": "jiàn",
+      "coreMeaning": "see; appear",
+      "componentType": "radical/component",
+      "learningRole": "Marks seeing, appearance, viewpoint, observation, perception.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "見",
+          "pinyin": "jiàn",
+          "meaning": "see",
+          "combinationAndSemanticShift": "standalone direct"
+        },
+        {
+          "character": "覺",
+          "pinyin": "jué",
+          "meaning": "feel/realize",
+          "combinationAndSemanticShift": "complex+見 = perception"
+        },
+        {
+          "character": "規",
+          "pinyin": "guī",
+          "meaning": "rule/standard",
+          "combinationAndSemanticShift": "夫+見 = observed standard"
+        }
+      ]
+    },
+    {
+      "id": "radical_076",
+      "phase": 2,
+      "phaseName": "A1 Phase: Daily-Life 40 More Radicals/Components",
+      "courseLevel": "A1 to A2",
+      "component": "角",
+      "pinyin": "jiǎo",
+      "coreMeaning": "horn; corner; angle",
+      "componentType": "radical/component",
+      "learningRole": "Marks horns, corners, angles, roles, animal horn shapes.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "角",
+          "pinyin": "jiǎo",
+          "meaning": "angle/horn",
+          "combinationAndSemanticShift": "standalone direct"
+        },
+        {
+          "character": "解",
+          "pinyin": "jiě",
+          "meaning": "solve/untie",
+          "combinationAndSemanticShift": "角+刀+牛 = cut apart"
+        },
+        {
+          "character": "觸",
+          "pinyin": "chù",
+          "meaning": "touch",
+          "combinationAndSemanticShift": "角+蜀 = horn/contact"
+        }
+      ]
+    },
+    {
+      "id": "radical_077",
+      "phase": 2,
+      "phaseName": "A1 Phase: Daily-Life 40 More Radicals/Components",
+      "courseLevel": "A1 to A2",
+      "component": "身",
+      "pinyin": "shēn",
+      "coreMeaning": "body; oneself",
+      "componentType": "radical/component",
+      "learningRole": "Marks body, personal identity, physical self, embodiment.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "身",
+          "pinyin": "shēn",
+          "meaning": "body",
+          "combinationAndSemanticShift": "standalone direct"
+        },
+        {
+          "character": "躺",
+          "pinyin": "tǎng",
+          "meaning": "lie down",
+          "combinationAndSemanticShift": "身+尚 = body posture"
+        },
+        {
+          "character": "身份",
+          "pinyin": "shēnfèn",
+          "meaning": "identity",
+          "combinationAndSemanticShift": "身+份 = personal status"
+        }
+      ]
+    },
+    {
+      "id": "radical_078",
+      "phase": 2,
+      "phaseName": "A1 Phase: Daily-Life 40 More Radicals/Components",
+      "courseLevel": "A1 to A2",
+      "component": "酉",
+      "pinyin": "yǒu",
+      "coreMeaning": "wine jar; alcohol; fermentation",
+      "componentType": "radical/component",
+      "learningRole": "Marks alcohol, fermentation, medicine, vinegar, brewed products.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "酒",
+          "pinyin": "jiǔ",
+          "meaning": "alcohol",
+          "combinationAndSemanticShift": "氵+酉 = liquid wine"
+        },
+        {
+          "character": "醫",
+          "pinyin": "yī",
+          "meaning": "doctor/medicine",
+          "combinationAndSemanticShift": "complex+酉 = medicine vessel"
+        },
+        {
+          "character": "酸",
+          "pinyin": "suān",
+          "meaning": "sour",
+          "combinationAndSemanticShift": "酉+夋 = fermented taste"
+        }
+      ]
+    },
+    {
+      "id": "radical_079",
+      "phase": 2,
+      "phaseName": "A1 Phase: Daily-Life 40 More Radicals/Components",
+      "courseLevel": "A1 to A2",
+      "component": "隹",
+      "pinyin": "zhuī",
+      "coreMeaning": "short-tailed bird",
+      "componentType": "radical/component",
+      "learningRole": "Bird component; also common phonetic/semantic in complex characters.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "難",
+          "pinyin": "nán",
+          "meaning": "difficult",
+          "combinationAndSemanticShift": "complex+隹 = phonetic/semantic"
+        },
+        {
+          "character": "離",
+          "pinyin": "lí",
+          "meaning": "leave/separate",
+          "combinationAndSemanticShift": "离+隹 = separation"
+        },
+        {
+          "character": "雞",
+          "pinyin": "jī",
+          "meaning": "chicken",
+          "combinationAndSemanticShift": "奚+隹 = bird"
+        }
+      ]
+    },
+    {
+      "id": "radical_080",
+      "phase": 2,
+      "phaseName": "A1 Phase: Daily-Life 40 More Radicals/Components",
+      "courseLevel": "A1 to A2",
+      "component": "白",
+      "pinyin": "bái",
+      "coreMeaning": "white; clear",
+      "componentType": "radical/component",
+      "learningRole": "Marks white, brightness, clarity; often phonetic.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "白",
+          "pinyin": "bái",
+          "meaning": "white",
+          "combinationAndSemanticShift": "standalone direct"
+        },
+        {
+          "character": "的",
+          "pinyin": "de/dí",
+          "meaning": "possessive particle/target",
+          "combinationAndSemanticShift": "白+勺 = functional/phonetic"
+        },
+        {
+          "character": "百",
+          "pinyin": "bǎi",
+          "meaning": "hundred",
+          "combinationAndSemanticShift": "一+白 = 100"
+        }
+      ]
+    },
+    {
+      "id": "radical_081",
+      "phase": 3,
+      "phaseName": "A2 Phase: Expansion 40 Radicals/Components",
+      "courseLevel": "A2 to TOCFL B1 bridge",
+      "component": "買",
+      "pinyin": "mǎi",
+      "coreMeaning": "buy",
+      "componentType": "character/component",
+      "learningRole": "Means buy; forms purchase, acquisition, commerce vocabulary.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "買",
+          "pinyin": "mǎi",
+          "meaning": "buy",
+          "combinationAndSemanticShift": "罒+貝 = money exchange"
+        },
+        {
+          "character": "買賣",
+          "pinyin": "mǎimài",
+          "meaning": "business/trade",
+          "combinationAndSemanticShift": "buy+sell"
+        },
+        {
+          "character": "採買",
+          "pinyin": "cǎimǎi",
+          "meaning": "purchase supplies",
+          "combinationAndSemanticShift": "select+buy"
+        }
+      ]
+    },
+    {
+      "id": "radical_082",
+      "phase": 3,
+      "phaseName": "A2 Phase: Expansion 40 Radicals/Components",
+      "courseLevel": "A2 to TOCFL B1 bridge",
+      "component": "賣",
+      "pinyin": "mài",
+      "coreMeaning": "sell",
+      "componentType": "character/component",
+      "learningRole": "Means sell; can act as phonetic/semantic in reading/exchange words.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "賣",
+          "pinyin": "mài",
+          "meaning": "sell",
+          "combinationAndSemanticShift": "outward exchange"
+        },
+        {
+          "character": "讀",
+          "pinyin": "dú",
+          "meaning": "read",
+          "combinationAndSemanticShift": "訁+賣 = speech/text + phonetic"
+        },
+        {
+          "character": "販賣",
+          "pinyin": "fànmài",
+          "meaning": "sell/vend",
+          "combinationAndSemanticShift": "trade+sell"
+        }
+      ]
+    },
+    {
+      "id": "radical_083",
+      "phase": 3,
+      "phaseName": "A2 Phase: Expansion 40 Radicals/Components",
+      "courseLevel": "A2 to TOCFL B1 bridge",
+      "component": "軍",
+      "pinyin": "jūn",
+      "coreMeaning": "army; military",
+      "componentType": "component/character",
+      "learningRole": "Marks military, organized vehicles, transport, or phonetic function.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "軍",
+          "pinyin": "jūn",
+          "meaning": "army",
+          "combinationAndSemanticShift": "cover+車 = army transport"
+        },
+        {
+          "character": "運",
+          "pinyin": "yùn",
+          "meaning": "transport/luck",
+          "combinationAndSemanticShift": "辶+軍 = movement"
+        },
+        {
+          "character": "輝",
+          "pinyin": "huī",
+          "meaning": "shine",
+          "combinationAndSemanticShift": "光+軍 = light/phonetic"
+        }
+      ]
+    },
+    {
+      "id": "radical_084",
+      "phase": 3,
+      "phaseName": "A2 Phase: Expansion 40 Radicals/Components",
+      "courseLevel": "A2 to TOCFL B1 bridge",
+      "component": "間",
+      "pinyin": "jiān",
+      "coreMeaning": "space; between; room",
+      "componentType": "character/component",
+      "learningRole": "Combines 門+日; means space, interval, room, time-space unit.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "間",
+          "pinyin": "jiān",
+          "meaning": "between/room",
+          "combinationAndSemanticShift": "門+日 = light through door gap"
+        },
+        {
+          "character": "時間",
+          "pinyin": "shíjiān",
+          "meaning": "time",
+          "combinationAndSemanticShift": "time+interval"
+        },
+        {
+          "character": "房間",
+          "pinyin": "fángjiān",
+          "meaning": "room",
+          "combinationAndSemanticShift": "house+space"
+        }
+      ]
+    },
+    {
+      "id": "radical_085",
+      "phase": 3,
+      "phaseName": "A2 Phase: Expansion 40 Radicals/Components",
+      "courseLevel": "A2 to TOCFL B1 bridge",
+      "component": "問",
+      "pinyin": "wèn",
+      "coreMeaning": "ask; question",
+      "componentType": "character/component",
+      "learningRole": "Combines 門+口; question and communication family.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "問",
+          "pinyin": "wèn",
+          "meaning": "ask",
+          "combinationAndSemanticShift": "門+口 = mouth at door"
+        },
+        {
+          "character": "問題",
+          "pinyin": "wèntí",
+          "meaning": "question/problem",
+          "combinationAndSemanticShift": "ask+topic"
+        },
+        {
+          "character": "請問",
+          "pinyin": "qǐngwèn",
+          "meaning": "excuse me/may I ask",
+          "combinationAndSemanticShift": "polite ask"
+        }
+      ]
+    },
+    {
+      "id": "radical_086",
+      "phase": 3,
+      "phaseName": "A2 Phase: Expansion 40 Radicals/Components",
+      "courseLevel": "A2 to TOCFL B1 bridge",
+      "component": "鬼",
+      "pinyin": "guǐ",
+      "coreMeaning": "ghost; spirit",
+      "componentType": "radical/component",
+      "learningRole": "Marks ghosts, spirits, strange feeling, soul/magic terms.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "鬼",
+          "pinyin": "guǐ",
+          "meaning": "ghost",
+          "combinationAndSemanticShift": "standalone direct"
+        },
+        {
+          "character": "魂",
+          "pinyin": "hún",
+          "meaning": "soul",
+          "combinationAndSemanticShift": "云+鬼 = spirit"
+        },
+        {
+          "character": "魔",
+          "pinyin": "mó",
+          "meaning": "demon/magic",
+          "combinationAndSemanticShift": "麻+鬼 = demon/magic"
+        }
+      ]
+    },
+    {
+      "id": "radical_087",
+      "phase": 3,
+      "phaseName": "A2 Phase: Expansion 40 Radicals/Components",
+      "courseLevel": "A2 to TOCFL B1 bridge",
+      "component": "黑",
+      "pinyin": "hēi",
+      "coreMeaning": "black; dark",
+      "componentType": "radical/component",
+      "learningRole": "Marks blackness, darkness, ink, hidden/negative tone.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "黑",
+          "pinyin": "hēi",
+          "meaning": "black",
+          "combinationAndSemanticShift": "standalone direct"
+        },
+        {
+          "character": "點",
+          "pinyin": "diǎn",
+          "meaning": "dot/point",
+          "combinationAndSemanticShift": "黑+占 = black mark"
+        },
+        {
+          "character": "默",
+          "pinyin": "mò",
+          "meaning": "silent",
+          "combinationAndSemanticShift": "黑+犬 = dark/silent"
+        }
+      ]
+    },
+    {
+      "id": "radical_088",
+      "phase": 3,
+      "phaseName": "A2 Phase: Expansion 40 Radicals/Components",
+      "courseLevel": "A2 to TOCFL B1 bridge",
+      "component": "赤",
+      "pinyin": "chì",
+      "coreMeaning": "red; bare",
+      "componentType": "radical/component",
+      "learningRole": "Marks red, heat, exposure; also phonetic.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "赤",
+          "pinyin": "chì",
+          "meaning": "red",
+          "combinationAndSemanticShift": "standalone direct"
+        },
+        {
+          "character": "赫",
+          "pinyin": "hè",
+          "meaning": "bright/prominent",
+          "combinationAndSemanticShift": "赤+赤 = intense red"
+        },
+        {
+          "character": "赦",
+          "pinyin": "shè",
+          "meaning": "pardon",
+          "combinationAndSemanticShift": "赤+攵 = phonetic/semantic"
+        }
+      ]
+    },
+    {
+      "id": "radical_089",
+      "phase": 3,
+      "phaseName": "A2 Phase: Expansion 40 Radicals/Components",
+      "courseLevel": "A2 to TOCFL B1 bridge",
+      "component": "青",
+      "pinyin": "qīng",
+      "coreMeaning": "blue-green; young; clear",
+      "componentType": "component/character",
+      "learningRole": "Very useful semantic/phonetic family with water, heart, speech, eye.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "清",
+          "pinyin": "qīng",
+          "meaning": "clear",
+          "combinationAndSemanticShift": "氵+青 = clear water"
+        },
+        {
+          "character": "情",
+          "pinyin": "qíng",
+          "meaning": "feeling",
+          "combinationAndSemanticShift": "忄+青 = heart feeling"
+        },
+        {
+          "character": "請",
+          "pinyin": "qǐng",
+          "meaning": "please/invite",
+          "combinationAndSemanticShift": "訁+青 = speech request"
+        }
+      ]
+    },
+    {
+      "id": "radical_090",
+      "phase": 3,
+      "phaseName": "A2 Phase: Expansion 40 Radicals/Components",
+      "courseLevel": "A2 to TOCFL B1 bridge",
+      "component": "色",
+      "pinyin": "sè",
+      "coreMeaning": "color; appearance",
+      "componentType": "radical/component",
+      "learningRole": "Marks color, appearance, expression, complexion, visual quality.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "色",
+          "pinyin": "sè",
+          "meaning": "color",
+          "combinationAndSemanticShift": "standalone direct"
+        },
+        {
+          "character": "絕",
+          "pinyin": "jué",
+          "meaning": "cut off/absolute",
+          "combinationAndSemanticShift": "糹+色 = thread/phonetic"
+        },
+        {
+          "character": "顏色",
+          "pinyin": "yánsè",
+          "meaning": "color",
+          "combinationAndSemanticShift": "appearance+color"
+        }
+      ]
+    },
+    {
+      "id": "radical_091",
+      "phase": 3,
+      "phaseName": "A2 Phase: Expansion 40 Radicals/Components",
+      "courseLevel": "A2 to TOCFL B1 bridge",
+      "component": "光",
+      "pinyin": "guāng",
+      "coreMeaning": "light; brightness",
+      "componentType": "radical/component",
+      "learningRole": "Marks light, brightness, optics, glory, smoothness.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "光",
+          "pinyin": "guāng",
+          "meaning": "light",
+          "combinationAndSemanticShift": "standalone direct"
+        },
+        {
+          "character": "耀",
+          "pinyin": "yào",
+          "meaning": "shine",
+          "combinationAndSemanticShift": "光+翟 = light"
+        },
+        {
+          "character": "觀光",
+          "pinyin": "guānguāng",
+          "meaning": "sightseeing",
+          "combinationAndSemanticShift": "view+light/scenery"
+        }
+      ]
+    },
+    {
+      "id": "radical_092",
+      "phase": 3,
+      "phaseName": "A2 Phase: Expansion 40 Radicals/Components",
+      "courseLevel": "A2 to TOCFL B1 bridge",
+      "component": "小",
+      "pinyin": "xiǎo",
+      "coreMeaning": "small",
+      "componentType": "radical/component",
+      "learningRole": "Marks smallness, small amount, small forms.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "小",
+          "pinyin": "xiǎo",
+          "meaning": "small",
+          "combinationAndSemanticShift": "standalone direct"
+        },
+        {
+          "character": "少",
+          "pinyin": "shǎo",
+          "meaning": "few/little",
+          "combinationAndSemanticShift": "小+丿 = small amount"
+        },
+        {
+          "character": "尖",
+          "pinyin": "jiān",
+          "meaning": "sharp",
+          "combinationAndSemanticShift": "小+大 = pointed shape"
+        }
+      ]
+    },
+    {
+      "id": "radical_093",
+      "phase": 3,
+      "phaseName": "A2 Phase: Expansion 40 Radicals/Components",
+      "courseLevel": "A2 to TOCFL B1 bridge",
+      "component": "大",
+      "pinyin": "dà",
+      "coreMeaning": "big; large",
+      "componentType": "radical/component",
+      "learningRole": "Marks size, greatness, adulthood, importance.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "大",
+          "pinyin": "dà",
+          "meaning": "big",
+          "combinationAndSemanticShift": "standalone direct"
+        },
+        {
+          "character": "太",
+          "pinyin": "tài",
+          "meaning": "too/very",
+          "combinationAndSemanticShift": "大+dot = greater degree"
+        },
+        {
+          "character": "天",
+          "pinyin": "tiān",
+          "meaning": "sky/day",
+          "combinationAndSemanticShift": "一+大 = above person → sky"
+        }
+      ]
+    },
+    {
+      "id": "radical_094",
+      "phase": 3,
+      "phaseName": "A2 Phase: Expansion 40 Radicals/Components",
+      "courseLevel": "A2 to TOCFL B1 bridge",
+      "component": "中",
+      "pinyin": "zhōng",
+      "coreMeaning": "middle; center; China",
+      "componentType": "character/component",
+      "learningRole": "Marks middle, central position, China/Chinese, hitting target.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "中",
+          "pinyin": "zhōng",
+          "meaning": "middle",
+          "combinationAndSemanticShift": "standalone direct"
+        },
+        {
+          "character": "中文",
+          "pinyin": "Zhōngwén",
+          "meaning": "Chinese language",
+          "combinationAndSemanticShift": "China+writing"
+        },
+        {
+          "character": "中心",
+          "pinyin": "zhōngxīn",
+          "meaning": "center",
+          "combinationAndSemanticShift": "middle+heart"
+        }
+      ]
+    },
+    {
+      "id": "radical_095",
+      "phase": 3,
+      "phaseName": "A2 Phase: Expansion 40 Radicals/Components",
+      "courseLevel": "A2 to TOCFL B1 bridge",
+      "component": "下",
+      "pinyin": "xià",
+      "coreMeaning": "down; below; next",
+      "componentType": "character/component",
+      "learningRole": "Marks lower position, downward direction, next action, below.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "下",
+          "pinyin": "xià",
+          "meaning": "down",
+          "combinationAndSemanticShift": "standalone direct"
+        },
+        {
+          "character": "下午",
+          "pinyin": "xiàwǔ",
+          "meaning": "afternoon",
+          "combinationAndSemanticShift": "later part of day"
+        },
+        {
+          "character": "下車",
+          "pinyin": "xiàchē",
+          "meaning": "get off vehicle",
+          "combinationAndSemanticShift": "down from vehicle"
+        }
+      ]
+    },
+    {
+      "id": "radical_096",
+      "phase": 3,
+      "phaseName": "A2 Phase: Expansion 40 Radicals/Components",
+      "courseLevel": "A2 to TOCFL B1 bridge",
+      "component": "上",
+      "pinyin": "shàng",
+      "coreMeaning": "up; above; attend",
+      "componentType": "character/component",
+      "learningRole": "Marks upper position, going onto, attending class/work, previous time.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "上",
+          "pinyin": "shàng",
+          "meaning": "up",
+          "combinationAndSemanticShift": "standalone direct"
+        },
+        {
+          "character": "上課",
+          "pinyin": "shàngkè",
+          "meaning": "attend class",
+          "combinationAndSemanticShift": "go to class"
+        },
+        {
+          "character": "上班",
+          "pinyin": "shàngbān",
+          "meaning": "go to work",
+          "combinationAndSemanticShift": "on shift"
+        }
+      ]
+    },
+    {
+      "id": "radical_097",
+      "phase": 3,
+      "phaseName": "A2 Phase: Expansion 40 Radicals/Components",
+      "courseLevel": "A2 to TOCFL B1 bridge",
+      "component": "夕",
+      "pinyin": "xī",
+      "coreMeaning": "evening",
+      "componentType": "radical/component",
+      "learningRole": "Marks evening/night, outside in some characters, repeated quantity.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "夕",
+          "pinyin": "xī",
+          "meaning": "evening",
+          "combinationAndSemanticShift": "standalone direct"
+        },
+        {
+          "character": "外",
+          "pinyin": "wài",
+          "meaning": "outside/foreign",
+          "combinationAndSemanticShift": "夕+卜 = outside"
+        },
+        {
+          "character": "多",
+          "pinyin": "duō",
+          "meaning": "many",
+          "combinationAndSemanticShift": "夕+夕 = repeated → many"
+        }
+      ]
+    },
+    {
+      "id": "radical_098",
+      "phase": 3,
+      "phaseName": "A2 Phase: Expansion 40 Radicals/Components",
+      "courseLevel": "A2 to TOCFL B1 bridge",
+      "component": "夂",
+      "pinyin": "zhǐ",
+      "coreMeaning": "go; late/slow movement component",
+      "componentType": "component",
+      "learningRole": "Bottom component often linked historically to movement/time; many uses are phonetic/historical.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "各",
+          "pinyin": "gè",
+          "meaning": "each",
+          "combinationAndSemanticShift": "夂+口 = each"
+        },
+        {
+          "character": "冬",
+          "pinyin": "dōng",
+          "meaning": "winter",
+          "combinationAndSemanticShift": "夂+dots = end/cold season"
+        },
+        {
+          "character": "夏",
+          "pinyin": "xià",
+          "meaning": "summer",
+          "combinationAndSemanticShift": "complex+夂 = season/time"
+        }
+      ]
+    },
+    {
+      "id": "radical_099",
+      "phase": 3,
+      "phaseName": "A2 Phase: Expansion 40 Radicals/Components",
+      "courseLevel": "A2 to TOCFL B1 bridge",
+      "component": "弓",
+      "pinyin": "gōng",
+      "coreMeaning": "bow",
+      "componentType": "radical/component",
+      "learningRole": "Marks bow, pulling, stretching, tension, strength.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "弓",
+          "pinyin": "gōng",
+          "meaning": "bow",
+          "combinationAndSemanticShift": "standalone direct"
+        },
+        {
+          "character": "張",
+          "pinyin": "zhāng",
+          "meaning": "open/sheet",
+          "combinationAndSemanticShift": "弓+長 = stretch bow"
+        },
+        {
+          "character": "強",
+          "pinyin": "qiáng",
+          "meaning": "strong",
+          "combinationAndSemanticShift": "弓+component = bow strength"
+        }
+      ]
+    },
+    {
+      "id": "radical_100",
+      "phase": 3,
+      "phaseName": "A2 Phase: Expansion 40 Radicals/Components",
+      "courseLevel": "A2 to TOCFL B1 bridge",
+      "component": "弟",
+      "pinyin": "dì",
+      "coreMeaning": "younger brother; sequence component",
+      "componentType": "character/component",
+      "learningRole": "Means younger brother; as component often contributes sound/order sequence.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "弟",
+          "pinyin": "dì",
+          "meaning": "younger brother",
+          "combinationAndSemanticShift": "standalone direct"
+        },
+        {
+          "character": "第",
+          "pinyin": "dì",
+          "meaning": "ordinal prefix",
+          "combinationAndSemanticShift": "竹+弟 = ordered slips"
+        },
+        {
+          "character": "梯",
+          "pinyin": "tī",
+          "meaning": "ladder",
+          "combinationAndSemanticShift": "木+弟 = wooden steps"
+        }
+      ]
+    },
+    {
+      "id": "radical_101",
+      "phase": 3,
+      "phaseName": "A2 Phase: Expansion 40 Radicals/Components",
+      "courseLevel": "A2 to TOCFL B1 bridge",
+      "component": "老",
+      "pinyin": "lǎo",
+      "coreMeaning": "old; elder",
+      "componentType": "radical/component",
+      "learningRole": "Marks age, elders, experience, senior status.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "老",
+          "pinyin": "lǎo",
+          "meaning": "old",
+          "combinationAndSemanticShift": "standalone direct"
+        },
+        {
+          "character": "考",
+          "pinyin": "kǎo",
+          "meaning": "test",
+          "combinationAndSemanticShift": "old-like top = examine"
+        },
+        {
+          "character": "老師",
+          "pinyin": "lǎoshī",
+          "meaning": "teacher",
+          "combinationAndSemanticShift": "elder+master"
+        }
+      ]
+    },
+    {
+      "id": "radical_102",
+      "phase": 3,
+      "phaseName": "A2 Phase: Expansion 40 Radicals/Components",
+      "courseLevel": "A2 to TOCFL B1 bridge",
+      "component": "者",
+      "pinyin": "zhě",
+      "coreMeaning": "one who; person marker",
+      "componentType": "component/character",
+      "learningRole": "Nominalizes a person; also common in grammar and aspect-related characters.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "者",
+          "pinyin": "zhě",
+          "meaning": "one who",
+          "combinationAndSemanticShift": "standalone direct"
+        },
+        {
+          "character": "都",
+          "pinyin": "dōu",
+          "meaning": "all/capital",
+          "combinationAndSemanticShift": "者+阝 = group/city"
+        },
+        {
+          "character": "著",
+          "pinyin": "zhe/zhù",
+          "meaning": "aspect/wear/write",
+          "combinationAndSemanticShift": "艹+者 = phonetic/grammatical"
+        }
+      ]
+    },
+    {
+      "id": "radical_103",
+      "phase": 3,
+      "phaseName": "A2 Phase: Expansion 40 Radicals/Components",
+      "courseLevel": "A2 to TOCFL B1 bridge",
+      "component": "艮",
+      "pinyin": "gèn",
+      "coreMeaning": "stopping; tough; phonetic component",
+      "componentType": "radical/component",
+      "learningRole": "Mostly a recognizer/phonetic; appears in 很, 跟, 根, 銀.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "很",
+          "pinyin": "hěn",
+          "meaning": "very",
+          "combinationAndSemanticShift": "彳+艮 = phonetic"
+        },
+        {
+          "character": "跟",
+          "pinyin": "gēn",
+          "meaning": "with/follow",
+          "combinationAndSemanticShift": "足+艮 = foot/follow"
+        },
+        {
+          "character": "銀",
+          "pinyin": "yín",
+          "meaning": "silver",
+          "combinationAndSemanticShift": "金+艮 = metal + phonetic"
+        }
+      ]
+    },
+    {
+      "id": "radical_104",
+      "phase": 3,
+      "phaseName": "A2 Phase: Expansion 40 Radicals/Components",
+      "courseLevel": "A2 to TOCFL B1 bridge",
+      "component": "良",
+      "pinyin": "liáng",
+      "coreMeaning": "good; fine",
+      "componentType": "radical/component",
+      "learningRole": "Marks good quality or serves as phonetic in 浪, 娘, 糧.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "良",
+          "pinyin": "liáng",
+          "meaning": "good",
+          "combinationAndSemanticShift": "standalone direct"
+        },
+        {
+          "character": "浪",
+          "pinyin": "làng",
+          "meaning": "wave",
+          "combinationAndSemanticShift": "氵+良 = water+phonetic"
+        },
+        {
+          "character": "娘",
+          "pinyin": "niáng",
+          "meaning": "mother/young woman",
+          "combinationAndSemanticShift": "女+良 = female+phonetic"
+        }
+      ]
+    },
+    {
+      "id": "radical_105",
+      "phase": 3,
+      "phaseName": "A2 Phase: Expansion 40 Radicals/Components",
+      "courseLevel": "A2 to TOCFL B1 bridge",
+      "component": "里",
+      "pinyin": "lǐ",
+      "coreMeaning": "inside; village; distance unit",
+      "componentType": "radical/component",
+      "learningRole": "Marks inside, village/area, distance, order/texture in derivatives.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "里",
+          "pinyin": "lǐ",
+          "meaning": "inside/village",
+          "combinationAndSemanticShift": "standalone direct"
+        },
+        {
+          "character": "理",
+          "pinyin": "lǐ",
+          "meaning": "principle/manage",
+          "combinationAndSemanticShift": "王+里 = ordered texture"
+        },
+        {
+          "character": "裡",
+          "pinyin": "lǐ",
+          "meaning": "inside",
+          "combinationAndSemanticShift": "衤+里 = inside covering"
+        }
+      ]
+    },
+    {
+      "id": "radical_106",
+      "phase": 3,
+      "phaseName": "A2 Phase: Expansion 40 Radicals/Components",
+      "courseLevel": "A2 to TOCFL B1 bridge",
+      "component": "重",
+      "pinyin": "zhòng/chóng",
+      "coreMeaning": "heavy; repeat",
+      "componentType": "radical/component",
+      "learningRole": "Marks heaviness, importance, repetition; strong phonetic component.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "重",
+          "pinyin": "zhòng",
+          "meaning": "heavy",
+          "combinationAndSemanticShift": "standalone direct"
+        },
+        {
+          "character": "種",
+          "pinyin": "zhǒng",
+          "meaning": "kind/seed/plant",
+          "combinationAndSemanticShift": "禾+重 = grain+heavy/repeat"
+        },
+        {
+          "character": "動",
+          "pinyin": "dòng",
+          "meaning": "move",
+          "combinationAndSemanticShift": "重+力 = force motion"
+        }
+      ]
+    },
+    {
+      "id": "radical_107",
+      "phase": 3,
+      "phaseName": "A2 Phase: Expansion 40 Radicals/Components",
+      "courseLevel": "A2 to TOCFL B1 bridge",
+      "component": "長",
+      "pinyin": "cháng/zhǎng",
+      "coreMeaning": "long; grow; elder/leader",
+      "componentType": "radical/component",
+      "learningRole": "Marks length, growth, leadership, seniority.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "長",
+          "pinyin": "cháng",
+          "meaning": "long",
+          "combinationAndSemanticShift": "standalone direct"
+        },
+        {
+          "character": "張",
+          "pinyin": "zhāng",
+          "meaning": "open/sheet",
+          "combinationAndSemanticShift": "弓+長 = stretch"
+        },
+        {
+          "character": "校長",
+          "pinyin": "xiàozhǎng",
+          "meaning": "principal",
+          "combinationAndSemanticShift": "school+leader"
+        }
+      ]
+    },
+    {
+      "id": "radical_108",
+      "phase": 3,
+      "phaseName": "A2 Phase: Expansion 40 Radicals/Components",
+      "courseLevel": "A2 to TOCFL B1 bridge",
+      "component": "非",
+      "pinyin": "fēi",
+      "coreMeaning": "not; wrong; non-",
+      "componentType": "radical/component",
+      "learningRole": "Marks negation, wrongness, opposition; also phonetic.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "非",
+          "pinyin": "fēi",
+          "meaning": "not/non",
+          "combinationAndSemanticShift": "standalone direct"
+        },
+        {
+          "character": "悲",
+          "pinyin": "bēi",
+          "meaning": "sad",
+          "combinationAndSemanticShift": "非+心 = negative heart"
+        },
+        {
+          "character": "排",
+          "pinyin": "pái",
+          "meaning": "arrange/line up",
+          "combinationAndSemanticShift": "扌+非 = hand action+phonetic"
+        }
+      ]
+    },
+    {
+      "id": "radical_109",
+      "phase": 3,
+      "phaseName": "A2 Phase: Expansion 40 Radicals/Components",
+      "courseLevel": "A2 to TOCFL B1 bridge",
+      "component": "面",
+      "pinyin": "miàn",
+      "coreMeaning": "face; surface; side; noodles",
+      "componentType": "radical/component",
+      "learningRole": "Marks face, surface, side, aspect; noodles in 麵.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "面",
+          "pinyin": "miàn",
+          "meaning": "face/surface",
+          "combinationAndSemanticShift": "standalone direct"
+        },
+        {
+          "character": "麵",
+          "pinyin": "miàn",
+          "meaning": "noodles",
+          "combinationAndSemanticShift": "麥+面 = wheat noodles"
+        },
+        {
+          "character": "方面",
+          "pinyin": "fāngmiàn",
+          "meaning": "aspect",
+          "combinationAndSemanticShift": "direction+side"
+        }
+      ]
+    },
+    {
+      "id": "radical_110",
+      "phase": 3,
+      "phaseName": "A2 Phase: Expansion 40 Radicals/Components",
+      "courseLevel": "A2 to TOCFL B1 bridge",
+      "component": "革",
+      "pinyin": "gé",
+      "coreMeaning": "leather; reform",
+      "componentType": "radical/component",
+      "learningRole": "Marks leather, shoes, hide; reform/change by extension.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "革",
+          "pinyin": "gé",
+          "meaning": "leather/reform",
+          "combinationAndSemanticShift": "standalone direct"
+        },
+        {
+          "character": "鞋",
+          "pinyin": "xié",
+          "meaning": "shoe",
+          "combinationAndSemanticShift": "革+圭 = leather item"
+        },
+        {
+          "character": "改革",
+          "pinyin": "gǎigé",
+          "meaning": "reform",
+          "combinationAndSemanticShift": "change+reform"
+        }
+      ]
+    },
+    {
+      "id": "radical_111",
+      "phase": 3,
+      "phaseName": "A2 Phase: Expansion 40 Radicals/Components",
+      "courseLevel": "A2 to TOCFL B1 bridge",
+      "component": "韋",
+      "pinyin": "wéi",
+      "coreMeaning": "leather; surrounding component",
+      "componentType": "radical/component",
+      "learningRole": "Often phonetic/semantic; appears in surround/violate family.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "韋",
+          "pinyin": "wéi",
+          "meaning": "leather/surround",
+          "combinationAndSemanticShift": "standalone component"
+        },
+        {
+          "character": "違",
+          "pinyin": "wéi",
+          "meaning": "violate",
+          "combinationAndSemanticShift": "辶+韋 = move against"
+        },
+        {
+          "character": "圍",
+          "pinyin": "wéi",
+          "meaning": "surround",
+          "combinationAndSemanticShift": "囗+韋 = enclosure"
+        }
+      ]
+    },
+    {
+      "id": "radical_112",
+      "phase": 3,
+      "phaseName": "A2 Phase: Expansion 40 Radicals/Components",
+      "courseLevel": "A2 to TOCFL B1 bridge",
+      "component": "骨",
+      "pinyin": "gǔ",
+      "coreMeaning": "bone",
+      "componentType": "radical/component",
+      "learningRole": "Marks bone, skeleton, body structure, body/system words.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "骨",
+          "pinyin": "gǔ",
+          "meaning": "bone",
+          "combinationAndSemanticShift": "standalone direct"
+        },
+        {
+          "character": "體",
+          "pinyin": "tǐ",
+          "meaning": "body/system",
+          "combinationAndSemanticShift": "骨+豊 = body structure"
+        },
+        {
+          "character": "骼",
+          "pinyin": "gé",
+          "meaning": "skeleton",
+          "combinationAndSemanticShift": "骨+各 = bone-related"
+        }
+      ]
+    },
+    {
+      "id": "radical_113",
+      "phase": 3,
+      "phaseName": "A2 Phase: Expansion 40 Radicals/Components",
+      "courseLevel": "A2 to TOCFL B1 bridge",
+      "component": "高",
+      "pinyin": "gāo",
+      "coreMeaning": "high; tall",
+      "componentType": "radical/component",
+      "learningRole": "Marks height, high level, elevation; also phonetic.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "高",
+          "pinyin": "gāo",
+          "meaning": "high",
+          "combinationAndSemanticShift": "standalone direct"
+        },
+        {
+          "character": "稿",
+          "pinyin": "gǎo",
+          "meaning": "draft",
+          "combinationAndSemanticShift": "禾+高 = phonetic"
+        },
+        {
+          "character": "高中",
+          "pinyin": "gāozhōng",
+          "meaning": "senior high",
+          "combinationAndSemanticShift": "high+middle"
+        }
+      ]
+    },
+    {
+      "id": "radical_114",
+      "phase": 3,
+      "phaseName": "A2 Phase: Expansion 40 Radicals/Components",
+      "courseLevel": "A2 to TOCFL B1 bridge",
+      "component": "髟",
+      "pinyin": "biāo",
+      "coreMeaning": "hair top radical",
+      "componentType": "top component",
+      "learningRole": "Marks hair, hairstyle, beard, long hair.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "髮",
+          "pinyin": "fǎ",
+          "meaning": "hair",
+          "combinationAndSemanticShift": "髟+犮 = hair radical"
+        },
+        {
+          "character": "鬍",
+          "pinyin": "hú",
+          "meaning": "beard",
+          "combinationAndSemanticShift": "髟+胡 = facial hair"
+        },
+        {
+          "character": "髯",
+          "pinyin": "rán",
+          "meaning": "beard",
+          "combinationAndSemanticShift": "髟+冉 = beard"
+        }
+      ]
+    },
+    {
+      "id": "radical_115",
+      "phase": 3,
+      "phaseName": "A2 Phase: Expansion 40 Radicals/Components",
+      "courseLevel": "A2 to TOCFL B1 bridge",
+      "component": "鹿",
+      "pinyin": "lù",
+      "coreMeaning": "deer",
+      "componentType": "radical/component",
+      "learningRole": "Marks deer or works as component/phonetic in complex characters.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "鹿",
+          "pinyin": "lù",
+          "meaning": "deer",
+          "combinationAndSemanticShift": "standalone direct"
+        },
+        {
+          "character": "麗",
+          "pinyin": "lì",
+          "meaning": "beautiful",
+          "combinationAndSemanticShift": "鹿-related decorative idea"
+        },
+        {
+          "character": "麓",
+          "pinyin": "lù",
+          "meaning": "foot of mountain",
+          "combinationAndSemanticShift": "鹿+林 = phonetic/place"
+        }
+      ]
+    },
+    {
+      "id": "radical_116",
+      "phase": 3,
+      "phaseName": "A2 Phase: Expansion 40 Radicals/Components",
+      "courseLevel": "A2 to TOCFL B1 bridge",
+      "component": "麻",
+      "pinyin": "má",
+      "coreMeaning": "hemp; numb",
+      "componentType": "radical/component",
+      "learningRole": "Marks hemp, rough fibers, numbness; common phonetic cover.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "麻",
+          "pinyin": "má",
+          "meaning": "hemp/numb",
+          "combinationAndSemanticShift": "standalone direct"
+        },
+        {
+          "character": "麼",
+          "pinyin": "me",
+          "meaning": "particle in 什麼",
+          "combinationAndSemanticShift": "麻+幺 = phonetic"
+        },
+        {
+          "character": "磨",
+          "pinyin": "mó",
+          "meaning": "grind",
+          "combinationAndSemanticShift": "麻+石 = stone grinding"
+        }
+      ]
+    },
+    {
+      "id": "radical_117",
+      "phase": 3,
+      "phaseName": "A2 Phase: Expansion 40 Radicals/Components",
+      "courseLevel": "A2 to TOCFL B1 bridge",
+      "component": "黃",
+      "pinyin": "huáng",
+      "coreMeaning": "yellow",
+      "componentType": "radical/component",
+      "learningRole": "Marks yellow, earth tone; common phonetic component.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "黃",
+          "pinyin": "huáng",
+          "meaning": "yellow",
+          "combinationAndSemanticShift": "standalone direct"
+        },
+        {
+          "character": "橫",
+          "pinyin": "héng",
+          "meaning": "horizontal",
+          "combinationAndSemanticShift": "木+黃 = phonetic"
+        },
+        {
+          "character": "簧",
+          "pinyin": "huáng",
+          "meaning": "reed/spring",
+          "combinationAndSemanticShift": "竹+黃 = bamboo+phonetic"
+        }
+      ]
+    },
+    {
+      "id": "radical_118",
+      "phase": 3,
+      "phaseName": "A2 Phase: Expansion 40 Radicals/Components",
+      "courseLevel": "A2 to TOCFL B1 bridge",
+      "component": "鼓",
+      "pinyin": "gǔ",
+      "coreMeaning": "drum; beat; encourage",
+      "componentType": "radical/component",
+      "learningRole": "Marks drums, rhythm, beating, encouragement/stimulation.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "鼓",
+          "pinyin": "gǔ",
+          "meaning": "drum/encourage",
+          "combinationAndSemanticShift": "standalone direct"
+        },
+        {
+          "character": "鼓勵",
+          "pinyin": "gǔlì",
+          "meaning": "encourage",
+          "combinationAndSemanticShift": "stimulate+encourage"
+        },
+        {
+          "character": "打鼓",
+          "pinyin": "dǎgǔ",
+          "meaning": "play drum",
+          "combinationAndSemanticShift": "hit+drum"
+        }
+      ]
+    },
+    {
+      "id": "radical_119",
+      "phase": 3,
+      "phaseName": "A2 Phase: Expansion 40 Radicals/Components",
+      "courseLevel": "A2 to TOCFL B1 bridge",
+      "component": "鼠",
+      "pinyin": "shǔ",
+      "coreMeaning": "mouse; rat",
+      "componentType": "radical/component",
+      "learningRole": "Marks mice/rats or animal-name vocabulary.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "鼠",
+          "pinyin": "shǔ",
+          "meaning": "mouse/rat",
+          "combinationAndSemanticShift": "standalone direct"
+        },
+        {
+          "character": "老鼠",
+          "pinyin": "lǎoshǔ",
+          "meaning": "mouse/rat",
+          "combinationAndSemanticShift": "common word"
+        },
+        {
+          "character": "松鼠",
+          "pinyin": "sōngshǔ",
+          "meaning": "squirrel",
+          "combinationAndSemanticShift": "pine+mouse"
+        }
+      ]
+    },
+    {
+      "id": "radical_120",
+      "phase": 3,
+      "phaseName": "A2 Phase: Expansion 40 Radicals/Components",
+      "courseLevel": "A2 to TOCFL B1 bridge",
+      "component": "電",
+      "pinyin": "diàn",
+      "coreMeaning": "electricity",
+      "componentType": "character/component",
+      "learningRole": "Modern high-value component from lightning; used in technology words.",
+      "meaningChangeRule": "When combined with another component, this part usually gives a semantic clue, a sound clue, or both. The meaning often shifts from literal object/action to an abstract family of meanings. Do not force a perfect literal story; use it as a recognition and memory aid.",
+      "howToTeach": [
+        "Recognize the shape",
+        "Learn the core meaning",
+        "Notice its position in characters",
+        "Study 3 example characters",
+        "Build words from those characters",
+        "Review with meaning, pinyin, and sentence quizzes"
+      ],
+      "examples": [
+        {
+          "character": "電",
+          "pinyin": "diàn",
+          "meaning": "electricity",
+          "combinationAndSemanticShift": "雨+申 = lightning/electricity"
+        },
+        {
+          "character": "電話",
+          "pinyin": "diànhuà",
+          "meaning": "telephone",
+          "combinationAndSemanticShift": "electric+speech"
+        },
+        {
+          "character": "電腦",
+          "pinyin": "diànnǎo",
+          "meaning": "computer",
+          "combinationAndSemanticShift": "electric+brain"
+        }
+      ]
+    }
+  ]
+}

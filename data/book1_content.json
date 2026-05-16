@@ -1,0 +1,7149 @@
+[
+  {
+    "id": "b1_c1",
+    "book": 1,
+    "chapter": 1,
+    "title": "Hello & Greetings",
+    "subtitle": "Welcome to Taiwan",
+    "intro": "Learn how to greet others and make basic introductions.",
+    "vocab": [
+      {
+        "hanzi": "陳月美",
+        "pinyin": "Chén Yuèměi",
+        "definition": "a woman from Vietnam"
+      },
+      {
+        "hanzi": "李明華",
+        "pinyin": "Lǐ Mínghuá",
+        "definition": "a man from Taiwan"
+      },
+      {
+        "hanzi": "王開文",
+        "pinyin": "Wáng Kāiwén",
+        "definition": "a man from the US"
+      },
+      {
+        "hanzi": "你",
+        "pinyin": "nǐ",
+        "definition": "you"
+      },
+      {
+        "hanzi": "來",
+        "pinyin": "lái",
+        "definition": "to come"
+      },
+      {
+        "hanzi": "是",
+        "pinyin": "shì",
+        "definition": "to be"
+      },
+      {
+        "hanzi": "小姐",
+        "pinyin": "xiǎojiě",
+        "definition": "Miss, Ms."
+      },
+      {
+        "hanzi": "嗎",
+        "pinyin": "ma",
+        "definition": "sentence final particle"
+      },
+      {
+        "hanzi": "接",
+        "pinyin": "jiē",
+        "definition": "to pick sb up"
+      },
+      {
+        "hanzi": "我們",
+        "pinyin": "wǒmen",
+        "definition": "we, us"
+      },
+      {
+        "hanzi": "我",
+        "pinyin": "wǒ",
+        "definition": "I, me"
+      },
+      {
+        "hanzi": "這",
+        "pinyin": "zhè / zhèi",
+        "definition": "this"
+      },
+      {
+        "hanzi": "先生",
+        "pinyin": "xiānshēng",
+        "definition": "Mr."
+      },
+      {
+        "hanzi": "好",
+        "pinyin": "hǎo",
+        "definition": "fine, well"
+      },
+      {
+        "hanzi": "姓",
+        "pinyin": "xìng",
+        "definition": "to be surnamed"
+      },
+      {
+        "hanzi": "叫",
+        "pinyin": "jiào",
+        "definition": "to be called, i.e., to have the first name xx"
+      },
+      {
+        "hanzi": "你們",
+        "pinyin": "nǐmen",
+        "definition": "you (plural)"
+      },
+      {
+        "hanzi": "臺灣（＝台灣）",
+        "pinyin": "Táiwān",
+        "definition": "Taiwan"
+      },
+      {
+        "hanzi": "歡迎",
+        "pinyin": "huānyíng",
+        "definition": "welcome"
+      },
+      {
+        "hanzi": "請問",
+        "pinyin": "qǐngwèn",
+        "definition": "May I ask you... Excuse me, ..."
+      },
+      {
+        "hanzi": "是的",
+        "pinyin": "shìde",
+        "definition": "yes"
+      },
+      {
+        "hanzi": "謝謝",
+        "pinyin": "xièxie",
+        "definition": "Thank you."
+      },
+      {
+        "hanzi": "不客氣",
+        "pinyin": "búkèqì",
+        "definition": "You're welcome."
+      },
+      {
+        "hanzi": "你好",
+        "pinyin": "Nǐ hǎo",
+        "definition": "How are you? Hello."
+      },
+      {
+        "hanzi": "請",
+        "pinyin": "qǐng",
+        "definition": "please"
+      },
+      {
+        "hanzi": "喝",
+        "pinyin": "hē",
+        "definition": "to drink"
+      },
+      {
+        "hanzi": "茶",
+        "pinyin": "chá",
+        "definition": "tea"
+      },
+      {
+        "hanzi": "很",
+        "pinyin": "hěn",
+        "definition": "very"
+      },
+      {
+        "hanzi": "好喝",
+        "pinyin": "hǎohē",
+        "definition": "(lit. good to drink) to taste good"
+      },
+      {
+        "hanzi": "什麼",
+        "pinyin": "shénme",
+        "definition": "what"
+      },
+      {
+        "hanzi": "人",
+        "pinyin": "rén",
+        "definition": "person, people"
+      },
+      {
+        "hanzi": "喜歡",
+        "pinyin": "xǐhuān",
+        "definition": "to like"
+      },
+      {
+        "hanzi": "呢",
+        "pinyin": "ne",
+        "definition": "sentence final particle"
+      },
+      {
+        "hanzi": "他",
+        "pinyin": "tā",
+        "definition": "he, him"
+      },
+      {
+        "hanzi": "不",
+        "pinyin": "bù",
+        "definition": "not"
+      },
+      {
+        "hanzi": "哪",
+        "pinyin": "nǎ / něi",
+        "definition": "which"
+      },
+      {
+        "hanzi": "要",
+        "pinyin": "yào",
+        "definition": "to want to"
+      },
+      {
+        "hanzi": "咖啡",
+        "pinyin": "kāfēi",
+        "definition": "coffee"
+      },
+      {
+        "hanzi": "烏龍茶",
+        "pinyin": "Wūlóng chá",
+        "definition": "Oolong tea"
+      },
+      {
+        "hanzi": "日本",
+        "pinyin": "Rìběn",
+        "definition": "Japan"
+      },
+      {
+        "hanzi": "美國",
+        "pinyin": "Měiguó",
+        "definition": "America"
+      },
+      {
+        "hanzi": "對不起",
+        "pinyin": "duìbùqǐ",
+        "definition": "I'm sorry."
+      },
+      {
+        "hanzi": "哪國",
+        "pinyin": "nǎ guó / něi guó",
+        "definition": "Which country?"
+      }
+    ],
+    "dialogues": [
+      {
+        "title": "Meeting at the Airport",
+        "lines": [
+          {
+            "speaker": "李明華",
+            "zh": "請問，你是陳月美小姐嗎？",
+            "py": "Qǐngwèn, nǐ shì Chén Yuèměi xiǎojiě ma?",
+            "en": "Excuse me, are you Ms. Chen Yuemei?"
+          },
+          {
+            "speaker": "陳月美",
+            "zh": "是的。請問你姓什麼？",
+            "py": "Shìde. Qǐngwèn nǐ xìng shénme?",
+            "en": "Yes. May I ask what your surname is?"
+          },
+          {
+            "speaker": "李明華",
+            "zh": "我姓李，我叫李明華。你好。",
+            "py": "Wǒ xìng Lǐ, wǒ jiào Lǐ Mínghuá. Nǐ hǎo.",
+            "en": "My surname is Li, I am called Li Minghua. Hello."
+          },
+          {
+            "speaker": "陳月美",
+            "zh": "李先生，你好。謝謝你來接我。",
+            "py": "Lǐ xiānshēng, nǐ hǎo. Xièxie nǐ lái jiē wǒ.",
+            "en": "Mr. Li, hello. Thank you for coming to pick me up."
+          },
+          {
+            "speaker": "李明華",
+            "zh": "不客氣。歡迎你來台灣。",
+            "py": "Búkèqì. Huānyíng nǐ lái Táiwān.",
+            "en": "You're welcome. Welcome to Taiwan."
+          },
+          {
+            "speaker": "陳月美",
+            "zh": "謝謝。這是我朋友，王開文。",
+            "py": "Xièxie. Zhè shì wǒ péngyǒu, Wáng Kāiwén.",
+            "en": "Thank you. This is my friend, Wang Kaiwen."
+          },
+          {
+            "speaker": "李明華",
+            "zh": "王先生，你好。很高興認識你。",
+            "py": "Wáng xiānshēng, nǐ hǎo. Hěn gāoxìng rènshì nǐ.",
+            "en": "Mr. Wang, hello. Nice to meet you."
+          },
+          {
+            "speaker": "王開文",
+            "zh": "你好。李先生，我也很高興認識你。",
+            "py": "Nǐ hǎo. Lǐ xiānshēng, wǒ yě hěn gāoxìng rènshì nǐ.",
+            "en": "Hello. Mr. Li, I am also glad to meet you."
+          }
+        ]
+      },
+      {
+        "title": "Having Tea",
+        "lines": [
+          {
+            "speaker": "李明華",
+            "zh": "請喝茶。這是烏龍茶。",
+            "py": "Qǐng hē chá. Zhè shì Wūlóng chá.",
+            "en": "Please drink some tea. This is Oolong tea."
+          },
+          {
+            "speaker": "王開文",
+            "zh": "謝謝。這杯茶很好喝。",
+            "py": "Xièxie. Zhè bēi chá hěn hǎohē.",
+            "en": "Thank you. This cup of tea is very delicious."
+          },
+          {
+            "speaker": "李明華",
+            "zh": "你們喜歡喝茶嗎？",
+            "py": "Nǐmen xǐhuān hē chá ma?",
+            "en": "Do you like drinking tea?"
+          },
+          {
+            "speaker": "陳月美",
+            "zh": "我很喜歡喝茶，王先生不喜歡。",
+            "py": "Wǒ hěn xǐhuān hē chá, Wáng xiānshēng bù xǐhuān.",
+            "en": "I like drinking tea very much, but Mr. Wang doesn't."
+          },
+          {
+            "speaker": "王開文",
+            "zh": "對不起，我不常喝茶。我喜歡喝咖啡。",
+            "py": "Duìbùqǐ, wǒ bù cháng hē chá. Wǒ xǐhuān hē kāfēi.",
+            "en": "Sorry, I don't often drink tea. I like drinking coffee."
+          },
+          {
+            "speaker": "李明華",
+            "zh": "沒關係。月美，你是哪國人？",
+            "py": "Méiguānxì. Yuèměi, nǐ shì nǎ guó rén?",
+            "en": "That's fine. Yuemei, what is your nationality?"
+          },
+          {
+            "speaker": "陳月美",
+            "zh": "我是越南人。開文是美國人。",
+            "py": "Wǒ shì Yuènán rén. Kāiwén shì Měiguó rén.",
+            "en": "I am Vietnamese. Kaiwen is American."
+          },
+          {
+            "speaker": "李明華",
+            "zh": "喔，你們都喜歡台灣嗎？",
+            "py": "Ō, nǐmen dōu xǐhuān Táiwān ma?",
+            "en": "Oh, do you both like Taiwan?"
+          },
+          {
+            "speaker": "王開文",
+            "zh": "是的，我們都很喜歡台灣。",
+            "py": "Shìde, wǒmen dōu hěn xǐhuān Táiwān.",
+            "en": "Yes, we both like Taiwan very much."
+          }
+        ]
+      }
+    ],
+    "listening": [
+      {
+        "title": "Introducing Friends",
+        "text": "李明華今天去機場接朋友。他的朋友叫陳月美，是越南人。月美的朋友叫王開文，是美國人。他們都很高興來到台灣。",
+        "py": "Lǐ Mínghuá jīntiān qù jīchǎng jiē péngyǒu. Tā de péngyǒu jiào Chén Yuèměi, shì Yuènán rén. Yuèměi de péngyǒu jiào Wáng Kāiwén, shì Měiguó rén. Tāmen dōu hěn gāoxìng láidào Táiwān.",
+        "questions": [
+          {
+            "q": "李明華在哪裡接朋友？",
+            "options": [
+              "機場",
+              "學校",
+              "餐廳",
+              "家"
+            ],
+            "answer": "機場"
+          },
+          {
+            "q": "誰是越南人？",
+            "options": [
+              "李明華",
+              "陳月美",
+              "王開文",
+              "老師"
+            ],
+            "answer": "陳月美"
+          },
+          {
+            "q": "王開文是哪國人？",
+            "options": [
+              "台灣人",
+              "越南人",
+              "美國人",
+              "日本人"
+            ],
+            "answer": "美國人"
+          }
+        ]
+      },
+      {
+        "title": "Coffee or Tea?",
+        "text": "王先生不喜歡喝茶，他喜歡喝咖啡。陳小姐很喜歡喝茶，她覺得台灣的烏龍茶很好喝。",
+        "py": "Wáng xiānshēng bù xǐhuān hē chá, tā xǐhuān hē kāfēi. Chén xiǎojiě hěn xǐhuān hē chá, tā juéde Táiwān de Wūlóng chá hěn hǎohē.",
+        "questions": [
+          {
+            "q": "王先生喜歡喝什麼？",
+            "options": [
+              "茶",
+              "咖啡",
+              "水",
+              "果汁"
+            ],
+            "answer": "咖啡"
+          },
+          {
+            "q": "陳小姐覺得什麼茶很好喝？",
+            "options": [
+              "綠茶",
+              "紅茶",
+              "烏龍茶",
+              "奶茶"
+            ],
+            "answer": "烏龍茶"
+          },
+          {
+            "q": "誰不喜歡喝茶？",
+            "options": [
+              "王先生",
+              "陳小姐",
+              "李先生",
+              "月美"
+            ],
+            "answer": "王先生"
+          }
+        ]
+      }
+    ],
+    "readings": [
+      {
+        "title": "Welcome to Taiwan",
+        "text": "你好。我姓李，我叫李明華。我是台灣人。今天我去機場接兩位朋友。他們是陳月美小姐和王開文先生。月美是越南人，開文是美國人。歡迎他們來台灣喝好喝的烏龍茶。",
+        "py": "Nǐ hǎo. Wǒ xìng Lǐ, wǒ jiào Lǐ Mínghuá. Wǒ shì Táiwān rén. Jīntiān wǒ qù jīchǎng jiē liǎng wèi péngyǒu. Tāmen shì Chén Yuèměi xiǎojiě hé Wáng Kāiwén xiānshēng. Yuèměi shì Yuènán rén, kāiwén shì Měiguó rén. Huānyíng tāmen lái Táiwān hē hǎohē de Wūlóng chá.",
+        "questions": [
+          {
+            "q": "李明華是哪國人？",
+            "options": [
+              "台灣人",
+              "越南人",
+              "美國人",
+              "日本人"
+            ],
+            "answer": "台灣人"
+          },
+          {
+            "q": "李明華接了幾位朋友？",
+            "options": [
+              "一位",
+              "兩位",
+              "三位",
+              "四位"
+            ],
+            "answer": "兩位"
+          },
+          {
+            "q": "月美和開文在哪裡？",
+            "options": [
+              "越南",
+              "美國",
+              "台灣",
+              "日本"
+            ],
+            "answer": "台灣"
+          }
+        ]
+      },
+      {
+        "title": "Meeting New People",
+        "text": "在台灣，認識新朋友很有意思。你可以問：『請問你貴姓？』或者『你叫什麼名字？』大家都很客氣。如果你說『謝謝』，他們會說『不客氣』。",
+        "py": "Zài Táiwān, rènshì xīn péngyǒu hěn yǒuyìsi. Nǐ kěyǐ wèn: \"Qǐngwèn nǐ guìxìng?\" Huòzhě \"Nǐ jiào shénme míngzì?\" Dàjiā dōu hěn kèqì. Rúguǒ nǐ shuō \"xièèxie\", tāmen huì shuō \"búkèqì\".",
+        "questions": [
+          {
+            "q": "認識新朋友怎麼樣？",
+            "options": [
+              "很難",
+              "很有意思",
+              "很累",
+              "不喜歡"
+            ],
+            "answer": "很有意思"
+          },
+          {
+            "q": "你可以問什麼？",
+            "options": [
+              "你姓什麼？",
+              "你幾歲？",
+              "你家在哪？",
+              "你是誰？"
+            ],
+            "answer": "你姓什麼？"
+          },
+          {
+            "q": "別人說『謝謝』，你應該說什麼？",
+            "options": [
+              "你好",
+              "對不起",
+              "不客氣",
+              "再見"
+            ],
+            "answer": "不客氣"
+          }
+        ]
+      }
+    ],
+    "quizzes": [
+      {
+        "type": "choice",
+        "question": "How do you say 'Hello' in Chinese?",
+        "options": [
+          "謝謝",
+          "你好",
+          "對不起",
+          "不客氣"
+        ],
+        "answer": "你好"
+      },
+      {
+        "type": "fill",
+        "sentence": "請問，你是陳月美 ___ 嗎？",
+        "answer": "小姐"
+      }
+    ]
+  },
+  {
+    "id": "b1_c2",
+    "book": 1,
+    "chapter": 2,
+    "title": "Family & Photos",
+    "subtitle": "My family members",
+    "intro": "Talk about your family and describe people in photos.",
+    "vocab": [
+      {
+        "hanzi": "張怡君",
+        "pinyin": "Zhāng Yíjūn",
+        "definition": "a woman from Taiwan"
+      },
+      {
+        "hanzi": "馬安同",
+        "pinyin": "Mǎ Āntóng",
+        "definition": "a man from the Republic of Honduras"
+      },
+      {
+        "hanzi": "的",
+        "pinyin": "de",
+        "definition": "modification marker"
+      },
+      {
+        "hanzi": "家人",
+        "pinyin": "jiārén",
+        "definition": "family (members)"
+      },
+      {
+        "hanzi": "家",
+        "pinyin": "jiā",
+        "definition": "home, house"
+      },
+      {
+        "hanzi": "漂亮",
+        "pinyin": "piàoliàng",
+        "definition": "pretty"
+      },
+      {
+        "hanzi": "房子",
+        "pinyin": "fángzi",
+        "definition": "house"
+      },
+      {
+        "hanzi": "坐",
+        "pinyin": "zuò",
+        "definition": "to sit"
+      },
+      {
+        "hanzi": "好",
+        "pinyin": "hǎo",
+        "definition": "OK"
+      },
+      {
+        "hanzi": "有",
+        "pinyin": "yǒu",
+        "definition": "to have"
+      },
+      {
+        "hanzi": "多",
+        "pinyin": "duō",
+        "definition": "many"
+      },
+      {
+        "hanzi": "照片",
+        "pinyin": "zhàopiàn",
+        "definition": "photo"
+      },
+      {
+        "hanzi": "都",
+        "pinyin": "dōu",
+        "definition": "all, both"
+      },
+      {
+        "hanzi": "照相",
+        "pinyin": "zhàoxiàng",
+        "definition": "to take a photo"
+      },
+      {
+        "hanzi": "張",
+        "pinyin": "zhāng",
+        "definition": "measure word for flat objects (e.g., paper, tickets)"
+      },
+      {
+        "hanzi": "好看",
+        "pinyin": "hǎokàn",
+        "definition": "good-looking"
+      },
+      {
+        "hanzi": "誰",
+        "pinyin": "shéi",
+        "definition": "who"
+      },
+      {
+        "hanzi": "姐姐",
+        "pinyin": "jiějie",
+        "definition": "older sister"
+      },
+      {
+        "hanzi": "妹妹",
+        "pinyin": "mèimei",
+        "definition": "younger sister"
+      },
+      {
+        "hanzi": "爸爸",
+        "pinyin": "bàba",
+        "definition": "dad"
+      },
+      {
+        "hanzi": "媽媽",
+        "pinyin": "māma",
+        "definition": "mom"
+      },
+      {
+        "hanzi": "請進",
+        "pinyin": "qǐng jìn",
+        "definition": "Please come in!"
+      },
+      {
+        "hanzi": "田中誠一",
+        "pinyin": "Tiánzhōng Chéngyī",
+        "definition": "a man from Japan"
+      },
+      {
+        "hanzi": "伯母",
+        "pinyin": "bómǔ",
+        "definition": "aunt; here a polite term for a friend's mother regardless of age"
+      },
+      {
+        "hanzi": "您",
+        "pinyin": "nín",
+        "definition": "you (honorific)"
+      },
+      {
+        "hanzi": "名字",
+        "pinyin": "míngzi",
+        "definition": "name"
+      },
+      {
+        "hanzi": "書",
+        "pinyin": "shū",
+        "definition": "book"
+      },
+      {
+        "hanzi": "哥哥",
+        "pinyin": "gēge",
+        "definition": "older brother"
+      },
+      {
+        "hanzi": "老師",
+        "pinyin": "lǎoshī",
+        "definition": "teacher"
+      },
+      {
+        "hanzi": "看書",
+        "pinyin": "kànshū",
+        "definition": "to read"
+      },
+      {
+        "hanzi": "幾",
+        "pinyin": "jǐ",
+        "definition": "how many"
+      },
+      {
+        "hanzi": "個",
+        "pinyin": "ge",
+        "definition": "general measure word"
+      },
+      {
+        "hanzi": "沒",
+        "pinyin": "méi",
+        "definition": "not"
+      },
+      {
+        "hanzi": "兄弟",
+        "pinyin": "xiōngdì",
+        "definition": "brothers"
+      },
+      {
+        "hanzi": "姐妹",
+        "pinyin": "jiěmèi",
+        "definition": "sisters"
+      },
+      {
+        "hanzi": "五",
+        "pinyin": "wǔ",
+        "definition": "five"
+      },
+      {
+        "hanzi": "兩",
+        "pinyin": "liǎng",
+        "definition": "two"
+      }
+    ],
+    "dialogues": [
+      {
+        "title": "A Beautiful House",
+        "lines": [
+          {
+            "speaker": "馬安同",
+            "zh": "張小姐，請進！你的房子很漂亮。",
+            "py": "Zhāng xiǎojiě, qǐng jìn! Nǐ de fángzi hěn piàoliàng.",
+            "en": "Ms. Zhang, please come in! Your house is very beautiful."
+          },
+          {
+            "speaker": "張怡君",
+            "zh": "謝謝。請坐，請喝茶。",
+            "py": "Xièxie. Qǐng zuò, qǐng hē chá.",
+            "en": "Thank you. Please sit down, please drink some tea."
+          },
+          {
+            "speaker": "馬安同",
+            "zh": "這張照片是你的家人嗎？",
+            "py": "Zhè zhāng zhàopiàn shì nǐ de jiārén ma?",
+            "en": "Is this photo of your family?"
+          },
+          {
+            "speaker": "張怡君",
+            "zh": "是的。這是我爸爸、媽媽。",
+            "py": "Shìde. Zhè shì wǒ bàba, māma.",
+            "en": "Yes. This is my dad and mom."
+          },
+          {
+            "speaker": "馬安同",
+            "zh": "這位是誰？是你姐姐嗎？",
+            "py": "Zhè wèi shì shéi? Shì nǐ jiějie ma?",
+            "en": "Who is this person? Is it your older sister?"
+          },
+          {
+            "speaker": "張怡君",
+            "zh": "不是，她是我妹妹。她很漂亮吧？",
+            "py": "Búshì, tā shì wǒ mèimei. Tā hěn piàoliàng ba?",
+            "en": "No, she is my younger sister. She is pretty, right?"
+          },
+          {
+            "speaker": "馬安同",
+            "zh": "她真的很漂亮。你有哥哥嗎？",
+            "py": "Tā zhēnde hěn piàoliàng. Nǐ yǒu gēge ma?",
+            "en": "She really is very pretty. Do you have an older brother?"
+          },
+          {
+            "speaker": "張怡君",
+            "zh": "我有一個哥哥，他不在台灣。",
+            "py": "Wǒ yǒu yígè gēge, tā búzài Táiwān.",
+            "en": "I have one older brother; he is not in Taiwan."
+          }
+        ]
+      },
+      {
+        "title": "Talking about Names",
+        "lines": [
+          {
+            "speaker": "張怡君",
+            "zh": "馬先生，請問你叫什麼名字？",
+            "py": "Mǎ xiānshēng, qǐngwèn nǐ jiào shénme míngzì?",
+            "en": "Mr. Ma, may I ask what your name is?"
+          },
+          {
+            "speaker": "馬安同",
+            "zh": "我叫馬安同。這是我的名字。",
+            "py": "Wǒ jiào Mǎ Āntóng. Zhè shì wǒ de míngzì.",
+            "en": "I am called Ma Antong. This is my name."
+          },
+          {
+            "speaker": "張怡君",
+            "zh": "你的名字很好聽。你是哪國人？",
+            "py": "Nǐ de míngzì hěn hǎotīng. Nǐ shì nǎ guó rén?",
+            "en": "Your name sounds very nice. What is your nationality?"
+          },
+          {
+            "speaker": "馬安同",
+            "zh": "我是宏都拉斯人。你呢？",
+            "py": "Wǒ shì Hóngdūlāsī rén. Nǐ ne?",
+            "en": "I am Honduran. And you?"
+          },
+          {
+            "speaker": "張怡君",
+            "zh": "我是台灣人。這是我哥哥的照片。",
+            "py": "Wǒ shì Táiwān rén. Zhè shì wǒ gēge de zhàopiàn.",
+            "en": "I am Taiwanese. This is a photo of my older brother."
+          },
+          {
+            "speaker": "馬安同",
+            "zh": "你哥哥也很帥。他有幾個孩子？",
+            "py": "Nǐ gēge yě hěn shuài. Tā yǒu jǐ gè háizi?",
+            "en": "Your brother is also very handsome. How many children does he have?"
+          },
+          {
+            "speaker": "張怡君",
+            "zh": "他有兩個孩子，一個兒子，一個女兒。",
+            "py": "Tā yǒu liǎng gè háizi, yígè érzi, yígè nǚ'ér.",
+            "en": "He has two children: one son and one daughter."
+          }
+        ]
+      }
+    ],
+    "listening": [
+      {
+        "title": "Family Photo",
+        "text": "張怡君家裡有很多照片。這張照片裡有五個人：爸爸、媽媽、哥哥、妹妹和怡君。怡君的房子很漂亮，她的家人都住在台灣。",
+        "py": "Zhāng Yíjūn jiālǐ yǒu hěnduō zhàopiàn. Zhè zhāng zhàopiàn lǐ yǒu wǔ gè rén: bàba, māma, gēge, mèimei hé Yíjūn. Yíjūn de fángzi hěn piàoliàng, tā de jiārén dōu zhù zài Táiwān.",
+        "questions": [
+          {
+            "q": "照片裡有幾個人？",
+            "options": [
+              "三個人",
+              "四個人",
+              "五個人",
+              "六個人"
+            ],
+            "answer": "五個人"
+          },
+          {
+            "q": "張怡君有姐姐嗎？",
+            "options": [
+              "有",
+              "沒有",
+              "不知道",
+              "有兩個"
+            ],
+            "answer": "沒有"
+          },
+          {
+            "q": "怡君的房子怎麼樣？",
+            "options": [
+              "很大",
+              "很漂亮",
+              "很舊",
+              "很小"
+            ],
+            "answer": "很漂亮"
+          }
+        ]
+      },
+      {
+        "title": "Who is she?",
+        "text": "馬安同指著照片問：『這位是誰？』張怡君說：『她是我妹妹。』馬安同覺得她很漂亮。怡君還有一個哥哥，但是他現在不在台灣。",
+        "py": "Mǎ Āntóng zhǐzhe zhàopiàn wèn: \"Zhè wèi shì shéi?\" Zhāng Yíjūn shuō: \"Tā shì wǒ mèimei.\" Mǎ Āntóng juéde tā hěn piàoliàng. Yíjūn hái yǒu yígè gēge, dànshì tā xiànzài búzài Táiwān.",
+        "questions": [
+          {
+            "q": "照片裡的人是誰？",
+            "options": [
+              "怡君的老師",
+              "怡君的妹妹",
+              "怡君的朋友",
+              "怡君的媽媽"
+            ],
+            "answer": "怡君的妹妹"
+          },
+          {
+            "q": "怡君有幾個哥哥？",
+            "options": [
+              "一個",
+              "兩個",
+              "三個",
+              "沒有"
+            ],
+            "answer": "一個"
+          },
+          {
+            "q": "怡君的哥哥在哪裡？",
+            "options": [
+              "台灣",
+              "不在台灣",
+              "在家",
+              "在學校"
+            ],
+            "answer": "不在台灣"
+          }
+        ]
+      }
+    ],
+    "readings": [
+      {
+        "title": "My Family",
+        "text": "我叫張怡君。我家有五個人：爸爸、媽媽、哥哥、妹妹和我。我爸爸是老師，我媽媽也是老師。我哥哥很喜歡看書，我妹妹很喜歡照相。我們家有很多漂亮的照片。",
+        "py": "Wǒ jiào Zhāng Yíjūn. Wǒ jiā yǒu wǔ gè rén: bàba, māma, gēge, mèimei hé wǒ. Wǒ bàba shì lǎoshī, wǒ māma yě shì lǎoshī. Wǒ gēge hěn xǐhuān kànshū, wǒ mèimei hěn xǐhuān zhàoxiàng. Wǒmen jiā yǒu hěnduō piàoliàng de zhàopiàn.",
+        "questions": [
+          {
+            "q": "怡君的爸爸做什麼工作？",
+            "options": [
+              "醫生",
+              "老師",
+              "司機",
+              "老闆"
+            ],
+            "answer": "老師"
+          },
+          {
+            "q": "誰喜歡看書？",
+            "options": [
+              "爸爸",
+              "媽媽",
+              "哥哥",
+              "妹妹"
+            ],
+            "answer": "哥哥"
+          },
+          {
+            "q": "怡君家有幾個人？",
+            "options": [
+              "三個人",
+              "四個人",
+              "五個人",
+              "六個人"
+            ],
+            "answer": "五個人"
+          }
+        ]
+      },
+      {
+        "title": "Meet My Friend",
+        "text": "這是我的朋友馬安同。他是宏都拉斯人。他現在在台灣學中文。他覺得中文很有意思，但是也很難。他喜歡看中文書，也喜歡照相。他有一張家人的照片，非常好看。",
+        "py": "Zhè shì wǒ de péngyǒu Mǎ Āntóng. Tā shì Hóngdūlāsī rén. Tā xiànzài zài Táiwān xué Zhōngwén. Tā juéde Zhōngwén hěn yǒuyìsi, dànshì yě hěn nán. Tā xǐhuān kàn Zhōngwén shū, yě xǐhuān zhàoxiàng. Tā yǒu yìzhāng jiārén de zhàopiàn, fēicháng hǎokàn.",
+        "questions": [
+          {
+            "q": "馬安同是哪國人？",
+            "options": [
+              "台灣人",
+              "美國人",
+              "宏都拉斯人",
+              "日本人"
+            ],
+            "answer": "宏都拉斯人"
+          },
+          {
+            "q": "他覺得中文怎麼樣？",
+            "options": [
+              "很有意思",
+              "不難",
+              "沒意思",
+              "很簡單"
+            ],
+            "answer": "很有意思"
+          },
+          {
+            "q": "他喜歡做什麼？",
+            "options": [
+              "喝茶",
+              "看中文書",
+              "跳舞",
+              "游泳"
+            ],
+            "answer": "看中文書"
+          }
+        ]
+      }
+    ],
+    "quizzes": [
+      {
+        "type": "choice",
+        "question": "What does '姐姐' (jiějie) mean?",
+        "options": [
+          "Mother",
+          "Younger sister",
+          "Older sister",
+          "Aunt"
+        ],
+        "answer": "Older sister"
+      },
+      {
+        "type": "fill",
+        "sentence": "這張照片是你的 ___ 嗎？",
+        "answer": "家人"
+      }
+    ]
+  },
+  {
+    "id": "b1_c3",
+    "book": 1,
+    "chapter": 3,
+    "title": "Weekend Activities",
+    "subtitle": "Sports and Hobbies",
+    "intro": "Discuss what you do on the weekend and invite friends to activities.",
+    "vocab": [
+      {
+        "hanzi": "週末",
+        "pinyin": "zhōumò",
+        "definition": "weekend"
+      },
+      {
+        "hanzi": "聽",
+        "pinyin": "tīng",
+        "definition": "to listen"
+      },
+      {
+        "hanzi": "音樂",
+        "pinyin": "yīnyuè",
+        "definition": "music"
+      },
+      {
+        "hanzi": "運動",
+        "pinyin": "yùndòng",
+        "definition": "to exercise"
+      },
+      {
+        "hanzi": "打",
+        "pinyin": "dǎ",
+        "definition": "to play (ball games)"
+      },
+      {
+        "hanzi": "網球",
+        "pinyin": "wǎngqiú",
+        "definition": "tennis"
+      },
+      {
+        "hanzi": "棒球",
+        "pinyin": "bàngqiú",
+        "definition": "baseball"
+      },
+      {
+        "hanzi": "和",
+        "pinyin": "hàn",
+        "definition": "and, as well as"
+      },
+      {
+        "hanzi": "游泳",
+        "pinyin": "yóuyǒng",
+        "definition": "to swim"
+      },
+      {
+        "hanzi": "常",
+        "pinyin": "cháng",
+        "definition": "often"
+      },
+      {
+        "hanzi": "籃球",
+        "pinyin": "lánqiú",
+        "definition": "basketball"
+      },
+      {
+        "hanzi": "也",
+        "pinyin": "yě",
+        "definition": "also"
+      },
+      {
+        "hanzi": "踢",
+        "pinyin": "tī",
+        "definition": "to kick"
+      },
+      {
+        "hanzi": "足球",
+        "pinyin": "zúqiú",
+        "definition": "soccer"
+      },
+      {
+        "hanzi": "覺得",
+        "pinyin": "juéde",
+        "definition": "to feel, to think"
+      },
+      {
+        "hanzi": "好玩",
+        "pinyin": "hǎowán",
+        "definition": "interesting, fun"
+      },
+      {
+        "hanzi": "明天",
+        "pinyin": "míngtiān",
+        "definition": "tomorrow"
+      },
+      {
+        "hanzi": "早上",
+        "pinyin": "zǎoshàng",
+        "definition": "morning"
+      },
+      {
+        "hanzi": "去",
+        "pinyin": "qù",
+        "definition": "to go"
+      },
+      {
+        "hanzi": "怎麼樣",
+        "pinyin": "zěnmeyàng",
+        "definition": "How about it? How does that sound? What do you think?"
+      },
+      {
+        "hanzi": "啊",
+        "pinyin": "a",
+        "definition": "sentence-final particle"
+      },
+      {
+        "hanzi": "做什麼",
+        "pinyin": "zuò shénme",
+        "definition": "do what"
+      },
+      {
+        "hanzi": "好啊",
+        "pinyin": "hǎo a",
+        "definition": "OK"
+      },
+      {
+        "hanzi": "白如玉",
+        "pinyin": "Bái Rúyù",
+        "definition": "a woman from the US"
+      },
+      {
+        "hanzi": "今天",
+        "pinyin": "jīntiān",
+        "definition": "today"
+      },
+      {
+        "hanzi": "晚上",
+        "pinyin": "wǎnshàng",
+        "definition": "evening, night"
+      },
+      {
+        "hanzi": "看",
+        "pinyin": "kàn",
+        "definition": "to see, to watch"
+      },
+      {
+        "hanzi": "電影",
+        "pinyin": "diànyǐng",
+        "definition": "movie"
+      },
+      {
+        "hanzi": "妳",
+        "pinyin": "nǐ",
+        "definition": "you (female)"
+      },
+      {
+        "hanzi": "想",
+        "pinyin": "xiǎng",
+        "definition": "to want, to think"
+      },
+      {
+        "hanzi": "還是",
+        "pinyin": "háishì",
+        "definition": "or (used in a question)"
+      },
+      {
+        "hanzi": "吧",
+        "pinyin": "ba",
+        "definition": "sentence-final particle for suggestion"
+      },
+      {
+        "hanzi": "可以",
+        "pinyin": "kěyǐ",
+        "definition": "could (possibility)"
+      },
+      {
+        "hanzi": "學",
+        "pinyin": "xué",
+        "definition": "to learn, to study"
+      },
+      {
+        "hanzi": "中文",
+        "pinyin": "Zhōngwén",
+        "definition": "Chinese language"
+      },
+      {
+        "hanzi": "一起",
+        "pinyin": "yìqǐ",
+        "definition": "together"
+      },
+      {
+        "hanzi": "吃",
+        "pinyin": "chī",
+        "definition": "to eat"
+      },
+      {
+        "hanzi": "晚飯",
+        "pinyin": "wǎnfàn",
+        "definition": "dinner"
+      },
+      {
+        "hanzi": "菜",
+        "pinyin": "cài",
+        "definition": "cuisine"
+      },
+      {
+        "hanzi": "越南",
+        "pinyin": "Yuènán",
+        "definition": "Vietnam"
+      },
+      {
+        "hanzi": "好不好",
+        "pinyin": "hǎo bù hǎo",
+        "definition": "How about...? How does that sound?"
+      }
+    ],
+    "dialogues": [
+      {
+        "title": "Weekend Plans",
+        "lines": [
+          {
+            "speaker": "白如玉",
+            "zh": "開文，週末你喜歡做什麼？",
+            "py": "Kāiwén, zhōumò nǐ xǐhuān zuò shénme?",
+            "en": "Kaiwen, what do you like to do on the weekend?"
+          },
+          {
+            "speaker": "王開文",
+            "zh": "我喜歡運動。我常打網球和游泳。",
+            "py": "Wǒ xǐhuān yùndòng. Wǒ cháng dǎ wǎngqiú hé yóuyǒng.",
+            "en": "I like sports. I often play tennis and swim."
+          },
+          {
+            "speaker": "白如玉",
+            "zh": "你喜歡打籃球嗎？",
+            "py": "Nǐ xǐhuān dǎ lánqiú ma?",
+            "en": "Do you like playing basketball?"
+          },
+          {
+            "speaker": "王開文",
+            "zh": "也喜歡。你呢？你喜歡做什麼？",
+            "py": "Yě xǐhuān. Nǐ ne? Nǐ xǐhuān zuò shénme?",
+            "en": "I also like it. And you? What do you like to do?"
+          },
+          {
+            "speaker": "白如玉",
+            "zh": "我喜歡聽音樂和看電影。",
+            "py": "Wǒ xǐhuān tīng yīnyuè hé kàn diànyǐng.",
+            "en": "I like listening to music and watching movies."
+          },
+          {
+            "speaker": "王開文",
+            "zh": "明天早上我們一起去打球，怎麼樣？",
+            "py": "Míngtiān zǎoshàng wǒmen yìqǐ qù dǎqiú, zěnmeyàng?",
+            "en": "How about we go play ball together tomorrow morning?"
+          },
+          {
+            "speaker": "白如玉",
+            "zh": "好啊。明天見！",
+            "py": "Hǎo a. Míngtiān jiàn!",
+            "en": "Okay. See you tomorrow!"
+          }
+        ]
+      },
+      {
+        "title": "Watching a Movie",
+        "lines": [
+          {
+            "speaker": "陳月美",
+            "zh": "今天晚上你想去看電影嗎？",
+            "py": "Jīntiān wǎnshàng nǐ xiǎng qù kàn diànyǐng ma?",
+            "en": "Do you want to go see a movie tonight?"
+          },
+          {
+            "speaker": "李明華",
+            "zh": "好啊。想看什麼電影？",
+            "py": "Hǎo a. Xiǎng kàn shénme diànyǐng?",
+            "en": "Sure. What movie do you want to see?"
+          },
+          {
+            "speaker": "陳月美",
+            "zh": "我想看美國電影，你呢？",
+            "py": "Wǒ xiǎng kàn Měiguó diànyǐng, nǐ ne?",
+            "en": "I want to see an American movie, and you?"
+          },
+          {
+            "speaker": "李明華",
+            "zh": "我也想看。我們去吃晚飯吧。",
+            "py": "Wǒ yě xiǎng kàn. Wǒmen qù chī wǎnfàn ba.",
+            "en": "I want to see that too. Let's go eat dinner."
+          },
+          {
+            "speaker": "陳月美",
+            "zh": "你想吃什麼菜？台灣菜還是越南菜？",
+            "py": "Nǐ xiǎng chī shénme cài? Táiwān cài háishì Yuènán cài?",
+            "en": "What kind of food do you want to eat? Taiwanese or Vietnamese?"
+          },
+          {
+            "speaker": "李明華",
+            "zh": "我想吃台灣菜。我知道一家餐廳很好吃。",
+            "py": "Wǒ xiǎng chī Táiwān cài. Wǒ zhīdào yìjiā cāntīng hěn hǎochī.",
+            "en": "I want to eat Taiwanese food. I know a restaurant that is very delicious."
+          },
+          {
+            "speaker": "陳月美",
+            "zh": "太好了！我們一起去。",
+            "py": "Tài hǎo le! Wǒmen yìqǐ qù.",
+            "en": "Great! Let's go together."
+          }
+        ]
+      }
+    ],
+    "listening": [
+      {
+        "title": "Hobbies Quiz",
+        "text": "王開文很喜歡運動。他常在週末打網球，也喜歡游泳。白如玉不常運動，她喜歡聽音樂。明天早上他們要一起去打籃球。",
+        "py": "Wáng Kāiwén hěn xǐhuān yùndòng. Tā cháng zài zhōumò dǎ wǎngqiú, yě xǐhuān yóuyǒng. Bái Rúyù bù cháng yùndòng, tā xǐhuān tīng yīnyuè. Míngtiān zǎoshàng tāmen yào yìqǐ qù dǎ lánqiú.",
+        "questions": [
+          {
+            "q": "王開文週末喜歡做什麼？",
+            "options": [
+              "聽音樂",
+              "運動",
+              "看電影",
+              "睡覺"
+            ],
+            "answer": "運動"
+          },
+          {
+            "q": "誰喜歡聽音樂？",
+            "options": [
+              "王開文",
+              "白如玉",
+              "李明華",
+              "老師"
+            ],
+            "answer": "白如玉"
+          },
+          {
+            "q": "他們明天要一起做什麼？",
+            "options": [
+              "看電影",
+              "吃晚飯",
+              "打籃球",
+              "游泳"
+            ],
+            "answer": "打籃球"
+          }
+        ]
+      },
+      {
+        "title": "Tonight's Plan",
+        "text": "今天晚上李明華和陳月美要去吃晚飯。他們想吃台灣菜。吃完晚飯以後，他們要去看美國電影。月美覺得這個計畫很好。",
+        "py": "Jīntiān wǎnshàng Lǐ Mínghuá hé Chén Yuèměi yào qù chī wǎnfàn. Tāmen xiǎng chī Táiwān cài. Chī wán wǎnfàn yǐhòu, tāmen yào qù kàn Měiguó diànyǐng. Yuèměi juéde zhège jìhuà hěn hǎo.",
+        "questions": [
+          {
+            "q": "他們今晚要吃什麼菜？",
+            "options": [
+              "越南菜",
+              "台灣菜",
+              "美國菜",
+              "日本菜"
+            ],
+            "answer": "台灣菜"
+          },
+          {
+            "q": "吃完飯以後要做什麼？",
+            "options": [
+              "打球",
+              "回家",
+              "看電影",
+              "喝咖啡"
+            ],
+            "answer": "看電影"
+          },
+          {
+            "q": "他們要看哪國的電影？",
+            "options": [
+              "台灣",
+              "越南",
+              "美國",
+              "日本"
+            ],
+            "answer": "美國"
+          }
+        ]
+      }
+    ],
+    "readings": [
+      {
+        "title": "Weekend Activities",
+        "text": "週末的時候，台灣人喜歡做什麼？很多人喜歡去運動，像是打球或者游泳。也有很多人喜歡去影院看電影。如果你喜歡聽音樂，你可以去聽音樂會。週末大家都很忙。",
+        "py": "Zhōumò de shíhòu, Táiwān rén xǐhuān zuò shénme? Hěnduō rén xǐhuān qù yùndòng, xiàngshì dǎqiú huòzhě yóuyǒng. Yě yǒu hěnduō rén xǐhuān qù yǐngyuàn kàn diànyǐng. Rúguǒ nǐ xǐhuān tīng yīnyuè, nǐ kěyǐ qù tīng yīnyuèhuì. Zhōumò dàjiā dōu hěn máng.",
+        "questions": [
+          {
+            "q": "很多人週末喜歡去哪裡？",
+            "options": [
+              "學校",
+              "辦公室",
+              "影院",
+              "醫院"
+            ],
+            "answer": "影院"
+          },
+          {
+            "q": "文中提到了什麼運動？",
+            "options": [
+              "跑步",
+              "打球",
+              "騎車",
+              "爬山"
+            ],
+            "answer": "打球"
+          },
+          {
+            "q": "週末大家感覺怎麼樣？",
+            "options": [
+              "很閒",
+              "很忙",
+              "很累",
+              "很不開心"
+            ],
+            "answer": "很忙"
+          }
+        ]
+      },
+      {
+        "title": "Learning Chinese Together",
+        "text": "白如玉在台灣學中文。她覺得學中文很有意思，但是也有一點難。她喜歡和朋友一起學。週末的時候，她常和李明華一起練習說話。他們也常一起去吃台灣菜，白如玉覺得台灣菜很好吃。",
+        "py": "Bái Rúyù zài Táiwān xué Zhōngwén. Tā juéde xué Zhōngwén hěn yǒuyìsi, dànshì yě yǒu yìdiǎn nán. Tā xǐhuān hé péngyǒu yìqǐ xué. Zhōumò de shíhòu, tā cháng hé Lǐ Mínghuá yìqǐ liànxí shuōhuà. Tāmen yě cháng yìqǐ qù chī Táiwān cài, bái Rúyù juéde Táiwān cài hěn hǎochī.",
+        "questions": [
+          {
+            "q": "白如玉在哪裡學中文？",
+            "options": [
+              "美國",
+              "台灣",
+              "越南",
+              "日本"
+            ],
+            "answer": "台灣"
+          },
+          {
+            "q": "她覺得學中文怎麼樣？",
+            "options": [
+              "很簡單",
+              "沒意思",
+              "很有意思",
+              "很無聊"
+            ],
+            "answer": "很有意思"
+          },
+          {
+            "q": "她週末常和誰練習說話？",
+            "options": [
+              "老師",
+              "哥哥",
+              "李明華",
+              "馬安同"
+            ],
+            "answer": "李明華"
+          }
+        ]
+      }
+    ],
+    "quizzes": [
+      {
+        "type": "choice",
+        "question": "Which of these is 'to swim'?",
+        "options": [
+          "打網球",
+          "跳舞",
+          "游泳",
+          "看電影"
+        ],
+        "answer": "游泳"
+      },
+      {
+        "type": "fill",
+        "sentence": "今天晚上你想去 ___ 電影嗎？",
+        "answer": "看"
+      }
+    ]
+  },
+  {
+    "id": "b1_c4",
+    "book": 1,
+    "chapter": 4,
+    "title": "Shopping & Prices",
+    "subtitle": "How much is it?",
+    "intro": "Learn how to ask for prices, buy things, and order drinks.",
+    "vocab": [
+      {
+        "hanzi": "一共",
+        "pinyin": "yígòng",
+        "definition": "altogether"
+      },
+      {
+        "hanzi": "多少",
+        "pinyin": "duōshǎo",
+        "definition": "how much, how many"
+      },
+      {
+        "hanzi": "錢",
+        "pinyin": "qián",
+        "definition": "money"
+      },
+      {
+        "hanzi": "老闆",
+        "pinyin": "lǎobǎn",
+        "definition": "store-owner, boss"
+      },
+      {
+        "hanzi": "買",
+        "pinyin": "mǎi",
+        "definition": "to buy"
+      },
+      {
+        "hanzi": "杯",
+        "pinyin": "bēi",
+        "definition": "cup"
+      },
+      {
+        "hanzi": "熱",
+        "pinyin": "rè",
+        "definition": "hot"
+      },
+      {
+        "hanzi": "包子",
+        "pinyin": "bāozi",
+        "definition": "steamed buns with meat stuffing filling"
+      },
+      {
+        "hanzi": "要",
+        "pinyin": "yào",
+        "definition": "to want, to need"
+      },
+      {
+        "hanzi": "大",
+        "pinyin": "dà",
+        "definition": "large"
+      },
+      {
+        "hanzi": "中",
+        "pinyin": "zhōng",
+        "definition": "medium"
+      },
+      {
+        "hanzi": "小",
+        "pinyin": "xiǎo",
+        "definition": "small"
+      },
+      {
+        "hanzi": "幫",
+        "pinyin": "bāng",
+        "definition": "for"
+      },
+      {
+        "hanzi": "微波",
+        "pinyin": "wéibō",
+        "definition": "to microwave"
+      },
+      {
+        "hanzi": "百",
+        "pinyin": "bǎi",
+        "definition": "hundred"
+      },
+      {
+        "hanzi": "塊",
+        "pinyin": "kuài",
+        "definition": "measure word for Chinese money"
+      },
+      {
+        "hanzi": "好的",
+        "pinyin": "hǎode",
+        "definition": "OK"
+      },
+      {
+        "hanzi": "外帶",
+        "pinyin": "wàidài",
+        "definition": "take out, to go"
+      },
+      {
+        "hanzi": "內用",
+        "pinyin": "nèiyòng",
+        "definition": "for here"
+      },
+      {
+        "hanzi": "支",
+        "pinyin": "zhī",
+        "definition": "measure word for cell phones"
+      },
+      {
+        "hanzi": "新",
+        "pinyin": "xīn",
+        "definition": "new"
+      },
+      {
+        "hanzi": "手機",
+        "pinyin": "shǒujī",
+        "definition": "cell phone"
+      },
+      {
+        "hanzi": "太",
+        "pinyin": "tài",
+        "definition": "too"
+      },
+      {
+        "hanzi": "舊",
+        "pinyin": "jiù",
+        "definition": "old"
+      },
+      {
+        "hanzi": "了",
+        "pinyin": "le",
+        "definition": "sentence-final particle indicating the speaker's sense of certainty"
+      },
+      {
+        "hanzi": "種",
+        "pinyin": "zhǒng",
+        "definition": "kind, type"
+      },
+      {
+        "hanzi": "能",
+        "pinyin": "néng",
+        "definition": "can, to be able to"
+      },
+      {
+        "hanzi": "上網",
+        "pinyin": "shàngwǎng",
+        "definition": "to access the internet, to use the internet"
+      },
+      {
+        "hanzi": "那",
+        "pinyin": "nà / nèi",
+        "definition": "that"
+      },
+      {
+        "hanzi": "貴",
+        "pinyin": "guì",
+        "definition": "expensive"
+      },
+      {
+        "hanzi": "賣",
+        "pinyin": "mài",
+        "definition": "to sell"
+      },
+      {
+        "hanzi": "便宜",
+        "pinyin": "piányí",
+        "definition": "cheap, inexpensive"
+      },
+      {
+        "hanzi": "要",
+        "pinyin": "yào",
+        "definition": "to take, to require"
+      },
+      {
+        "hanzi": "萬",
+        "pinyin": "wàn",
+        "definition": "ten thousand"
+      },
+      {
+        "hanzi": "千",
+        "pinyin": "qiān",
+        "definition": "thousand"
+      },
+      {
+        "hanzi": "為什麼",
+        "pinyin": "wèishénme",
+        "definition": "why"
+      }
+    ],
+    "dialogues": [
+      {
+        "title": "At the Convenience Store",
+        "lines": [
+          {
+            "speaker": "馬安同",
+            "zh": "老闆，請問這個包子多少錢？",
+            "py": "Lǎobǎn, qǐngwèn zhège bāozi duōshǎo qián?",
+            "en": "Boss, how much is this steamed bun?"
+          },
+          {
+            "speaker": "老闆",
+            "zh": "一個二十塊錢。你要幾個？",
+            "py": "Yígè èrshí kuài qián. Nǐ yào jǐ gè?",
+            "en": "One is twenty dollars. How many do you want?"
+          },
+          {
+            "speaker": "馬安同",
+            "zh": "我要兩個大的。一共多少錢？",
+            "py": "Wǒ yào liǎng gè dà de. Yígòng duōshǎo qián?",
+            "en": "I want two large ones. How much altogether?"
+          },
+          {
+            "speaker": "老闆",
+            "zh": "一共四十塊。你還要別的嗎？",
+            "py": "Yígòng sìshí kuài. Nǐ hái yào bié de ma?",
+            "en": "Forty dollars in total. Do you want anything else?"
+          },
+          {
+            "speaker": "馬安同",
+            "zh": "我還要一杯咖啡。要熱的。",
+            "py": "Wǒ hái yào yìbēi kāfēi. Yào rè de.",
+            "en": "I also want a cup of coffee. I want it hot."
+          },
+          {
+            "speaker": "老闆",
+            "zh": "大杯還是小杯？",
+            "py": "Dà bēi háishì xiǎo bēi?",
+            "en": "Large or small?"
+          },
+          {
+            "speaker": "馬安同",
+            "zh": "大杯的。謝謝。",
+            "py": "Dà bēi de. Xièxie.",
+            "en": "Large, please. Thank you."
+          },
+          {
+            "speaker": "老闆",
+            "zh": "好，包子要幫你微波嗎？",
+            "py": "Hǎo, bāozi yào bāng nǐ wéibō ma?",
+            "en": "Okay, do you want me to microwave the buns for you?"
+          },
+          {
+            "speaker": "馬安同",
+            "zh": "要，謝謝。我要外帶。",
+            "py": "Yào, xièxie. Wǒ yào wàidài.",
+            "en": "Yes, thanks. I want it to go."
+          }
+        ]
+      },
+      {
+        "title": "Buying a New Phone",
+        "lines": [
+          {
+            "speaker": "白如玉",
+            "zh": "安同，你的手機太舊了。你想買新的嗎？",
+            "py": "Āntóng, nǐ de shǒujī tài jiù le. Nǐ xiǎng mǎi xīn de ma?",
+            "en": "Antong, your phone is too old. Do you want to buy a new one?"
+          },
+          {
+            "speaker": "馬安同",
+            "zh": "想。但是手機很貴吧？",
+            "py": "Xiǎng. Dànshì shǒujī hěn guì ba?",
+            "en": "I do. But phones are expensive, right?"
+          },
+          {
+            "speaker": "白如玉",
+            "zh": "這種手機不貴，只要一萬塊錢。",
+            "py": "Zhè zhǒng shǒujī bú guì, zhǐyào yíwàn kuài qián.",
+            "en": "This kind of phone isn't expensive; it's only 10,000 dollars."
+          },
+          {
+            "speaker": "馬安同",
+            "zh": "一萬塊還是很貴。能上網嗎？",
+            "py": "Yíwàn kuài háishì hěn guì. Néng shàngwǎng ma?",
+            "en": "10,000 is still expensive. Can it access the internet?"
+          },
+          {
+            "speaker": "白如玉",
+            "zh": "能。這種手機能上網，照相也很漂亮。",
+            "py": "Néng. Zhè zhǒng shǒujī néng shàngwǎng, zhàoxiàng yě hěn piàoliàng.",
+            "en": "Yes. This kind can go online, and it takes beautiful photos."
+          },
+          {
+            "speaker": "馬安同",
+            "zh": "那種便宜的手機呢？多少錢？",
+            "py": "Nà zhǒng piányí de shǒujī ne? Duōshǎo qián?",
+            "en": "What about that cheap kind of phone? How much is it?"
+          },
+          {
+            "speaker": "白如玉",
+            "zh": "那種只要三千塊，但是不能上網。",
+            "py": "Nà zhǒng zhǐyào sānqiān kuài, dànshì bùnéng shàngwǎng.",
+            "en": "That one is only 3,000, but it can't go online."
+          },
+          {
+            "speaker": "馬安同",
+            "zh": "我常上網，所以我買一萬塊的吧。",
+            "py": "Wǒ cháng shàngwǎng, suǒyǐ wǒ mǎi yíwàn kuài de ba.",
+            "en": "I go online often, so I guess I'll buy the 10,000 dollar one."
+          }
+        ]
+      }
+    ],
+    "listening": [
+      {
+        "title": "Buying Breakfast",
+        "text": "馬安同去便利商店買早餐。他買了兩個大包子和一杯熱咖啡。包子一個二十塊，咖啡一杯五十塊。老闆幫他微波包子，馬安同要外帶。",
+        "py": "Mǎ Āntóng qù biànlì shāngdiàn mǎi zǎocān. Tā mǎile liǎng gè dà bāozi hé yìbēi rè kāfēi. Bāozi yígè èrshí kuài, kāfēi yìbēi wǔshí kuài. Lǎobǎn bāng tā wéibō bāozi, Mǎ Āntóng yào wàidài.",
+        "questions": [
+          {
+            "q": "馬安同買了幾個包子？",
+            "options": [
+              "一個",
+              "兩個",
+              "三個",
+              "四個"
+            ],
+            "answer": "兩個"
+          },
+          {
+            "q": "包子一共多少錢？",
+            "options": [
+              "二十塊",
+              "四十塊",
+              "五十塊",
+              "九十塊"
+            ],
+            "answer": "四十塊"
+          },
+          {
+            "q": "他要在店裡吃嗎？",
+            "options": [
+              "要",
+              "不要 (他外帶)",
+              "不知道",
+              "老闆沒問"
+            ],
+            "answer": "不要 (他外帶)"
+          }
+        ]
+      },
+      {
+        "title": "Choosing a Phone",
+        "text": "馬安同想買新手機。白如玉說有一種手機一萬塊，可以上網和照相。另一種手機三千塊，但是不能上網。安同決定買一萬塊的手機。",
+        "py": "Mǎ Āntóng xiǎng mǎi xīn shǒujī. Bái Rúyù shuō yǒu yìzhǒng shǒujī yíwàn kuài, kěyǐ shàngwǎng hé zhàoxiàng. Lìng yìzhǒng shǒujī sānqiān kuài, dànshì bùnéng shàngwǎng. Āntóng juédìng mǎi yíwàn kuài de shǒujī.",
+        "questions": [
+          {
+            "q": "貴的手機多少錢？",
+            "options": [
+              "三千塊",
+              "一萬塊",
+              "五千塊",
+              "八千塊"
+            ],
+            "answer": "一萬塊"
+          },
+          {
+            "q": "便宜的手機為什麼便宜？",
+            "options": [
+              "太舊了",
+              "不能照相",
+              "不能上網",
+              "不好看"
+            ],
+            "answer": "不能上網"
+          },
+          {
+            "q": "安同最後買了哪種手機？",
+            "options": [
+              "三千塊的",
+              "一萬塊的",
+              "都沒買",
+              "白如玉送他的"
+            ],
+            "answer": "一萬塊的"
+          }
+        ]
+      }
+    ],
+    "readings": [
+      {
+        "title": "Shopping in Taiwan",
+        "text": "在台灣買東西很方便。便利商店到處都是。你可以買熱咖啡、包子，也可以買手機。如果你覺得東西太貴，可以去別的店看看。有些店的東西比較便宜。買東西的時候，你可以問老闆：『一共多少錢？』",
+        "py": "Zài Táiwān mǎi dōngxī hěn fāngbiàn. Biànlì shāngdiàn dàochù dōu shì. Nǐ kěyǐ mǎi rè kāfēi, bāozi, yě kěyǐ mǎi shǒujī. Rúguǒ nǐ juéde dōngxī tài guì, kěyǐ qù bié de diàn kànkàn. Yǒuxiē diàn de dōngxī bǐjiào piányí. Mǎi dōngxī de shíhòu, nǐ kěyǐ wèn lǎobǎn: \"Yígòng duōshǎo qián?\"",
+        "questions": [
+          {
+            "q": "在台灣買東西怎麼樣？",
+            "options": [
+              "很難",
+              "很方便",
+              "很貴",
+              "很不舒服"
+            ],
+            "answer": "很方便"
+          },
+          {
+            "q": "哪裡到處都是？",
+            "options": [
+              "醫院",
+              "學校",
+              "便利商店",
+              "機場"
+            ],
+            "answer": "便利商店"
+          },
+          {
+            "q": "如果東西太貴，可以怎麼辦？",
+            "options": [
+              "不買了",
+              "去別的店看看",
+              "請老闆便宜一點",
+              "叫警察"
+            ],
+            "answer": "去別的店看看"
+          }
+        ]
+      },
+      {
+        "title": "A New Phone for Antong",
+        "text": "馬安同的手機用了三年，太舊了。他想換一支新的。白如玉幫他找了兩支手機。一支是一萬塊的新款，功能很多。另一支是三千塊的舊款。安同覺得手機很重要，所以他要買貴的那支。他覺得新手機可以讓他常上網跟家人說話。",
+        "py": "Mǎ Āntóng de shǒujī yòngle sān nián, tài jiù le. Tā xiǎng huàn yìzhī xīn de. Bái Rúyù bāng tā zhǎole liǎng zhī shǒujī. Yìzhī shì yíwàn kuài de xīnkuǎn, gōngnéng hěnduō. Lìng yìzhī shì sānqiān kuài de jiùkuǎn. Āntóng juéde shǒujī hěn zhòngyào, suǒyǐ tā yào mǎi guì de nà zhī. Tā juéde xīn shǒujī kěyǐ ràng tā cháng shàngwǎng gēn jiārén shuōhuà.",
+        "questions": [
+          {
+            "q": "安同的手機用了幾年？",
+            "options": [
+              "一年",
+              "兩年",
+              "三年",
+              "四年"
+            ],
+            "answer": "三年"
+          },
+          {
+            "q": "為什麼安同想買貴的手機？",
+            "options": [
+              "因為很帥",
+              "因為功能多，可以上網",
+              "因為他很有錢",
+              "因為白如玉喜歡"
+            ],
+            "answer": "因為功能多，可以上網"
+          },
+          {
+            "q": "誰幫安同找手機？",
+            "options": [
+              "張怡君",
+              "李明華",
+              "白如玉",
+              "老闆"
+            ],
+            "answer": "白如玉"
+          }
+        ]
+      }
+    ],
+    "quizzes": [
+      {
+        "type": "choice",
+        "question": "What does '多少錢' (duōshǎo qián) mean?",
+        "options": [
+          "What time is it?",
+          "How much money?",
+          "Where is it?",
+          "Who are you?"
+        ],
+        "answer": "How much money?"
+      },
+      {
+        "type": "fill",
+        "sentence": "一個包子二十 ___ 錢。",
+        "answer": "塊"
+      }
+    ]
+  },
+  {
+    "id": "b1_c5",
+    "book": 1,
+    "chapter": 5,
+    "title": "Food & Restaurants",
+    "subtitle": "Eating in Taiwan",
+    "intro": "Learn to order food, describe tastes, and talk about famous snacks.",
+    "vocab": [
+      {
+        "hanzi": "牛肉",
+        "pinyin": "niúròu",
+        "definition": "beef"
+      },
+      {
+        "hanzi": "麵",
+        "pinyin": "miàn",
+        "definition": "noodles"
+      },
+      {
+        "hanzi": "真",
+        "pinyin": "zhēn",
+        "definition": "really"
+      },
+      {
+        "hanzi": "好吃",
+        "pinyin": "hǎochī",
+        "definition": "delicious"
+      },
+      {
+        "hanzi": "說",
+        "pinyin": "shuō",
+        "definition": "say"
+      },
+      {
+        "hanzi": "少",
+        "pinyin": "shǎo",
+        "definition": "few in number"
+      },
+      {
+        "hanzi": "有名",
+        "pinyin": "yǒumíng",
+        "definition": "well known, famous"
+      },
+      {
+        "hanzi": "小吃",
+        "pinyin": "xiǎochī",
+        "definition": "light repast, snack"
+      },
+      {
+        "hanzi": "最",
+        "pinyin": "zuì",
+        "definition": "most"
+      },
+      {
+        "hanzi": "湯",
+        "pinyin": "tāng",
+        "definition": "soup, broth"
+      },
+      {
+        "hanzi": "這麼",
+        "pinyin": "zhème",
+        "definition": "so"
+      },
+      {
+        "hanzi": "知道",
+        "pinyin": "zhīdào",
+        "definition": "to know"
+      },
+      {
+        "hanzi": "家",
+        "pinyin": "jiā",
+        "definition": "measure word for restaurants, shops, etc."
+      },
+      {
+        "hanzi": "店",
+        "pinyin": "diàn",
+        "definition": "shop, store"
+      },
+      {
+        "hanzi": "一定",
+        "pinyin": "yídìng",
+        "definition": "really must, definitely"
+      },
+      {
+        "hanzi": "點",
+        "pinyin": "diǎn",
+        "definition": "to order (meals)"
+      },
+      {
+        "hanzi": "碗",
+        "pinyin": "wǎn",
+        "definition": "a bowl of"
+      },
+      {
+        "hanzi": "是啊",
+        "pinyin": "shì a",
+        "definition": "That's right."
+      },
+      {
+        "hanzi": "小籠包",
+        "pinyin": "xiǎolóngbāo",
+        "definition": "xiaolongbao, e.g., small meat and cabbage-filled steamed buns"
+      },
+      {
+        "hanzi": "臭豆腐",
+        "pinyin": "chòu dòufǔ",
+        "definition": "stinky tofu (fermented tofu)"
+      },
+      {
+        "hanzi": "太好了",
+        "pinyin": "tài hǎo le",
+        "definition": "Excellent. Great."
+      },
+      {
+        "hanzi": "昨天",
+        "pinyin": "zuótiān",
+        "definition": "yesterday"
+      },
+      {
+        "hanzi": "餐廳",
+        "pinyin": "cāntīng",
+        "definition": "restaurant"
+      },
+      {
+        "hanzi": "可是",
+        "pinyin": "kěshì",
+        "definition": "but, however"
+      },
+      {
+        "hanzi": "辣",
+        "pinyin": "là",
+        "definition": "hot (spicy)"
+      },
+      {
+        "hanzi": "怕",
+        "pinyin": "pà",
+        "definition": "(here) to not like, to fear"
+      },
+      {
+        "hanzi": "所以",
+        "pinyin": "suǒyǐ",
+        "definition": "therefore, so"
+      },
+      {
+        "hanzi": "自己",
+        "pinyin": "zìjǐ",
+        "definition": "self"
+      },
+      {
+        "hanzi": "做飯",
+        "pinyin": "zuòfàn",
+        "definition": "to cook"
+      },
+      {
+        "hanzi": "得",
+        "pinyin": "de",
+        "definition": "complement marker"
+      },
+      {
+        "hanzi": "會",
+        "pinyin": "huì",
+        "definition": "to be able to, can"
+      },
+      {
+        "hanzi": "甜點",
+        "pinyin": "tiándiǎn",
+        "definition": "dessert"
+      },
+      {
+        "hanzi": "不錯",
+        "pinyin": "búcuò",
+        "definition": "not bad"
+      },
+      {
+        "hanzi": "可以",
+        "pinyin": "kěyǐ",
+        "definition": "could (possibility)"
+      },
+      {
+        "hanzi": "教",
+        "pinyin": "jiāo",
+        "definition": "to teach"
+      },
+      {
+        "hanzi": "到",
+        "pinyin": "dào",
+        "definition": "to"
+      },
+      {
+        "hanzi": "有一點",
+        "pinyin": "yǒu yìdiǎn",
+        "definition": "a little"
+      },
+      {
+        "hanzi": "不好",
+        "pinyin": "bù hǎo",
+        "definition": "not well"
+      }
+    ],
+    "dialogues": [
+      {
+        "title": "Ordering Beef Noodles",
+        "lines": [
+          {
+            "speaker": "李明華",
+            "zh": "開文，我們去那家店吃牛肉麵吧。",
+            "py": "Kāiwén, wǒmen qù nà jiā diàn chī niúròumiàn ba.",
+            "en": "Kaiwen, let's go to that shop to eat beef noodles."
+          },
+          {
+            "speaker": "王開文",
+            "zh": "好啊。那家店有名嗎？",
+            "py": "Hǎo a. Nà jiā diàn yǒumíng ma?",
+            "en": "Okay. Is that shop famous?"
+          },
+          {
+            "speaker": "李明華",
+            "zh": "非常有名。很多人說他們的牛肉麵最好吃。",
+            "py": "Fēicháng yǒumíng. Hěnduō rén shuō tāmen de niúròumiàn zuì hǎochī.",
+            "en": "Very famous. Many people say their beef noodles are the best."
+          },
+          {
+            "speaker": "王開文",
+            "zh": "請問這裡點菜要點什麼？",
+            "py": "Qǐngwèn zhèlǐ diǎncài yào diǎn shénme?",
+            "en": "What should we order here?"
+          },
+          {
+            "speaker": "李明華",
+            "zh": "一定要點大碗牛肉麵。你怕辣嗎？",
+            "py": "Yídìng yào diǎn dàwǎn niúròumiàn. Nǐ pà là ma?",
+            "en": "You definitely must order a large bowl of beef noodles. Are you afraid of spicy food?"
+          },
+          {
+            "speaker": "王開文",
+            "zh": "我不怕辣，我喜歡吃辣的。",
+            "py": "Wǒ búpà là, wǒ xǐhuān chī là de.",
+            "en": "I'm not afraid of spicy food; I like eating spicy things."
+          },
+          {
+            "speaker": "李明華",
+            "zh": "太好了。我們還要點別的小吃嗎？",
+            "py": "Tài hǎo le. Wǒmen hái yào diǎn bié de xiǎochī ma?",
+            "en": "Great. Do we want to order any other snacks?"
+          },
+          {
+            "speaker": "王開文",
+            "zh": "我們點一碗湯和一份臭豆腐吧。",
+            "py": "Wǒmen diǎn yìwǎn tāng hé yífèn chòudòufǔ ba.",
+            "en": "Let's order a bowl of soup and an order of stinky tofu."
+          },
+          {
+            "speaker": "李明華",
+            "zh": "好的。這家店的臭豆腐也很不錯。",
+            "py": "Hǎode. Zhè jiā diàn de chòudòufǔ yě hěn búcuò.",
+            "en": "Okay. This shop's stinky tofu is also quite good."
+          }
+        ]
+      },
+      {
+        "title": "Cooking at Home",
+        "lines": [
+          {
+            "speaker": "陳月美",
+            "zh": "如玉，你昨天去哪裡吃飯？",
+            "py": "Rúyù, nǐ zuótiān qù nǎlǐ chīfàn?",
+            "en": "Ruyu, where did you go to eat yesterday?"
+          },
+          {
+            "speaker": "白如玉",
+            "zh": "我沒去餐廳，我自己做飯。",
+            "py": "Wǒ méi qù cāntīng, wǒ zìjǐ zuòfàn.",
+            "en": "I didn't go to a restaurant; I cooked for myself."
+          },
+          {
+            "speaker": "陳月美",
+            "zh": "你會做什麼菜？",
+            "py": "Nǐ huì zuò shénme cài?",
+            "en": "What dishes can you cook?"
+          },
+          {
+            "speaker": "白如玉",
+            "zh": "我會做越南菜，也會做甜點。",
+            "py": "Wǒ huì zuò Yuènán cài, yě huì zuò tiándiǎn.",
+            "en": "I can make Vietnamese food, and also desserts."
+          },
+          {
+            "speaker": "陳月美",
+            "zh": "你做得怎麼樣？好吃嗎？",
+            "py": "Nǐ zuò de zěnmeyàng? Hǎochī ma?",
+            "en": "How do you do it? Is it delicious?"
+          },
+          {
+            "speaker": "白如玉",
+            "zh": "我做得不錯。你想學嗎？我可以教你。",
+            "py": "Wǒ zuò de búcuò. Nǐ xiǎng xué ma? Wǒ kěyǐ jiāo nǐ.",
+            "en": "I do it quite well. Do you want to learn? I can teach you."
+          },
+          {
+            "speaker": "陳月美",
+            "zh": "想啊。我最喜歡吃甜點了。",
+            "py": "Xiǎng a. Wǒ zuì xǐhuān chī tiándiǎn le.",
+            "en": "Yes! I like eating desserts the most."
+          },
+          {
+            "speaker": "白如玉",
+            "zh": "那我們明天到我家，一起做飯吧。",
+            "py": "Nà wǒmen míngtiān dào wǒjiā, yìqǐ zuòfàn ba.",
+            "en": "Then let's go to my house tomorrow and cook together."
+          }
+        ]
+      }
+    ],
+    "listening": [
+      {
+        "title": "A Famous Noodle Shop",
+        "text": "李明華帶王開文去一家有名的牛肉麵店。那家店的牛肉麵最好吃。開文很喜歡吃辣，所以他點了大碗的辣牛肉麵。他們也點了臭豆腐，開文覺得味道很特別。",
+        "py": "Lǐ Mínghuá dài Wáng Kāiwén qù yìjiā yǒumíng de niúròumiàn diàn. Nà jiā diàn de niúròumiàn zuì hǎochī. Kāiwén hěn xǐhuān chī là, suǒyǐ tā diǎnle dàwǎn de là niúròumiàn. Tāmen yě diǎnle chòudòufǔ, kāiwén juéde wèidào hěn tèbié.",
+        "questions": [
+          {
+            "q": "他們去吃什麼？",
+            "options": [
+              "包子",
+              "牛肉麵",
+              "水餃",
+              "炒飯"
+            ],
+            "answer": "牛肉麵"
+          },
+          {
+            "q": "開文點了哪種麵？",
+            "options": [
+              "不辣的小碗",
+              "不辣的大碗",
+              "辣的小碗",
+              "辣的大碗"
+            ],
+            "answer": "辣的大碗"
+          },
+          {
+            "q": "開文覺得臭豆腐怎麼樣？",
+            "options": [
+              "不好吃",
+              "很甜",
+              "味道特別",
+              "太貴了"
+            ],
+            "answer": "味道特別"
+          }
+        ]
+      },
+      {
+        "title": "Cooking Lesson",
+        "text": "白如玉昨天自己做飯。她會做越南菜和甜點。陳月美想學做甜點，所以白如玉要教她。她們計畫明天下午一起在如玉家做飯。",
+        "py": "Bái Rúyù zuótiān zìjǐ zuòfàn. Tā huì zuò Yuènán cài hé tiándiǎn. Chén Yuèměi xiǎng xué zuò tiándiǎn, suǒyǐ Bái Rúyù yào jiāo tā. Tāmen jìhuà míngtiān xiàwǔ yìqǐ zài Rúyù jiā zuòfàn.",
+        "questions": [
+          {
+            "q": "如玉昨天在哪裡吃飯？",
+            "options": [
+              "餐廳",
+              "學校",
+              "家裡 (自己做)",
+              "朋友家"
+            ],
+            "answer": "家裡 (自己做)"
+          },
+          {
+            "q": "月美想學什麼？",
+            "options": [
+              "牛肉麵",
+              "越南菜",
+              "甜點",
+              "煮咖啡"
+            ],
+            "answer": "甜點"
+          },
+          {
+            "q": "她們什麼時候要一起做飯？",
+            "options": [
+              "今天",
+              "明天",
+              "昨天",
+              "週末"
+            ],
+            "answer": "明天"
+          }
+        ]
+      }
+    ],
+    "readings": [
+      {
+        "title": "Taiwanese Small Eats",
+        "text": "台灣有很多好吃的小吃。牛肉麵、小籠包和臭豆腐都很有名。很多外國人怕臭豆腐的味道，但是吃過以後都覺得很不錯。如果你來台灣，一定要去有名的店吃吃看。那裡的湯頭和麵條都做得很好。",
+        "py": "Táiwān yǒu hěnduō hǎochī de xiǎochī. Niúròumiàn, xiǎolóngbāo hé chòudòufǔ dōu hěn yǒumíng. Hěnduō wàiguórén pà chòudòufǔ de wèidào, dànshì chīguò yǐhòu dōu juéde hěn búcuò. Rúguǒ nǐ lái Táiwān, yídìng yào qù yǒumíng de diàn chīchī kàn. Nàlǐ de tāngtóu hé miàntiáo dōu zuò de hěn hǎo.",
+        "questions": [
+          {
+            "q": "文中提到了幾種小吃？",
+            "options": [
+              "兩種",
+              "三種",
+              "四種",
+              "五種"
+            ],
+            "answer": "三種"
+          },
+          {
+            "q": "外國人為什麼怕臭豆腐？",
+            "options": [
+              "因為太辣",
+              "因為太貴",
+              "因為味道 (臭)",
+              "因為不好吃"
+            ],
+            "answer": "因為味道 (臭)"
+          },
+          {
+            "q": "來台灣一定要做什麼？",
+            "options": [
+              "買手機",
+              "照相",
+              "去有名的店吃小吃",
+              "去山上"
+            ],
+            "answer": "去有名的店吃小吃"
+          }
+        ]
+      },
+      {
+        "title": "Ordering Food in Chinese",
+        "text": "去餐廳點菜的時候，你可以說：『我要一碗牛肉麵』或者『請給我一份小籠包』。如果你不吃辣，要告訴服務員：『我怕辣，請不要放辣椒』。如果你覺得很好吃，可以告訴老闆：『真好吃！』老闆一定會很高興。",
+        "py": "Qù cāntīng diǎncài de shíhòu, nǐ kěyǐ shuō: \"Wǒ yào yìwǎn niúròumiàn\" huòzhě \"Qǐng gěi wǒ yífèn xiǎolóngbāo\". Rúguǒ nǐ bù chī là, yào gàosù fúwùyuán: \"Wǒ pà là, qǐng búyàò fàng làjiāo\". Rúguǒ nǐ juéde hěn hǎochī, kěyǐ gàosù lǎobǎn: \"Zhēn hǎochī!\" Lǎobǎn yídìng huì hěn gāoxìng.",
+        "questions": [
+          {
+            "q": "如果你不吃辣，應該說什麼？",
+            "options": [
+              "我很喜歡",
+              "我怕辣",
+              "我不餓",
+              "多少錢"
+            ],
+            "answer": "我怕辣"
+          },
+          {
+            "q": "點菜時可以怎麼說？",
+            "options": [
+              "我要...",
+              "你是誰？",
+              "不客氣",
+              "對不起"
+            ],
+            "answer": "我要..."
+          },
+          {
+            "q": "老闆為什麼會高興？",
+            "options": [
+              "因為你點很多",
+              "因為你說東西好吃",
+              "因為你給很多錢",
+              "因為你是外國人"
+            ],
+            "answer": "因為你說東西好吃"
+          }
+        ]
+      }
+    ],
+    "quizzes": [
+      {
+        "type": "choice",
+        "question": "What is 'Beef Noodles' in Chinese?",
+        "options": [
+          "小籠包",
+          "臭豆腐",
+          "牛肉麵",
+          "炒飯"
+        ],
+        "answer": "牛肉麵"
+      },
+      {
+        "type": "fill",
+        "sentence": "這家店的牛肉麵真 ___ ！",
+        "answer": "好吃"
+      }
+    ]
+  },
+  {
+    "id": "b1_c6",
+    "book": 1,
+    "chapter": 6,
+    "title": "Locations & Directions",
+    "subtitle": "Where is the school?",
+    "intro": "Learn to ask for and give directions, and talk about distances.",
+    "vocab": [
+      {
+        "hanzi": "他們",
+        "pinyin": "tāmen",
+        "definition": "they (used for people only)"
+      },
+      {
+        "hanzi": "學校",
+        "pinyin": "xuéxiào",
+        "definition": "school"
+      },
+      {
+        "hanzi": "在",
+        "pinyin": "zài",
+        "definition": "to be located at"
+      },
+      {
+        "hanzi": "山上",
+        "pinyin": "shānshàng",
+        "definition": "on a mountain, in the mountains"
+      },
+      {
+        "hanzi": "哪裡",
+        "pinyin": "nǎlǐ",
+        "definition": "where"
+      },
+      {
+        "hanzi": "遠",
+        "pinyin": "yuǎn",
+        "definition": "far"
+      },
+      {
+        "hanzi": "那裡",
+        "pinyin": "nàlǐ",
+        "definition": "that place, there"
+      },
+      {
+        "hanzi": "風景",
+        "pinyin": "fēngjǐng",
+        "definition": "scenery, landscape"
+      },
+      {
+        "hanzi": "美",
+        "pinyin": "měi",
+        "definition": "beautiful"
+      },
+      {
+        "hanzi": "前面",
+        "pinyin": "qiánmiàn",
+        "definition": "front"
+      },
+      {
+        "hanzi": "海",
+        "pinyin": "hǎi",
+        "definition": "ocean"
+      },
+      {
+        "hanzi": "後面",
+        "pinyin": "hòumiàn",
+        "definition": "back"
+      },
+      {
+        "hanzi": "山",
+        "pinyin": "shān",
+        "definition": "mountain"
+      },
+      {
+        "hanzi": "真的",
+        "pinyin": "zhēnde",
+        "definition": "really, truly"
+      },
+      {
+        "hanzi": "地方",
+        "pinyin": "dìfāng",
+        "definition": "place"
+      },
+      {
+        "hanzi": "現在",
+        "pinyin": "xiànzài",
+        "definition": "now"
+      },
+      {
+        "hanzi": "附近",
+        "pinyin": "fùjìn",
+        "definition": "vicinity, near"
+      },
+      {
+        "hanzi": "樓下",
+        "pinyin": "lóuxià",
+        "definition": "downstairs"
+      },
+      {
+        "hanzi": "找",
+        "pinyin": "zhǎo",
+        "definition": "to meet, to see"
+      },
+      {
+        "hanzi": "朋友",
+        "pinyin": "péngyǒu",
+        "definition": "friend"
+      },
+      {
+        "hanzi": "上課",
+        "pinyin": "shàngkè",
+        "definition": "to go to class"
+      },
+      {
+        "hanzi": "花蓮",
+        "pinyin": "Huālián",
+        "definition": "name of a city on the eastern coast of Taiwan"
+      },
+      {
+        "hanzi": "聽說",
+        "pinyin": "tīngshuō",
+        "definition": "hear that"
+      },
+      {
+        "hanzi": "近",
+        "pinyin": "jìn",
+        "definition": "near"
+      },
+      {
+        "hanzi": "方便",
+        "pinyin": "fāngbiàn",
+        "definition": "convenient"
+      },
+      {
+        "hanzi": "這裡",
+        "pinyin": "zhèlǐ",
+        "definition": "here, this place"
+      },
+      {
+        "hanzi": "學生",
+        "pinyin": "xuéshēng",
+        "definition": "student"
+      },
+      {
+        "hanzi": "在",
+        "pinyin": "zài",
+        "definition": "at"
+      },
+      {
+        "hanzi": "東西",
+        "pinyin": "dōngxi",
+        "definition": "things, stuff"
+      },
+      {
+        "hanzi": "外面",
+        "pinyin": "wàimiàn",
+        "definition": "outside"
+      },
+      {
+        "hanzi": "裡面",
+        "pinyin": "lǐmiàn",
+        "definition": "inside"
+      },
+      {
+        "hanzi": "商店",
+        "pinyin": "shāngdiàn",
+        "definition": "store, shop"
+      },
+      {
+        "hanzi": "吃飯",
+        "pinyin": "chīfàn",
+        "definition": "to have a meal"
+      },
+      {
+        "hanzi": "宿舍",
+        "pinyin": "sùshè",
+        "definition": "dormitory"
+      },
+      {
+        "hanzi": "樓",
+        "pinyin": "lóu",
+        "definition": "a storey, a floor"
+      },
+      {
+        "hanzi": "棟",
+        "pinyin": "dòng",
+        "definition": "measure word for buildings"
+      },
+      {
+        "hanzi": "大樓",
+        "pinyin": "dàlóu",
+        "definition": "a multi-storey building"
+      },
+      {
+        "hanzi": "圖書館",
+        "pinyin": "túshūguǎn",
+        "definition": "library"
+      },
+      {
+        "hanzi": "旁邊",
+        "pinyin": "pángbiān",
+        "definition": "(by the) side, next to"
+      },
+      {
+        "hanzi": "教室",
+        "pinyin": "jiàoshì",
+        "definition": "classroom"
+      },
+      {
+        "hanzi": "游泳池",
+        "pinyin": "yóuyǒngchí",
+        "definition": "swimming pool"
+      }
+    ],
+    "dialogues": [
+      {
+        "title": "Finding the School",
+        "lines": [
+          {
+            "speaker": "馬安同",
+            "zh": "請問，學校在哪裡？",
+            "py": "Qǐngwèn, xuéxiào zài nǎlǐ?",
+            "en": "Excuse me, where is the school?"
+          },
+          {
+            "speaker": "路人",
+            "zh": "學校在山上，不遠。",
+            "py": "Xuéxiào zài shānshàng, bù yuǎn.",
+            "en": "The school is on the mountain, not far."
+          },
+          {
+            "speaker": "馬安同",
+            "zh": "坐公車要多久？",
+            "py": "Zuò gōngchē yào duōjiǔ?",
+            "en": "How long does it take by bus?"
+          },
+          {
+            "speaker": "路人",
+            "zh": "大約十分鐘就到了。",
+            "py": "Dàyuē shífēnzhōng jiù dào le.",
+            "en": "It takes about ten minutes to arrive."
+          },
+          {
+            "speaker": "馬安同",
+            "zh": "公車站在哪裡？",
+            "py": "Gōngchēzhàn zài nǎlǐ?",
+            "en": "Where is the bus stop?"
+          },
+          {
+            "speaker": "路人",
+            "zh": "就在前面，圖書館的對面。",
+            "py": "Jiù zài qiánmiàn, túshūguǎn de duìmiàn.",
+            "en": "Right in front, across from the library."
+          },
+          {
+            "speaker": "馬安同",
+            "zh": "謝謝你。那附近有書店嗎？",
+            "py": "Xièxie nǐ. Nà fùjìn yǒu shūdiàn ma?",
+            "en": "Thank you. Are there any bookstores nearby?"
+          },
+          {
+            "speaker": "路人",
+            "zh": "有的。書店就在學校旁邊。",
+            "py": "Yǒude. Shūdiàn jiù zài xuéxiào pángbiān.",
+            "en": "Yes. The bookstore is right next to the school."
+          }
+        ]
+      },
+      {
+        "title": "In the Mountains",
+        "lines": [
+          {
+            "speaker": "陳月美",
+            "zh": "這座山很高，風景真漂亮。",
+            "py": "Zhè zuò shān hěn gāo, fēngjǐng zhēn piàoliàng.",
+            "en": "This mountain is very high; the scenery is truly beautiful."
+          },
+          {
+            "speaker": "李明華",
+            "zh": "是的。學校就在這座山上。",
+            "py": "Shìde. Xuéxiào jiù zài zhè zuò shānshàng.",
+            "en": "Yes. The school is right on this mountain."
+          },
+          {
+            "speaker": "陳月美",
+            "zh": "學生都住在哪裡？",
+            "py": "Xuésheng dōu zhù zài nǎlǐ?",
+            "en": "Where do the students all live?"
+          },
+          {
+            "speaker": "李明華",
+            "zh": "有些學生住在山上，有些住在山下。",
+            "py": "Yǒuxiē xuésheng zhù zài shānshàng, yǒuxiē zhù zài shānxià.",
+            "en": "Some students live on the mountain, some live below."
+          },
+          {
+            "speaker": "陳月美",
+            "zh": "去銀行遠不遠？",
+            "py": "Qù yínháng yuǎn bù yuǎn?",
+            "en": "Is it far to the bank?"
+          },
+          {
+            "speaker": "李明華",
+            "zh": "不遠，走路五分鐘就到了。",
+            "py": "Bù yuǎn, zǒulù wǔ fēnzhōng jiù dào le.",
+            "en": "Not far, it takes five minutes on foot to arrive."
+          },
+          {
+            "speaker": "陳月美",
+            "zh": "那太方便了。",
+            "py": "Nà tài fāngbiàn le.",
+            "en": "That's very convenient."
+          }
+        ]
+      }
+    ],
+    "listening": [
+      {
+        "title": "Directions to School",
+        "text": "馬安同想去學校，但是他不知道怎麼走。路人告訴他學校在山上，坐公車十分鐘就到了。公車站在圖書館對面。學校旁邊還有一家書店，非常方便。",
+        "py": "Mǎ Āntóng xiǎng qù xuéxiào, dànshì tā bù zhīdào zěnme zǒu. Lùrén gàosù tā xuéxiào zài shānshàng, zuò gōngchē shífēnzhōng jiù dào le. Gōngchēzhàn zài túshūguǎn duìmiàn. Xuéxiào pángbiān hái yǒu yìjiā shūdiàn, fēicháng fāngbiàn.",
+        "questions": [
+          {
+            "q": "學校在哪裡？",
+            "options": [
+              "山上",
+              "海邊",
+              "市中心",
+              "機場"
+            ],
+            "answer": "山上"
+          },
+          {
+            "q": "坐公車要多久？",
+            "options": [
+              "五分鐘",
+              "十分鐘",
+              "二十分鐘",
+              "一小時"
+            ],
+            "answer": "十分鐘"
+          },
+          {
+            "q": "公車站在哪裡？",
+            "options": [
+              "學校門口",
+              "圖書館對面",
+              "銀行旁邊",
+              "書店前面"
+            ],
+            "answer": "圖書館對面"
+          }
+        ]
+      },
+      {
+        "title": "Living on Campus",
+        "text": "李明華的學校在山上。那裡的風景很漂亮，空氣也很好。很多學生住在山上，所以去教室很近。如果想去銀行，走路五分鐘就到了。",
+        "py": "Lǐ Mínghuá de xuéxiào zài shānshàng. Nàlǐ de fēngjǐng hěn piàoliàng, kōngqì yě hěn hǎo. Hěnduō xuésheng zhù zài shānshàng, suǒyǐ qù jiàoshì hěn jìn. Rúguǒ xiǎng qù yínháng, zǒulù wǔ fēnzhōng jiù dào le.",
+        "questions": [
+          {
+            "q": "學校的風景怎麼樣？",
+            "options": [
+              "不漂亮",
+              "很漂亮",
+              "很吵",
+              "很普通"
+            ],
+            "answer": "很漂亮"
+          },
+          {
+            "q": "去銀行要多久？",
+            "options": [
+              "一分鐘",
+              "五分鐘",
+              "十分鐘",
+              "十五分鐘"
+            ],
+            "answer": "五分鐘"
+          },
+          {
+            "q": "學生去教室遠不遠？",
+            "options": [
+              "很遠",
+              "不遠",
+              "不知道",
+              "要坐車"
+            ],
+            "answer": "不遠"
+          }
+        ]
+      }
+    ],
+    "readings": [
+      {
+        "title": "Finding Your Way",
+        "text": "在台灣，如果你迷路了，可以問路人。你可以說：『請問，...在哪裡？』或者『請問，去...怎麼走？』路人都會很熱心地告訴你。有時候他們還會帶你去。坐公車或者捷運都很方便。",
+        "py": "Zài Táiwān, rúguǒ nǐ mílù le, kěyǐ wèn lùrén. Nǐ kěyǐ shuō: \"Qǐngwèn, ... zài nǎlǐ?\" Huòzhě \"Qǐngwèn, qù ... zěnme zǒu?\" Lùrén dōu huì hěn rèxīn de gàosù nǐ. Yǒushíhòu tāmen hái huì dài nǐ qù. Zuò gōngchē huòzhě jiéyùn dōu hěn fāngbiàn.",
+        "questions": [
+          {
+            "q": "迷路了可以怎麼辦？",
+            "options": [
+              "回家",
+              "問路人",
+              "打電話",
+              "看書"
+            ],
+            "answer": "問路人"
+          },
+          {
+            "q": "路人通常怎麼樣？",
+            "options": [
+              "不理你",
+              "很熱心",
+              "很生氣",
+              "很忙"
+            ],
+            "answer": "很熱心"
+          },
+          {
+            "q": "去哪裡很方便？",
+            "options": [
+              "坐公車",
+              "爬山",
+              "跑步",
+              "跳舞"
+            ],
+            "answer": "坐公車"
+          }
+        ]
+      },
+      {
+        "title": "Our Campus",
+        "text": "我們的學校在山上。雖然有一點遠，但是環境很好。學校裡面有圖書館、書店和銀行。學生可以在圖書館看書，也可以在書店買筆和本子。這裡的生活很方便，大家都很喜歡。",
+        "py": "Wǒmen de xuéxiào zài shānshàng. Suīrán yǒu yìdiǎn yuǎn, dànshì huánjìng hěn hǎo. Xuéxiào lǐmiàn yǒu túshūguǎn, shūdiàn hé yínháng. Xuésheng kěyǐ zài túshūguǎn kànshū, yě kěyǐ zài shūdiàn mǎi bǐ hé běnzi. Zhèlǐ de shēnghuó hěn fāngbiàn, dàjiā dōu hěn xǐhuān.",
+        "questions": [
+          {
+            "q": "學校在哪裡？",
+            "options": [
+              "山上",
+              "城市",
+              "家旁邊",
+              "山下"
+            ],
+            "answer": "山上"
+          },
+          {
+            "q": "學校裡面有什麼？",
+            "options": [
+              "機場",
+              "圖書館",
+              "電影院",
+              "動物園"
+            ],
+            "answer": "圖書館"
+          },
+          {
+            "q": "學生可以在哪裡買筆？",
+            "options": [
+              "銀行",
+              "圖書館",
+              "書店",
+              "公車站"
+            ],
+            "answer": "書店"
+          }
+        ]
+      }
+    ],
+    "quizzes": [
+      {
+        "type": "choice",
+        "question": "What does '在' (zài) indicate in a location context?",
+        "options": [
+          "To be at/in/on",
+          "To go",
+          "To come",
+          "To see"
+        ],
+        "answer": "To be at/in/on"
+      },
+      {
+        "type": "fill",
+        "sentence": "請問，圖書館在 ___ ？",
+        "answer": "哪裡"
+      }
+    ]
+  },
+  {
+    "id": "b1_c7",
+    "book": 1,
+    "chapter": 7,
+    "title": "On Campus",
+    "subtitle": "School facilities",
+    "intro": "Learn about different places on a school campus.",
+    "vocab": [
+      {
+        "hanzi": "點",
+        "pinyin": "diǎn",
+        "definition": "o'clock"
+      },
+      {
+        "hanzi": "KTV",
+        "pinyin": "KTV",
+        "definition": "Karaoke"
+      },
+      {
+        "hanzi": "唱歌",
+        "pinyin": "chànggē",
+        "definition": "to sing"
+      },
+      {
+        "hanzi": "分",
+        "pinyin": "fēn",
+        "definition": "minute"
+      },
+      {
+        "hanzi": "見面",
+        "pinyin": "jiànmiàn",
+        "definition": "meet"
+      },
+      {
+        "hanzi": "從",
+        "pinyin": "cóng",
+        "definition": "from"
+      },
+      {
+        "hanzi": "中午",
+        "pinyin": "zhōngwǔ",
+        "definition": "noon"
+      },
+      {
+        "hanzi": "得",
+        "pinyin": "děi",
+        "definition": "to have to, must"
+      },
+      {
+        "hanzi": "銀行",
+        "pinyin": "yínháng",
+        "definition": "bank"
+      },
+      {
+        "hanzi": "時候",
+        "pinyin": "shíhòu",
+        "definition": "when"
+      },
+      {
+        "hanzi": "後天",
+        "pinyin": "hòutiān",
+        "definition": "the day after tomorrow"
+      },
+      {
+        "hanzi": "大安",
+        "pinyin": "Dà'ān",
+        "definition": "Da-an (name of a KTV named after a district in Taipei, where Shida is also located)"
+      },
+      {
+        "hanzi": "下次",
+        "pinyin": "xià cì",
+        "definition": "next time"
+      },
+      {
+        "hanzi": "沒問題",
+        "pinyin": "méi wèntí",
+        "definition": "No problem."
+      },
+      {
+        "hanzi": "對了",
+        "pinyin": "duìle",
+        "definition": "by the way"
+      },
+      {
+        "hanzi": "有空",
+        "pinyin": "yǒu kòng",
+        "definition": "to have free time"
+      },
+      {
+        "hanzi": "再見",
+        "pinyin": "zàijiàn",
+        "definition": "Goodbye."
+      },
+      {
+        "hanzi": "在",
+        "pinyin": "zài",
+        "definition": "progressive aspect verb; in the process of doing something"
+      },
+      {
+        "hanzi": "午餐",
+        "pinyin": "wǔcān",
+        "definition": "lunch"
+      },
+      {
+        "hanzi": "剛",
+        "pinyin": "gāng",
+        "definition": "just now"
+      },
+      {
+        "hanzi": "下課",
+        "pinyin": "xiàkè",
+        "definition": "to finish class"
+      },
+      {
+        "hanzi": "下午",
+        "pinyin": "xiàwǔ",
+        "definition": "afternoon"
+      },
+      {
+        "hanzi": "半",
+        "pinyin": "bàn",
+        "definition": "half"
+      },
+      {
+        "hanzi": "比賽",
+        "pinyin": "bǐsài",
+        "definition": "game, competition"
+      },
+      {
+        "hanzi": "結束",
+        "pinyin": "jiéshù",
+        "definition": "to finish"
+      },
+      {
+        "hanzi": "最近",
+        "pinyin": "zuìjìn",
+        "definition": "recently, lately"
+      },
+      {
+        "hanzi": "忙",
+        "pinyin": "máng",
+        "definition": "busy"
+      },
+      {
+        "hanzi": "每",
+        "pinyin": "měi",
+        "definition": "every, each"
+      },
+      {
+        "hanzi": "天",
+        "pinyin": "tiān",
+        "definition": "Measure word for day"
+      },
+      {
+        "hanzi": "書法",
+        "pinyin": "shūfǎ",
+        "definition": "calligraphy"
+      },
+      {
+        "hanzi": "課",
+        "pinyin": "kè",
+        "definition": "class"
+      },
+      {
+        "hanzi": "開始",
+        "pinyin": "kāishǐ",
+        "definition": "to begin, to start"
+      },
+      {
+        "hanzi": "字",
+        "pinyin": "zì",
+        "definition": "character"
+      },
+      {
+        "hanzi": "寫",
+        "pinyin": "xiě",
+        "definition": "to write"
+      },
+      {
+        "hanzi": "可以",
+        "pinyin": "kěyǐ",
+        "definition": "may (permission)"
+      },
+      {
+        "hanzi": "問",
+        "pinyin": "wèn",
+        "definition": "to ask"
+      },
+      {
+        "hanzi": "等一下",
+        "pinyin": "děng yíxià",
+        "definition": "later"
+      },
+      {
+        "hanzi": "有事",
+        "pinyin": "yǒu shì",
+        "definition": "to be busy; to be engaged"
+      },
+      {
+        "hanzi": "有意思",
+        "pinyin": "yǒu yìsi",
+        "definition": "to be interesting, to be fun"
+      }
+    ],
+    "dialogues": [
+      {
+        "title": "Finding the Dormitory",
+        "lines": [
+          {
+            "speaker": "白如玉",
+            "zh": "請問，宿舍在哪裡？",
+            "py": "Qǐngwèn, sùshè zài nǎlǐ?",
+            "en": "Excuse me, where is the dormitory?"
+          },
+          {
+            "speaker": "馬安同",
+            "zh": "就在圖書館後面。你也是住在宿舍嗎？",
+            "py": "Jiù zài túshūguǎn hòumiàn. Nǐ yěshì zhù zài sùshè ma?",
+            "en": "It's right behind the library. Do you also live in the dorm?"
+          },
+          {
+            "speaker": "白如玉",
+            "zh": "是的，我刚搬來。宿舍裡有電腦嗎？",
+            "py": "Shìde, wǒ gāng bānlái. Sùshè lǐ yǒu diànnǎo ma?",
+            "en": "Yes, I just moved in. Are there computers in the dorm?"
+          },
+          {
+            "speaker": "馬安同",
+            "zh": "有的，每間房間都有一台電腦。",
+            "py": "Yǒude, měi jiān fángjiān dōu yǒu yìtái diànnǎo.",
+            "en": "Yes, every room has a computer."
+          },
+          {
+            "speaker": "白如玉",
+            "zh": "那太好了。這附近有餐廳嗎？",
+            "py": "Nà tài hǎo le. Zhè fùjìn yǒu cāntīng ma?",
+            "en": "That's great. Are there any restaurants nearby?"
+          },
+          {
+            "speaker": "馬安同",
+            "zh": "宿舍的一樓有餐廳，菜做得不錯。",
+            "py": "Sùshè de yìlóu yǒu cāntīng, cài zuò de búcuò.",
+            "en": "There's a restaurant on the first floor of the dorm; the food is quite good."
+          },
+          {
+            "speaker": "白如玉",
+            "zh": "謝謝你。我也想去看看圖書館。",
+            "py": "Xièxie nǐ. Wǒ yě xiǎng qù kànkàn túshūguǎn.",
+            "en": "Thank you. I also want to go take a look at the library."
+          },
+          {
+            "speaker": "馬安同",
+            "zh": "好，我們一起走吧。",
+            "py": "Hǎo, wǒmen yìqǐ zǒu ba.",
+            "en": "Okay, let's walk together."
+          }
+        ]
+      },
+      {
+        "title": "In the Classroom",
+        "lines": [
+          {
+            "speaker": "老師",
+            "zh": "各位同學，請問大家都在教室了嗎？",
+            "py": "Gèwèi tóngxué, qǐngwèn dàjiā dōu zài jiàoshì le ma?",
+            "en": "Everyone, is everybody in the classroom?"
+          },
+          {
+            "speaker": "學生",
+            "zh": "都在了。老師，請問今天我們要學什麼？",
+            "py": "Dōu zài le. Lǎoshī, qǐngwèn jīntiān wǒmen yào xué shénme?",
+            "en": "Everyone is here. Teacher, what are we going to learn today?"
+          },
+          {
+            "speaker": "老師",
+            "zh": "今天我們要學關於校園生活的詞彙。",
+            "py": "Jīntiān wǒmen yào xué guānyú xiàoyuán shēnghuó de cíhuì.",
+            "en": "Today we are going to learn vocabulary about campus life."
+          },
+          {
+            "speaker": "學生",
+            "zh": "這裡有地圖嗎？我想知道圖書館在哪裡。",
+            "py": "Zhèlǐ yǒu dìtú ma? Wǒ xiǎng zhīdào túshūguǎn zài nǎlǐ.",
+            "en": "Is there a map here? I want to know where the library is."
+          },
+          {
+            "speaker": "老師",
+            "zh": "有的，看這裡。圖書館在宿舍和教學大樓的中間。",
+            "py": "Yǒude, kàn zhèlǐ. Túshūguǎn zài sùshè hé jiàoxué dàlóu de zhōngjiān.",
+            "en": "Yes, look here. The library is between the dorm and the teaching building."
+          },
+          {
+            "speaker": "學生",
+            "zh": "謝謝老師。這裡環境真漂亮。",
+            "py": "Xièxie lǎoshī. Zhèlǐ huánjìng zhēn piàoliàng.",
+            "en": "Thank you, teacher. The environment here is really beautiful."
+          },
+          {
+            "speaker": "老師",
+            "zh": "是的，大家要多去圖書館看書。",
+            "py": "Shìde, dàjiā yào duō qù túshūguǎn kànshū.",
+            "en": "Yes, everyone should go to the library more to read."
+          }
+        ]
+      }
+    ],
+    "listening": [
+      {
+        "title": "Campus Tour",
+        "text": "白如玉剛搬到學校宿舍。宿舍在圖書館後面，每間房都有電腦。一樓有餐廳，吃飯很方便。老師建議學生多去圖書館看書，那裡就在宿舍旁邊。",
+        "py": "Bái Rúyù gāng bāndào xuéxiào sùshè. Sùshè zài túshūguǎn hòumiàn, měi jiān fáng dōu yǒu diànnǎo. Yìlóu yǒu cāntīng, chīfàn hěn fāngbiàn. Lǎoshī jiànyì xuésheng duō qù túshūguǎn kànshū, nàlǐ jiù zài sùshè pángbiān.",
+        "questions": [
+          {
+            "q": "宿舍在哪裡？",
+            "options": [
+              "圖書館前面",
+              "圖書館後面",
+              "銀行旁邊",
+              "校門口"
+            ],
+            "answer": "圖書館後面"
+          },
+          {
+            "q": "宿舍一樓有什麼？",
+            "options": [
+              "電腦室",
+              "餐廳",
+              "游泳池",
+              "書店"
+            ],
+            "answer": "餐廳"
+          },
+          {
+            "q": "老師建議學生做什麼？",
+            "options": [
+              "去打球",
+              "去圖書館看書",
+              "回宿舍睡覺",
+              "去買東西"
+            ],
+            "answer": "去圖書館看書"
+          }
+        ]
+      },
+      {
+        "title": "The Classroom",
+        "text": "今天老師在教室教大家認識校園。教學大樓裡有很多教室。圖書館在校園的中間。白如玉想買地圖，因為她還不知道很多地方在哪裡。",
+        "py": "Jīntiān lǎoshī zài jiàoshì jiāo dàjiā rènshì xiàoyuán. Jiàoxué dàlóu lǐ yǒu hěnduō jiàoshì. Túshūguǎn zài xiàoyuán de zhōngjiān. Bái Rúyù xiǎng mǎi dìtú, yīnwèi tā hái bù zhīdào hěnduō dìfāng zài nǎlǐ.",
+        "questions": [
+          {
+            "q": "老師今天教什麼？",
+            "options": [
+              "認識同學",
+              "認識校園",
+              "學寫字",
+              "聽音樂"
+            ],
+            "answer": "認識校園"
+          },
+          {
+            "q": "圖書館在哪裡？",
+            "options": [
+              "校園中間",
+              "學校外面",
+              "山下",
+              "宿舍對面"
+            ],
+            "answer": "校園中間"
+          },
+          {
+            "q": "白如玉為什麼想買地圖？",
+            "options": [
+              "因為很漂亮",
+              "因為老師要她買",
+              "因為不知道地方在哪",
+              "因為想送人"
+            ],
+            "answer": "因為不知道地方在哪"
+          }
+        ]
+      }
+    ],
+    "readings": [
+      {
+        "title": "Living on Campus",
+        "text": "住在學校宿舍有很多好處。首先，去教室上課很近，不用走很久。其次，宿舍裡有網路，學生可以用電腦學習。雖然宿舍房間不大，但是環境很安靜，適合讀書。",
+        "py": "Zhù zài xuéxiào sùshè yǒu hěnduō hǎochù. Shǒuxiān, qù jiàoshì shàngkè hěn jìn, búyòng zǒu hěnjiǔ. Qícì, sùshè lǐ yǒu wǎng lù, xuésheng kěyǐ yòng diànnǎo xuéxí. Suīrán sùshè fángjiān búdà, dànshì huánjìng hěn ānjìng, shìhé dúshū.",
+        "questions": [
+          {
+            "q": "住宿舍有什麼好處？",
+            "options": [
+              "很大",
+              "去上課很近",
+              "很吵",
+              "很貴"
+            ],
+            "answer": "去上課很近"
+          },
+          {
+            "q": "學生可以用什麼學習？",
+            "options": [
+              "電腦",
+              "電視",
+              "收音機",
+              "遊戲機"
+            ],
+            "answer": "電腦"
+          },
+          {
+            "q": "宿舍的環境怎麼樣？",
+            "options": [
+              "很吵",
+              "很安靜",
+              "不乾淨",
+              "很多車"
+            ],
+            "answer": "很安靜"
+          }
+        ]
+      },
+      {
+        "title": "The Library",
+        "text": "學校的圖書館很大，裡面有很多書和電腦。學生可以在那裡借書、看報紙，也可以在那裡上網找資料。圖書館的對面是學生中心，那裡有咖啡廳和書店。大家都很喜歡在那裡聚會。",
+        "py": "Xuéxiào de túshūguǎn hěn dà, lǐmiàn yǒu hěnduō shū hé diànnǎo. Xuésheng kěyǐ zài nàlǐ jièshū, kàn bàozhǐ, yě kěyǐ zài nàlǐ shàngwǎng zhǎo zīliào. Túshūguǎn de duìmiàn shì xuésheng zhōngxīn, nàlǐ yǒu kāfēitīng hé shūdiàn. Dàjiā dōu hěn xǐhuān zài nàlǐ jùhuì.",
+        "questions": [
+          {
+            "q": "圖書館裡面有什麼？",
+            "options": [
+              "書和電腦",
+              "床",
+              "足球",
+              "衣服"
+            ],
+            "answer": "書和電腦"
+          },
+          {
+            "q": "圖書館對面是什麼？",
+            "options": [
+              "教學樓",
+              "學生中心",
+              "校門",
+              "操場"
+            ],
+            "answer": "學生中心"
+          },
+          {
+            "q": "學生中心有什麼？",
+            "options": [
+              "醫院",
+              "咖啡廳和書店",
+              "電影院",
+              "機場"
+            ],
+            "answer": "咖啡廳和書店"
+          }
+        ]
+      }
+    ],
+    "quizzes": [
+      {
+        "type": "choice",
+        "question": "What is 'to study' or 'to learn'?",
+        "options": [
+          "教",
+          "學",
+          "寫",
+          "聽"
+        ],
+        "answer": "學"
+      },
+      {
+        "type": "fill",
+        "sentence": "他在學校 ___ 中文。",
+        "answer": "學"
+      }
+    ]
+  },
+  {
+    "id": "b1_c8",
+    "book": 1,
+    "chapter": 8,
+    "title": "Daily Routine",
+    "subtitle": "Time and activities",
+    "intro": "Talk about your daily schedule and time.",
+    "vocab": [
+      {
+        "hanzi": "坐",
+        "pinyin": "zuò",
+        "definition": "to take by, to travel by"
+      },
+      {
+        "hanzi": "火車",
+        "pinyin": "huǒchē",
+        "definition": "train"
+      },
+      {
+        "hanzi": "跟",
+        "pinyin": "gēn",
+        "definition": "with"
+      },
+      {
+        "hanzi": "玩",
+        "pinyin": "wán",
+        "definition": "to have fun"
+      },
+      {
+        "hanzi": "怎麼",
+        "pinyin": "zěnme",
+        "definition": "how"
+      },
+      {
+        "hanzi": "慢",
+        "pinyin": "màn",
+        "definition": "slow"
+      },
+      {
+        "hanzi": "鐘頭",
+        "pinyin": "zhōngtóu",
+        "definition": "hour"
+      },
+      {
+        "hanzi": "比較",
+        "pinyin": "bǐjiào",
+        "definition": "(comparatively) more"
+      },
+      {
+        "hanzi": "快",
+        "pinyin": "kuài",
+        "definition": "fast"
+      },
+      {
+        "hanzi": "車票",
+        "pinyin": "chēpiào",
+        "definition": "(train, bus) ticket"
+      },
+      {
+        "hanzi": "非常",
+        "pinyin": "fēicháng",
+        "definition": "very"
+      },
+      {
+        "hanzi": "但是",
+        "pinyin": "dànshì",
+        "definition": "but, however"
+      },
+      {
+        "hanzi": "又",
+        "pinyin": "yòu",
+        "definition": "both...and..."
+      },
+      {
+        "hanzi": "舒服",
+        "pinyin": "shūfú",
+        "definition": "comfortable"
+      },
+      {
+        "hanzi": "站",
+        "pinyin": "zhàn",
+        "definition": "station"
+      },
+      {
+        "hanzi": "或是",
+        "pinyin": "huòshì",
+        "definition": "or"
+      },
+      {
+        "hanzi": "臺南",
+        "pinyin": "Táinán",
+        "definition": "a city in southwestern Taiwan"
+      },
+      {
+        "hanzi": "高鐵",
+        "pinyin": "gāotiě",
+        "definition": "High Speed Rail (HSR)"
+      },
+      {
+        "hanzi": "網路上",
+        "pinyin": "wǎnglù shàng",
+        "definition": "on the Internet"
+      },
+      {
+        "hanzi": "便利商店",
+        "pinyin": "biànlì shāngdiàn",
+        "definition": "convenience store"
+      },
+      {
+        "hanzi": "同學",
+        "pinyin": "tóngxué",
+        "definition": "classmate"
+      },
+      {
+        "hanzi": "參觀",
+        "pinyin": "cānguān",
+        "definition": "to visit (an institution)"
+      },
+      {
+        "hanzi": "古代",
+        "pinyin": "gǔdài",
+        "definition": "ancient times"
+      },
+      {
+        "hanzi": "騎",
+        "pinyin": "qí",
+        "definition": "to ride"
+      },
+      {
+        "hanzi": "機車",
+        "pinyin": "jīchē",
+        "definition": "motorcycle, scooter"
+      },
+      {
+        "hanzi": "載",
+        "pinyin": "zài",
+        "definition": "to give someone a ride (on / in a vehicle, e.g. motorcycle, bicycle or car)"
+      },
+      {
+        "hanzi": "捷運",
+        "pinyin": "jiéyùn",
+        "definition": "Mass Rapid Transit (MRT)"
+      },
+      {
+        "hanzi": "比",
+        "pinyin": "bǐ",
+        "definition": "(more...) than"
+      },
+      {
+        "hanzi": "故宮博物院（故宮）",
+        "pinyin": "Gùgōng Bówùyuàn",
+        "definition": "National Palace Museum"
+      },
+      {
+        "hanzi": "中國",
+        "pinyin": "Zhōngguó",
+        "definition": "China"
+      },
+      {
+        "hanzi": "公共汽車（公車）",
+        "pinyin": "gōnggòng qìchē",
+        "definition": "bus"
+      },
+      {
+        "hanzi": "不行",
+        "pinyin": "bù xíng",
+        "definition": "will not do"
+      },
+      {
+        "hanzi": "計程車",
+        "pinyin": "jìchéngchē",
+        "definition": "taxi"
+      },
+      {
+        "hanzi": "差不多",
+        "pinyin": "chābùduō",
+        "definition": "about the same"
+      }
+    ],
+    "dialogues": [
+      {
+        "title": "What time is it?",
+        "lines": [
+          {
+            "speaker": "李明華",
+            "zh": "現在幾點了？",
+            "py": "Xiànzài jǐ diǎn le?",
+            "en": "What time is it now?"
+          },
+          {
+            "speaker": "陳月美",
+            "zh": "現在是早上八點一刻。",
+            "py": "Xiànzài shì zǎoshàng bādiǎn yíkè.",
+            "en": "It's 8:15 in the morning."
+          },
+          {
+            "speaker": "李明華",
+            "zh": "你有課嗎？你幾點上課？",
+            "py": "Nǐ yǒu kè ma? Nǐ jǐ diǎn shàngkè?",
+            "en": "Do you have class? What time do you have class?"
+          },
+          {
+            "speaker": "陳月美",
+            "zh": "我有課。我九點半上課。你呢？",
+            "py": "Wǒ yǒu kè. Wǒ jiǔdiǎn bàn shàngkè. Nǐ ne?",
+            "en": "I have class. I have class at 9:30. And you?"
+          },
+          {
+            "speaker": "李明華",
+            "zh": "我今天沒有課。我想去圖書館看書。",
+            "py": "Wǒ jīntiān méiyǒu kè. Wǒ xiǎng qù túshūguǎn kànshū.",
+            "en": "I don't have class today. I want to go to the library to read."
+          },
+          {
+            "speaker": "陳月美",
+            "zh": "你幾點去？",
+            "py": "Nǐ jǐ diǎn qù?",
+            "en": "What time are you going?"
+          },
+          {
+            "speaker": "李明華",
+            "zh": "我十點去。中午我們一起吃午飯吧。",
+            "py": "Wǒ shídiǎn qù. Zhōngwǔ wǒmen yìqǐ chī wǔfàn ba.",
+            "en": "I'm going at ten. Let's have lunch together at noon."
+          },
+          {
+            "speaker": "陳月美",
+            "zh": "好啊。十二點半在門口見。",
+            "py": "Hǎo a. Shí'èrdiǎn bàn zài ménkǒu jiàn.",
+            "en": "Sure. See you at the door at 12:30."
+          }
+        ]
+      },
+      {
+        "title": "Evening Activities",
+        "lines": [
+          {
+            "speaker": "王開文",
+            "zh": "你每天晚上都做什麼？",
+            "py": "Nǐ měitiān wǎnshàng dōu zuò shénme?",
+            "en": "What do you do every evening?"
+          },
+          {
+            "speaker": "馬安同",
+            "zh": "我通常七點吃晚飯，然後練習說中文。",
+            "py": "Wǒ tōngcháng qīdiǎn chī wǎnfàn, ránhòu liànxí shuō Zhōngwén.",
+            "en": "I usually eat dinner at seven, then practice speaking Chinese."
+          },
+          {
+            "speaker": "王開文",
+            "zh": "你幾點睡覺？",
+            "py": "Nǐ jǐ diǎn shuìjiào?",
+            "en": "What time do you go to sleep?"
+          },
+          {
+            "speaker": "馬安同",
+            "zh": "我十一點睡覺。你呢？",
+            "py": "Wǒ shíyīdiǎn shuìjiào. Nǐ ne?",
+            "en": "I sleep at eleven. And you?"
+          },
+          {
+            "speaker": "王開文",
+            "zh": "我比較晚，我常在十二點以後才睡。",
+            "py": "Wǒ bǐjiào wǎn, wǒ cháng zài shí'èrdiǎn yǐhòu cái shuì.",
+            "en": "I'm later; I often don't sleep until after twelve."
+          },
+          {
+            "speaker": "馬安同",
+            "zh": "那太晚了。明天早上你要早起嗎？",
+            "py": "Nà tài wǎn le. Míngtiān zǎoshàng nǐ yào zǎoqǐ ma?",
+            "en": "That's too late. Do you have to get up early tomorrow morning?"
+          },
+          {
+            "speaker": "王開文",
+            "zh": "是的，我明天早上六點半要起床去運動。",
+            "py": "Shìde, wǒ míngtiān zǎoshàng liùdiǎn bàn yào qǐchuáng qù yùndòng.",
+            "en": "Yes, I have to get up at 6:30 tomorrow morning to exercise."
+          }
+        ]
+      }
+    ],
+    "listening": [
+      {
+        "title": "Daily Schedule",
+        "text": "陳月美每天都很忙。她早上八點起床，九點半上課。中午十二點半和李明華吃午飯。下午她常去圖書館。晚上七點吃完飯以後，她練習中文，十一點睡覺。",
+        "py": "Chén Yuèměi měitiān dōu hěn máng. Tā zǎoshàng bādiǎn qǐchuáng, jiǔdiǎn bàn shàngkè. Zhōngwǔ shí'èrdiǎn bàn hé Lǐ Mínghuá chī wǔfàn. Xiàwǔ tā cháng qù túshūguǎn. Wǎnshàng qīdiǎn chī wán fàn yǐhòu, tā liànxí Zhōngwén, shíyīdiǎn shuìjiào.",
+        "questions": [
+          {
+            "q": "月美幾點起床？",
+            "options": [
+              "六點",
+              "七點",
+              "八點",
+              "九點"
+            ],
+            "answer": "八點"
+          },
+          {
+            "q": "她什麼時候吃午飯？",
+            "options": [
+              "十一點",
+              "十二點",
+              "十二點半",
+              "一點"
+            ],
+            "answer": "十二點半"
+          },
+          {
+            "q": "她幾點睡覺？",
+            "options": [
+              "十點",
+              "十一點",
+              "十二點",
+              "一點"
+            ],
+            "answer": "十一點"
+          }
+        ]
+      },
+      {
+        "title": "Early Bird",
+        "text": "王開文喜歡早起運動。他每天早上六點半起床，然後去打籃球。馬安同覺得他很努力。開文晚上十二點才睡覺，但是他覺得精神很好。",
+        "py": "Wáng Kāiwén xǐhuān zǎoqǐ yùndòng. Tā měitiān zǎoshàng liùdiǎn bàn qǐchuáng, ránhòu qù dǎ lánqiú. Mǎ Āntóng juéde tā hěn nǔlì. Kāiwén wǎnshàng shí'èrdiǎn cái shuìjiào, dànshì tā juéde jīngshén hěn hǎo.",
+        "questions": [
+          {
+            "q": "開文早上幾點起床？",
+            "options": [
+              "五點",
+              "六點",
+              "六點半",
+              "七點"
+            ],
+            "answer": "六點半"
+          },
+          {
+            "q": "他起床以後做什麼？",
+            "options": [
+              "吃早飯",
+              "睡覺",
+              "打籃球",
+              "看書"
+            ],
+            "answer": "打籃球"
+          },
+          {
+            "q": "他幾點睡覺？",
+            "options": [
+              "十點",
+              "十一點",
+              "十二點",
+              "一點"
+            ],
+            "answer": "十二點"
+          }
+        ]
+      }
+    ],
+    "readings": [
+      {
+        "title": "Learning about Time",
+        "text": "在中文裡，說時間很簡單。你可以說『點』和『分』。例如：八點三十分，也可以說『八點半』。如果你想說差一刻，可以說『八點四十五分』或者『九點差一刻』。多練習就會了。",
+        "py": "Zài Zhōngwén lǐ, shuō shíjiān hěn jiǎndān. Nǐ kěyǐ shuō \"diǎn\" hé \"fēn\". Lìrú: bādiǎn sānshí fēn, yě kěyǐ shuō \"bādiǎn bàn\". Rúguǒ nǐ xiǎng shuō chà yíkè, kěyǐ shuō \"bādiǎn sìshíwǔ fēn\" huòzhě \"jiǔdiǎn chà yíkè\". Duō liànxí jiù huì le.",
+        "questions": [
+          {
+            "q": "8:30 可以怎麼說？",
+            "options": [
+              "八點刻",
+              "八點半",
+              "八點分",
+              "九點差"
+            ],
+            "answer": "八點半"
+          },
+          {
+            "q": "8:45 可以怎麼說？",
+            "options": [
+              "九點差一刻",
+              "八點一刻",
+              "八點三刻",
+              "九點一刻"
+            ],
+            "answer": "九點差一刻"
+          },
+          {
+            "q": "學會說時間難不難？",
+            "options": [
+              "很難",
+              "很簡單",
+              "不知道",
+              "沒意思"
+            ],
+            "answer": "很簡單"
+          }
+        ]
+      },
+      {
+        "title": "A Productive Day",
+        "text": "一個好的日程安排很重要。早上起床後先喝水，然後吃健康的早餐。上午是學習最好的時間。下午可以安排一些運動。晚上早點睡覺，保證充足的休息。這樣你每天都會有很好的精神。",
+        "py": "Yígè hǎo de rìchéng ānpái hěn zhòngyào. Zǎoshàng qǐchuáng hòu xiān hē shuǐ, ránhòu chī jiànkāng de zǎocān. Shàngwǔ shì xuéxí zuìhǎo de shíjiān. Xiàwǔ kěyǐ ānpái yìxiē yùndòng. Wǎnshàng zǎodiǎn shuìjiào, bǎozhèng chōngzú de xiūxí. Zhèyàng nǐ měitiān dōu huì yǒu hěnhǎo de jīngshén.",
+        "questions": [
+          {
+            "q": "什麼時候是學習最好的時間？",
+            "options": [
+              "早上",
+              "上午",
+              "下午",
+              "晚上"
+            ],
+            "answer": "上午"
+          },
+          {
+            "q": "下午可以安排什麼？",
+            "options": [
+              "睡覺",
+              "運動",
+              "吃大餐",
+              "看電視"
+            ],
+            "answer": "運動"
+          },
+          {
+            "q": "晚上應該做什麼？",
+            "options": [
+              "早點睡覺",
+              "熬夜",
+              "不睡覺",
+              "去跳舞"
+            ],
+            "answer": "早點睡覺"
+          }
+        ]
+      }
+    ],
+    "quizzes": [
+      {
+        "type": "choice",
+        "question": "What is 'Morning'?",
+        "options": [
+          "早上",
+          "中午",
+          "晚上",
+          "下午"
+        ],
+        "answer": "早上"
+      },
+      {
+        "type": "fill",
+        "sentence": "你每天幾點 ___ ？",
+        "answer": "起床"
+      }
+    ]
+  },
+  {
+    "id": "b1_c9",
+    "book": 1,
+    "chapter": 9,
+    "title": "Travel & Transportation",
+    "subtitle": "Going to Taipei",
+    "intro": "Learn about different modes of travel and transportation.",
+    "vocab": [
+      {
+        "hanzi": "星期 + number",
+        "pinyin": "xīngqí",
+        "definition": "week"
+      },
+      {
+        "hanzi": "回國",
+        "pinyin": "huíguó",
+        "definition": "to return to one's country"
+      },
+      {
+        "hanzi": "打算",
+        "pinyin": "dǎsuàn",
+        "definition": "to plan to"
+      },
+      {
+        "hanzi": "電視",
+        "pinyin": "diànshì",
+        "definition": "TV"
+      },
+      {
+        "hanzi": "影片",
+        "pinyin": "yǐngpiàn",
+        "definition": "film"
+      },
+      {
+        "hanzi": "旅行",
+        "pinyin": "lǚxíng",
+        "definition": "to travel"
+      },
+      {
+        "hanzi": "功課",
+        "pinyin": "gōngkè",
+        "definition": "homework"
+      },
+      {
+        "hanzi": "出去",
+        "pinyin": "chūqù",
+        "definition": "to go out"
+      },
+      {
+        "hanzi": "大概",
+        "pinyin": "dàgài",
+        "definition": "approximately, about, probably"
+      },
+      {
+        "hanzi": "放假",
+        "pinyin": "fàngjià",
+        "definition": "to have a holiday"
+      },
+      {
+        "hanzi": "下個星期",
+        "pinyin": "xià ge xīngqí",
+        "definition": "next week"
+      },
+      {
+        "hanzi": "有時候",
+        "pinyin": "yǒu shíhòu",
+        "definition": "sometimes"
+      },
+      {
+        "hanzi": "多久",
+        "pinyin": "duō jiǔ",
+        "definition": "how long"
+      },
+      {
+        "hanzi": "臺東",
+        "pinyin": "Táidōng",
+        "definition": "name of one of the major cities on the southeastern coast of Taiwan"
+      },
+      {
+        "hanzi": "女 + noun",
+        "pinyin": "nǚ",
+        "definition": "girl-, female-"
+      },
+      {
+        "hanzi": "number + 月",
+        "pinyin": "yuè",
+        "definition": "month of a year"
+      },
+      {
+        "hanzi": "number + 號",
+        "pinyin": "hào",
+        "definition": "date, day of a month"
+      },
+      {
+        "hanzi": "帶",
+        "pinyin": "dài",
+        "definition": "to take"
+      },
+      {
+        "hanzi": "她",
+        "pinyin": "tā",
+        "definition": "she, her"
+      },
+      {
+        "hanzi": "還",
+        "pinyin": "hái",
+        "definition": "still, additionally"
+      },
+      {
+        "hanzi": "建議",
+        "pinyin": "jiànyì",
+        "definition": "suggestion"
+      },
+      {
+        "hanzi": "夜市",
+        "pinyin": "yèshì",
+        "definition": "night market"
+      },
+      {
+        "hanzi": "應該",
+        "pinyin": "yīnggāi",
+        "definition": "should"
+      },
+      {
+        "hanzi": "逛",
+        "pinyin": "guàng",
+        "definition": "to wander around, to look around"
+      },
+      {
+        "hanzi": "特別",
+        "pinyin": "tèbié",
+        "definition": "special"
+      },
+      {
+        "hanzi": "茶館",
+        "pinyin": "cháguǎn",
+        "definition": "tea house"
+      },
+      {
+        "hanzi": "決定",
+        "pinyin": "juédìng",
+        "definition": "to decide"
+      },
+      {
+        "hanzi": "要是",
+        "pinyin": "yàoshì",
+        "definition": "if"
+      },
+      {
+        "hanzi": "就",
+        "pinyin": "jiù",
+        "definition": "then"
+      },
+      {
+        "hanzi": "貓空",
+        "pinyin": "Māokōng",
+        "definition": "name of a must-see place in Taipei to visit for fine tea and scenery"
+      }
+    ],
+    "dialogues": [
+      {
+        "title": "Conversation about Travel & Transportation",
+        "lines": [
+          {
+            "speaker": "A",
+            "zh": "你好！關於Travel & Transportation，你覺得怎麼樣？",
+            "py": "Nǐ hǎo! Guānyú Travel & Transportation, nǐ juéde zěnmeyàng?",
+            "en": "Hello! Regarding Travel & Transportation, what do you think?"
+          },
+          {
+            "speaker": "B",
+            "zh": "我覺得非常有意思。我也想多了解一點。",
+            "py": "Wǒ juéde fēicháng yǒuyìsi. Wǒ yě xiǎng duō liǎojiě yìdiǎn.",
+            "en": "I think it's very interesting. I also want to learn more about it."
+          },
+          {
+            "speaker": "A",
+            "zh": "那我們週末一起去看看，好不好？",
+            "py": "Nà wǒmen zhōumò yìqǐ qù kànkàn, hǎo bù hǎo?",
+            "en": "Then let's go take a look together this weekend, okay?"
+          },
+          {
+            "speaker": "B",
+            "zh": "好啊。要帶什麼東西嗎？",
+            "py": "Hǎo a. Yào dài shénme dōngxī ma?",
+            "en": "Sure. Do we need to bring anything?"
+          },
+          {
+            "speaker": "A",
+            "zh": "帶一支手機和一點錢就可以了。",
+            "py": "Dài yìzhī shǒujī hé yìdiǎn qián jiù kěyǐ le.",
+            "en": "Just bring a phone and some money."
+          },
+          {
+            "speaker": "B",
+            "zh": "沒問題。我們幾點見面？",
+            "py": "Méi wèntí. Wǒmen jǐ diǎn jiànmiàn?",
+            "en": "No problem. What time shall we meet?"
+          },
+          {
+            "speaker": "A",
+            "zh": "星期六早上十點，在學校門口見。",
+            "py": "Xīngqīliù zǎoshàng shídiǎn, zài xuéxiào ménkǒu jiàn.",
+            "en": "Saturday morning at ten, meet at the school gate."
+          },
+          {
+            "speaker": "B",
+            "zh": "太好了，不見不散！",
+            "py": "Tài hǎo le, bújiàn búsàn!",
+            "en": "Great, be there or be square!"
+          }
+        ]
+      },
+      {
+        "title": "Planning Travel & Transportation",
+        "lines": [
+          {
+            "speaker": "A",
+            "zh": "你準備好了嗎？我們今天要討論Travel & Transportation。",
+            "py": "Nǐ zhǔnbèi hǎo le ma? Wǒmen jīntiān yào tǎolùn Travel & Transportation.",
+            "en": "Are you ready? Today we are going to discuss Travel & Transportation."
+          },
+          {
+            "speaker": "B",
+            "zh": "我準備好了。我查了一些資料。",
+            "py": "Wǒ zhǔnbèi hǎo le. Wǒ chá le yìxiē zīliào.",
+            "en": "I'm ready. I've looked up some information."
+          },
+          {
+            "speaker": "A",
+            "zh": "很好。你有什麼問題想問嗎？",
+            "py": "Hěn hǎo. Nǐ yǒu shénme wèntí xiǎng wèn ma?",
+            "en": "Good. Do you have any questions you'd like to ask?"
+          },
+          {
+            "speaker": "B",
+            "zh": "我想知道在台灣，Travel & Transportation有什麼特別的地方？",
+            "py": "Wǒ xiǎng zhīdào zài Táiwān, Travel & Transportation yǒu shénme tèbié de dìfāng?",
+            "en": "I want to know, in Taiwan, what is special about Travel & Transportation?"
+          },
+          {
+            "speaker": "A",
+            "zh": "這裡的Travel & Transportation非常有特色，大家都很喜歡。",
+            "py": "Zhèlǐ de Travel & Transportation fēicháng yǒu tèsè, dàjiā dōu hěn xǐhuān.",
+            "en": "The Travel & Transportation here has a lot of character; everyone likes it."
+          },
+          {
+            "speaker": "B",
+            "zh": "聽起來很不錯。我們什麼時候開始？",
+            "py": "Tīng qǐlái hěn búcuò. Wǒmen shénme shíhòu kāishǐ?",
+            "en": "Sounds great. When do we start?"
+          },
+          {
+            "speaker": "A",
+            "zh": "現在就開始吧。請看這張地圖。",
+            "py": "Xiànzài jiù kāishǐ ba. Qǐng kàn zhè zhāng dìtú.",
+            "en": "Let's start now. Please look at this map."
+          },
+          {
+            "speaker": "B",
+            "zh": "好的，我準備好了。",
+            "py": "Hǎode, wǒ zhǔnbèi hǎo le.",
+            "en": "Okay, I'm ready."
+          }
+        ]
+      }
+    ],
+    "listening": [
+      {
+        "title": "Listening: About Travel & Transportation",
+        "text": "在台灣，Travel & Transportation是生活中很重要的一部分。不論是學生還是老師，大家都會討論這個話題。如果你能用中文說Travel & Transportation，大家會覺得你的中文進步很快。",
+        "py": "Zài Táiwān, Travel & Transportation shì shēnghuó zhōng hěn zhòngyào de yíbùfèn. Búlùn shì xuésheng háishì lǎoshī, dàjiā dōu huì tǎolùn zhège huàtí. Rúguǒ nǐ néng yòng Zhōngwén shuō Travel & Transportation, dàjiā huì juéde nǐ de Zhōngwén jìnbù hěn kuài.",
+        "questions": [
+          {
+            "q": "這段話主要在說什麼？",
+            "options": [
+              "Travel & Transportation",
+              "買菜",
+              "看球",
+              "唱歌"
+            ],
+            "answer": "Travel & Transportation"
+          },
+          {
+            "q": "誰會討論這個話題？",
+            "options": [
+              "只有學生",
+              "只有老師",
+              "大家都會",
+              "沒人討論"
+            ],
+            "answer": "大家都會"
+          },
+          {
+            "q": "學會說這個會讓人覺得你的中文怎麼樣？",
+            "options": [
+              "退步了",
+              "沒進步",
+              "進步很快",
+              "很難聽"
+            ],
+            "answer": "進步很快"
+          }
+        ]
+      },
+      {
+        "title": "Listening: Tips for Travel & Transportation",
+        "text": "學習Travel & Transportation的時候，最重要的是多聽多說。你可以去書店買一些相關的書來看。不要怕說錯，因為練習是進步最好的方法。",
+        "py": "Xuéxí Travel & Transportation de shíhòu, zuì zhòngyào de shì duō tīng duō shuō. Nǐ kěyǐ qù shūdiàn mǎi yìxiē xiāngguān de shū lái kàn. Búyào pà shuōcuò, yīnwèi liànxí shì jìnbù zuìhǎo de fāngfǎ.",
+        "questions": [
+          {
+            "q": "學習什麼最重要？",
+            "options": [
+              "睡覺",
+              "多聽多說",
+              "不說話",
+              "不看書"
+            ],
+            "answer": "多聽多說"
+          },
+          {
+            "q": "可以去哪裡買書？",
+            "options": [
+              "醫院",
+              "書店",
+              "銀行",
+              "機場"
+            ],
+            "answer": "書店"
+          },
+          {
+            "q": "為什麼不要怕說錯？",
+            "options": [
+              "因為沒關係",
+              "因為練習是進步的方法",
+              "因為別人在笑你",
+              "因為很簡單"
+            ],
+            "answer": "因為練習是進步的方法"
+          }
+        ]
+      }
+    ],
+    "readings": [
+      {
+        "title": "Reading: Travel & Transportation in Taiwan",
+        "text": "台灣的Travel & Transportation很有特色。每年都有很多人來這裡參觀。如果你感興趣，可以在網上找一些資料。了解當地的文化會讓你的旅程更有趣。歡迎你來台灣體驗這裡的Travel & Transportation。",
+        "py": "Táiwān de Travel & Transportation hěn yǒu tèsè. Měinián dōu yǒu hěnduō rén lái zhèlǐ cānguān. Rúguǒ nǐ gǎn xìngqù, kěyǐ zài wǎngshàng zhǎo yìxiē zīliào. Liǎojiě dāngdì de wénhuà huì ràng nǐ de lǚchéng gèng yǒuqù. Huānyíng nǐ lái Táiwān tǐyàn zhèlǐ de Travel & Transportation.",
+        "questions": [
+          {
+            "q": "台灣的什麼很有特色？",
+            "options": [
+              "Travel & Transportation",
+              "天氣",
+              "交通",
+              "語言"
+            ],
+            "answer": "Travel & Transportation"
+          },
+          {
+            "q": "想了解可以去哪裡找資料？",
+            "options": [
+              "山上",
+              "網上",
+              "海底",
+              "月球"
+            ],
+            "answer": "網上"
+          },
+          {
+            "q": "了解文化有什麼好處？",
+            "options": [
+              "沒好處",
+              "讓旅程更有趣",
+              "很累",
+              "很貴"
+            ],
+            "answer": "讓旅程更有趣"
+          }
+        ]
+      },
+      {
+        "title": "Reading: How to Study Travel & Transportation",
+        "text": "對初學者來說，學習Travel & Transportation需要耐心。你可以從簡單的詞彙開始學起。每天花一點時間練習，你就會發現自己越來越有信心。加油，你一定可以學好Travel & Transportation的！",
+        "py": "Duì chūxuézhě lái shuō, xuéxí Travel & Transportation xūyào nàixīn. Nǐ kěyǐ cóng jiǎndān de cíhuì kāishǐ xué qǐ. Měitiān huā yìdiǎn shíjiān liànxí, nǐ jiù huì fāxiàn zìjǐ yuèlái yuè yǒu xìnxīn. Jiāyóu, nǐ yídìng kěyǐ xué hǎo Travel & Transportation de!",
+        "questions": [
+          {
+            "q": "學習這個需要什麼？",
+            "options": [
+              "金錢",
+              "耐心",
+              "體力",
+              "名聲"
+            ],
+            "answer": "耐心"
+          },
+          {
+            "q": "應該從什麼開始學起？",
+            "options": [
+              "難的字",
+              "簡單的詞彙",
+              "整本書",
+              "不學"
+            ],
+            "answer": "簡單的詞彙"
+          },
+          {
+            "q": "每天練習會怎麼樣？",
+            "options": [
+              "越來越沒信心",
+              "越來越有信心",
+              "沒變化",
+              "很累"
+            ],
+            "answer": "越來越有信心"
+          }
+        ]
+      }
+    ],
+    "quizzes": [
+      {
+        "type": "choice",
+        "question": "Which of these is 'Train'?",
+        "options": [
+          "飛機",
+          "火車",
+          "捷運",
+          "公車"
+        ],
+        "answer": "火車"
+      },
+      {
+        "type": "fill",
+        "sentence": "我想買一張去台北的 ___ 。",
+        "answer": "車票"
+      }
+    ]
+  },
+  {
+    "id": "b1_c10",
+    "book": 1,
+    "chapter": 10,
+    "title": "Housing & Moving",
+    "subtitle": "Finding a place",
+    "intro": "Talk about renting an apartment and moving.",
+    "vocab": [
+      {
+        "hanzi": "水果",
+        "pinyin": "shuǐguǒ",
+        "definition": "fruit"
+      },
+      {
+        "hanzi": "黃色",
+        "pinyin": "huángsè",
+        "definition": "yellow"
+      },
+      {
+        "hanzi": "芒果",
+        "pinyin": "mángguǒ",
+        "definition": "mango"
+      },
+      {
+        "hanzi": "給",
+        "pinyin": "gěi",
+        "definition": "to give"
+      },
+      {
+        "hanzi": "塊",
+        "pinyin": "kuài",
+        "definition": "measure word for pieces of food (e.g., meat, cake)"
+      },
+      {
+        "hanzi": "香",
+        "pinyin": "xiāng",
+        "definition": "fragrant"
+      },
+      {
+        "hanzi": "甜",
+        "pinyin": "tián",
+        "definition": "sweet (taste)"
+      },
+      {
+        "hanzi": "紅色",
+        "pinyin": "hóngsè",
+        "definition": "red"
+      },
+      {
+        "hanzi": "西瓜",
+        "pinyin": "xīguā",
+        "definition": "watermelon"
+      },
+      {
+        "hanzi": "吧",
+        "pinyin": "ba",
+        "definition": "sentence-final particle for guessing"
+      },
+      {
+        "hanzi": "對",
+        "pinyin": "duì",
+        "definition": "correct, right"
+      },
+      {
+        "hanzi": "以前",
+        "pinyin": "yǐqián",
+        "definition": "before"
+      },
+      {
+        "hanzi": "機會",
+        "pinyin": "jīhuì",
+        "definition": "opportunity"
+      },
+      {
+        "hanzi": "請",
+        "pinyin": "qǐng",
+        "definition": "to treat sb to sth"
+      },
+      {
+        "hanzi": "吃吃看",
+        "pinyin": "chīchīkàn",
+        "definition": "to have a taste, try it, taste it"
+      },
+      {
+        "hanzi": "拍",
+        "pinyin": "pāi",
+        "definition": "to take (pictures)"
+      },
+      {
+        "hanzi": "笑",
+        "pinyin": "xiào",
+        "definition": "to laugh, to smile"
+      },
+      {
+        "hanzi": "開心",
+        "pinyin": "kāixīn",
+        "definition": "happy"
+      },
+      {
+        "hanzi": "穿",
+        "pinyin": "chuān",
+        "definition": "to wear, to put on"
+      },
+      {
+        "hanzi": "衣服",
+        "pinyin": "yīfú",
+        "definition": "clothes"
+      },
+      {
+        "hanzi": "旅館",
+        "pinyin": "lǚguǎn",
+        "definition": "hotel"
+      },
+      {
+        "hanzi": "太太",
+        "pinyin": "tàitai",
+        "definition": "wife"
+      },
+      {
+        "hanzi": "男 + noun",
+        "pinyin": "nán",
+        "definition": "boy-, male-"
+      },
+      {
+        "hanzi": "矮",
+        "pinyin": "ǎi",
+        "definition": "short (height)"
+      },
+      {
+        "hanzi": "高",
+        "pinyin": "gāo",
+        "definition": "tall"
+      },
+      {
+        "hanzi": "弟弟",
+        "pinyin": "dìdi",
+        "definition": "younger brother"
+      },
+      {
+        "hanzi": "乾淨",
+        "pinyin": "gānjìng",
+        "definition": "clean"
+      },
+      {
+        "hanzi": "窗戶",
+        "pinyin": "chuānghù",
+        "definition": "window"
+      },
+      {
+        "hanzi": "往",
+        "pinyin": "wǎng",
+        "definition": "toward, to"
+      },
+      {
+        "hanzi": "藍色",
+        "pinyin": "lánsè",
+        "definition": "blue"
+      },
+      {
+        "hanzi": "因為",
+        "pinyin": "yīnwèi",
+        "definition": "because"
+      },
+      {
+        "hanzi": "住",
+        "pinyin": "zhù",
+        "definition": "to stay"
+      },
+      {
+        "hanzi": "上個月",
+        "pinyin": "shàng ge yuè",
+        "definition": "last month"
+      },
+      {
+        "hanzi": "這些",
+        "pinyin": "zhèxiē",
+        "definition": "these"
+      }
+    ],
+    "dialogues": [
+      {
+        "title": "Conversation about Housing & Moving",
+        "lines": [
+          {
+            "speaker": "A",
+            "zh": "你好！關於Housing & Moving，你覺得怎麼樣？",
+            "py": "Nǐ hǎo! Guānyú Housing & Moving, nǐ juéde zěnmeyàng?",
+            "en": "Hello! Regarding Housing & Moving, what do you think?"
+          },
+          {
+            "speaker": "B",
+            "zh": "我覺得非常有意思。我也想多了解一點。",
+            "py": "Wǒ juéde fēicháng yǒuyìsi. Wǒ yě xiǎng duō liǎojiě yìdiǎn.",
+            "en": "I think it's very interesting. I also want to learn more about it."
+          },
+          {
+            "speaker": "A",
+            "zh": "那我們週末一起去看看，好不好？",
+            "py": "Nà wǒmen zhōumò yìqǐ qù kànkàn, hǎo bù hǎo?",
+            "en": "Then let's go take a look together this weekend, okay?"
+          },
+          {
+            "speaker": "B",
+            "zh": "好啊。要帶什麼東西嗎？",
+            "py": "Hǎo a. Yào dài shénme dōngxī ma?",
+            "en": "Sure. Do we need to bring anything?"
+          },
+          {
+            "speaker": "A",
+            "zh": "帶一支手機和一點錢就可以了。",
+            "py": "Dài yìzhī shǒujī hé yìdiǎn qián jiù kěyǐ le.",
+            "en": "Just bring a phone and some money."
+          },
+          {
+            "speaker": "B",
+            "zh": "沒問題。我們幾點見面？",
+            "py": "Méi wèntí. Wǒmen jǐ diǎn jiànmiàn?",
+            "en": "No problem. What time shall we meet?"
+          },
+          {
+            "speaker": "A",
+            "zh": "星期六早上十點，在學校門口見。",
+            "py": "Xīngqīliù zǎoshàng shídiǎn, zài xuéxiào ménkǒu jiàn.",
+            "en": "Saturday morning at ten, meet at the school gate."
+          },
+          {
+            "speaker": "B",
+            "zh": "太好了，不見不散！",
+            "py": "Tài hǎo le, bújiàn búsàn!",
+            "en": "Great, be there or be square!"
+          }
+        ]
+      },
+      {
+        "title": "Planning Housing & Moving",
+        "lines": [
+          {
+            "speaker": "A",
+            "zh": "你準備好了嗎？我們今天要討論Housing & Moving。",
+            "py": "Nǐ zhǔnbèi hǎo le ma? Wǒmen jīntiān yào tǎolùn Housing & Moving.",
+            "en": "Are you ready? Today we are going to discuss Housing & Moving."
+          },
+          {
+            "speaker": "B",
+            "zh": "我準備好了。我查了一些資料。",
+            "py": "Wǒ zhǔnbèi hǎo le. Wǒ chá le yìxiē zīliào.",
+            "en": "I'm ready. I've looked up some information."
+          },
+          {
+            "speaker": "A",
+            "zh": "很好。你有什麼問題想問嗎？",
+            "py": "Hěn hǎo. Nǐ yǒu shénme wèntí xiǎng wèn ma?",
+            "en": "Good. Do you have any questions you'd like to ask?"
+          },
+          {
+            "speaker": "B",
+            "zh": "我想知道在台灣，Housing & Moving有什麼特別的地方？",
+            "py": "Wǒ xiǎng zhīdào zài Táiwān, Housing & Moving yǒu shénme tèbié de dìfāng?",
+            "en": "I want to know, in Taiwan, what is special about Housing & Moving?"
+          },
+          {
+            "speaker": "A",
+            "zh": "這裡的Housing & Moving非常有特色，大家都很喜歡。",
+            "py": "Zhèlǐ de Housing & Moving fēicháng yǒu tèsè, dàjiā dōu hěn xǐhuān.",
+            "en": "The Housing & Moving here has a lot of character; everyone likes it."
+          },
+          {
+            "speaker": "B",
+            "zh": "聽起來很不錯。我們什麼時候開始？",
+            "py": "Tīng qǐlái hěn búcuò. Wǒmen shénme shíhòu kāishǐ?",
+            "en": "Sounds great. When do we start?"
+          },
+          {
+            "speaker": "A",
+            "zh": "現在就開始吧。請看這張地圖。",
+            "py": "Xiànzài jiù kāishǐ ba. Qǐng kàn zhè zhāng dìtú.",
+            "en": "Let's start now. Please look at this map."
+          },
+          {
+            "speaker": "B",
+            "zh": "好的，我準備好了。",
+            "py": "Hǎode, wǒ zhǔnbèi hǎo le.",
+            "en": "Okay, I'm ready."
+          }
+        ]
+      }
+    ],
+    "listening": [
+      {
+        "title": "Listening: About Housing & Moving",
+        "text": "在台灣，Housing & Moving是生活中很重要的一部分。不論是學生還是老師，大家都會討論這個話題。如果你能用中文說Housing & Moving，大家會覺得你的中文進步很快。",
+        "py": "Zài Táiwān, Housing & Moving shì shēnghuó zhōng hěn zhòngyào de yíbùfèn. Búlùn shì xuésheng háishì lǎoshī, dàjiā dōu huì tǎolùn zhège huàtí. Rúguǒ nǐ néng yòng Zhōngwén shuō Housing & Moving, dàjiā huì juéde nǐ de Zhōngwén jìnbù hěn kuài.",
+        "questions": [
+          {
+            "q": "這段話主要在說什麼？",
+            "options": [
+              "Housing & Moving",
+              "買菜",
+              "看球",
+              "唱歌"
+            ],
+            "answer": "Housing & Moving"
+          },
+          {
+            "q": "誰會討論這個話題？",
+            "options": [
+              "只有學生",
+              "只有老師",
+              "大家都會",
+              "沒人討論"
+            ],
+            "answer": "大家都會"
+          },
+          {
+            "q": "學會說這個會讓人覺得你的中文怎麼樣？",
+            "options": [
+              "退步了",
+              "沒進步",
+              "進步很快",
+              "很難聽"
+            ],
+            "answer": "進步很快"
+          }
+        ]
+      },
+      {
+        "title": "Listening: Tips for Housing & Moving",
+        "text": "學習Housing & Moving的時候，最重要的是多聽多說。你可以去書店買一些相關的書來看。不要怕說錯，因為練習是進步最好的方法。",
+        "py": "Xuéxí Housing & Moving de shíhòu, zuì zhòngyào de shì duō tīng duō shuō. Nǐ kěyǐ qù shūdiàn mǎi yìxiē xiāngguān de shū lái kàn. Búyào pà shuōcuò, yīnwèi liànxí shì jìnbù zuìhǎo de fāngfǎ.",
+        "questions": [
+          {
+            "q": "學習什麼最重要？",
+            "options": [
+              "睡覺",
+              "多聽多說",
+              "不說話",
+              "不看書"
+            ],
+            "answer": "多聽多說"
+          },
+          {
+            "q": "可以去哪裡買書？",
+            "options": [
+              "醫院",
+              "書店",
+              "銀行",
+              "機場"
+            ],
+            "answer": "書店"
+          },
+          {
+            "q": "為什麼不要怕說錯？",
+            "options": [
+              "因為沒關係",
+              "因為練習是進步的方法",
+              "因為別人在笑你",
+              "因為很簡單"
+            ],
+            "answer": "因為練習是進步的方法"
+          }
+        ]
+      }
+    ],
+    "readings": [
+      {
+        "title": "Reading: Housing & Moving in Taiwan",
+        "text": "台灣的Housing & Moving很有特色。每年都有很多人來這裡參觀。如果你感興趣，可以在網上找一些資料。了解當地的文化會讓你的旅程更有趣。歡迎你來台灣體驗這裡的Housing & Moving。",
+        "py": "Táiwān de Housing & Moving hěn yǒu tèsè. Měinián dōu yǒu hěnduō rén lái zhèlǐ cānguān. Rúguǒ nǐ gǎn xìngqù, kěyǐ zài wǎngshàng zhǎo yìxiē zīliào. Liǎojiě dāngdì de wénhuà huì ràng nǐ de lǚchéng gèng yǒuqù. Huānyíng nǐ lái Táiwān tǐyàn zhèlǐ de Housing & Moving.",
+        "questions": [
+          {
+            "q": "台灣的什麼很有特色？",
+            "options": [
+              "Housing & Moving",
+              "天氣",
+              "交通",
+              "語言"
+            ],
+            "answer": "Housing & Moving"
+          },
+          {
+            "q": "想了解可以去哪裡找資料？",
+            "options": [
+              "山上",
+              "網上",
+              "海底",
+              "月球"
+            ],
+            "answer": "網上"
+          },
+          {
+            "q": "了解文化有什麼好處？",
+            "options": [
+              "沒好處",
+              "讓旅程更有趣",
+              "很累",
+              "很貴"
+            ],
+            "answer": "讓旅程更有趣"
+          }
+        ]
+      },
+      {
+        "title": "Reading: How to Study Housing & Moving",
+        "text": "對初學者來說，學習Housing & Moving需要耐心。你可以從簡單的詞彙開始學起。每天花一點時間練習，你就會發現自己越來越有信心。加油，你一定可以學好Housing & Moving的！",
+        "py": "Duì chūxuézhě lái shuō, xuéxí Housing & Moving xūyào nàixīn. Nǐ kěyǐ cóng jiǎndān de cíhuì kāishǐ xué qǐ. Měitiān huā yìdiǎn shíjiān liànxí, nǐ jiù huì fāxiàn zìjǐ yuèlái yuè yǒu xìnxīn. Jiāyóu, nǐ yídìng kěyǐ xué hǎo Housing & Moving de!",
+        "questions": [
+          {
+            "q": "學習這個需要什麼？",
+            "options": [
+              "金錢",
+              "耐心",
+              "體力",
+              "名聲"
+            ],
+            "answer": "耐心"
+          },
+          {
+            "q": "應該從什麼開始學起？",
+            "options": [
+              "難的字",
+              "簡單的詞彙",
+              "整本書",
+              "不學"
+            ],
+            "answer": "簡單的詞彙"
+          },
+          {
+            "q": "每天練習會怎麼樣？",
+            "options": [
+              "越來越沒信心",
+              "越來越有信心",
+              "沒變化",
+              "很累"
+            ],
+            "answer": "越來越有信心"
+          }
+        ]
+      }
+    ],
+    "quizzes": [
+      {
+        "type": "choice",
+        "question": "What does '搬家' (bānjiā) mean?",
+        "options": [
+          "To go home",
+          "To move house",
+          "To build a house",
+          "To clean a house"
+        ],
+        "answer": "To move house"
+      },
+      {
+        "type": "fill",
+        "sentence": "這間房子的 ___ 很高。",
+        "answer": "房租"
+      }
+    ]
+  },
+  {
+    "id": "b1_c11",
+    "book": 1,
+    "chapter": 11,
+    "title": "Weather & Health",
+    "subtitle": "Rainy days and colds",
+    "intro": "Discuss the weather and how you feel.",
+    "vocab": [
+      {
+        "hanzi": "租",
+        "pinyin": "zū",
+        "definition": "to rent"
+      },
+      {
+        "hanzi": "房東",
+        "pinyin": "fángdōng",
+        "definition": "landlord"
+      },
+      {
+        "hanzi": "客廳",
+        "pinyin": "kètīng",
+        "definition": "living room"
+      },
+      {
+        "hanzi": "廚房",
+        "pinyin": "chúfáng",
+        "definition": "kitchen"
+      },
+      {
+        "hanzi": "左邊",
+        "pinyin": "zuǒbiān",
+        "definition": "left (side)"
+      },
+      {
+        "hanzi": "右邊",
+        "pinyin": "yòubiān",
+        "definition": "right (side)"
+      },
+      {
+        "hanzi": "浴室",
+        "pinyin": "yùshì",
+        "definition": "bathroom"
+      },
+      {
+        "hanzi": "超市",
+        "pinyin": "chāoshì",
+        "definition": "supermarket"
+      },
+      {
+        "hanzi": "走路",
+        "pinyin": "zǒulù",
+        "definition": "to walk"
+      },
+      {
+        "hanzi": "分鐘",
+        "pinyin": "fēnzhōng",
+        "definition": "measure word for minutes"
+      },
+      {
+        "hanzi": "就",
+        "pinyin": "jiù",
+        "definition": "only, merely"
+      },
+      {
+        "hanzi": "到",
+        "pinyin": "dào",
+        "definition": "arrive"
+      },
+      {
+        "hanzi": "間",
+        "pinyin": "jiān",
+        "definition": "measure word for houses, rooms, etc."
+      },
+      {
+        "hanzi": "空",
+        "pinyin": "kōng",
+        "definition": "vacant, empty"
+      },
+      {
+        "hanzi": "房間",
+        "pinyin": "fángjiān",
+        "definition": "room"
+      },
+      {
+        "hanzi": "套房",
+        "pinyin": "tàofáng",
+        "definition": "suite"
+      },
+      {
+        "hanzi": "回去",
+        "pinyin": "huíqù",
+        "definition": "to go back, to return"
+      },
+      {
+        "hanzi": "想",
+        "pinyin": "xiǎng",
+        "definition": "to think"
+      },
+      {
+        "hanzi": "再",
+        "pinyin": "zài",
+        "definition": "and then"
+      },
+      {
+        "hanzi": "電話",
+        "pinyin": "diànhuà",
+        "definition": "telephone"
+      },
+      {
+        "hanzi": "給",
+        "pinyin": "gěi",
+        "definition": "to"
+      },
+      {
+        "hanzi": "林",
+        "pinyin": "Lín",
+        "definition": "Chinese last name, common in Taiwan"
+      },
+      {
+        "hanzi": "打電話",
+        "pinyin": "dǎ diànhuà",
+        "definition": "to make a phone call"
+      },
+      {
+        "hanzi": "喂",
+        "pinyin": "wéi",
+        "definition": "a particle used in addressing people, especially over the phone"
+      },
+      {
+        "hanzi": "房租",
+        "pinyin": "fángzū",
+        "definition": "rent (for a room or a house)"
+      },
+      {
+        "hanzi": "已經",
+        "pinyin": "yǐjīng",
+        "definition": "already"
+      },
+      {
+        "hanzi": "習慣",
+        "pinyin": "xíguàn",
+        "definition": "to get settled down, to get used to"
+      },
+      {
+        "hanzi": "問題",
+        "pinyin": "wèntí",
+        "definition": "problem, question"
+      },
+      {
+        "hanzi": "熱水器",
+        "pinyin": "rèshuǐqì",
+        "definition": "water heater"
+      },
+      {
+        "hanzi": "好像",
+        "pinyin": "hǎoxiàng",
+        "definition": "to seem to be, to appear to be (often used to take the edge off of a comment)"
+      },
+      {
+        "hanzi": "會",
+        "pinyin": "huì",
+        "definition": "will"
+      },
+      {
+        "hanzi": "等",
+        "pinyin": "děng",
+        "definition": "to wait for"
+      },
+      {
+        "hanzi": "那",
+        "pinyin": "nà",
+        "definition": "then, in that case"
+      },
+      {
+        "hanzi": "裝",
+        "pinyin": "zhuāng",
+        "definition": "to install"
+      },
+      {
+        "hanzi": "不過",
+        "pinyin": "búguò",
+        "definition": "however, but"
+      },
+      {
+        "hanzi": "付",
+        "pinyin": "fù",
+        "definition": "to pay"
+      },
+      {
+        "hanzi": "收到",
+        "pinyin": "shōudào",
+        "definition": "to receive"
+      },
+      {
+        "hanzi": "不好意思",
+        "pinyin": "bùhǎo yìsi",
+        "definition": "sorry"
+      },
+      {
+        "hanzi": "沒關係",
+        "pinyin": "méi guānxi",
+        "definition": "Not a problem"
+      },
+      {
+        "hanzi": "有線電視",
+        "pinyin": "yǒuxiàn diànshì",
+        "definition": "cable TV"
+      }
+    ],
+    "dialogues": [
+      {
+        "title": "Conversation about Weather & Health",
+        "lines": [
+          {
+            "speaker": "A",
+            "zh": "你好！關於Weather & Health，你覺得怎麼樣？",
+            "py": "Nǐ hǎo! Guānyú Weather & Health, nǐ juéde zěnmeyàng?",
+            "en": "Hello! Regarding Weather & Health, what do you think?"
+          },
+          {
+            "speaker": "B",
+            "zh": "我覺得非常有意思。我也想多了解一點。",
+            "py": "Wǒ juéde fēicháng yǒuyìsi. Wǒ yě xiǎng duō liǎojiě yìdiǎn.",
+            "en": "I think it's very interesting. I also want to learn more about it."
+          },
+          {
+            "speaker": "A",
+            "zh": "那我們週末一起去看看，好不好？",
+            "py": "Nà wǒmen zhōumò yìqǐ qù kànkàn, hǎo bù hǎo?",
+            "en": "Then let's go take a look together this weekend, okay?"
+          },
+          {
+            "speaker": "B",
+            "zh": "好啊。要帶什麼東西嗎？",
+            "py": "Hǎo a. Yào dài shénme dōngxī ma?",
+            "en": "Sure. Do we need to bring anything?"
+          },
+          {
+            "speaker": "A",
+            "zh": "帶一支手機和一點錢就可以了。",
+            "py": "Dài yìzhī shǒujī hé yìdiǎn qián jiù kěyǐ le.",
+            "en": "Just bring a phone and some money."
+          },
+          {
+            "speaker": "B",
+            "zh": "沒問題。我們幾點見面？",
+            "py": "Méi wèntí. Wǒmen jǐ diǎn jiànmiàn?",
+            "en": "No problem. What time shall we meet?"
+          },
+          {
+            "speaker": "A",
+            "zh": "星期六早上十點，在學校門口見。",
+            "py": "Xīngqīliù zǎoshàng shídiǎn, zài xuéxiào ménkǒu jiàn.",
+            "en": "Saturday morning at ten, meet at the school gate."
+          },
+          {
+            "speaker": "B",
+            "zh": "太好了，不見不散！",
+            "py": "Tài hǎo le, bújiàn búsàn!",
+            "en": "Great, be there or be square!"
+          }
+        ]
+      },
+      {
+        "title": "Planning Weather & Health",
+        "lines": [
+          {
+            "speaker": "A",
+            "zh": "你準備好了嗎？我們今天要討論Weather & Health。",
+            "py": "Nǐ zhǔnbèi hǎo le ma? Wǒmen jīntiān yào tǎolùn Weather & Health.",
+            "en": "Are you ready? Today we are going to discuss Weather & Health."
+          },
+          {
+            "speaker": "B",
+            "zh": "我準備好了。我查了一些資料。",
+            "py": "Wǒ zhǔnbèi hǎo le. Wǒ chá le yìxiē zīliào.",
+            "en": "I'm ready. I've looked up some information."
+          },
+          {
+            "speaker": "A",
+            "zh": "很好。你有什麼問題想問嗎？",
+            "py": "Hěn hǎo. Nǐ yǒu shénme wèntí xiǎng wèn ma?",
+            "en": "Good. Do you have any questions you'd like to ask?"
+          },
+          {
+            "speaker": "B",
+            "zh": "我想知道在台灣，Weather & Health有什麼特別的地方？",
+            "py": "Wǒ xiǎng zhīdào zài Táiwān, Weather & Health yǒu shénme tèbié de dìfāng?",
+            "en": "I want to know, in Taiwan, what is special about Weather & Health?"
+          },
+          {
+            "speaker": "A",
+            "zh": "這裡的Weather & Health非常有特色，大家都很喜歡。",
+            "py": "Zhèlǐ de Weather & Health fēicháng yǒu tèsè, dàjiā dōu hěn xǐhuān.",
+            "en": "The Weather & Health here has a lot of character; everyone likes it."
+          },
+          {
+            "speaker": "B",
+            "zh": "聽起來很不錯。我們什麼時候開始？",
+            "py": "Tīng qǐlái hěn búcuò. Wǒmen shénme shíhòu kāishǐ?",
+            "en": "Sounds great. When do we start?"
+          },
+          {
+            "speaker": "A",
+            "zh": "現在就開始吧。請看這張地圖。",
+            "py": "Xiànzài jiù kāishǐ ba. Qǐng kàn zhè zhāng dìtú.",
+            "en": "Let's start now. Please look at this map."
+          },
+          {
+            "speaker": "B",
+            "zh": "好的，我準備好了。",
+            "py": "Hǎode, wǒ zhǔnbèi hǎo le.",
+            "en": "Okay, I'm ready."
+          }
+        ]
+      }
+    ],
+    "listening": [
+      {
+        "title": "Listening: About Weather & Health",
+        "text": "在台灣，Weather & Health是生活中很重要的一部分。不論是學生還是老師，大家都會討論這個話題。如果你能用中文說Weather & Health，大家會覺得你的中文進步很快。",
+        "py": "Zài Táiwān, Weather & Health shì shēnghuó zhōng hěn zhòngyào de yíbùfèn. Búlùn shì xuésheng háishì lǎoshī, dàjiā dōu huì tǎolùn zhège huàtí. Rúguǒ nǐ néng yòng Zhōngwén shuō Weather & Health, dàjiā huì juéde nǐ de Zhōngwén jìnbù hěn kuài.",
+        "questions": [
+          {
+            "q": "這段話主要在說什麼？",
+            "options": [
+              "Weather & Health",
+              "買菜",
+              "看球",
+              "唱歌"
+            ],
+            "answer": "Weather & Health"
+          },
+          {
+            "q": "誰會討論這個話題？",
+            "options": [
+              "只有學生",
+              "只有老師",
+              "大家都會",
+              "沒人討論"
+            ],
+            "answer": "大家都會"
+          },
+          {
+            "q": "學會說這個會讓人覺得你的中文怎麼樣？",
+            "options": [
+              "退步了",
+              "沒進步",
+              "進步很快",
+              "很難聽"
+            ],
+            "answer": "進步很快"
+          }
+        ]
+      },
+      {
+        "title": "Listening: Tips for Weather & Health",
+        "text": "學習Weather & Health的時候，最重要的是多聽多說。你可以去書店買一些相關的書來看。不要怕說錯，因為練習是進步最好的方法。",
+        "py": "Xuéxí Weather & Health de shíhòu, zuì zhòngyào de shì duō tīng duō shuō. Nǐ kěyǐ qù shūdiàn mǎi yìxiē xiāngguān de shū lái kàn. Búyào pà shuōcuò, yīnwèi liànxí shì jìnbù zuìhǎo de fāngfǎ.",
+        "questions": [
+          {
+            "q": "學習什麼最重要？",
+            "options": [
+              "睡覺",
+              "多聽多說",
+              "不說話",
+              "不看書"
+            ],
+            "answer": "多聽多說"
+          },
+          {
+            "q": "可以去哪裡買書？",
+            "options": [
+              "醫院",
+              "書店",
+              "銀行",
+              "機場"
+            ],
+            "answer": "書店"
+          },
+          {
+            "q": "為什麼不要怕說錯？",
+            "options": [
+              "因為沒關係",
+              "因為練習是進步的方法",
+              "因為別人在笑你",
+              "因為很簡單"
+            ],
+            "answer": "因為練習是進步的方法"
+          }
+        ]
+      }
+    ],
+    "readings": [
+      {
+        "title": "Reading: Weather & Health in Taiwan",
+        "text": "台灣的Weather & Health很有特色。每年都有很多人來這裡參觀。如果你感興趣，可以在網上找一些資料。了解當地的文化會讓你的旅程更有趣。歡迎你來台灣體驗這裡的Weather & Health。",
+        "py": "Táiwān de Weather & Health hěn yǒu tèsè. Měinián dōu yǒu hěnduō rén lái zhèlǐ cānguān. Rúguǒ nǐ gǎn xìngqù, kěyǐ zài wǎngshàng zhǎo yìxiē zīliào. Liǎojiě dāngdì de wénhuà huì ràng nǐ de lǚchéng gèng yǒuqù. Huānyíng nǐ lái Táiwān tǐyàn zhèlǐ de Weather & Health.",
+        "questions": [
+          {
+            "q": "台灣的什麼很有特色？",
+            "options": [
+              "Weather & Health",
+              "天氣",
+              "交通",
+              "語言"
+            ],
+            "answer": "Weather & Health"
+          },
+          {
+            "q": "想了解可以去哪裡找資料？",
+            "options": [
+              "山上",
+              "網上",
+              "海底",
+              "月球"
+            ],
+            "answer": "網上"
+          },
+          {
+            "q": "了解文化有什麼好處？",
+            "options": [
+              "沒好處",
+              "讓旅程更有趣",
+              "很累",
+              "很貴"
+            ],
+            "answer": "讓旅程更有趣"
+          }
+        ]
+      },
+      {
+        "title": "Reading: How to Study Weather & Health",
+        "text": "對初學者來說，學習Weather & Health需要耐心。你可以從簡單的詞彙開始學起。每天花一點時間練習，你就會發現自己越來越有信心。加油，你一定可以學好Weather & Health的！",
+        "py": "Duì chūxuézhě lái shuō, xuéxí Weather & Health xūyào nàixīn. Nǐ kěyǐ cóng jiǎndān de cíhuì kāishǐ xué qǐ. Měitiān huā yìdiǎn shíjiān liànxí, nǐ jiù huì fāxiàn zìjǐ yuèlái yuè yǒu xìnxīn. Jiāyóu, nǐ yídìng kěyǐ xué hǎo Weather & Health de!",
+        "questions": [
+          {
+            "q": "學習這個需要什麼？",
+            "options": [
+              "金錢",
+              "耐心",
+              "體力",
+              "名聲"
+            ],
+            "answer": "耐心"
+          },
+          {
+            "q": "應該從什麼開始學起？",
+            "options": [
+              "難的字",
+              "簡單的詞彙",
+              "整本書",
+              "不學"
+            ],
+            "answer": "簡單的詞彙"
+          },
+          {
+            "q": "每天練習會怎麼樣？",
+            "options": [
+              "越來越沒信心",
+              "越來越有信心",
+              "沒變化",
+              "很累"
+            ],
+            "answer": "越來越有信心"
+          }
+        ]
+      }
+    ],
+    "quizzes": [
+      {
+        "type": "choice",
+        "question": "What is 'Weather' in Chinese?",
+        "options": [
+          "時間",
+          "天氣",
+          "地方",
+          "身體"
+        ],
+        "answer": "天氣"
+      },
+      {
+        "type": "fill",
+        "sentence": "今天天氣很 ___ ，你要多穿一點衣服。",
+        "answer": "冷"
+      }
+    ]
+  },
+  {
+    "id": "b1_c12",
+    "book": 1,
+    "chapter": 12,
+    "title": "Celebrations & Gifts",
+    "subtitle": "Birthdays and parties",
+    "intro": "Learn about giving gifts and celebrating.",
+    "vocab": [
+      {
+        "hanzi": "計畫",
+        "pinyin": "jìhuà",
+        "definition": "to plan to"
+      },
+      {
+        "hanzi": "年",
+        "pinyin": "nián",
+        "definition": "measure word for year"
+      },
+      {
+        "hanzi": "久",
+        "pinyin": "jiǔ",
+        "definition": "long (time)"
+      },
+      {
+        "hanzi": "時間",
+        "pinyin": "shíjiān",
+        "definition": "time"
+      },
+      {
+        "hanzi": "先",
+        "pinyin": "xiān",
+        "definition": "first"
+      },
+      {
+        "hanzi": "念",
+        "pinyin": "niàn",
+        "definition": "to study"
+      },
+      {
+        "hanzi": "大學",
+        "pinyin": "dàxué",
+        "definition": "university"
+      },
+      {
+        "hanzi": "需要",
+        "pinyin": "xūyào",
+        "definition": "to need"
+      },
+      {
+        "hanzi": "花",
+        "pinyin": "huā",
+        "definition": "to spend (time or money)"
+      },
+      {
+        "hanzi": "獎學金",
+        "pinyin": "jiǎngxuéjīn",
+        "definition": "scholarship"
+      },
+      {
+        "hanzi": "成績",
+        "pinyin": "chéngjī",
+        "definition": "grades"
+      },
+      {
+        "hanzi": "學費",
+        "pinyin": "xuéfèi",
+        "definition": "tuition"
+      },
+      {
+        "hanzi": "公司",
+        "pinyin": "gōngsī",
+        "definition": "company"
+      },
+      {
+        "hanzi": "替",
+        "pinyin": "tì",
+        "definition": "for, on behalf of"
+      },
+      {
+        "hanzi": "希望",
+        "pinyin": "xīwàng",
+        "definition": "to hope"
+      },
+      {
+        "hanzi": "以後",
+        "pinyin": "yǐhòu",
+        "definition": "in the future"
+      },
+      {
+        "hanzi": "到",
+        "pinyin": "dào",
+        "definition": "to go/come to"
+      },
+      {
+        "hanzi": "上班",
+        "pinyin": "shàngbān",
+        "definition": "to go to work"
+      },
+      {
+        "hanzi": "念書",
+        "pinyin": "niànshū",
+        "definition": "to study"
+      },
+      {
+        "hanzi": "累",
+        "pinyin": "lèi",
+        "definition": "tired"
+      },
+      {
+        "hanzi": "語言中心",
+        "pinyin": "yǔyán zhōngxīn",
+        "definition": "language center"
+      },
+      {
+        "hanzi": "加油",
+        "pinyin": "jiāyóu",
+        "definition": "keep up the good work"
+      },
+      {
+        "hanzi": "工作",
+        "pinyin": "gōngzuò",
+        "definition": "to work"
+      },
+      {
+        "hanzi": "去年",
+        "pinyin": "qùnián",
+        "definition": "last year"
+      },
+      {
+        "hanzi": "做",
+        "pinyin": "zuò",
+        "definition": "to do, to engage in"
+      },
+      {
+        "hanzi": "生意",
+        "pinyin": "shēngyì",
+        "definition": "business"
+      },
+      {
+        "hanzi": "以後",
+        "pinyin": "yǐhòu",
+        "definition": "afterwards"
+      },
+      {
+        "hanzi": "好",
+        "pinyin": "hǎo",
+        "definition": "easy to"
+      },
+      {
+        "hanzi": "找",
+        "pinyin": "zhǎo",
+        "definition": "to look for"
+      },
+      {
+        "hanzi": "工作",
+        "pinyin": "gōngzuò",
+        "definition": "job, work"
+      },
+      {
+        "hanzi": "這樣",
+        "pinyin": "zhèyàng",
+        "definition": "this kind (of)"
+      },
+      {
+        "hanzi": "國家",
+        "pinyin": "guójiā",
+        "definition": "country"
+      },
+      {
+        "hanzi": "試",
+        "pinyin": "shì",
+        "definition": "to try"
+      },
+      {
+        "hanzi": "難",
+        "pinyin": "nán",
+        "definition": "hard to, difficult to"
+      },
+      {
+        "hanzi": "那麼",
+        "pinyin": "nàme",
+        "definition": "then"
+      },
+      {
+        "hanzi": "再",
+        "pinyin": "zài",
+        "definition": "again"
+      },
+      {
+        "hanzi": "試試看",
+        "pinyin": "shìshìkàn",
+        "definition": "to give it a try, to try and see what happens"
+      }
+    ],
+    "dialogues": [
+      {
+        "title": "Conversation about Celebrations & Gifts",
+        "lines": [
+          {
+            "speaker": "A",
+            "zh": "你好！關於Celebrations & Gifts，你覺得怎麼樣？",
+            "py": "Nǐ hǎo! Guānyú Celebrations & Gifts, nǐ juéde zěnmeyàng?",
+            "en": "Hello! Regarding Celebrations & Gifts, what do you think?"
+          },
+          {
+            "speaker": "B",
+            "zh": "我覺得非常有意思。我也想多了解一點。",
+            "py": "Wǒ juéde fēicháng yǒuyìsi. Wǒ yě xiǎng duō liǎojiě yìdiǎn.",
+            "en": "I think it's very interesting. I also want to learn more about it."
+          },
+          {
+            "speaker": "A",
+            "zh": "那我們週末一起去看看，好不好？",
+            "py": "Nà wǒmen zhōumò yìqǐ qù kànkàn, hǎo bù hǎo?",
+            "en": "Then let's go take a look together this weekend, okay?"
+          },
+          {
+            "speaker": "B",
+            "zh": "好啊。要帶什麼東西嗎？",
+            "py": "Hǎo a. Yào dài shénme dōngxī ma?",
+            "en": "Sure. Do we need to bring anything?"
+          },
+          {
+            "speaker": "A",
+            "zh": "帶一支手機和一點錢就可以了。",
+            "py": "Dài yìzhī shǒujī hé yìdiǎn qián jiù kěyǐ le.",
+            "en": "Just bring a phone and some money."
+          },
+          {
+            "speaker": "B",
+            "zh": "沒問題。我們幾點見面？",
+            "py": "Méi wèntí. Wǒmen jǐ diǎn jiànmiàn?",
+            "en": "No problem. What time shall we meet?"
+          },
+          {
+            "speaker": "A",
+            "zh": "星期六早上十點，在學校門口見。",
+            "py": "Xīngqīliù zǎoshàng shídiǎn, zài xuéxiào ménkǒu jiàn.",
+            "en": "Saturday morning at ten, meet at the school gate."
+          },
+          {
+            "speaker": "B",
+            "zh": "太好了，不見不散！",
+            "py": "Tài hǎo le, bújiàn búsàn!",
+            "en": "Great, be there or be square!"
+          }
+        ]
+      },
+      {
+        "title": "Planning Celebrations & Gifts",
+        "lines": [
+          {
+            "speaker": "A",
+            "zh": "你準備好了嗎？我們今天要討論Celebrations & Gifts。",
+            "py": "Nǐ zhǔnbèi hǎo le ma? Wǒmen jīntiān yào tǎolùn Celebrations & Gifts.",
+            "en": "Are you ready? Today we are going to discuss Celebrations & Gifts."
+          },
+          {
+            "speaker": "B",
+            "zh": "我準備好了。我查了一些資料。",
+            "py": "Wǒ zhǔnbèi hǎo le. Wǒ chá le yìxiē zīliào.",
+            "en": "I'm ready. I've looked up some information."
+          },
+          {
+            "speaker": "A",
+            "zh": "很好。你有什麼問題想問嗎？",
+            "py": "Hěn hǎo. Nǐ yǒu shénme wèntí xiǎng wèn ma?",
+            "en": "Good. Do you have any questions you'd like to ask?"
+          },
+          {
+            "speaker": "B",
+            "zh": "我想知道在台灣，Celebrations & Gifts有什麼特別的地方？",
+            "py": "Wǒ xiǎng zhīdào zài Táiwān, Celebrations & Gifts yǒu shénme tèbié de dìfāng?",
+            "en": "I want to know, in Taiwan, what is special about Celebrations & Gifts?"
+          },
+          {
+            "speaker": "A",
+            "zh": "這裡的Celebrations & Gifts非常有特色，大家都很喜歡。",
+            "py": "Zhèlǐ de Celebrations & Gifts fēicháng yǒu tèsè, dàjiā dōu hěn xǐhuān.",
+            "en": "The Celebrations & Gifts here has a lot of character; everyone likes it."
+          },
+          {
+            "speaker": "B",
+            "zh": "聽起來很不錯。我們什麼時候開始？",
+            "py": "Tīng qǐlái hěn búcuò. Wǒmen shénme shíhòu kāishǐ?",
+            "en": "Sounds great. When do we start?"
+          },
+          {
+            "speaker": "A",
+            "zh": "現在就開始吧。請看這張地圖。",
+            "py": "Xiànzài jiù kāishǐ ba. Qǐng kàn zhè zhāng dìtú.",
+            "en": "Let's start now. Please look at this map."
+          },
+          {
+            "speaker": "B",
+            "zh": "好的，我準備好了。",
+            "py": "Hǎode, wǒ zhǔnbèi hǎo le.",
+            "en": "Okay, I'm ready."
+          }
+        ]
+      }
+    ],
+    "listening": [
+      {
+        "title": "Listening: About Celebrations & Gifts",
+        "text": "在台灣，Celebrations & Gifts是生活中很重要的一部分。不論是學生還是老師，大家都會討論這個話題。如果你能用中文說Celebrations & Gifts，大家會覺得你的中文進步很快。",
+        "py": "Zài Táiwān, Celebrations & Gifts shì shēnghuó zhōng hěn zhòngyào de yíbùfèn. Búlùn shì xuésheng háishì lǎoshī, dàjiā dōu huì tǎolùn zhège huàtí. Rúguǒ nǐ néng yòng Zhōngwén shuō Celebrations & Gifts, dàjiā huì juéde nǐ de Zhōngwén jìnbù hěn kuài.",
+        "questions": [
+          {
+            "q": "這段話主要在說什麼？",
+            "options": [
+              "Celebrations & Gifts",
+              "買菜",
+              "看球",
+              "唱歌"
+            ],
+            "answer": "Celebrations & Gifts"
+          },
+          {
+            "q": "誰會討論這個話題？",
+            "options": [
+              "只有學生",
+              "只有老師",
+              "大家都會",
+              "沒人討論"
+            ],
+            "answer": "大家都會"
+          },
+          {
+            "q": "學會說這個會讓人覺得你的中文怎麼樣？",
+            "options": [
+              "退步了",
+              "沒進步",
+              "進步很快",
+              "很難聽"
+            ],
+            "answer": "進步很快"
+          }
+        ]
+      },
+      {
+        "title": "Listening: Tips for Celebrations & Gifts",
+        "text": "學習Celebrations & Gifts的時候，最重要的是多聽多說。你可以去書店買一些相關的書來看。不要怕說錯，因為練習是進步最好的方法。",
+        "py": "Xuéxí Celebrations & Gifts de shíhòu, zuì zhòngyào de shì duō tīng duō shuō. Nǐ kěyǐ qù shūdiàn mǎi yìxiē xiāngguān de shū lái kàn. Búyào pà shuōcuò, yīnwèi liànxí shì jìnbù zuìhǎo de fāngfǎ.",
+        "questions": [
+          {
+            "q": "學習什麼最重要？",
+            "options": [
+              "睡覺",
+              "多聽多說",
+              "不說話",
+              "不看書"
+            ],
+            "answer": "多聽多說"
+          },
+          {
+            "q": "可以去哪裡買書？",
+            "options": [
+              "醫院",
+              "書店",
+              "銀行",
+              "機場"
+            ],
+            "answer": "書店"
+          },
+          {
+            "q": "為什麼不要怕說錯？",
+            "options": [
+              "因為沒關係",
+              "因為練習是進步的方法",
+              "因為別人在笑你",
+              "因為很簡單"
+            ],
+            "answer": "因為練習是進步的方法"
+          }
+        ]
+      }
+    ],
+    "readings": [
+      {
+        "title": "Reading: Celebrations & Gifts in Taiwan",
+        "text": "台灣的Celebrations & Gifts很有特色。每年都有很多人來這裡參觀。如果你感興趣，可以在網上找一些資料。了解當地的文化會讓你的旅程更有趣。歡迎你來台灣體驗這裡的Celebrations & Gifts。",
+        "py": "Táiwān de Celebrations & Gifts hěn yǒu tèsè. Měinián dōu yǒu hěnduō rén lái zhèlǐ cānguān. Rúguǒ nǐ gǎn xìngqù, kěyǐ zài wǎngshàng zhǎo yìxiē zīliào. Liǎojiě dāngdì de wénhuà huì ràng nǐ de lǚchéng gèng yǒuqù. Huānyíng nǐ lái Táiwān tǐyàn zhèlǐ de Celebrations & Gifts.",
+        "questions": [
+          {
+            "q": "台灣的什麼很有特色？",
+            "options": [
+              "Celebrations & Gifts",
+              "天氣",
+              "交通",
+              "語言"
+            ],
+            "answer": "Celebrations & Gifts"
+          },
+          {
+            "q": "想了解可以去哪裡找資料？",
+            "options": [
+              "山上",
+              "網上",
+              "海底",
+              "月球"
+            ],
+            "answer": "網上"
+          },
+          {
+            "q": "了解文化有什麼好處？",
+            "options": [
+              "沒好處",
+              "讓旅程更有趣",
+              "很累",
+              "很貴"
+            ],
+            "answer": "讓旅程更有趣"
+          }
+        ]
+      },
+      {
+        "title": "Reading: How to Study Celebrations & Gifts",
+        "text": "對初學者來說，學習Celebrations & Gifts需要耐心。你可以從簡單的詞彙開始學起。每天花一點時間練習，你就會發現自己越來越有信心。加油，你一定可以學好Celebrations & Gifts的！",
+        "py": "Duì chūxuézhě lái shuō, xuéxí Celebrations & Gifts xūyào nàixīn. Nǐ kěyǐ cóng jiǎndān de cíhuì kāishǐ xué qǐ. Měitiān huā yìdiǎn shíjiān liànxí, nǐ jiù huì fāxiàn zìjǐ yuèlái yuè yǒu xìnxīn. Jiāyóu, nǐ yídìng kěyǐ xué hǎo Celebrations & Gifts de!",
+        "questions": [
+          {
+            "q": "學習這個需要什麼？",
+            "options": [
+              "金錢",
+              "耐心",
+              "體力",
+              "名聲"
+            ],
+            "answer": "耐心"
+          },
+          {
+            "q": "應該從什麼開始學起？",
+            "options": [
+              "難的字",
+              "簡單的詞彙",
+              "整本書",
+              "不學"
+            ],
+            "answer": "簡單的詞彙"
+          },
+          {
+            "q": "每天練習會怎麼樣？",
+            "options": [
+              "越來越沒信心",
+              "越來越有信心",
+              "沒變化",
+              "很累"
+            ],
+            "answer": "越來越有信心"
+          }
+        ]
+      }
+    ],
+    "quizzes": [
+      {
+        "type": "choice",
+        "question": "What do you say to someone on their birthday?",
+        "options": [
+          "新年快樂",
+          "生日快樂",
+          "恭喜發財",
+          "萬事如意"
+        ],
+        "answer": "生日快樂"
+      },
+      {
+        "type": "fill",
+        "sentence": "我要送你一個生日 ___ 。",
+        "answer": "禮物"
+      }
+    ]
+  },
+  {
+    "id": "b1_c13",
+    "book": 1,
+    "chapter": 13,
+    "title": "Seasons & Part-time Jobs",
+    "subtitle": "Summer plans",
+    "intro": "Talk about seasons and working part-time.",
+    "vocab": [
+      {
+        "hanzi": "生日",
+        "pinyin": "shēngrì",
+        "definition": "birthday"
+      },
+      {
+        "hanzi": "快樂",
+        "pinyin": "kuàilè",
+        "definition": "happy"
+      },
+      {
+        "hanzi": "回來",
+        "pinyin": "huílái",
+        "definition": "to come back"
+      },
+      {
+        "hanzi": "啊",
+        "pinyin": "a",
+        "definition": "a particle indicating a realization"
+      },
+      {
+        "hanzi": "怎麼",
+        "pinyin": "zěnme",
+        "definition": "How come?"
+      },
+      {
+        "hanzi": "忘（了）",
+        "pinyin": "wàngle",
+        "definition": "to forget"
+      },
+      {
+        "hanzi": "記得",
+        "pinyin": "jìde",
+        "definition": "to remember"
+      },
+      {
+        "hanzi": "當然",
+        "pinyin": "dāngrán",
+        "definition": "certainly, of course"
+      },
+      {
+        "hanzi": "語言",
+        "pinyin": "yǔyán",
+        "definition": "language"
+      },
+      {
+        "hanzi": "交換",
+        "pinyin": "jiāohuàn",
+        "definition": "to exchange"
+      },
+      {
+        "hanzi": "那麼",
+        "pinyin": "nàme",
+        "definition": "so (very)"
+      },
+      {
+        "hanzi": "熱心",
+        "pinyin": "rèxīn",
+        "definition": "with enthusiasm"
+      },
+      {
+        "hanzi": "西班牙文",
+        "pinyin": "Xībānyá wén",
+        "definition": "the Spanish language"
+      },
+      {
+        "hanzi": "一樣",
+        "pinyin": "yíyàng",
+        "definition": "the same, alike"
+      },
+      {
+        "hanzi": "過",
+        "pinyin": "guò",
+        "definition": "to celebrate"
+      },
+      {
+        "hanzi": "左右",
+        "pinyin": "zuǒyòu",
+        "definition": "approximately"
+      },
+      {
+        "hanzi": "門口",
+        "pinyin": "ménkǒu",
+        "definition": "gate, entrance"
+      },
+      {
+        "hanzi": "西班牙",
+        "pinyin": "Xībānyá",
+        "definition": "Spain"
+      },
+      {
+        "hanzi": "生日快樂",
+        "pinyin": "shēngrì kuàilè",
+        "definition": "Happy Birthday."
+      },
+      {
+        "hanzi": "我就是",
+        "pinyin": "wǒ jiù shì",
+        "definition": "(said of self on the phone) This is s/he speaking."
+      },
+      {
+        "hanzi": "好久不見",
+        "pinyin": "hǎojiǔ bújiàn",
+        "definition": "long time no see"
+      },
+      {
+        "hanzi": "不必客氣",
+        "pinyin": "búbì kèqì",
+        "definition": "No need to stand on formalities, i.e., It's my pleasure."
+      },
+      {
+        "hanzi": "太客氣",
+        "pinyin": "tài kèqì",
+        "definition": "That's very kind of you."
+      },
+      {
+        "hanzi": "禮物",
+        "pinyin": "lǐwù",
+        "definition": "gift, present"
+      },
+      {
+        "hanzi": "今年",
+        "pinyin": "jīnnián",
+        "definition": "this year"
+      },
+      {
+        "hanzi": "訂",
+        "pinyin": "dìng",
+        "definition": "to order (something in advance)"
+      },
+      {
+        "hanzi": "了",
+        "pinyin": "le",
+        "definition": "verbal particle indicating a completed action"
+      },
+      {
+        "hanzi": "豬腳",
+        "pinyin": "zhūjiǎo",
+        "definition": "pork knuckles"
+      },
+      {
+        "hanzi": "麵線",
+        "pinyin": "miànxiàn",
+        "definition": "extra fine noodles"
+      },
+      {
+        "hanzi": "蛋",
+        "pinyin": "dàn",
+        "definition": "egg"
+      },
+      {
+        "hanzi": "一點",
+        "pinyin": "yìdiǎn",
+        "definition": "a little, some"
+      },
+      {
+        "hanzi": "傳統",
+        "pinyin": "chuántǒng",
+        "definition": "tradition, customs"
+      },
+      {
+        "hanzi": "年輕",
+        "pinyin": "niánqīng",
+        "definition": "young"
+      },
+      {
+        "hanzi": "蛋糕",
+        "pinyin": "dàngāo",
+        "definition": "cake"
+      },
+      {
+        "hanzi": "對",
+        "pinyin": "duì",
+        "definition": "to"
+      },
+      {
+        "hanzi": "祝",
+        "pinyin": "zhù",
+        "definition": "to wish (somebody happiness, good luck, etc.)"
+      },
+      {
+        "hanzi": "哪裡，哪裡",
+        "pinyin": "Nǎlǐ, nǎlǐ",
+        "definition": "Don't mention it. It's my pleasure."
+      },
+      {
+        "hanzi": "大部分",
+        "pinyin": "dà bùfèn",
+        "definition": "most (of), mostly"
+      },
+      {
+        "hanzi": "萬事如意",
+        "pinyin": "wànshì rúyì",
+        "definition": "May everything go your way."
+      },
+      {
+        "hanzi": "心想事成",
+        "pinyin": "xīnxiǎng shìchéng",
+        "definition": "May all your wishes come true."
+      }
+    ],
+    "dialogues": [
+      {
+        "title": "Conversation about Seasons & Part-time Jobs",
+        "lines": [
+          {
+            "speaker": "A",
+            "zh": "你好！關於Seasons & Part-time Jobs，你覺得怎麼樣？",
+            "py": "Nǐ hǎo! Guānyú Seasons & Part-time Jobs, nǐ juéde zěnmeyàng?",
+            "en": "Hello! Regarding Seasons & Part-time Jobs, what do you think?"
+          },
+          {
+            "speaker": "B",
+            "zh": "我覺得非常有意思。我也想多了解一點。",
+            "py": "Wǒ juéde fēicháng yǒuyìsi. Wǒ yě xiǎng duō liǎojiě yìdiǎn.",
+            "en": "I think it's very interesting. I also want to learn more about it."
+          },
+          {
+            "speaker": "A",
+            "zh": "那我們週末一起去看看，好不好？",
+            "py": "Nà wǒmen zhōumò yìqǐ qù kànkàn, hǎo bù hǎo?",
+            "en": "Then let's go take a look together this weekend, okay?"
+          },
+          {
+            "speaker": "B",
+            "zh": "好啊。要帶什麼東西嗎？",
+            "py": "Hǎo a. Yào dài shénme dōngxī ma?",
+            "en": "Sure. Do we need to bring anything?"
+          },
+          {
+            "speaker": "A",
+            "zh": "帶一支手機和一點錢就可以了。",
+            "py": "Dài yìzhī shǒujī hé yìdiǎn qián jiù kěyǐ le.",
+            "en": "Just bring a phone and some money."
+          },
+          {
+            "speaker": "B",
+            "zh": "沒問題。我們幾點見面？",
+            "py": "Méi wèntí. Wǒmen jǐ diǎn jiànmiàn?",
+            "en": "No problem. What time shall we meet?"
+          },
+          {
+            "speaker": "A",
+            "zh": "星期六早上十點，在學校門口見。",
+            "py": "Xīngqīliù zǎoshàng shídiǎn, zài xuéxiào ménkǒu jiàn.",
+            "en": "Saturday morning at ten, meet at the school gate."
+          },
+          {
+            "speaker": "B",
+            "zh": "太好了，不見不散！",
+            "py": "Tài hǎo le, bújiàn búsàn!",
+            "en": "Great, be there or be square!"
+          }
+        ]
+      },
+      {
+        "title": "Planning Seasons & Part-time Jobs",
+        "lines": [
+          {
+            "speaker": "A",
+            "zh": "你準備好了嗎？我們今天要討論Seasons & Part-time Jobs。",
+            "py": "Nǐ zhǔnbèi hǎo le ma? Wǒmen jīntiān yào tǎolùn Seasons & Part-time Jobs.",
+            "en": "Are you ready? Today we are going to discuss Seasons & Part-time Jobs."
+          },
+          {
+            "speaker": "B",
+            "zh": "我準備好了。我查了一些資料。",
+            "py": "Wǒ zhǔnbèi hǎo le. Wǒ chá le yìxiē zīliào.",
+            "en": "I'm ready. I've looked up some information."
+          },
+          {
+            "speaker": "A",
+            "zh": "很好。你有什麼問題想問嗎？",
+            "py": "Hěn hǎo. Nǐ yǒu shénme wèntí xiǎng wèn ma?",
+            "en": "Good. Do you have any questions you'd like to ask?"
+          },
+          {
+            "speaker": "B",
+            "zh": "我想知道在台灣，Seasons & Part-time Jobs有什麼特別的地方？",
+            "py": "Wǒ xiǎng zhīdào zài Táiwān, Seasons & Part-time Jobs yǒu shénme tèbié de dìfāng?",
+            "en": "I want to know, in Taiwan, what is special about Seasons & Part-time Jobs?"
+          },
+          {
+            "speaker": "A",
+            "zh": "這裡的Seasons & Part-time Jobs非常有特色，大家都很喜歡。",
+            "py": "Zhèlǐ de Seasons & Part-time Jobs fēicháng yǒu tèsè, dàjiā dōu hěn xǐhuān.",
+            "en": "The Seasons & Part-time Jobs here has a lot of character; everyone likes it."
+          },
+          {
+            "speaker": "B",
+            "zh": "聽起來很不錯。我們什麼時候開始？",
+            "py": "Tīng qǐlái hěn búcuò. Wǒmen shénme shíhòu kāishǐ?",
+            "en": "Sounds great. When do we start?"
+          },
+          {
+            "speaker": "A",
+            "zh": "現在就開始吧。請看這張地圖。",
+            "py": "Xiànzài jiù kāishǐ ba. Qǐng kàn zhè zhāng dìtú.",
+            "en": "Let's start now. Please look at this map."
+          },
+          {
+            "speaker": "B",
+            "zh": "好的，我準備好了。",
+            "py": "Hǎode, wǒ zhǔnbèi hǎo le.",
+            "en": "Okay, I'm ready."
+          }
+        ]
+      }
+    ],
+    "listening": [
+      {
+        "title": "Listening: About Seasons & Part-time Jobs",
+        "text": "在台灣，Seasons & Part-time Jobs是生活中很重要的一部分。不論是學生還是老師，大家都會討論這個話題。如果你能用中文說Seasons & Part-time Jobs，大家會覺得你的中文進步很快。",
+        "py": "Zài Táiwān, Seasons & Part-time Jobs shì shēnghuó zhōng hěn zhòngyào de yíbùfèn. Búlùn shì xuésheng háishì lǎoshī, dàjiā dōu huì tǎolùn zhège huàtí. Rúguǒ nǐ néng yòng Zhōngwén shuō Seasons & Part-time Jobs, dàjiā huì juéde nǐ de Zhōngwén jìnbù hěn kuài.",
+        "questions": [
+          {
+            "q": "這段話主要在說什麼？",
+            "options": [
+              "Seasons & Part-time Jobs",
+              "買菜",
+              "看球",
+              "唱歌"
+            ],
+            "answer": "Seasons & Part-time Jobs"
+          },
+          {
+            "q": "誰會討論這個話題？",
+            "options": [
+              "只有學生",
+              "只有老師",
+              "大家都會",
+              "沒人討論"
+            ],
+            "answer": "大家都會"
+          },
+          {
+            "q": "學會說這個會讓人覺得你的中文怎麼樣？",
+            "options": [
+              "退步了",
+              "沒進步",
+              "進步很快",
+              "很難聽"
+            ],
+            "answer": "進步很快"
+          }
+        ]
+      },
+      {
+        "title": "Listening: Tips for Seasons & Part-time Jobs",
+        "text": "學習Seasons & Part-time Jobs的時候，最重要的是多聽多說。你可以去書店買一些相關的書來看。不要怕說錯，因為練習是進步最好的方法。",
+        "py": "Xuéxí Seasons & Part-time Jobs de shíhòu, zuì zhòngyào de shì duō tīng duō shuō. Nǐ kěyǐ qù shūdiàn mǎi yìxiē xiāngguān de shū lái kàn. Búyào pà shuōcuò, yīnwèi liànxí shì jìnbù zuìhǎo de fāngfǎ.",
+        "questions": [
+          {
+            "q": "學習什麼最重要？",
+            "options": [
+              "睡覺",
+              "多聽多說",
+              "不說話",
+              "不看書"
+            ],
+            "answer": "多聽多說"
+          },
+          {
+            "q": "可以去哪裡買書？",
+            "options": [
+              "醫院",
+              "書店",
+              "銀行",
+              "機場"
+            ],
+            "answer": "書店"
+          },
+          {
+            "q": "為什麼不要怕說錯？",
+            "options": [
+              "因為沒關係",
+              "因為練習是進步的方法",
+              "因為別人在笑你",
+              "因為很簡單"
+            ],
+            "answer": "因為練習是進步的方法"
+          }
+        ]
+      }
+    ],
+    "readings": [
+      {
+        "title": "Reading: Seasons & Part-time Jobs in Taiwan",
+        "text": "台灣的Seasons & Part-time Jobs很有特色。每年都有很多人來這裡參觀。如果你感興趣，可以在網上找一些資料。了解當地的文化會讓你的旅程更有趣。歡迎你來台灣體驗這裡的Seasons & Part-time Jobs。",
+        "py": "Táiwān de Seasons & Part-time Jobs hěn yǒu tèsè. Měinián dōu yǒu hěnduō rén lái zhèlǐ cānguān. Rúguǒ nǐ gǎn xìngqù, kěyǐ zài wǎngshàng zhǎo yìxiē zīliào. Liǎojiě dāngdì de wénhuà huì ràng nǐ de lǚchéng gèng yǒuqù. Huānyíng nǐ lái Táiwān tǐyàn zhèlǐ de Seasons & Part-time Jobs.",
+        "questions": [
+          {
+            "q": "台灣的什麼很有特色？",
+            "options": [
+              "Seasons & Part-time Jobs",
+              "天氣",
+              "交通",
+              "語言"
+            ],
+            "answer": "Seasons & Part-time Jobs"
+          },
+          {
+            "q": "想了解可以去哪裡找資料？",
+            "options": [
+              "山上",
+              "網上",
+              "海底",
+              "月球"
+            ],
+            "answer": "網上"
+          },
+          {
+            "q": "了解文化有什麼好處？",
+            "options": [
+              "沒好處",
+              "讓旅程更有趣",
+              "很累",
+              "很貴"
+            ],
+            "answer": "讓旅程更有趣"
+          }
+        ]
+      },
+      {
+        "title": "Reading: How to Study Seasons & Part-time Jobs",
+        "text": "對初學者來說，學習Seasons & Part-time Jobs需要耐心。你可以從簡單的詞彙開始學起。每天花一點時間練習，你就會發現自己越來越有信心。加油，你一定可以學好Seasons & Part-time Jobs的！",
+        "py": "Duì chūxuézhě lái shuō, xuéxí Seasons & Part-time Jobs xūyào nàixīn. Nǐ kěyǐ cóng jiǎndān de cíhuì kāishǐ xué qǐ. Měitiān huā yìdiǎn shíjiān liànxí, nǐ jiù huì fāxiàn zìjǐ yuèlái yuè yǒu xìnxīn. Jiāyóu, nǐ yídìng kěyǐ xué hǎo Seasons & Part-time Jobs de!",
+        "questions": [
+          {
+            "q": "學習這個需要什麼？",
+            "options": [
+              "金錢",
+              "耐心",
+              "體力",
+              "名聲"
+            ],
+            "answer": "耐心"
+          },
+          {
+            "q": "應該從什麼開始學起？",
+            "options": [
+              "難的字",
+              "簡單的詞彙",
+              "整本書",
+              "不學"
+            ],
+            "answer": "簡單的詞彙"
+          },
+          {
+            "q": "每天練習會怎麼樣？",
+            "options": [
+              "越來越沒信心",
+              "越來越有信心",
+              "沒變化",
+              "很累"
+            ],
+            "answer": "越來越有信心"
+          }
+        ]
+      }
+    ],
+    "quizzes": [
+      {
+        "type": "choice",
+        "question": "What is 'Summer'?",
+        "options": [
+          "春天",
+          "夏天",
+          "秋天",
+          "冬天"
+        ],
+        "answer": "夏天"
+      },
+      {
+        "type": "fill",
+        "sentence": "他在餐廳 ___ ，賺了一點錢。",
+        "answer": "打工"
+      }
+    ]
+  },
+  {
+    "id": "b1_c14",
+    "book": 1,
+    "chapter": 14,
+    "title": "Culture & Comparison",
+    "subtitle": "Taiwanese features",
+    "intro": "Compare things and talk about local culture.",
+    "vocab": [
+      {
+        "hanzi": "天氣",
+        "pinyin": "tiānqì",
+        "definition": "weather"
+      },
+      {
+        "hanzi": "冷",
+        "pinyin": "lěng",
+        "definition": "cold"
+      },
+      {
+        "hanzi": "風",
+        "pinyin": "fēng",
+        "definition": "wind"
+      },
+      {
+        "hanzi": "滑雪",
+        "pinyin": "huáxuě",
+        "definition": "to ski"
+      },
+      {
+        "hanzi": "春天",
+        "pinyin": "chūntiān",
+        "definition": "spring (season)"
+      },
+      {
+        "hanzi": "想",
+        "pinyin": "xiǎng",
+        "definition": "to miss (someone)"
+      },
+      {
+        "hanzi": "新年",
+        "pinyin": "xīnnián",
+        "definition": "New Year"
+      },
+      {
+        "hanzi": "快",
+        "pinyin": "kuài",
+        "definition": "soon"
+      },
+      {
+        "hanzi": "父母",
+        "pinyin": "fùmǔ",
+        "definition": "parents"
+      },
+      {
+        "hanzi": "冬天",
+        "pinyin": "dōngtiān",
+        "definition": "winter (season)"
+      },
+      {
+        "hanzi": "明年",
+        "pinyin": "míngnián",
+        "definition": "next year"
+      },
+      {
+        "hanzi": "秋天",
+        "pinyin": "qiūtiān",
+        "definition": "autumn (season)"
+      },
+      {
+        "hanzi": "紅葉",
+        "pinyin": "hóngyè",
+        "definition": "red maple leaves"
+      },
+      {
+        "hanzi": "只",
+        "pinyin": "zhǐ",
+        "definition": "only, merely"
+      },
+      {
+        "hanzi": "玉山",
+        "pinyin": "Yùshān",
+        "definition": "Yu Shan (Mount Jade), tallest mountain in central Taiwan"
+      },
+      {
+        "hanzi": "紐約",
+        "pinyin": "Niǔyuē",
+        "definition": "New York"
+      },
+      {
+        "hanzi": "下雪",
+        "pinyin": "xiàxuě",
+        "definition": "to snow"
+      },
+      {
+        "hanzi": "十二月底",
+        "pinyin": "shí'èryuè dǐ",
+        "definition": "the end of December"
+      },
+      {
+        "hanzi": "雨",
+        "pinyin": "yǔ",
+        "definition": "rain"
+      },
+      {
+        "hanzi": "傘",
+        "pinyin": "sǎn",
+        "definition": "umbrella"
+      },
+      {
+        "hanzi": "颱風",
+        "pinyin": "táifēng",
+        "definition": "typhoon"
+      },
+      {
+        "hanzi": "要",
+        "pinyin": "yào",
+        "definition": "will, going to"
+      },
+      {
+        "hanzi": "夏天",
+        "pinyin": "xiàtiān",
+        "definition": "summer (season)"
+      },
+      {
+        "hanzi": "濕",
+        "pinyin": "shī",
+        "definition": "wet"
+      },
+      {
+        "hanzi": "討厭",
+        "pinyin": "tǎoyàn",
+        "definition": "annoying"
+      },
+      {
+        "hanzi": "新聞",
+        "pinyin": "xīnwén",
+        "definition": "news"
+      },
+      {
+        "hanzi": "更",
+        "pinyin": "gèng",
+        "definition": "even (more, less, etc.)"
+      },
+      {
+        "hanzi": "大家",
+        "pinyin": "dàjiā",
+        "definition": "everyone"
+      },
+      {
+        "hanzi": "小心",
+        "pinyin": "xiǎoxīn",
+        "definition": "to be careful, to take care"
+      },
+      {
+        "hanzi": "可怕",
+        "pinyin": "kěpà",
+        "definition": "scary"
+      },
+      {
+        "hanzi": "停",
+        "pinyin": "tíng",
+        "definition": "to stop"
+      },
+      {
+        "hanzi": "下雨",
+        "pinyin": "xiàyǔ",
+        "definition": "to rain"
+      },
+      {
+        "hanzi": "這次",
+        "pinyin": "zhè cì",
+        "definition": "this time"
+      },
+      {
+        "hanzi": "上次",
+        "pinyin": "shàng cì",
+        "definition": "last time"
+      },
+      {
+        "hanzi": "慢走",
+        "pinyin": "màn zǒu",
+        "definition": "Bye. Take care."
+      }
+    ],
+    "dialogues": [
+      {
+        "title": "Conversation about Culture & Comparison",
+        "lines": [
+          {
+            "speaker": "A",
+            "zh": "你好！關於Culture & Comparison，你覺得怎麼樣？",
+            "py": "Nǐ hǎo! Guānyú Culture & Comparison, nǐ juéde zěnmeyàng?",
+            "en": "Hello! Regarding Culture & Comparison, what do you think?"
+          },
+          {
+            "speaker": "B",
+            "zh": "我覺得非常有意思。我也想多了解一點。",
+            "py": "Wǒ juéde fēicháng yǒuyìsi. Wǒ yě xiǎng duō liǎojiě yìdiǎn.",
+            "en": "I think it's very interesting. I also want to learn more about it."
+          },
+          {
+            "speaker": "A",
+            "zh": "那我們週末一起去看看，好不好？",
+            "py": "Nà wǒmen zhōumò yìqǐ qù kànkàn, hǎo bù hǎo?",
+            "en": "Then let's go take a look together this weekend, okay?"
+          },
+          {
+            "speaker": "B",
+            "zh": "好啊。要帶什麼東西嗎？",
+            "py": "Hǎo a. Yào dài shénme dōngxī ma?",
+            "en": "Sure. Do we need to bring anything?"
+          },
+          {
+            "speaker": "A",
+            "zh": "帶一支手機和一點錢就可以了。",
+            "py": "Dài yìzhī shǒujī hé yìdiǎn qián jiù kěyǐ le.",
+            "en": "Just bring a phone and some money."
+          },
+          {
+            "speaker": "B",
+            "zh": "沒問題。我們幾點見面？",
+            "py": "Méi wèntí. Wǒmen jǐ diǎn jiànmiàn?",
+            "en": "No problem. What time shall we meet?"
+          },
+          {
+            "speaker": "A",
+            "zh": "星期六早上十點，在學校門口見。",
+            "py": "Xīngqīliù zǎoshàng shídiǎn, zài xuéxiào ménkǒu jiàn.",
+            "en": "Saturday morning at ten, meet at the school gate."
+          },
+          {
+            "speaker": "B",
+            "zh": "太好了，不見不散！",
+            "py": "Tài hǎo le, bújiàn búsàn!",
+            "en": "Great, be there or be square!"
+          }
+        ]
+      },
+      {
+        "title": "Planning Culture & Comparison",
+        "lines": [
+          {
+            "speaker": "A",
+            "zh": "你準備好了嗎？我們今天要討論Culture & Comparison。",
+            "py": "Nǐ zhǔnbèi hǎo le ma? Wǒmen jīntiān yào tǎolùn Culture & Comparison.",
+            "en": "Are you ready? Today we are going to discuss Culture & Comparison."
+          },
+          {
+            "speaker": "B",
+            "zh": "我準備好了。我查了一些資料。",
+            "py": "Wǒ zhǔnbèi hǎo le. Wǒ chá le yìxiē zīliào.",
+            "en": "I'm ready. I've looked up some information."
+          },
+          {
+            "speaker": "A",
+            "zh": "很好。你有什麼問題想問嗎？",
+            "py": "Hěn hǎo. Nǐ yǒu shénme wèntí xiǎng wèn ma?",
+            "en": "Good. Do you have any questions you'd like to ask?"
+          },
+          {
+            "speaker": "B",
+            "zh": "我想知道在台灣，Culture & Comparison有什麼特別的地方？",
+            "py": "Wǒ xiǎng zhīdào zài Táiwān, Culture & Comparison yǒu shénme tèbié de dìfāng?",
+            "en": "I want to know, in Taiwan, what is special about Culture & Comparison?"
+          },
+          {
+            "speaker": "A",
+            "zh": "這裡的Culture & Comparison非常有特色，大家都很喜歡。",
+            "py": "Zhèlǐ de Culture & Comparison fēicháng yǒu tèsè, dàjiā dōu hěn xǐhuān.",
+            "en": "The Culture & Comparison here has a lot of character; everyone likes it."
+          },
+          {
+            "speaker": "B",
+            "zh": "聽起來很不錯。我們什麼時候開始？",
+            "py": "Tīng qǐlái hěn búcuò. Wǒmen shénme shíhòu kāishǐ?",
+            "en": "Sounds great. When do we start?"
+          },
+          {
+            "speaker": "A",
+            "zh": "現在就開始吧。請看這張地圖。",
+            "py": "Xiànzài jiù kāishǐ ba. Qǐng kàn zhè zhāng dìtú.",
+            "en": "Let's start now. Please look at this map."
+          },
+          {
+            "speaker": "B",
+            "zh": "好的，我準備好了。",
+            "py": "Hǎode, wǒ zhǔnbèi hǎo le.",
+            "en": "Okay, I'm ready."
+          }
+        ]
+      }
+    ],
+    "listening": [
+      {
+        "title": "Listening: About Culture & Comparison",
+        "text": "在台灣，Culture & Comparison是生活中很重要的一部分。不論是學生還是老師，大家都會討論這個話題。如果你能用中文說Culture & Comparison，大家會覺得你的中文進步很快。",
+        "py": "Zài Táiwān, Culture & Comparison shì shēnghuó zhōng hěn zhòngyào de yíbùfèn. Búlùn shì xuésheng háishì lǎoshī, dàjiā dōu huì tǎolùn zhège huàtí. Rúguǒ nǐ néng yòng Zhōngwén shuō Culture & Comparison, dàjiā huì juéde nǐ de Zhōngwén jìnbù hěn kuài.",
+        "questions": [
+          {
+            "q": "這段話主要在說什麼？",
+            "options": [
+              "Culture & Comparison",
+              "買菜",
+              "看球",
+              "唱歌"
+            ],
+            "answer": "Culture & Comparison"
+          },
+          {
+            "q": "誰會討論這個話題？",
+            "options": [
+              "只有學生",
+              "只有老師",
+              "大家都會",
+              "沒人討論"
+            ],
+            "answer": "大家都會"
+          },
+          {
+            "q": "學會說這個會讓人覺得你的中文怎麼樣？",
+            "options": [
+              "退步了",
+              "沒進步",
+              "進步很快",
+              "很難聽"
+            ],
+            "answer": "進步很快"
+          }
+        ]
+      },
+      {
+        "title": "Listening: Tips for Culture & Comparison",
+        "text": "學習Culture & Comparison的時候，最重要的是多聽多說。你可以去書店買一些相關的書來看。不要怕說錯，因為練習是進步最好的方法。",
+        "py": "Xuéxí Culture & Comparison de shíhòu, zuì zhòngyào de shì duō tīng duō shuō. Nǐ kěyǐ qù shūdiàn mǎi yìxiē xiāngguān de shū lái kàn. Búyào pà shuōcuò, yīnwèi liànxí shì jìnbù zuìhǎo de fāngfǎ.",
+        "questions": [
+          {
+            "q": "學習什麼最重要？",
+            "options": [
+              "睡覺",
+              "多聽多說",
+              "不說話",
+              "不看書"
+            ],
+            "answer": "多聽多說"
+          },
+          {
+            "q": "可以去哪裡買書？",
+            "options": [
+              "醫院",
+              "書店",
+              "銀行",
+              "機場"
+            ],
+            "answer": "書店"
+          },
+          {
+            "q": "為什麼不要怕說錯？",
+            "options": [
+              "因為沒關係",
+              "因為練習是進步的方法",
+              "因為別人在笑你",
+              "因為很簡單"
+            ],
+            "answer": "因為練習是進步的方法"
+          }
+        ]
+      }
+    ],
+    "readings": [
+      {
+        "title": "Reading: Culture & Comparison in Taiwan",
+        "text": "台灣的Culture & Comparison很有特色。每年都有很多人來這裡參觀。如果你感興趣，可以在網上找一些資料。了解當地的文化會讓你的旅程更有趣。歡迎你來台灣體驗這裡的Culture & Comparison。",
+        "py": "Táiwān de Culture & Comparison hěn yǒu tèsè. Měinián dōu yǒu hěnduō rén lái zhèlǐ cānguān. Rúguǒ nǐ gǎn xìngqù, kěyǐ zài wǎngshàng zhǎo yìxiē zīliào. Liǎojiě dāngdì de wénhuà huì ràng nǐ de lǚchéng gèng yǒuqù. Huānyíng nǐ lái Táiwān tǐyàn zhèlǐ de Culture & Comparison.",
+        "questions": [
+          {
+            "q": "台灣的什麼很有特色？",
+            "options": [
+              "Culture & Comparison",
+              "天氣",
+              "交通",
+              "語言"
+            ],
+            "answer": "Culture & Comparison"
+          },
+          {
+            "q": "想了解可以去哪裡找資料？",
+            "options": [
+              "山上",
+              "網上",
+              "海底",
+              "月球"
+            ],
+            "answer": "網上"
+          },
+          {
+            "q": "了解文化有什麼好處？",
+            "options": [
+              "沒好處",
+              "讓旅程更有趣",
+              "很累",
+              "很貴"
+            ],
+            "answer": "讓旅程更有趣"
+          }
+        ]
+      },
+      {
+        "title": "Reading: How to Study Culture & Comparison",
+        "text": "對初學者來說，學習Culture & Comparison需要耐心。你可以從簡單的詞彙開始學起。每天花一點時間練習，你就會發現自己越來越有信心。加油，你一定可以學好Culture & Comparison的！",
+        "py": "Duì chūxuézhě lái shuō, xuéxí Culture & Comparison xūyào nàixīn. Nǐ kěyǐ cóng jiǎndān de cíhuì kāishǐ xué qǐ. Měitiān huā yìdiǎn shíjiān liànxí, nǐ jiù huì fāxiàn zìjǐ yuèlái yuè yǒu xìnxīn. Jiāyóu, nǐ yídìng kěyǐ xué hǎo Culture & Comparison de!",
+        "questions": [
+          {
+            "q": "學習這個需要什麼？",
+            "options": [
+              "金錢",
+              "耐心",
+              "體力",
+              "名聲"
+            ],
+            "answer": "耐心"
+          },
+          {
+            "q": "應該從什麼開始學起？",
+            "options": [
+              "難的字",
+              "簡單的詞彙",
+              "整本書",
+              "不學"
+            ],
+            "answer": "簡單的詞彙"
+          },
+          {
+            "q": "每天練習會怎麼樣？",
+            "options": [
+              "越來越沒信心",
+              "越來越有信心",
+              "沒變化",
+              "很累"
+            ],
+            "answer": "越來越有信心"
+          }
+        ]
+      }
+    ],
+    "quizzes": [
+      {
+        "type": "choice",
+        "question": "What does '一樣' (yíyàng) mean?",
+        "options": [
+          "Different",
+          "The same",
+          "Easy",
+          "Difficult"
+        ],
+        "answer": "The same"
+      },
+      {
+        "type": "fill",
+        "sentence": "台灣的文化跟我的國家不 ___ 。",
+        "answer": "一樣"
+      }
+    ]
+  },
+  {
+    "id": "b1_c15",
+    "book": 1,
+    "chapter": 15,
+    "title": "Future Plans",
+    "subtitle": "Graduation and goals",
+    "intro": "Discuss your plans after finishing school.",
+    "vocab": [
+      {
+        "hanzi": "醫生",
+        "pinyin": "yīshēng",
+        "definition": "doctor"
+      },
+      {
+        "hanzi": "一直",
+        "pinyin": "yìzhí",
+        "definition": "continuously, all the way"
+      },
+      {
+        "hanzi": "流",
+        "pinyin": "liú",
+        "definition": "to flow"
+      },
+      {
+        "hanzi": "鼻水",
+        "pinyin": "bíshuǐ",
+        "definition": "snot, nasal mucus, a running nose"
+      },
+      {
+        "hanzi": "頭",
+        "pinyin": "tóu",
+        "definition": "head"
+      },
+      {
+        "hanzi": "痛",
+        "pinyin": "tòng",
+        "definition": "painful"
+      },
+      {
+        "hanzi": "胃口",
+        "pinyin": "wèikǒu",
+        "definition": "appetite"
+      },
+      {
+        "hanzi": "差",
+        "pinyin": "chā",
+        "definition": "poor, bad"
+      },
+      {
+        "hanzi": "喉嚨",
+        "pinyin": "hóulóng",
+        "definition": "throat"
+      },
+      {
+        "hanzi": "發炎",
+        "pinyin": "fāyán",
+        "definition": "to be inflamed"
+      },
+      {
+        "hanzi": "生病",
+        "pinyin": "shēngbìng",
+        "definition": "to fall ill"
+      },
+      {
+        "hanzi": "發燒",
+        "pinyin": "fāshāo",
+        "definition": "to have a fever"
+      },
+      {
+        "hanzi": "感冒",
+        "pinyin": "gǎnmào",
+        "definition": "to catch/have a cold"
+      },
+      {
+        "hanzi": "藥",
+        "pinyin": "yào",
+        "definition": "medicine"
+      },
+      {
+        "hanzi": "藥局",
+        "pinyin": "yàojú",
+        "definition": "pharmacy, drug store"
+      },
+      {
+        "hanzi": "拿",
+        "pinyin": "ná",
+        "definition": "to get"
+      },
+      {
+        "hanzi": "把",
+        "pinyin": "bǎ",
+        "definition": "disposal marker"
+      },
+      {
+        "hanzi": "水",
+        "pinyin": "shuǐ",
+        "definition": "water"
+      },
+      {
+        "hanzi": "休息",
+        "pinyin": "xiūxí",
+        "definition": "to take a rest"
+      },
+      {
+        "hanzi": "睡覺",
+        "pinyin": "shuìjiào",
+        "definition": "to sleep"
+      },
+      {
+        "hanzi": "早一點",
+        "pinyin": "zǎo yìdiǎn",
+        "definition": "a bit earlier"
+      },
+      {
+        "hanzi": "臉色",
+        "pinyin": "liǎnsè",
+        "definition": "a person's \"color\" (said of the face when healthy or sick, pleased or angry etc.)"
+      },
+      {
+        "hanzi": "難看",
+        "pinyin": "nánkàn",
+        "definition": "not to look good"
+      },
+      {
+        "hanzi": "肚子",
+        "pinyin": "dùzi",
+        "definition": "stomach, abdomen"
+      },
+      {
+        "hanzi": "吐",
+        "pinyin": "tù",
+        "definition": "to throw up, to vomit"
+      },
+      {
+        "hanzi": "幾",
+        "pinyin": "jǐ",
+        "definition": "(a) few"
+      },
+      {
+        "hanzi": "次",
+        "pinyin": "cì",
+        "definition": "measure word for times, occurrences"
+      },
+      {
+        "hanzi": "陪",
+        "pinyin": "péi",
+        "definition": "to go/stay with somebody, to accompany"
+      },
+      {
+        "hanzi": "看病",
+        "pinyin": "kànbìng",
+        "definition": "to see a doctor"
+      },
+      {
+        "hanzi": "健康",
+        "pinyin": "jiànkāng",
+        "definition": "health"
+      },
+      {
+        "hanzi": "保險",
+        "pinyin": "bǎoxiǎn",
+        "definition": "insurance"
+      },
+      {
+        "hanzi": "跟",
+        "pinyin": "gēn",
+        "definition": "to"
+      },
+      {
+        "hanzi": "油",
+        "pinyin": "yóu",
+        "definition": "oily, greasy"
+      },
+      {
+        "hanzi": "冰",
+        "pinyin": "bīng",
+        "definition": "icy"
+      },
+      {
+        "hanzi": "別",
+        "pinyin": "bié",
+        "definition": "don't (used in imperatives)"
+      },
+      {
+        "hanzi": "關心",
+        "pinyin": "guānxīn",
+        "definition": "to be concerned about"
+      },
+      {
+        "hanzi": "包",
+        "pinyin": "bāo",
+        "definition": "measure word for bags, packages etc."
+      },
+      {
+        "hanzi": "睡",
+        "pinyin": "shuì",
+        "definition": "to sleep"
+      },
+      {
+        "hanzi": "小時",
+        "pinyin": "xiǎoshí",
+        "definition": "hour"
+      },
+      {
+        "hanzi": "怎麼了",
+        "pinyin": "zěnme le",
+        "definition": "What's wrong?"
+      },
+      {
+        "hanzi": "不用了",
+        "pinyin": "búyòng le",
+        "definition": "It's not necessary."
+      },
+      {
+        "hanzi": "健康中心",
+        "pinyin": "jiànkāng zhōngxīn",
+        "definition": "health center"
+      },
+      {
+        "hanzi": "回家",
+        "pinyin": "huí jiā",
+        "definition": "go home"
+      },
+      {
+        "hanzi": "最好",
+        "pinyin": "zuìhǎo",
+        "definition": "It would be best.../ (You) should..."
+      }
+    ],
+    "dialogues": [
+      {
+        "title": "Conversation about Future Plans",
+        "lines": [
+          {
+            "speaker": "A",
+            "zh": "你好！關於Future Plans，你覺得怎麼樣？",
+            "py": "Nǐ hǎo! Guānyú Future Plans, nǐ juéde zěnmeyàng?",
+            "en": "Hello! Regarding Future Plans, what do you think?"
+          },
+          {
+            "speaker": "B",
+            "zh": "我覺得非常有意思。我也想多了解一點。",
+            "py": "Wǒ juéde fēicháng yǒuyìsi. Wǒ yě xiǎng duō liǎojiě yìdiǎn.",
+            "en": "I think it's very interesting. I also want to learn more about it."
+          },
+          {
+            "speaker": "A",
+            "zh": "那我們週末一起去看看，好不好？",
+            "py": "Nà wǒmen zhōumò yìqǐ qù kànkàn, hǎo bù hǎo?",
+            "en": "Then let's go take a look together this weekend, okay?"
+          },
+          {
+            "speaker": "B",
+            "zh": "好啊。要帶什麼東西嗎？",
+            "py": "Hǎo a. Yào dài shénme dōngxī ma?",
+            "en": "Sure. Do we need to bring anything?"
+          },
+          {
+            "speaker": "A",
+            "zh": "帶一支手機和一點錢就可以了。",
+            "py": "Dài yìzhī shǒujī hé yìdiǎn qián jiù kěyǐ le.",
+            "en": "Just bring a phone and some money."
+          },
+          {
+            "speaker": "B",
+            "zh": "沒問題。我們幾點見面？",
+            "py": "Méi wèntí. Wǒmen jǐ diǎn jiànmiàn?",
+            "en": "No problem. What time shall we meet?"
+          },
+          {
+            "speaker": "A",
+            "zh": "星期六早上十點，在學校門口見。",
+            "py": "Xīngqīliù zǎoshàng shídiǎn, zài xuéxiào ménkǒu jiàn.",
+            "en": "Saturday morning at ten, meet at the school gate."
+          },
+          {
+            "speaker": "B",
+            "zh": "太好了，不見不散！",
+            "py": "Tài hǎo le, bújiàn búsàn!",
+            "en": "Great, be there or be square!"
+          }
+        ]
+      },
+      {
+        "title": "Planning Future Plans",
+        "lines": [
+          {
+            "speaker": "A",
+            "zh": "你準備好了嗎？我們今天要討論Future Plans。",
+            "py": "Nǐ zhǔnbèi hǎo le ma? Wǒmen jīntiān yào tǎolùn Future Plans.",
+            "en": "Are you ready? Today we are going to discuss Future Plans."
+          },
+          {
+            "speaker": "B",
+            "zh": "我準備好了。我查了一些資料。",
+            "py": "Wǒ zhǔnbèi hǎo le. Wǒ chá le yìxiē zīliào.",
+            "en": "I'm ready. I've looked up some information."
+          },
+          {
+            "speaker": "A",
+            "zh": "很好。你有什麼問題想問嗎？",
+            "py": "Hěn hǎo. Nǐ yǒu shénme wèntí xiǎng wèn ma?",
+            "en": "Good. Do you have any questions you'd like to ask?"
+          },
+          {
+            "speaker": "B",
+            "zh": "我想知道在台灣，Future Plans有什麼特別的地方？",
+            "py": "Wǒ xiǎng zhīdào zài Táiwān, Future Plans yǒu shénme tèbié de dìfāng?",
+            "en": "I want to know, in Taiwan, what is special about Future Plans?"
+          },
+          {
+            "speaker": "A",
+            "zh": "這裡的Future Plans非常有特色，大家都很喜歡。",
+            "py": "Zhèlǐ de Future Plans fēicháng yǒu tèsè, dàjiā dōu hěn xǐhuān.",
+            "en": "The Future Plans here has a lot of character; everyone likes it."
+          },
+          {
+            "speaker": "B",
+            "zh": "聽起來很不錯。我們什麼時候開始？",
+            "py": "Tīng qǐlái hěn búcuò. Wǒmen shénme shíhòu kāishǐ?",
+            "en": "Sounds great. When do we start?"
+          },
+          {
+            "speaker": "A",
+            "zh": "現在就開始吧。請看這張地圖。",
+            "py": "Xiànzài jiù kāishǐ ba. Qǐng kàn zhè zhāng dìtú.",
+            "en": "Let's start now. Please look at this map."
+          },
+          {
+            "speaker": "B",
+            "zh": "好的，我準備好了。",
+            "py": "Hǎode, wǒ zhǔnbèi hǎo le.",
+            "en": "Okay, I'm ready."
+          }
+        ]
+      }
+    ],
+    "listening": [
+      {
+        "title": "Listening: About Future Plans",
+        "text": "在台灣，Future Plans是生活中很重要的一部分。不論是學生還是老師，大家都會討論這個話題。如果你能用中文說Future Plans，大家會覺得你的中文進步很快。",
+        "py": "Zài Táiwān, Future Plans shì shēnghuó zhōng hěn zhòngyào de yíbùfèn. Búlùn shì xuésheng háishì lǎoshī, dàjiā dōu huì tǎolùn zhège huàtí. Rúguǒ nǐ néng yòng Zhōngwén shuō Future Plans, dàjiā huì juéde nǐ de Zhōngwén jìnbù hěn kuài.",
+        "questions": [
+          {
+            "q": "這段話主要在說什麼？",
+            "options": [
+              "Future Plans",
+              "買菜",
+              "看球",
+              "唱歌"
+            ],
+            "answer": "Future Plans"
+          },
+          {
+            "q": "誰會討論這個話題？",
+            "options": [
+              "只有學生",
+              "只有老師",
+              "大家都會",
+              "沒人討論"
+            ],
+            "answer": "大家都會"
+          },
+          {
+            "q": "學會說這個會讓人覺得你的中文怎麼樣？",
+            "options": [
+              "退步了",
+              "沒進步",
+              "進步很快",
+              "很難聽"
+            ],
+            "answer": "進步很快"
+          }
+        ]
+      },
+      {
+        "title": "Listening: Tips for Future Plans",
+        "text": "學習Future Plans的時候，最重要的是多聽多說。你可以去書店買一些相關的書來看。不要怕說錯，因為練習是進步最好的方法。",
+        "py": "Xuéxí Future Plans de shíhòu, zuì zhòngyào de shì duō tīng duō shuō. Nǐ kěyǐ qù shūdiàn mǎi yìxiē xiāngguān de shū lái kàn. Búyào pà shuōcuò, yīnwèi liànxí shì jìnbù zuìhǎo de fāngfǎ.",
+        "questions": [
+          {
+            "q": "學習什麼最重要？",
+            "options": [
+              "睡覺",
+              "多聽多說",
+              "不說話",
+              "不看書"
+            ],
+            "answer": "多聽多說"
+          },
+          {
+            "q": "可以去哪裡買書？",
+            "options": [
+              "醫院",
+              "書店",
+              "銀行",
+              "機場"
+            ],
+            "answer": "書店"
+          },
+          {
+            "q": "為什麼不要怕說錯？",
+            "options": [
+              "因為沒關係",
+              "因為練習是進步的方法",
+              "因為別人在笑你",
+              "因為很簡單"
+            ],
+            "answer": "因為練習是進步的方法"
+          }
+        ]
+      }
+    ],
+    "readings": [
+      {
+        "title": "Reading: Future Plans in Taiwan",
+        "text": "台灣的Future Plans很有特色。每年都有很多人來這裡參觀。如果你感興趣，可以在網上找一些資料。了解當地的文化會讓你的旅程更有趣。歡迎你來台灣體驗這裡的Future Plans。",
+        "py": "Táiwān de Future Plans hěn yǒu tèsè. Měinián dōu yǒu hěnduō rén lái zhèlǐ cānguān. Rúguǒ nǐ gǎn xìngqù, kěyǐ zài wǎngshàng zhǎo yìxiē zīliào. Liǎojiě dāngdì de wénhuà huì ràng nǐ de lǚchéng gèng yǒuqù. Huānyíng nǐ lái Táiwān tǐyàn zhèlǐ de Future Plans.",
+        "questions": [
+          {
+            "q": "台灣的什麼很有特色？",
+            "options": [
+              "Future Plans",
+              "天氣",
+              "交通",
+              "語言"
+            ],
+            "answer": "Future Plans"
+          },
+          {
+            "q": "想了解可以去哪裡找資料？",
+            "options": [
+              "山上",
+              "網上",
+              "海底",
+              "月球"
+            ],
+            "answer": "網上"
+          },
+          {
+            "q": "了解文化有什麼好處？",
+            "options": [
+              "沒好處",
+              "讓旅程更有趣",
+              "很累",
+              "很貴"
+            ],
+            "answer": "讓旅程更有趣"
+          }
+        ]
+      },
+      {
+        "title": "Reading: How to Study Future Plans",
+        "text": "對初學者來說，學習Future Plans需要耐心。你可以從簡單的詞彙開始學起。每天花一點時間練習，你就會發現自己越來越有信心。加油，你一定可以學好Future Plans的！",
+        "py": "Duì chūxuézhě lái shuō, xuéxí Future Plans xūyào nàixīn. Nǐ kěyǐ cóng jiǎndān de cíhuì kāishǐ xué qǐ. Měitiān huā yìdiǎn shíjiān liànxí, nǐ jiù huì fāxiàn zìjǐ yuèlái yuè yǒu xìnxīn. Jiāyóu, nǐ yídìng kěyǐ xué hǎo Future Plans de!",
+        "questions": [
+          {
+            "q": "學習這個需要什麼？",
+            "options": [
+              "金錢",
+              "耐心",
+              "體力",
+              "名聲"
+            ],
+            "answer": "耐心"
+          },
+          {
+            "q": "應該從什麼開始學起？",
+            "options": [
+              "難的字",
+              "簡單的詞彙",
+              "整本書",
+              "不學"
+            ],
+            "answer": "簡單的詞彙"
+          },
+          {
+            "q": "每天練習會怎麼樣？",
+            "options": [
+              "越來越沒信心",
+              "越來越有信心",
+              "沒變化",
+              "很累"
+            ],
+            "answer": "越來越有信心"
+          }
+        ]
+      }
+    ],
+    "quizzes": [
+      {
+        "type": "choice",
+        "question": "What is 'Future'?",
+        "options": [
+          "現在",
+          "過去",
+          "未來",
+          "今天"
+        ],
+        "answer": "未來"
+      },
+      {
+        "type": "fill",
+        "sentence": "你畢業以後有什麼 ___ ？",
+        "answer": "計畫"
+      }
+    ]
+  }
+]
