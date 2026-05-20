@@ -61,86 +61,6 @@ window.QuizModule = (() => {
     return shuffle(pool).slice(0, count);
   }
 
-
-  function asText(value) {
-    return String(value || '').trim();
-  }
-
-  function firstMeaning(value) {
-    return asText(value).split(/[;?,?]/)[0].trim() || asText(value);
-  }
-
-  function normalizeBookVocab(item, bookNum) {
-    return {
-      hanzi: item.traditional || item.hanzi || item.word || '',
-      traditional: item.traditional || item.hanzi || item.word || '',
-      pinyin: item.pinyin || '',
-      definition: item.english || item.definition || '',
-      level: `Book ${bookNum}`,
-      category: `Lesson ${parseInt((item.vocab_id || '').match(/L(\d+)/)?.[1] || '1')}`,
-      audio_file: item.audio_file || '',
-      vocab_id: item.vocab_id || '',
-      example_sentence: item.example_sentence || null
-    };
-  }
-
-  function collectBookSentences(chapter) {
-    const out = [];
-    if (!chapter) return out;
-    (chapter.dialogues || []).forEach(dialogue => {
-      (dialogue.lines || []).forEach(line => out.push({ sentence: line.zh, pinyin: line.py, english: line.en }));
-    });
-    (chapter.listening || []).forEach(item => out.push({ sentence: item.text, pinyin: item.py, english: item.en || item.title || '' }));
-    (chapter.readings || []).forEach(item => out.push({ sentence: item.text, pinyin: item.py, english: item.en || item.title || '' }));
-    return out.filter(item => item.sentence);
-  }
-
-  function enrichBookVocabWithContext(vocabItems, bookContent, bookNum) {
-    const chapters = new Map((bookContent || []).map(ch => [Number(ch.chapter), ch]));
-    return (vocabItems || []).map(raw => {
-      const item = normalizeBookVocab(raw, bookNum);
-      const lesson = Number((item.vocab_id || '').match(/L(\d+)/)?.[1] || 1);
-      const chapter = chapters.get(lesson);
-      const sentences = collectBookSentences(chapter);
-      const target = item.traditional || item.hanzi;
-      const found = sentences.find(sentence => sentence.sentence && target && sentence.sentence.includes(target));
-      if (found) item.example_sentence = found;
-      else if (!item.example_sentence && target) {
-        item.example_sentence = {
-          sentence: `\u6211\u6b63\u5728\u5b78${target}\u3002`,
-          pinyin: '',
-          english: `I am learning ${item.definition || target}.`
-        };
-      }
-      return item;
-    }).filter(item => item.hanzi && item.definition);
-  }
-
-  function normalizeRadical(radical) {
-    const examples = Array.isArray(radical.examples) ? radical.examples : [];
-    const firstExample = examples[0] || {};
-    const component = radical.component || '';
-    const meaning = radical.coreMeaning || radical.learningRole || '';
-    const exampleChar = firstExample.character || component;
-    const exampleMeaning = firstExample.meaning || firstMeaning(meaning);
-    return {
-      hanzi: component,
-      traditional: component,
-      pinyin: radical.pinyin || '',
-      definition: meaning,
-      level: `Phase ${radical.phase}`,
-      category: radical.phaseName || 'Radical',
-      radical_id: radical.id,
-      examples,
-      learningRole: radical.learningRole || '',
-      example_sentence: {
-        sentence: `${component}\u5e38\u51fa\u73fe\u5728${exampleChar}\u9019\u500b\u5b57\u88e1\u3002`,
-        pinyin: '',
-        english: `${component} appears in characters such as ${exampleChar}, meaning ${exampleMeaning}.`
-      }
-    };
-  }
-
   // ── Unified Data Pool ───────────────────────────────────────
   function getQuizPool() {
     let pool = [];
@@ -179,17 +99,31 @@ window.QuizModule = (() => {
       }
     }
     else if (quizState.source === 'book') {
+      // Pull from Course Book vocabulary
       if (quizState.bookData) {
-        pool = quizState.bookData.filter(item => {
-          const lesson = String(item.vocab_id || '').match(/L(\d+)/)?.[1];
-          return lesson === quizState.bookChapter;
-        });
+        pool = quizState.bookData.filter(item => item.vocab_id.includes(`L${quizState.bookChapter}`)).map(item => ({
+          hanzi: item.traditional,
+          traditional: item.traditional,
+          pinyin: item.pinyin,
+          definition: item.english,
+          level: `Book ${quizState.book}`,
+          category: `Lesson ${parseInt(quizState.bookChapter)}`,
+          audio_file: item.audio_file
+        }));
       }
     }
 
     else if (quizState.source === 'radical') {
+      // Pull from Radical Masterclass
       if (quizState.radicalData) {
-        pool = quizState.radicalData.filter(r => Number(r.phase) === Number(quizState.radicalPhase)).map(normalizeRadical);
+        pool = quizState.radicalData.filter(r => r.phase === quizState.radicalPhase).map(r => ({
+          hanzi: r.component,
+          traditional: r.component,
+          pinyin: r.pinyin,
+          definition: r.coreMeaning,
+          level: `Phase ${r.phase}`,
+          category: 'Radical'
+        }));
       }
     }
 
@@ -327,9 +261,7 @@ window.QuizModule = (() => {
       } else if (submode === 'cloze') {
         const sentence = item.example_sentence;
         if (!sentence || !sentence.sentence) return;
-        const target = item.traditional || item.hanzi;
-        if (!target || !sentence.sentence.includes(target)) return;
-        const blanked = sentence.sentence.replace(target, '___');
+        const blanked = sentence.sentence.replace(item.traditional || item.hanzi, '___');
         const distractors = pickDistractors(item, pool, 'hanzi', 3);
         if (distractors.length < 3) return;
         questions.push({
@@ -353,12 +285,6 @@ window.QuizModule = (() => {
 
   // ── GUI: Render Selection Screen ────────────────────────────
   function renderSetup(container, type) {
-    if (App.state.lastLevelFilter) {
-      quizState.source = 'level';
-      quizState.level = App.state.lastLevelFilter;
-      App.state.lastLevelFilter = null;
-    }
-
     const categories = getCategories();
     const sets = getChapterSets();
 
@@ -524,7 +450,9 @@ window.QuizModule = (() => {
         await this.switchBook(quizState.book);
       }
       if (src === 'radical' && !quizState.radicalData) {
-        await this.loadRadicalData();
+        const resp = await fetch('traditional_chinese_radicals_120_learning_set.json');
+        const json = await resp.json();
+        quizState.radicalData = json.radicals;
       }
     },
 
@@ -536,48 +464,24 @@ window.QuizModule = (() => {
 
     async switchBook(bookNum) {
       quizState.book = parseInt(bookNum);
-      const [vocabData, contentData] = await Promise.all([
-        this.loadBookData(bookNum),
-        this.loadBookContent(bookNum)
-      ]);
-      quizState.bookContent = contentData;
-      quizState.bookData = enrichBookVocabWithContext(vocabData, contentData, quizState.book);
+      const data = await this.loadBookData(bookNum);
+      quizState.bookData = data;
       
-      const chapters = [...new Set(quizState.bookData.map(item => {
-        const match = String(item.vocab_id || '').match(/L(\d+)/);
+      const chapters = [...new Set(data.map(item => {
+        const match = item.vocab_id.match(/L(\d+)/);
         return match ? match[1] : null;
       }))].filter(Boolean).sort();
       
       const select = document.getElementById('quiz-book-chapter');
       if (select) {
         select.innerHTML = chapters.map(ch => `<option value="${ch}" ${quizState.bookChapter === ch ? 'selected' : ''}>Lesson ${parseInt(ch)}</option>`).join('');
-        quizState.bookChapter = chapters.includes(quizState.bookChapter) ? quizState.bookChapter : (select.value || chapters[0] || '01');
-        select.value = quizState.bookChapter;
+        quizState.bookChapter = select.value;
       }
     },
 
     async loadBookData(bookNum) {
       const resp = await fetch(`books/book${bookNum}/vocabulary_b${bookNum}.json`);
-      if (!resp.ok) throw new Error(`Book ${bookNum} vocabulary could not load.`);
       return resp.json();
-    },
-
-    async loadBookContent(bookNum) {
-      try {
-        const resp = await fetch(`data/book${bookNum}_content.json`);
-        if (!resp.ok) return [];
-        return await resp.json();
-      } catch (_) {
-        return [];
-      }
-    },
-
-    async loadRadicalData() {
-      const resp = await fetch('data/radicals_set.json');
-      if (!resp.ok) throw new Error('Radical Masterclass data could not load.');
-      const json = await resp.json();
-      quizState.radicalData = json.radicals || [];
-      return quizState.radicalData;
     },
 
     setLevel(lvl, el) {
@@ -598,9 +502,7 @@ window.QuizModule = (() => {
       el.classList.add('active');
     },
 
-    async startQuiz(type) {
-      if (quizState.source === 'book' && !quizState.bookData) await this.switchBook(quizState.book);
-      if (quizState.source === 'radical' && !quizState.radicalData) await this.loadRadicalData();
+    startQuiz(type) {
       const pool = getQuizPool();
       if (pool.length === 0) {
         alert('The selected set is empty. Please choose a different category or chapter.');
@@ -646,7 +548,6 @@ window.QuizModule = (() => {
   // ── Quiz Execution ──────────────────────────────────────────
   function showQuestion() {
     const area = document.getElementById('quiz-area');
-    quizState.questionStarted = Date.now();
     const q = quizState.questions[quizState.current];
     
     if (!q) {
@@ -740,17 +641,13 @@ window.QuizModule = (() => {
       </div>
     `;
 
-    const elapsed = Date.now() - (quizState.questionStarted || Date.now());
     if (isCorrect) {
       quizState.score++;
       App.unmarkWeak(item.hanzi);
     } else {
       quizState.wrong.push(item);
       App.markWeak(item.hanzi);
-      const area = q.type === 'tone-choice' ? 'tone' : (q.type && q.type.includes('pinyin') ? 'pinyin' : 'vocabulary');
-      if (window.WeaknessEngine) WeaknessEngine.record(area, { hanzi: item.hanzi, label: item.traditional || item.hanzi, type: 'quiz-wrong', ms: elapsed });
     }
-    if (elapsed > 9000 && window.WeaknessEngine) WeaknessEngine.record('slow', { hanzi: item.hanzi, label: item.traditional || item.hanzi, type: 'quiz-slow', ms: elapsed });
 
     document.getElementById('next-btn').classList.remove('hidden');
   };

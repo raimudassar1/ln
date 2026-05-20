@@ -1,4 +1,4 @@
-﻿/* ═══════════════════════════════════════════════════════════════
+/* ═══════════════════════════════════════════════════════════════
    onboarding.js — Pinyin Trainer, Tone Ear Training, Start Here
    ═══════════════════════════════════════════════════════════════ */
 
@@ -10,380 +10,42 @@ const OnboardingModule = (() => {
   async function render(container) {
     let drillData = null;
     try { drillData = await API.get('/pinyin-drills'); } catch {}
-    window._cachedDrillData = drillData;
 
     const done = App.state.progress.onboardingComplete;
 
     container.innerHTML = `
-      <div class="onboarding-experience">
-      <div class="page-header ob-hero">
-        <div class="ob-kicker">Foundation Course</div>
+      <div class="page-header">
         <h2>Start Here — Pinyin & Tones</h2>
-        <p>Master Mandarin sounds with cleaner listening drills, tone colors, and practical tongue-position practice before you move into characters.</p>
-        <div class="ob-hero-actions">
-          <button type="button" class="btn btn-primary" onclick="obTab('human')">Human Voice Lab</button>
-          <button type="button" class="btn btn-ghost" onclick="obTab('tones')">Practice tones</button>
-          <button type="button" class="btn btn-ghost" onclick="obTab('ear')">Ear training</button>
-        </div>
+        <p>Master the Chinese sound system before studying characters. This is your foundation.</p>
       </div>
 
-      <div class="tab-switcher ob-tabs" style="max-width:760px">
-        <button type="button" class="tab-btn active" id="ob-tab-human" onclick="obTab('human')">Human Lab</button>
-        <button type="button" class="tab-btn" id="ob-tab-overview" onclick="obTab('overview')">Overview</button>
-        <button type="button" class="tab-btn" id="ob-tab-tones"    onclick="obTab('tones')">4 Tones</button>
-        <button type="button" class="tab-btn" id="ob-tab-sounds"   onclick="obTab('sounds')">Sounds</button>
-        <button type="button" class="tab-btn" id="ob-tab-ear"      onclick="obTab('ear')">Ear Training</button>
-        <button type="button" class="tab-btn" id="ob-tab-rules"    onclick="obTab('rules')">Tone Rules</button>
+      <div class="tab-switcher" style="max-width:600px">
+        <button class="tab-btn active" id="ob-tab-overview" onclick="obTab('overview')">Overview</button>
+        <button class="tab-btn" id="ob-tab-tones"    onclick="obTab('tones')">4 Tones</button>
+        <button class="tab-btn" id="ob-tab-sounds"   onclick="obTab('sounds')">Sounds</button>
+        <button class="tab-btn" id="ob-tab-ear"      onclick="obTab('ear')">Ear Training</button>
+        <button class="tab-btn" id="ob-tab-rules"    onclick="obTab('rules')">Tone Rules</button>
       </div>
 
-      <div id="ob-panel-human">${renderHumanPinyinLab()}</div>
-      <div id="ob-panel-overview" class="hidden">${renderOverview(done)}</div>
+      <div id="ob-panel-overview">${renderOverview(done)}</div>
       <div id="ob-panel-tones"   class="hidden">${drillData ? renderTones(drillData) : '<div class="spinner"></div>'}</div>
       <div id="ob-panel-sounds"  class="hidden">${drillData ? renderSounds(drillData) : '<div class="spinner"></div>'}</div>
       <div id="ob-panel-ear"     class="hidden">${drillData ? renderEarTraining(drillData) : '<div class="spinner"></div>'}</div>
       <div id="ob-panel-rules"   class="hidden">${drillData ? renderToneRules(drillData) : '<div class="spinner"></div>'}</div>
-      </div>
     `;
 
     window.obTab = (name) => {
-      ['human','overview','tones','sounds','ear','rules'].forEach(n => {
+      ['overview','tones','sounds','ear','rules'].forEach(n => {
         document.getElementById(`ob-panel-${n}`)?.classList.toggle('hidden', n !== name);
         document.getElementById(`ob-tab-${n}`)?.classList.toggle('active', n === name);
       });
     };
 
-    // Wire interactive pronunciation labs after render
-    wireHumanPinyinLab();
+    // Wire ear training after render
     if (drillData) wireEarTraining(drillData);
   }
 
   // ── Overview Panel ───────────────────────────────────────────
-
-
-  // -- Human Pinyin Lab --------------------------------------------------
-  const HUMAN_PINYIN_ITEMS = [
-    { id: 'ma1', type: 'tone', group: 'Tone ladder', pinyin: 'm\u0101', hanzi: '\u5abd', meaning: 'mother', answer: 'tone1', audioKey: 'tone_ma_1', coaching: 'High, level, and steady. Do not rise at the end.' },
-    { id: 'ma2', type: 'tone', group: 'Tone ladder', pinyin: 'm\u00e1', hanzi: '\u9ebb', meaning: 'hemp', answer: 'tone2', audioKey: 'tone_ma_2', coaching: 'Start mid and rise clearly, like asking a short question.' },
-    { id: 'ma3', type: 'tone', group: 'Tone ladder', pinyin: 'm\u01ce', hanzi: '\u99ac', meaning: 'horse', answer: 'tone3', audioKey: 'tone_ma_3', coaching: 'Low dipping tone. In real speech it often stays low before another tone.' },
-    { id: 'ma4', type: 'tone', group: 'Tone ladder', pinyin: 'm\u00e0', hanzi: '\u7f75', meaning: 'scold', answer: 'tone4', audioKey: 'tone_ma_4', coaching: 'Sharp fall. Keep it short and decisive.' },
-    { id: 'bo1', type: 'initial', group: 'Aspirated contrast', pinyin: 'b\u014d', hanzi: '\u6ce2', meaning: 'b, no air burst', answer: 'b', audioKey: 'initial_b', coaching: 'b is unaspirated. Keep the lips light with almost no puff of air.' },
-    { id: 'po1', type: 'initial', group: 'Aspirated contrast', pinyin: 'p\u014d', hanzi: '\u5761', meaning: 'p, strong air burst', answer: 'p', audioKey: 'initial_p', coaching: 'p is aspirated. Release a clear puff of air.' },
-    { id: 'de1', type: 'initial', group: 'Aspirated contrast', pinyin: 'd\u0113', hanzi: '\u5f97', meaning: 'd, no air burst', answer: 'd', audioKey: 'initial_d', coaching: 'd is unaspirated and light.' },
-    { id: 'te1', type: 'initial', group: 'Aspirated contrast', pinyin: 't\u00e8', hanzi: '\u7279', meaning: 't, strong air burst', answer: 't', audioKey: 'initial_t', coaching: 't is aspirated. Let the air pop out.' },
-    { id: 'zi1', type: 'initial', group: 'Tongue position', pinyin: 'z\u012b', hanzi: '\u8cc7', meaning: 'front z', answer: 'z', audioKey: 'initial_z', coaching: 'z is flat near the teeth. Do not curl the tongue.' },
-    { id: 'zhi1', type: 'initial', group: 'Tongue position', pinyin: 'zh\u012b', hanzi: '\u77e5', meaning: 'retroflex zh', answer: 'zh', audioKey: 'initial_zh', coaching: 'zh curls the tongue slightly back.' },
-    { id: 'ci1', type: 'initial', group: 'Tongue position', pinyin: 'c\u00ec', hanzi: '\u6b21', meaning: 'front c', answer: 'c', audioKey: 'initial_c', coaching: 'c is front and aspirated.' },
-    { id: 'chi1', type: 'initial', group: 'Tongue position', pinyin: 'ch\u012b', hanzi: '\u5403', meaning: 'retroflex ch', answer: 'ch', audioKey: 'initial_ch', coaching: 'ch is curled back and aspirated.' },
-    { id: 'si1', type: 'initial', group: 'Tongue position', pinyin: 's\u012b', hanzi: '\u53f8', meaning: 'front s', answer: 's', audioKey: 'initial_s', coaching: 's is dental and narrow.' },
-    { id: 'shi1', type: 'initial', group: 'Tongue position', pinyin: 'sh\u012b', hanzi: '\u5e2b', meaning: 'retroflex sh', answer: 'sh', audioKey: 'initial_sh', coaching: 'sh is retroflex with the tongue pulled back.' },
-    { id: 'ji1', type: 'initial', group: 'Palatal initials', pinyin: 'j\u012b', hanzi: '\u96de', meaning: 'j, no air burst', answer: 'j', audioKey: 'initial_j', coaching: 'j is palatal and unaspirated.' },
-    { id: 'qi1', type: 'initial', group: 'Palatal initials', pinyin: 'q\u012b', hanzi: '\u4e03', meaning: 'q, strong air burst', answer: 'q', audioKey: 'initial_q', coaching: 'q is palatal and aspirated.' },
-    { id: 'xi1', type: 'initial', group: 'Palatal initials', pinyin: 'x\u012b', hanzi: '\u897f', meaning: 'x, soft hiss', answer: 'x', audioKey: 'initial_x', coaching: 'x is a soft palatal hissing sound.' },
-    { id: 'lu4', type: 'final', group: 'Final vowels', pinyin: 'l\u00f9', hanzi: '\u8def', meaning: 'u final', answer: 'u', audioKey: 'final_u', coaching: 'u is rounded like oo in boot.' },
-    { id: 'lv4', type: 'final', group: 'Final vowels', pinyin: 'l\u01dc', hanzi: '\u7da0', meaning: '\u00fc final', answer: '\u00fc', audioKey: 'final_yu', coaching: '\u00fc uses rounded lips with an ee tongue position.' },
-    { id: 'men2', type: 'final', group: 'Final vowels', pinyin: 'm\u00e9n', hanzi: '\u9580', meaning: 'en final', answer: 'en', audioKey: 'final_en', coaching: 'en ends at the front of the mouth.' },
-    { id: 'meng2', type: 'final', group: 'Final vowels', pinyin: 'm\u00e9ng', hanzi: '\u8499', meaning: 'eng final', answer: 'eng', audioKey: 'final_eng', coaching: 'eng resonates farther back in the throat.' },
-    { id: 'an1', type: 'final', group: 'Final vowels', pinyin: '\u0101n', hanzi: '\u5b89', meaning: 'an final', answer: 'an', audioKey: 'final_an', coaching: 'an is a front nasal.' },
-    { id: 'ang1', type: 'final', group: 'Final vowels', pinyin: '\u0101ng', hanzi: '\u9ad2', meaning: 'ang final', answer: 'ang', audioKey: 'final_ang', coaching: 'ang is open and back nasal.' },
-    { id: 'tone_pair_23', type: 'tonepair', group: 'Tone pairs', pinyin: 'h\u011bn m\u00e1ng', hanzi: '\u5f88\u5fd9', meaning: 'very busy', answer: '2+3', audioKey: 'tone_pair_23', coaching: 'Listen for a rise followed by the low third tone.' },
-    { id: 'tone_pair_34', type: 'tonepair', group: 'Tone pairs', pinyin: 'h\u01ceo k\u00e0n', hanzi: '\u597d\u770b', meaning: 'good-looking', answer: '3+4', audioKey: 'tone_pair_34', coaching: 'Third tone stays low, then the fourth drops sharply.' },
-    { id: 'tone_pair_44', type: 'tonepair', group: 'Tone pairs', pinyin: 'xi\u00e8xie', hanzi: '\u8b1d\u8b1d', meaning: 'thanks', answer: '4+4', audioKey: 'tone_pair_44', coaching: 'Two falling tones, but the second is lighter in natural speech.' }
-  ];
-
-  let humanPinyinManifest = { version: 1, items: {} };
-  let humanPinyinBank = {
-    focused: HUMAN_PINYIN_ITEMS.filter(item => item.type !== 'tonepair'),
-    tonePairs: HUMAN_PINYIN_ITEMS.filter(item => item.type === 'tonepair'),
-    all: HUMAN_PINYIN_ITEMS.slice()
-  };
-  let humanPinyinState = { current: null, score: 0, total: 0, mode: 'all', sessionSize: 20, sessionDone: 0, pool: [] };
-
-  function obEsc(value) {
-    return String(value ?? '').replace(/[&<>"']/g, (ch) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[ch]));
-  }
-
-  function renderHumanPinyinLab() {
-    const groups = [
-      ['Tone ladder', 'Hear the same syllable across tones before testing yourself.'],
-      ['Aspirated contrast', 'Train the air burst difference English ears often miss.'],
-      ['Tongue position', 'Fix z/zh, c/ch, and s/sh with focused minimal pairs.'],
-      ['Palatal initials', 'Separate j, q, and x without letting TTS spell letters.'],
-      ['Final vowels', 'Separate u, \u00fc, and difficult nasal finals.'],
-      ['Tone pairs', 'Practice tones as real connected speech, not isolated syllables.']
-    ];
-
-    return `
-      <section class="human-pinyin-lab" aria-label="Human Pinyin Lab">
-        <div class="hpl-hero">
-          <div>
-            <div class="ob-kicker">Human Pinyin Lab</div>
-            <h3>Train your ear before you trust your tongue.</h3>
-            <p>Use real local recordings when available, then fall back to slow Chinese pronunciation only for missing files. Every test plays one target sound so the answer is clear.</p>
-          </div>
-          <div class="hpl-status-card">
-            <span class="hpl-status-label">Audio source</span>
-            <strong id="hpl-audio-source">Checking files...</strong>
-            <small>Human audio goes in <code>assets/audio/pinyin-human</code> and is mapped in <code>data/pinyin_human_manifest.json</code>.</small>
-          </div>
-        </div>
-
-        <div class="hpl-mastery-panel">
-          <div>
-            <span class="ob-kicker">Mastery Bank</span>
-            <h4>824 targeted drills loaded for long-term pinyin mastery</h4>
-            <p><strong id="hpl-focused-count">388</strong> pinyin drills ? <strong id="hpl-tonepair-count">436</strong> tone-pair drills ? choose a focused mode before starting.</p>
-          </div>
-          <div class="hpl-mode-grid" role="group" aria-label="Pinyin mastery mode">
-            <button type="button" class="active" data-hpl-action="set-mode" data-mode="all">Mixed</button>
-            <button type="button" data-hpl-action="set-mode" data-mode="tone">Tones</button>
-            <button type="button" data-hpl-action="set-mode" data-mode="initial">Initials</button>
-            <button type="button" data-hpl-action="set-mode" data-mode="final">Finals</button>
-            <button type="button" data-hpl-action="set-mode" data-mode="tonepair">Tone Pairs</button>
-          </div>
-          <div class="hpl-size-grid" role="group" aria-label="Session length">
-            <button type="button" class="active" data-hpl-action="set-size" data-size="20">20</button>
-            <button type="button" data-hpl-action="set-size" data-size="50">50</button>
-            <button type="button" data-hpl-action="set-size" data-size="100">100</button>
-            <button type="button" data-hpl-action="set-size" data-size="300">300</button>
-          </div>
-        </div>
-
-        <div class="hpl-layout">
-          <article class="hpl-test-card">
-            <div class="hpl-card-header">
-              <div>
-                <span class="ob-kicker">Blind Listening Test</span>
-                <h4>Play first. Answer second.</h4>
-              </div>
-              <div class="hpl-score"><span id="hpl-score">0</span>/<span id="hpl-total">0</span></div>
-            </div>
-            <div class="hpl-prompt" id="hpl-prompt"><span>Press New Question to begin.</span></div>
-            <div class="hpl-controls">
-              <button type="button" class="btn btn-primary" data-hpl-action="next">New Question</button>
-              <button type="button" class="btn btn-ghost" data-hpl-action="play">Play Sound</button>
-            </div>
-            <div class="hpl-answer-grid" id="hpl-answer-grid">
-              ${['tone1','tone2','tone3','tone4','z','zh','u','\u00fc'].map(ans => `<button type="button" data-hpl-action="answer" data-answer="${obEsc(ans)}">${obEsc(ans)}</button>`).join('')}
-            </div>
-            <div class="hpl-feedback" id="hpl-feedback">Short, repeated listening beats long passive sessions.</div>
-          </article>
-
-          <aside class="hpl-routine">
-            <span class="ob-kicker">Daily 12-minute routine</span>
-            <h4>Use this before every study session</h4>
-            <ol>
-              <li>2 min: tone ladder m\u0101 m\u00e1 m\u01ce m\u00e0.</li>
-              <li>3 min: z/zh, c/ch, s/sh tongue position.</li>
-              <li>3 min: u vs \u00fc and en/eng finals.</li>
-              <li>4 min: blind test until you score 8/10.</li>
-            </ol>
-          </aside>
-        </div>
-
-        <div class="hpl-section-title">
-          <span class="ob-kicker">Focused Drills</span>
-          <h4>Choose one sound problem at a time</h4>
-        </div>
-        <div class="hpl-group-grid">
-          ${groups.map(([title, desc]) => `
-            <section class="hpl-group-card">
-              <div class="hpl-group-copy">
-                <h5>${obEsc(title)}</h5>
-                <p>${obEsc(desc)}</p>
-              </div>
-              <div class="hpl-sound-grid">
-                ${HUMAN_PINYIN_ITEMS.filter(item => item.group === title).map(item => renderHumanSoundButton(item)).join('')}
-              </div>
-            </section>
-          `).join('')}
-        </div>
-      </section>`;
-  }
-
-  function renderHumanSoundButton(item) {
-    return `
-      <button type="button" class="hpl-sound-button" data-hpl-action="play-item" data-id="${obEsc(item.id)}">
-        <span class="hpl-hanzi">${obEsc(item.hanzi)}</span>
-        <span class="hpl-pinyin">${obEsc(item.pinyin)}</span>
-        <span class="hpl-meaning">${obEsc(item.meaning)}</span>
-        <span class="hpl-coach">${obEsc(item.coaching)}</span>
-      </button>`;
-  }
-
-  async function loadHumanPinyinManifest() {
-    try {
-      const response = await fetch('data/pinyin_human_manifest.json', { cache: 'no-store' });
-      if (response.ok) humanPinyinManifest = await response.json();
-    } catch {}
-    try {
-      const bankResponse = await fetch('data/pinyin_mastery_drills.json', { cache: 'no-store' });
-      if (bankResponse.ok) {
-        const bank = await bankResponse.json();
-        const focused = Array.isArray(bank.focused) ? bank.focused : [];
-        const tonePairs = Array.isArray(bank.tonePairs) ? bank.tonePairs : [];
-        if (focused.length || tonePairs.length) humanPinyinBank = { focused, tonePairs, all: focused.concat(tonePairs) };
-      }
-    } catch {}
-    humanPinyinState.pool = [];
-    updateHumanMasteryStats();
-    const count = Object.keys(humanPinyinManifest.items || {}).length;
-    const source = document.getElementById('hpl-audio-source');
-    if (source) source.textContent = count ? `${count} human recordings ready` : 'TTS fallback active';
-  }
-
-  function updateHumanMasteryStats() {
-    const focused = document.getElementById('hpl-focused-count');
-    const tonePairs = document.getElementById('hpl-tonepair-count');
-    if (focused) focused.textContent = humanPinyinBank.focused.length;
-    if (tonePairs) tonePairs.textContent = humanPinyinBank.tonePairs.length;
-  }
-
-  function humanAudioFor(item) {
-    return humanPinyinManifest?.items?.[item.audioKey]?.src || '';
-  }
-
-  async function playHumanItem(item) {
-    if (!item) return;
-    const src = humanAudioFor(item);
-    if (src) {
-      try {
-        const audio = new Audio(src);
-        await audio.play();
-        return;
-      } catch {}
-    }
-    const spoken = item.audioText || item.hanzi || item.example || item.pinyin;
-    if (spoken) TTS.speak(spoken, 'zh-TW', 0.68);
-  }
-
-  function shuffledHumanOptions(correct, candidates, size = 4) {
-    const unique = Array.from(new Set((candidates || []).filter(Boolean).map(String)));
-    const wrong = unique.filter(value => value !== correct).sort(() => Math.random() - 0.5).slice(0, Math.max(0, size - 1));
-    const options = Array.from(new Set([correct].concat(wrong))).sort(() => Math.random() - 0.5);
-    return options.length ? options : [correct];
-  }
-
-  function humanPoolForMode(mode = humanPinyinState.mode) {
-    if (mode === 'tonepair') return humanPinyinBank.tonePairs.slice();
-    if (mode === 'tone' || mode === 'initial' || mode === 'final') return humanPinyinBank.focused.filter(item => item.type === mode);
-    return humanPinyinBank.all.slice();
-  }
-
-  function buildHumanAnswerOptions(item) {
-    if (!item) return [];
-    if (Array.isArray(item.options) && item.options.length) return item.options;
-    if (item.type === 'tone') return ['tone1', 'tone2', 'tone3', 'tone4'];
-    if (item.type === 'tonepair') return shuffledHumanOptions(item.answer, ['1+1','1+2','1+3','1+4','2+1','2+2','2+3','2+4','3+1','3+2','3+3','3+4','4+1','4+2','4+3','4+4']);
-    if (item.type === 'initial') return shuffledHumanOptions(item.answer, humanPinyinBank.focused.filter(entry => entry.type === 'initial').map(entry => entry.answer), 6);
-    if (item.type === 'final') return shuffledHumanOptions(item.answer, humanPinyinBank.focused.filter(entry => entry.type === 'final').map(entry => entry.answer), 6);
-    return shuffledHumanOptions(item.answer, ['b','p','d','t','z','zh','c','ch','s','sh','j','q','x']);
-  }
-
-  function renderHumanAnswers(item) {
-    return buildHumanAnswerOptions(item).map(ans => `<button type="button" data-hpl-action="answer" data-answer="${obEsc(ans)}">${obEsc(ans)}</button>`).join('');
-  }
-
-  function bindHumanLabButtons() {
-    const root = document.querySelector('.human-pinyin-lab');
-    if (!root || root.dataset.bound === 'true') return;
-    root.dataset.bound = 'true';
-    root.addEventListener('click', (event) => {
-      const button = event.target.closest('[data-hpl-action]');
-      if (!button || !root.contains(button)) return;
-      event.preventDefault();
-      const action = button.dataset.hplAction;
-      if (action === 'next') window.HumanPinyinLab.next();
-      if (action === 'play') window.HumanPinyinLab.play();
-      if (action === 'answer') window.HumanPinyinLab.answer(button.dataset.answer || '');
-      if (action === 'play-item') window.HumanPinyinLab.playItem(button.dataset.id || '');
-      if (action === 'set-mode') window.HumanPinyinLab.setMode(button.dataset.mode || 'all');
-      if (action === 'set-size') window.HumanPinyinLab.setSize(Number(button.dataset.size || 20));
-    });
-  }
-
-  function wireHumanPinyinLab() {
-    loadHumanPinyinManifest();
-    window.HumanPinyinLab = {
-      next() {
-        if (!humanPinyinState.pool.length || humanPinyinState.sessionDone >= humanPinyinState.sessionSize) {
-          humanPinyinState.pool = humanPoolForMode().sort(() => Math.random() - 0.5);
-          humanPinyinState.sessionDone = 0;
-        }
-        const pool = humanPinyinState.pool.length ? humanPinyinState.pool : HUMAN_PINYIN_ITEMS.slice();
-        humanPinyinState.current = pool.shift();
-        humanPinyinState.pool = pool;
-        humanPinyinState.sessionDone += 1;
-        const prompt = document.getElementById('hpl-prompt');
-        const feedback = document.getElementById('hpl-feedback');
-        const answers = document.getElementById('hpl-answer-grid');
-        if (prompt) prompt.innerHTML = `<span>Mode: ${obEsc(humanPinyinState.mode)} - item ${humanPinyinState.sessionDone}/${humanPinyinState.sessionSize}. Listen and identify this target sound.</span>`;
-        if (feedback) { feedback.classList.remove('correct', 'wrong'); feedback.textContent = 'Play the sound, then choose the closest answer.'; }
-        if (answers) answers.innerHTML = renderHumanAnswers(humanPinyinState.current);
-        this.play();
-      },
-      play() {
-        if (!humanPinyinState.current) {
-          this.next();
-          return;
-        }
-        playHumanItem(humanPinyinState.current);
-      },
-      playItem(id) {
-        const item = HUMAN_PINYIN_ITEMS.find(entry => entry.id === id);
-        humanPinyinState.current = item || humanPinyinState.current;
-        const answers = document.getElementById('hpl-answer-grid');
-        const feedback = document.getElementById('hpl-feedback');
-        if (answers && item) answers.innerHTML = renderHumanAnswers(item);
-        if (feedback && item) { feedback.classList.remove('correct', 'wrong'); feedback.textContent = item.coaching; }
-        playHumanItem(item);
-      },
-      setMode(mode) {
-        humanPinyinState.mode = mode;
-        humanPinyinState.pool = [];
-        humanPinyinState.sessionDone = 0;
-        document.querySelectorAll('[data-hpl-action="set-mode"]').forEach(btn => btn.classList.toggle('active', btn.dataset.mode === mode));
-        const feedback = document.getElementById('hpl-feedback');
-        if (feedback) feedback.textContent = `Mode changed to ${mode}. Press New Question to start a fresh focused set.`;
-      },
-      setSize(size) {
-        humanPinyinState.sessionSize = Number.isFinite(size) ? size : 20;
-        humanPinyinState.pool = [];
-        humanPinyinState.sessionDone = 0;
-        document.querySelectorAll('[data-hpl-action="set-size"]').forEach(btn => btn.classList.toggle('active', Number(btn.dataset.size) === humanPinyinState.sessionSize));
-      },
-      answer(answer) {
-        const item = humanPinyinState.current;
-        if (!item) return;
-        humanPinyinState.total += 1;
-        const correct = answer === item.answer;
-        if (correct) humanPinyinState.score += 1;
-        const score = document.getElementById('hpl-score');
-        const total = document.getElementById('hpl-total');
-        const feedback = document.getElementById('hpl-feedback');
-        const prompt = document.getElementById('hpl-prompt');
-        if (score) score.textContent = humanPinyinState.score;
-        if (total) total.textContent = humanPinyinState.total;
-        document.querySelectorAll('#hpl-answer-grid [data-hpl-action="answer"]').forEach(btn => {
-          const isCorrectButton = btn.dataset.answer === item.answer;
-          const isChosen = btn.dataset.answer === answer;
-          btn.classList.toggle('correct', isCorrectButton);
-          btn.classList.toggle('wrong', isChosen && !correct);
-          btn.disabled = true;
-          btn.setAttribute('aria-pressed', String(isChosen));
-        });
-        if (prompt) prompt.innerHTML = `<strong>${obEsc(item.hanzi || item.audioText || '')}</strong><span>${obEsc(item.pinyin || item.pinyinNumbered || '')} - ${obEsc(item.meaning || '')}</span>`;
-        if (feedback) {
-          feedback.classList.toggle('correct', correct);
-          feedback.classList.toggle('wrong', !correct);
-          feedback.innerHTML = correct
-            ? `<strong>Correct.</strong> ${obEsc(item.coaching || '')}`
-            : `<strong>Not quite.</strong> Correct answer: <b>${obEsc(item.answer)}</b>. ${obEsc(item.coaching || '')}`;
-        }
-      }
-    };
-    bindHumanLabButtons();
-  }
-
   function renderOverview(done) {
     return `
       <div style="max-width:720px">
@@ -438,10 +100,10 @@ const OnboardingModule = (() => {
               ['mǎ','3','馬 horse','var(--tone3)'],
               ['mà','4','罵 scold','var(--tone4)'],
             ].map(([py,t,meaning,color]) => `
-              <button class="ob-tone-play" onclick="TTS.speak('${meaning.split(' ')[0]}')" style="flex:1;min-width:100px;background:var(--off-white);border:2px solid ${color};border-radius:var(--radius-sm);padding:14px 10px;cursor:pointer;transition:all 0.15s;font-family:var(--font-ui)" onmouseover="this.style.background='var(--card-bg)'" onmouseout="this.style.background='var(--off-white)'">
-                <div class="ob-tone-pinyin" style="font-size:1.6rem;font-weight:800;color:${color}">${py}</div>
-                <div class="ob-tone-meaning" style="font-size:0.72rem;color:var(--text-3);margin-top:3px">${meaning}</div>
-                <div class="ob-tone-icon" style="font-size:1.1rem;margin-top:4px">🔊</div>
+              <button onclick="TTS.speak('${meaning.split(' ')[0]}')" style="flex:1;min-width:100px;background:var(--off-white);border:2px solid ${color};border-radius:var(--radius-sm);padding:14px 10px;cursor:pointer;transition:all 0.15s;font-family:var(--font-ui)" onmouseover="this.style.background='var(--card-bg)'" onmouseout="this.style.background='var(--off-white)'">
+                <div style="font-size:1.6rem;font-weight:700;color:${color}">${py}</div>
+                <div style="font-size:0.72rem;color:var(--text-3);margin-top:3px">${meaning}</div>
+                <div style="font-size:1.1rem;margin-top:4px">🔊</div>
               </button>`).join('')}
           </div>
           <p class="text-small text-muted" style="margin-top:10px">Click each to hear. Four completely different words — just from tone!</p>
@@ -453,10 +115,10 @@ const OnboardingModule = (() => {
           <div style="display:flex;flex-direction:column;gap:0">
             ${[
               ['🎵','Step 1','Master Pinyin & Tones','You are here','var(--tone2)','Complete the Tones and Sounds tabs above'],
-              ['🌱','Step 2','Novice Characters (300)','Basic everyday characters','var(--tone5)','Numbers, colors, family, verbs'],
-              ['🌿','Step 3','TOCFL A1 (300)','Survival Chinese','var(--tone5)','Greetings, shopping, transport, food'],
-              ['🌳','Step 4','TOCFL A2 (250)','Elementary level','var(--tone5)','Complex sentences, reading passages'],
-              ['🏆','Step 5','TOCFL B1 (150)','Independent learner','var(--tone5)','News, opinions, mock exams'],
+              ['🌱','Step 2','Novice Characters (300)','Basic everyday characters','#95a5a6','Numbers, colors, family, verbs'],
+              ['🌿','Step 3','TOCFL A1 (300)','Survival Chinese','#95a5a6','Greetings, shopping, transport, food'],
+              ['🌳','Step 4','TOCFL A2 (250)','Elementary level','#95a5a6','Complex sentences, reading passages'],
+              ['🏆','Step 5','TOCFL B1 (150)','Independent learner','#95a5a6','News, opinions, mock exams'],
             ].map(([icon,step,title,sub,color,detail],i) => `
               <div style="display:flex;gap:14px;padding:14px 0;${i<4?'border-bottom:1px solid var(--border)':''}">
                 <div style="width:44px;height:44px;border-radius:50%;background:${color};display:flex;align-items:center;justify-content:center;font-size:1.2rem;flex-shrink:0;${i===0?'box-shadow:0 0 0 3px rgba(39,174,96,0.2)':''}">${icon}</div>
@@ -472,7 +134,7 @@ const OnboardingModule = (() => {
 
         <div style="display:flex;gap:10px;flex-wrap:wrap">
           <button class="btn btn-primary btn-lg" onclick="obTab('tones')">Start: 4 Tones →</button>
-          <button class="btn btn-ghost" onclick="navigate('/learn')">Go to Learning Path</button>
+          <button class="btn btn-ghost" onclick="navigate('#/learn')">Go to Learning Path</button>
         </div>
       </div>
     `;
@@ -512,9 +174,9 @@ const OnboardingModule = (() => {
 
         <!-- Individual tone cards -->
         ${tones.map(tone => `
-          <div class="card mb-12" style="border-left:4px solid var(--tone${tone.number})">
+          <div class="card mb-12" style="border-left:4px solid ${tone.color}">
             <div style="display:flex;align-items:center;gap:14px;margin-bottom:12px">
-              <div style="font-size:2.2rem;font-weight:900;color:var(--tone${tone.number});font-family:var(--font-pinyin);width:48px;text-align:center">${tone.symbol}</div>
+              <div style="font-size:2.2rem;font-weight:900;color:${tone.color};font-family:var(--font-pinyin);width:48px;text-align:center">${tone.symbol}</div>
               <div>
                 <div style="font-weight:700;font-size:1rem">${tone.name}</div>
                 <div style="font-size:0.85rem;color:var(--text-2)">${tone.description}</div>
@@ -525,10 +187,10 @@ const OnboardingModule = (() => {
             </div>
             <div style="display:flex;gap:8px;flex-wrap:wrap">
               ${(tone.examples || []).map(ex => `
-                <button onclick="TTS.speak('${ex.hanzi}')" style="display:flex;align-items:center;gap:8px;background:var(--card-bg);border:1.5px solid var(--border);border-radius:var(--radius-sm);padding:8px 12px;cursor:pointer;transition:all 0.15s;font-family:var(--font-ui)" onmouseover="this.style.borderColor='var(--tone${tone.number})'" onmouseout="this.style.borderColor='var(--border)'">
+                <button onclick="TTS.speak('${ex.hanzi}')" style="display:flex;align-items:center;gap:8px;background:var(--card-bg);border:1.5px solid var(--border);border-radius:var(--radius-sm);padding:8px 12px;cursor:pointer;transition:all 0.15s;font-family:var(--font-ui)" onmouseover="this.style.borderColor='${tone.color}'" onmouseout="this.style.borderColor='var(--border)'">
                   <span style="font-family:var(--font-zh);font-size:1.4rem;font-weight:700">${ex.hanzi}</span>
                   <span>
-                    <span style="display:block;font-size:0.85rem;font-weight:600;color:var(--tone${tone.number})">${ex.pinyin}</span>
+                    <span style="display:block;font-size:0.85rem;font-weight:600;color:${tone.color}">${ex.pinyin}</span>
                     <span style="display:block;font-size:0.72rem;color:var(--text-3)">${ex.meaning}</span>
                   </span>
                   <span style="font-size:0.9rem;color:var(--text-3)">🔊</span>
@@ -585,7 +247,7 @@ const OnboardingModule = (() => {
 
         <!-- Tricky initials callout -->
         <div class="card mb-16" style="border-left:4px solid var(--gold)">
-          <h4 style="margin-bottom:10px;font-size:0.9rem;color:var(--text)">⚠️ The Tricky Ones for English Speakers</h4>
+          <h4 style="margin-bottom:10px;font-size:0.9rem">⚠️ The Tricky Ones for English Speakers</h4>
           <div style="display:flex;flex-direction:column;gap:10px">
             ${[
               ['x vs sh','x = tongue near FRONT teeth (lighter). sh = tongue CURLED back.','xīn vs shēn'],
@@ -596,7 +258,7 @@ const OnboardingModule = (() => {
               ['b/d/g vs p/t/k','Chinese b/d/g have NO puff of air. p/t/k DO.','bā vs pā'],
             ].map(([pair,tip,ex]) => `
               <div style="background:var(--off-white);border-radius:var(--radius-sm);padding:10px 14px">
-                <div style="font-weight:700;margin-bottom:2px;font-size:0.9rem;color:var(--text)">${pair}</div>
+                <div style="font-weight:700;margin-bottom:2px;font-size:0.9rem">${pair}</div>
                 <div style="font-size:0.82rem;color:var(--text-2)">${tip}</div>
                 <div style="font-size:0.78rem;color:var(--text-3);margin-top:3px">Example: ${ex}</div>
               </div>`).join('')}
@@ -609,7 +271,7 @@ const OnboardingModule = (() => {
           <p class="text-small text-muted mb-12">Finals are the vowel endings of syllables. Click to play.</p>
           <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:8px">
             ${finals.map(f => `
-              <div style="background:var(--off-white);border-radius:var(--radius-sm);padding:10px 12px;cursor:pointer;transition:all 0.15s" onclick="playPinyinExample('${f.audio || f.examples?.[0] || f.symbol}')">
+              <div style="background:var(--off-white);border-radius:var(--radius-sm);padding:10px 12px;cursor:pointer;transition:all 0.15s" onclick="TTS.speak('${f.examples?.[0]||f.symbol}','zh-TW',0.7)">
                 <div style="font-weight:700;font-size:1rem;color:var(--red)">${f.symbol}</div>
                 <div style="font-size:0.75rem;color:var(--text-2);margin:2px 0">${f.description}</div>
                 <div style="font-size:0.7rem;color:var(--text-3)">${(f.examples||[]).slice(0,2).join(', ')}</div>
@@ -619,17 +281,17 @@ const OnboardingModule = (() => {
 
         <!-- Minimal pairs drill -->
         <div class="card mb-16">
-          <h4 style="font-size:0.85rem;text-transform:uppercase;letter-spacing:1px;color:var(--text-2);margin-bottom:12px">Minimal Pairs Practice</h4>
+          <h4 style="font-size:0.85rem;text-transform:uppercase;letter-spacing:1px;color:var(--text-3);margin-bottom:12px">Minimal Pairs Practice</h4>
           ${pairs.map(drill => `
             <div style="margin-bottom:18px;padding-bottom:18px;border-bottom:1px solid var(--border)">
-              <div style="font-weight:700;font-size:0.95rem;margin-bottom:6px;color:var(--text)">${drill.title}</div>
-              <div style="font-size:0.82rem;color:var(--text-2);margin-bottom:10px;background:var(--off-white);padding:12px 14px;border-radius:var(--radius-sm);line-height:1.5">${drill.instruction}</div>
+              <div style="font-weight:600;font-size:0.9rem;margin-bottom:4px">${drill.title}</div>
+              <div style="font-size:0.8rem;color:var(--text-2);margin-bottom:10px;background:var(--off-white);padding:8px 12px;border-radius:var(--radius-sm)">${drill.instruction}</div>
               <div style="display:flex;flex-direction:column;gap:6px">
                 ${(drill.pairs||[]).map(p => `
                   <div style="display:flex;gap:8px;align-items:center">
-                    <button onclick="playPinyinExample('${p.a.replace(/'/g, "\\'")}')" style="flex:1;background:var(--off-white);border:1px solid var(--border);border-radius:var(--radius-sm);padding:8px;cursor:pointer;font-family:var(--font-ui);font-size:0.85rem;color:var(--text)" onmouseover="this.style.borderColor='var(--tone2)'" onmouseout="this.style.borderColor='var(--border)'">🔊 ${p.a}</button>
+                    <button onclick="TTS.speak('${p.a.split(' ')[0]}')" style="flex:1;background:var(--off-white);border:1px solid var(--border);border-radius:var(--radius-sm);padding:8px;cursor:pointer;font-family:var(--font-ui);font-size:0.85rem" onmouseover="this.style.borderColor='var(--tone2)'" onmouseout="this.style.borderColor='var(--border)'">🔊 ${p.a}</button>
                     <span style="color:var(--text-3);font-size:0.8rem">vs</span>
-                    <button onclick="playPinyinExample('${p.b.replace(/'/g, "\\'")}')" style="flex:1;background:var(--off-white);border:1px solid var(--border);border-radius:var(--radius-sm);padding:8px;cursor:pointer;font-family:var(--font-ui);font-size:0.85rem;color:var(--text)" onmouseover="this.style.borderColor='var(--tone4)'" onmouseout="this.style.borderColor='var(--border)'">🔊 ${p.b}</button>
+                    <button onclick="TTS.speak('${p.b.split(' ')[0]}')" style="flex:1;background:var(--off-white);border:1px solid var(--border);border-radius:var(--radius-sm);padding:8px;cursor:pointer;font-family:var(--font-ui);font-size:0.85rem" onmouseover="this.style.borderColor='var(--tone4)'" onmouseout="this.style.borderColor='var(--border)'">🔊 ${p.b}</button>
                   </div>`).join('')}
               </div>
             </div>`).join('')}
@@ -650,9 +312,9 @@ const OnboardingModule = (() => {
         <div id="ear-sets">
           ${(data.ear_training_sets||[]).map((set,si) => `
             <div class="card mb-16" id="ear-set-${si}">
-              <h4 style="font-size:0.9rem;font-weight:700;margin-bottom:4px;color:var(--text)">${set.title}</h4>
-              <p class="text-small mb-14" style="color:var(--text-2);line-height:1.4">${set.instruction}</p>
-              <div id="ear-set-items-${si}">
+              <h4 style="font-size:0.9rem;font-weight:700;margin-bottom:4px">${set.title}</h4>
+              <p class="text-small text-muted mb-14">${set.instruction}</p>
+              <div id="ear-items-${si}">
                 ${(set.items||[]).map((item,ii) => renderEarItem(item, si, ii)).join('')}
               </div>
             </div>`).join('')}
@@ -669,13 +331,13 @@ const OnboardingModule = (() => {
         <div class="ear-item" id="ear-${si}-${ii}" style="margin-bottom:14px;padding:14px;background:var(--off-white);border-radius:var(--radius-sm)">
           <div style="display:flex;align-items:center;gap:12px;margin-bottom:10px">
             <button class="btn btn-primary btn-sm" onclick="playEar('${item.audio_text}',${si},${ii})">▶ Play</button>
-            <span style="font-size:0.9rem;color:var(--text);font-weight:500">${item.display || item.audio_text}</span>
+            <span class="text-small text-muted">${item.display || item.audio_text}</span>
           </div>
           <div style="display:grid;grid-template-columns:1fr 1fr;gap:6px">
             ${item.options.map((opt,oi) => `
               <button class="ear-opt" data-si="${si}" data-ii="${ii}" data-oi="${oi}" data-correct="${oi===item.correct_index}"
                 onclick="checkEar(this,${si},${ii})"
-                style="background:var(--card-bg);border:1.5px solid var(--border);border-radius:var(--radius-sm);padding:8px 12px;cursor:pointer;font-family:var(--font-ui);font-size:0.85rem;text-align:left;transition:all 0.15s;color:var(--text)">
+                style="background:var(--card-bg);border:1.5px solid var(--border);border-radius:var(--radius-sm);padding:8px 12px;cursor:pointer;font-family:var(--font-ui);font-size:0.85rem;text-align:left;transition:all 0.15s">
                 ${String.fromCharCode(65+oi)}. ${opt}
               </button>`).join('')}
           </div>
@@ -687,7 +349,7 @@ const OnboardingModule = (() => {
       <div class="ear-item" id="ear-${si}-${ii}" style="margin-bottom:14px;padding:14px;background:var(--off-white);border-radius:var(--radius-sm)">
         <div style="display:flex;align-items:center;gap:12px;margin-bottom:10px">
           <button class="btn btn-primary btn-sm" onclick="playEar('${item.audio_text}',${si},${ii})">▶ Play</button>
-          <span style="font-size:1.2rem;font-weight:600;font-family:var(--font-pinyin);color:var(--text)">${item.display||item.audio_text}</span>
+          <span style="font-size:1.2rem;font-weight:600;font-family:var(--font-pinyin)">${item.display||item.audio_text}</span>
         </div>
         <div style="display:flex;gap:8px">
           ${[1,2,3,4].map(t => `
@@ -702,25 +364,6 @@ const OnboardingModule = (() => {
   }
 
   function wireEarTraining(data) {
-    window.playPinyinExample = (label) => {
-      const text = String(label || '').trim();
-      const hanziMatch = text.match(/[（(]([^）)]+)[）)]/);
-      const target = hanziMatch ? (hanziMatch[1].match(/[\u3400-\u9fff]+/)?.[0] || hanziMatch[1]) : text.split(/\s+/)[0];
-      TTS.speak(target, 'zh-TW', 0.72);
-    };
-
-    window.playInitialSound = (symbol) => {
-      const initialAudio = {
-        b: '玻', p: '坡', m: '摸', f: '佛',
-        d: '得', t: '特', n: '訥', l: '勒',
-        g: '哥', k: '科', h: '喝',
-        j: '基', q: '欺', x: '希',
-        zh: '知', ch: '吃', sh: '詩', r: '日',
-        z: '資', c: '雌', s: '思'
-      };
-      TTS.speak(initialAudio[symbol] || symbol, 'zh-TW', 0.68);
-    };
-
     window.playEar = (text, si, ii) => {
       TTS.speak(text, 'zh-TW', 0.75);
     };
@@ -764,7 +407,7 @@ const OnboardingModule = (() => {
       if (ini && desc) {
         desc.innerHTML = `<strong style="color:var(--red)">${symbol}</strong> — ${ini.description}<br><span class="text-muted text-small">Example: ${ini.example}</span>`;
       }
-      window.playInitialSound(symbol);
+      TTS.speak(ini?.example?.split(' ')[0] || symbol, 'zh-TW', 0.7);
     };
   }
 
@@ -785,7 +428,7 @@ const OnboardingModule = (() => {
             <div style="display:flex;flex-direction:column;gap:8px">
               ${(rule.examples||[]).map(ex => `
                 <div style="display:flex;align-items:center;gap:12px;padding:10px 14px;background:var(--off-white);border-radius:var(--radius-sm)">
-                  <button class="ob-rule-zh-button" onclick="TTS.speak('${ex.written}')" style="background:none;border:none;cursor:pointer;font-family:var(--font-zh);font-size:1.8rem;font-weight:700;padding:0">${ex.written}</button>
+                  <button onclick="TTS.speak('${ex.written}')" style="background:none;border:none;cursor:pointer;font-family:var(--font-zh);font-size:1.8rem;font-weight:700;padding:0">${ex.written}</button>
                   <div style="flex:1">
                     <div style="font-size:0.85rem;font-weight:600">Spoken: <span style="color:var(--red)">${ex.spoken_pinyin}</span></div>
                     <div style="font-size:0.75rem;color:var(--text-3)">${ex.note}</div>
@@ -817,8 +460,8 @@ const OnboardingModule = (() => {
           <h4 style="margin-bottom:12px">✅ Pinyin Complete!</h4>
           <p class="text-small text-muted mb-14">You've covered the essentials of the pinyin system. Now start building your character vocabulary.</p>
           <div style="display:flex;gap:10px;flex-wrap:wrap">
-            <button class="btn btn-primary" onclick="navigate('/learn')">Start Learning Characters →</button>
-            <button class="btn btn-outline" onclick="navigate('/quiz/pronunciation')">Test Your Pronunciation</button>
+            <button class="btn btn-primary" onclick="navigate('#/learn')">Start Learning Characters →</button>
+            <button class="btn btn-outline" onclick="navigate('#/quiz/pronunciation')">Test Your Pronunciation</button>
           </div>
         </div>
       </div>
@@ -827,5 +470,3 @@ const OnboardingModule = (() => {
 
   return { render };
 })();
-
-

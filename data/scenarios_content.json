@@ -825,8 +825,7 @@
             ],
             "answer": 2
           }
-        ],
-        "image": "assets/generated/s1_1.jpg"
+        ]
       },
       {
         "id": "s1_2",
@@ -1145,8 +1144,7 @@
             ],
             "answer": 2
           }
-        ],
-        "image": "assets/generated/s1_2.jpg"
+        ]
       },
       {
         "id": "s1_3",
@@ -1465,8 +1463,7 @@
             ],
             "answer": 1
           }
-        ],
-        "image": "assets/generated/s1_3.jpg"
+        ]
       },
       {
         "id": "s1_4",
@@ -1785,8 +1782,7 @@
             ],
             "answer": 1
           }
-        ],
-        "image": "assets/generated/s1_4.jpg"
+        ]
       },
       {
         "id": "s1_5",
@@ -2105,8 +2101,7 @@
             ],
             "answer": 1
           }
-        ],
-        "image": "assets/generated/s1_5.jpg"
+        ]
       }
     ]
   },
@@ -2912,8 +2907,7 @@
             ],
             "answer": 1
           }
-        ],
-        "image": "assets/generated/s2_1.jpg"
+        ]
       },
       {
         "id": "s2_2",
@@ -3202,8 +3196,7 @@
             ],
             "answer": 1
           }
-        ],
-        "image": "assets/generated/s2_2.jpg"
+        ]
       },
       {
         "id": "s2_3",
@@ -3492,8 +3485,7 @@
             ],
             "answer": 1
           }
-        ],
-        "image": "assets/generated/s2_3.jpg"
+        ]
       },
       {
         "id": "s2_4",
@@ -3782,8 +3774,7 @@
             ],
             "answer": 2
           }
-        ],
-        "image": "assets/generated/s2_4.jpg"
+        ]
       },
       {
         "id": "s2_5",
@@ -4072,8 +4063,7 @@
             ],
             "answer": 1
           }
-        ],
-        "image": "assets/generated/s2_5.jpg"
+        ]
       }
     ]
   },
@@ -4885,8 +4875,7 @@
             ],
             "answer": 1
           }
-        ],
-        "image": "assets/generated/s3_1.jpg"
+        ]
       },
       {
         "id": "s3_2",
@@ -5187,8 +5176,7 @@
             ],
             "answer": 2
           }
-        ],
-        "image": "assets/generated/s3_2.jpg"
+        ]
       },
       {
         "id": "s3_3",
@@ -5495,8 +5483,7 @@
             ],
             "answer": 0
           }
-        ],
-        "image": "assets/generated/s3_3.jpg"
+        ]
       },
       {
         "id": "s3_4",
@@ -5797,8 +5784,7 @@
             ],
             "answer": 1
           }
-        ],
-        "image": "assets/generated/s3_4.jpg"
+        ]
       },
       {
         "id": "s3_5",
@@ -6099,8 +6085,7 @@
             ],
             "answer": 1
           }
-        ],
-        "image": "assets/generated/s3_5.jpg"
+        ]
       }
     ]
   },
@@ -6900,8 +6885,7 @@
             ],
             "answer": 1
           }
-        ],
-        "image": "assets/generated/s4_1.jpg"
+        ]
       },
       {
         "id": "s4_2",
@@ -7190,8 +7174,7 @@
             ],
             "answer": 1
           }
-        ],
-        "image": "assets/generated/s4_2.jpg"
+        ]
       },
       {
         "id": "s4_3",
@@ -7480,8 +7463,7 @@
             ],
             "answer": 1
           }
-        ],
-        "image": "assets/generated/s4_3.jpg"
+        ]
       },
       {
         "id": "s4_4",
@@ -7770,8 +7752,7 @@
             ],
             "answer": 1
           }
-        ],
-        "image": "assets/generated/s4_4.jpg"
+        ]
       },
       {
         "id": "s4_5",
@@ -8060,8 +8041,7 @@
             ],
             "answer": 1
           }
-        ],
-        "image": "assets/generated/s4_5.jpg"
+        ]
       }
     ]
   },
@@ -8861,8 +8841,7 @@
             ],
             "answer": 1
           }
-        ],
-        "image": "assets/generated/s5_1.jpg"
+        ]
       },
       {
         "id": "s5_2",
@@ -9151,8 +9130,7 @@
             ],
             "answer": 0
           }
-        ],
-        "image": "assets/generated/s5_2.jpg"
+        ]
       },
       {
         "id": "s5_3",
@@ -9441,8 +9419,7 @@
             ],
             "answer": 0
           }
-        ],
-        "image": "assets/generated/s5_3.jpg"
+        ]
       },
       {
         "id": "s5_4",
@@ -9731,8 +9708,7 @@
             ],
             "answer": 1
           }
-        ],
-        "image": "assets/generated/s5_4.jpg"
+        ]
       },
       {
         "id": "s5_5",
@@ -10021,8 +9997,7 @@
             ],
             "answer": 1
           }
-        ],
-        "image": "assets/generated/s5_5.jpg"
+        ]
       }
     ]
   },
@@ -10623,8 +10598,7 @@
             ],
             "answer": 1
           }
-        ],
-        "image": "assets/generated/s6_1.jpg"
+        ]
       },
       {
         "id": "s6_2",
@@ -10714,8 +10688,7 @@
             ],
             "answer": 2
           }
-        ],
-        "image": "assets/generated/s6_2.jpg"
+        ]
       },
       {
         "id": "s6_3",
@@ -10805,8 +10778,7 @@
             ],
             "answer": 2
           }
-        ],
-        "image": "assets/generated/s6_3.jpg"
+        ]
       },
       {
         "id": "s6_4",
@@ -10896,8 +10868,7 @@
             ],
             "answer": 2
           }
-        ],
-        "image": "assets/generated/s6_4.jpg"
+        ]
       },
       {
         "id": "s6_5",
@@ -10987,8 +10958,7 @@
             ],
             "answer": 2
           }
-        ],
-        "image": "assets/generated/s6_5.jpg"
+        ]
       }
     ]
   },
@@ -11589,8 +11559,7 @@
             ],
             "answer": 1
           }
-        ],
-        "image": "assets/generated/s7_1.jpg"
+        ]
       },
       {
         "id": "s7_2",
@@ -11680,8 +11649,7 @@
             ],
             "answer": 1
           }
-        ],
-        "image": "assets/generated/s7_2.jpg"
+        ]
       },
       {
         "id": "s7_3",
@@ -11771,8 +11739,7 @@
             ],
             "answer": 1
           }
-        ],
-        "image": "assets/generated/s7_3.jpg"
+        ]
       },
       {
         "id": "s7_4",
@@ -11862,8 +11829,7 @@
             ],
             "answer": 1
           }
-        ],
-        "image": "assets/generated/s7_4.jpg"
+        ]
       },
       {
         "id": "s7_5",
@@ -11953,2308 +11919,7 @@
             ],
             "answer": 1
           }
-        ],
-        "image": "assets/generated/s7_5.jpg"
-      }
-    ]
-  },
-  {
-    "id": "m8",
-    "title": "Local Street Food & Night Markets",
-    "titleZh": "夜市與街頭小吃",
-    "description": "Engage with local vendors, order customized street food, and learn how to ask for recommendations or bargain.",
-    "icon": "🍜",
-    "scenarios": [
-      {
-        "id": "m8-s1",
-        "title": "Ordering Custom Bubble Tea",
-        "description": "You are at a busy drink shop and need to specify your ice and sugar preferences.",
-        "subConversations": [
-          {
-            "dialogue": [
-              {
-                "speaker": "店員",
-                "zh": "你好，請問要喝什麼？",
-                "py": "Nǐ hǎo, qǐngwèn yào hē shénme?",
-                "en": "Hello, what would you like to drink?"
-              },
-              {
-                "speaker": "顧客",
-                "zh": "我要一杯珍珠奶茶，半糖少冰。",
-                "py": "Wǒ yào yī bēi zhēnzhū nǎichá, bàn táng shǎo bīng.",
-                "en": "I want a pearl milk tea, half sugar, less ice."
-              },
-              {
-                "speaker": "店員",
-                "zh": "好的，大杯還是中杯？",
-                "py": "Hǎo de, dà bēi háishì zhōng bēi?",
-                "en": "Okay, large or medium?"
-              },
-              {
-                "speaker": "顧客",
-                "zh": "大杯，謝謝。",
-                "py": "Dà bēi, xièxiè.",
-                "en": "Large, thank you."
-              }
-            ]
-          }
-        ],
-        "quiz": [
-          {
-            "question": "顧客點了什麼飲料？",
-            "options": [
-              "綠茶",
-              "珍珠奶茶",
-              "咖啡"
-            ],
-            "answer": 1
-          },
-          {
-            "question": "顧客的冰塊和甜度要求是什麼？",
-            "options": [
-              "全糖去冰",
-              "半糖少冰",
-              "無糖正常冰"
-            ],
-            "answer": 1
-          }
-        ],
-        "image": "assets/generated/m8-s1.jpg"
-      },
-      {
-        "id": "m8-s2",
-        "title": "Asking for Recommendations",
-        "description": "You are at a night market food stall and want to know their signature dish.",
-        "subConversations": [
-          {
-            "dialogue": [
-              {
-                "speaker": "顧客",
-                "zh": "老闆，請問你們的招牌是什麼？",
-                "py": "Lǎobān, qǐngwèn nǐmen de zhāopái shì shénme?",
-                "en": "Boss, what is your signature dish?"
-              },
-              {
-                "speaker": "老闆",
-                "zh": "我們的臭豆腐和蚵仔煎最有名喔！",
-                "py": "Wǒmen de chòu dòufu hé é'ā jiān zuì yǒumíng ō!",
-                "en": "Our stinky tofu and oyster omelet are the most famous!"
-              },
-              {
-                "speaker": "顧客",
-                "zh": "好，那我各來一份。",
-                "py": "Hǎo, nà wǒ gè lái yī fèn.",
-                "en": "Okay, I'll take one of each."
-              },
-              {
-                "speaker": "老闆",
-                "zh": "沒問題，內用還是外帶？",
-                "py": "Méi wèntí, nèiyòng háishì wàidài?",
-                "en": "No problem, for here or to go?"
-              }
-            ]
-          }
-        ],
-        "quiz": [
-          {
-            "question": "這家店的招牌菜是什麼？",
-            "options": [
-              "牛肉麵",
-              "臭豆腐和蚵仔煎",
-              "炒飯"
-            ],
-            "answer": 1
-          },
-          {
-            "question": "老闆最後問了顧客什麼問題？",
-            "options": [
-              "要不要加辣",
-              "內用還是外帶",
-              "一共多少錢"
-            ],
-            "answer": 1
-          }
-        ],
-        "image": "assets/generated/m8-s2.jpg"
-      },
-      {
-        "id": "m8-s3",
-        "title": "Dietary Restrictions",
-        "description": "You need to make sure the food does not contain meat or specific allergens.",
-        "subConversations": [
-          {
-            "dialogue": [
-              {
-                "speaker": "顧客",
-                "zh": "請問這個湯裡面有肉嗎？我吃素。",
-                "py": "Qǐngwèn zhège tāng lǐmiàn yǒu ròu ma? Wǒ chī sù.",
-                "en": "Does this soup have meat in it? I am a vegetarian."
-              },
-              {
-                "speaker": "店員",
-                "zh": "這個是豬骨熬的喔，如果你吃素，建議點那邊的蔬菜湯。",
-                "py": "Zhège shì zhū gǔ áo de ō, rúguǒ nǐ chī sù, jiànyì diǎn nà biān de shūcài tāng.",
-                "en": "This is boiled with pork bones. If you are vegetarian, I recommend the vegetable soup over there."
-              },
-              {
-                "speaker": "顧客",
-                "zh": "好的，那我要一碗蔬菜湯，不要加香菜。",
-                "py": "Hǎo de, nà wǒ yào yī wǎn shūcài tāng, bùyào jiā xiāngcài.",
-                "en": "Okay, then I want a bowl of vegetable soup, no cilantro."
-              }
-            ]
-          }
-        ],
-        "quiz": [
-          {
-            "question": "為什麼顧客不能喝原本的湯？",
-            "options": [
-              "太辣了",
-              "裡面有肉",
-              "太貴了"
-            ],
-            "answer": 1
-          },
-          {
-            "question": "顧客最後點的湯有什麼特別要求？",
-            "options": [
-              "不要加香菜",
-              "多加點鹽",
-              "要大碗的"
-            ],
-            "answer": 0
-          }
-        ],
-        "image": "assets/generated/m8-s3.jpg"
-      },
-      {
-        "id": "m8-s4",
-        "title": "Bargaining at the Market",
-        "description": "You are buying clothes at a night market and want to ask for a small discount.",
-        "subConversations": [
-          {
-            "dialogue": [
-              {
-                "speaker": "顧客",
-                "zh": "老闆，這件衣服多少錢？",
-                "py": "Lǎobān, zhè jiàn yīfú duōshǎo qián?",
-                "en": "Boss, how much is this shirt?"
-              },
-              {
-                "speaker": "老闆",
-                "zh": "這件五百塊，質料很好喔。",
-                "py": "Zhè jiàn wǔbǎi kuài, zhíliào hěn hǎo ō.",
-                "en": "This one is 500, the material is very good."
-              },
-              {
-                "speaker": "顧客",
-                "zh": "買兩件的話可以便宜一點嗎？",
-                "py": "Mǎi liǎng jiàn dehuà kěyǐ piányí yīdiǎn ma?",
-                "en": "If I buy two, can you make it a bit cheaper?"
-              },
-              {
-                "speaker": "老闆",
-                "zh": "好啦，兩件算你九百塊就好。",
-                "py": "Hǎo la, liǎng jiàn suàn nǐ jiǔbǎi kuài jiù hǎo.",
-                "en": "Alright, I'll count two as 900 for you."
-              }
-            ]
-          }
-        ],
-        "quiz": [
-          {
-            "question": "一件衣服原本多少錢？",
-            "options": [
-              "四百塊",
-              "五百塊",
-              "九百塊"
-            ],
-            "answer": 1
-          },
-          {
-            "question": "兩件衣服最後賣多少錢？",
-            "options": [
-              "八百塊",
-              "九百塊",
-              "一千塊"
-            ],
-            "answer": 1
-          }
-        ],
-        "image": "assets/generated/m8-s4.jpg"
-      },
-      {
-        "id": "m8-s5",
-        "title": "Finding a Seat",
-        "description": "The restaurant is full and you are asking to share a table.",
-        "subConversations": [
-          {
-            "dialogue": [
-              {
-                "speaker": "顧客",
-                "zh": "請問這裡有人坐嗎？可以併桌嗎？",
-                "py": "Qǐngwèn zhèlǐ yǒu rén zuò ma? Kěyǐ bìng zhuō ma?",
-                "en": "Excuse me, is anyone sitting here? Can we share the table?"
-              },
-              {
-                "speaker": "陌生人",
-                "zh": "沒人，請坐吧。",
-                "py": "Méi rén, qǐng zuò ba.",
-                "en": "No one, please have a seat."
-              },
-              {
-                "speaker": "顧客",
-                "zh": "謝謝！這家店人真的好多。",
-                "py": "Xièxiè! Zhè jiā diàn rén zhēnde hǎo duō.",
-                "en": "Thank you! There are really a lot of people in this restaurant."
-              },
-              {
-                "speaker": "陌生人",
-                "zh": "對啊，吃飯時間都這樣。",
-                "py": "Duì a, chīfàn shíjiān dōu zhèyàng.",
-                "en": "Yeah, it's always like this during meal times."
-              }
-            ]
-          }
-        ],
-        "quiz": [
-          {
-            "question": "顧客問陌生人什麼？",
-            "options": [
-              "這家店好不好吃",
-              "可不可以併桌",
-              "現在幾點了"
-            ],
-            "answer": 1
-          },
-          {
-            "question": "為什麼他們需要併桌？",
-            "options": [
-              "因為他們是朋友",
-              "因為店裡人很多，沒有空桌",
-              "因為桌子很大"
-            ],
-            "answer": 1
-          }
-        ],
-        "image": "assets/generated/m8-s5.jpg"
-      }
-    ]
-  },
-  {
-    "id": "m9",
-    "title": "Housing & Neighborhood",
-    "titleZh": "租屋與鄰里生活",
-    "description": "Conversations around renting apartments, talking to landlords, managing utilities, and interacting with neighbors.",
-    "icon": "🏠",
-    "scenarios": [
-      {
-        "id": "m9-s1",
-        "title": "Viewing an Apartment",
-        "description": "You are looking at a rental apartment and asking about the included appliances.",
-        "subConversations": [
-          {
-            "dialogue": [
-              {
-                "speaker": "房客",
-                "zh": "這個房間採光很好。請問租金包含水電費嗎？",
-                "py": "Zhège fángjiān cǎiguāng hěn hǎo. Qǐngwèn zūjīn bāohán shuǐdiàn fèi ma?",
-                "en": "The lighting in this room is very good. Does the rent include water and electricity?"
-              },
-              {
-                "speaker": "房東",
-                "zh": "水費包了，但電費要照電表自己付。",
-                "py": "Shuǐfèi bāo le, dàn diànfèi yào zhào diànbiǎo zìjǐ fù.",
-                "en": "Water is included, but you have to pay for electricity according to the meter."
-              },
-              {
-                "speaker": "房客",
-                "zh": "了解。那網路和第四台有提供嗎？",
-                "py": "Liǎojiě. Nà wǎnglù hé dì sì tái yǒu tígōng ma?",
-                "en": "Understood. Are internet and cable TV provided?"
-              },
-              {
-                "speaker": "房東",
-                "zh": "都有，直接可以用。",
-                "py": "Dōu yǒu, zhíjiē kěyǐ yòng.",
-                "en": "Both are there, you can use them directly."
-              }
-            ]
-          }
-        ],
-        "quiz": [
-          {
-            "question": "關於費用，房東怎麼說？",
-            "options": [
-              "水電費都不包",
-              "包水費，不包電費",
-              "水電費都包了"
-            ],
-            "answer": 1
-          },
-          {
-            "question": "房間裡有沒有網路？",
-            "options": [
-              "沒有提供",
-              "有提供",
-              "要自己去申請"
-            ],
-            "answer": 1
-          }
-        ],
-        "image": "assets/generated/m9-s1.jpg"
-      },
-      {
-        "id": "m9-s2",
-        "title": "Reporting a Broken Appliance",
-        "description": "Your air conditioner is leaking and you need to inform the landlord.",
-        "subConversations": [
-          {
-            "dialogue": [
-              {
-                "speaker": "房客",
-                "zh": "房東太太，我房間的冷氣好像壞了，一直漏水。",
-                "py": "Fángdōng tàitài, wǒ fángjiān de lěngqì hǎoxiàng huài le, yīzhí lòushuǐ.",
-                "en": "Landlady, the air conditioner in my room seems to be broken, it keeps leaking water."
-              },
-              {
-                "speaker": "房東",
-                "zh": "哎呀，怎麼會這樣。你今天晚上在家嗎？我請師傅過去看。",
-                "py": "Āiyā, zěnme huì zhèyàng. Nǐ jīntiān wǎnshàng zài jiā ma? Wǒ qǐng shīfù guòqù kàn.",
-                "en": "Oh my, how did that happen. Are you home tonight? I'll ask a technician to go take a look."
-              },
-              {
-                "speaker": "房客",
-                "zh": "我七點以後都在家，麻煩您了。",
-                "py": "Wǒ qī diǎn yǐhòu dōu zài jiā, máfán nín le.",
-                "en": "I'll be home after 7 o'clock, sorry to trouble you."
-              }
-            ]
-          }
-        ],
-        "quiz": [
-          {
-            "question": "房客遇到什麼問題？",
-            "options": [
-              "電視壞了",
-              "冷氣漏水",
-              "沒有熱水"
-            ],
-            "answer": 1
-          },
-          {
-            "question": "房東打算怎麼處理？",
-            "options": [
-              "自己去修理",
-              "請師傅去檢查",
-              "換一台新的冷氣"
-            ],
-            "answer": 1
-          }
-        ],
-        "image": "assets/generated/m9-s2.jpg"
-      },
-      {
-        "id": "m9-s3",
-        "title": "Taking Out the Trash",
-        "description": "Asking a neighbor about the local garbage collection schedule.",
-        "subConversations": [
-          {
-            "dialogue": [
-              {
-                "speaker": "你",
-                "zh": "不好意思，請問這附近的垃圾車都是幾點來？",
-                "py": "Bù hǎoyìsi, qǐngwèn zhè fùjìn de lèsè chē dōu shì jǐ diǎn lái?",
-                "en": "Excuse me, what time does the garbage truck usually come around here?"
-              },
-              {
-                "speaker": "鄰居",
-                "zh": "晚上八點半會經過巷口。星期三和星期天停收喔。",
-                "py": "Wǎnshàng bā diǎn bàn huì jīngguò xiàng kǒu. Xīngqísān hé xīngqítiān tíng shōu ō.",
-                "en": "It passes the intersection at 8:30 PM. They don't collect on Wednesdays and Sundays."
-              },
-              {
-                "speaker": "你",
-                "zh": "好的，需要用專用的垃圾袋嗎？",
-                "py": "Hǎo de, xūyào yòng zhuānyòng de lèsè dài ma?",
-                "en": "Okay, do I need to use the designated garbage bags?"
-              },
-              {
-                "speaker": "鄰居",
-                "zh": "對，一般垃圾要用藍色的專用袋，資源回收不用。",
-                "py": "Duì, yībān lèsè yào yòng lánsè de zhuānyòng dài, zīyuán huíshōu bùyòng.",
-                "en": "Yes, regular trash requires the blue designated bag, recycling doesn't."
-              }
-            ]
-          }
-        ],
-        "quiz": [
-          {
-            "question": "垃圾車哪天不來？",
-            "options": [
-              "星期一和星期四",
-              "星期三和星期天",
-              "每天都來"
-            ],
-            "answer": 1
-          },
-          {
-            "question": "資源回收需要用專用垃圾袋嗎？",
-            "options": [
-              "需要",
-              "不需要",
-              "看情況"
-            ],
-            "answer": 1
-          }
-        ],
-        "image": "assets/generated/m9-s3.jpg"
-      },
-      {
-        "id": "m9-s4",
-        "title": "Receiving a Package",
-        "description": "Talking to the building security guard about a missed delivery.",
-        "subConversations": [
-          {
-            "dialogue": [
-              {
-                "speaker": "住戶",
-                "zh": "警衛大哥，請問有三樓B座的包裹嗎？",
-                "py": "Jǐngwèi dàgē, qǐngwèn yǒu sān lóu B zuò de bāoguǒ ma?",
-                "en": "Security guard, is there a package for 3rd floor, unit B?"
-              },
-              {
-                "speaker": "警衛",
-                "zh": "我找一下... 有一個你的掛號信，請在這裡簽名。",
-                "py": "Wǒ zhǎo yīxià... yǒu yīgè nǐ de guàhàoxìn, qǐng zài zhèlǐ qiānmíng.",
-                "en": "Let me look... There is a registered letter for you, please sign here."
-              },
-              {
-                "speaker": "住戶",
-                "zh": "謝謝！對了，如果是冷藏包裹，你們可以代收嗎？",
-                "py": "Xièxiè! Duì le, rúguǒ shì lěngcáng bāoguǒ, nǐmen kěyǐ dài shōu ma?",
-                "en": "Thank you! By the way, if it's a refrigerated package, can you receive it for me?"
-              },
-              {
-                "speaker": "警衛",
-                "zh": "可以，我們管理室有冰箱。",
-                "py": "Kěyǐ, wǒmen guǎnlǐ shì yǒu bīngxiāng.",
-                "en": "Yes, we have a refrigerator in the management office."
-              }
-            ]
-          }
-        ],
-        "quiz": [
-          {
-            "question": "住戶來管理室做什麼？",
-            "options": [
-              "繳管理費",
-              "拿包裹/掛號信",
-              "找人"
-            ],
-            "answer": 1
-          },
-          {
-            "question": "管理室可以代收冷藏包裹嗎？",
-            "options": [
-              "不可以，因為沒有冰箱",
-              "可以，管理室有冰箱",
-              "警衛不知道"
-            ],
-            "answer": 1
-          }
-        ],
-        "image": "assets/generated/m9-s4.jpg"
-      },
-      {
-        "id": "m9-s5",
-        "title": "Noise Complaint",
-        "description": "Politely asking a neighbor to turn down their music late at night.",
-        "subConversations": [
-          {
-            "dialogue": [
-              {
-                "speaker": "你",
-                "zh": "不好意思打擾了，現在有點晚，可不可以請你把音樂關小聲一點？",
-                "py": "Bù hǎoyìsi dǎrǎo le, xiànzài yǒudiǎn wǎn, kěbù kěyǐ qǐng nǐ bǎ yīnyuè guān xiǎo shēng yīdiǎn?",
-                "en": "Sorry to bother you, it's a bit late now, could I ask you to turn the music down a little?"
-              },
-              {
-                "speaker": "鄰居",
-                "zh": "啊，真抱歉！我沒注意到時間，吵到你了嗎？",
-                "py": "A, zhēn bàoqiàn! Wǒ méi zhùyì dào shíjiān, chǎo dào nǐ le ma?",
-                "en": "Ah, I'm so sorry! I didn't notice the time, did I disturb you?"
-              },
-              {
-                "speaker": "你",
-                "zh": "沒關係，因為我明天要早起上班。",
-                "py": "Méiguānxì, yīnwèi wǒ míngtiān yào zǎoqǐ shàngbān.",
-                "en": "It's okay, it's just because I have to wake up early for work tomorrow."
-              },
-              {
-                "speaker": "鄰居",
-                "zh": "好的，我馬上關掉。真的很對不起！",
-                "py": "Hǎo de, wǒ mǎshàng guān diào. Zhēnde hěn duìbùqǐ!",
-                "en": "Okay, I will turn it off immediately. I am really sorry!"
-              }
-            ]
-          }
-        ],
-        "quiz": [
-          {
-            "question": "為什麼鄰居來敲門？",
-            "options": [
-              "借東西",
-              "覺得音樂太大聲",
-              "想聊天"
-            ],
-            "answer": 1
-          },
-          {
-            "question": "為什麼這個人希望音樂關小聲？",
-            "options": [
-              "他不喜歡這首歌",
-              "他明天要早起上班",
-              "他生病了"
-            ],
-            "answer": 1
-          }
-        ],
-        "image": "assets/generated/m9-s5.jpg"
-      }
-    ]
-  },
-  {
-    "id": "m10",
-    "title": "Transportation & Navigation",
-    "titleZh": "交通與導航",
-    "description": "Real-world transit scenarios: giving directions to a taxi driver, renting scooters, or missing a train.",
-    "icon": "🚕",
-    "scenarios": [
-      {
-        "id": "m10-s1",
-        "title": "Directing a Taxi Driver",
-        "description": "You are in a taxi and need to give specific instructions to the driver.",
-        "subConversations": [
-          {
-            "dialogue": [
-              {
-                "speaker": "司機",
-                "zh": "帥哥，你要去哪裡？",
-                "py": "Shuàigē, nǐ yào qù nǎlǐ?",
-                "en": "Handsome, where are you going?"
-              },
-              {
-                "speaker": "乘客",
-                "zh": "麻煩到台北車站。前面路口請左轉。",
-                "py": "Máfán dào Táiběi chēzhàn. Qiánmiàn lùkǒu qǐng zuǒ zhuǎn.",
-                "en": "To Taipei Main Station, please. Please turn left at the intersection ahead."
-              },
-              {
-                "speaker": "司機",
-                "zh": "好，左轉後要一直直走嗎？",
-                "py": "Hǎo, zuǒ zhuǎn hòu yào yīzhí zhí zǒu ma?",
-                "en": "Okay, keep going straight after turning left?"
-              },
-              {
-                "speaker": "乘客",
-                "zh": "對，然後在便利商店前面停就可以了。",
-                "py": "Duì, ránhòu zài biànlì shāngdiàn qiánmiàn tíng jiù kěyǐ le.",
-                "en": "Yes, and then you can just stop in front of the convenience store."
-              }
-            ]
-          }
-        ],
-        "quiz": [
-          {
-            "question": "乘客的目的地是哪裡？",
-            "options": [
-              "機場",
-              "台北車站",
-              "醫院"
-            ],
-            "answer": 1
-          },
-          {
-            "question": "乘客請司機在哪裡停車？",
-            "options": [
-              "十字路口",
-              "便利商店前面",
-              "火車站裡面"
-            ],
-            "answer": 1
-          }
-        ],
-        "image": "assets/generated/m10-s1.jpg"
-      },
-      {
-        "id": "m10-s2",
-        "title": "Missing the Train",
-        "description": "You just missed your train and are asking the station staff about the next one.",
-        "subConversations": [
-          {
-            "dialogue": [
-              {
-                "speaker": "旅客",
-                "zh": "請問去高雄的自強號開走了嗎？",
-                "py": "Qǐngwèn qù Gāoxióng de zìqiáng hào kāi zǒu le ma?",
-                "en": "Excuse me, has the Tze-Chiang express to Kaohsiung left yet?"
-              },
-              {
-                "speaker": "站務員",
-                "zh": "對，剛開走兩分鐘。你要換票嗎？",
-                "py": "Duì, gāng kāi zǒu liǎng fēnzhōng. Nǐ yào huàn piào ma?",
-                "en": "Yes, it just left two minutes ago. Do you want to exchange your ticket?"
-              },
-              {
-                "speaker": "旅客",
-                "zh": "好，下一班去高雄的是幾點？",
-                "py": "Hǎo, xià yī bān qù Gāoxióng de shì jǐ diǎn?",
-                "en": "Yes, what time is the next one to Kaohsiung?"
-              },
-              {
-                "speaker": "站務員",
-                "zh": "半小時後有一班莒光號，不過會比較慢到。",
-                "py": "Bàn xiǎoshí hòu yǒu yī bān jǔguāng hào, bùguò huì bǐjiào màn dào.",
-                "en": "There is a Chu-Kuang express in half an hour, but it will arrive a bit slower."
-              }
-            ]
-          }
-        ],
-        "quiz": [
-          {
-            "question": "旅客發生了什麼事？",
-            "options": [
-              "買錯票了",
-              "錯過了火車",
-              "找不到月台"
-            ],
-            "answer": 1
-          },
-          {
-            "question": "下一班車有什麼缺點？",
-            "options": [
-              "比較貴",
-              "沒有座位",
-              "速度比較慢"
-            ],
-            "answer": 2
-          }
-        ],
-        "image": "assets/generated/m10-s2.jpg"
-      },
-      {
-        "id": "m10-s3",
-        "title": "Renting a Scooter",
-        "description": "You are renting a scooter for the day and asking about the rules.",
-        "subConversations": [
-          {
-            "dialogue": [
-              {
-                "speaker": "顧客",
-                "zh": "老闆，我要租一台機車，租一天多少錢？",
-                "py": "Lǎobān, wǒ yào zū yī tái jīchē, zū yī tiān duōshǎo qián?",
-                "en": "Boss, I want to rent a scooter, how much is it for one day?"
-              },
-              {
-                "speaker": "老闆",
-                "zh": "一天四百塊。你有帶駕照嗎？",
-                "py": "Yī tiān sìbǎi kuài. Nǐ yǒu dài jiàzhào ma?",
-                "en": "400 for a day. Did you bring your driver's license?"
-              },
-              {
-                "speaker": "顧客",
-                "zh": "有，這是我的國際駕照。油是滿的嗎？",
-                "py": "Yǒu, zhè shì wǒ de guójì jiàzhào. Yóu shì mǎn de ma?",
-                "en": "Yes, here is my international driver's license. Is the gas tank full?"
-              },
-              {
-                "speaker": "老闆",
-                "zh": "裡面有一點油，你自己去前面的加油站加。還車的時候不用加滿。",
-                "py": "Lǐmiàn yǒu yīdiǎn yóu, nǐ zìjǐ qù qiánmiàn de jiāyóuzhàn jiā. Huán chē de shíhòu bùyòng jiā mǎn.",
-                "en": "There's a little gas inside, you can go to the gas station ahead to fill it up. You don't need to fill it up when returning the scooter."
-              }
-            ]
-          }
-        ],
-        "quiz": [
-          {
-            "question": "顧客用什麼證件租車？",
-            "options": [
-              "身分證",
-              "護照",
-              "國際駕照"
-            ],
-            "answer": 2
-          },
-          {
-            "question": "關於加油，老闆有什麼規定？",
-            "options": [
-              "還車時必須加滿油",
-              "還車時不用加滿",
-              "老闆已經幫忙加滿了"
-            ],
-            "answer": 1
-          }
-        ],
-        "image": "assets/generated/m10-s3.jpg"
-      },
-      {
-        "id": "m10-s4",
-        "title": "Asking for Walking Directions",
-        "description": "You are lost and asking a local how to get to the museum.",
-        "subConversations": [
-          {
-            "dialogue": [
-              {
-                "speaker": "路人",
-                "zh": "不好意思，請問去博物館要怎麼走？",
-                "py": "Bù hǎoyìsi, qǐngwèn qù bówùguǎn yào zěnme zǒu?",
-                "en": "Excuse me, how do I get to the museum?"
-              },
-              {
-                "speaker": "當地人",
-                "zh": "你沿著這條路直走，看到紅綠燈右轉，再走五分鐘就到了。",
-                "py": "Nǐ yánzhe zhè tiáo lù zhí zǒu, kàndào hónglǜdēng yòu zhuǎn, zài zǒu wǔ fēnzhōng jiù dào le.",
-                "en": "Walk straight along this road, turn right when you see the traffic light, and walk for another five minutes and you're there."
-              },
-              {
-                "speaker": "路人",
-                "zh": "好的，直走然後右轉，對吧？遠不遠？",
-                "py": "Hǎo de, zhí zǒu ránhòu yòu zhuǎn, duì ba? Yuǎn bù yuǎn?",
-                "en": "Okay, straight and then turn right, correct? Is it far?"
-              },
-              {
-                "speaker": "當地人",
-                "zh": "不遠，走路大概十分鐘。",
-                "py": "Bù yuǎn, zǒulù dàgài shí fēnzhōng.",
-                "en": "Not far, about a ten minute walk."
-              }
-            ]
-          }
-        ],
-        "quiz": [
-          {
-            "question": "博物館要怎麼走？",
-            "options": [
-              "直走後右轉",
-              "直走後左轉",
-              "一直直走"
-            ],
-            "answer": 0
-          },
-          {
-            "question": "走到博物館大概需要多久？",
-            "options": [
-              "半小時",
-              "十分鐘",
-              "五分鐘"
-            ],
-            "answer": 1
-          }
-        ],
-        "image": "assets/generated/m10-s4.jpg"
-      },
-      {
-        "id": "m10-s5",
-        "title": "Topping up an IC Card",
-        "description": "Adding money to your EasyCard at a convenience store.",
-        "subConversations": [
-          {
-            "dialogue": [
-              {
-                "speaker": "顧客",
-                "zh": "我要加值悠遊卡，加五百塊。",
-                "py": "Wǒ yào jiāzhí yōuyóukǎ, jiā wǔbǎi kuài.",
-                "en": "I want to top up my EasyCard, add 500."
-              },
-              {
-                "speaker": "店員",
-                "zh": "好的，請把卡片放在感應區。",
-                "py": "Hǎo de, qǐng bǎ kǎpiàn fàng zài gǎnyìng qū.",
-                "en": "Okay, please put the card on the sensor area."
-              },
-              {
-                "speaker": "顧客",
-                "zh": "放好了。順便幫我結帳這瓶水。",
-                "py": "Fàng hǎo le. Shùnbiàn bāng wǒ jiézhàng zhè píng shuǐ.",
-                "en": "It's on there. Also ring up this bottle of water for me."
-              },
-              {
-                "speaker": "店員",
-                "zh": "沒問題，加值成功了。水是二十塊，要直接扣卡裡的錢嗎？",
-                "py": "Méi wèntí, jiāzhí chénggōng le. Shuǐ shì èrshí kuài, yào zhíjiē kòu kǎ lǐ de qián ma?",
-                "en": "No problem, top-up successful. The water is 20, do you want to deduct the money directly from the card?"
-              }
-            ]
-          }
-        ],
-        "quiz": [
-          {
-            "question": "顧客加值了多少錢？",
-            "options": [
-              "一百塊",
-              "五百塊",
-              "一千塊"
-            ],
-            "answer": 1
-          },
-          {
-            "question": "顧客買的水最後怎麼付錢？",
-            "options": [
-              "付現金",
-              "用信用卡",
-              "店員問要不要用卡片扣款"
-            ],
-            "answer": 2
-          }
-        ],
-        "image": "assets/generated/m10-s5.jpg"
-      }
-    ]
-  },
-  {
-    "id": "m11",
-    "title": "Casual Hangouts & Small Talk",
-    "titleZh": "輕鬆聚會與閒聊",
-    "description": "Authentic conversational scenarios involving complaining about the weather, planning weekends, and sharing casual opinions.",
-    "icon": "💬",
-    "scenarios": [
-      {
-        "id": "m11-s1",
-        "title": "Complaining about the Weather",
-        "description": "Making small talk with a coworker about the non-stop rain.",
-        "subConversations": [
-          {
-            "dialogue": [
-              {
-                "speaker": "同事A",
-                "zh": "最近雨怎麼下個不停啊，衣服都曬不乾。",
-                "py": "Zuìjìn yǔ zěnme xià ge bù tíng a, yīfú dōu shài bù gān.",
-                "en": "Why has it been raining non-stop recently? My clothes won't dry."
-              },
-              {
-                "speaker": "同事B",
-                "zh": "對啊，聽說明天還會變冷，真受不了。",
-                "py": "Duì a, tīngshuō míngtiān huái huì biàn lěng, zhēn shòubùliǎo.",
-                "en": "Yeah, I heard it's going to get colder tomorrow too, I really can't stand it."
-              },
-              {
-                "speaker": "同事A",
-                "zh": "希望週末天氣會好一點，我本來打算去爬山的。",
-                "py": "Xīwàng zhōumò tiānqì huì hǎo yīdiǎn, wǒ běnlái dǎsuàn qù páshān de.",
-                "en": "I hope the weather gets a bit better on the weekend, I originally planned to go hiking."
-              },
-              {
-                "speaker": "同事B",
-                "zh": "我看你還是改在室內活動比較保險。",
-                "py": "Wǒ kàn nǐ háishì gǎi zài shìnèi huódòng bǐjiào bǎoxiǎn.",
-                "en": "I think it's safer for you to change to indoor activities."
-              }
-            ]
-          }
-        ],
-        "quiz": [
-          {
-            "question": "同事A在抱怨什麼？",
-            "options": [
-              "工作太忙",
-              "一直下雨",
-              "天氣太熱"
-            ],
-            "answer": 1
-          },
-          {
-            "question": "同事A原本週末有什麼計畫？",
-            "options": [
-              "在家看電影",
-              "去爬山",
-              "去逛街"
-            ],
-            "answer": 1
-          }
-        ],
-        "image": "assets/generated/m11-s1.jpg"
-      },
-      {
-        "id": "m11-s2",
-        "title": "Discussing a Movie",
-        "description": "Sharing opinions with a friend after watching a new film.",
-        "subConversations": [
-          {
-            "dialogue": [
-              {
-                "speaker": "朋友A",
-                "zh": "你覺得這部電影好看嗎？",
-                "py": "Nǐ juéde zhè bù diànyǐng hǎokàn ma?",
-                "en": "Did you think this movie was good?"
-              },
-              {
-                "speaker": "朋友B",
-                "zh": "特效做得很棒，但我覺得劇情有點無聊。",
-                "py": "Tèxiào zuò de hěn bàng, dàn wǒ juéde jùqíng yǒudiǎn wúliáo.",
-                "en": "The special effects were great, but I thought the plot was a bit boring."
-              },
-              {
-                "speaker": "朋友A",
-                "zh": "真的嗎？我倒是感動到快哭了。",
-                "py": "Zhēnde ma? Wǒ dàoshì gǎndòng dào kuài kū le.",
-                "en": "Really? I was actually so moved I almost cried."
-              },
-              {
-                "speaker": "朋友B",
-                "zh": "哈哈，可能我比較喜歡看喜劇片吧。",
-                "py": "Hāhā, kěnéng wǒ bǐjiào xǐhuān kàn xǐjùpiàn ba.",
-                "en": "Haha, maybe I just prefer watching comedies."
-              }
-            ]
-          }
-        ],
-        "quiz": [
-          {
-            "question": "朋友B對這部電影的評價是什麼？",
-            "options": [
-              "劇情很好，特效很差",
-              "特效很好，劇情無聊",
-              "完全看不懂"
-            ],
-            "answer": 1
-          },
-          {
-            "question": "朋友A看電影時有什麼感覺？",
-            "options": [
-              "覺得很無聊",
-              "覺得很好笑",
-              "覺得很感動"
-            ],
-            "answer": 2
-          }
-        ],
-        "image": "assets/generated/m11-s2.jpg"
-      },
-      {
-        "id": "m11-s3",
-        "title": "Making Weekend Plans",
-        "description": "Trying to coordinate a time to meet up with a busy friend.",
-        "subConversations": [
-          {
-            "dialogue": [
-              {
-                "speaker": "A",
-                "zh": "這週末要不要一起去喝咖啡？",
-                "py": "Zhè zhōumò yào bùyào yīqǐ qù hē kāfēi?",
-                "en": "Do you want to go grab coffee together this weekend?"
-              },
-              {
-                "speaker": "B",
-                "zh": "星期六不行耶，我要加班。星期天下午可以嗎？",
-                "py": "Xīngqíliù bùxíng ye, wǒ yào jiābān. Xīngqítiān xiàwǔ kěyǐ ma?",
-                "en": "Saturday is a no-go, I have to work overtime. Is Sunday afternoon okay?"
-              },
-              {
-                "speaker": "A",
-                "zh": "星期天下午沒問題。那我們約兩點在車站見？",
-                "py": "Xīngqítiān xiàwǔ méi wèntí. Nà wǒmen yuē liǎng diǎn zài chēzhàn jiàn?",
-                "en": "Sunday afternoon is no problem. Then let's meet at 2 o'clock at the station?"
-              },
-              {
-                "speaker": "B",
-                "zh": "好，到時候見！",
-                "py": "Hǎo, dào shíhòu jiàn!",
-                "en": "Okay, see you then!"
-              }
-            ]
-          }
-        ],
-        "quiz": [
-          {
-            "question": "他們最後約在什麼時候見面？",
-            "options": [
-              "星期六上午",
-              "星期天下午",
-              "星期天晚上"
-            ],
-            "answer": 1
-          },
-          {
-            "question": "B星期六為什麼不能去？",
-            "options": [
-              "因為要上課",
-              "因為要加班",
-              "因為要出國"
-            ],
-            "answer": 1
-          }
-        ],
-        "image": "assets/generated/m11-s3.jpg"
-      },
-      {
-        "id": "m11-s4",
-        "title": "Talking About Pets",
-        "description": "Showing pictures of pets and sharing funny habits.",
-        "subConversations": [
-          {
-            "dialogue": [
-              {
-                "speaker": "朋友A",
-                "zh": "你看，這是我剛養的小狗，很可愛吧！",
-                "py": "Nǐ kàn, zhè shì wǒ gāng yǎng de xiǎogǒu, hěn kě'ài ba!",
-                "en": "Look, this is the puppy I just got, isn't it cute!"
-              },
-              {
-                "speaker": "朋友B",
-                "zh": "哇，好小隻！牠叫什麼名字？",
-                "py": "Wa, hǎo xiǎo zhī! Tā jiào shénme míngzi?",
-                "en": "Wow, so tiny! What's its name?"
-              },
-              {
-                "speaker": "朋友A",
-                "zh": "叫布丁。牠很皮，每天都在咬我的拖鞋。",
-                "py": "Jiào Bùdīng. Tā hěn pí, měitiān dōu zài yǎo wǒ de tuōxié.",
-                "en": "It's called Pudding. He's very naughty, biting my slippers every day."
-              },
-              {
-                "speaker": "朋友B",
-                "zh": "哈哈，小狗長牙齒的時候都這樣啦。",
-                "py": "Hāhā, xiǎogǒu zhǎng yáchǐ de shíhòu dōu zhèyàng la.",
-                "en": "Haha, puppies are all like that when they are teething."
-              }
-            ]
-          }
-        ],
-        "quiz": [
-          {
-            "question": "朋友A養了什麼寵物？",
-            "options": [
-              "小貓",
-              "小狗",
-              "兔子"
-            ],
-            "answer": 1
-          },
-          {
-            "question": "這隻寵物有什麼壞習慣？",
-            "options": [
-              "愛叫",
-              "咬拖鞋",
-              "不吃飯"
-            ],
-            "answer": 1
-          }
-        ],
-        "image": "assets/generated/m11-s4.jpg"
-      },
-      {
-        "id": "m11-s5",
-        "title": "Turning Down an Invitation",
-        "description": "Politely rejecting an offer to go to a KTV because you are too tired.",
-        "subConversations": [
-          {
-            "dialogue": [
-              {
-                "speaker": "同事",
-                "zh": "下班後我們要去唱歌，你要一起來嗎？",
-                "py": "Xiàbān hòu wǒmen yào qù chànggē, nǐ yào yīqǐ lái ma?",
-                "en": "We are going to sing karaoke after work, do you want to come along?"
-              },
-              {
-                "speaker": "你",
-                "zh": "今天可能沒辦法，我這幾天太累了，想早點回家休息。",
-                "py": "Jīntiān kěnéng méi bànfǎ, wǒ zhè jǐ tiān tài lèi le, xiǎng zǎo diǎn huí jiā xiūxí.",
-                "en": "Probably can't make it today, I've been too tired these past few days, I want to go home early to rest."
-              },
-              {
-                "speaker": "同事",
-                "zh": "這樣啊，那下次有機會再一起去囉。",
-                "py": "Zhèyàng a, nà xià cì yǒu jīhuì zài yīqǐ qù luo.",
-                "en": "I see, then we'll go together next time there's a chance."
-              },
-              {
-                "speaker": "你",
-                "zh": "好啊，祝你們玩得開心！",
-                "py": "Hǎo a, zhù nǐmen wán de kāixīn!",
-                "en": "Sure, hope you guys have fun!"
-              }
-            ]
-          }
-        ],
-        "quiz": [
-          {
-            "question": "同事邀請這個人去做什麼？",
-            "options": [
-              "吃晚餐",
-              "去KTV唱歌",
-              "去看電影"
-            ],
-            "answer": 1
-          },
-          {
-            "question": "這個人為什麼不去？",
-            "options": [
-              "因為他不喜歡唱歌",
-              "因為他很累想休息",
-              "因為他沒有錢"
-            ],
-            "answer": 1
-          }
-        ],
-        "image": "assets/generated/m11-s5.jpg"
-      }
-    ]
-  },
-  {
-    "id": "m12",
-    "title": "Emergencies & Health",
-    "titleZh": "緊急情況與健康",
-    "description": "Crucial survival interactions such as visiting a pharmacy, describing symptoms, or reporting lost items.",
-    "icon": "🏥",
-    "scenarios": [
-      {
-        "id": "m12-s1",
-        "title": "At the Pharmacy",
-        "description": "Describing your cold symptoms to a pharmacist to get the right medicine.",
-        "subConversations": [
-          {
-            "dialogue": [
-              {
-                "speaker": "藥師",
-                "zh": "你好，請問需要什麼？",
-                "py": "Nǐ hǎo, qǐngwèn xūyào shénme?",
-                "en": "Hello, what do you need?"
-              },
-              {
-                "speaker": "顧客",
-                "zh": "我有點感冒，一直咳嗽，還有點發燒。",
-                "py": "Wǒ yǒudiǎn gǎnmào, yīzhí késòu, hái yǒudiǎn fāshāo.",
-                "en": "I have a bit of a cold, keep coughing, and have a slight fever."
-              },
-              {
-                "speaker": "藥師",
-                "zh": "有流鼻水嗎？",
-                "py": "Yǒu liú bíshuǐ ma?",
-                "en": "Do you have a runny nose?"
-              },
-              {
-                "speaker": "顧客",
-                "zh": "沒有。請給我一盒感冒藥。",
-                "py": "Méiyǒu. Qǐng gěi wǒ yī hé gǎnmào yào.",
-                "en": "No. Please give me a box of cold medicine."
-              }
-            ]
-          }
-        ],
-        "quiz": [
-          {
-            "question": "顧客有什麼症狀？",
-            "options": [
-              "流鼻水",
-              "咳嗽和發燒",
-              "肚子痛"
-            ],
-            "answer": 1
-          },
-          {
-            "question": "顧客想買什麼？",
-            "options": [
-              "胃藥",
-              "感冒藥",
-              "維他命"
-            ],
-            "answer": 1
-          }
-        ],
-        "image": "assets/generated/m12-s1.jpg"
-      },
-      {
-        "id": "m12-s2",
-        "title": "Losing a Wallet",
-        "description": "Reporting a lost item to the police station.",
-        "subConversations": [
-          {
-            "dialogue": [
-              {
-                "speaker": "民眾",
-                "zh": "警察先生，我的錢包不見了，我想報案。",
-                "py": "Jǐngchá xiānshēng, wǒ de qiánbāo bùjiàn le, wǒ xiǎng bào'àn.",
-                "en": "Mr. Policeman, my wallet is missing, I'd like to report it."
-              },
-              {
-                "speaker": "警察",
-                "zh": "你最後一次看到錢包是在哪裡？",
-                "py": "Nǐ zuìhòu yī cì kàndào qiánbāo shì zài nǎlǐ?",
-                "en": "Where was the last place you saw your wallet?"
-              },
-              {
-                "speaker": "民眾",
-                "zh": "我剛剛在搭捷運，下車後就找不到了。",
-                "py": "Wǒ gānggāng zài dā jiéyùn, xià chē hòu jiù zhǎo bù dào le.",
-                "en": "I was just taking the MRT, couldn't find it after I got off."
-              },
-              {
-                "speaker": "警察",
-                "zh": "錢包是什麼顏色的？裡面有什麼重要證件嗎？",
-                "py": "Qiánbāo shì shénme yánsè de? Lǐmiàn yǒu shénme zhòngyào zhèngjiàn ma?",
-                "en": "What color is the wallet? Are there any important IDs inside?"
-              }
-            ]
-          }
-        ],
-        "quiz": [
-          {
-            "question": "民眾來警察局做什麼？",
-            "options": [
-              "問路",
-              "報案找錢包",
-              "找人"
-            ],
-            "answer": 1
-          },
-          {
-            "question": "民眾覺得錢包可能掉在哪裡？",
-            "options": [
-              "計程車上",
-              "捷運上",
-              "餐廳裡"
-            ],
-            "answer": 1
-          }
-        ],
-        "image": "assets/generated/m12-s2.jpg"
-      },
-      {
-        "id": "m12-s3",
-        "title": "Calling in Sick",
-        "description": "Calling your boss to request a day off because you are feeling unwell.",
-        "subConversations": [
-          {
-            "dialogue": [
-              {
-                "speaker": "員工",
-                "zh": "經理，不好意思，我今天身體很不舒服，想請一天病假。",
-                "py": "Jīnglǐ, bù hǎoyìsi, wǒ jīntiān shēntǐ hěn bù shūfú, xiǎng qǐng yī tiān bìngjià.",
-                "en": "Manager, I'm sorry, I am feeling very unwell today, I'd like to take a sick day."
-              },
-              {
-                "speaker": "經理",
-                "zh": "嚴重嗎？有沒有去看醫生？",
-                "py": "Yánzhòng ma? Yǒu méiyǒu qù kàn yīshēng?",
-                "en": "Is it serious? Did you go see a doctor?"
-              },
-              {
-                "speaker": "員工",
-                "zh": "我等一下會去診所。今天的會議我已經請小李幫忙代開了。",
-                "py": "Wǒ děng yīxià huì qù zhěnsuǒ. Jīntiān de huìyì wǒ yǐjīng qǐng Xiǎo Lǐ bāngmáng dài kāi le.",
-                "en": "I will go to the clinic later. I have already asked Xiao Li to help cover today's meeting."
-              },
-              {
-                "speaker": "經理",
-                "zh": "好，你好好休息，需要幫忙隨時說。",
-                "py": "Hǎo, nǐ hǎohǎo xiūxí, xūyào bāngmáng suíshí shuō.",
-                "en": "Okay, get a good rest, let me know anytime if you need help."
-              }
-            ]
-          }
-        ],
-        "quiz": [
-          {
-            "question": "員工打電話給經理的原因是什麼？",
-            "options": [
-              "想辭職",
-              "想請病假",
-              "想請同事幫忙"
-            ],
-            "answer": 1
-          },
-          {
-            "question": "今天的會議會由誰來開？",
-            "options": [
-              "經理",
-              "員工自己",
-              "小李"
-            ],
-            "answer": 2
-          }
-        ],
-        "image": "assets/generated/m12-s3.jpg"
-      },
-      {
-        "id": "m12-s4",
-        "title": "Asking for Help on the Street",
-        "description": "Your phone battery died and you need to ask a stranger to look up a map.",
-        "subConversations": [
-          {
-            "dialogue": [
-              {
-                "speaker": "你",
-                "zh": "不好意思，我的手機沒電了。可以幫我查一下地圖嗎？",
-                "py": "Bù hǎoyìsi, wǒ de shǒujī méi diàn le. Kěyǐ bāng wǒ chá yīxià dìtú ma?",
-                "en": "Excuse me, my phone is out of battery. Could you help me check the map?"
-              },
-              {
-                "speaker": "路人",
-                "zh": "沒問題，你要去哪裡？",
-                "py": "Méi wèntí, nǐ yào qù nǎlǐ?",
-                "en": "No problem, where are you going?"
-              },
-              {
-                "speaker": "你",
-                "zh": "我要去附近的市立圖書館。",
-                "py": "Wǒ yào qù fùjìn de shìlì túshūguǎn.",
-                "en": "I need to go to the nearby city library."
-              },
-              {
-                "speaker": "路人",
-                "zh": "地圖上說，從這裡直走過兩個路口就到了。",
-                "py": "Dìtú shàng shuō, cóng zhèlǐ zhí zǒu guò liǎng gè lùkǒu jiù dào le.",
-                "en": "The map says, walk straight from here past two intersections and you're there."
-              }
-            ]
-          }
-        ],
-        "quiz": [
-          {
-            "question": "這個人為什麼需要幫忙查地圖？",
-            "options": [
-              "手機壞了",
-              "手機沒電了",
-              "沒有帶手機"
-            ],
-            "answer": 1
-          },
-          {
-            "question": "他要去什麼地方？",
-            "options": [
-              "郵局",
-              "市立圖書館",
-              "醫院"
-            ],
-            "answer": 1
-          }
-        ],
-        "image": "assets/generated/m12-s4.jpg"
-      },
-      {
-        "id": "m12-s5",
-        "title": "Dentist Visit",
-        "description": "Explaining to the dentist that your tooth hurts when drinking cold water.",
-        "subConversations": [
-          {
-            "dialogue": [
-              {
-                "speaker": "牙醫",
-                "zh": "請問今天牙齒哪裡不舒服？",
-                "py": "Qǐngwèn jīntiān yáchǐ nǎlǐ bù shūfú?",
-                "en": "Where is your tooth bothering you today?"
-              },
-              {
-                "speaker": "病患",
-                "zh": "我右邊下面這顆牙齒，喝冰水的時候會很痛。",
-                "py": "Wǒ yòubiān xiàmiàn zhè kē yáchǐ, hē bīngshuǐ de shíhòu huì hěn tòng.",
-                "en": "This tooth on the bottom right hurts a lot when I drink cold water."
-              },
-              {
-                "speaker": "牙醫",
-                "zh": "好，嘴巴張開我檢查一下。嗯，這顆牙齒有蛀牙喔。",
-                "py": "Hǎo, zuǐbā zhāngkāi wǒ jiǎnchá yīxià. Ń, zhè kē yáchǐ yǒu zhùyá ō.",
-                "en": "Okay, open your mouth, let me check. Hmm, this tooth has a cavity."
-              },
-              {
-                "speaker": "病患",
-                "zh": "需要拔掉嗎？",
-                "py": "Xūyào bá diào ma?",
-                "en": "Does it need to be pulled out?"
-              }
-            ]
-          }
-        ],
-        "quiz": [
-          {
-            "question": "病患什麼時候會覺得牙齒痛？",
-            "options": [
-              "吃飯的時候",
-              "喝熱湯的時候",
-              "喝冰水的時候"
-            ],
-            "answer": 2
-          },
-          {
-            "question": "牙醫檢查後發現了什麼問題？",
-            "options": [
-              "牙齒斷了",
-              "有蛀牙",
-              "需要洗牙"
-            ],
-            "answer": 1
-          }
-        ],
-        "image": "assets/generated/m12-s5.jpg"
-      }
-    ]
-  },
-  {
-    "id": "m13",
-    "title": "Workplace Banter & Culture",
-    "titleZh": "職場交流與文化",
-    "description": "Everyday office conversations, discussing lunch options, handling workload, and after-work events.",
-    "icon": "🏢",
-    "scenarios": [
-      {
-        "id": "m13-s1",
-        "title": "Deciding on Lunch",
-        "description": "Chatting with colleagues about what to order for lunch delivery.",
-        "subConversations": [
-          {
-            "dialogue": [
-              {
-                "speaker": "同事A",
-                "zh": "中午了，大家想吃什麼？要叫外送嗎？",
-                "py": "Zhōngwǔ le, dàjiā xiǎng chī shénme? Yào jiào wàisòng ma?",
-                "en": "It's noon, what does everyone want to eat? Should we order delivery?"
-              },
-              {
-                "speaker": "同事B",
-                "zh": "我想吃便當，那家排骨飯不錯。",
-                "py": "Wǒ xiǎng chī biàndāng, nà jiā páigǔfàn bùcuò.",
-                "en": "I want to eat a bento box, that pork rib rice place is good."
-              },
-              {
-                "speaker": "同事A",
-                "zh": "可是昨天才吃過飯，今天想吃麵。",
-                "py": "Kěshì zuótiān cái chī guò fàn, jīntiān xiǎng chī miàn.",
-                "en": "But we just had rice yesterday, I want to eat noodles today."
-              },
-              {
-                "speaker": "同事B",
-                "zh": "那我們點那家新開的義大利麵好了，聽說很好吃。",
-                "py": "Nà wǒmen diǎn nà jiā xīn kāi de yìdàlìmiàn hǎole, tīngshuō hěn hǎochī.",
-                "en": "Then let's order from that newly opened pasta place, I heard it's delicious."
-              }
-            ]
-          }
-        ],
-        "quiz": [
-          {
-            "question": "同事A今天中午想吃什麼？",
-            "options": [
-              "排骨飯",
-              "麵",
-              "水餃"
-            ],
-            "answer": 1
-          },
-          {
-            "question": "他們最後決定點哪一家的外送？",
-            "options": [
-              "便當店",
-              "速食店",
-              "新開的義大利麵店"
-            ],
-            "answer": 2
-          }
-        ],
-        "image": "assets/generated/m13-s1.jpg"
-      },
-      {
-        "id": "m13-s2",
-        "title": "Discussing Workload",
-        "description": "Expressing stress over an upcoming project deadline.",
-        "subConversations": [
-          {
-            "dialogue": [
-              {
-                "speaker": "小李",
-                "zh": "這個專案下星期就要交了，你進度怎麼樣？",
-                "py": "Zhège zhuān'àn xià xīngqí jiù yào jiāo le, nǐ jìndù zěnmeyàng?",
-                "en": "This project is due next week, how is your progress?"
-              },
-              {
-                "speaker": "阿明",
-                "zh": "還差很多，客戶一直改需求，我快瘋了。",
-                "py": "Hái chà hěn duō, kèhù yīzhí gǎi xūqiú, wǒ kuài fēng le.",
-                "en": "Still a long way to go, the client keeps changing their requirements, I'm going crazy."
-              },
-              {
-                "speaker": "小李",
-                "zh": "需要我幫忙嗎？我這邊剛好忙完。",
-                "py": "Xūyào wǒ bāngmáng ma? Wǒ zhèbiān gānghǎo máng wán.",
-                "en": "Do you need my help? I just finished up on my end."
-              },
-              {
-                "speaker": "阿明",
-                "zh": "太好了！你可以幫我整理這份報表嗎？",
-                "py": "Tài hǎo le! Nǐ kěyǐ bāng wǒ zhěnglǐ zhè fèn bàobiǎo ma?",
-                "en": "That's great! Could you help me organize this report?"
-              }
-            ]
-          }
-        ],
-        "quiz": [
-          {
-            "question": "阿明為什麼覺得壓力很大？",
-            "options": [
-              "他生病了",
-              "客戶一直改變要求",
-              "電腦壞了"
-            ],
-            "answer": 1
-          },
-          {
-            "question": "小李提出什麼提議？",
-            "options": [
-              "請阿明吃飯",
-              "幫阿明整理報表",
-              "叫阿明去休息"
-            ],
-            "answer": 1
-          }
-        ],
-        "image": "assets/generated/m13-s2.jpg"
-      },
-      {
-        "id": "m13-s3",
-        "title": "Welcome the New Hire",
-        "description": "Introducing yourself to a new colleague on their first day.",
-        "subConversations": [
-          {
-            "dialogue": [
-              {
-                "speaker": "老員工",
-                "zh": "歡迎加入我們部門！我是負責行銷的陳大衛。",
-                "py": "Huānyíng jiārù wǒmen bùmén! Wǒ shì fùzé xíngxiāo de Chén Dàwèi.",
-                "en": "Welcome to our department! I am David Chen, responsible for marketing."
-              },
-              {
-                "speaker": "新員工",
-                "zh": "大衛你好，我是新來的設計師，叫林安娜。",
-                "py": "Dàwèi nǐ hǎo, wǒ shì xīn lái de shèjìshī, jiào Lín Ānnà.",
-                "en": "Hello David, I am the new designer, Anna Lin."
-              },
-              {
-                "speaker": "老員工",
-                "zh": "以後如果有什麼不懂的地方，隨時可以問我。",
-                "py": "Yǐhòu rúguǒ yǒu shénme bù dǒng de dìfāng, suíshí kěyǐ wèn wǒ.",
-                "en": "In the future, if there's anything you don't understand, you can ask me anytime."
-              },
-              {
-                "speaker": "新員工",
-                "zh": "好的，以後請多指教。",
-                "py": "Hǎo de, yǐhòu qǐng duō zhǐjiào.",
-                "en": "Okay, please advise me in the future (nice to meet you)."
-              }
-            ]
-          }
-        ],
-        "quiz": [
-          {
-            "question": "新員工的職位是什麼？",
-            "options": [
-              "行銷人員",
-              "設計師",
-              "經理"
-            ],
-            "answer": 1
-          },
-          {
-            "question": "老員工對新員工說了什麼？",
-            "options": [
-              "明天要早點來",
-              "有不懂的隨時可以問",
-              "下班一起去吃飯"
-            ],
-            "answer": 1
-          }
-        ],
-        "image": "assets/generated/m13-s3.jpg"
-      },
-      {
-        "id": "m13-s4",
-        "title": "Office Equipment Broken",
-        "description": "Asking a colleague how to fix a paper jam in the printer.",
-        "subConversations": [
-          {
-            "dialogue": [
-              {
-                "speaker": "A",
-                "zh": "奇怪，印表機怎麼不動了？",
-                "py": "Qíguài, yìnbiǎojī zěnme bù dòng le?",
-                "en": "Strange, why isn't the printer moving?"
-              },
-              {
-                "speaker": "B",
-                "zh": "螢幕上顯示什麼？是不是卡紙了？",
-                "py": "Yíngmù shàng xiǎnshì shénme? Shì bù shì kǎzhǐ le?",
-                "en": "What does it show on the screen? Is it a paper jam?"
-              },
-              {
-                "speaker": "A",
-                "zh": "對，亮紅燈寫著卡紙。你會修嗎？",
-                "py": "Duì, liàng hóngdēng xiězhe kǎzhǐ. Nǐ huì xiū ma?",
-                "en": "Yes, red light is on and it says paper jam. Do you know how to fix it?"
-              },
-              {
-                "speaker": "B",
-                "zh": "我來看看，把這個蓋子打開，小心把紙抽出來就可以了。",
-                "py": "Wǒ lái kàn kàn, bǎ zhège gàizi dǎkāi, xiǎoxīn bǎ zhǐ chōu chūlái jiù kěyǐ le.",
-                "en": "Let me see, open this cover, and just carefully pull the paper out."
-              }
-            ]
-          }
-        ],
-        "quiz": [
-          {
-            "question": "印表機發生了什麼問題？",
-            "options": [
-              "沒墨水了",
-              "卡紙了",
-              "沒電了"
-            ],
-            "answer": 1
-          },
-          {
-            "question": "B建議怎麼解決？",
-            "options": [
-              "打電話叫人修",
-              "把紙小心抽出來",
-              "換一台新的"
-            ],
-            "answer": 1
-          }
-        ],
-        "image": "assets/generated/m13-s4.jpg"
-      },
-      {
-        "id": "m13-s5",
-        "title": "Planning After-Work Dinner",
-        "description": "Organizing a team dinner to celebrate the end of a long week.",
-        "subConversations": [
-          {
-            "dialogue": [
-              {
-                "speaker": "主管",
-                "zh": "這個月大家都辛苦了，星期五下班我們去聚餐吧！",
-                "py": "Zhège yuè dàjiā dōu xīnkǔ le, xīngqíwǔ xiàbān wǒmen qù jùcān ba!",
-                "en": "Everyone has worked hard this month, let's have a dinner gathering after work on Friday!"
-              },
-              {
-                "speaker": "員工",
-                "zh": "太棒了！這次要去吃火鍋還是燒烤？",
-                "py": "Tài bàng le! Zhè cì yào qù chī huǒguō háishì shāokǎo?",
-                "en": "Awesome! Are we going to eat hot pot or BBQ this time?"
-              },
-              {
-                "speaker": "主管",
-                "zh": "聽說公司附近開了一家新的日式餐廳，我們去試試看？",
-                "py": "Tīngshuō gōngsī fùjìn kāi le yī jiā xīn de rìshì cāntīng, wǒmen qù shì shì kàn?",
-                "en": "I heard a new Japanese restaurant opened near the company, shall we go try it?"
-              },
-              {
-                "speaker": "員工",
-                "zh": "好啊，那我現在打電話去訂位。",
-                "py": "Hǎo a, nà wǒ xiànzài dǎ diànhuà qù dìngwèi.",
-                "en": "Sure, I'll call to make a reservation right now."
-              }
-            ]
-          }
-        ],
-        "quiz": [
-          {
-            "question": "主管為什麼要請客？",
-            "options": [
-              "有人生日",
-              "慰勞大家這個月的辛苦",
-              "慶祝新年"
-            ],
-            "answer": 1
-          },
-          {
-            "question": "他們最後決定去吃什麼？",
-            "options": [
-              "火鍋",
-              "燒烤",
-              "日式餐廳"
-            ],
-            "answer": 2
-          }
-        ],
-        "image": "assets/generated/m13-s5.jpg"
-      }
-    ]
-  },
-  {
-    "id": "m14",
-    "title": "Daily Services & Errands",
-    "titleZh": "日常服務與辦事",
-    "description": "Essential interactions at the bank, post office, hair salon, and electronics store.",
-    "icon": "✂️",
-    "scenarios": [
-      {
-        "id": "m14-s1",
-        "title": "Getting a Haircut",
-        "description": "Explaining to the hairdresser how you want your hair cut.",
-        "subConversations": [
-          {
-            "dialogue": [
-              {
-                "speaker": "設計師",
-                "zh": "今天想怎麼剪呢？",
-                "py": "Jīntiān xiǎng zěnme jiǎn ne?",
-                "en": "How would you like it cut today?"
-              },
-              {
-                "speaker": "顧客",
-                "zh": "稍微修一下長度就好，前面瀏海不要太短。",
-                "py": "Shāowéi xiū yīxià chángdù jiù hǎo, qiánmiàn liúhǎi bùyào tài duǎn.",
-                "en": "Just a little trim on the length, and don't cut the bangs too short."
-              },
-              {
-                "speaker": "設計師",
-                "zh": "好的，旁邊需要推高嗎？",
-                "py": "Hǎo de, pángbiān xūyào tuī gāo ma?",
-                "en": "Okay, do the sides need to be buzzed high?"
-              },
-              {
-                "speaker": "顧客",
-                "zh": "不用，自然一點就好。謝謝。",
-                "py": "Bùyòng, zìrán yīdiǎn jiù hǎo. Xièxiè.",
-                "en": "No, just keep it natural. Thank you."
-              }
-            ]
-          }
-        ],
-        "quiz": [
-          {
-            "question": "顧客想要剪什麼樣的髮型？",
-            "options": [
-              "全部剃光",
-              "稍微修一下長度",
-              "染頭髮"
-            ],
-            "answer": 1
-          },
-          {
-            "question": "關於瀏海，顧客有什麼要求？",
-            "options": [
-              "不要太短",
-              "要剪到眉毛上面",
-              "想要燙捲"
-            ],
-            "answer": 0
-          }
-        ],
-        "image": "assets/generated/m14-s1.jpg"
-      },
-      {
-        "id": "m14-s2",
-        "title": "At the Post Office",
-        "description": "Mailing a package internationally.",
-        "subConversations": [
-          {
-            "dialogue": [
-              {
-                "speaker": "顧客",
-                "zh": "你好，我要寄這個包裹到美國。",
-                "py": "Nǐ hǎo, wǒ yào jì zhège bāoguǒ dào Měiguó.",
-                "en": "Hello, I want to send this package to the US."
-              },
-              {
-                "speaker": "郵局人員",
-                "zh": "好的，請問裡面有液體或是電池嗎？",
-                "py": "Hǎo de, qǐngwèn lǐmiàn yǒu yètǐ huòshì diànchí ma?",
-                "en": "Okay, are there any liquids or batteries inside?"
-              },
-              {
-                "speaker": "顧客",
-                "zh": "沒有，都是衣服和幾本書。",
-                "py": "Méiyǒu, dōu shì yīfú hé jǐ běn shū.",
-                "en": "No, it's all clothes and a few books."
-              },
-              {
-                "speaker": "郵局人員",
-                "zh": "那要寄航空還是海運？航空大約一個星期，海運要一個月。",
-                "py": "Nà yào jì hángkōng háishì hǎiyùn? Hángkōng dàyuē yīgè xīngqí, hǎiyùn yào yīgè yuè.",
-                "en": "Do you want to send it by air or sea? Air takes about a week, sea takes a month."
-              }
-            ]
-          }
-        ],
-        "quiz": [
-          {
-            "question": "包裹裡面裝了什麼？",
-            "options": [
-              "衣服和書",
-              "液體和電池",
-              "食物"
-            ],
-            "answer": 0
-          },
-          {
-            "question": "如果寄海運，包裹大概多久會到？",
-            "options": [
-              "一個星期",
-              "一個月",
-              "三天"
-            ],
-            "answer": 1
-          }
-        ],
-        "image": "assets/generated/m14-s2.jpg"
-      },
-      {
-        "id": "m14-s3",
-        "title": "Opening a Bank Account",
-        "description": "Asking about the requirements for a foreigner to open a bank account.",
-        "subConversations": [
-          {
-            "dialogue": [
-              {
-                "speaker": "顧客",
-                "zh": "你好，我想開戶。請問外國人需要準備什麼資料？",
-                "py": "Nǐ hǎo, wǒ xiǎng kāihù. Qǐngwèn wàiguórén xūyào zhǔnbèi shénme zīliào?",
-                "en": "Hello, I want to open an account. What documents do foreigners need to prepare?"
-              },
-              {
-                "speaker": "行員",
-                "zh": "您好，需要您的居留證、護照，還有一千塊現金。",
-                "py": "Nín hǎo, xūyào nín de jūliúzhèng, hùzhào, hái yǒu yīqiān kuài xiànjīn.",
-                "en": "Hello, you need your ARC (Alien Resident Certificate), passport, and 1,000 NT dollars in cash."
-              },
-              {
-                "speaker": "顧客",
-                "zh": "好的，我有帶。可以順便申請網路銀行嗎？",
-                "py": "Hǎo de, wǒ yǒu dài. Kěyǐ shùnbiàn shēnqǐng wǎnglù yínháng ma?",
-                "en": "Okay, I brought them. Can I also apply for online banking at the same time?"
-              },
-              {
-                "speaker": "行員",
-                "zh": "沒問題，請先填寫這張表格，填好後去抽號碼牌。",
-                "py": "Méi wèntí, qǐng xiān tiánxiě zhè zhāng biǎogé, tián hǎo hòu qù chōu hàomǎpái.",
-                "en": "No problem, please fill out this form first, and after filling it out, take a number ticket."
-              }
-            ]
-          }
-        ],
-        "quiz": [
-          {
-            "question": "外國人開戶不需要準備什麼？",
-            "options": [
-              "護照",
-              "居留證",
-              "健康保險卡"
-            ],
-            "answer": 2
-          },
-          {
-            "question": "填好表格後要做什麼？",
-            "options": [
-              "去抽號碼牌",
-              "馬上回家",
-              "打電話給經理"
-            ],
-            "answer": 0
-          }
-        ],
-        "image": "assets/generated/m14-s3.jpg"
-      },
-      {
-        "id": "m14-s4",
-        "title": "Buying Electronics",
-        "description": "Asking a store clerk about the warranty for a new laptop.",
-        "subConversations": [
-          {
-            "dialogue": [
-              {
-                "speaker": "顧客",
-                "zh": "請問這台筆記型電腦保固多久？",
-                "py": "Qǐngwèn zhè tái bǐjìxíng diànnǎo bǎogù duōjiǔ?",
-                "en": "Excuse me, how long is the warranty for this laptop?"
-              },
-              {
-                "speaker": "店員",
-                "zh": "這台原廠保固一年。如果加一千塊，可以延長到兩年。",
-                "py": "Zhè tái yuánchǎng bǎogù yī nián. Rúguǒ jiā yīqiān kuài, kěyǐ yáncháng dào liǎng nián.",
-                "en": "The original factory warranty is one year. If you add 1,000 NT dollars, it can be extended to two years."
-              },
-              {
-                "speaker": "顧客",
-                "zh": "如果壞了，可以直接拿來店裡修嗎？",
-                "py": "Rúguǒ huài le, kěyǐ zhíjiē ná lái diàn lǐ xiū ma?",
-                "en": "If it breaks, can I bring it directly to the store for repair?"
-              },
-              {
-                "speaker": "店員",
-                "zh": "可以的，我們會幫您送回原廠。",
-                "py": "Kěyǐ de, wǒmen huì bāng nín sòng huí yuánchǎng.",
-                "en": "Yes, we will help you send it back to the factory."
-              }
-            ]
-          }
-        ],
-        "quiz": [
-          {
-            "question": "這台電腦原本的保固有多久？",
-            "options": [
-              "一年",
-              "兩年",
-              "沒有保固"
-            ],
-            "answer": 0
-          },
-          {
-            "question": "如果電腦壞了要怎麼辦？",
-            "options": [
-              "自己修理",
-              "拿回店裡",
-              "買一台新的"
-            ],
-            "answer": 1
-          }
-        ],
-        "image": "assets/generated/m14-s4.jpg"
-      },
-      {
-        "id": "m14-s5",
-        "title": "Gym Membership",
-        "description": "Inquiring about monthly fees at a local gym.",
-        "subConversations": [
-          {
-            "dialogue": [
-              {
-                "speaker": "顧客",
-                "zh": "請問你們健身房一個月費用是多少？",
-                "py": "Qǐngwèn nǐmen jiànshēnfáng yīgè yuè fèiyòng shì duōshǎo?",
-                "en": "Excuse me, how much is the monthly fee for your gym?"
-              },
-              {
-                "speaker": "業務",
-                "zh": "我們現在有優惠，一個月只要八百塊，免入會費。",
-                "py": "Wǒmen xiànzài yǒu yōuhuì, yīgè yuè zhǐyào bābǎi kuài, miǎn rùhuì fèi.",
-                "en": "We have a promotion right now, it's only 800 NT dollars a month, with no initiation fee."
-              },
-              {
-                "speaker": "顧客",
-                "zh": "那包含游泳池和團體課程嗎？",
-                "py": "Nà bāohán yóuyǒngchí hé tuántǐ kèchéng ma?",
-                "en": "Does that include the swimming pool and group classes?"
-              },
-              {
-                "speaker": "業務",
-                "zh": "對，全部的設備都可以使用。",
-                "py": "Duì, quánbù de shèbèi dōu kěyǐ shǐyòng.",
-                "en": "Yes, you can use all the facilities."
-              }
-            ]
-          }
-        ],
-        "quiz": [
-          {
-            "question": "健身房現在每個月多少錢？",
-            "options": [
-              "五百塊",
-              "八百塊",
-              "一千塊"
-            ],
-            "answer": 1
-          },
-          {
-            "question": "這個費用不包含什麼？",
-            "options": [
-              "游泳池",
-              "團體課程",
-              "全部都包含"
-            ],
-            "answer": 2
-          }
-        ],
-        "image": "assets/generated/m14-s5.jpg"
-      }
-    ]
-  },
-  {
-    "id": "m15",
-    "title": "Exploring Culture & Opinions",
-    "titleZh": "文化與觀點交流",
-    "description": "Deep conversational topics preparing you for native-level interactions about lifestyle, learning, and local culture.",
-    "icon": "🌏",
-    "scenarios": [
-      {
-        "id": "m15-s1",
-        "title": "Learning Chinese",
-        "description": "Talking with a language exchange partner about the hardest parts of learning Chinese.",
-        "subConversations": [
-          {
-            "dialogue": [
-              {
-                "speaker": "台灣朋友",
-                "zh": "你覺得學中文最難的地方是什麼？",
-                "py": "Nǐ juéde xué zhōngwén zuì nán de dìfāng shì shénme?",
-                "en": "What do you think is the hardest part about learning Chinese?"
-              },
-              {
-                "speaker": "你",
-                "zh": "我覺得聲調最難，有時候發錯音，意思就完全不一樣了。",
-                "py": "Wǒ juéde shēngdiào zuì nán, yǒushíhòu fā cuò yīn, yìsi jiù wánquán bù yíyàng le.",
-                "en": "I think the tones are the hardest. Sometimes if you mispronounce the tone, the meaning is completely different."
-              },
-              {
-                "speaker": "台灣朋友",
-                "zh": "的確是這樣。那寫漢字呢？你覺得難嗎？",
-                "py": "Díquè shì zhèyàng. Nà xiě hànzì ne? Nǐ juéde nán ma?",
-                "en": "That's exactly right. What about writing Chinese characters? Do you find it difficult?"
-              },
-              {
-                "speaker": "你",
-                "zh": "漢字只要多練習，慢慢就能記住，反而沒有聲調那麼難。",
-                "py": "Hànzì zhǐyào duō liànxí, mànman jiù néng jìzhù, fǎn'ér méiyǒu shēngdiào nàme nán.",
-                "en": "As long as you practice writing characters a lot, you can slowly remember them. It's actually not as hard as the tones."
-              }
-            ]
-          }
-        ],
-        "quiz": [
-          {
-            "question": "這個外國人覺得學中文最難的是什麼？",
-            "options": [
-              "寫漢字",
-              "聲調",
-              "文法"
-            ],
-            "answer": 1
-          },
-          {
-            "question": "他覺得發錯音會有什麼後果？",
-            "options": [
-              "老師會生氣",
-              "意思會完全不一樣",
-              "大家都聽得懂"
-            ],
-            "answer": 1
-          }
-        ],
-        "image": "assets/generated/m15-s1.jpg"
-      },
-      {
-        "id": "m15-s2",
-        "title": "Traffic in Taiwan",
-        "description": "Discussing the local scooter culture and traffic conditions.",
-        "subConversations": [
-          {
-            "dialogue": [
-              {
-                "speaker": "朋友A",
-                "zh": "你剛來台灣的時候，有被這裡的機車嚇到嗎？",
-                "py": "Nǐ gāng lái Táiwān de shíhòu, yǒu bèi zhèlǐ de jīchē xià dào ma?",
-                "en": "When you first came to Taiwan, were you scared by the scooters here?"
-              },
-              {
-                "speaker": "朋友B",
-                "zh": "有一點，因為數量真的太多了，而且鑽來鑽去的。",
-                "py": "Yǒu yīdiǎn, yīnwèi shùliàng zhēnde tài duō le, érqiě zuān lái zuān qù de.",
-                "en": "A little bit, because there are really so many of them, and they weave in and out."
-              },
-              {
-                "speaker": "朋友A",
-                "zh": "習慣就好啦！其實騎機車很方便，不會塞車。",
-                "py": "Xíguàn jiù hǎo la! Qíshí qí jīchē hěn fāngbiàn, búhuì sāichē.",
-                "en": "You'll get used to it! Actually, riding a scooter is very convenient, you don't get stuck in traffic."
-              },
-              {
-                "speaker": "朋友B",
-                "zh": "是啊，但我還是比較喜歡搭捷運，夏天比較涼快。",
-                "py": "Shì a, dàn wǒ háishì bǐjiào xǐhuān dā jiéyùn, xiàtiān bǐjiào liángkuài.",
-                "en": "Yeah, but I still prefer taking the MRT, it's cooler in the summer."
-              }
-            ]
-          }
-        ],
-        "quiz": [
-          {
-            "question": "朋友B剛來台灣時覺得機車怎麼樣？",
-            "options": [
-              "數量太多，會鑽來鑽去",
-              "很安靜",
-              "騎得太慢"
-            ],
-            "answer": 0
-          },
-          {
-            "question": "朋友B現在最喜歡什麼交通工具？",
-            "options": [
-              "機車",
-              "捷運",
-              "公車"
-            ],
-            "answer": 1
-          }
-        ],
-        "image": "assets/generated/m15-s2.jpg"
-      },
-      {
-        "id": "m15-s3",
-        "title": "Cultural Differences in Dining",
-        "description": "Discussing the culture of sharing dishes vs individual meals.",
-        "subConversations": [
-          {
-            "dialogue": [
-              {
-                "speaker": "你",
-                "zh": "我發現你們去熱炒店的時候，喜歡點很多菜大家一起分。",
-                "py": "Wǒ fāxiàn nǐmen qù rèchǎodiàn de shíhòu, xǐhuān diǎn hěn duō cài dàjiā yīqǐ fēn.",
-                "en": "I noticed that when you go to stir-fry restaurants, you like to order many dishes and share them."
-              },
-              {
-                "speaker": "朋友",
-                "zh": "對啊，這叫合菜。這樣可以吃到比較多不同的口味。在你們國家不是這樣嗎？",
-                "py": "Duì a, zhè jiào hécài. Zhèyàng kěyǐ chī dào bǐjiào duō bùtóng de kǒuwèi. Zài nǐmen guójiā bù shì zhèyàng ma?",
-                "en": "Yeah, it's called family-style dining. This way you can taste many different flavors. Is it not like this in your country?"
-              },
-              {
-                "speaker": "你",
-                "zh": "比較少。我們通常都是自己點一份自己吃。",
-                "py": "Bǐjiào shǎo. Wǒmen tōngcháng dōu shì zìjǐ diǎn yī fèn zìjǐ chī.",
-                "en": "Less common. We usually order our own portion and eat our own."
-              },
-              {
-                "speaker": "朋友",
-                "zh": "難怪你剛開始來的時候，一直不敢夾別人的菜！",
-                "py": "Nánguài nǐ gāng kāishǐ lái de shíhòu, yīzhí bùgǎn jiā biérén de cài!",
-                "en": "No wonder when you first arrived, you were always afraid to pick up food from other people's dishes!"
-              }
-            ]
-          }
-        ],
-        "quiz": [
-          {
-            "question": "「合菜」是什麼意思？",
-            "options": [
-              "自己吃自己的餐點",
-              "大家點很多菜一起分享",
-              "吃素的餐點"
-            ],
-            "answer": 1
-          },
-          {
-            "question": "為什麼這個外國人一開始不敢夾別人的菜？",
-            "options": [
-              "因為他吃飽了",
-              "因為他們國家的習慣是自己吃自己的",
-              "因為菜太辣了"
-            ],
-            "answer": 1
-          }
-        ],
-        "image": "assets/generated/m15-s3.jpg"
-      },
-      {
-        "id": "m15-s4",
-        "title": "Talking About Travel Dreams",
-        "description": "Sharing your bucket list travel destinations.",
-        "subConversations": [
-          {
-            "dialogue": [
-              {
-                "speaker": "A",
-                "zh": "如果現在可以出國，你最想去哪裡玩？",
-                "py": "Rúguǒ xiànzài kěyǐ chūguó, nǐ zuì xiǎng qù nǎlǐ wán?",
-                "en": "If you could go abroad right now, where would you most like to travel?"
-              },
-              {
-                "speaker": "B",
-                "zh": "我一直很想去冰島看極光，聽說非常漂亮。",
-                "py": "Wǒ yīzhí hěn xiǎng qù Bīngdǎo kàn jíguāng, tīngshuō fēicháng piàoliàng.",
-                "en": "I've always wanted to go to Iceland to see the aurora, I heard it's extremely beautiful."
-              },
-              {
-                "speaker": "A",
-                "zh": "哇，那裡一定很冷吧！我比較怕冷，我想去夏威夷的海邊。",
-                "py": "Wa, nàlǐ yīdìng hěn lěng ba! Wǒ bǐjiào pà lěng, wǒ xiǎng qù Xiàwēiyí de hǎibiān.",
-                "en": "Wow, it must be very cold there! I'm afraid of the cold, I want to go to the beach in Hawaii."
-              },
-              {
-                "speaker": "B",
-                "zh": "夏威夷也不錯啊！希望我們很快就有機會能去。",
-                "py": "Xiàwēiyí yě bùcuò a! Xīwàng wǒmen hěn kuài jiù yǒu jīhuì néng qù.",
-                "en": "Hawaii is not bad either! Hope we have the chance to go soon."
-              }
-            ]
-          }
-        ],
-        "quiz": [
-          {
-            "question": "B最想去冰島做什麼？",
-            "options": [
-              "滑雪",
-              "看極光",
-              "吃美食"
-            ],
-            "answer": 1
-          },
-          {
-            "question": "A為什麼不想去冰島？",
-            "options": [
-              "因為他沒錢",
-              "因為那裡沒有海邊",
-              "因為他怕冷"
-            ],
-            "answer": 2
-          }
-        ],
-        "image": "assets/generated/m15-s4.jpg"
-      },
-      {
-        "id": "m15-s5",
-        "title": "Recycling Culture",
-        "description": "Discussing the strict garbage sorting rules.",
-        "subConversations": [
-          {
-            "dialogue": [
-              {
-                "speaker": "外國人",
-                "zh": "我發現你們丟垃圾的時候，分類分得好仔細喔。",
-                "py": "Wǒ fāxiàn nǐmen diū lèsè de shíhòu, fēnlèi fēn de hǎo zǐxì ō.",
-                "en": "I noticed that when you throw away garbage, you sort it very carefully."
-              },
-              {
-                "speaker": "台灣人",
-                "zh": "對啊，紙類、塑膠、玻璃和廚餘都要分開，不然會被罰錢。",
-                "py": "Duì a, zhǐlèi, sùjiāo, bōlí hé chúyú dōu yào fēnkāi, bùrán huì bèi fá qián.",
-                "en": "Yeah, paper, plastic, glass, and food waste all have to be separated, otherwise you get fined."
-              },
-              {
-                "speaker": "外國人",
-                "zh": "剛開始真的很不習慣，我常常不知道哪個算一般垃圾。",
-                "py": "Gāng kāishǐ zhēnde hěn bù xíguàn, wǒ chángcháng bù zhīdào nǎgè suàn yībān lèsè.",
-                "en": "It was really hard to get used to at first, I often didn't know what counted as general garbage."
-              },
-              {
-                "speaker": "台灣人",
-                "zh": "沒關係，有不確定的隨時問我，久了就習慣了。",
-                "py": "Méiguānxì, yǒu bù quèdìng de suíshí wèn wǒ, jiǔ le jiù xíguàn le.",
-                "en": "It's okay, if you're not sure about anything ask me anytime, you'll get used to it after a while."
-              }
-            ]
-          }
-        ],
-        "quiz": [
-          {
-            "question": "如果垃圾沒有好好分類，會有什麼結果？",
-            "options": [
-              "垃圾車不來",
-              "會被罰錢",
-              "警察會把你抓走"
-            ],
-            "answer": 1
-          },
-          {
-            "question": "外國人覺得最困難的是什麼？",
-            "options": [
-              "不知道怎麼分一般垃圾",
-              "垃圾桶太小",
-              "垃圾袋太貴"
-            ],
-            "answer": 0
-          }
-        ],
-        "image": "assets/generated/m15-s5.jpg"
+        ]
       }
     ]
   }

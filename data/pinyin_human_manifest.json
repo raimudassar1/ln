@@ -1,6 +1,0 @@
-{
-  "version": 1,
-  "description": "Local human pronunciation manifest for the Human Pinyin Lab. Add licensed files under assets/audio/pinyin-human and map each audioKey to a src path here.",
-  "licenseNote": "Use only recordings you own or recordings with compatible licenses, such as properly attributed Wikimedia Commons, Lingua Libre, or Common Voice clips.",
-  "items": {}
-}

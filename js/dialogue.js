@@ -97,7 +97,6 @@ const DialogueModule = (() => {
       <!-- Controls -->
       <div style="display:flex;gap:8px;margin-bottom:16px;flex-wrap:wrap;align-items:center">
         <button class="btn btn-primary btn-sm" id="dlg-play-btn" onclick="toggleDialoguePlay()">▶ Auto-Play</button>
-        <button class="btn btn-accent btn-sm" onclick="AIChat.open({title: '${dialogue.title.replace(/'/g, "\\'")}', scene: '${dialogue.scene.replace(/'/g, "\\'")}'})">💬 Smart AI Chat</button>
         <button class="btn btn-ghost btn-sm" onclick="playAllLines()">🔊 Read All</button>
         <div style="margin-left:auto;display:flex;gap:6px;align-items:center">
           <label class="text-small" style="display:flex;align-items:center;gap:5px;cursor:pointer">
@@ -136,7 +135,7 @@ const DialogueModule = (() => {
         <h4 style="font-size:0.85rem;text-transform:uppercase;letter-spacing:1px;color:var(--text-3);margin-bottom:12px">Key Vocabulary</h4>
         <div style="display:flex;flex-wrap:wrap;gap:8px">
           ${(dialogue.vocabulary||[]).map(v => `
-            <span class="dialogue-vocab-group"><button class="dialogue-vocab-chip" onclick="TTS.speak('${v}')"><span>${v}</span>${window.IconSystem ? window.IconSystem.svg('volume') : ''}</button><button class="dialogue-vocab-hard" title="Mark hard" onclick="markDialogueWeak('${v}')">Hard</button></span>`).join('')}
+            <button onclick="TTS.speak('${v}')" style="background:var(--off-white);border:1px solid var(--border);border-radius:var(--radius-sm);padding:6px 12px;cursor:pointer;font-family:var(--font-zh);font-size:1rem;transition:all 0.1s" onmouseover="this.style.borderColor='var(--red)'" onmouseout="this.style.borderColor='var(--border)'">${v} 🔊</button>`).join('')}
         </div>
       </div>
 
@@ -167,11 +166,6 @@ const DialogueModule = (() => {
         </div>
       </div>
     `;
-
-    window.markDialogueWeak = (word) => {
-      if (window.WeaknessEngine) WeaknessEngine.record('dialogue', { item: word, label: word, type: 'dialogue-vocab' });
-      TTS.speak(word);
-    };
 
     // Globals for this dialogue view
     window.renderDialogueList = () => renderList(container, allDialogues);

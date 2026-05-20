@@ -1,4 +1,4 @@
-﻿/* ═══════════════════════════════════════════════════════════════
+/* ═══════════════════════════════════════════════════════════════
    app.js — Core: Router, State, Dashboard, Library, Settings
    ═══════════════════════════════════════════════════════════════ */
 
@@ -140,15 +140,7 @@ const App = {
 
 // ─── TTS Utility ──────────────────────────────────────────────────────────────
 const TTS = {
-  speak(text, lang = 'zh-TW', rate = 0.85, options = {}) {
-    if (typeof lang === 'object') {
-      options = lang;
-      lang = options.lang || 'zh-TW';
-      rate = options.rate || 0.85;
-    } else if (typeof rate === 'object') {
-      options = rate;
-      rate = options.rate || 0.85;
-    }
+  speak(text, lang = 'zh-TW', rate = 0.85) {
     if (!window.speechSynthesis) return;
     window.speechSynthesis.cancel();
 
@@ -163,36 +155,10 @@ const TTS = {
     const exactPinyinMap = {
       'mā': '媽', 'má': '麻', 'mǎ': '馬', 'mà': '罵',
       'bā': '八', 'bá': '拔', 'bǎ': '把', 'bà': '爸',
-      'bō': '波', 'bó': '伯', 'bǐ': '比', 'bù': '不',
-      'pā': '趴', 'pá': '爬', 'pó': '婆', 'pǐ': '匹',
       'wū': '屋', 'wú': '無', 'wǔ': '五', 'wù': '物',
-      'hú': '胡', 'hé': '河', 'hē': '喝', 'hǎo': '好', 'hòu': '後',
       'yī': '一', 'yí': '疑', 'yǐ': '以', 'yì': '意',
       'nǚ': '女', 'lǚ': '旅行', 'qù': '去', 'jū': '居', 'xū': '需',
       'yǔ': '語', 'yú': '魚', 'hǎo': '好', 'nǐ hǎo': '你好',
-      'nǐ': '你', 'nán': '南', 'nǎi': '奶', 'niú': '牛',
-      'lǐ': '裡', 'lán': '藍', 'lái': '來', 'liù': '六',
-      'jiā': '家', 'jiē': '街', 'jiù': '舊',
-      'qī': '七', 'qù': '去', 'qǐ': '起',
-      'xī': '西', 'xiā': '蝦', 'xiǎo': '小', 'xīn': '心', 'xiū': '修', 'xiē': '些',
-      'zhī': '知', 'zhǐ': '紙', 'zhù': '住', 'zhǎo': '找', 'zhā': '渣', 'zhài': '債', 'zhōng': '中',
-      'zī': '資', 'zǐ': '子', 'zù': '租', 'zǎo': '早', 'zài': '在',
-      'chī': '吃', 'chū': '出', 'shā': '沙', 'shēn': '身', 'shī': '詩',
-      'shū': '書', 'shú': '熟', 'shǔ': '鼠', 'shù': '樹', 'shōu': '收',
-      'rén': '人',
-      'māo': '貓', 'máo': '毛', 'mǎo': '卯', 'mào': '帽',
-      'tāng': '湯', 'táng': '糖', 'tǎng': '躺', 'tàng': '燙',
-      'mái': '埋', 'mài': '賣', 'mǎi': '買',
-      'wén': '聞', 'wèn': '問',
-      'sǐ': '死', 'sì': '四',
-      'tiān': '天', 'tī': '梯', 'tài': '太', 'tóu': '頭',
-      'dà': '大', 'dài': '帶', 'diào': '掉',
-      'fàn': '飯', 'fēi': '飛', 'fān': '翻', 'fāng': '方', 'fēng': '風',
-      'gē': '哥', 'gǒu': '狗', 'gōu': '溝', 'gěi': '給', 'gōng': '工',
-      'kāi': '開',
-      'mén': '門', 'mán': '蠻', 'màn': '慢', 'máng': '忙', 'míng': '明', 'mēng': '蒙',
-      'bēi': '杯', 'bào': '報', 'biàn': '變', 'biē': '憋',
-      'piào': '票',
       'b': '玻', 'p': '坡', 'm': '摸', 'f': '佛',
       'd': '得', 't': '特', 'n': '訥', 'l': '勒',
       'g': '哥', 'k': '科', 'h': '喝',
@@ -215,39 +181,27 @@ const TTS = {
     const utt = new SpeechSynthesisUtterance(processedText);
     utt.lang = lang;
     utt.rate = rate;
-    const gender = options.gender || null;
-    utt.pitch = options.pitch || (gender === 'male' ? 0.88 : gender === 'female' ? 1.08 : 1.0);
+    utt.pitch = 1.0;
 
-    // Try to get a high-quality Chinese voice. Gender is best-effort because browsers expose different voice lists.
+    // Try to get a high-quality Chinese voice
     const voices = window.speechSynthesis.getVoices();
-    const preferredFemale = ['Yating', 'Hanhan', 'Xiaoxiao', 'HsiaoChen', 'Mei-Jia', 'Ting-Ting', 'Google 國語'];
-    const preferredMale = ['Yunxi', 'Zhiwei', 'Kangkang', 'Google 普通话', 'Google Mandarin'];
     const preferred = [
-      'Microsoft Yating Online (Natural) - Chinese (Taiwan)',
-      'Microsoft Yunxi Online (Natural) - Chinese (Mainland)',
       'Microsoft Xiaoxiao Online (Natural) - Chinese (Mainland)',
+      'Microsoft Yunxi Online (Natural) - Chinese (Mainland)',
       'Microsoft Hiuga Online (Natural) - Chinese (Hong Kong)',
+      'Microsoft Yating Online (Natural) - Chinese (Taiwan)',
       'Google 國語', 'Google 普通话', 'Google Mandarin',
-      'Xiaoxiao', 'Yating', 'Hanhan', 'Yunxi', 'Zhiwei', 'Mei-Jia'
+      'Xiaoxiao', 'Yating', 'Hanhan', 'Zhiwei', 'Mei-Jia'
     ];
-    const zhVoices = voices.filter(v => v.lang && v.lang.startsWith('zh'));
-    const genderNames = gender === 'male' ? preferredMale : gender === 'female' ? preferredFemale : [];
     let bestVoice = null;
-
-    for (const name of genderNames) {
-      bestVoice = zhVoices.find(v => v.name.includes(name));
+    
+    for (const name of preferred) {
+      bestVoice = voices.find(v => v.name.includes(name) && v.lang.startsWith('zh'));
       if (bestVoice) break;
-    }
-
-    if (!bestVoice) {
-      for (const name of preferred) {
-        bestVoice = zhVoices.find(v => v.name.includes(name));
-        if (bestVoice) break;
-      }
     }
     
     if (!bestVoice) {
-      bestVoice = voices.find(v => v.lang === lang) || voices.find(v => v.lang === 'zh-TW') || zhVoices[0];
+      bestVoice = voices.find(v => v.lang === 'zh-TW') || voices.find(v => v.lang.startsWith('zh'));
     }
     
     if (bestVoice) utt.voice = bestVoice;
@@ -456,7 +410,7 @@ const API = {
 };
 
 // ─── Modal ────────────────────────────────────────────────────────────────────
-window.Modal = {
+const Modal = {
   show(html) {
     const overlay = document.getElementById('modal-overlay');
     const content = document.getElementById('modal-content');
@@ -474,8 +428,6 @@ window.Modal = {
     document.getElementById('modal-overlay').classList.add('hidden');
   },
 };
-
-const Modal = window.Modal;
 
 // ─── Word/Character Detail Bridge ───────────────────────────────────────────
 function showWordDetail(word) {
@@ -659,13 +611,7 @@ function resetAllProgress() {
 const routes = {
   '/':                    { title: 'Dashboard',          render: renderDashboard,         route: 'dashboard' },
   '/onboarding':          { title: 'Pinyin & Tones',     render: renderOnboarding,        route: 'onboarding' },
-  '/beginner-launchpad':  { title: 'Beginner Launchpad', render: renderBeginnerLaunchpadPage, route: 'beginner-launchpad' },
-  '/beginner-coach':      { title: 'Beginner Coach',     render: renderBeginnerCoachPage, route: 'beginner-coach' },
   '/learn':               { title: 'Learning Path',      render: renderLearnPath,         route: 'learn' },
-  '/b1-coach':           { title: 'B1 Coach',           render: renderB1CoachPage,      route: 'b1-coach' },
-  '/study-plan':         { title: 'Study Today',        render: renderStudyPlanPage,    route: 'study-plan' },
-  '/mixed-recall':       { title: 'Mixed Recall',       render: renderMixedRecallPage,  route: 'mixed-recall' },
-  '/sentence-builder':   { title: 'Sentence Builder',   render: renderSentenceBuilderPage, route: 'sentence-builder' },
   '/chapters':            { title: 'Chapters',           render: renderChaptersPage,      route: 'chapters' },
   '/playground':          { title: 'Beginner Playground', render: renderPlayground,       route: 'playground' },
   '/char-playground':     { title: 'Character Playground',render: renderCharPlayground,   route: 'char-playground' },
@@ -673,35 +619,21 @@ const routes = {
   '/library':             { title: 'Character Library',  render: renderLibrary,           route: 'library' },
   '/vocabulary':          { title: 'Vocabulary Library', render: renderVocabLibrary,       route: 'vocabulary' },
   '/vocabulary-books':    { title: 'Course Books',       render: renderVocabularyBooks,    route: 'vocabulary-books' },
-  '/grammar':             { title: 'Grammar Academy',    render: renderGrammarLibrary,     route: 'grammar' },
+  '/grammar':             { title: 'Grammar Library',    render: renderGrammarLibrary,     route: 'grammar' },
   '/flashcards':          { title: 'Flashcards',         render: renderFlashcardsPage,    route: 'flashcards' },
   '/dialogue':            { title: 'Dialogue Practice',  render: renderDialoguePage,      route: 'dialogue' },
   '/quiz/pronunciation':  { title: 'Pronunciation Quiz', render: renderPronunciationQuiz, route: 'quiz-pronunciation' },
   '/quiz/vocabulary':     { title: 'Vocabulary Quiz',    render: renderVocabQuiz,         route: 'quiz-vocabulary' },
-  '/quiz/flash':          { title: 'Picture Flash Quiz', render: renderFlashQuizPage,     route: 'quiz-flash' },
   '/quiz/tones':          { title: 'Tone Training',      render: renderToneGame,          route: 'quiz-tones' },
   '/reading':             { title: 'Reading',            render: renderReadingPage,       route: 'reading' },
   '/mock-test/reading':   { title: 'Reading Mock Test',  render: renderMockReadingPage,   route: 'mock-reading' },
-  '/mock-test/listening': { title: 'Listening Mock Test', render: renderMockListeningPage, route: 'mock-listening' },
-
-  '/tocfl':               { title: 'TOCFL Exam Center', render: renderTOCFLPage,       route: 'tocfl' },
-  '/tocfl-content':       { title: 'TOCFL Content',      render: renderTOCFLContentPage, route: 'tocfl-content' },
+  '/mock-test/listening': { title: 'Listening Mock Test',render: renderMockListeningPage, route: 'mock-listening' },
   '/exams':               { title: 'Monthly Exams',      render: renderExamsPage,         route: 'exams' },
   '/settings':            { title: 'Settings',           render: renderSettings,          route: 'settings' },
 };
 
 function navigate(path) {
-  const raw = String(path || '/').trim();
-  const withoutHash = raw.startsWith('#') ? raw.slice(1) : raw;
-  const normalized = withoutHash.startsWith('/') ? withoutHash : `/${withoutHash}`;
-  window.location.hash = '#' + normalized;
-}
-
-function resolveRoute(path) {
-  if (routes[path]) return routes[path];
-  if (path.startsWith('/beginner-launchpad/')) return routes['/beginner-launchpad'];
-  if (path.startsWith('/beginner-coach/')) return routes['/beginner-coach'];
-  return routes['/'];
+  window.location.hash = '#' + path;
 }
 
 function getPath() {
@@ -710,17 +642,14 @@ function getPath() {
   return hash.replace('#', '') || '/';
 }
 
-let routerRenderToken = 0;
-
 async function router() {
-  const token = ++routerRenderToken;
   const path = getPath();
-  const route = resolveRoute(path);
-  closeMobileNav();
+  const route = routes[path] || routes['/'];
 
   // Update nav active state
-  updateSidebarActive(route.route);
-  updateMobileSectionState(route.route);
+  document.querySelectorAll('.nav-item, .bottom-nav-item').forEach(el => {
+    el.classList.toggle('active', el.dataset.route === route.route);
+  });
 
   document.getElementById('topbar-title').textContent = route.title;
 
@@ -729,13 +658,10 @@ async function router() {
 
   try {
     await route.render(content);
-    if (token !== routerRenderToken) { router(); return; }
-    if (resolveRoute(getPath()).route !== route.route) router();
   } catch (err) {
-    if (token !== routerRenderToken) return;
     content.innerHTML = `
       <div class="empty-state">
-        <div class="es-icon">!</div>
+        <div class="es-icon">⚠️</div>
         <h3>Something went wrong</h3>
         <p>${err.message}</p>
         <button class="btn btn-primary mt-8" onclick="location.reload()">Reload</button>
@@ -744,186 +670,10 @@ async function router() {
   }
 }
 
-
 window.addEventListener('hashchange', router);
 
-function closeMobileNav() {
-  const sidebar = document.getElementById('sidebar');
-  const scrim = document.getElementById('nav-scrim');
-  const toggle = document.getElementById('mobile-menu-toggle');
-  sidebar?.classList.remove('open');
-  document.body.classList.remove('nav-open');
-  if (scrim) scrim.hidden = true;
-  if (toggle) toggle.setAttribute('aria-expanded', 'false');
-}
-
-const mobileNavGroups = {
-  start: ['dashboard', 'b1-coach', 'study-plan', 'learn'],
-  beginner: ['beginner-coach', 'beginner-launchpad', 'quiz-flash', 'onboarding', 'quiz-pronunciation', 'quiz-tones', 'playground'],
-  course: ['vocabulary-books', 'chapters', 'grammar', 'dialogue', 'reading', 'scenarios'],
-  practice: ['flashcards', 'mixed-recall', 'sentence-builder', 'char-playground', 'library', 'vocabulary'],
-  exams: ['tocfl', 'tocfl-content', 'exams', 'mock-reading', 'mock-listening', 'quiz-vocabulary']
-};
-
-function updateSidebarActive(routeName) {
-  document.querySelectorAll('#sidebar .nav-item[data-route]').forEach(item => {
-    item.classList.toggle('active', item.dataset.route === routeName);
-  });
-}
-
-function updateMobileSectionState(routeName) {
-  const activeGroup = Object.entries(mobileNavGroups).find(([, routes]) => routes.includes(routeName))?.[0] || 'start';
-  document.querySelectorAll('.bottom-nav-menu').forEach(btn => btn.classList.toggle('active', btn.dataset.mobileMenu === activeGroup));
-  document.querySelectorAll('.mobile-section-link').forEach(link => link.classList.toggle('active', link.dataset.route === routeName));
-  closeMobileSectionTray();
-}
-
-function closeMobileSectionTray() {
-  const bar = document.getElementById('mobile-section-bar');
-  if (!bar) return;
-  bar.hidden = true;
-  bar.classList.remove('open');
-  document.querySelectorAll('.bottom-nav-menu').forEach(btn => btn.setAttribute('aria-expanded', 'false'));
-}
-
-function openMobileSection(section) {
-  const bar = document.getElementById('mobile-section-bar');
-  if (!bar) return;
-  const sections = {
-    start: [['/', 'dashboard', 'Dashboard'], ['/b1-coach', 'b1-coach', 'B1 Coach'], ['/study-plan', 'study-plan', 'Today'], ['/learn', 'learn', 'Path']],
-    beginner: [['/beginner-coach', 'beginner-coach', 'Coach'], ['/beginner-launchpad', 'beginner-launchpad', 'Launchpad'], ['/quiz/flash', 'quiz-flash', 'Picture Quiz'], ['/onboarding', 'onboarding', 'Pinyin'], ['/quiz/pronunciation', 'quiz-pronunciation', 'Pronunciation'], ['/quiz/tones', 'quiz-tones', 'Tones'], ['/playground', 'playground', 'Playground']],
-    course: [['/vocabulary-books', 'vocabulary-books', 'Books'], ['/chapters', 'chapters', 'Chapters'], ['/grammar', 'grammar', 'Grammar'], ['/dialogue', 'dialogue', 'Dialogue'], ['/reading', 'reading', 'Reading'], ['/scenarios', 'scenarios', 'Scenarios']],
-    practice: [['/flashcards', 'flashcards', 'Cards'], ['/mixed-recall', 'mixed-recall', 'Mixed'], ['/sentence-builder', 'sentence-builder', 'Sentences'], ['/char-playground', 'char-playground', 'Characters'], ['/library', 'library', 'Library'], ['/vocabulary', 'vocabulary', 'Words']],
-    exams: [['/tocfl', 'tocfl', 'TOCFL'], ['/tocfl-content', 'tocfl-content', 'Native'], ['/exams', 'exams', 'Monthly'], ['/mock-test/reading', 'mock-reading', 'Reading Test'], ['/mock-test/listening', 'mock-listening', 'Listening Test'], ['/quiz/vocabulary', 'quiz-vocabulary', 'Vocab Quiz']]
-  };
-  const sectionIcons = {
-    dashboard: 'dashboard', 'b1-coach': 'route', 'beginner-coach': 'check', learn: 'map', onboarding: 'music', chapters: 'book', 'beginner-launchpad': 'layers',
-    'vocabulary-books': 'notebook', library: 'library', vocabulary: 'vocabulary', grammar: 'grammar', flashcards: 'flashcards',
-    tocfl: 'target', 'tocfl-content': 'file', 'quiz-vocabulary': 'vocabulary', 'quiz-flash': 'flashcards', 'quiz-tones': 'target',
-    'quiz-pronunciation': 'letters', exams: 'exam', reading: 'reading', dialogue: 'dialogue', 'mock-reading': 'file',
-    'mock-listening': 'headphones', 'study-plan': 'check', 'mixed-recall': 'brain', 'sentence-builder': 'layers',
-    playground: 'play', 'char-playground': 'puzzle', scenarios: 'scenarios'
-  };
-  const renderIcon = route => window.IconSystem?.svg(sectionIcons[route] || 'dashboard') || '';
-  const currentRoute = resolveRoute(getPath()).route;
-  bar.innerHTML = (sections[section] || sections.start)
-    .map(([href, route, label]) => `<a class="mobile-section-link" data-route="${route}" href="#${href}">${renderIcon(route)}<span>${label}</span></a>`)
-    .join('');
-  const isOpenForSection = !bar.hidden && bar.dataset.section === section;
-  if (isOpenForSection) {
-    closeMobileSectionTray();
-    return;
-  }
-  bar.dataset.section = section;
-  bar.hidden = false;
-  bar.classList.add('open');
-  document.querySelectorAll('.bottom-nav-menu').forEach(btn => {
-    const isActive = btn.dataset.mobileMenu === section;
-    btn.classList.toggle('active', isActive);
-    btn.setAttribute('aria-expanded', String(isActive));
-  });
-  document.querySelectorAll('.mobile-section-link').forEach(link => link.classList.toggle('active', link.dataset.route === currentRoute));
-}
-
-function setupMobileBottomNav() {
-  let lastTouchActivation = 0;
-  const activate = (btn, source = 'click') => {
-    const section = btn?.dataset?.mobileMenu;
-    if (!section) return;
-    if (source === 'touch' || source === 'pointer-touch') lastTouchActivation = Date.now();
-    openMobileSection(section);
-  };
-  document.querySelectorAll('.bottom-nav-menu').forEach(btn => {
-    btn.addEventListener('pointerup', e => {
-      if (e.pointerType === 'mouse') return;
-      e.preventDefault();
-      activate(btn, 'pointer-touch');
-    }, { passive: false });
-    btn.addEventListener('touchend', e => {
-      if (Date.now() - lastTouchActivation < 450) return;
-      e.preventDefault();
-      activate(btn, 'touch');
-    }, { passive: false });
-    btn.addEventListener('click', e => {
-      if (Date.now() - lastTouchActivation < 450) {
-        e.preventDefault();
-        return;
-      }
-      e.preventDefault();
-      activate(btn, 'click');
-    });
-  });
-  document.getElementById('mobile-section-bar')?.addEventListener('click', e => {
-    const link = e.target.closest('.mobile-section-link');
-    if (link) closeMobileSectionTray();
-  });
-  closeMobileSectionTray();
-}
-function toggleMobileNav() {
-  const sidebar = document.getElementById('sidebar');
-  const scrim = document.getElementById('nav-scrim');
-  const toggle = document.getElementById('mobile-menu-toggle');
-  const isOpen = !sidebar?.classList.contains('open');
-  sidebar?.classList.toggle('open', isOpen);
-  document.body.classList.toggle('nav-open', isOpen);
-  if (scrim) scrim.hidden = !isOpen;
-  if (toggle) toggle.setAttribute('aria-expanded', String(isOpen));
-}
-
 // ─── Dashboard ────────────────────────────────────────────────────────────────
-
-function renderBeginnerLaunchpadPage(container) {
-  if (window.BeginnerLaunchpadModule) return BeginnerLaunchpadModule.render(container);
-  container.innerHTML = '<div class="empty-state"><h3>Beginner Launchpad is not loaded</h3></div>';
-}
-
-
-function renderBeginnerCoachPage(container) {
-  if (window.BeginnerCoachModule) return BeginnerCoachModule.render(container);
-  container.innerHTML = '<div class="empty-state"><h3>Beginner Coach is not loaded</h3></div>';
-}
-
-function renderB1CoachPage(container) {
-  if (window.B1CoachModule) return B1CoachModule.render(container);
-  container.innerHTML = '<div class="empty-state"><h3>B1 Coach is not loaded</h3></div>';
-}
-
-async function renderMixedRecallPage(container) {
-  return MixedRecallModule.render(container);
-}
-
-async function renderSentenceBuilderPage(container) {
-  return SentenceBuilderModule.render(container);
-}
-
-async function renderTOCFLPage(container) {
-  if (typeof TOCFLModule !== 'undefined') return TOCFLModule.render(container);
-  container.innerHTML = '<div class="empty-state"><h3>TOCFL Lab is not loaded</h3></div>';
-}
-
-async function renderTOCFLContentPage(container) {
-  if (typeof TOCFLContentModule !== 'undefined') return TOCFLContentModule.render(container);
-  container.innerHTML = '<div class="empty-state"><h3>TOCFL Content is not loaded</h3></div>';
-}
-
-async function renderStudyPlanPage(container) {
-  if (!window.StudyPlanModule) {
-    container.innerHTML = '<div class="empty-state"><h3>Study Plan is not loaded</h3></div>';
-    return;
-  }
-  return StudyPlanModule.render(container);
-}
-
 async function renderDashboard(container) {
-  if (!App.state.characters.length) {
-    try {
-      const charResult = await API.getCharacters({ limit: 9999 });
-      App.state.characters = charResult.data || [];
-    } catch (err) {
-      console.warn('Dashboard character preload failed:', err.message);
-    }
-  }
-
   const prog  = App.state.progress;
   const chars = App.state.characters;
   const totalChars = chars.length || 0;
@@ -932,24 +682,21 @@ async function renderDashboard(container) {
   const daily      = prog.dailyReviewed || 0;
   const goal       = App.state.settings.dailyGoal || 10;
   const dailyPct   = Math.min(100, Math.round((daily / goal) * 100));
-  const displayName = App.state.settings.displayName || 'Learner';
 
+  // SRS stats
   const srs = SRS.getStats();
   const dueToday = srs.due_today || 0;
 
+  // Per-level breakdown
   const LEVELS = ['novice','a1','a2','b1'];
-  const LMETA  = {
-    novice:{name:'Novice',color:'#16a34a'},
-    a1:{name:'A1',color:'#2563eb'},
-    a2:{name:'A2',color:'#d97706'},
-    b1:{name:'B1',color:'#7c3aed'}
-  };
+  const LMETA  = { novice:{name:'Novice',color:'#27ae60',icon:'🌱'}, a1:{name:'A1',color:'#2980b9',icon:'🌿'}, a2:{name:'A2',color:'#e67e22',icon:'🌳'}, b1:{name:'B1',color:'#8e44ad',icon:'🏆'} };
   const levelStats = LEVELS.map(lvl => {
-    const total = chars.filter(c => c.level === lvl).length;
-    const done = chars.filter(c => c.level === lvl && prog.learnedChars.includes(c.hanzi)).length;
-    return { lvl, ...LMETA[lvl], total, done, pct: total > 0 ? Math.round((done / total) * 100) : 0 };
+    const total   = chars.filter(c => c.level === lvl).length;
+    const done    = chars.filter(c => c.level === lvl && prog.learnedChars.includes(c.hanzi)).length;
+    return { lvl, ...LMETA[lvl], total, done, pct: total > 0 ? Math.round((done/total)*100) : 0 };
   }).filter(l => l.total > 0);
 
+  // Character of the day
   let cotd = null;
   if (chars.length) {
     const idx = Math.floor(Date.now() / 86400000) % chars.length;
@@ -958,210 +705,173 @@ async function renderDashboard(container) {
 
   const recentActivity = (prog.activityLog || []).slice(0, 5);
   const isFirstTime = learned === 0 && !prog.lastStudyDate;
-  const renderIcon = name => window.IconSystem?.svg(name) || '';
-  const weakCount = (prog.weakChars || []).length;
-  const beginnerGuided = window.BeginnerCoachModule ? BeginnerCoachModule.guidedOn() : true;
-  const nextHref = beginnerGuided && learned < 120 ? '#/beginner-coach' : '#/b1-coach';
-  const nextLabel = beginnerGuided && learned < 120 ? 'Open Beginner Coach' : 'Open B1 Coach';
-  const nextTitle = beginnerGuided && learned < 120 ? "Follow today's beginner mission" : "Follow today's B1 mission";
-  const nextDesc = beginnerGuided && learned < 120
-    ? 'Guided Mode chooses one beginner task, then adds writing and speaking practice without locking the rest of the app.'
-    : 'Your 180-day roadmap chooses the tasks, exam focus, and weak-area repair for today.';
 
+  // Personalized Recommendation based on weakChars
   let recommendation = null;
   if (prog.weakChars && prog.weakChars.length > 0) {
     const randomWeak = prog.weakChars[Math.floor(Math.random() * prog.weakChars.length)];
-    recommendation = {
-      title: 'Targeted Review',
-      desc: `You have repeated misses around ${randomWeak}. Give it a short focused pass.`,
+    recommendation = { 
+      type: 'review', 
+      title: 'Targeted Review', 
+      desc: `You've struggled with 「${randomWeak}」. Let's practice it!`, 
       action: `showCharModal('${randomWeak}')`,
       btn: 'Practice Now'
     };
   } else if (learned < 50) {
     recommendation = {
-      title: 'Beginner Launchpad',
-      desc: 'Start with tiny lessons, first-100 words, mini stories, and no overwhelm.',
-      action: "navigate('/beginner-launchpad')",
-      btn: 'Open Launchpad'
+      type: 'playground',
+      title: 'Jump Into Playground',
+      desc: 'Build your foundation with repetitive drills.',
+      action: "navigate('/playground')",
+      btn: 'Go to Playground'
     };
   }
 
-  const cotdJson = cotd ? JSON.stringify(cotd).replace(/"/g, '&quot;') : '';
-
   container.innerHTML = `
-    <div class="dashboard-modern">
-      <section class="dash-hero-modern">
-        <div class="dash-hero-copy">
-          <div class="dash-kicker"><span>Novice</span><span>A1</span><span>A2</span><span>B1</span></div>
-          <h1>Welcome back, ${displayName}</h1>
-          <p>${isFirstTime ? 'Start with sound and tone control, then move into characters and real dialogue.' : 'Keep today simple: review what is due, then push one small skill forward.'}</p>
-          <div class="dash-hero-actions">
-            <a class="btn btn-primary" href="${nextHref}">${renderIcon('play')}<span>${nextLabel}</span></a>
-            <a class="btn btn-outline" href="#/tocfl-content">${renderIcon('exam')}<span>TOCFL Practice</span></a>
-          </div>
-        </div>
-        <div class="dash-progress-orbit" aria-label="Overall progress">
-          <div class="dash-progress-ring" style="--dash-pct:${pct}">
-            <strong>${pct}%</strong>
-            <span>${totalChars ? `${learned}/${totalChars}` : 'Ready'}</span>
-          </div>
-          <div class="dash-ring-label">${totalChars ? 'characters learned' : 'loading library'}</div>
-        </div>
-      </section>
+    <div class="page-header">
+      <div style="font-size: 0.75rem; color: var(--text-3); text-transform: uppercase; letter-spacing: 2px; font-weight: 700; margin-bottom: 8px;">Novice → A1 → A2 → B1</div>
+      <h2>歡迎回來，${App.state.settings.displayName}！</h2>
+      <p>${isFirstTime ? '👋 New here? Start with <a href="#/onboarding" style="color:var(--red);font-weight:600">Pinyin & Tones</a> to build your foundation.' : 'Keep up your daily practice. Consistency is everything.'}</p>
+    </div>
 
-      <section class="dash-main-grid">
-        <article class="dash-next-card">
-          <div class="dash-card-icon">${renderIcon('check')}</div>
-          <div>
-            <div class="dash-card-label">Next best action</div>
-            <h2>${nextTitle}</h2>
-            <p>${nextDesc}</p>
-          </div>
-          <a class="btn btn-primary" href="${nextHref}">${nextLabel}</a>
-        </article>
-
-        <article class="dash-metric-card">
-          <div class="dash-card-icon">${renderIcon('flame')}</div>
-          <span>Streak</span>
-          <strong>${prog.streak || 0}</strong>
-          <small>${daily}/${goal} reviews today</small>
-          <div class="dash-mini-bar"><span style="width:${dailyPct}%"></span></div>
-        </article>
-
-        <article class="dash-metric-card">
-          <div class="dash-card-icon">${renderIcon('brain')}</div>
-          <span>SRS Queue</span>
-          <strong>${srs.total || 0}</strong>
-          <small>${srs.mature || 0} mature - ${dueToday} due</small>
-        </article>
-
-        <article class="dash-metric-card">
-          <div class="dash-card-icon">${renderIcon('target')}</div>
-          <span>Weak Areas</span>
-          <strong>${weakCount}</strong>
-          <small>${weakCount ? 'Ready for targeted review' : 'No weak areas logged yet'}</small>
-        </article>
-      </section>
-
-      ${window.WeaknessEngine ? `<div class="dash-weakness-wrap">${WeaknessEngine.renderSummaryCard()}</div>` : ''}
-
-      ${recommendation ? `
-      <section class="dash-recommend-card">
-        <div class="dash-card-icon">${renderIcon('lightbulb')}</div>
+    ${recommendation ? `
+    <div class="card mb-24" style="border-left: 4px solid var(--accent); background: var(--off-white);">
+      <div style="display:flex; justify-content:space-between; align-items:center;">
         <div>
-          <div class="dash-card-label">Recommended</div>
-          <h2>${recommendation.title}</h2>
-          <p>${recommendation.desc}</p>
+          <h4 style="margin-bottom:4px; color:var(--accent);">${recommendation.title}</h4>
+          <p style="font-size:0.9rem; margin-bottom:0;">${recommendation.desc}</p>
         </div>
-        <button class="btn btn-primary" onclick="${recommendation.action}">${recommendation.btn}</button>
-      </section>` : ''}
+        <button class="btn btn-primary btn-sm" onclick="${recommendation.action}">${recommendation.btn}</button>
+      </div>
+    </div>` : ''}
 
-      <section class="dash-action-grid">
-        <a href="#/beginner-coach" class="dash-action-card dash-action-card-primary">
-          ${renderIcon('check')}
-          <strong>Beginner Daily Coach</strong>
-          <span>Do exactly this today</span>
-        </a>
-        <a href="#/beginner-launchpad" class="dash-action-card">
-          ${renderIcon('rocket')}
-          <strong>Beginner Launchpad</strong>
-          <span>First 100 words</span>
-        </a>
-        <a href="#/b1-coach" class="dash-action-card">
-          ${renderIcon('route')}
-          <strong>B1 Coach</strong>
-          <span>180-day mission plan</span>
-        </a>
-        <a href="#/study-plan" class="dash-action-card">
-          ${renderIcon('check')}
-          <strong>Study Today</strong>
-          <span>One guided session</span>
-        </a>
-        <a href="#/mixed-recall" class="dash-action-card">
-          ${renderIcon('brain')}
-          <strong>Mixed Recall</strong>
-          <span>Audio, hanzi, pinyin</span>
-        </a>
-        <a href="#/sentence-builder" class="dash-action-card">
-          ${renderIcon('layers')}
-          <strong>Sentence Builder</strong>
-          <span>Active grammar practice</span>
-        </a>
-        <a href="#/dialogue" class="dash-action-card">
-          ${renderIcon('dialogue')}
-          <strong>Dialogues</strong>
-          <span>Real conversation flow</span>
-        </a>
-        <a href="#/scenarios" class="dash-action-card">
-          ${renderIcon('scenarios')}
-          <strong>Scenarios</strong>
-          <span>Daily life situations</span>
-        </a>
-        <a href="#/quiz/pronunciation" class="dash-action-card">
-          ${renderIcon('letters')}
-          <strong>Pronunciation</strong>
-          <span>Tones and pinyin</span>
-        </a>
-      </section>
+    ${isFirstTime ? `
+    <!-- First-time onboarding banner -->
+    <div style="background:linear-gradient(135deg,var(--red),var(--red-dark));color:#fff;border-radius:var(--radius);padding:24px;margin-bottom:24px;display:flex;gap:20px;align-items:center;flex-wrap:wrap">
+      <div style="flex:1;min-width:200px">
+        <div style="font-size:0.7rem;text-transform:uppercase;letter-spacing:2px;opacity:0.7;margin-bottom:6px">Getting Started</div>
+        <h3 style="font-size:1.15rem;font-weight:700;margin-bottom:6px;color:#fff">New to Chinese? Start here.</h3>
+        <p style="font-size:0.85rem;opacity:0.85;line-height:1.6">Learn the pinyin sound system and 4 tones before studying characters. This takes 20–30 minutes and makes everything easier.</p>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:8px">
+        <a href="#/onboarding" class="btn" style="background:#fff;color:var(--red);font-weight:700">🎵 Start: Pinyin & Tones →</a>
+        <a href="#/playground" class="btn" style="background:rgba(255,255,255,0.15);color:#fff;border:1px solid rgba(255,255,255,0.3)">🎠 Day 1: Playground pg1</a>
+      </div>
+    </div>` : ''}
 
-      ${levelStats.length ? `
-      <section class="dash-panel-modern">
-        <div class="dash-section-head">
-          <div>
-            <span>Level map</span>
-            <h2>Progress by level</h2>
+    <!-- SRS due today alert -->
+    ${dueToday > 0 ? `
+    <div style="background:rgba(243,156,18,0.1);border:1.5px solid var(--gold);border-radius:var(--radius);padding:14px 18px;margin-bottom:20px;display:flex;align-items:center;gap:14px;flex-wrap:wrap">
+      <div style="font-size:1.5rem">🔔</div>
+      <div style="flex:1">
+        <div style="font-weight:700;color:var(--gold)">${dueToday} cards due for review today</div>
+        <div style="font-size:0.82rem;color:var(--text-2)">Regular review prevents forgetting. It only takes a few minutes.</div>
+      </div>
+      <a href="#/learn" class="btn btn-gold btn-sm">Review Now →</a>
+    </div>` : ''}
+
+    <!-- Stats row -->
+    <div class="dashboard-grid" style="margin-bottom:20px">
+      <div class="stat-card">
+        <div class="stat-icon">📚</div>
+        <div class="stat-value">${learned}</div>
+        <div class="stat-label">Characters Learned</div>
+        <div class="progress-bar mt-8"><div class="progress-fill" style="width:${pct}%"></div></div>
+        <div class="text-small text-muted mt-8">${pct}% of ${totalChars} total</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-icon">🧠</div>
+        <div class="stat-value">${srs.total||0}</div>
+        <div class="stat-label">In SRS Queue</div>
+        <div class="text-small text-muted mt-8">${srs.mature||0} mature · ${dueToday} due today</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-icon">🔥</div>
+        <div class="stat-value">${prog.streak||0}</div>
+        <div class="stat-label">Day Streak</div>
+        <div class="progress-bar mt-8"><div class="progress-fill" style="width:${dailyPct}%;background:var(--gold)"></div></div>
+        <div class="text-small text-muted mt-8">Today: ${daily}/${goal} reviews</div>
+      </div>
+    </div>
+
+    <!-- Quick Access Section -->
+    <div class="section-title">Quick Access</div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px;margin-bottom:32px">
+      <a href="#/scenarios" class="card animate-fade-in" style="text-decoration:none; display:flex; gap:16px; align-items:center; border-left:4px solid var(--accent)">
+        <div style="font-size:2rem">🎭</div>
+        <div>
+          <div style="font-weight:700; color:var(--text)">Everyday Scenarios</div>
+          <div style="font-size:0.8rem; color:var(--text-muted)">35+ real-life conversation situations</div>
+        </div>
+      </a>
+      <a href="#/dialogue" class="card animate-fade-in" style="text-decoration:none; display:flex; gap:16px; align-items:center; border-left:4px solid var(--tone2)">
+        <div style="font-size:2rem">💬</div>
+        <div>
+          <div style="font-weight:700; color:var(--text)">Dialogue Practice</div>
+          <div style="font-size:0.8rem; color:var(--text-muted)">Interactive role-play sessions</div>
+        </div>
+      </a>
+    </div>
+
+    <!-- Level progress -->
+    ${levelStats.length ? `
+    <div class="section-title">Level Progress</div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:10px;margin-bottom:24px">
+      ${levelStats.map(l => `
+        <div style="background:var(--card-bg);border:1px solid var(--border);border-radius:var(--radius);padding:14px;border-left:4px solid ${l.color}">
+          <div style="display:flex;align-items:center;gap:8px;margin-bottom:8px">
+            <span style="font-size:1.1rem">${l.icon}</span>
+            <span style="font-weight:600;font-size:0.9rem">${l.name}</span>
+            <span style="margin-left:auto;font-weight:700;font-size:1rem;color:${l.color}">${l.pct}%</span>
           </div>
-          <a href="#/learn">Open path</a>
-        </div>
-        <div class="dash-level-grid">
-          ${levelStats.map(l => `
-            <article class="dash-level-card" style="--level-color:${l.color}">
-              <div><strong>${l.name}</strong><span>${l.done}/${l.total}</span></div>
-              <div class="dash-level-bar"><span style="width:${l.pct}%"></span></div>
-              <small>${l.pct}% complete</small>
-            </article>`).join('')}
-        </div>
-      </section>` : ''}
+          <div class="progress-bar"><div class="progress-fill" style="width:${l.pct}%;background:${l.color}"></div></div>
+          <div class="text-small text-muted mt-8">${l.done}/${l.total} characters</div>
+        </div>`).join('')}
+    </div>` : ''}
 
-      ${cotd ? `
-      <section class="dash-character-card" data-char="${cotd.traditional || cotd.hanzi}">
-        <button class="dash-character-main" onclick="TTS.speak('${cotd.traditional || cotd.hanzi}')" title="Hear character">
-          ${cotd.traditional || cotd.hanzi}
-        </button>
-        <div class="dash-character-info">
-          <span>Character of the day</span>
-          <h2 class="tone-colors">${Pinyin.colorize(cotd.pinyin || '')}</h2>
-          <p>${cotd.definition || ''}</p>
-          ${cotd.example_sentence ? `<blockquote>${cotd.example_sentence.sentence || ''}<small>${cotd.example_sentence.english || ''}</small></blockquote>` : ''}
-          <div class="dash-character-actions">
-            <button class="btn btn-outline btn-sm" onclick="TTS.speak('${cotd.traditional || cotd.hanzi}')">${renderIcon('volume')}<span>Hear</span></button>
-            <button class="btn btn-primary btn-sm" onclick="showCharModal(${cotdJson})">Details</button>
-          </div>
+    <!-- Character of the day -->
+    ${cotd ? `
+    <div class="cotd-card" data-char="${cotd.traditional || cotd.hanzi}" style="margin-bottom:24px">
+      <div class="cotd-hanzi" onclick="TTS.speak('${cotd.traditional || cotd.hanzi}')" style="cursor:pointer" title="Click to hear">${cotd.traditional || cotd.hanzi}</div>
+      <div class="cotd-info">
+        <div style="font-size:0.65rem;color:rgba(255,255,255,0.4);text-transform:uppercase;letter-spacing:2px;margin-bottom:4px">Character of the Day</div>
+        <div class="cotd-pinyin tone-colors">${Pinyin.colorize(cotd.pinyin || '')}</div>
+        <div class="cotd-def">${cotd.definition || ''}</div>
+        ${cotd.example_sentence ? `<div class="cotd-sentence" style="margin-top:8px">${cotd.example_sentence.sentence || ''}<br><em style="font-size:0.78rem;opacity:0.7">${cotd.example_sentence.english || ''}</em></div>` : ''}
+        <div style="margin-top:14px;display:flex;gap:8px;flex-wrap:wrap">
+          <button class="btn btn-sm" style="background:rgba(255,255,255,0.12);color:#fff;border:1px solid rgba(255,255,255,0.2)" onclick="TTS.speak('${cotd.traditional || cotd.hanzi}')">🔊 Hear</button>
+          <button class="btn btn-sm" style="background:rgba(255,255,255,0.12);color:#fff;border:1px solid rgba(255,255,255,0.2)" onclick="showCharModal(${JSON.stringify(cotd).replace(/"/g,'&quot;')})">Details →</button>
         </div>
-      </section>` : ''}
+      </div>
+    </div>` : ''}
 
-      <section class="dash-panel-modern">
-        <div class="dash-section-head">
-          <div>
-            <span>Activity</span>
-            <h2>Recent learning</h2>
-          </div>
-        </div>
-        ${recentActivity.length ? `
-          <div class="dash-activity-list">
-            ${recentActivity.map(a => `
-              <div class="dash-activity-item">
-                <span class="dash-activity-dot"></span>
-                <strong>${a.text}</strong>
-                <small>${timeAgo(a.time)}</small>
-              </div>`).join('')}
-          </div>` : `
-          <div class="dash-empty-modern">
-            ${renderIcon('route')}
-            <p>No activity yet. Start with Pinyin & Tones and this area will become your learning timeline.</p>
-            <a class="btn btn-primary btn-sm" href="#/onboarding">Start Pinyin</a>
-          </div>`}
-      </section>
+    <!-- Quick tiles -->
+    <div class="section-title">Quick Access</div>
+    <div class="quick-tiles mb-24">
+      <a class="quick-tile" href="#/onboarding"><span class="tile-icon">🎵</span><span class="tile-name">Pinyin Trainer</span><span class="tile-desc">Tones & sounds</span></a>
+      <a class="quick-tile" href="#/learn"><span class="tile-icon">🗺️</span><span class="tile-name">Learning Path</span><span class="tile-desc">Guided progress</span></a>
+      <a class="quick-tile" href="#/chapters"><span class="tile-icon">📖</span><span class="tile-name">Chapters</span><span class="tile-desc">Structured lessons</span></a>
+      <a class="quick-tile" href="#/dialogue"><span class="tile-icon">💬</span><span class="tile-name">Dialogues</span><span class="tile-desc">Real conversations</span></a>
+      <a class="quick-tile" href="#/flashcards"><span class="tile-icon">🃏</span><span class="tile-name">Flashcards</span><span class="tile-desc">Study & review</span></a>
+      <a class="quick-tile" href="#/quiz/pronunciation"><span class="tile-icon">🔤</span><span class="tile-name">Pinyin Quiz</span><span class="tile-desc">Practice tones</span></a>
+    </div>
+
+    <!-- Recent Activity -->
+    <div class="section-title">Recent Activity</div>
+    <div class="card">
+      ${recentActivity.length ? `
+        <div class="activity-list">
+          ${recentActivity.map(a => `
+            <div class="activity-item">
+              <span class="activity-icon">${a.icon}</span>
+              <span class="activity-text">${a.text}</span>
+              <span class="activity-time">${timeAgo(a.time)}</span>
+            </div>`).join('')}
+        </div>` : `
+        <div class="empty-state" style="padding:24px">
+          <div class="es-icon">📋</div>
+          <p>No activity yet — <a href="#/onboarding" style="color:var(--red)">start with Pinyin & Tones!</a></p>
+        </div>`}
     </div>
   `;
 
@@ -1191,12 +901,6 @@ let libraryState = {
 };
 
 async function renderLibrary(container) {
-  if (App.state.lastLevelFilter) {
-    libraryState.level = App.state.lastLevelFilter;
-    libraryState.offset = 0;
-    App.state.lastLevelFilter = null;
-  }
-
   // Render skeleton immediately
   container.innerHTML = `
     <div class="page-header">
@@ -1475,19 +1179,6 @@ function renderSettings(container) {
 
       <div class="card mb-16">
         <div class="settings-section">
-          <h3>AI Chat (Beta)</h3>
-          <p class="setting-desc mb-12">To use the Smart AI Chat, you need a free API key from <a href="https://aistudio.google.com/" target="_blank" style="color:var(--accent)">Google AI Studio</a>. This key is stored only in your browser.</p>
-          <div class="setting-row">
-            <div class="setting-info">
-              <div class="setting-label">Gemini API Key</div>
-            </div>
-            <input type="password" class="input" id="set-gemini-key" value="${s.geminiKey || ''}" placeholder="Paste AI Key here..." style="width:220px">
-          </div>
-        </div>
-      </div>
-
-      <div class="card mb-16">
-        <div class="settings-section">
           <h3>Progress</h3>
           <div class="setting-row">
             <div class="setting-info">
@@ -1548,7 +1239,6 @@ function renderSettings(container) {
     App.state.settings.quizDifficulty = document.querySelector('input[name="difficulty"]:checked')?.value || 'A2';
     App.state.settings.showQuizPinyin = document.getElementById('set-show-quiz-pinyin').checked;
     App.state.settings.unlockAll = document.getElementById('set-unlock-all').checked;
-    App.state.settings.geminiKey = document.getElementById('set-gemini-key').value || '';
     App.saveSettings();
     App.applyTheme(App.state.settings.theme);
     const msg = document.getElementById('set-saved-msg');
@@ -1615,11 +1305,6 @@ function renderPronunciationQuiz(container) {
 function renderVocabQuiz(container) {
   if (window.QuizModule) return window.QuizModule.renderVocabulary(container);
   container.innerHTML = '<div class="empty-state"><h3>Quiz Module Loading Error</h3><p>Please refresh the page to try again.</p></div>';
-}
-
-function renderFlashQuizPage(container) {
-  if (window.FlashQuizModule) return window.FlashQuizModule.render(container);
-  container.innerHTML = '<div class="empty-state"><h3>Flash Quiz Module Loading Error</h3><p>Please refresh the page to try again.</p></div>';
 }
 
 function renderToneGame(container) {
@@ -1739,19 +1424,6 @@ async function boot() {
     TTS.speak('你好，歡迎使用漢語學習應用程式。');
   });
 
-  document.getElementById('mobile-menu-toggle')?.addEventListener('click', toggleMobileNav);
-  setupMobileBottomNav();
-  document.getElementById('nav-scrim')?.addEventListener('click', closeMobileNav);
-  document.querySelectorAll('#sidebar .nav-item').forEach(item => {
-    item.addEventListener('click', closeMobileNav);
-  });
-  document.addEventListener('keydown', e => {
-    if (e.key === 'Escape') closeMobileNav();
-  });
-
-  // Route immediately before heavy curriculum preload so pages never sit on the boot spinner.
-  router();
-
   // Preload characters into memory for client-side operations
   try {
     const charResult = await API.getCharacters({ limit: 9999 });
@@ -1763,12 +1435,12 @@ async function boot() {
     if (window.ExamModule) ExamModule.init();
 
     updateTopbarBadge();
-    if (getPath() === '/') router();
   } catch (err) {
     console.warn('Could not preload curriculum data:', err.message);
   }
 
-  // Router already ran before preload; data-driven modules refresh themselves as needed.
+  // Run router
+  router();
 }
 
 // Start when DOM is ready
@@ -1777,12 +1449,3 @@ if (document.readyState === 'loading') {
 } else {
   boot();
 }
-
-
-
-
-
-
-
-
-

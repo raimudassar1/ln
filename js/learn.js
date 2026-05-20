@@ -1,5 +1,5 @@
-﻿/* ═══════════════════════════════════════════════════════════════
-   learn.js - Guided Learning Path with Level Progression & SRS
+/* ═══════════════════════════════════════════════════════════════
+   learn.js — Guided Learning Path with Level Progression & SRS
    ═══════════════════════════════════════════════════════════════ */
 
 'use strict';
@@ -8,25 +8,13 @@ const LearnModule = (() => {
 
   const LEVEL_ORDER = ['novice','a1','a2','b1'];
   const LEVEL_META  = {
-    novice: { name:'Novice',     color:'#27ae60', icon:'layers', unlock:0,   desc:'Essential everyday characters' },
-    a1:     { name:'TOCFL A1',   color:'#2980b9', icon:'route', unlock:80,  desc:'Survival Chinese basics' },
-    a2:     { name:'TOCFL A2',   color:'#e67e22', icon:'book', unlock:80,  desc:'Elementary communication' },
-    b1:     { name:'TOCFL B1',   color:'#8e44ad', icon:'trophy', unlock:75,  desc:'Independent learner level' },
+    novice: { name:'Novice',     color:'#27ae60', icon:'🌱', unlock:0,   desc:'Essential everyday characters' },
+    a1:     { name:'TOCFL A1',   color:'#2980b9', icon:'🌿', unlock:80,  desc:'Survival Chinese basics' },
+    a2:     { name:'TOCFL A2',   color:'#e67e22', icon:'🌳', unlock:80,  desc:'Elementary communication' },
+    b1:     { name:'TOCFL B1',   color:'#8e44ad', icon:'🏆', unlock:75,  desc:'Independent learner level' },
   };
 
-  // Main Render
-  async function ensureLearnData() {
-    if (!Array.isArray(App.state.characters) || App.state.characters.length === 0) {
-      try {
-        const charResult = await API.getCharacters({ limit: 9999 });
-        App.state.characters = charResult.data || [];
-      } catch (err) {
-        console.warn('Could not load Learning Path characters:', err.message);
-        App.state.characters = [];
-      }
-    }
-  }
-
+  // ── Main Render ──────────────────────────────────────────────
   async function render(container) {
     container.innerHTML = `
       <div class="page-header">
@@ -36,8 +24,7 @@ const LearnModule = (() => {
       <div id="learn-main"><div class="spinner"></div></div>
     `;
 
-    await ensureLearnData();
-    const chars  = Array.isArray(App.state.characters) ? App.state.characters : [];
+    const chars  = App.state.characters;
     const prog   = App.state.progress;
     const srsStats = SRS.getStats();
 
@@ -81,18 +68,18 @@ const LearnModule = (() => {
     container.innerHTML = `
 
       <!-- Today's queue -->
-      <div class="card mb-20 learn-srs-card" style="position:relative;overflow:hidden">
+      <div class="card mb-20" style="background:linear-gradient(135deg,var(--charcoal),var(--charcoal-2));color:#fff;position:relative;overflow:hidden">
         <div style="position:absolute;right:-10px;top:-10px;font-size:8rem;opacity:0.05;font-family:var(--font-zh)">學</div>
         <div style="display:flex;align-items:center;gap:16px;flex-wrap:wrap">
           <div style="flex:1;min-width:180px">
             <div style="font-size:0.7rem;color:rgba(255,255,255,0.45);text-transform:uppercase;letter-spacing:2px;margin-bottom:4px">Today's SRS Queue</div>
-            <div style="font-size:2.2rem;font-weight:900;color:${dueToday > 0 ? 'var(--gold)' : '#58d68d'}">${dueToday}</div>
+            <div style="font-size:2.2rem;font-weight:900;color:${dueToday>0?'var(--gold)':'#58d68d'}">${dueToday}</div>
             <div style="font-size:0.85rem;color:rgba(255,255,255,0.6)">cards due for review</div>
           </div>
           <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap">
             ${dueToday > 0
-              ? `<button class="btn btn-primary" onclick="startSRSSession()">Review ${dueToday} Cards</button>`
-              : `<div style="font-size:0.85rem;color:rgba(255,255,255,0.5)">All caught up! Come back tomorrow.</div>`}
+              ? `<button class="btn btn-primary" onclick="startSRSSession()">Review ${dueToday} Cards →</button>`
+              : `<div style="font-size:0.85rem;color:rgba(255,255,255,0.5)">✓ All caught up! Come back tomorrow.</div>`}
             <button class="btn" style="background:rgba(255,255,255,0.1);color:#fff;border:1px solid rgba(255,255,255,0.2)" onclick="startSRSSession()">+ Study New</button>
           </div>
         </div>
@@ -116,7 +103,9 @@ const LearnModule = (() => {
         <!-- Beginner Playground Entry -->
         <div class="card level-card" style="border-left:4px solid var(--gold); background: var(--off-white);">
           <div style="display:flex;align-items:center;gap:14px;margin-bottom:14px">
-            <div class="level-card-icon" data-icon="play">${window.IconSystem ? window.IconSystem.svg('play') : ''}</div>
+            <div style="width:52px;height:52px;border-radius:50%;background:rgba(243,156,18,0.1);border:2px solid var(--gold);display:flex;align-items:center;justify-content:center;font-size:1.5rem;flex-shrink:0">
+              🎠
+            </div>
             <div style="flex:1">
               <div style="font-weight:700;font-size:1rem">Beginner Playground</div>
               <div style="font-size:0.82rem;color:var(--text-3)">Baby-style high-repetition foundation building</div>
@@ -128,24 +117,26 @@ const LearnModule = (() => {
             </div>
           </div>
           <div class="progress-bar" style="margin-bottom:14px"><div class="progress-fill" style="width:${pgPct}%;background:var(--gold)"></div></div>
-          <button class="btn btn-primary btn-sm" onclick="navigate('/playground')">Enter Playground</button>
+          <button class="btn btn-primary btn-sm" onclick="navigate('/playground')">Enter Playground →</button>
         </div>
 
         ${levels.map((lvl, idx) => {
-          const meta   = LEVEL_META[lvl.id] || { color:'#888', icon:'book', name: lvl.id };
+          const meta   = LEVEL_META[lvl.id] || { color:'#888', icon:'📚', name: lvl.id };
           const stats  = byLevel[lvl.id] || { total: lvl.total||0, learned: 0, pct: 0 };
           const active = stats.pct < 100;
 
           return `
           <div class="card level-card" style="border-left:4px solid ${meta.color}">
-            <div style="display:flex;align-items:center;gap:14px;margin-bottom:${active ? '14px' : '0'}">
+            <div style="display:flex;align-items:center;gap:14px;margin-bottom:${active?'14px':'0'}">
               <!-- Icon -->
-              <div class="level-card-icon" style="--level-color:${meta.color}" data-icon="${meta.icon}">${window.IconSystem ? window.IconSystem.svg(meta.icon) : ''}</div>
+              <div style="width:52px;height:52px;border-radius:50%;background:${meta.color+'22'};border:2px solid ${meta.color};display:flex;align-items:center;justify-content:center;font-size:1.5rem;flex-shrink:0">
+                ${meta.icon}
+              </div>
               <!-- Info -->
               <div style="flex:1">
                 <div style="display:flex;align-items:center;gap:8px;margin-bottom:2px">
                   <div style="font-weight:700;font-size:1rem">${meta.name}</div>
-                  ${stats.pct === 100 ? '<span class="badge" style="background:rgba(39,174,96,0.1);color:#27ae60">Complete</span>' : ''}
+                  ${stats.pct === 100 ? '<span class="badge" style="background:rgba(39,174,96,0.1);color:#27ae60">✓ Complete</span>' : ''}
                 </div>
                 <div style="font-size:0.82rem;color:var(--text-3)">${meta.desc}</div>
                 <div style="font-size:0.78rem;color:var(--text-3);margin-top:2px">${stats.learned}/${stats.total} characters mastered</div>
@@ -165,7 +156,7 @@ const LearnModule = (() => {
             <!-- Action buttons -->
             <div style="display:flex;gap:8px;flex-wrap:wrap">
               <button class="btn btn-primary btn-sm" onclick="studyLevel('${lvl.id}')">
-                ${stats.learned === 0 ? 'Start Level' : 'Continue'}
+                ${stats.learned === 0 ? '🌱 Start Level' : '📖 Continue'}
               </button>
               <button class="btn btn-ghost btn-sm" onclick="browseLevel('${lvl.id}')">Browse Characters</button>
               ${stats.total > 0 ? `<button class="btn btn-ghost btn-sm" onclick="quizLevel('${lvl.id}')">Quick Quiz</button>` : ''}
@@ -175,7 +166,7 @@ const LearnModule = (() => {
             <div style="margin-top:12px;display:flex;gap:6px;flex-wrap:wrap" id="preview-${lvl.id}">
               ${chars.filter(c => c.level === lvl.id).slice(0,12).map(c => {
                 const isLearned = prog.learnedChars.includes(c.hanzi);
-                return `<span onclick="showCharModal(${JSON.stringify(c).replace(/"/g,'&quot;')})" style="font-family:var(--font-zh);font-size:1.3rem;cursor:pointer;padding:4px;border-radius:4px;color:${isLearned ? meta.color : 'var(--text)'};background:${isLearned ? meta.color+'15' : 'var(--off-white)'};transition:all 0.1s" title="${c.pinyin} - ${c.definition}">${c.traditional||c.hanzi}</span>`;
+                return `<span onclick="showCharModal(${JSON.stringify(c).replace(/"/g,'&quot;')})" style="font-family:var(--font-zh);font-size:1.3rem;cursor:pointer;padding:4px;border-radius:4px;color:${isLearned?meta.color:'var(--text)'};background:${isLearned?meta.color+'15':'var(--off-white)'};transition:all 0.1s" title="${c.pinyin} — ${c.definition}">${c.traditional||c.hanzi}</span>`;
               }).join('')}
               ${stats.total > 12 ? `<span style="font-size:0.75rem;color:var(--text-3);align-self:center">+${stats.total - 12} more</span>` : ''}
             </div>
@@ -186,7 +177,7 @@ const LearnModule = (() => {
       <!-- SRS session modal area -->
       <div id="srs-session-area" class="hidden" style="position:fixed;inset:0;background:var(--warm-white);z-index:200;overflow-y:auto;padding:28px">
         <div style="max-width:600px;margin:0 auto">
-          <button class="btn btn-ghost btn-sm" style="margin-bottom:20px" onclick="closeSRSSession()">Back to path</button>
+          <button class="btn btn-ghost btn-sm" style="margin-bottom:20px" onclick="closeSRSSession()">← Exit Session</button>
           <div id="srs-session-content"></div>
         </div>
       </div>
@@ -201,12 +192,12 @@ const LearnModule = (() => {
     window.quizLevel = (lvl) => {
       // Navigate to pronunciation quiz pre-filtered by level
       App.state.lastLevelFilter = lvl;
-      navigate('/quiz/pronunciation');
+      navigate('#/quiz/pronunciation');
     };
 
     window.browseLevel = (lvl) => {
       App.state.lastLevelFilter = lvl;
-      navigate('/library');
+      navigate('#/library');
     };
 
     window.startSRSSession = () => {
@@ -230,7 +221,7 @@ const LearnModule = (() => {
     }
   }
 
-  // Lesson View (10 new chars at a time)
+  // ── Lesson View (10 new chars at a time) ────────────────────
   function renderLesson(container, chars, levelMeta) {
     // Pick next 10 unlearned
     const unlearned = chars.filter(c => !App.state.progress.learnedChars.includes(c.hanzi));
@@ -239,10 +230,10 @@ const LearnModule = (() => {
     if (!batch.length) {
       container.innerHTML = `
         <div class="card text-center" style="padding:40px">
-          <div style="font-size:3rem;margin-bottom:12px">Complete</div>
+          <div style="font-size:3rem;margin-bottom:12px">🎉</div>
           <h3>All characters in this level learned!</h3>
           <p class="text-muted mb-20">Review with SRS to keep them fresh.</p>
-          <button class="btn btn-primary" onclick="navigate('/learn')">Back to Path</button>
+          <button class="btn btn-primary" onclick="navigate('#/learn')">Back to Path</button>
         </div>`;
       return;
     }
@@ -255,7 +246,7 @@ const LearnModule = (() => {
 
       container.innerHTML = `
         <div style="margin-bottom:16px;display:flex;align-items:center;gap:12px">
-          <button class="btn btn-ghost btn-sm" onclick="navigate('/learn')">← Exit</button>
+          <button class="btn btn-ghost btn-sm" onclick="navigate('#/learn')">← Exit</button>
           <div class="progress-bar" style="flex:1"><div class="progress-fill" style="width:${(idx/batch.length)*100}%"></div></div>
           <span class="text-small text-muted">${idx+1}/${batch.length}</span>
         </div>
@@ -265,7 +256,7 @@ const LearnModule = (() => {
           <div style="font-size:1.6rem;font-weight:700;color:var(--tone${Pinyin.getTone(char.pinyin)||1});margin-bottom:4px">${char.pinyin||''}</div>
           <div style="font-size:1rem;color:var(--text-2);margin-bottom:16px">${char.definition||''}</div>
 
-          ${char.mnemonic ? `<div style="background:rgba(243,156,18,0.08);border-left:3px solid var(--gold);padding:10px 16px;border-radius:var(--radius-sm);font-size:0.85rem;color:var(--text-2);text-align:left;margin-bottom:14px">${char.mnemonic}</div>` : ''}
+          ${char.mnemonic ? `<div style="background:rgba(243,156,18,0.08);border-left:3px solid var(--gold);padding:10px 16px;border-radius:var(--radius-sm);font-size:0.85rem;color:var(--text-2);text-align:left;margin-bottom:14px">💡 ${char.mnemonic}</div>` : ''}
 
           ${char.example_sentence ? `
           <div class="sentence-block" style="text-align:left;margin-bottom:14px">
@@ -284,12 +275,12 @@ const LearnModule = (() => {
               </div>`).join('')}
           </div>` : ''}
 
-          <button class="btn btn-ghost btn-sm" style="margin-top:12px" onclick="TTS.speak('${char.traditional||char.hanzi}')">Hear Hear pronunciation</button>
+          <button class="btn btn-ghost btn-sm" style="margin-top:12px" onclick="TTS.speak('${char.traditional||char.hanzi}')">🔊 Hear pronunciation</button>
         </div>
 
         <div style="display:flex;gap:10px">
-          <button class="btn btn-primary" style="flex:1" onclick="nextChar(${idx})">Got it! Next</button>
-          <button class="btn btn-ghost" onclick="showChar(${idx})">Again</button>
+          <button class="btn btn-primary" style="flex:1" onclick="nextChar(${idx})">Got it! Next →</button>
+          <button class="btn btn-ghost" onclick="showChar(${idx})">↺ Again</button>
         </div>
       `;
 
@@ -307,13 +298,13 @@ const LearnModule = (() => {
     function finishLesson() {
       container.innerHTML = `
         <div class="card text-center" style="padding:40px">
-          <div style="font-size:3rem;margin-bottom:12px">Done</div>
+          <div style="font-size:3rem;margin-bottom:12px">✅</div>
           <h3 style="margin-bottom:6px">Lesson complete!</h3>
           <p class="text-muted mb-4">${batch.length} new characters introduced.</p>
-          <p class="text-small text-muted mb-20">They've been added to your SRS queue - review them tomorrow to reinforce memory.</p>
+          <p class="text-small text-muted mb-20">They've been added to your SRS queue — review them tomorrow to reinforce memory.</p>
           <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
-            <button class="btn btn-primary" onclick="navigate('/learn')">Back to Path</button>
-            <button class="btn btn-outline" onclick="navigate('/quiz/pronunciation')">Quiz Now</button>
+            <button class="btn btn-primary" onclick="navigate('#/learn')">Back to Path</button>
+            <button class="btn btn-outline" onclick="navigate('#/quiz/pronunciation')">Quiz Now</button>
           </div>
         </div>`;
       App.logActivity('📖', `Learned ${batch.length} new characters`);
@@ -324,4 +315,3 @@ const LearnModule = (() => {
 
   return { render };
 })();
-
