@@ -614,7 +614,7 @@ const ChapterModule = (() => {
       "title": "My New Friend",
       "text": [
         {
-          "zh": "今天 wǒ rèn shi le yí gè xīn péng you, tā jiào wáng xiǎo měi.",
+          "zh": "今天我認識了一個新朋友，她叫王小美。",
           "pinyin": "jīn tiān wǒ rèn shi le yí gè xīn péng you, tā jiào wáng xiǎo měi.",
           "english": "Today I met a new friend, her name is Wang Xiaomei."
         },
@@ -35926,7 +35926,7 @@ const ChapterModule = (() => {
   function renderChapterList(container) {
     container.innerHTML = `
       <div class="page-header">
-        <h2>📖 Chapters</h2>
+        <h2>Chapters</h2>
         <p>10 structured lessons covering everyday Chinese. Complete all 4 sections in each chapter.</p>
       </div>
 
@@ -35958,9 +35958,9 @@ const ChapterModule = (() => {
                 ${done === 4 && prog.score !== null ? `<span class="badge badge-a2">Ex: ${prog.score}%</span>` : ''}
               </div>
               <div class="ch-card-sections">
-                ${['📝','💬','📖','✏️'].map((icon, i) => {
+                ${['book','dialogue','reading','file'].map((icon, i) => {
                   const keys = ['vocabDone','dialogueDone','readingDone','exercisesDone'];
-                  return `<span class="ch-section-dot ${prog[keys[i]] ? 'done' : ''}">${icon}</span>`;
+                  return `<span class="ch-section-dot ${prog[keys[i]] ? 'done' : ''}" data-icon="${icon}">${window.IconSystem ? window.IconSystem.svg(icon) : ''}</span>`;
                 }).join('')}
               </div>
             </div>`;
@@ -36001,14 +36001,15 @@ const ChapterModule = (() => {
 
       <div class="ch-tab-bar">
         ${[
-          { key:'vocab',     icon:'📝', label:'Vocabulary' },
-          { key:'dialogue',  icon:'💬', label:'Dialogue'   },
-          { key:'reading',   icon:'📖', label:'Reading'    },
-          { key:'exercises', icon:'✏️', label:'Exercises'  },
+          { key:'vocab',     icon:'book', label:'Vocabulary' },
+          { key:'dialogue',  icon:'dialogue', label:'Dialogue'   },
+          { key:'writing',   icon:'edit-3', label:'Writing'    },
+          { key:'reading',   icon:'reading', label:'Reading'    },
+          { key:'exercises', icon:'file', label:'Exercises'  },
         ].map(t => `
           <button class="ch-tab ${currentSection===t.key?'active':''} ${prog[t.key+'Done']?'done':''}"
             onclick="ChapterModule._switchSection('${t.key}', document.getElementById('ch-body'), ${ch.id})">
-            ${t.icon} ${t.label}${prog[t.key+'Done'] ? ' ✓' : ''}
+            ${window.IconSystem ? window.IconSystem.svg(t.icon) : ''}<span>${t.label}${prog[t.key+'Done'] ? ' Done' : ''}</span>
           </button>`).join('')}
       </div>
 
@@ -36035,29 +36036,43 @@ const ChapterModule = (() => {
     switch(section) {
       case 'vocab':     renderVocabSection(body, ch); break;
       case 'dialogue':  renderDialogueSection(body, ch); break;
+      case 'writing':   renderWritingSection(body, ch); break;
       case 'reading':   renderReadingSection(body, ch); break;
       case 'exercises': renderExercisesSection(body, ch); break;
     }
   }
 
+  function vocabIconName(word) {
+    const text = String((word && (word.definition || word.english || word.hanzi || word.traditional)) || '').toLowerCase();
+    if (/food|eat|drink|restaurant|tea|coffee|fruit|meal|rice|water/.test(text)) return 'vocabulary';
+    if (/transport|bus|train|taxi|city|road|street|travel|hotel/.test(text)) return 'route';
+    if (/family|friend|person|people|teacher|student|name/.test(text)) return 'dialogue';
+    if (/study|school|book|class|lesson|language|culture|tradition/.test(text)) return 'book';
+    if (/work|office|professional|money|bank|card/.test(text)) return 'notebook';
+    if (/health|doctor|hospital|body/.test(text)) return 'warning';
+    return 'layers';
+  }
+
   function renderVocabSection(body, ch) {
     body.innerHTML = `
       <div class="ch-section-header">
-        <h3>📝 Vocabulary — ${ch.vocab.length} words</h3>
-        <p>Key vocabulary for this chapter. Click a word to hear it.</p>
+        <h3>Vocabulary - ${ch.vocab.length} words</h3>
+        <p>Key vocabulary for this chapter. Click a word to practice writing, or the icon for audio.</p>
       </div>
       <div class="ch-vocab-grid">
         ${ch.vocab.map(w => `
-          <div class="ch-vocab-card" onclick="TTS.speak('${w.traditional || w.hanzi}')">
-            ${w.icon ? `<div class="ch-vocab-icon" style="font-size:1.8rem;margin-bottom:6px">${w.icon}</div>` : ''}
+          <div class="ch-vocab-card" onclick="DrawingBoard.open('${(w.traditional || w.hanzi).replace(/'/g, "\\'")}')">
+            ${`<div class="ch-vocab-icon" data-icon="${vocabIconName(w)}">${window.IconSystem ? window.IconSystem.svg(vocabIconName(w)) : ""}</div>`}
             <div class="ch-vocab-hanzi">${w.traditional || w.hanzi}</div>
             ${showPinyin ? `<div class="ch-vocab-pinyin">${w.pinyin}</div>` : ''}
             <div class="ch-vocab-def">${w.definition}</div>
-            <div class="ch-vocab-audio">🔊</div>
+            <div class="ch-vocab-audio" data-icon="volume" onclick="event.stopPropagation(); TTS.speak('${w.traditional || w.hanzi}')">
+              ${window.IconSystem ? window.IconSystem.svg('volume') : ''}
+            </div>
           </div>`).join('')}
       </div>
       <div class="ch-section-footer">
-        <button class="btn btn-primary" onclick="ChapterModule._markDone('vocab', ${ch.id})">✓ Mark Vocabulary Complete</button>
+        <button class="btn btn-primary" onclick="ChapterModule._markDone('vocab', ${ch.id})">Mark Vocabulary Complete</button>
       </div>
     `;
   }
@@ -36066,7 +36081,7 @@ const ChapterModule = (() => {
     if (ch.dialogueSections) {
       body.innerHTML = `
         <div class="ch-section-header">
-          <h3>💬 Dialogues — 3 Scenes</h3>
+          <h3>Dialogues - 3 Scenes</h3>
           <p class="text-muted">Study the dialogues in different contexts.</p>
         </div>
         <div class="ch-multi-dialogue">
@@ -36094,14 +36109,14 @@ const ChapterModule = (() => {
                     </div>`).join('')}
                 </div>
                 <div class="ch-section-footer">
-                   <button class="btn btn-ghost" onclick="ChapterModule._playDialogueSection(${ch.id}, ${dsi})">▶ Play Scene Audio</button>
+                   <button class="btn btn-ghost" onclick="ChapterModule._playDialogueSection(${ch.id}, ${dsi})">Play Scene Audio</button>
                 </div>
               </div>
             </div>
           `).join('')}
         </div>
         <div class="ch-section-footer">
-          <button class="btn btn-primary" onclick="ChapterModule._markDone('dialogue', ${ch.id})">✓ Mark All Dialogues Complete</button>
+          <button class="btn btn-primary" onclick="ChapterModule._markDone('dialogue', ${ch.id})">Mark All Dialogues Complete</button>
         </div>
       `;
       return;
@@ -36110,7 +36125,7 @@ const ChapterModule = (() => {
     const d = ch.dialogue;
     body.innerHTML = `
       <div class="ch-section-header">
-        <h3>💬 ${d.title}</h3>
+        <h3>${d.title}</h3>
         <p class="text-muted">${d.scene}</p>
       </div>
       <div class="ch-dialogue">
@@ -36126,8 +36141,8 @@ const ChapterModule = (() => {
           </div>`).join('')}
       </div>
       <div class="ch-section-footer" style="display:flex;gap:10px;align-items:center">
-        <button class="btn btn-ghost" onclick="ChapterModule._playDialogue(${ch.id})">▶ Play All</button>
-        <button class="btn btn-primary" onclick="ChapterModule._markDone('dialogue', ${ch.id})">✓ Mark Dialogue Complete</button>
+        <button class="btn btn-ghost" onclick="ChapterModule._playDialogue(${ch.id})">Play All</button>
+        <button class="btn btn-primary" onclick="ChapterModule._markDone('dialogue', ${ch.id})">Mark Dialogue Complete</button>
       </div>
     `;
   }
@@ -36151,11 +36166,41 @@ const ChapterModule = (() => {
     }
   }
 
+  function renderWritingSection(body, ch) {
+    const lines = [];
+    if (ch.dialogueSections) {
+      ch.dialogueSections.forEach(ds => lines.push(...ds.lines));
+    } else if (ch.dialogue) {
+      lines.push(...ch.dialogue.lines);
+    }
+
+    body.innerHTML = `
+      <div class="ch-section-header">
+        <h3>Writing Practice</h3>
+        <p>Practice writing the sentences from the dialogues. Click 'Write' to open the drawing board.</p>
+      </div>
+      <div class="ch-writing-list">
+        ${lines.map((line, i) => `
+          <div class="card mb-12" style="display:flex; justify-content:space-between; align-items:center; gap:16px; padding:16px">
+            <div style="flex:1">
+              <div class="ch-dialogue-zh" style="font-size:1.3rem">${line.zh}</div>
+              <div class="ch-dialogue-en">${line.english}</div>
+            </div>
+            <button class="btn btn-primary" onclick="DrawingBoard.open('${line.zh.replace(/'/g, "\\'")}')">Write</button>
+          </div>
+        `).join('')}
+      </div>
+      <div class="ch-section-footer">
+        <button class="btn btn-primary" onclick="ChapterModule._markDone('writing', ${ch.id})">Mark Writing Complete</button>
+      </div>
+    `;
+  }
+
   function renderReadingSection(body, ch) {
     const r = ch.reading;
     body.innerHTML = `
       <div class="ch-section-header">
-        <h3>📖 ${r.title}</h3>
+        <h3>${r.title}</h3>
       </div>
       <div class="ch-reading-text">
         ${r.text.map((para, i) => `
@@ -36183,7 +36228,7 @@ const ChapterModule = (() => {
           </div>`).join('')}
       </div>
       <div id="ch-reading-footer" class="ch-section-footer" style="display:none">
-        <button class="btn btn-primary" onclick="ChapterModule._markDone('reading', ${ch.id})">✓ Mark Reading Complete</button>
+        <button class="btn btn-primary" onclick="ChapterModule._markDone('reading', ${ch.id})">Mark Reading Complete</button>
       </div>
     `;
     window._chCompAnswered = 0;
@@ -36569,6 +36614,10 @@ const ChapterModule = (() => {
       .ch-word-chip { background:var(--accent); color:#fff; border:none; border-radius:6px; padding:6px 12px; cursor:pointer; font-family:var(--font-zh); font-size:1rem; transition:all .15s; }
       .ch-word-chip.used { opacity:.3; pointer-events:none; }
       .ch-word-chip.built { background:var(--tone2); }
+
+      /* Writing List Styles */
+      .ch-writing-list .card { background: var(--clean-surface); border: 1px solid var(--clean-line); transition: all 0.2s; }
+      .ch-writing-list .card:hover { border-color: var(--clean-accent); transform: translateY(-2px); }
 
       /* New styles for expansion */
       .ch-multi-dialogue { display:flex; flex-direction:column; gap:16px; }

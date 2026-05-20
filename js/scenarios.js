@@ -40,15 +40,22 @@ window.ScenarioModule = (() => {
     currentScenario = null;
 
     container.innerHTML = `
-      <div class="page-header">
-        <h2>🎭 Everyday Scenarios</h2>
-        <p>Master daily life interactions with 7 specialized modules and 35+ detailed scenarios.</p>
+      <div class="page-header scenario-hero">
+        <div class="scenario-hero-copy">
+          <h2>Everyday Scenarios</h2>
+          <p>Practice real situations by category, then move into vocabulary, dialogue, and quiz work.</p>
+        </div>
+        <div class="scenario-hero-stats">
+          <span><strong>${modules.length}</strong> modules</span>
+          <span><strong>${modules.reduce((sum, m) => sum + m.scenarios.length, 0)}</strong> scenarios</span>
+          <span><strong>${modules.reduce((sum, m) => sum + (m.vocab?.length || 0), 0)}</strong> words</span>
+        </div>
       </div>
 
       <div class="scenario-grid">
         ${modules.map(m => `
           <div class="scenario-module-card animate-fade-in" onclick="ScenarioModule.openModule('${m.id}')">
-            <div class="smc-icon">${m.icon}</div>
+            <div class="smc-icon" data-icon="scenarios">${window.IconSystem ? window.IconSystem.svg('scenarios') : ''}</div>
             <div class="smc-info">
               <h3>${m.title}</h3>
               <div class="smc-zh">${m.titleZh}</div>
@@ -179,6 +186,7 @@ window.ScenarioModule = (() => {
           <h2 style="margin:0">${scenario.title}</h2>
           <div class="text-small text-muted">${scenario.titleZh}</div>
         </div>
+        <button class="btn btn-accent btn-sm" onclick="AIChat.open({title: '${scenario.title.replace(/'/g, "\\'")}', scene: '${scenario.description.replace(/'/g, "\\'")}'})">💬 AI Chat</button>
         <label class="ch-pinyin-toggle">
           <input type="checkbox" id="sc-pinyin-toggle" ${showPinyin ? 'checked' : ''}>
           <span>Pinyin</span>

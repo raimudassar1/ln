@@ -249,11 +249,82 @@ window.DrawingBoard = (() => {
         };
     }
 
+    function open(text) {
+        if (!text) return;
+        
+        // Filter out non-Chinese characters for guided writing but keep track of indices
+        const textArray = text.split('');
+        const characters = [];
+        textArray.forEach((char, index) => {
+            const code = char.charCodeAt(0);
+            if ((code >= 0x4e00 && code <= 0x9fff) || (code >= 0x3400 && code <= 0x4dbf)) {
+                characters.push({ char, originalIndex: index });
+            }
+        });
+        
+        if (characters.length === 0) return;
+        
+        let currentIndex = 0;
+        
+        const renderModal = () => {
+            const activeCharObj = characters[currentIndex];
+            const Modal = window.Modal;
+            if (!Modal) return;
+
+            Modal.show(`
+                <button class="modal-close" onclick="Modal.hide()">✕</button>
+                <div style="text-align:center; padding:10px">
+                    <h3 style="margin-bottom:12px">Writing Practice</h3>
+                    <div style="font-size:1.4rem; margin-bottom:24px; color:var(--text); font-family:var(--font-zh); letter-spacing:2px">
+                        ${textArray.map((c, i) => {
+                            const isActive = activeCharObj && activeCharObj.originalIndex === i;
+                            return `<span style="${isActive ? 'color:var(--accent); font-weight:900; border-bottom:3px solid var(--accent); padding-bottom:2px' : ''}">${c}</span>`;
+                        }).join('')}
+                    </div>
+                    
+                    <div style="display:flex; flex-direction:column; align-items:center; gap:20px">
+                        <div style="display:flex; justify-content:space-between; width:100%; max-width:320px; gap:10px">
+                            <select class="input input-sm" style="width:auto; height:36px; background:var(--card-bg); color:var(--text); border-color:var(--border)" onchange="DrawingBoard.setMode(this.value)">
+                                <option value="guided">Guided</option>
+                                <option value="freehand">Freehand</option>
+                            </select>
+                            <div class="flex gap-8">
+                                <button class="btn btn-ghost btn-sm" onclick="DrawingBoard.animate()">Animate</button>
+                                <button class="btn btn-ghost btn-sm" onclick="DrawingBoard.reset()">Reset</button>
+                            </div>
+                        </div>
+                        
+                        <div class="canvas-container" style="width:300px; height:300px; background:var(--off-white); border:2px dashed var(--border); border-radius:var(--radius); position:relative; overflow:hidden">
+                            <div id="modal-hanzi-writer" style="width:100%; height:100%"></div>
+                            <canvas id="modal-freehand-canvas" style="position:absolute; inset:0; width:100%; height:100%; cursor:crosshair; display:none"></canvas>
+                        </div>
+                        
+                        <div style="display:flex; justify-content:space-between; width:100%; max-width:320px; align-items:center">
+                            <button class="btn btn-secondary btn-sm" ${currentIndex === 0 ? 'disabled' : ''} onclick="window._prevChar()">← Previous</button>
+                            <div style="font-weight:700; color:var(--text-3)">${currentIndex + 1} / ${characters.length}</div>
+                            <button class="btn btn-secondary btn-sm" ${currentIndex === characters.length - 1 ? 'disabled' : ''} onclick="window._nextChar()">Next →</button>
+                        </div>
+                    </div>
+                </div>
+            `);
+            
+            setTimeout(() => {
+                init('modal-hanzi-writer', 'modal-freehand-canvas', activeCharObj.char);
+            }, 100);
+        };
+        
+        window._nextChar = () => { if (currentIndex < characters.length - 1) { currentIndex++; renderModal(); } };
+        window._prevChar = () => { if (currentIndex > 0) { currentIndex--; renderModal(); } };
+        
+        renderModal();
+    }
+
     return {
         init,
         reset,
         animate,
         setMode,
+        open,
         setPenOnly: (v) => { state.penOnly = v; },
         setPenWidth: (v) => { state.strokeWidth = parseInt(v); },
         getState: () => state

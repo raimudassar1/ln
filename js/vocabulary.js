@@ -60,8 +60,33 @@ window.VocabularyModule = (() => {
     return vocabCache;
   }
 
-  function render(container) {
+  async function ensureVocabularyData() {
+    if (!Array.isArray(App.state.vocabulary)) {
+      try {
+        const vocabResult = await API.get('vocabulary');
+        App.state.vocabulary = Array.isArray(vocabResult) ? vocabResult : (vocabResult.sets || []);
+      } catch (err) {
+        console.warn('Could not load vocabulary library data:', err.message);
+        App.state.vocabulary = [];
+      }
+    }
+
+    if (!Array.isArray(App.state.characters) || App.state.characters.length === 0) {
+      try {
+        const charResult = await API.getCharacters({ limit: 9999 });
+        App.state.characters = charResult.data || [];
+      } catch (err) {
+        console.warn('Could not load character metadata for vocabulary library:', err.message);
+        App.state.characters = [];
+      }
+    }
+  }
+
+  async function render(container) {
+    container.innerHTML = '<div class="spinner"></div><p class="text-center text-muted mt-8">Loading vocabulary...</p>';
+    await ensureVocabularyData();
     vocabCache = null; // Clear cache to pick up data changes
+    const vocabSets = Array.isArray(App.state.vocabulary) ? App.state.vocabulary : [];
     const allVocab = getUniqueVocab();
     const categories = ['all', ...new Set(allVocab.map(v => v.category).filter(Boolean))].sort();
     
@@ -80,7 +105,7 @@ window.VocabularyModule = (() => {
         <div class="flex gap-8 flex-wrap">
           <select class="input" id="vocab-set-select" style="width:auto">
             <option value="all">All Sets</option>
-            ${App.state.vocabulary.map(s => `<option value="${s.id}" ${vocabState.currentSet === s.id ? 'selected' : ''}>${s.name}</option>`).join('')}
+            ${vocabSets.map(s => `<option value="${s.id}" ${vocabState.currentSet === s.id ? 'selected' : ''}>${s.name}</option>`).join('')}
           </select>
 
           <select class="input" id="vocab-cat-select" style="width:auto">
@@ -216,52 +241,46 @@ window.VocabularyModule = (() => {
     
     currentCharIndex = 0;
 
-    const modal = document.getElementById('modal-overlay');
-    const content = document.getElementById('modal-content');
-    if (!modal || !content) return false;
-    
-    content.style.maxWidth = '800px';
-
-    content.innerHTML = `
+    const modalContent = `
       <div class="vocab-detail-modal">
-        <button class="modal-close" onclick="VocabularyModule.closeModal()">✕</button>
+        <button class="modal-close" onclick="Modal.hide()">✕</button>
         
         <div class="vd-layout">
           <!-- Left: Context & Explanation -->
           <div class="vd-left" style="text-align:left">
             <div class="vd-word-header" onclick="TTS.speak('${vocab.word}')" style="cursor:pointer; display:inline-block; margin-bottom:16px">
-              <div class="vd-hanzi" style="text-align:left; line-height:1">${vocab.word}</div>
+              <div class="vd-hanzi" style="text-align:left; line-height:1; color: var(--text);">${vocab.word}</div>
               <div style="display:flex; align-items:center; gap:8px; margin-top:8px">
                 <span class="vd-pinyin tone-colors" style="margin-top:0">${Pinyin.colorize(vocab.pinyin)}</span>
-                <span class="vd-audio-icon">🔊</span>
+                <span class="vd-audio-icon" style="color: var(--accent);">🔊</span>
               </div>
             </div>
 
             <div class="vd-section">
-              <h4>Meaning</h4>
-              <p class="vd-definition">${vocab.definition}</p>
+              <h4 style="color: var(--text-3); font-size: 0.75rem; text-transform: uppercase;">Meaning</h4>
+              <p class="vd-definition" style="color: var(--text);">${vocab.definition}</p>
             </div>
 
             ${vocab.sentence ? `
               <div class="vd-section">
-                <h4>Context Example</h4>
-                <div class="sentence-block">
-                  <div class="sb-zh">${vocab.sentence.sentence}</div>
-                  <div class="sb-py">${vocab.sentence.pinyin}</div>
-                  <div class="sb-en">${vocab.sentence.english}</div>
+                <h4 style="color: var(--text-3); font-size: 0.75rem; text-transform: uppercase;">Context Example</h4>
+                <div class="sentence-block" style="background: var(--off-white);">
+                  <div class="sb-zh" style="color: var(--text);">${vocab.sentence.sentence}</div>
+                  <div class="sb-py" style="color: var(--text-2);">${vocab.sentence.pinyin}</div>
+                  <div class="sb-en" style="color: var(--text-3);">${vocab.sentence.english}</div>
                 </div>
               </div>
             ` : ''}
 
             ${vocab.examples && vocab.examples.length > 0 ? `
               <div class="vd-section">
-                <h4>Related Words</h4>
+                <h4 style="color: var(--text-3); font-size: 0.75rem; text-transform: uppercase;">Related Words</h4>
                 <div class="vd-examples-list">
                   ${vocab.examples.map(ex => `
-                    <div class="vd-ex-item">
-                      <span class="ex-zh">${ex.word}</span>
-                      <span class="ex-py">${ex.pinyin}</span>
-                      <span class="ex-def">${ex.def}</span>
+                    <div class="vd-ex-item" style="border-bottom-color: var(--border);">
+                      <span class="ex-zh" style="color: var(--text);">${ex.word}</span>
+                      <span class="ex-py" style="color: var(--text-2);">${ex.pinyin}</span>
+                      <span class="ex-def" style="color: var(--text-3);">${ex.def}</span>
                     </div>
                   `).join('')}
                 </div>
@@ -283,16 +302,10 @@ window.VocabularyModule = (() => {
 
               <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; flex-wrap:wrap; gap:8px">
                 <div class="flex items-center gap-8">
-                  <select class="input input-sm" style="width:auto; padding:2px 8px; height:28px; font-size:0.75rem" onchange="DrawingBoard.setMode(this.value)">
+                  <select class="input input-sm" style="width:auto; padding:2px 8px; height:28px; font-size:0.75rem; background: var(--card-bg); color: var(--text); border-color: var(--border);" onchange="DrawingBoard.setMode(this.value)">
                     <option value="guided">Guided</option>
                     <option value="freehand">Freehand</option>
                   </select>
-                  <div id="pen-controls" style="display:none; align-items:center; gap:8px">
-                    <input type="range" min="1" max="15" value="4" style="width:60px" oninput="DrawingBoard.setPenWidth(this.value)">
-                    <label style="font-size:0.7rem; display:flex; align-items:center; gap:4px; user-select:none; cursor:pointer">
-                        <input type="checkbox" onchange="DrawingBoard.setPenOnly(this.checked)"> Pen Only
-                    </label>
-                  </div>
                 </div>
                 <div class="flex gap-8">
                   <button class="btn btn-ghost btn-sm" onclick="VocabularyModule.animateStrokes()">Animate</button>
@@ -309,13 +322,14 @@ window.VocabularyModule = (() => {
       </div>
     `;
 
-    modal.classList.remove('hidden');
-    modal.onclick = (e) => { if (e.target === modal) VocabularyModule.closeModal(); };
+    const mc = document.getElementById('modal-content');
+    if (mc) mc.style.maxWidth = '800px';
+    Modal.show(modalContent);
 
     setTimeout(() => {
         const char = currentWordChars[currentCharIndex];
         DrawingBoard.init('vocab-hanzi-writer', 'vocab-freehand-canvas', char);
-    }, 50);
+    }, 100);
 
     return true;
   }
@@ -334,16 +348,21 @@ window.VocabularyModule = (() => {
       window.scrollTo(0, 0);
     },
     selectCanvasChar(idx, btn) {
-      document.querySelectorAll('.char-select-btn').forEach(b => b.classList.replace('btn-primary', 'btn-outline'));
-      btn.classList.replace('btn-outline', 'btn-primary');
+      document.querySelectorAll('.char-select-btn').forEach(b => {
+        b.classList.remove('btn-primary');
+        b.classList.add('btn-outline');
+      });
+      btn.classList.remove('btn-outline');
+      btn.classList.add('btn-primary');
       currentCharIndex = idx;
       DrawingBoard.init('vocab-hanzi-writer', 'vocab-freehand-canvas', currentWordChars[currentCharIndex]);
     },
     animateStrokes: () => DrawingBoard.animate(),
     clearCanvas: () => DrawingBoard.reset(),
     closeModal() {
-      document.getElementById('modal-overlay').classList.add('hidden');
-      document.getElementById('modal-content').style.maxWidth = '';
+      Modal.hide();
+      const mc = document.getElementById('modal-content');
+      if (mc) mc.style.maxWidth = '';
     }
   };
 

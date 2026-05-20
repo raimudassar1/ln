@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "title": "Taiwan Traditional Chinese Vocabulary",
+    "description": "Comprehensive vocabulary with emoji support for visual learning.",
+    "version": "2.1",
+    "updated": "2026-05-16"
+  },
+  "categories": {
+    "🍜 Food & Drinks": [
+      {"zh": "飯", "py": "fàn", "en": "rice", "em": "🍚"},
+      {"zh": "麵", "py": "miàn", "en": "noodles", "em": "🍜"},
+      {"zh": "湯", "py": "tāng", "en": "soup", "em": "🍲"},
+      {"zh": "包子", "py": "bāo zi", "en": "bao bun", "em": "🥟"},
+      {"zh": "餃子", "py": "jiǎo zi", "en": "dumplings", "em": "🥟"},
+      {"zh": "豆腐", "py": "dòu fu", "en": "tofu", "em": "⬜"},
+      {"zh": "滷肉飯", "py": "lǔ ròu fàn", "en": "braised pork rice", "em": "🍚"},
+      {"zh": "臭豆腐", "py": "chòu dòu fu", "en": "stinky tofu", "em": "🧀"},
+      {"zh": "珍珠奶茶", "py": "zhēn zhū nǎi chá", "en": "bubble tea", "em": "🧋"},
+      {"zh": "水", "py": "shuǐ", "en": "water", "em": "💧"},
+      {"zh": "茶", "py": "chá", "en": "tea", "em": "🍵"},
+      {"zh": "咖啡", "py": "kā fēi", "en": "coffee", "em": "☕"},
+      {"zh": "蛋", "py": "dàn", "en": "egg", "em": "🥚"},
+      {"zh": "鹽", "py": "yán", "en": "salt", "em": "🧂"},
+      {"zh": "醬油", "py": "jiàng yóu", "en": "soy sauce", "em": "🍶"},
+      {"zh": "便當", "py": "biàn dāng", "en": "lunchbox (bento)", "em": "🍱"},
+      {"zh": "火鍋", "py": "huǒ guō", "en": "hot pot", "em": "🫕"},
+      {"zh": "烤肉", "py": "kǎo ròu", "en": "BBQ", "em": "🍖"}
+    ],
+    "🍔 Fast Food": [
+      {"zh": "漢堡", "py": "hàn bǎo", "en": "hamburger", "em": "🍔"},
+      {"zh": "薯條", "py": "shǔ tiáo", "en": "french fries", "em": "🍟"},
+      {"zh": "披薩", "py": "pī sà", "en": "pizza", "em": "🍕"},
+      {"zh": "熱狗", "py": "rè gǒu", "en": "hot dog", "em": "🌭"},
+      {"zh": "炸雞", "py": "zhá jī", "en": "fried chicken", "em": "🍗"},
+      {"zh": "雞塊", "py": "jī kuài", "en": "chicken nuggets", "em": "🍗"},
+      {"zh": "三明治", "py": "sān míng zhì", "en": "sandwich", "em": "🥪"},
+      {"zh": "潛艇堡", "py": "qián tǐng bǎo", "en": "submarine sandwich", "em": "🥖"},
+      {"zh": "墨西哥捲", "py": "mò xī gē juǎn", "en": "burrito / wrap", "em": "🌯"},
+      {"zh": "炸薯餅", "py": "zhá shǔ bǐng", "en": "hash brown", "em": "🥔"},
+      {"zh": "冰淇淋", "py": "bīng qí lín", "en": "ice cream", "em": "🍦"},
+      {"zh": "奶昔", "py": "nǎi xī", "en": "milkshake", "em": "🥤"},
+      {"zh": "可樂", "py": "kě lè", "en": "cola", "em": "🥤"},
+      {"zh": "雞排", "py": "jī pái", "en": "fried chicken cutlet", "em": "🍗"},
+      {"zh": "蚵仔煎", "py": "é zǎi jiān", "en": "oyster omelette", "em": "🍳"}
+    ],
+    "🎨 Colors": [
+      {"zh": "紅色", "py": "hóng sè", "en": "red", "em": "🔴"},
+      {"zh": "藍色", "py": "lán sè", "en": "blue", "em": "🔵"},
+      {"zh": "黃色", "py": "huáng sè", "en": "yellow", "em": "🟡"},
+      {"zh": "綠色", "py": "lǜ sè", "en": "green", "em": "🟢"},
+      {"zh": "白色", "py": "bái sè", "en": "white", "em": "⬜"},
+      {"zh": "黑色", "py": "hēi sè", "en": "black", "em": "⬛"},
+      {"zh": "橘色", "py": "jú sè", "en": "orange", "em": "🟠"},
+      {"zh": "紫色", "py": "zǐ sè", "en": "purple", "em": "🟣"},
+      {"zh": "粉紅色", "py": "fěn hóng sè", "en": "pink", "em": "🩷"},
+      {"zh": "棕色", "py": "zōng sè", "en": "brown", "em": "🟫"},
+      {"zh": "灰色", "py": "huī sè", "en": "grey", "em": "🩶"},
+      {"zh": "金色", "py": "jīn sè", "en": "gold", "em": "🟡"},
+      {"zh": "銀色", "py": "yín sè", "en": "silver", "em": "⬜"}
+    ],
+    "🤸 Actions": [
+      {"zh": "吃", "py": "chī", "en": "eat", "em": "🍽️"},
+      {"zh": "喝", "py": "hē", "en": "drink", "em": "🥤"},
+      {"zh": "走", "py": "zǒu", "en": "walk", "em": "🚶"},
+      {"zh": "跑", "py": "pǎo", "en": "run", "em": "🏃"},
+      {"zh": "坐", "py": "zuò", "en": "sit", "em": "🪑"},
+      {"zh": "站", "py": "zhàn", "en": "stand", "em": "🧍"},
+      {"zh": "睡覺", "py": "shuì jiào", "en": "sleep", "em": "😴"},
+      {"zh": "起床", "py": "qǐ chuáng", "en": "wake up", "em": "⏰"},
+      {"zh": "說話", "py": "shuō huà", "en": "speak / talk", "em": "💬"},
+      {"zh": "聽", "py": "tīng", "en": "listen", "em": "👂"},
+      {"zh": "看", "py": "kàn", "en": "look / watch", "em": "👀"},
+      {"zh": "寫", "py": "xiě", "en": "write", "em": "✍️"},
+      {"zh": "讀", "py": "dú", "en": "read", "em": "📖"},
+      {"zh": "買", "py": "mǎi", "en": "buy", "em": "🛒"},
+      {"zh": "賣", "py": "mài", "en": "sell", "em": "🏷️"}
+    ],
+    "🍎 Fruits": [
+      {"zh": "蘋果", "py": "píng guǒ", "en": "apple", "em": "🍎"},
+      {"zh": "香蕉", "py": "xiāng jiāo", "en": "banana", "em": "🍌"},
+      {"zh": "芒果", "py": "máng guǒ", "en": "mango", "em": "🥭"},
+      {"zh": "木瓜", "py": "mù guā", "en": "papaya", "em": "🧡"},
+      {"zh": "鳳梨", "py": "fèng lí", "en": "pineapple", "em": "🍍"},
+      {"zh": "西瓜", "py": "xī guā", "en": "watermelon", "em": "🍉"},
+      {"zh": "葡萄", "py": "pú táo", "en": "grapes", "em": "🍇"},
+      {"zh": "草莓", "py": "cǎo méi", "en": "strawberry", "em": "🍓"},
+      {"zh": "橘子", "py": "jú zi", "en": "mandarin orange", "em": "🍊"}
+    ],
+    "🐶 Animals": [
+      {"zh": "狗", "py": "gǒu", "en": "dog", "em": "🐶"},
+      {"zh": "貓", "py": "māo", "en": "cat", "em": "🐱"},
+      {"zh": "牛", "py": "niú", "en": "cow", "em": "🐄"},
+      {"zh": "豬", "py": "zhū", "en": "pig", "em": "🐷"},
+      {"zh": "馬", "py": "mǎ", "en": "horse", "em": "🐴"},
+      {"zh": "羊", "py": "yáng", "en": "sheep", "em": "🐑"},
+      {"zh": "兔子", "py": "tù zi", "en": "rabbit", "em": "🐰"},
+      {"zh": "台灣黑熊", "py": "tái wān hēi xióng", "en": "taiwan black bear", "em": "🐻"}
+    ],
+    "👕 Clothes": [
+      {"zh": "衣服", "py": "yī fu", "en": "clothes", "em": "👔"},
+      {"zh": "褲子", "py": "kù zi", "en": "trousers", "em": "👖"},
+      {"zh": "裙子", "py": "qún zi", "en": "skirt", "em": "👗"},
+      {"zh": "襪子", "py": "wà zi", "en": "socks", "em": "🧦"},
+      {"zh": "鞋子", "py": "xié zi", "en": "shoes", "em": "👟"},
+      {"zh": "帽子", "py": "mào zi", "en": "hat / cap", "em": "🧢"},
+      {"zh": "外套", "py": "wài tào", "en": "jacket / coat", "em": "🧥"}
+    ],
+    "🏠 Household": [
+      {"zh": "椅子", "py": "yǐ zi", "en": "chair", "em": "🪑"},
+      {"zh": "桌子", "py": "zhuō zi", "en": "table", "em": "🪑"},
+      {"zh": "床", "py": "chuáng", "en": "bed", "em": "🛏️"},
+      {"zh": "冰箱", "py": "bīng xiāng", "en": "refrigerator", "em": "🧊"},
+      {"zh": "電視", "py": "diàn shì", "en": "television", "em": "📺"},
+      {"zh": "洗衣機", "py": "xǐ yī jī", "en": "washing machine", "em": "🫧"},
+      {"zh": "冷氣", "py": "lěng qì", "en": "air conditioner", "em": "❄️"},
+      {"zh": "燈", "py": "dēng", "en": "lamp", "em": "💡"}
+    ],
+    "👨‍💼 Jobs": [
+      {"zh": "醫生", "py": "yī shēng", "en": "doctor", "em": "👨‍⚕️"},
+      {"zh": "護士", "py": "hù shì", "en": "nurse", "em": "👩‍⚕️"},
+      {"zh": "老師", "py": "lǎo shī", "en": "teacher", "em": "👨‍🏫"},
+      {"zh": "廚師", "py": "chú shī", "en": "chef", "em": "👨‍🍳"},
+      {"zh": "警察", "py": "jǐng chá", "en": "police officer", "em": "👮"},
+      {"zh": "農夫", "py": "nóng fū", "en": "farmer", "em": "👨‍🌾"}
+    ],
+    "🚗 Transport": [
+      {"zh": "公車", "py": "gōng chē", "en": "bus", "em": "🚌"},
+      {"zh": "捷運", "py": "jié yùn", "en": "MRT", "em": "🚇"},
+      {"zh": "計程車", "py": "jì chéng chē", "en": "taxi", "em": "🚕"},
+      {"zh": "腳踏車", "py": "jiǎo tà chē", "en": "bicycle", "em": "🚲"},
+      {"zh": "機車", "py": "jī chē", "en": "scooter", "em": "🛵"},
+      {"zh": "高鐵", "py": "gāo tiě", "en": "high speed rail", "em": "🚄"}
+    ],
+    "🏪 Places": [
+      {"zh": "夜市", "py": "yè shì", "en": "night market", "em": "🏮"},
+      {"zh": "便利商店", "py": "biàn lì shāng diàn", "en": "convenience store", "em": "🏪"},
+      {"zh": "廟", "py": "miào", "en": "temple", "em": "⛩️"},
+      {"zh": "市場", "py": "shì chǎng", "en": "traditional market", "em": "🛒"},
+      {"zh": "捷運站", "py": "jié yùn zhàn", "en": "MRT station", "em": "🚇"}
+    ],
+    "🏡 Family": [
+      {"zh": "爸爸", "py": "bà ba", "en": "father / dad", "em": "👨"},
+      {"zh": "媽媽", "py": "mā ma", "en": "mother / mum", "em": "👩"},
+      {"zh": "哥哥", "py": "gē ge", "en": "older brother", "em": "👦"},
+      {"zh": "姐姐", "py": "jiě jie", "en": "older sister", "em": "👧"},
+      {"zh": "弟弟", "py": "dì di", "en": "younger brother", "em": "👦"},
+      {"zh": "妹妹", "py": "mèi mei", "en": "younger sister", "em": "👧"}
+    ]
+  }
+}

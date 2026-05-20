@@ -57,6 +57,7 @@ const SRS = (() => {
     let card = cards[hanzi] || initCard(hanzi, level);
 
     const q = { AGAIN: 0, HARD: 2, GOOD: 4, EASY: 5 }[qualityLabel] ?? 4;
+    if (q < 3 && window.WeaknessEngine) WeaknessEngine.record('srs', { hanzi, label: hanzi, type: qualityLabel });
 
     // SM-2 core
     if (q >= 3) {
@@ -325,7 +326,7 @@ const SRS = (() => {
 
         <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
           <button class="btn btn-primary" onclick="navigate('/')">Back to Dashboard</button>
-          <button class="btn btn-outline" onclick="navigate('#/flashcards')">Flashcards</button>
+          <button class="btn btn-outline" onclick="navigate('/flashcards')">Flashcards</button>
         </div>
       </div>
     `;

@@ -1,0 +1,3339 @@
+{
+  "version": 2,
+  "title": "Beginner Launchpad",
+  "description": "20 micro-lessons for absolute beginners before advanced study.",
+  "totalWords": 105,
+  "lessons": [
+    {
+      "id": "hello",
+      "number": 1,
+      "title": "Meet Someone",
+      "canDo": "I can greet someone and say who I am.",
+      "pattern": "你好",
+      "patternPinyin": "nǐ hǎo",
+      "words": [
+        {
+          "zh": "你好",
+          "pinyin": "nǐ hǎo",
+          "english": "hello"
+        },
+        {
+          "zh": "我",
+          "pinyin": "wǒ",
+          "english": "I/me"
+        },
+        {
+          "zh": "你",
+          "pinyin": "nǐ",
+          "english": "you"
+        },
+        {
+          "zh": "叫",
+          "pinyin": "jiào",
+          "english": "to be called"
+        },
+        {
+          "zh": "名字",
+          "pinyin": "míng zi",
+          "english": "name"
+        }
+      ],
+      "story": [
+        {
+          "zh": "你好，我叫小明。",
+          "pinyin": "ni3 hao3, wo3 jiao4 xiao3 ming2.",
+          "english": "Hello, my name is Xiaoming."
+        },
+        {
+          "zh": "你好，我叫安安。",
+          "pinyin": "ni3 hao3, wo3 jiao4 an1 an1.",
+          "english": "Hello, my name is Anan."
+        },
+        {
+          "zh": "你叫什麼名字？",
+          "pinyin": "ni3 jiao4 shen2 me5 ming2 zi5?",
+          "english": "What is your name?"
+        },
+        {
+          "zh": "我叫安安，你呢？",
+          "pinyin": "wo3 jiao4 an1 an1, ni3 ne5?",
+          "english": "My name is Anan. How about you?"
+        },
+        {
+          "zh": "很高興認識你。",
+          "pinyin": "hen3 gao1 xing4 ren4 shi5 ni3.",
+          "english": "Nice to meet you."
+        }
+      ],
+      "dialogue": [
+        {
+          "speaker": "A",
+          "zh": "你好，我叫小明。",
+          "pinyin": "ni3 hao3, wo3 jiao4 xiao3 ming2.",
+          "english": "Hello, my name is Xiaoming."
+        },
+        {
+          "speaker": "B",
+          "zh": "你好，我叫安安。",
+          "pinyin": "ni3 hao3, wo3 jiao4 an1 an1.",
+          "english": "Hello, my name is Anan."
+        },
+        {
+          "speaker": "A",
+          "zh": "你叫什麼名字？",
+          "pinyin": "ni3 jiao4 shen2 me5 ming2 zi5?",
+          "english": "What is your name?"
+        },
+        {
+          "speaker": "B",
+          "zh": "我叫安安，你呢？",
+          "pinyin": "wo3 jiao4 an1 an1, ni3 ne5?",
+          "english": "My name is Anan. How about you?"
+        },
+        {
+          "speaker": "A",
+          "zh": "很高興認識你。",
+          "pinyin": "hen3 gao1 xing4 ren4 shi5 ni3.",
+          "english": "Nice to meet you."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "meaning",
+          "prompt": "你好",
+          "answer": "hello",
+          "options": [
+            "hello",
+            "I/me",
+            "you",
+            "to be called"
+          ],
+          "audioText": "你好",
+          "hint": "Choose the English meaning."
+        },
+        {
+          "type": "meaning",
+          "prompt": "我",
+          "answer": "I/me",
+          "options": [
+            "I/me",
+            "hello",
+            "you",
+            "to be called"
+          ],
+          "audioText": "我",
+          "hint": "Choose the English meaning."
+        },
+        {
+          "type": "listening",
+          "prompt": "Listen and choose the meaning.",
+          "answer": "Hello, my name is Xiaoming.",
+          "options": [
+            "Hello, my name is Xiaoming.",
+            "Hello, my name is Anan.",
+            "What is your name?",
+            "My name is Anan. How about you?"
+          ],
+          "audioText": "你好，我叫小明。",
+          "hint": "Listen for the full sentence."
+        },
+        {
+          "type": "reading",
+          "prompt": "你好，我叫安安。",
+          "answer": "Hello, my name is Anan.",
+          "options": [
+            "Hello, my name is Anan.",
+            "Hello, my name is Xiaoming.",
+            "What is your name?",
+            "My name is Anan. How about you?"
+          ],
+          "audioText": "你好，我叫安安。",
+          "hint": "Read the whole sentence, then choose the meaning."
+        },
+        {
+          "type": "build",
+          "prompt": "What is your name?",
+          "answer": "你叫什麼名字？",
+          "tiles": [
+            "你",
+            "叫",
+            "什",
+            "麼",
+            "名",
+            "字",
+            "？"
+          ],
+          "audioText": "你叫什麼名字？",
+          "hint": "Build the sentence, then compare with the answer."
+        }
+      ],
+      "readingGoal": "Read the story aloud once with support, then once without looking at English.",
+      "dialogueGoal": "Play each line, then role-play A and B aloud."
+    },
+    {
+      "id": "polite",
+      "number": 2,
+      "title": "Polite Greetings",
+      "canDo": "I can greet a teacher politely.",
+      "pattern": "您好",
+      "patternPinyin": "nín hǎo",
+      "words": [
+        {
+          "zh": "您",
+          "pinyin": "nín",
+          "english": "you polite"
+        },
+        {
+          "zh": "老師",
+          "pinyin": "lǎo shī",
+          "english": "teacher"
+        },
+        {
+          "zh": "學生",
+          "pinyin": "xué sheng",
+          "english": "student"
+        },
+        {
+          "zh": "請問",
+          "pinyin": "qǐng wèn",
+          "english": "may I ask"
+        },
+        {
+          "zh": "謝謝",
+          "pinyin": "xiè xiè",
+          "english": "thank you"
+        }
+      ],
+      "story": [
+        {
+          "zh": "老師，您好。",
+          "pinyin": "lao3 shi1, nin2 hao3.",
+          "english": "Hello, teacher."
+        },
+        {
+          "zh": "你好，你是新學生嗎？",
+          "pinyin": "ni3 hao3, ni3 shi4 xin1 xue2 sheng1 ma?",
+          "english": "Hello, are you a new student?"
+        },
+        {
+          "zh": "是的，請問您貴姓？",
+          "pinyin": "shi4 de5, qing3 wen4 nin2 gui4 xing4?",
+          "english": "Yes. May I ask your surname?"
+        },
+        {
+          "zh": "我姓王。",
+          "pinyin": "wo3 xing4 wang2.",
+          "english": "My surname is Wang."
+        },
+        {
+          "zh": "謝謝老師。",
+          "pinyin": "xie4 xie5 lao3 shi1.",
+          "english": "Thank you, teacher."
+        }
+      ],
+      "dialogue": [
+        {
+          "speaker": "A",
+          "zh": "老師，您好。",
+          "pinyin": "lao3 shi1, nin2 hao3.",
+          "english": "Hello, teacher."
+        },
+        {
+          "speaker": "B",
+          "zh": "你好，你是新學生嗎？",
+          "pinyin": "ni3 hao3, ni3 shi4 xin1 xue2 sheng1 ma?",
+          "english": "Hello, are you a new student?"
+        },
+        {
+          "speaker": "A",
+          "zh": "是的，請問您貴姓？",
+          "pinyin": "shi4 de5, qing3 wen4 nin2 gui4 xing4?",
+          "english": "Yes. May I ask your surname?"
+        },
+        {
+          "speaker": "B",
+          "zh": "我姓王。",
+          "pinyin": "wo3 xing4 wang2.",
+          "english": "My surname is Wang."
+        },
+        {
+          "speaker": "A",
+          "zh": "謝謝老師。",
+          "pinyin": "xie4 xie5 lao3 shi1.",
+          "english": "Thank you, teacher."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "meaning",
+          "prompt": "您",
+          "answer": "you polite",
+          "options": [
+            "you polite",
+            "teacher",
+            "student",
+            "may I ask"
+          ],
+          "audioText": "您",
+          "hint": "Choose the English meaning."
+        },
+        {
+          "type": "meaning",
+          "prompt": "老師",
+          "answer": "teacher",
+          "options": [
+            "teacher",
+            "you polite",
+            "student",
+            "may I ask"
+          ],
+          "audioText": "老師",
+          "hint": "Choose the English meaning."
+        },
+        {
+          "type": "listening",
+          "prompt": "Listen and choose the meaning.",
+          "answer": "Hello, teacher.",
+          "options": [
+            "Hello, teacher.",
+            "Hello, are you a new student?",
+            "Yes. May I ask your surname?",
+            "My surname is Wang."
+          ],
+          "audioText": "老師，您好。",
+          "hint": "Listen for the full sentence."
+        },
+        {
+          "type": "reading",
+          "prompt": "你好，你是新學生嗎？",
+          "answer": "Hello, are you a new student?",
+          "options": [
+            "Hello, are you a new student?",
+            "Hello, teacher.",
+            "Yes. May I ask your surname?",
+            "My surname is Wang."
+          ],
+          "audioText": "你好，你是新學生嗎？",
+          "hint": "Read the whole sentence, then choose the meaning."
+        },
+        {
+          "type": "build",
+          "prompt": "Yes. May I ask your surname?",
+          "answer": "是的，請問您貴姓？",
+          "tiles": [
+            "是",
+            "的",
+            "，",
+            "請",
+            "問",
+            "您",
+            "貴",
+            "姓",
+            "？"
+          ],
+          "audioText": "是的，請問您貴姓？",
+          "hint": "Build the sentence, then compare with the answer."
+        }
+      ],
+      "readingGoal": "Read the story aloud once with support, then once without looking at English.",
+      "dialogueGoal": "Play each line, then role-play A and B aloud."
+    },
+    {
+      "id": "nationality",
+      "number": 3,
+      "title": "Where Are You From?",
+      "canDo": "I can say my nationality.",
+      "pattern": "我是",
+      "patternPinyin": "wǒ shì",
+      "words": [
+        {
+          "zh": "是",
+          "pinyin": "shì",
+          "english": "to be"
+        },
+        {
+          "zh": "人",
+          "pinyin": "rén",
+          "english": "person"
+        },
+        {
+          "zh": "台灣",
+          "pinyin": "tái wān",
+          "english": "Taiwan"
+        },
+        {
+          "zh": "美國",
+          "pinyin": "měi guó",
+          "english": "USA"
+        },
+        {
+          "zh": "哪國",
+          "pinyin": "nǎ guó",
+          "english": "which country"
+        }
+      ],
+      "story": [
+        {
+          "zh": "你是哪國人？",
+          "pinyin": "ni3 shi4 na3 guo2 ren2?",
+          "english": "What country are you from?"
+        },
+        {
+          "zh": "我是美國人。",
+          "pinyin": "wo3 shi4 mei3 guo2 ren2.",
+          "english": "I am American."
+        },
+        {
+          "zh": "他是台灣人嗎？",
+          "pinyin": "ta1 shi4 tai2 wan1 ren2 ma?",
+          "english": "Is he Taiwanese?"
+        },
+        {
+          "zh": "是的，他是台灣人。",
+          "pinyin": "shi4 de5, ta1 shi4 tai2 wan1 ren2.",
+          "english": "Yes, he is Taiwanese."
+        },
+        {
+          "zh": "我也是學生。",
+          "pinyin": "wo3 ye3 shi4 xue2 sheng1.",
+          "english": "I am also a student."
+        }
+      ],
+      "dialogue": [
+        {
+          "speaker": "A",
+          "zh": "你是哪國人？",
+          "pinyin": "ni3 shi4 na3 guo2 ren2?",
+          "english": "What country are you from?"
+        },
+        {
+          "speaker": "B",
+          "zh": "我是美國人。",
+          "pinyin": "wo3 shi4 mei3 guo2 ren2.",
+          "english": "I am American."
+        },
+        {
+          "speaker": "A",
+          "zh": "他是台灣人嗎？",
+          "pinyin": "ta1 shi4 tai2 wan1 ren2 ma?",
+          "english": "Is he Taiwanese?"
+        },
+        {
+          "speaker": "B",
+          "zh": "是的，他是台灣人。",
+          "pinyin": "shi4 de5, ta1 shi4 tai2 wan1 ren2.",
+          "english": "Yes, he is Taiwanese."
+        },
+        {
+          "speaker": "A",
+          "zh": "我也是學生。",
+          "pinyin": "wo3 ye3 shi4 xue2 sheng1.",
+          "english": "I am also a student."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "meaning",
+          "prompt": "是",
+          "answer": "to be",
+          "options": [
+            "to be",
+            "person",
+            "Taiwan",
+            "USA"
+          ],
+          "audioText": "是",
+          "hint": "Choose the English meaning."
+        },
+        {
+          "type": "meaning",
+          "prompt": "人",
+          "answer": "person",
+          "options": [
+            "person",
+            "to be",
+            "Taiwan",
+            "USA"
+          ],
+          "audioText": "人",
+          "hint": "Choose the English meaning."
+        },
+        {
+          "type": "listening",
+          "prompt": "Listen and choose the meaning.",
+          "answer": "What country are you from?",
+          "options": [
+            "What country are you from?",
+            "I am American.",
+            "Is he Taiwanese?",
+            "Yes, he is Taiwanese."
+          ],
+          "audioText": "你是哪國人？",
+          "hint": "Listen for the full sentence."
+        },
+        {
+          "type": "reading",
+          "prompt": "我是美國人。",
+          "answer": "I am American.",
+          "options": [
+            "I am American.",
+            "What country are you from?",
+            "Is he Taiwanese?",
+            "Yes, he is Taiwanese."
+          ],
+          "audioText": "我是美國人。",
+          "hint": "Read the whole sentence, then choose the meaning."
+        },
+        {
+          "type": "build",
+          "prompt": "Is he Taiwanese?",
+          "answer": "他是台灣人嗎？",
+          "tiles": [
+            "他",
+            "是",
+            "台",
+            "灣",
+            "人",
+            "嗎",
+            "？"
+          ],
+          "audioText": "他是台灣人嗎？",
+          "hint": "Build the sentence, then compare with the answer."
+        }
+      ],
+      "readingGoal": "Read the story aloud once with support, then once without looking at English.",
+      "dialogueGoal": "Play each line, then role-play A and B aloud."
+    },
+    {
+      "id": "yes-no",
+      "number": 4,
+      "title": "Yes and No",
+      "canDo": "I can answer simple yes/no questions.",
+      "pattern": "是的",
+      "patternPinyin": "shì de",
+      "words": [
+        {
+          "zh": "是的",
+          "pinyin": "shì de",
+          "english": "yes / that is right"
+        },
+        {
+          "zh": "不是",
+          "pinyin": "bù shì",
+          "english": "no / is not"
+        },
+        {
+          "zh": "嗎",
+          "pinyin": "ma",
+          "english": "question particle"
+        },
+        {
+          "zh": "也",
+          "pinyin": "yě",
+          "english": "also"
+        },
+        {
+          "zh": "都",
+          "pinyin": "dōu",
+          "english": "all/both"
+        }
+      ],
+      "story": [
+        {
+          "zh": "你是學生嗎？",
+          "pinyin": "ni3 shi4 xue2 sheng1 ma?",
+          "english": "Are you a student?"
+        },
+        {
+          "zh": "是的，我是學生。",
+          "pinyin": "shi4 de5, wo3 shi4 xue2 sheng1.",
+          "english": "Yes, I am a student."
+        },
+        {
+          "zh": "他也是學生嗎？",
+          "pinyin": "ta1 ye3 shi4 xue2 sheng1 ma?",
+          "english": "Is he also a student?"
+        },
+        {
+          "zh": "不是，他是老師。",
+          "pinyin": "bu2 shi4, ta1 shi4 lao3 shi1.",
+          "english": "No, he is a teacher."
+        },
+        {
+          "zh": "你們都很忙嗎？",
+          "pinyin": "ni3 men5 dou1 hen3 mang2 ma?",
+          "english": "Are you all busy?"
+        }
+      ],
+      "dialogue": [
+        {
+          "speaker": "A",
+          "zh": "你是學生嗎？",
+          "pinyin": "ni3 shi4 xue2 sheng1 ma?",
+          "english": "Are you a student?"
+        },
+        {
+          "speaker": "B",
+          "zh": "是的，我是學生。",
+          "pinyin": "shi4 de5, wo3 shi4 xue2 sheng1.",
+          "english": "Yes, I am a student."
+        },
+        {
+          "speaker": "A",
+          "zh": "他也是學生嗎？",
+          "pinyin": "ta1 ye3 shi4 xue2 sheng1 ma?",
+          "english": "Is he also a student?"
+        },
+        {
+          "speaker": "B",
+          "zh": "不是，他是老師。",
+          "pinyin": "bu2 shi4, ta1 shi4 lao3 shi1.",
+          "english": "No, he is a teacher."
+        },
+        {
+          "speaker": "A",
+          "zh": "你們都很忙嗎？",
+          "pinyin": "ni3 men5 dou1 hen3 mang2 ma?",
+          "english": "Are you all busy?"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "meaning",
+          "prompt": "是的",
+          "answer": "yes / that is right",
+          "options": [
+            "yes / that is right",
+            "no / is not",
+            "question particle",
+            "also"
+          ],
+          "audioText": "是的",
+          "hint": "Choose the English meaning."
+        },
+        {
+          "type": "meaning",
+          "prompt": "不是",
+          "answer": "no / is not",
+          "options": [
+            "no / is not",
+            "yes / that is right",
+            "question particle",
+            "also"
+          ],
+          "audioText": "不是",
+          "hint": "Choose the English meaning."
+        },
+        {
+          "type": "listening",
+          "prompt": "Listen and choose the meaning.",
+          "answer": "Are you a student?",
+          "options": [
+            "Are you a student?",
+            "Yes, I am a student.",
+            "Is he also a student?",
+            "No, he is a teacher."
+          ],
+          "audioText": "你是學生嗎？",
+          "hint": "Listen for the full sentence."
+        },
+        {
+          "type": "reading",
+          "prompt": "是的，我是學生。",
+          "answer": "Yes, I am a student.",
+          "options": [
+            "Yes, I am a student.",
+            "Are you a student?",
+            "Is he also a student?",
+            "No, he is a teacher."
+          ],
+          "audioText": "是的，我是學生。",
+          "hint": "Read the whole sentence, then choose the meaning."
+        },
+        {
+          "type": "build",
+          "prompt": "Is he also a student?",
+          "answer": "他也是學生嗎？",
+          "tiles": [
+            "他",
+            "也",
+            "是",
+            "學",
+            "生",
+            "嗎",
+            "？"
+          ],
+          "audioText": "他也是學生嗎？",
+          "hint": "Build the sentence, then compare with the answer."
+        }
+      ],
+      "readingGoal": "Read the story aloud once with support, then once without looking at English.",
+      "dialogueGoal": "Play each line, then role-play A and B aloud."
+    },
+    {
+      "id": "like",
+      "number": 5,
+      "title": "Likes",
+      "canDo": "I can say what I like.",
+      "pattern": "喜歡",
+      "patternPinyin": "xǐ huan",
+      "words": [
+        {
+          "zh": "喜歡",
+          "pinyin": "xǐ huan",
+          "english": "to like"
+        },
+        {
+          "zh": "喝",
+          "pinyin": "hē",
+          "english": "drink"
+        },
+        {
+          "zh": "茶",
+          "pinyin": "chá",
+          "english": "tea"
+        },
+        {
+          "zh": "咖啡",
+          "pinyin": "kā fēi",
+          "english": "coffee"
+        },
+        {
+          "zh": "水",
+          "pinyin": "shuǐ",
+          "english": "water"
+        }
+      ],
+      "story": [
+        {
+          "zh": "你喜歡喝茶嗎？",
+          "pinyin": "ni3 xi3 huan1 he1 cha2 ma?",
+          "english": "Do you like drinking tea?"
+        },
+        {
+          "zh": "我喜歡喝茶。",
+          "pinyin": "wo3 xi3 huan1 he1 cha2.",
+          "english": "I like drinking tea."
+        },
+        {
+          "zh": "你喜歡咖啡嗎？",
+          "pinyin": "ni3 xi3 huan1 ka1 fei1 ma?",
+          "english": "Do you like coffee?"
+        },
+        {
+          "zh": "我不喜歡咖啡。",
+          "pinyin": "wo3 bu4 xi3 huan1 ka1 fei1.",
+          "english": "I do not like coffee."
+        },
+        {
+          "zh": "我想喝水。",
+          "pinyin": "wo3 xiang3 he1 shui3.",
+          "english": "I want to drink water."
+        }
+      ],
+      "dialogue": [
+        {
+          "speaker": "A",
+          "zh": "你喜歡喝茶嗎？",
+          "pinyin": "ni3 xi3 huan1 he1 cha2 ma?",
+          "english": "Do you like drinking tea?"
+        },
+        {
+          "speaker": "B",
+          "zh": "我喜歡喝茶。",
+          "pinyin": "wo3 xi3 huan1 he1 cha2.",
+          "english": "I like drinking tea."
+        },
+        {
+          "speaker": "A",
+          "zh": "你喜歡咖啡嗎？",
+          "pinyin": "ni3 xi3 huan1 ka1 fei1 ma?",
+          "english": "Do you like coffee?"
+        },
+        {
+          "speaker": "B",
+          "zh": "我不喜歡咖啡。",
+          "pinyin": "wo3 bu4 xi3 huan1 ka1 fei1.",
+          "english": "I do not like coffee."
+        },
+        {
+          "speaker": "A",
+          "zh": "我想喝水。",
+          "pinyin": "wo3 xiang3 he1 shui3.",
+          "english": "I want to drink water."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "meaning",
+          "prompt": "喜歡",
+          "answer": "to like",
+          "options": [
+            "to like",
+            "drink",
+            "tea",
+            "coffee"
+          ],
+          "audioText": "喜歡",
+          "hint": "Choose the English meaning."
+        },
+        {
+          "type": "meaning",
+          "prompt": "喝",
+          "answer": "drink",
+          "options": [
+            "drink",
+            "to like",
+            "tea",
+            "coffee"
+          ],
+          "audioText": "喝",
+          "hint": "Choose the English meaning."
+        },
+        {
+          "type": "listening",
+          "prompt": "Listen and choose the meaning.",
+          "answer": "Do you like drinking tea?",
+          "options": [
+            "Do you like drinking tea?",
+            "I like drinking tea.",
+            "Do you like coffee?",
+            "I do not like coffee."
+          ],
+          "audioText": "你喜歡喝茶嗎？",
+          "hint": "Listen for the full sentence."
+        },
+        {
+          "type": "reading",
+          "prompt": "我喜歡喝茶。",
+          "answer": "I like drinking tea.",
+          "options": [
+            "I like drinking tea.",
+            "Do you like drinking tea?",
+            "Do you like coffee?",
+            "I do not like coffee."
+          ],
+          "audioText": "我喜歡喝茶。",
+          "hint": "Read the whole sentence, then choose the meaning."
+        },
+        {
+          "type": "build",
+          "prompt": "Do you like coffee?",
+          "answer": "你喜歡咖啡嗎？",
+          "tiles": [
+            "你",
+            "喜",
+            "歡",
+            "咖",
+            "啡",
+            "嗎",
+            "？"
+          ],
+          "audioText": "你喜歡咖啡嗎？",
+          "hint": "Build the sentence, then compare with the answer."
+        }
+      ],
+      "readingGoal": "Read the story aloud once with support, then once without looking at English.",
+      "dialogueGoal": "Play each line, then role-play A and B aloud."
+    },
+    {
+      "id": "food",
+      "number": 6,
+      "title": "Food Basics",
+      "canDo": "I can talk about basic food.",
+      "pattern": "吃飯",
+      "patternPinyin": "chī fàn",
+      "words": [
+        {
+          "zh": "吃",
+          "pinyin": "chī",
+          "english": "eat"
+        },
+        {
+          "zh": "飯",
+          "pinyin": "fàn",
+          "english": "rice/meal"
+        },
+        {
+          "zh": "麵",
+          "pinyin": "miàn",
+          "english": "noodles"
+        },
+        {
+          "zh": "蛋",
+          "pinyin": "dàn",
+          "english": "egg"
+        },
+        {
+          "zh": "水果",
+          "pinyin": "shuǐ guǒ",
+          "english": "fruit"
+        }
+      ],
+      "story": [
+        {
+          "zh": "你想吃飯還是吃麵？",
+          "pinyin": "ni3 xiang3 chi1 fan4 hai2 shi4 chi1 mian4?",
+          "english": "Do you want rice or noodles?"
+        },
+        {
+          "zh": "我想吃麵。",
+          "pinyin": "wo3 xiang3 chi1 mian4.",
+          "english": "I want noodles."
+        },
+        {
+          "zh": "你要蛋嗎？",
+          "pinyin": "ni3 yao4 dan4 ma?",
+          "english": "Do you want an egg?"
+        },
+        {
+          "zh": "要，謝謝。",
+          "pinyin": "yao4, xie4 xie5.",
+          "english": "Yes, thank you."
+        },
+        {
+          "zh": "飯後我們吃水果。",
+          "pinyin": "fan4 hou4 wo3 men5 chi1 shui3 guo3.",
+          "english": "After the meal, we eat fruit."
+        }
+      ],
+      "dialogue": [
+        {
+          "speaker": "A",
+          "zh": "你想吃飯還是吃麵？",
+          "pinyin": "ni3 xiang3 chi1 fan4 hai2 shi4 chi1 mian4?",
+          "english": "Do you want rice or noodles?"
+        },
+        {
+          "speaker": "B",
+          "zh": "我想吃麵。",
+          "pinyin": "wo3 xiang3 chi1 mian4.",
+          "english": "I want noodles."
+        },
+        {
+          "speaker": "A",
+          "zh": "你要蛋嗎？",
+          "pinyin": "ni3 yao4 dan4 ma?",
+          "english": "Do you want an egg?"
+        },
+        {
+          "speaker": "B",
+          "zh": "要，謝謝。",
+          "pinyin": "yao4, xie4 xie5.",
+          "english": "Yes, thank you."
+        },
+        {
+          "speaker": "A",
+          "zh": "飯後我們吃水果。",
+          "pinyin": "fan4 hou4 wo3 men5 chi1 shui3 guo3.",
+          "english": "After the meal, we eat fruit."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "meaning",
+          "prompt": "吃",
+          "answer": "eat",
+          "options": [
+            "eat",
+            "rice/meal",
+            "noodles",
+            "egg"
+          ],
+          "audioText": "吃",
+          "hint": "Choose the English meaning."
+        },
+        {
+          "type": "meaning",
+          "prompt": "飯",
+          "answer": "rice/meal",
+          "options": [
+            "rice/meal",
+            "eat",
+            "noodles",
+            "egg"
+          ],
+          "audioText": "飯",
+          "hint": "Choose the English meaning."
+        },
+        {
+          "type": "listening",
+          "prompt": "Listen and choose the meaning.",
+          "answer": "Do you want rice or noodles?",
+          "options": [
+            "Do you want rice or noodles?",
+            "I want noodles.",
+            "Do you want an egg?",
+            "Yes, thank you."
+          ],
+          "audioText": "你想吃飯還是吃麵？",
+          "hint": "Listen for the full sentence."
+        },
+        {
+          "type": "reading",
+          "prompt": "我想吃麵。",
+          "answer": "I want noodles.",
+          "options": [
+            "I want noodles.",
+            "Do you want rice or noodles?",
+            "Do you want an egg?",
+            "Yes, thank you."
+          ],
+          "audioText": "我想吃麵。",
+          "hint": "Read the whole sentence, then choose the meaning."
+        },
+        {
+          "type": "build",
+          "prompt": "Do you want an egg?",
+          "answer": "你要蛋嗎？",
+          "tiles": [
+            "你",
+            "要",
+            "蛋",
+            "嗎",
+            "？"
+          ],
+          "audioText": "你要蛋嗎？",
+          "hint": "Build the sentence, then compare with the answer."
+        }
+      ],
+      "readingGoal": "Read a small food scene: who is hungry, what they eat, and what they drink.",
+      "dialogueGoal": "Ask a friend what they want to eat and answer with one food choice."
+    },
+    {
+      "id": "want",
+      "number": 7,
+      "title": "Want and Need",
+      "canDo": "I can say what I want.",
+      "pattern": "我要",
+      "patternPinyin": "wǒ yào",
+      "words": [
+        {
+          "zh": "要",
+          "pinyin": "yào",
+          "english": "want/need"
+        },
+        {
+          "zh": "想",
+          "pinyin": "xiǎng",
+          "english": "would like"
+        },
+        {
+          "zh": "買",
+          "pinyin": "mǎi",
+          "english": "buy"
+        },
+        {
+          "zh": "一個",
+          "pinyin": "yī gè",
+          "english": "one item"
+        },
+        {
+          "zh": "多少",
+          "pinyin": "duō shǎo",
+          "english": "how much"
+        }
+      ],
+      "story": [
+        {
+          "zh": "你想買什麼？",
+          "pinyin": "ni3 xiang3 mai3 shen2 me5?",
+          "english": "What do you want to buy?"
+        },
+        {
+          "zh": "我要買一個杯子。",
+          "pinyin": "wo3 yao4 mai3 yi2 ge5 bei1 zi5.",
+          "english": "I want to buy one cup."
+        },
+        {
+          "zh": "這個多少錢？",
+          "pinyin": "zhe4 ge5 duo1 shao3 qian2?",
+          "english": "How much is this?"
+        },
+        {
+          "zh": "一個二十塊。",
+          "pinyin": "yi2 ge5 er4 shi2 kuai4.",
+          "english": "One is twenty dollars."
+        },
+        {
+          "zh": "好，我買一個。",
+          "pinyin": "hao3, wo3 mai3 yi2 ge5.",
+          "english": "Okay, I will buy one."
+        }
+      ],
+      "dialogue": [
+        {
+          "speaker": "A",
+          "zh": "你想買什麼？",
+          "pinyin": "ni3 xiang3 mai3 shen2 me5?",
+          "english": "What do you want to buy?"
+        },
+        {
+          "speaker": "B",
+          "zh": "我要買一個杯子。",
+          "pinyin": "wo3 yao4 mai3 yi2 ge5 bei1 zi5.",
+          "english": "I want to buy one cup."
+        },
+        {
+          "speaker": "A",
+          "zh": "這個多少錢？",
+          "pinyin": "zhe4 ge5 duo1 shao3 qian2?",
+          "english": "How much is this?"
+        },
+        {
+          "speaker": "B",
+          "zh": "一個二十塊。",
+          "pinyin": "yi2 ge5 er4 shi2 kuai4.",
+          "english": "One is twenty dollars."
+        },
+        {
+          "speaker": "A",
+          "zh": "好，我買一個。",
+          "pinyin": "hao3, wo3 mai3 yi2 ge5.",
+          "english": "Okay, I will buy one."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "meaning",
+          "prompt": "要",
+          "answer": "want/need",
+          "options": [
+            "want/need",
+            "would like",
+            "buy",
+            "one item"
+          ],
+          "audioText": "要",
+          "hint": "Choose the English meaning."
+        },
+        {
+          "type": "meaning",
+          "prompt": "想",
+          "answer": "would like",
+          "options": [
+            "would like",
+            "want/need",
+            "buy",
+            "one item"
+          ],
+          "audioText": "想",
+          "hint": "Choose the English meaning."
+        },
+        {
+          "type": "listening",
+          "prompt": "Listen and choose the meaning.",
+          "answer": "What do you want to buy?",
+          "options": [
+            "What do you want to buy?",
+            "I want to buy one cup.",
+            "How much is this?",
+            "One is twenty dollars."
+          ],
+          "audioText": "你想買什麼？",
+          "hint": "Listen for the full sentence."
+        },
+        {
+          "type": "reading",
+          "prompt": "我要買一個杯子。",
+          "answer": "I want to buy one cup.",
+          "options": [
+            "I want to buy one cup.",
+            "What do you want to buy?",
+            "How much is this?",
+            "One is twenty dollars."
+          ],
+          "audioText": "我要買一個杯子。",
+          "hint": "Read the whole sentence, then choose the meaning."
+        },
+        {
+          "type": "build",
+          "prompt": "How much is this?",
+          "answer": "這個多少錢？",
+          "tiles": [
+            "這",
+            "個",
+            "多",
+            "少",
+            "錢",
+            "？"
+          ],
+          "audioText": "這個多少錢？",
+          "hint": "Build the sentence, then compare with the answer."
+        }
+      ],
+      "readingGoal": "Read the story aloud once with support, then once without looking at English.",
+      "dialogueGoal": "Play each line, then role-play A and B aloud."
+    },
+    {
+      "id": "numbers",
+      "number": 8,
+      "title": "Numbers 1-10",
+      "canDo": "I can recognize basic numbers.",
+      "pattern": "一二三",
+      "patternPinyin": "yī èr sān",
+      "words": [
+        {
+          "zh": "一",
+          "pinyin": "yī",
+          "english": "one"
+        },
+        {
+          "zh": "二",
+          "pinyin": "èr",
+          "english": "two"
+        },
+        {
+          "zh": "三",
+          "pinyin": "sān",
+          "english": "three"
+        },
+        {
+          "zh": "四",
+          "pinyin": "sì",
+          "english": "four"
+        },
+        {
+          "zh": "五",
+          "pinyin": "wǔ",
+          "english": "five"
+        },
+        {
+          "zh": "六",
+          "pinyin": "liù",
+          "english": "six"
+        },
+        {
+          "zh": "七",
+          "pinyin": "qī",
+          "english": "seven"
+        },
+        {
+          "zh": "八",
+          "pinyin": "bā",
+          "english": "eight"
+        },
+        {
+          "zh": "九",
+          "pinyin": "jiǔ",
+          "english": "nine"
+        },
+        {
+          "zh": "十",
+          "pinyin": "shí",
+          "english": "ten"
+        }
+      ],
+      "story": [
+        {
+          "zh": "你要幾個？",
+          "pinyin": "ni3 yao4 ji3 ge5?",
+          "english": "How many do you want?"
+        },
+        {
+          "zh": "我要三個。",
+          "pinyin": "wo3 yao4 san1 ge5.",
+          "english": "I want three."
+        },
+        {
+          "zh": "一共多少錢？",
+          "pinyin": "yi2 gong4 duo1 shao3 qian2?",
+          "english": "How much altogether?"
+        },
+        {
+          "zh": "一共十塊。",
+          "pinyin": "yi2 gong4 shi2 kuai4.",
+          "english": "Ten dollars altogether."
+        },
+        {
+          "zh": "我有五塊。",
+          "pinyin": "wo3 you3 wu3 kuai4.",
+          "english": "I have five dollars."
+        }
+      ],
+      "dialogue": [
+        {
+          "speaker": "A",
+          "zh": "你要幾個？",
+          "pinyin": "ni3 yao4 ji3 ge5?",
+          "english": "How many do you want?"
+        },
+        {
+          "speaker": "B",
+          "zh": "我要三個。",
+          "pinyin": "wo3 yao4 san1 ge5.",
+          "english": "I want three."
+        },
+        {
+          "speaker": "A",
+          "zh": "一共多少錢？",
+          "pinyin": "yi2 gong4 duo1 shao3 qian2?",
+          "english": "How much altogether?"
+        },
+        {
+          "speaker": "B",
+          "zh": "一共十塊。",
+          "pinyin": "yi2 gong4 shi2 kuai4.",
+          "english": "Ten dollars altogether."
+        },
+        {
+          "speaker": "A",
+          "zh": "我有五塊。",
+          "pinyin": "wo3 you3 wu3 kuai4.",
+          "english": "I have five dollars."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "meaning",
+          "prompt": "一",
+          "answer": "one",
+          "options": [
+            "one",
+            "two",
+            "three",
+            "four"
+          ],
+          "audioText": "一",
+          "hint": "Choose the English meaning."
+        },
+        {
+          "type": "meaning",
+          "prompt": "二",
+          "answer": "two",
+          "options": [
+            "two",
+            "one",
+            "three",
+            "four"
+          ],
+          "audioText": "二",
+          "hint": "Choose the English meaning."
+        },
+        {
+          "type": "listening",
+          "prompt": "Listen and choose the meaning.",
+          "answer": "How many do you want?",
+          "options": [
+            "How many do you want?",
+            "I want three.",
+            "How much altogether?",
+            "Ten dollars altogether."
+          ],
+          "audioText": "你要幾個？",
+          "hint": "Listen for the full sentence."
+        },
+        {
+          "type": "reading",
+          "prompt": "我要三個。",
+          "answer": "I want three.",
+          "options": [
+            "I want three.",
+            "How many do you want?",
+            "How much altogether?",
+            "Ten dollars altogether."
+          ],
+          "audioText": "我要三個。",
+          "hint": "Read the whole sentence, then choose the meaning."
+        },
+        {
+          "type": "build",
+          "prompt": "How much altogether?",
+          "answer": "一共多少錢？",
+          "tiles": [
+            "一",
+            "共",
+            "多",
+            "少",
+            "錢",
+            "？"
+          ],
+          "audioText": "一共多少錢？",
+          "hint": "Build the sentence, then compare with the answer."
+        }
+      ],
+      "readingGoal": "Read numbers inside a tiny classroom/counting scene, not just isolated digits.",
+      "dialogueGoal": "Ask and answer how many items there are."
+    },
+    {
+      "id": "family",
+      "number": 9,
+      "title": "Family",
+      "canDo": "I can name family members.",
+      "pattern": "家人",
+      "patternPinyin": "jiā rén",
+      "words": [
+        {
+          "zh": "家人",
+          "pinyin": "jiā rén",
+          "english": "family"
+        },
+        {
+          "zh": "爸爸",
+          "pinyin": "bà ba",
+          "english": "dad"
+        },
+        {
+          "zh": "媽媽",
+          "pinyin": "mā ma",
+          "english": "mom"
+        },
+        {
+          "zh": "哥哥",
+          "pinyin": "gē ge",
+          "english": "older brother"
+        },
+        {
+          "zh": "姐姐",
+          "pinyin": "jiě jiě",
+          "english": "older sister"
+        }
+      ],
+      "story": [
+        {
+          "zh": "這是你的家人嗎？",
+          "pinyin": "zhe4 shi4 ni3 de5 jia1 ren2 ma?",
+          "english": "Is this your family?"
+        },
+        {
+          "zh": "是，這是我媽媽。",
+          "pinyin": "shi4, zhe4 shi4 wo3 ma1 ma5.",
+          "english": "Yes, this is my mom."
+        },
+        {
+          "zh": "你有哥哥嗎？",
+          "pinyin": "ni3 you3 ge1 ge5 ma?",
+          "english": "Do you have an older brother?"
+        },
+        {
+          "zh": "我有哥哥和姐姐。",
+          "pinyin": "wo3 you3 ge1 ge5 he2 jie3 jie5.",
+          "english": "I have an older brother and older sister."
+        },
+        {
+          "zh": "你爸爸也在家嗎？",
+          "pinyin": "ni3 ba4 ba5 ye3 zai4 jia1 ma?",
+          "english": "Is your dad also at home?"
+        }
+      ],
+      "dialogue": [
+        {
+          "speaker": "A",
+          "zh": "這是你的家人嗎？",
+          "pinyin": "zhe4 shi4 ni3 de5 jia1 ren2 ma?",
+          "english": "Is this your family?"
+        },
+        {
+          "speaker": "B",
+          "zh": "是，這是我媽媽。",
+          "pinyin": "shi4, zhe4 shi4 wo3 ma1 ma5.",
+          "english": "Yes, this is my mom."
+        },
+        {
+          "speaker": "A",
+          "zh": "你有哥哥嗎？",
+          "pinyin": "ni3 you3 ge1 ge5 ma?",
+          "english": "Do you have an older brother?"
+        },
+        {
+          "speaker": "B",
+          "zh": "我有哥哥和姐姐。",
+          "pinyin": "wo3 you3 ge1 ge5 he2 jie3 jie5.",
+          "english": "I have an older brother and older sister."
+        },
+        {
+          "speaker": "A",
+          "zh": "你爸爸也在家嗎？",
+          "pinyin": "ni3 ba4 ba5 ye3 zai4 jia1 ma?",
+          "english": "Is your dad also at home?"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "meaning",
+          "prompt": "家人",
+          "answer": "family",
+          "options": [
+            "family",
+            "dad",
+            "mom",
+            "older brother"
+          ],
+          "audioText": "家人",
+          "hint": "Choose the English meaning."
+        },
+        {
+          "type": "meaning",
+          "prompt": "爸爸",
+          "answer": "dad",
+          "options": [
+            "dad",
+            "family",
+            "mom",
+            "older brother"
+          ],
+          "audioText": "爸爸",
+          "hint": "Choose the English meaning."
+        },
+        {
+          "type": "listening",
+          "prompt": "Listen and choose the meaning.",
+          "answer": "Is this your family?",
+          "options": [
+            "Is this your family?",
+            "Yes, this is my mom.",
+            "Do you have an older brother?",
+            "I have an older brother and older sister."
+          ],
+          "audioText": "這是你的家人嗎？",
+          "hint": "Listen for the full sentence."
+        },
+        {
+          "type": "reading",
+          "prompt": "是，這是我媽媽。",
+          "answer": "Yes, this is my mom.",
+          "options": [
+            "Yes, this is my mom.",
+            "Is this your family?",
+            "Do you have an older brother?",
+            "I have an older brother and older sister."
+          ],
+          "audioText": "是，這是我媽媽。",
+          "hint": "Read the whole sentence, then choose the meaning."
+        },
+        {
+          "type": "build",
+          "prompt": "Do you have an older brother?",
+          "answer": "你有哥哥嗎？",
+          "tiles": [
+            "你",
+            "有",
+            "哥",
+            "哥",
+            "嗎",
+            "？"
+          ],
+          "audioText": "你有哥哥嗎？",
+          "hint": "Build the sentence, then compare with the answer."
+        }
+      ],
+      "readingGoal": "Read the story aloud once with support, then once without looking at English.",
+      "dialogueGoal": "Play each line, then role-play A and B aloud."
+    },
+    {
+      "id": "time",
+      "number": 10,
+      "title": "Today and Tomorrow",
+      "canDo": "I can talk about simple time.",
+      "pattern": "今天",
+      "patternPinyin": "jīn tiān",
+      "words": [
+        {
+          "zh": "今天",
+          "pinyin": "jīn tiān",
+          "english": "today"
+        },
+        {
+          "zh": "明天",
+          "pinyin": "míng tiān",
+          "english": "tomorrow"
+        },
+        {
+          "zh": "昨天",
+          "pinyin": "zuó tiān",
+          "english": "yesterday"
+        },
+        {
+          "zh": "現在",
+          "pinyin": "xiàn zài",
+          "english": "now"
+        },
+        {
+          "zh": "點",
+          "pinyin": "diǎn",
+          "english": "o?clock"
+        }
+      ],
+      "story": [
+        {
+          "zh": "今天你上課嗎？",
+          "pinyin": "jin1 tian1 ni3 shang4 ke4 ma?",
+          "english": "Do you have class today?"
+        },
+        {
+          "zh": "今天我上課。",
+          "pinyin": "jin1 tian1 wo3 shang4 ke4.",
+          "english": "I have class today."
+        },
+        {
+          "zh": "明天你來嗎？",
+          "pinyin": "ming2 tian1 ni3 lai2 ma?",
+          "english": "Are you coming tomorrow?"
+        },
+        {
+          "zh": "明天我來。",
+          "pinyin": "ming2 tian1 wo3 lai2.",
+          "english": "I will come tomorrow."
+        },
+        {
+          "zh": "現在幾點？",
+          "pinyin": "xian4 zai4 ji3 dian3?",
+          "english": "What time is it now?"
+        }
+      ],
+      "dialogue": [
+        {
+          "speaker": "A",
+          "zh": "今天你上課嗎？",
+          "pinyin": "jin1 tian1 ni3 shang4 ke4 ma?",
+          "english": "Do you have class today?"
+        },
+        {
+          "speaker": "B",
+          "zh": "今天我上課。",
+          "pinyin": "jin1 tian1 wo3 shang4 ke4.",
+          "english": "I have class today."
+        },
+        {
+          "speaker": "A",
+          "zh": "明天你來嗎？",
+          "pinyin": "ming2 tian1 ni3 lai2 ma?",
+          "english": "Are you coming tomorrow?"
+        },
+        {
+          "speaker": "B",
+          "zh": "明天我來。",
+          "pinyin": "ming2 tian1 wo3 lai2.",
+          "english": "I will come tomorrow."
+        },
+        {
+          "speaker": "A",
+          "zh": "現在幾點？",
+          "pinyin": "xian4 zai4 ji3 dian3?",
+          "english": "What time is it now?"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "meaning",
+          "prompt": "今天",
+          "answer": "today",
+          "options": [
+            "today",
+            "tomorrow",
+            "yesterday",
+            "now"
+          ],
+          "audioText": "今天",
+          "hint": "Choose the English meaning."
+        },
+        {
+          "type": "meaning",
+          "prompt": "明天",
+          "answer": "tomorrow",
+          "options": [
+            "tomorrow",
+            "today",
+            "yesterday",
+            "now"
+          ],
+          "audioText": "明天",
+          "hint": "Choose the English meaning."
+        },
+        {
+          "type": "listening",
+          "prompt": "Listen and choose the meaning.",
+          "answer": "Do you have class today?",
+          "options": [
+            "Do you have class today?",
+            "I have class today.",
+            "Are you coming tomorrow?",
+            "I will come tomorrow."
+          ],
+          "audioText": "今天你上課嗎？",
+          "hint": "Listen for the full sentence."
+        },
+        {
+          "type": "reading",
+          "prompt": "今天我上課。",
+          "answer": "I have class today.",
+          "options": [
+            "I have class today.",
+            "Do you have class today?",
+            "Are you coming tomorrow?",
+            "I will come tomorrow."
+          ],
+          "audioText": "今天我上課。",
+          "hint": "Read the whole sentence, then choose the meaning."
+        },
+        {
+          "type": "build",
+          "prompt": "Are you coming tomorrow?",
+          "answer": "明天你來嗎？",
+          "tiles": [
+            "明",
+            "天",
+            "你",
+            "來",
+            "嗎",
+            "？"
+          ],
+          "audioText": "明天你來嗎？",
+          "hint": "Build the sentence, then compare with the answer."
+        }
+      ],
+      "readingGoal": "Read the story aloud once with support, then once without looking at English.",
+      "dialogueGoal": "Play each line, then role-play A and B aloud."
+    },
+    {
+      "id": "places",
+      "number": 11,
+      "title": "Places",
+      "canDo": "I can name basic places.",
+      "pattern": "學校",
+      "patternPinyin": "xuéxiào",
+      "words": [
+        {
+          "zh": "學校",
+          "pinyin": "xuéxiào",
+          "english": "school"
+        },
+        {
+          "zh": "家",
+          "pinyin": "jiā",
+          "english": "home"
+        },
+        {
+          "zh": "餐廳",
+          "pinyin": "cāntīng",
+          "english": "restaurant"
+        },
+        {
+          "zh": "商店",
+          "pinyin": "Shāngdiàn",
+          "english": "shop"
+        },
+        {
+          "zh": "公園",
+          "pinyin": "gōng yuán",
+          "english": "park"
+        }
+      ],
+      "story": [
+        {
+          "zh": "你去哪裡？",
+          "pinyin": "ni3 qu4 na3 li3?",
+          "english": "Where are you going?"
+        },
+        {
+          "zh": "我去學校。",
+          "pinyin": "wo3 qu4 xue2 xiao4.",
+          "english": "I am going to school."
+        },
+        {
+          "zh": "你家在哪裡？",
+          "pinyin": "ni3 jia1 zai4 na3 li3?",
+          "english": "Where is your home?"
+        },
+        {
+          "zh": "我家在公園旁邊。",
+          "pinyin": "wo3 jia1 zai4 gong1 yuan2 pang2 bian1.",
+          "english": "My home is beside the park."
+        },
+        {
+          "zh": "我們在餐廳見。",
+          "pinyin": "wo3 men5 zai4 can1 ting1 jian4.",
+          "english": "Let us meet at the restaurant."
+        }
+      ],
+      "dialogue": [
+        {
+          "speaker": "A",
+          "zh": "你去哪裡？",
+          "pinyin": "ni3 qu4 na3 li3?",
+          "english": "Where are you going?"
+        },
+        {
+          "speaker": "B",
+          "zh": "我去學校。",
+          "pinyin": "wo3 qu4 xue2 xiao4.",
+          "english": "I am going to school."
+        },
+        {
+          "speaker": "A",
+          "zh": "你家在哪裡？",
+          "pinyin": "ni3 jia1 zai4 na3 li3?",
+          "english": "Where is your home?"
+        },
+        {
+          "speaker": "B",
+          "zh": "我家在公園旁邊。",
+          "pinyin": "wo3 jia1 zai4 gong1 yuan2 pang2 bian1.",
+          "english": "My home is beside the park."
+        },
+        {
+          "speaker": "A",
+          "zh": "我們在餐廳見。",
+          "pinyin": "wo3 men5 zai4 can1 ting1 jian4.",
+          "english": "Let us meet at the restaurant."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "meaning",
+          "prompt": "學校",
+          "answer": "school",
+          "options": [
+            "school",
+            "home",
+            "restaurant",
+            "shop"
+          ],
+          "audioText": "學校",
+          "hint": "Choose the English meaning."
+        },
+        {
+          "type": "meaning",
+          "prompt": "家",
+          "answer": "home",
+          "options": [
+            "home",
+            "school",
+            "restaurant",
+            "shop"
+          ],
+          "audioText": "家",
+          "hint": "Choose the English meaning."
+        },
+        {
+          "type": "listening",
+          "prompt": "Listen and choose the meaning.",
+          "answer": "Where are you going?",
+          "options": [
+            "Where are you going?",
+            "I am going to school.",
+            "Where is your home?",
+            "My home is beside the park."
+          ],
+          "audioText": "你去哪裡？",
+          "hint": "Listen for the full sentence."
+        },
+        {
+          "type": "reading",
+          "prompt": "我去學校。",
+          "answer": "I am going to school.",
+          "options": [
+            "I am going to school.",
+            "Where are you going?",
+            "Where is your home?",
+            "My home is beside the park."
+          ],
+          "audioText": "我去學校。",
+          "hint": "Read the whole sentence, then choose the meaning."
+        },
+        {
+          "type": "build",
+          "prompt": "Where is your home?",
+          "answer": "你家在哪裡？",
+          "tiles": [
+            "你",
+            "家",
+            "在",
+            "哪",
+            "裡",
+            "？"
+          ],
+          "audioText": "你家在哪裡？",
+          "hint": "Build the sentence, then compare with the answer."
+        }
+      ],
+      "readingGoal": "Read the story aloud once with support, then once without looking at English.",
+      "dialogueGoal": "Play each line, then role-play A and B aloud."
+    },
+    {
+      "id": "directions",
+      "number": 12,
+      "title": "Where Is It?",
+      "canDo": "I can ask where something is.",
+      "pattern": "在哪裡",
+      "patternPinyin": "zài nǎ lǐ",
+      "words": [
+        {
+          "zh": "在",
+          "pinyin": "zài",
+          "english": "at/in"
+        },
+        {
+          "zh": "哪裡",
+          "pinyin": "nǎ lǐ",
+          "english": "where"
+        },
+        {
+          "zh": "這裡",
+          "pinyin": "zhè lǐ",
+          "english": "here"
+        },
+        {
+          "zh": "那裡",
+          "pinyin": "nà lǐ",
+          "english": "there"
+        },
+        {
+          "zh": "旁邊",
+          "pinyin": "páng biān",
+          "english": "beside"
+        }
+      ],
+      "story": [
+        {
+          "zh": "商店在哪裡？",
+          "pinyin": "shang1 dian4 zai4 na3 li3?",
+          "english": "Where is the store?"
+        },
+        {
+          "zh": "商店在那裡。",
+          "pinyin": "shang1 dian4 zai4 na4 li3.",
+          "english": "The store is over there."
+        },
+        {
+          "zh": "學校在這裡嗎？",
+          "pinyin": "xue2 xiao4 zai4 zhe4 li3 ma?",
+          "english": "Is the school here?"
+        },
+        {
+          "zh": "不是，學校在公園旁邊。",
+          "pinyin": "bu2 shi4, xue2 xiao4 zai4 gong1 yuan2 pang2 bian1.",
+          "english": "No, the school is beside the park."
+        },
+        {
+          "zh": "謝謝你。",
+          "pinyin": "xie4 xie5 ni3.",
+          "english": "Thank you."
+        }
+      ],
+      "dialogue": [
+        {
+          "speaker": "A",
+          "zh": "商店在哪裡？",
+          "pinyin": "shang1 dian4 zai4 na3 li3?",
+          "english": "Where is the store?"
+        },
+        {
+          "speaker": "B",
+          "zh": "商店在那裡。",
+          "pinyin": "shang1 dian4 zai4 na4 li3.",
+          "english": "The store is over there."
+        },
+        {
+          "speaker": "A",
+          "zh": "學校在這裡嗎？",
+          "pinyin": "xue2 xiao4 zai4 zhe4 li3 ma?",
+          "english": "Is the school here?"
+        },
+        {
+          "speaker": "B",
+          "zh": "不是，學校在公園旁邊。",
+          "pinyin": "bu2 shi4, xue2 xiao4 zai4 gong1 yuan2 pang2 bian1.",
+          "english": "No, the school is beside the park."
+        },
+        {
+          "speaker": "A",
+          "zh": "謝謝你。",
+          "pinyin": "xie4 xie5 ni3.",
+          "english": "Thank you."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "meaning",
+          "prompt": "在",
+          "answer": "at/in",
+          "options": [
+            "at/in",
+            "where",
+            "here",
+            "there"
+          ],
+          "audioText": "在",
+          "hint": "Choose the English meaning."
+        },
+        {
+          "type": "meaning",
+          "prompt": "哪裡",
+          "answer": "where",
+          "options": [
+            "where",
+            "at/in",
+            "here",
+            "there"
+          ],
+          "audioText": "哪裡",
+          "hint": "Choose the English meaning."
+        },
+        {
+          "type": "listening",
+          "prompt": "Listen and choose the meaning.",
+          "answer": "Where is the store?",
+          "options": [
+            "Where is the store?",
+            "The store is over there.",
+            "Is the school here?",
+            "No, the school is beside the park."
+          ],
+          "audioText": "商店在哪裡？",
+          "hint": "Listen for the full sentence."
+        },
+        {
+          "type": "reading",
+          "prompt": "商店在那裡。",
+          "answer": "The store is over there.",
+          "options": [
+            "The store is over there.",
+            "Where is the store?",
+            "Is the school here?",
+            "No, the school is beside the park."
+          ],
+          "audioText": "商店在那裡。",
+          "hint": "Read the whole sentence, then choose the meaning."
+        },
+        {
+          "type": "build",
+          "prompt": "Is the school here?",
+          "answer": "學校在這裡嗎？",
+          "tiles": [
+            "學",
+            "校",
+            "在",
+            "這",
+            "裡",
+            "嗎",
+            "？"
+          ],
+          "audioText": "學校在這裡嗎？",
+          "hint": "Build the sentence, then compare with the answer."
+        }
+      ],
+      "readingGoal": "Read the story aloud once with support, then once without looking at English.",
+      "dialogueGoal": "Play each line, then role-play A and B aloud."
+    },
+    {
+      "id": "actions",
+      "number": 13,
+      "title": "Daily Actions",
+      "canDo": "I can describe simple actions.",
+      "pattern": "我看書",
+      "patternPinyin": "wǒ kàn shū",
+      "words": [
+        {
+          "zh": "看",
+          "pinyin": "kàn",
+          "english": "look/read"
+        },
+        {
+          "zh": "聽",
+          "pinyin": "tīng",
+          "english": "listen"
+        },
+        {
+          "zh": "說",
+          "pinyin": "shuō",
+          "english": "speak"
+        },
+        {
+          "zh": "寫",
+          "pinyin": "xiě",
+          "english": "write"
+        },
+        {
+          "zh": "讀",
+          "pinyin": "dú",
+          "english": "read aloud"
+        }
+      ],
+      "story": [
+        {
+          "zh": "你在看什麼？",
+          "pinyin": "ni3 zai4 kan4 shen2 me5?",
+          "english": "What are you reading?"
+        },
+        {
+          "zh": "我在看書。",
+          "pinyin": "wo3 zai4 kan4 shu1.",
+          "english": "I am reading a book."
+        },
+        {
+          "zh": "你聽音樂嗎？",
+          "pinyin": "ni3 ting1 yin1 yue4 ma?",
+          "english": "Do you listen to music?"
+        },
+        {
+          "zh": "我聽音樂，也寫中文。",
+          "pinyin": "wo3 ting1 yin1 yue4, ye3 xie3 zhong1 wen2.",
+          "english": "I listen to music and also write Chinese."
+        },
+        {
+          "zh": "請你說慢一點。",
+          "pinyin": "qing3 ni3 shuo1 man4 yi4 dian3.",
+          "english": "Please speak a little slower."
+        }
+      ],
+      "dialogue": [
+        {
+          "speaker": "A",
+          "zh": "你在看什麼？",
+          "pinyin": "ni3 zai4 kan4 shen2 me5?",
+          "english": "What are you reading?"
+        },
+        {
+          "speaker": "B",
+          "zh": "我在看書。",
+          "pinyin": "wo3 zai4 kan4 shu1.",
+          "english": "I am reading a book."
+        },
+        {
+          "speaker": "A",
+          "zh": "你聽音樂嗎？",
+          "pinyin": "ni3 ting1 yin1 yue4 ma?",
+          "english": "Do you listen to music?"
+        },
+        {
+          "speaker": "B",
+          "zh": "我聽音樂，也寫中文。",
+          "pinyin": "wo3 ting1 yin1 yue4, ye3 xie3 zhong1 wen2.",
+          "english": "I listen to music and also write Chinese."
+        },
+        {
+          "speaker": "A",
+          "zh": "請你說慢一點。",
+          "pinyin": "qing3 ni3 shuo1 man4 yi4 dian3.",
+          "english": "Please speak a little slower."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "meaning",
+          "prompt": "看",
+          "answer": "look/read",
+          "options": [
+            "look/read",
+            "listen",
+            "speak",
+            "write"
+          ],
+          "audioText": "看",
+          "hint": "Choose the English meaning."
+        },
+        {
+          "type": "meaning",
+          "prompt": "聽",
+          "answer": "listen",
+          "options": [
+            "listen",
+            "look/read",
+            "speak",
+            "write"
+          ],
+          "audioText": "聽",
+          "hint": "Choose the English meaning."
+        },
+        {
+          "type": "listening",
+          "prompt": "Listen and choose the meaning.",
+          "answer": "What are you reading?",
+          "options": [
+            "What are you reading?",
+            "I am reading a book.",
+            "Do you listen to music?",
+            "I listen to music and also write Chinese."
+          ],
+          "audioText": "你在看什麼？",
+          "hint": "Listen for the full sentence."
+        },
+        {
+          "type": "reading",
+          "prompt": "我在看書。",
+          "answer": "I am reading a book.",
+          "options": [
+            "I am reading a book.",
+            "What are you reading?",
+            "Do you listen to music?",
+            "I listen to music and also write Chinese."
+          ],
+          "audioText": "我在看書。",
+          "hint": "Read the whole sentence, then choose the meaning."
+        },
+        {
+          "type": "build",
+          "prompt": "Do you listen to music?",
+          "answer": "你聽音樂嗎？",
+          "tiles": [
+            "你",
+            "聽",
+            "音",
+            "樂",
+            "嗎",
+            "？"
+          ],
+          "audioText": "你聽音樂嗎？",
+          "hint": "Build the sentence, then compare with the answer."
+        }
+      ],
+      "readingGoal": "Read a simple study routine using action verbs in real sentences.",
+      "dialogueGoal": "Ask what someone is doing and answer with a study action."
+    },
+    {
+      "id": "school",
+      "number": 14,
+      "title": "Classroom",
+      "canDo": "I can talk about class.",
+      "pattern": "上課",
+      "patternPinyin": "shàngkè",
+      "words": [
+        {
+          "zh": "上課",
+          "pinyin": "shàngkè",
+          "english": "attend class"
+        },
+        {
+          "zh": "下課",
+          "pinyin": "xià kè",
+          "english": "finish class"
+        },
+        {
+          "zh": "書",
+          "pinyin": "shū",
+          "english": "book"
+        },
+        {
+          "zh": "筆",
+          "pinyin": "bǐ",
+          "english": "pen"
+        },
+        {
+          "zh": "桌子",
+          "pinyin": "zhuō zi",
+          "english": "table"
+        }
+      ],
+      "story": [
+        {
+          "zh": "今天你上課嗎？",
+          "pinyin": "jin1 tian1 ni3 shang4 ke4 ma?",
+          "english": "Do you have class today?"
+        },
+        {
+          "zh": "我今天上課。",
+          "pinyin": "wo3 jin1 tian1 shang4 ke4.",
+          "english": "I have class today."
+        },
+        {
+          "zh": "你的書在哪裡？",
+          "pinyin": "ni3 de5 shu1 zai4 na3 li3?",
+          "english": "Where is your book?"
+        },
+        {
+          "zh": "書和筆在桌子上。",
+          "pinyin": "shu1 he2 bi3 zai4 zhuo1 zi5 shang4.",
+          "english": "The book and pen are on the table."
+        },
+        {
+          "zh": "下課後我們喝水。",
+          "pinyin": "xia4 ke4 hou4 wo3 men5 he1 shui3.",
+          "english": "After class, we drink water."
+        }
+      ],
+      "dialogue": [
+        {
+          "speaker": "A",
+          "zh": "今天你上課嗎？",
+          "pinyin": "jin1 tian1 ni3 shang4 ke4 ma?",
+          "english": "Do you have class today?"
+        },
+        {
+          "speaker": "B",
+          "zh": "我今天上課。",
+          "pinyin": "wo3 jin1 tian1 shang4 ke4.",
+          "english": "I have class today."
+        },
+        {
+          "speaker": "A",
+          "zh": "你的書在哪裡？",
+          "pinyin": "ni3 de5 shu1 zai4 na3 li3?",
+          "english": "Where is your book?"
+        },
+        {
+          "speaker": "B",
+          "zh": "書和筆在桌子上。",
+          "pinyin": "shu1 he2 bi3 zai4 zhuo1 zi5 shang4.",
+          "english": "The book and pen are on the table."
+        },
+        {
+          "speaker": "A",
+          "zh": "下課後我們喝水。",
+          "pinyin": "xia4 ke4 hou4 wo3 men5 he1 shui3.",
+          "english": "After class, we drink water."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "meaning",
+          "prompt": "上課",
+          "answer": "attend class",
+          "options": [
+            "attend class",
+            "finish class",
+            "book",
+            "pen"
+          ],
+          "audioText": "上課",
+          "hint": "Choose the English meaning."
+        },
+        {
+          "type": "meaning",
+          "prompt": "下課",
+          "answer": "finish class",
+          "options": [
+            "finish class",
+            "attend class",
+            "book",
+            "pen"
+          ],
+          "audioText": "下課",
+          "hint": "Choose the English meaning."
+        },
+        {
+          "type": "listening",
+          "prompt": "Listen and choose the meaning.",
+          "answer": "Do you have class today?",
+          "options": [
+            "Do you have class today?",
+            "I have class today.",
+            "Where is your book?",
+            "The book and pen are on the table."
+          ],
+          "audioText": "今天你上課嗎？",
+          "hint": "Listen for the full sentence."
+        },
+        {
+          "type": "reading",
+          "prompt": "我今天上課。",
+          "answer": "I have class today.",
+          "options": [
+            "I have class today.",
+            "Do you have class today?",
+            "Where is your book?",
+            "The book and pen are on the table."
+          ],
+          "audioText": "我今天上課。",
+          "hint": "Read the whole sentence, then choose the meaning."
+        },
+        {
+          "type": "build",
+          "prompt": "Where is your book?",
+          "answer": "你的書在哪裡？",
+          "tiles": [
+            "你",
+            "的",
+            "書",
+            "在",
+            "哪",
+            "裡",
+            "？"
+          ],
+          "audioText": "你的書在哪裡？",
+          "hint": "Build the sentence, then compare with the answer."
+        }
+      ],
+      "readingGoal": "Read the story aloud once with support, then once without looking at English.",
+      "dialogueGoal": "Play each line, then role-play A and B aloud."
+    },
+    {
+      "id": "weather",
+      "number": 15,
+      "title": "Weather",
+      "canDo": "I can talk about weather.",
+      "pattern": "天氣",
+      "patternPinyin": "tiān qì",
+      "words": [
+        {
+          "zh": "天氣",
+          "pinyin": "tiān qì",
+          "english": "weather"
+        },
+        {
+          "zh": "熱",
+          "pinyin": "rè",
+          "english": "hot"
+        },
+        {
+          "zh": "冷",
+          "pinyin": "lěng",
+          "english": "cold"
+        },
+        {
+          "zh": "下雨",
+          "pinyin": "xià yǔ",
+          "english": "rain"
+        },
+        {
+          "zh": "太",
+          "pinyin": "tài",
+          "english": "too"
+        }
+      ],
+      "story": [
+        {
+          "zh": "今天天氣怎麼樣？",
+          "pinyin": "jin1 tian1 tian1 qi4 zen3 me5 yang4?",
+          "english": "How is the weather today?"
+        },
+        {
+          "zh": "今天天氣很熱。",
+          "pinyin": "jin1 tian1 tian1 qi4 hen3 re4.",
+          "english": "The weather is hot today."
+        },
+        {
+          "zh": "明天下雨嗎？",
+          "pinyin": "ming2 tian1 xia4 yu3 ma?",
+          "english": "Will it rain tomorrow?"
+        },
+        {
+          "zh": "可能會下雨。",
+          "pinyin": "ke3 neng2 hui4 xia4 yu3.",
+          "english": "It may rain."
+        },
+        {
+          "zh": "太冷了，我想回家。",
+          "pinyin": "tai4 leng3 le5, wo3 xiang3 hui2 jia1.",
+          "english": "It is too cold; I want to go home."
+        }
+      ],
+      "dialogue": [
+        {
+          "speaker": "A",
+          "zh": "今天天氣怎麼樣？",
+          "pinyin": "jin1 tian1 tian1 qi4 zen3 me5 yang4?",
+          "english": "How is the weather today?"
+        },
+        {
+          "speaker": "B",
+          "zh": "今天天氣很熱。",
+          "pinyin": "jin1 tian1 tian1 qi4 hen3 re4.",
+          "english": "The weather is hot today."
+        },
+        {
+          "speaker": "A",
+          "zh": "明天下雨嗎？",
+          "pinyin": "ming2 tian1 xia4 yu3 ma?",
+          "english": "Will it rain tomorrow?"
+        },
+        {
+          "speaker": "B",
+          "zh": "可能會下雨。",
+          "pinyin": "ke3 neng2 hui4 xia4 yu3.",
+          "english": "It may rain."
+        },
+        {
+          "speaker": "A",
+          "zh": "太冷了，我想回家。",
+          "pinyin": "tai4 leng3 le5, wo3 xiang3 hui2 jia1.",
+          "english": "It is too cold; I want to go home."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "meaning",
+          "prompt": "天氣",
+          "answer": "weather",
+          "options": [
+            "weather",
+            "hot",
+            "cold",
+            "rain"
+          ],
+          "audioText": "天氣",
+          "hint": "Choose the English meaning."
+        },
+        {
+          "type": "meaning",
+          "prompt": "熱",
+          "answer": "hot",
+          "options": [
+            "hot",
+            "weather",
+            "cold",
+            "rain"
+          ],
+          "audioText": "熱",
+          "hint": "Choose the English meaning."
+        },
+        {
+          "type": "listening",
+          "prompt": "Listen and choose the meaning.",
+          "answer": "How is the weather today?",
+          "options": [
+            "How is the weather today?",
+            "The weather is hot today.",
+            "Will it rain tomorrow?",
+            "It may rain."
+          ],
+          "audioText": "今天天氣怎麼樣？",
+          "hint": "Listen for the full sentence."
+        },
+        {
+          "type": "reading",
+          "prompt": "今天天氣很熱。",
+          "answer": "The weather is hot today.",
+          "options": [
+            "The weather is hot today.",
+            "How is the weather today?",
+            "Will it rain tomorrow?",
+            "It may rain."
+          ],
+          "audioText": "今天天氣很熱。",
+          "hint": "Read the whole sentence, then choose the meaning."
+        },
+        {
+          "type": "build",
+          "prompt": "Will it rain tomorrow?",
+          "answer": "明天下雨嗎？",
+          "tiles": [
+            "明",
+            "天",
+            "下",
+            "雨",
+            "嗎",
+            "？"
+          ],
+          "audioText": "明天下雨嗎？",
+          "hint": "Build the sentence, then compare with the answer."
+        }
+      ],
+      "readingGoal": "Read the story aloud once with support, then once without looking at English.",
+      "dialogueGoal": "Play each line, then role-play A and B aloud."
+    },
+    {
+      "id": "transport",
+      "number": 16,
+      "title": "Getting Around",
+      "canDo": "I can talk about transport.",
+      "pattern": "坐車",
+      "patternPinyin": "zuò chē",
+      "words": [
+        {
+          "zh": "坐",
+          "pinyin": "zuò",
+          "english": "ride/sit"
+        },
+        {
+          "zh": "車",
+          "pinyin": "chē",
+          "english": "car/bus"
+        },
+        {
+          "zh": "火車",
+          "pinyin": "huǒ chē",
+          "english": "train"
+        },
+        {
+          "zh": "捷運",
+          "pinyin": "jiéyùn",
+          "english": "MRT"
+        },
+        {
+          "zh": "車站",
+          "pinyin": "chē zhàn",
+          "english": "station"
+        }
+      ],
+      "story": [
+        {
+          "zh": "你怎麼去學校？",
+          "pinyin": "ni3 zen3 me5 qu4 xue2 xiao4?",
+          "english": "How do you go to school?"
+        },
+        {
+          "zh": "我坐捷運去。",
+          "pinyin": "wo3 zuo4 jie2 yun4 qu4.",
+          "english": "I take the MRT."
+        },
+        {
+          "zh": "車站在哪裡？",
+          "pinyin": "che1 zhan4 zai4 na3 li3?",
+          "english": "Where is the station?"
+        },
+        {
+          "zh": "車站在商店旁邊。",
+          "pinyin": "che1 zhan4 zai4 shang1 dian4 pang2 bian1.",
+          "english": "The station is beside the store."
+        },
+        {
+          "zh": "他坐火車去台灣。",
+          "pinyin": "ta1 zuo4 huo3 che1 qu4 tai2 wan1.",
+          "english": "He takes the train to Taiwan."
+        }
+      ],
+      "dialogue": [
+        {
+          "speaker": "A",
+          "zh": "你怎麼去學校？",
+          "pinyin": "ni3 zen3 me5 qu4 xue2 xiao4?",
+          "english": "How do you go to school?"
+        },
+        {
+          "speaker": "B",
+          "zh": "我坐捷運去。",
+          "pinyin": "wo3 zuo4 jie2 yun4 qu4.",
+          "english": "I take the MRT."
+        },
+        {
+          "speaker": "A",
+          "zh": "車站在哪裡？",
+          "pinyin": "che1 zhan4 zai4 na3 li3?",
+          "english": "Where is the station?"
+        },
+        {
+          "speaker": "B",
+          "zh": "車站在商店旁邊。",
+          "pinyin": "che1 zhan4 zai4 shang1 dian4 pang2 bian1.",
+          "english": "The station is beside the store."
+        },
+        {
+          "speaker": "A",
+          "zh": "他坐火車去台灣。",
+          "pinyin": "ta1 zuo4 huo3 che1 qu4 tai2 wan1.",
+          "english": "He takes the train to Taiwan."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "meaning",
+          "prompt": "坐",
+          "answer": "ride/sit",
+          "options": [
+            "ride/sit",
+            "car/bus",
+            "train",
+            "MRT"
+          ],
+          "audioText": "坐",
+          "hint": "Choose the English meaning."
+        },
+        {
+          "type": "meaning",
+          "prompt": "車",
+          "answer": "car/bus",
+          "options": [
+            "car/bus",
+            "ride/sit",
+            "train",
+            "MRT"
+          ],
+          "audioText": "車",
+          "hint": "Choose the English meaning."
+        },
+        {
+          "type": "listening",
+          "prompt": "Listen and choose the meaning.",
+          "answer": "How do you go to school?",
+          "options": [
+            "How do you go to school?",
+            "I take the MRT.",
+            "Where is the station?",
+            "The station is beside the store."
+          ],
+          "audioText": "你怎麼去學校？",
+          "hint": "Listen for the full sentence."
+        },
+        {
+          "type": "reading",
+          "prompt": "我坐捷運去。",
+          "answer": "I take the MRT.",
+          "options": [
+            "I take the MRT.",
+            "How do you go to school?",
+            "Where is the station?",
+            "The station is beside the store."
+          ],
+          "audioText": "我坐捷運去。",
+          "hint": "Read the whole sentence, then choose the meaning."
+        },
+        {
+          "type": "build",
+          "prompt": "Where is the station?",
+          "answer": "車站在哪裡？",
+          "tiles": [
+            "車",
+            "站",
+            "在",
+            "哪",
+            "裡",
+            "？"
+          ],
+          "audioText": "車站在哪裡？",
+          "hint": "Build the sentence, then compare with the answer."
+        }
+      ],
+      "readingGoal": "Read the story aloud once with support, then once without looking at English.",
+      "dialogueGoal": "Play each line, then role-play A and B aloud."
+    },
+    {
+      "id": "shopping",
+      "number": 17,
+      "title": "Shopping",
+      "canDo": "I can ask price and buy things.",
+      "pattern": "多少錢",
+      "patternPinyin": "duō shǎo qián",
+      "words": [
+        {
+          "zh": "錢",
+          "pinyin": "qián",
+          "english": "money"
+        },
+        {
+          "zh": "貴",
+          "pinyin": "guì",
+          "english": "expensive"
+        },
+        {
+          "zh": "便宜",
+          "pinyin": "piányí",
+          "english": "cheap"
+        },
+        {
+          "zh": "這個",
+          "pinyin": "zhè gè",
+          "english": "this one"
+        },
+        {
+          "zh": "那個",
+          "pinyin": "nàge",
+          "english": "that one"
+        }
+      ],
+      "story": [
+        {
+          "zh": "這個多少錢？",
+          "pinyin": "zhe4 ge5 duo1 shao3 qian2?",
+          "english": "How much is this?"
+        },
+        {
+          "zh": "這個很貴。",
+          "pinyin": "zhe4 ge5 hen3 gui4.",
+          "english": "This is expensive."
+        },
+        {
+          "zh": "那個便宜嗎？",
+          "pinyin": "na4 ge5 pian2 yi2 ma?",
+          "english": "Is that one cheap?"
+        },
+        {
+          "zh": "那個比較便宜。",
+          "pinyin": "na4 ge5 bi3 jiao4 pian2 yi2.",
+          "english": "That one is cheaper."
+        },
+        {
+          "zh": "我要買那個。",
+          "pinyin": "wo3 yao4 mai3 na4 ge5.",
+          "english": "I want to buy that one."
+        }
+      ],
+      "dialogue": [
+        {
+          "speaker": "A",
+          "zh": "這個多少錢？",
+          "pinyin": "zhe4 ge5 duo1 shao3 qian2?",
+          "english": "How much is this?"
+        },
+        {
+          "speaker": "B",
+          "zh": "這個很貴。",
+          "pinyin": "zhe4 ge5 hen3 gui4.",
+          "english": "This is expensive."
+        },
+        {
+          "speaker": "A",
+          "zh": "那個便宜嗎？",
+          "pinyin": "na4 ge5 pian2 yi2 ma?",
+          "english": "Is that one cheap?"
+        },
+        {
+          "speaker": "B",
+          "zh": "那個比較便宜。",
+          "pinyin": "na4 ge5 bi3 jiao4 pian2 yi2.",
+          "english": "That one is cheaper."
+        },
+        {
+          "speaker": "A",
+          "zh": "我要買那個。",
+          "pinyin": "wo3 yao4 mai3 na4 ge5.",
+          "english": "I want to buy that one."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "meaning",
+          "prompt": "錢",
+          "answer": "money",
+          "options": [
+            "money",
+            "expensive",
+            "cheap",
+            "this one"
+          ],
+          "audioText": "錢",
+          "hint": "Choose the English meaning."
+        },
+        {
+          "type": "meaning",
+          "prompt": "貴",
+          "answer": "expensive",
+          "options": [
+            "expensive",
+            "money",
+            "cheap",
+            "this one"
+          ],
+          "audioText": "貴",
+          "hint": "Choose the English meaning."
+        },
+        {
+          "type": "listening",
+          "prompt": "Listen and choose the meaning.",
+          "answer": "How much is this?",
+          "options": [
+            "How much is this?",
+            "This is expensive.",
+            "Is that one cheap?",
+            "That one is cheaper."
+          ],
+          "audioText": "這個多少錢？",
+          "hint": "Listen for the full sentence."
+        },
+        {
+          "type": "reading",
+          "prompt": "這個很貴。",
+          "answer": "This is expensive.",
+          "options": [
+            "This is expensive.",
+            "How much is this?",
+            "Is that one cheap?",
+            "That one is cheaper."
+          ],
+          "audioText": "這個很貴。",
+          "hint": "Read the whole sentence, then choose the meaning."
+        },
+        {
+          "type": "build",
+          "prompt": "Is that one cheap?",
+          "answer": "那個便宜嗎？",
+          "tiles": [
+            "那",
+            "個",
+            "便",
+            "宜",
+            "嗎",
+            "？"
+          ],
+          "audioText": "那個便宜嗎？",
+          "hint": "Build the sentence, then compare with the answer."
+        }
+      ],
+      "readingGoal": "Read the story aloud once with support, then once without looking at English.",
+      "dialogueGoal": "Play each line, then role-play A and B aloud."
+    },
+    {
+      "id": "questions",
+      "number": 18,
+      "title": "Question Words",
+      "canDo": "I can ask beginner questions.",
+      "pattern": "什麼",
+      "patternPinyin": "shén me",
+      "words": [
+        {
+          "zh": "什麼",
+          "pinyin": "shén me",
+          "english": "what"
+        },
+        {
+          "zh": "誰",
+          "pinyin": "shéi",
+          "english": "who"
+        },
+        {
+          "zh": "哪",
+          "pinyin": "nǎ",
+          "english": "which"
+        },
+        {
+          "zh": "為什麼",
+          "pinyin": "Wèishénme",
+          "english": "why"
+        },
+        {
+          "zh": "怎麼",
+          "pinyin": "zěn me",
+          "english": "how"
+        }
+      ],
+      "story": [
+        {
+          "zh": "這是什麼？",
+          "pinyin": "zhe4 shi4 shen2 me5?",
+          "english": "What is this?"
+        },
+        {
+          "zh": "這是我的書。",
+          "pinyin": "zhe4 shi4 wo3 de5 shu1.",
+          "english": "This is my book."
+        },
+        {
+          "zh": "他是誰？",
+          "pinyin": "ta1 shi4 shei2?",
+          "english": "Who is he?"
+        },
+        {
+          "zh": "他是我的老師。",
+          "pinyin": "ta1 shi4 wo3 de5 lao3 shi1.",
+          "english": "He is my teacher."
+        },
+        {
+          "zh": "你怎麼去學校？",
+          "pinyin": "ni3 zen3 me5 qu4 xue2 xiao4?",
+          "english": "How do you go to school?"
+        }
+      ],
+      "dialogue": [
+        {
+          "speaker": "A",
+          "zh": "這是什麼？",
+          "pinyin": "zhe4 shi4 shen2 me5?",
+          "english": "What is this?"
+        },
+        {
+          "speaker": "B",
+          "zh": "這是我的書。",
+          "pinyin": "zhe4 shi4 wo3 de5 shu1.",
+          "english": "This is my book."
+        },
+        {
+          "speaker": "A",
+          "zh": "他是誰？",
+          "pinyin": "ta1 shi4 shei2?",
+          "english": "Who is he?"
+        },
+        {
+          "speaker": "B",
+          "zh": "他是我的老師。",
+          "pinyin": "ta1 shi4 wo3 de5 lao3 shi1.",
+          "english": "He is my teacher."
+        },
+        {
+          "speaker": "A",
+          "zh": "你怎麼去學校？",
+          "pinyin": "ni3 zen3 me5 qu4 xue2 xiao4?",
+          "english": "How do you go to school?"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "meaning",
+          "prompt": "什麼",
+          "answer": "what",
+          "options": [
+            "what",
+            "who",
+            "which",
+            "why"
+          ],
+          "audioText": "什麼",
+          "hint": "Choose the English meaning."
+        },
+        {
+          "type": "meaning",
+          "prompt": "誰",
+          "answer": "who",
+          "options": [
+            "who",
+            "what",
+            "which",
+            "why"
+          ],
+          "audioText": "誰",
+          "hint": "Choose the English meaning."
+        },
+        {
+          "type": "listening",
+          "prompt": "Listen and choose the meaning.",
+          "answer": "What is this?",
+          "options": [
+            "What is this?",
+            "This is my book.",
+            "Who is he?",
+            "He is my teacher."
+          ],
+          "audioText": "這是什麼？",
+          "hint": "Listen for the full sentence."
+        },
+        {
+          "type": "reading",
+          "prompt": "這是我的書。",
+          "answer": "This is my book.",
+          "options": [
+            "This is my book.",
+            "What is this?",
+            "Who is he?",
+            "He is my teacher."
+          ],
+          "audioText": "這是我的書。",
+          "hint": "Read the whole sentence, then choose the meaning."
+        },
+        {
+          "type": "build",
+          "prompt": "Who is he?",
+          "answer": "他是誰？",
+          "tiles": [
+            "他",
+            "是",
+            "誰",
+            "？"
+          ],
+          "audioText": "他是誰？",
+          "hint": "Build the sentence, then compare with the answer."
+        }
+      ],
+      "readingGoal": "Read the story aloud once with support, then once without looking at English.",
+      "dialogueGoal": "Play each line, then role-play A and B aloud."
+    },
+    {
+      "id": "feelings",
+      "number": 19,
+      "title": "Feelings",
+      "canDo": "I can say how I feel.",
+      "pattern": "我很忙",
+      "patternPinyin": "wǒ hěn máng",
+      "words": [
+        {
+          "zh": "很",
+          "pinyin": "hěn",
+          "english": "very"
+        },
+        {
+          "zh": "忙",
+          "pinyin": "máng",
+          "english": "busy"
+        },
+        {
+          "zh": "累",
+          "pinyin": "lèi",
+          "english": "tired"
+        },
+        {
+          "zh": "高興",
+          "pinyin": "gāo xìng",
+          "english": "happy"
+        },
+        {
+          "zh": "好吃",
+          "pinyin": "hǎo chī",
+          "english": "tasty"
+        }
+      ],
+      "story": [
+        {
+          "zh": "你今天忙嗎？",
+          "pinyin": "ni3 jin1 tian1 mang2 ma?",
+          "english": "Are you busy today?"
+        },
+        {
+          "zh": "我很忙，也有點累。",
+          "pinyin": "wo3 hen3 mang2, ye3 you3 dian3 lei4.",
+          "english": "I am busy and a little tired."
+        },
+        {
+          "zh": "你高興嗎？",
+          "pinyin": "ni3 gao1 xing4 ma?",
+          "english": "Are you happy?"
+        },
+        {
+          "zh": "很高興，這個飯很好吃。",
+          "pinyin": "hen3 gao1 xing4, zhe4 ge5 fan4 hen3 hao3 chi1.",
+          "english": "I am happy; this food is delicious."
+        },
+        {
+          "zh": "那太好了。",
+          "pinyin": "na4 tai4 hao3 le5.",
+          "english": "That is great."
+        }
+      ],
+      "dialogue": [
+        {
+          "speaker": "A",
+          "zh": "你今天忙嗎？",
+          "pinyin": "ni3 jin1 tian1 mang2 ma?",
+          "english": "Are you busy today?"
+        },
+        {
+          "speaker": "B",
+          "zh": "我很忙，也有點累。",
+          "pinyin": "wo3 hen3 mang2, ye3 you3 dian3 lei4.",
+          "english": "I am busy and a little tired."
+        },
+        {
+          "speaker": "A",
+          "zh": "你高興嗎？",
+          "pinyin": "ni3 gao1 xing4 ma?",
+          "english": "Are you happy?"
+        },
+        {
+          "speaker": "B",
+          "zh": "很高興，這個飯很好吃。",
+          "pinyin": "hen3 gao1 xing4, zhe4 ge5 fan4 hen3 hao3 chi1.",
+          "english": "I am happy; this food is delicious."
+        },
+        {
+          "speaker": "A",
+          "zh": "那太好了。",
+          "pinyin": "na4 tai4 hao3 le5.",
+          "english": "That is great."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "meaning",
+          "prompt": "很",
+          "answer": "very",
+          "options": [
+            "very",
+            "busy",
+            "tired",
+            "happy"
+          ],
+          "audioText": "很",
+          "hint": "Choose the English meaning."
+        },
+        {
+          "type": "meaning",
+          "prompt": "忙",
+          "answer": "busy",
+          "options": [
+            "busy",
+            "very",
+            "tired",
+            "happy"
+          ],
+          "audioText": "忙",
+          "hint": "Choose the English meaning."
+        },
+        {
+          "type": "listening",
+          "prompt": "Listen and choose the meaning.",
+          "answer": "Are you busy today?",
+          "options": [
+            "Are you busy today?",
+            "I am busy and a little tired.",
+            "Are you happy?",
+            "I am happy; this food is delicious."
+          ],
+          "audioText": "你今天忙嗎？",
+          "hint": "Listen for the full sentence."
+        },
+        {
+          "type": "reading",
+          "prompt": "我很忙，也有點累。",
+          "answer": "I am busy and a little tired.",
+          "options": [
+            "I am busy and a little tired.",
+            "Are you busy today?",
+            "Are you happy?",
+            "I am happy; this food is delicious."
+          ],
+          "audioText": "我很忙，也有點累。",
+          "hint": "Read the whole sentence, then choose the meaning."
+        },
+        {
+          "type": "build",
+          "prompt": "Are you happy?",
+          "answer": "你高興嗎？",
+          "tiles": [
+            "你",
+            "高",
+            "興",
+            "嗎",
+            "？"
+          ],
+          "audioText": "你高興嗎？",
+          "hint": "Build the sentence, then compare with the answer."
+        }
+      ],
+      "readingGoal": "Read the story aloud once with support, then once without looking at English.",
+      "dialogueGoal": "Play each line, then role-play A and B aloud."
+    },
+    {
+      "id": "mini-dialogue",
+      "number": 20,
+      "title": "Mini Conversation",
+      "canDo": "I can handle a tiny conversation.",
+      "pattern": "我可以",
+      "patternPinyin": "wǒ kě yǐ",
+      "words": [
+        {
+          "zh": "可以",
+          "pinyin": "kě yǐ",
+          "english": "can/may"
+        },
+        {
+          "zh": "沒關係",
+          "pinyin": "méi guān xì",
+          "english": "no problem"
+        },
+        {
+          "zh": "對不起",
+          "pinyin": "duì bù qǐ",
+          "english": "sorry"
+        },
+        {
+          "zh": "再一次",
+          "pinyin": "zài yī cì",
+          "english": "one more time"
+        },
+        {
+          "zh": "慢一點",
+          "pinyin": "màn yīdiǎn",
+          "english": "slower"
+        }
+      ],
+      "story": [
+        {
+          "zh": "對不起，請再說一次。",
+          "pinyin": "dui4 bu4 qi3, qing3 zai4 shuo1 yi2 ci4.",
+          "english": "Sorry, please say it again."
+        },
+        {
+          "zh": "可以，我說慢一點。",
+          "pinyin": "ke3 yi3, wo3 shuo1 man4 yi4 dian3.",
+          "english": "Sure, I will speak slower."
+        },
+        {
+          "zh": "這是什麼意思？",
+          "pinyin": "zhe4 shi4 shen2 me5 yi4 si5?",
+          "english": "What does this mean?"
+        },
+        {
+          "zh": "沒關係，我幫你。",
+          "pinyin": "mei2 guan1 xi4, wo3 bang1 ni3.",
+          "english": "No problem, I will help you."
+        },
+        {
+          "zh": "謝謝你。",
+          "pinyin": "xie4 xie5 ni3.",
+          "english": "Thank you."
+        }
+      ],
+      "dialogue": [
+        {
+          "speaker": "A",
+          "zh": "對不起，請再說一次。",
+          "pinyin": "dui4 bu4 qi3, qing3 zai4 shuo1 yi2 ci4.",
+          "english": "Sorry, please say it again."
+        },
+        {
+          "speaker": "B",
+          "zh": "可以，我說慢一點。",
+          "pinyin": "ke3 yi3, wo3 shuo1 man4 yi4 dian3.",
+          "english": "Sure, I will speak slower."
+        },
+        {
+          "speaker": "A",
+          "zh": "這是什麼意思？",
+          "pinyin": "zhe4 shi4 shen2 me5 yi4 si5?",
+          "english": "What does this mean?"
+        },
+        {
+          "speaker": "B",
+          "zh": "沒關係，我幫你。",
+          "pinyin": "mei2 guan1 xi4, wo3 bang1 ni3.",
+          "english": "No problem, I will help you."
+        },
+        {
+          "speaker": "A",
+          "zh": "謝謝你。",
+          "pinyin": "xie4 xie5 ni3.",
+          "english": "Thank you."
+        }
+      ],
+      "exercises": [
+        {
+          "type": "meaning",
+          "prompt": "可以",
+          "answer": "can/may",
+          "options": [
+            "can/may",
+            "no problem",
+            "sorry",
+            "one more time"
+          ],
+          "audioText": "可以",
+          "hint": "Choose the English meaning."
+        },
+        {
+          "type": "meaning",
+          "prompt": "沒關係",
+          "answer": "no problem",
+          "options": [
+            "no problem",
+            "can/may",
+            "sorry",
+            "one more time"
+          ],
+          "audioText": "沒關係",
+          "hint": "Choose the English meaning."
+        },
+        {
+          "type": "listening",
+          "prompt": "Listen and choose the meaning.",
+          "answer": "Sorry, please say it again.",
+          "options": [
+            "Sorry, please say it again.",
+            "Sure, I will speak slower.",
+            "What does this mean?",
+            "No problem, I will help you."
+          ],
+          "audioText": "對不起，請再說一次。",
+          "hint": "Listen for the full sentence."
+        },
+        {
+          "type": "reading",
+          "prompt": "可以，我說慢一點。",
+          "answer": "Sure, I will speak slower.",
+          "options": [
+            "Sure, I will speak slower.",
+            "Sorry, please say it again.",
+            "What does this mean?",
+            "No problem, I will help you."
+          ],
+          "audioText": "可以，我說慢一點。",
+          "hint": "Read the whole sentence, then choose the meaning."
+        },
+        {
+          "type": "build",
+          "prompt": "What does this mean?",
+          "answer": "這是什麼意思？",
+          "tiles": [
+            "這",
+            "是",
+            "什",
+            "麼",
+            "意",
+            "思",
+            "？"
+          ],
+          "audioText": "這是什麼意思？",
+          "hint": "Build the sentence, then compare with the answer."
+        }
+      ],
+      "readingGoal": "Read the story aloud once with support, then once without looking at English.",
+      "dialogueGoal": "Play each line, then role-play A and B aloud."
+    }
+  ]
+}

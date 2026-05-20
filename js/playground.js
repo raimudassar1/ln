@@ -105,7 +105,7 @@ window.PlaygroundModule = (() => {
                   const isDone = App.state.progress.playground?.[pg.id];
                   return `
                     <div class="pg-card ${isDone ? 'done' : ''}" onclick="window.PlaygroundModule.openPlaygroundGroup('${pg.id}')" style="cursor: pointer; position: relative;">
-                      <div class="pg-card-icon" style="background:${stage.color}15; color:${stage.color}; font-size: 2rem; width: 60px; height: 60px; display: flex; align-items: center; justify-content: center; border-radius: 12px; margin-bottom: 20px;">📖</div>
+                      <div class="pg-card-icon pg-illustration" style="--pg-color:${stage.color}" data-icon="book">${window.IconSystem ? window.IconSystem.svg('book') : ''}</div>
                       <div class="pg-card-content">
                         <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
                           <div class="pg-card-meta" style="font-size: 0.75rem; font-weight: 800; color: ${stage.color}; letter-spacing: 1px;">WEEK ${pg.recommended_week || '?'}</div>
@@ -146,7 +146,7 @@ window.PlaygroundModule = (() => {
       <div class="pg-stages" style="max-width: 1200px; margin: 0 auto; padding: 0 20px;">
         <div class="pg-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 24px;">
           <div class="pg-card" onclick="window.PlaygroundModule.openBook(1)" style="cursor: pointer;">
-            <div class="pg-card-icon" style="font-size: 3rem; margin-bottom: 20px;">📘</div>
+            <div class="pg-card-icon pg-illustration" data-icon="book">${window.IconSystem ? window.IconSystem.svg('book') : ''}</div>
             <div class="pg-card-content">
               <h3 style="font-size: 1.25rem; margin-bottom: 8px;">Book 1: Foundations</h3>
               <p style="font-size: 0.9rem; color: var(--text-2); line-height: 1.5; margin-bottom: 16px;">Survival greetings, family, shopping, and arrival in Taiwan.</p>
@@ -154,7 +154,7 @@ window.PlaygroundModule = (() => {
             </div>
           </div>
           <div class="pg-card" onclick="window.PlaygroundModule.openBook(2)" style="cursor: pointer;">
-            <div class="pg-card-icon" style="font-size: 3rem; margin-bottom: 20px;">📗</div>
+            <div class="pg-card-icon pg-illustration" data-icon="book">${window.IconSystem ? window.IconSystem.svg('book') : ''}</div>
             <div class="pg-card-content">
               <h3 style="font-size: 1.25rem; margin-bottom: 8px;">Book 2: Daily Life</h3>
               <p style="font-size: 0.9rem; color: var(--text-2); line-height: 1.5; margin-bottom: 16px;">Directions, transportation, work, and local customs.</p>
@@ -162,7 +162,7 @@ window.PlaygroundModule = (() => {
             </div>
           </div>
           <div class="pg-card" onclick="window.PlaygroundModule.openBook(3)" style="cursor: pointer;">
-            <div class="pg-card-icon" style="font-size: 3rem; margin-bottom: 20px;">📙</div>
+            <div class="pg-card-icon pg-illustration" data-icon="book">${window.IconSystem ? window.IconSystem.svg('book') : ''}</div>
             <div class="pg-card-content">
               <h3 style="font-size: 1.25rem; margin-bottom: 8px;">Book 3: Advanced Social</h3>
               <p style="font-size: 0.9rem; color: var(--text-2); line-height: 1.5; margin-bottom: 16px;">Culture, trends, society, and professional fluency.</p>
@@ -234,14 +234,14 @@ window.PlaygroundModule = (() => {
               ${d.title ? `<h4 class="mb-16" style="color:var(--accent); font-size:1.2rem; font-weight:800; border-bottom: 2px solid var(--off-white); padding-bottom: 12px;">${d.title}</h4>` : ''}
               <div style="display:flex; flex-direction:column; gap:16px">
                 ${(d.lines || []).map(line => `
-                  <div class="dialogue-line-premium" onclick="TTS.speak('${line.zh}')" style="cursor:pointer; display: flex; gap: 16px; align-items: flex-start;">
+                  <div class="dialogue-line-premium" data-zh="${String(line.zh).replace(/&/g, '&amp;').replace(/"/g, '&quot;')}" onclick="TTS.speak('${line.zh}')" style="cursor:pointer; display: flex; gap: 16px; align-items: flex-start;">
                     <div class="line-speaker-badge" style="background: var(--charcoal); color: white; padding: 4px 12px; border-radius: 20px; font-size: 0.8rem; font-weight: 700; min-width: 80px; text-align: center;">${line.speaker}</div>
                     <div style="flex:1">
                       <div class="font-zh" style="font-size:1.4rem; font-weight:800; margin-bottom:4px; color: var(--text)">${line.zh}</div>
                       <div class="text-muted" style="font-size:1rem; font-weight:600; color:var(--accent)">${line.pinyin}</div>
                       <div style="font-size:0.95rem; margin-top:4px; color: var(--text-2); font-style: italic;">${line.en}</div>
                     </div>
-                    <div style="font-size:1.2rem; opacity:0.3">🔊</div>
+                    <button class="dialogue-audio-btn" type="button" aria-label="Play line" onclick="event.stopPropagation(); TTS.speak(this.closest('.dialogue-line-premium').dataset.zh || '')">${window.IconSystem ? window.IconSystem.svg('volume') : 'Play'}</button>
                   </div>
                 `).join('')}
               </div>
@@ -344,17 +344,19 @@ window.PlaygroundModule = (() => {
         <p>A Course in Contemporary Chinese — Official Curriculum.</p>
       </div>
 
-      <div class="pg-lessons-list" style="display:grid; grid-template-columns:repeat(auto-fill,minmax(350px,1fr)); gap:24px; max-width: 1200px; margin: 0 auto; padding: 20px;">
+      <div class="pg-lessons-list pg-academic-list">
         ${currentBookData.map((ch, idx) => {
           const isDone = App.state.progress.ccc_course?.[ch.id];
           return `
-            <div class="pg-lesson-item academic ${isDone ? 'done' : ''}" style="cursor: pointer; height: auto; padding: 32px;" onclick="window.PlaygroundModule.startChapter('${ch.id}')">
-              <div style="display:flex; width:100%; justify-content:space-between; align-items:center; margin-bottom:20px">
-                <div class="pg-lesson-num" style="width:40px; height:40px; background:var(--charcoal)">${idx + 1}</div>
-                <div class="pg-lesson-status" style="font-size:0.75rem; font-weight:800; color:var(--text-3)">${isDone ? 'MASTERED ✓' : 'STUDY →'}</div>
+            <div class="pg-lesson-item academic pg-academic-card ${isDone ? 'done' : ''}" onclick="window.PlaygroundModule.startChapter('${ch.id}')">
+              <div class="pg-academic-meta">
+                <div class="pg-lesson-num">${idx + 1}</div>
+                <div class="pg-lesson-status">${isDone ? 'MASTERED' : 'STUDY'}</div>
               </div>
-              <h3 class="font-zh" style="font-size:1.6rem; margin-bottom:12px; font-weight:900">${ch.title}</h3>
-              <p style="font-size:0.95rem; color:var(--text-2); line-height:1.6">Master the specific grammar and vocabulary of this academic unit.</p>
+              <div class="pg-academic-body">
+                <h3 class="font-zh">${ch.title}</h3>
+                <p>Master the specific grammar and vocabulary of this academic unit.</p>
+              </div>
             </div>
           `;
         }).join('')}
@@ -395,14 +397,14 @@ window.PlaygroundModule = (() => {
             <h4 class="mb-16" style="color:var(--accent); font-weight:800">Part ${idx+1}: ${d.title}</h4>
             <div style="display:flex; flex-direction:column; gap:12px">
               ${d.lines.map(line => `
-                <div class="dialogue-line-premium" onclick="TTS.speak('${line.zh}')" style="cursor:pointer; display: flex; gap: 16px; align-items: flex-start;">
+                <div class="dialogue-line-premium" data-zh="${String(line.zh).replace(/&/g, '&amp;').replace(/"/g, '&quot;')}" onclick="TTS.speak('${line.zh}')" style="cursor:pointer; display: flex; gap: 16px; align-items: flex-start;">
                   <div class="line-speaker-badge" style="background: var(--charcoal); color: white; padding: 4px 12px; border-radius: 20px; font-size: 0.8rem; font-weight: 700; min-width: 80px; text-align: center;">${line.speaker}</div>
                   <div style="flex:1">
                     <div class="font-zh" style="font-size:1.5rem; font-weight:800; margin-bottom:4px; color: var(--text)">${line.zh}</div>
                     <div class="text-muted" style="font-size:0.95rem; font-weight:600; color:var(--accent)">${line.py}</div>
                     <div class="color-text-2" style="font-size:0.9rem; margin-top:4px">${line.en}</div>
                   </div>
-                  <div style="font-size:1.2rem; opacity:0.3">🔊</div>
+                  <button class="dialogue-audio-btn" type="button" aria-label="Play line" onclick="event.stopPropagation(); TTS.speak(this.closest('.dialogue-line-premium').dataset.zh || '')">${window.IconSystem ? window.IconSystem.svg('volume') : 'Play'}</button>
                 </div>
               `).join('')}
             </div>

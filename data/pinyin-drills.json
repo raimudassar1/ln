@@ -449,10 +449,11 @@
     },
     {
       "symbol": "u",
-      "description": "Like 'oo' in 'boot'",
+      "description": "Rounded Mandarin u, like 烏 (wū). Keep lips rounded; do not add an English 'y' sound.",
+      "audio": "烏",
       "examples": [
-        "bù",
         "wū",
+        "bù",
         "hú"
       ]
     },

@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="zh-TW" data-theme="light">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>漢語學習 — Beginner to TOCFL B1</title>
-  <link rel="stylesheet" href="css/main.css">
+  <title>Zhongwen Learning - Beginner to TOCFL B1</title>
+  <link rel="stylesheet" href="css/main.css?v=83">
   <link rel="icon" href="logo.png">
   <link rel="manifest" href="manifest.json">
   <script src="https://cdn.jsdelivr.net/npm/hanzi-writer@3.5/dist/hanzi-writer.min.js"></script>
@@ -18,33 +18,48 @@
       <div class="branding-tag" style="font-size: 0.6rem; color: rgba(255,255,255,0.3); text-transform: uppercase; letter-spacing: 1.5px; margin-top: 0; font-weight: 600;">Learn with Rai</div>
     </div>
     <div class="sidebar-nav">
-      <div class="nav-section-label">開始 Start</div>
-      <a class="nav-item" data-route="dashboard"   href="#/"><span class="nav-icon">📊</span><span class="nav-label">Dashboard</span></a>
-      <a class="nav-item" data-route="onboarding"  href="#/onboarding"><span class="nav-icon">🎵</span><span class="nav-label">Pinyin &amp; Tones</span><span class="nav-badge">NEW</span></a>
-      <a class="nav-item" data-route="learn"        href="#/learn"><span class="nav-icon">🗺️</span><span class="nav-label">Learning Path</span></a>
-      <a class="nav-item" data-route="chapters"     href="#/chapters"><span class="nav-icon">📖</span><span class="nav-label">Chapters</span></a>
-      <a class="nav-item" data-route="playground"   href="#/playground"><span class="nav-icon">🎠</span><span class="nav-label">Beginner Playground</span></a>
-      <a class="nav-item" data-route="exams"        href="#/exams"><span class="nav-icon">🎓</span><span class="nav-label">Monthly Exams</span></a>
-      <a class="nav-item" data-route="char-playground" href="#/char-playground"><span class="nav-icon">🧩</span><span class="nav-label">Character Playground</span></a>
-      <a class="nav-item" data-route="scenarios"    href="#/scenarios"><span class="nav-icon">🎭</span><span class="nav-label">Scenarios</span></a>
-      <div class="nav-section-label">學習 Study</div>
-      <a class="nav-item" data-route="library"     href="#/library"><span class="nav-icon">📚</span><span class="nav-label">Character Library</span></a>
-      <a class="nav-item" data-route="vocabulary"  href="#/vocabulary"><span class="nav-icon">🖼️</span><span class="nav-label">Vocabulary Library</span></a>
-      <a class="nav-item" data-route="vocabulary-books" href="#/vocabulary-books"><span class="nav-icon">📒</span><span class="nav-label">Course Books</span></a>
-      <a class="nav-item" data-route="grammar"     href="#/grammar"><span class="nav-icon">🧬</span><span class="nav-label">Grammar Library</span></a>
-      <a class="nav-item" data-route="flashcards"  href="#/flashcards"><span class="nav-icon">🃏</span><span class="nav-label">Flashcards</span></a>
-      <a class="nav-item" data-route="dialogue"    href="#/dialogue"><span class="nav-icon">💬</span><span class="nav-label">Dialogue Practice</span></a>
-      <div class="nav-section-label">測驗 Quiz</div>
-      <a class="nav-item" data-route="quiz-pronunciation" href="#/quiz/pronunciation"><span class="nav-icon">🔤</span><span class="nav-label">Pronunciation Quiz</span></a>
-      <a class="nav-item" data-route="quiz-vocabulary"    href="#/quiz/vocabulary"><span class="nav-icon">🎯</span><span class="nav-label">Vocabulary Quiz</span></a>
-      <a class="nav-item" data-route="quiz-tones"         href="#/quiz/tones"><span class="nav-icon">🎵</span><span class="nav-label">Tone Training</span></a>
-      <div class="nav-section-label">練習 Practice</div>
-      <a class="nav-item" data-route="reading"     href="#/reading"><span class="nav-icon">📖</span><span class="nav-label">Reading</span></a>
-      <div class="nav-section-label">考試 Mock Test</div>
-      <a class="nav-item" data-route="mock-reading"    href="#/mock-test/reading"><span class="nav-icon">📝</span><span class="nav-label">Reading Test</span></a>
-      <a class="nav-item" data-route="mock-listening"  href="#/mock-test/listening"><span class="nav-icon">🎧</span><span class="nav-label">Listening Test</span></a>
-      <div class="nav-section-label">設定</div>
-      <a class="nav-item" data-route="settings"    href="#/settings"><span class="nav-icon">⚙️</span><span class="nav-label">Settings</span></a>
+      <div class="nav-section-label">Start</div>
+      <a class="nav-item" data-route="dashboard" href="#/"><span class="nav-icon" data-icon="dashboard"></span><span class="nav-label">Dashboard</span></a>
+      <a class="nav-item" data-route="b1-coach" href="#/b1-coach"><span class="nav-icon" data-icon="route"></span><span class="nav-label">B1 Coach</span><span class="nav-badge">180D</span></a>
+      <a class="nav-item" data-route="study-plan" href="#/study-plan"><span class="nav-icon" data-icon="check"></span><span class="nav-label">Study Today</span></a>
+      <a class="nav-item" data-route="learn" href="#/learn"><span class="nav-icon" data-icon="map"></span><span class="nav-label">Learning Path</span></a>
+
+      <div class="nav-section-label">Beginner</div>
+      <a class="nav-item" data-route="beginner-launchpad" href="#/beginner-launchpad"><span class="nav-icon" data-icon="layers"></span><span class="nav-label">Beginner Launchpad</span><span class="nav-badge">L1-L3</span></a>
+      <a class="nav-item" data-route="beginner-coach" href="#/beginner-coach"><span class="nav-icon" data-icon="check"></span><span class="nav-label">Beginner Daily Coach</span><span class="nav-badge">GUIDE</span></a>
+      <a class="nav-item" data-route="quiz-flash" href="#/quiz/flash"><span class="nav-icon" data-icon="flashcards"></span><span class="nav-label">Picture Flash Quiz</span></a>
+      <a class="nav-item" data-route="onboarding" href="#/onboarding"><span class="nav-icon" data-icon="music"></span><span class="nav-label">Pinyin &amp; Tones</span></a>
+      <a class="nav-item" data-route="quiz-pronunciation" href="#/quiz/pronunciation"><span class="nav-icon" data-icon="letters"></span><span class="nav-label">Pronunciation Quiz</span></a>
+      <a class="nav-item" data-route="quiz-tones" href="#/quiz/tones"><span class="nav-icon" data-icon="target"></span><span class="nav-label">Tone Training</span></a>
+      <a class="nav-item" data-route="playground" href="#/playground"><span class="nav-icon" data-icon="play"></span><span class="nav-label">Beginner Playground</span></a>
+
+      <div class="nav-section-label">Course</div>
+      <a class="nav-item" data-route="vocabulary-books" href="#/vocabulary-books"><span class="nav-icon" data-icon="notebook"></span><span class="nav-label">Course Books</span></a>
+      <a class="nav-item" data-route="chapters" href="#/chapters"><span class="nav-icon" data-icon="book"></span><span class="nav-label">Chapters</span></a>
+      <a class="nav-item" data-route="grammar" href="#/grammar"><span class="nav-icon" data-icon="grammar"></span><span class="nav-label">Grammar Academy</span></a>
+      <a class="nav-item" data-route="dialogue" href="#/dialogue"><span class="nav-icon" data-icon="dialogue"></span><span class="nav-label">Dialogue Practice</span></a>
+      <a class="nav-item" data-route="reading" href="#/reading"><span class="nav-icon" data-icon="reading"></span><span class="nav-label">Reading</span></a>
+      <a class="nav-item" data-route="scenarios" href="#/scenarios"><span class="nav-icon" data-icon="scenarios"></span><span class="nav-label">Scenarios</span></a>
+
+      <div class="nav-section-label">Practice</div>
+      <a class="nav-item" data-route="flashcards" href="#/flashcards"><span class="nav-icon" data-icon="flashcards"></span><span class="nav-label">Flashcards</span></a>
+      <a class="nav-item" data-route="mixed-recall" href="#/mixed-recall"><span class="nav-icon" data-icon="brain"></span><span class="nav-label">Mixed Recall</span></a>
+      <a class="nav-item" data-route="sentence-builder" href="#/sentence-builder"><span class="nav-icon" data-icon="layers"></span><span class="nav-label">Sentence Builder</span></a>
+      <a class="nav-item" data-route="char-playground" href="#/char-playground"><span class="nav-icon" data-icon="puzzle"></span><span class="nav-label">Character Playground</span></a>
+      <a class="nav-item" data-route="library" href="#/library"><span class="nav-icon" data-icon="library"></span><span class="nav-label">Character Library</span></a>
+      <a class="nav-item" data-route="vocabulary" href="#/vocabulary"><span class="nav-icon" data-icon="vocabulary"></span><span class="nav-label">Vocabulary Library</span></a>
+      <a class="nav-item" href="javascript:void(0)" onclick="AIChat.open({title:'Free Chat', scene:'A friendly conversation about anything.'})"><span class="nav-icon" data-icon="dialogue"></span><span class="nav-label">AI Partner</span></a>
+
+      <div class="nav-section-label">Exams</div>
+      <a class="nav-item" data-route="tocfl" href="#/tocfl"><span class="nav-icon" data-icon="target"></span><span class="nav-label">TOCFL Exam Center</span></a>
+      <a class="nav-item" data-route="tocfl-content" href="#/tocfl-content"><span class="nav-icon" data-icon="file"></span><span class="nav-label">TOCFL Native Content</span><span class="nav-badge">LOCAL</span></a>
+      <a class="nav-item" data-route="exams" href="#/exams"><span class="nav-icon" data-icon="exam"></span><span class="nav-label">Monthly Exams</span></a>
+      <a class="nav-item" data-route="mock-reading" href="#/mock-test/reading"><span class="nav-icon" data-icon="file"></span><span class="nav-label">Reading Mock Test</span></a>
+      <a class="nav-item" data-route="mock-listening" href="#/mock-test/listening"><span class="nav-icon" data-icon="headphones"></span><span class="nav-label">Listening Mock Test</span></a>
+      <a class="nav-item" data-route="quiz-vocabulary" href="#/quiz/vocabulary"><span class="nav-icon" data-icon="vocabulary"></span><span class="nav-label">Vocabulary Quiz</span></a>
+
+      <div class="nav-section-label">Settings</div>
+      <a class="nav-item" data-route="settings" href="#/settings"><span class="nav-icon" data-icon="settings"></span><span class="nav-label">Settings</span></a>
     </div>
     <div class="sidebar-footer">
       <div class="streak-display">
@@ -57,33 +72,32 @@
 
   <div id="main">
     <header id="topbar">
+      <button class="mobile-menu-toggle" id="mobile-menu-toggle" type="button" aria-label="Open full navigation" aria-controls="sidebar" aria-expanded="false">Menu</button>
       <img src="logo.png" alt="" style="height:24px; width:auto; margin-right:12px; display:none;" id="topbar-logo">
       <span class="page-title" id="topbar-title">Dashboard</span>
       <div class="topbar-actions">
         <button class="btn btn-ghost btn-sm btn-icon" id="dark-mode-toggle" title="Toggle dark mode">🌙</button>
         <button class="btn btn-ghost btn-sm btn-icon" id="tts-test-btn" title="Test audio">🔊</button>
-        <span id="topbar-level" class="badge badge-gray">…</span>
+        <span id="topbar-level" class="badge badge-gray">...</span>
       </div>
     </header>
     <main id="page-content"><div class="spinner"></div></main>
   </div>
 
-  <nav id="bottom-nav">
-    <div class="bottom-nav-inner">
-      <a class="bottom-nav-item" data-route="dashboard"  href="#/"><span class="bn-icon">📊</span><span>Home</span></a>
-      <a class="bottom-nav-item" data-route="learn"       href="#/learn"><span class="bn-icon">🗺️</span><span>Path</span></a>
-      <a class="bottom-nav-item" data-route="chapters"    href="#/chapters"><span class="bn-icon">📖</span><span>Chapters</span></a>
-      <a class="bottom-nav-item" data-route="playground"  href="#/playground"><span class="bn-icon">🎠</span><span>Play</span></a>
-      <a class="bottom-nav-item" data-route="char-playground" href="#/char-playground"><span class="bn-icon">🧩</span><span>Blocks</span></a>
-      <a class="bottom-nav-item" data-route="scenarios"   href="#/scenarios"><span class="bn-icon">🎭</span><span>Scenarios</span></a>
-      <a class="bottom-nav-item" data-route="library"    href="#/library"><span class="bn-icon">📚</span><span>Library</span></a>
-      <a class="bottom-nav-item" data-route="dialogue"   href="#/dialogue"><span class="bn-icon">💬</span><span>Talk</span></a>
-      <a class="bottom-nav-item" data-route="onboarding" href="#/onboarding"><span class="bn-icon">🎵</span><span>Pinyin</span></a>
+  <nav id="bottom-nav" aria-label="Mobile quick navigation">
+    <div class="mobile-section-bar" id="mobile-section-bar" hidden></div>
+    <div class="bottom-nav-inner bottom-nav-groups">
+      <button class="bottom-nav-item bottom-nav-menu active" type="button" data-mobile-menu="start" aria-label="Open Start menu"><span class="bn-icon" data-icon="home" aria-hidden="true"></span><span>Start</span></button>
+      <button class="bottom-nav-item bottom-nav-menu" type="button" data-mobile-menu="beginner" aria-label="Open Beginner menu"><span class="bn-icon" data-icon="layers" aria-hidden="true"></span><span>Beginner</span></button>
+      <button class="bottom-nav-item bottom-nav-menu" type="button" data-mobile-menu="course" aria-label="Open Course menu"><span class="bn-icon" data-icon="book" aria-hidden="true"></span><span>Course</span></button>
+      <button class="bottom-nav-item bottom-nav-menu" type="button" data-mobile-menu="practice" aria-label="Open Practice menu"><span class="bn-icon" data-icon="brain" aria-hidden="true"></span><span>Practice</span></button>
+      <button class="bottom-nav-item bottom-nav-menu" type="button" data-mobile-menu="exams" aria-label="Open Exams menu"><span class="bn-icon" data-icon="target" aria-hidden="true"></span><span>Exams</span></button>
     </div>
   </nav>
 
 </div>
 
+<div class="nav-scrim" id="nav-scrim" hidden></div>
 <div class="word-tooltip hidden" id="word-tooltip">
   <div class="wt-hanzi"></div><div class="wt-pinyin"></div><div class="wt-def"></div>
 </div>
@@ -91,25 +105,37 @@
   <div class="modal" id="modal-content"></div>
 </div>
 
-<script src="js/voice.js?v=2"></script>
-<script src="js/grammar.js?v=2"></script>
-<script src="js/tone-game.js?v=2"></script>
-<script src="js/playground.js?v=2"></script>
-<script src="js/exam.js?v=2"></script>
+<script src="js/icons.js?v=22"></script>
 <script src="js/drawing-board.js?v=2"></script>
+<script src="js/weakness-engine.js?v=21"></script>
+<script src="js/vocabulary.js?v=7"></script>
+<script src="js/vocabulary_books.js?v=5"></script>
+<script src="js/srs.js?v=22"></script>
+<script src="js/onboarding.js?v=9"></script>
+<script src="js/beginner-launchpad.js?v=13"></script>
+<script src="js/beginner-coach.js?v=23"></script>
+<script src="js/learn.js?v=5"></script>
 <script src="js/chapters.js?v=2"></script>
+<script src="js/playground.js?v=2"></script>
 <script src="js/scenarios.js?v=2"></script>
-<script src="js/vocabulary.js?v=2"></script>
-<script src="js/vocabulary_books.js?v=2"></script>
-<script src="js/srs.js?v=2"></script>
-<script src="js/onboarding.js?v=2"></script>
-<script src="js/learn.js?v=2"></script>
-<script src="js/dialogue.js?v=2"></script>
+<script src="js/study-plan.js?v=21"></script>
+<script src="js/mixed-recall.js?v=21"></script>
+<script src="js/sentence-builder.js?v=25"></script>
+<script src="js/dialogue.js?v=21"></script>
+<script src="js/ai-chat.js?v=5"></script>
 <script src="js/flashcards.js?v=2"></script>
-<script src="js/quiz.js?v=2"></script>
+<script src="js/flash-quiz.js?v=2"></script>
+<script src="js/quiz.js?v=5"></script>
+<script src="js/tone-game.js?v=21"></script>
+<script src="js/grammar.js?v=4"></script>
 <script src="js/reader.js?v=2"></script>
 <script src="js/mock-test.js?v=2"></script>
-<script src="js/app.js?v=2"></script>
+<script src="js/exam.js?v=3"></script>
+<script src="js/voice.js?v=2"></script>
+<script src="js/tocfl.js?v=3"></script>
+<script src="js/tocfl-content.js?v=8"></script>
+<script src="js/b1-coach.js?v=1"></script>
+<script src="js/app.js?v=56"></script>
 <script>
   if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
@@ -119,3 +145,32 @@
 </script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
