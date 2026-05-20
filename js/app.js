@@ -12,6 +12,7 @@ const App = {
     settings: {},
     progress: {},
     loading: false,
+    lockdownBypass: false, 
   },
 
   // Load settings from localStorage
@@ -25,12 +26,11 @@ const App = {
       showQuizPinyin: true,
       displayName: 'Learner',
       showZhuyinDefault: false,
-      unlockAll: true,
+      unlockAll: false, // Changed from true to allow progressive unlocking
+      lockdownMode: false, // New setting for consistency
     };
     const saved = localStorage.getItem('tocfl_settings');
     this.state.settings = saved ? { ...defaults, ...JSON.parse(saved) } : defaults;
-    // Force unlockAll to true as requested
-    this.state.settings.unlockAll = true;
     this.applyTheme(this.state.settings.theme);
   },
 
@@ -54,6 +54,7 @@ const App = {
       quizHistory: [],
       testHistory: [],
       streak: 0,
+      streakHistory: [], // Track days active
       lastStudyDate: null,
       totalReviewed: 0,
       dailyReviewed: 0,
@@ -63,7 +64,8 @@ const App = {
       scenarios: {},
       playground: {},
       onboardingComplete: false,
-      mastery: 0
+      mastery: 0,
+      levelMastery: { novice: 0, a1: 0, a2: 0, b1: 0 }
     };
     
     // Load from local storage or use defaults
@@ -79,21 +81,77 @@ const App = {
   updateStreak() {
     const today = new Date().toDateString();
     const last = this.state.progress.lastStudyDate;
-    if (last === today) return; // already counted today
+    
+    // If they studied today, just check if we need to reset daily count
+    if (last === today) {
+        if (this.state.progress.lastDailyDate !== today) {
+            this.state.progress.dailyReviewed = 0;
+            this.state.progress.lastDailyDate = today;
+            this.saveProgress();
+        }
+        return;
+    }
 
     const yesterday = new Date(Date.now() - 86400000).toDateString();
+    
     if (last === yesterday) {
-      this.state.progress.streak = (this.state.progress.streak || 0) + 1;
-    } else if (last !== today) {
-      this.state.progress.streak = last ? 0 : (this.state.progress.streak || 0);
+      // Streak continues
+      // We don't increment here, we increment when they actually do something
+    } else if (last) {
+      // Streak broken
+      this.state.progress.streak = 0;
     }
-    this.state.progress.lastStudyDate = today;
 
     // Reset daily count if new day
     if (this.state.progress.lastDailyDate !== today) {
       this.state.progress.dailyReviewed = 0;
       this.state.progress.lastDailyDate = today;
     }
+    this.saveProgress();
+  },
+
+  incrementProgress() {
+    const today = new Date().toDateString();
+    const last = this.state.progress.lastStudyDate;
+
+    if (last !== today) {
+        // First activity of the day
+        const yesterday = new Date(Date.now() - 86400000).toDateString();
+        if (last === yesterday) {
+            this.state.progress.streak++;
+        } else {
+            this.state.progress.streak = 1;
+        }
+        this.state.progress.lastStudyDate = today;
+        
+        // Log streak milestone
+        if (this.state.progress.streak % 5 === 0) {
+            this.logActivity('🔥', `Reached a ${this.state.progress.streak} day streak!`);
+        }
+    }
+
+    this.state.progress.totalReviewed++;
+    this.state.progress.dailyReviewed++;
+    this.updateMastery();
+    this.saveProgress();
+    updateStreakDisplay();
+  },
+
+  updateMastery() {
+    const prog = this.state.progress;
+    const chars = this.state.characters;
+    if (!chars.length) return;
+
+    const levels = ['novice', 'a1', 'a2', 'b1'];
+    levels.forEach(lvl => {
+        const total = chars.filter(c => c.level === lvl).length;
+        if (total === 0) return;
+        const learned = chars.filter(c => c.level === lvl && prog.learnedChars.includes(c.hanzi)).length;
+        prog.levelMastery[lvl] = Math.round((learned / total) * 100);
+    });
+
+    const totalLearned = prog.learnedChars.length;
+    prog.mastery = Math.round((totalLearned / chars.length) * 100);
   },
 
   logActivity(icon, text) {
@@ -106,10 +164,7 @@ const App = {
   markLearned(hanzi) {
     if (!this.state.progress.learnedChars.includes(hanzi)) {
       this.state.progress.learnedChars.push(hanzi);
-      this.state.progress.totalReviewed++;
-      this.state.progress.dailyReviewed++;
-      this.state.progress.lastStudyDate = new Date().toDateString();
-      this.saveProgress();
+      this.incrementProgress();
     }
   },
 
@@ -646,9 +701,33 @@ async function router() {
   const path = getPath();
   const route = routes[path] || routes['/'];
 
+  // Lockdown Mode logic
+  const isGoalMet = (App.state.progress.dailyReviewed || 0) >= (App.state.settings.dailyGoal || 10);
+  const isLockdownActive = App.state.settings.lockdownMode && !isGoalMet && !App.state.lockdownBypass;
+  
+  // Routes that are ALWAYS accessible
+  const essentialRoutes = ['dashboard', 'learn', 'settings', 'onboarding'];
+  
+  if (isLockdownActive && !essentialRoutes.includes(route.route)) {
+    navigate('/learn');
+    return;
+  }
+
   // Update nav active state
   document.querySelectorAll('.nav-item, .bottom-nav-item').forEach(el => {
-    el.classList.toggle('active', el.dataset.route === route.route);
+    const routeName = el.dataset.route;
+    el.classList.toggle('active', routeName === route.route);
+    
+    // Visually dim restricted items
+    if (isLockdownActive && !essentialRoutes.includes(routeName)) {
+        el.style.opacity = '0.4';
+        el.style.filter = 'grayscale(1)';
+        el.title = 'Complete daily goal to unlock focus';
+    } else {
+        el.style.opacity = '';
+        el.style.filter = '';
+        el.title = '';
+    }
   });
 
   document.getElementById('topbar-title').textContent = route.title;
@@ -892,6 +971,16 @@ function timeAgo(isoString) {
 function updateStreakDisplay() {
   const el = document.getElementById('streak-count');
   if (el) el.textContent = App.state.progress.streak || 0;
+  
+  const flame = document.getElementById('streak-flame-icon');
+  if (flame) {
+    flame.classList.toggle('active', (App.state.progress.streak || 0) > 0);
+  }
+
+  // Update Sidebar Lockdown Badge
+  const isGoalMet = (App.state.progress.dailyReviewed || 0) >= (App.state.settings.dailyGoal || 10);
+  const lb = document.getElementById('lockdown-indicator');
+  if (lb) lb.classList.toggle('hidden', !App.state.settings.lockdownMode || isGoalMet);
 }
 
 // ─── Library ──────────────────────────────────────────────────────────────────
@@ -1167,10 +1256,20 @@ function renderSettings(container) {
           <div class="setting-row">
             <div class="setting-info">
               <div class="setting-label">Unlock All Content</div>
-              <div class="setting-desc">Bypass level locks for testing</div>
+              <div class="setting-desc">Bypass level locks (requires 80% mastery otherwise)</div>
             </div>
             <label class="toggle">
               <input type="checkbox" id="set-unlock-all" ${s.unlockAll ? 'checked' : ''}>
+              <span class="toggle-slider"></span>
+            </label>
+          </div>
+          <div class="setting-row">
+            <div class="setting-info">
+              <div class="setting-label">Lockdown Mode</div>
+              <div class="setting-desc">Force daily goal completion before accessing other sections</div>
+            </div>
+            <label class="toggle">
+              <input type="checkbox" id="set-lockdown" ${s.lockdownMode ? 'checked' : ''}>
               <span class="toggle-slider"></span>
             </label>
           </div>
@@ -1239,11 +1338,15 @@ function renderSettings(container) {
     App.state.settings.quizDifficulty = document.querySelector('input[name="difficulty"]:checked')?.value || 'A2';
     App.state.settings.showQuizPinyin = document.getElementById('set-show-quiz-pinyin').checked;
     App.state.settings.unlockAll = document.getElementById('set-unlock-all').checked;
+    App.state.settings.lockdownMode = document.getElementById('set-lockdown').checked;
     App.saveSettings();
     App.applyTheme(App.state.settings.theme);
     const msg = document.getElementById('set-saved-msg');
     msg.classList.remove('hidden');
-    setTimeout(() => msg.classList.add('hidden'), 2000);
+    setTimeout(() => {
+        msg.classList.add('hidden');
+        window.location.reload(); // Reload to apply lockdown changes
+    }, 1000);
   });
 
   document.getElementById('set-reset-btn')?.addEventListener('click', () => {
@@ -1257,14 +1360,41 @@ function renderSettings(container) {
 
 // ─── Progress Management Utilities ───────────────────────────────────────────
 function exportProgress() {
-  const data = localStorage.getItem('tocfl_progress');
-  if (!data) return alert("No progress data to export.");
+  const prog = localStorage.getItem('tocfl_progress');
+  const settings = localStorage.getItem('tocfl_settings');
+  const srs = localStorage.getItem('tocfl_srs_cards');
   
-  const blob = new Blob([data], { type: 'application/json' });
+  if (!prog) return alert("No progress data to export.");
+
+  const exportData = {
+    version: '2.1.0',
+    exportDate: new Date().toISOString(),
+    username: App.state.settings.displayName || 'Learner',
+    streak: App.state.progress.streak || 0,
+    dailyGoal: App.state.settings.dailyGoal || 10,
+    mastery: App.state.progress.mastery || 0,
+    data: {
+      progress: JSON.parse(prog),
+      settings: settings ? JSON.parse(settings) : {},
+      srs: srs ? JSON.parse(srs) : {}
+    },
+    guide: {
+        title: "Your Daily Chinese Learning Guide",
+        encouragement: `Keep up the great work, ${App.state.settings.displayName}! You have a ${App.state.progress.streak}-day streak. Consistency is the key to mastering Mandarin.`,
+        nextSteps: [
+            "1. Complete your daily goal of " + App.state.settings.dailyGoal + " characters.",
+            "2. Review your SRS queue to move characters into long-term memory.",
+            "3. Try a new Scenario or Dialogue to practice real-world usage.",
+            "4. Challenge yourself with a Mock Test once a week."
+        ]
+    }
+  };
+  
+  const blob = new Blob([JSON.stringify(exportData, null, 2)], { type: 'application/json' });
   const url = URL.createObjectURL(blob);
   const a = document.createElement('a');
   a.href = url;
-  a.download = `mandarin_progress_${new Date().toISOString().slice(0,10)}.json`;
+  a.download = `mandarin_progress_${App.state.settings.displayName}_${new Date().toISOString().slice(0,10)}.json`;
   document.body.appendChild(a);
   a.click();
   document.body.removeChild(a);
@@ -1278,9 +1408,18 @@ function importProgress(input) {
   const reader = new FileReader();
   reader.onload = function(e) {
     try {
-      const data = JSON.parse(e.target.result);
+      const imported = JSON.parse(e.target.result);
+      let dataToImport = imported;
+      
+      // Handle new export format
+      if (imported.data && imported.data.progress) {
+          dataToImport = imported.data.progress;
+          if (imported.data.settings) localStorage.setItem('tocfl_settings', JSON.stringify(imported.data.settings));
+          if (imported.data.srs) localStorage.setItem('tocfl_srs_cards', JSON.stringify(imported.data.srs));
+      }
+
       if (confirm('Importing progress will overwrite your current progress. Continue?')) {
-        localStorage.setItem('tocfl_progress', JSON.stringify(data));
+        localStorage.setItem('tocfl_progress', JSON.stringify(dataToImport));
         window.location.reload();
       }
     } catch (err) {

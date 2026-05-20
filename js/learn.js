@@ -57,15 +57,50 @@ const LearnModule = (() => {
     const donePgLessons = Object.keys(prog.playground || {}).length;
     const pgPct = totalPgLessons > 0 ? Math.round((donePgLessons / totalPgLessons) * 100) : 0;
 
-    // Determine which levels are unlocked (All unlocked for static version)
-    function isUnlocked(lvl) {
-      return true;
+    // Determine which levels are unlocked
+    function isUnlocked(lvlId, idx) {
+      if (App.state.settings.unlockAll) return true;
+      if (idx === 0) return true; // First level (Novice) is always unlocked
+      
+      const prevLvlId = LEVEL_ORDER[idx - 1];
+      const prevMastery = prog.levelMastery[prevLvlId] || 0;
+      
+      return prevMastery >= 80; // Unlock next level at 80% mastery
     }
+
+    // Lockdown Mode logic
+    const isGoalMet = prog.dailyReviewed >= App.state.settings.dailyGoal;
+    const isLockdown = App.state.settings.lockdownMode && !isGoalMet && !App.state.lockdownBypass;
+
+    // Update Sidebar Lockdown Badge
+    const lb = document.getElementById('lockdown-indicator');
+    if (lb) lb.classList.toggle('hidden', !App.state.settings.lockdownMode || isGoalMet);
 
     // SRS due cards
     const dueToday = srsStats.due_today || 0;
 
     container.innerHTML = `
+      ${isLockdown ? `
+        <div class="card mb-20" style="background:rgba(192,57,43,0.1); border:2px solid var(--red); text-align:center; padding:24px;">
+          <h3 style="color:var(--red); margin-bottom:8px;">🔒 Lockdown Mode Active</h3>
+          <p style="font-size:0.9rem; margin-bottom:16px;">You must reach your daily goal of <strong>${App.state.settings.dailyGoal}</strong> reviews before unlocking other sections.</p>
+          <div style="font-size:1.2rem; font-weight:700;">Progress: ${prog.dailyReviewed} / ${App.state.settings.dailyGoal}</div>
+          <div class="progress-bar" style="max-width:300px; margin:12px auto;"><div class="progress-fill" style="width:${Math.min(100, (prog.dailyReviewed/App.state.settings.dailyGoal)*100)}%"></div></div>
+          <div style="margin-top:16px; display:flex; gap:10px; justify-content:center;">
+            <button class="btn btn-primary btn-sm" onclick="startSRSSession()">Review Now</button>
+            <button class="btn btn-ghost btn-sm" onclick="bypassLockdown()">I'm in a hurry (Bypass)</button>
+          </div>
+        </div>
+      ` : ''}
+
+      <script>
+        window.bypassLockdown = () => {
+            if (confirm('Bypass lockdown mode for this session? Your streak will still be at risk if you don\\'t finish your goal!')) {
+                App.state.lockdownBypass = true;
+                router(); // Refresh view
+            }
+        };
+      </script>
 
       <!-- Today's queue -->
       <div class="card mb-20" style="background:linear-gradient(135deg,var(--charcoal),var(--charcoal-2));color:#fff;position:relative;overflow:hidden">
@@ -124,9 +159,10 @@ const LearnModule = (() => {
           const meta   = LEVEL_META[lvl.id] || { color:'#888', icon:'📚', name: lvl.id };
           const stats  = byLevel[lvl.id] || { total: lvl.total||0, learned: 0, pct: 0 };
           const active = stats.pct < 100;
+          const unlocked = isUnlocked(lvl.id, idx);
 
           return `
-          <div class="card level-card" style="border-left:4px solid ${meta.color}">
+          <div class="card level-card ${unlocked ? '' : 'locked'}" style="border-left:4px solid ${meta.color}">
             <div style="display:flex;align-items:center;gap:14px;margin-bottom:${active?'14px':'0'}">
               <!-- Icon -->
               <div style="width:52px;height:52px;border-radius:50%;background:${meta.color+'22'};border:2px solid ${meta.color};display:flex;align-items:center;justify-content:center;font-size:1.5rem;flex-shrink:0">

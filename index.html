@@ -47,10 +47,15 @@
       <a class="nav-item" data-route="settings"    href="#/settings"><span class="nav-icon">⚙️</span><span class="nav-label">Settings</span></a>
     </div>
     <div class="sidebar-footer">
+      <div id="lockdown-indicator" class="lockdown-badge hidden">
+        <span class="lock-icon">🔒</span> Lockdown Mode
+      </div>
       <div class="streak-display">
-        <span class="streak-flame">🔥</span>
-        <span class="streak-number" id="streak-count">0</span>
-        <span>day streak</span>
+        <div class="streak-flame-container">
+            <span class="streak-flame" id="streak-flame-icon">🔥</span>
+            <span class="streak-number" id="streak-count">0</span>
+        </div>
+        <div class="streak-label">day streak</div>
       </div>
     </div>
   </nav>

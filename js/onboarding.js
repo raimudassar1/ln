@@ -49,6 +49,28 @@ const OnboardingModule = (() => {
   function renderOverview(done) {
     return `
       <div style="max-width:720px">
+        <!-- Username Setup -->
+        <div class="card mb-24" style="background:var(--off-white); border-left:4px solid var(--accent)">
+            <h4 style="margin-bottom:10px">Welcome! What's your name?</h4>
+            <div style="display:flex; gap:10px">
+                <input type="text" class="input" id="ob-username" placeholder="Enter your name..." value="${App.state.settings.displayName || ''}">
+                <button class="btn btn-primary" onclick="saveObUsername()">Save</button>
+            </div>
+            <p class="text-small text-muted" style="margin-top:8px">This will be used to personalize your learning experience and export files.</p>
+        </div>
+
+        <script>
+            window.saveObUsername = () => {
+                const name = document.getElementById('ob-username').value.trim();
+                if (name) {
+                    App.state.settings.displayName = name;
+                    App.saveSettings();
+                    alert('Username saved: ' + name);
+                    // Refresh dashboard welcome msg if we were there
+                }
+            };
+        </script>
+
         <!-- Hero -->
         <div style="background:linear-gradient(135deg,var(--charcoal),var(--charcoal-2));color:#fff;border-radius:var(--radius);padding:32px;margin-bottom:24px;position:relative;overflow:hidden">
           <div style="position:absolute;right:-20px;top:-20px;font-size:10rem;opacity:0.05;font-family:var(--font-zh)">音</div>
